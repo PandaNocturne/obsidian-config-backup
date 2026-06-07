@@ -1,0 +1,32 @@
+{
+  "styles": {
+    " ": true,
+    "/": true,
+    "x": true,
+    "-": true,
+    ">": false,
+    "<": true,
+    "?": false,
+    "!": false,
+    "*": false,
+    "\"": false,
+    "l": false,
+    "b": false,
+    "i": false,
+    "S": false,
+    "I": false,
+    "p": false,
+    "c": false,
+    "f": false,
+    "k": false,
+    "w": false,
+    "u": false,
+    "d": false
+  },
+  "triggerMethod": "both",
+  "longPressDuration": 350,
+  "touchLongPressDuration": 500,
+  "enableHapticFeedback": true,
+  "enableTasksCompatibility": false,
+  "hasShownTasksNotice": false
+}

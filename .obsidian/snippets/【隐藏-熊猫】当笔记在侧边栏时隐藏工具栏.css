@@ -1,0 +1,6 @@
+.workspace-split.mod-horizontal.mod-left-split .workspace-tab-header-tab-list,
+.workspace-split.mod-horizontal.mod-right-split .workspace-tab-header-tab-list,
+.workspace-split.mod-horizontal.mod-right-split .view-actions{
+	display: none;
+}
+

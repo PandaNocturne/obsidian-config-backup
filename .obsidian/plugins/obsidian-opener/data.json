@@ -1,0 +1,28 @@
+{
+  "newTab": false,
+  "PDFApp": true,
+  "extOnlyWhenMetaKey": true,
+  "allExt": false,
+  "custExt": true,
+  "custExtList": [
+    "svg,mp4"
+  ],
+  "custExtIn": true,
+  "custExtInList": [
+    "html",
+    "htm",
+    "mhtml",
+    "py",
+    "canvas",
+    "png",
+    "jpg",
+    "jpeg",
+    "webp",
+    "gif",
+    "bmp",
+    "svg",
+    "excalidraw",
+    "ket",
+    "sheet"
+  ]
+}

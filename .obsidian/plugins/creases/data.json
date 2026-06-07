@@ -1,0 +1,5 @@
+{
+  "onOpenCreasesBehavior": "always-fold",
+  "templateCreasesBehavior": "fold-and-clear",
+  "syncOutlineView": "from-editor-to-outline"
+}

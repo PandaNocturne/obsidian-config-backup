@@ -1,0 +1,77 @@
+{
+  "snapStepMinutes": 10,
+  "progressIndicator": "none",
+  "showTaskNotification": true,
+  "zoomLevel": 1,
+  "timelineIcon": "calendar-clock",
+  "endLabel": "All done",
+  "startHour": 8,
+  "timelineDateFormat": "YYYY-MM-DD",
+  "centerNeedle": true,
+  "plannerHeading": "日程",
+  "plannerHeadingLevel": 2,
+  "timelineColored": true,
+  "timelineStartColor": "#fef6cd",
+  "timelineEndColor": "#ffdd00",
+  "timestampFormat": "HH:mm",
+  "hourFormat": "H",
+  "dataviewSource": "",
+  "extendDurationUntilNext": false,
+  "defaultDurationMinutes": 60,
+  "minimalDurationMinutes": 15,
+  "showTimestampInTaskBlock": false,
+  "showUncheduledTasks": true,
+  "showUnscheduledNestedTasks": false,
+  "showNow": false,
+  "showNext": false,
+  "pluginVersion": "0.28.0",
+  "showCompletedTasks": true,
+  "showSubtasksInTaskBlocks": true,
+  "icals": [],
+  "colorOverrides": [
+    {
+      "text": "#学习",
+      "darkModeColor": "#6e3737",
+      "color": "#ffa1a1"
+    },
+    {
+      "text": "#工作",
+      "darkModeColor": "#5b99d5",
+      "color": "#aad0ef"
+    },
+    {
+      "text": "#娱乐",
+      "darkModeColor": "#fee906",
+      "color": "#fff93d"
+    },
+    {
+      "text": "#生活",
+      "darkModeColor": "#70a973",
+      "color": "#b8d8b9"
+    },
+    {
+      "text": "#休息",
+      "darkModeColor": "#9c5fb6",
+      "color": "#d3acd9"
+    },
+    {
+      "text": "#购物",
+      "darkModeColor": "#d97759",
+      "color": "#f3bcab"
+    },
+    {
+      "text": "",
+      "darkModeColor": "#cccccc",
+      "color": "#ebebeb"
+    }
+  ],
+  "releaseNotes": true,
+  "taskStatusOnCreation": " ",
+  "eventFormatOnCreation": "task",
+  "sortTasksInPlanAfterEdit": true,
+  "firstDayOfWeek": "monday",
+  "multiDayRange": "full-week",
+  "showTimeTracker": false,
+  "showActiveClocks": false,
+  "rawIcals": []
+}

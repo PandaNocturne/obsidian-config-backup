@@ -1,0 +1,182 @@
+{
+  "createComponentSilent": false,
+  "receiveBetaVersion": true,
+  "folder": "600【可视化】VisualTools/650【组件】Component",
+  "scriptFolder": "600【可视化】VisualTools/650【组件】Component",
+  "enableDebug": false,
+  "debugLogOutputFolder": "710【组件】Component/logs",
+  "aiBaseFolder": "910【配置】Configs/components/ai",
+  "homepage": {
+    "path": null,
+    "mobilePath": null,
+    "showOnStartup": false,
+    "showOnEmpty": false,
+    "showOnNewEmptyTab": false
+  },
+  "aiProviders": [
+    {
+      "id": "provider-custom-1774500188420",
+      "vendor": "custom",
+      "protocol": "openai",
+      "name": "TimiCC",
+      "apiUrl": "https://timicc.com/",
+      "apiKey": "sk-727e038073981eda7279c22991128c7b9c813303eb922023c4cf83bab3738673",
+      "models": [
+        {
+          "enableThinking": false,
+          "capabilities": [
+            "tool_use"
+          ],
+          "id": "2e4a367c-4484-49db-8bb1-65ceb0a0ec05",
+          "name": " timicc-1-max",
+          "type": "text"
+        },
+        {
+          "enableThinking": false,
+          "capabilities": [
+            "tool_use"
+          ],
+          "id": "3dc5d041-05d9-43de-89b0-8df708ae3530",
+          "name": "timicc-1",
+          "type": "text"
+        }
+      ],
+      "stream": true
+    },
+    {
+      "id": "provider-custom-1773286397376",
+      "vendor": "deepseek",
+      "protocol": "openai",
+      "name": "DeepSeek",
+      "apiUrl": "https://api.deepseek.com/v1",
+      "apiKey": "sk-4d1aefdfbfea42489b40d37823296c2f",
+      "models": [
+        {
+          "id": "8245e151-2774-414e-bfc0-d44ead16704a",
+          "name": "deepseek-chat",
+          "enableThinking": true,
+          "type": "text",
+          "capabilities": [
+            "tool_use"
+          ]
+        },
+        {
+          "enableThinking": true,
+          "capabilities": [
+            "tool_use"
+          ],
+          "id": "29cd4db9-4059-4b01-bb93-8e88eb81388b",
+          "name": "deepseek-reasoner",
+          "type": "text"
+        }
+      ],
+      "stream": true
+    },
+    {
+      "id": "provider-custom-1773286702426",
+      "vendor": "openai",
+      "protocol": "openai",
+      "name": "Aigcbest",
+      "apiUrl": "https://api2.aigcbest.top/v1",
+      "apiKey": "sk-5wYbCGfWMlpD282Y5rsPkCH7dt9xIyWcNIgjIVfQezEngIPt",
+      "models": [
+        {
+          "id": "67809fd9-48b9-4782-948a-13b381dc96c9",
+          "name": "claude-3-5-sonnet-20240620",
+          "enableThinking": false,
+          "type": "text",
+          "capabilities": [
+            "tool_use"
+          ]
+        },
+        {
+          "enableThinking": false,
+          "capabilities": [
+            "tool_use"
+          ],
+          "id": "56e60208-72f0-495f-a39b-25e011536c1c",
+          "name": "glm-4.7-flash",
+          "type": "text"
+        },
+        {
+          "id": "63752fb3-135f-4731-96c4-05e7f31778a9",
+          "name": "glm-4.6v-flash",
+          "enableThinking": false,
+          "type": "text",
+          "capabilities": [
+            "tool_use",
+            "vision"
+          ]
+        }
+      ],
+      "stream": true
+    },
+    {
+      "id": "provider-custom-1773919026517",
+      "vendor": "custom",
+      "protocol": "openai",
+      "name": "Xiaomi MiMo",
+      "apiUrl": "https://api.xiaomimimo.com/v1",
+      "apiKey": "sk-c86l1jsd4ubgyi27kxp05gd09uxmxq7xr2les18nmzig2u33",
+      "models": [
+        {
+          "id": "602c6d9e-b022-4dbd-b8fe-06d3ea5ff66e",
+          "name": "mimo-v2-pro",
+          "enableThinking": true,
+          "type": "text",
+          "capabilities": [
+            "tool_use",
+            "vision"
+          ]
+        },
+        {
+          "enableThinking": true,
+          "capabilities": [
+            "tool_use"
+          ],
+          "id": "7ba2a39d-b994-4390-aae7-7a290c254fa2",
+          "name": "mimo-v2-omni",
+          "type": "text"
+        },
+        {
+          "enableThinking": true,
+          "capabilities": [
+            "tool_use"
+          ],
+          "id": "920b4c5e-e3bd-4b6e-9ab1-e636e7651ef5",
+          "name": "mimo-v2-flash",
+          "type": "text"
+        },
+        {
+          "enableThinking": false,
+          "capabilities": [
+            "tool_use"
+          ],
+          "id": "8d4da374-ee4b-4c29-a1f3-513a4581cb0b",
+          "name": "mimo-v2-tts",
+          "type": "text"
+        }
+      ],
+      "stream": true
+    }
+  ],
+  "aiDefaultModels": {
+    "vision": "63752fb3-135f-4731-96c4-05e7f31778a9",
+    "text": "602c6d9e-b022-4dbd-b8fe-06d3ea5ff66e"
+  },
+  "formFolder": "components/form",
+  "fileEntrypoints": {},
+  "composerSettings": {
+    "cssClassess": {
+      "tableStyle": "composer--DefaultTableStyle",
+      "calloutStyle": "composer--DefaultCalloutStyle"
+    },
+    "themeLightCssClasses": {
+      "colorScheme": "composer--XiaScheme"
+    },
+    "themeDarkCssClasses": {
+      "colorScheme": "composer--QingScheme"
+    },
+    "cssVariables": {}
+  }
+}

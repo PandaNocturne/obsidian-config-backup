@@ -1,0 +1,22 @@
+{
+  "collapse-filter": false,
+  "search": "(([[QT编程]]))",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [],
+  "collapse-display": true,
+  "showArrow": true,
+  "textFadeMultiplier": 0.6,
+  "nodeSizeMultiplier": 1.91904046568397,
+  "lineSizeMultiplier": 1.18295934654023,
+  "collapse-forces": false,
+  "centerStrength": 0.59041095890411,
+  "repelStrength": 20,
+  "linkStrength": 1,
+  "linkDistance": 30,
+  "scale": 0.029613173515348826,
+  "close": true
+}

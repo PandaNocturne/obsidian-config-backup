@@ -1,0 +1,111 @@
+{
+  "version": 2,
+  "confirmDeletion": false,
+  "showDescriptions": false,
+  "showSourcesForDuplicates": false,
+  "debug": false,
+  "mainTrigger": "@",
+  "extraTriggers": [
+    "\\"
+  ],
+  "useExtraTriggers": true,
+  "triggerOnlyOnNewLine": false,
+  "queryPattern": {},
+  "bindings": [
+    {
+      "id": "quickadd:choice:0ce891b0-79dc-44dd-a3f2-6c19c3fc5bc9",
+      "icon": "sticky-note",
+      "name": "插入QuickDraft",
+      "mode": "any",
+      "chosen": false,
+      "selected": false,
+      "triggerMode": "anywhere",
+      "action": "quickadd:choice:0ce891b0-79dc-44dd-a3f2-6c19c3fc5bc9",
+      "children": []
+    },
+    {
+      "id": "quickadd:choice:82af08c1-92d4-4e1c-a9e9-a0cc9f60483b",
+      "icon": "panel-top-inactive",
+      "name": "插入QuickNote",
+      "mode": "any",
+      "chosen": false,
+      "selected": false,
+      "triggerMode": "anywhere",
+      "action": "quickadd:choice:82af08c1-92d4-4e1c-a9e9-a0cc9f60483b",
+      "children": []
+    },
+    {
+      "id": "7e14b6f8-5934-4a4d-979c-50875556b222",
+      "icon": "kanban-square",
+      "name": "插入Kanban",
+      "action": "quickadd:choice:327efa76-b5b1-4df4-b370-414618126220",
+      "mode": "any",
+      "triggerMode": "anywhere",
+      "isGroup": false,
+      "children": []
+    },
+    {
+      "id": "quickadd:choice:e5e6ec5c-ad4e-4b32-9d4d-354a5c4f8fb1",
+      "icon": "check-square",
+      "name": "插入QuickTask",
+      "mode": "any",
+      "chosen": false,
+      "selected": false,
+      "action": "quickadd:choice:e5e6ec5c-ad4e-4b32-9d4d-354a5c4f8fb1",
+      "children": [],
+      "triggerMode": "anywhere"
+    },
+    {
+      "id": "0b76afd8-bfec-4477-a3d4-c860d549817b",
+      "icon": "layout-grid",
+      "name": "插入Canvas",
+      "action": "quickadd:choice:c2286e21-0231-4458-90d2-e26671803bee",
+      "mode": "any",
+      "triggerMode": "anywhere",
+      "isGroup": false,
+      "children": []
+    },
+    {
+      "id": "quickadd:choice:eba016c0-294b-4301-b25f-2138a06e9c00",
+      "icon": "pen-tool",
+      "name": "插入Excalidraw",
+      "mode": "any",
+      "chosen": false,
+      "selected": false,
+      "triggerMode": "anywhere",
+      "action": "quickadd:choice:eba016c0-294b-4301-b25f-2138a06e9c00",
+      "children": []
+    },
+    {
+      "id": "ef93b680-2e4f-4660-bedb-db287ef24f4e",
+      "icon": "git-fork",
+      "name": "插入Markmind",
+      "action": "quickadd:choice:59ba4124-a70a-4241-8796-d1ab5156a458",
+      "mode": "any",
+      "triggerMode": "anywhere",
+      "isGroup": false,
+      "children": []
+    },
+    {
+      "id": "quickadd:choice:fed11708-8d98-42bc-a7b9-55a0e9f3d491",
+      "icon": "pie-chart",
+      "name": "插入Diagram(SVG)",
+      "mode": "any",
+      "chosen": false,
+      "selected": false,
+      "triggerMode": "anywhere",
+      "action": "quickadd:choice:fed11708-8d98-42bc-a7b9-55a0e9f3d491",
+      "children": []
+    },
+    {
+      "id": "796dce6b-5b02-4739-8339-3f0eb405bd22",
+      "icon": "lucide-paperclip",
+      "name": "插入本地附件",
+      "action": "editor:attach-file",
+      "mode": "any",
+      "triggerMode": "anywhere",
+      "isGroup": false,
+      "children": []
+    }
+  ]
+}

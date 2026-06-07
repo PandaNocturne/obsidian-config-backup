@@ -1,0 +1,851 @@
+{
+  "version": "1.10.10",
+  "data": {
+    "boardConfigs": [
+      {
+        "name": "每日规划",
+        "index": 0,
+        "columns": [
+          {
+            "id": 3753809344,
+            "index": 2,
+            "colType": "dated",
+            "active": true,
+            "collapsed": false,
+            "name": "逾期",
+            "datedBasedColumn": {
+              "dateType": "due",
+              "from": -356,
+              "to": -1
+            }
+          },
+          {
+            "id": 1772143933,
+            "index": 3,
+            "colType": "dated",
+            "active": true,
+            "collapsed": false,
+            "name": "今天",
+            "datedBasedColumn": {
+              "dateType": "due",
+              "from": 0,
+              "to": 0
+            },
+            "filters": {
+              "rootCondition": "any",
+              "filterGroups": []
+            }
+          },
+          {
+            "id": 2977072276,
+            "index": 4,
+            "colType": "dated",
+            "active": true,
+            "collapsed": false,
+            "name": "明天",
+            "datedBasedColumn": {
+              "dateType": "due",
+              "from": 1,
+              "to": 1
+            },
+            "filters": {
+              "rootCondition": "any",
+              "filterGroups": []
+            }
+          },
+          {
+            "id": 603222162,
+            "index": 5,
+            "colType": "dated",
+            "active": true,
+            "collapsed": false,
+            "name": "未来",
+            "datedBasedColumn": {
+              "dateType": "due",
+              "from": 2,
+              "to": 356
+            }
+          },
+          {
+            "id": 1009070160,
+            "index": 6,
+            "colType": "completed",
+            "active": false,
+            "collapsed": false,
+            "name": "Completed",
+            "datedBasedColumn": {
+              "dateType": "due",
+              "from": "",
+              "to": ""
+            },
+            "limit": 30,
+            "minimized": false
+          }
+        ],
+        "hideEmptyColumns": false,
+        "showColumnTags": true,
+        "showFilteredTags": true,
+        "boardFilter": {
+          "rootCondition": "all",
+          "filterGroups": [
+            {
+              "id": "id-1777474793342-2004289409",
+              "groupCondition": "all",
+              "filters": [
+                {
+                  "id": "id-1778079992463-3256168336",
+                  "property": "filePath",
+                  "condition": "contains",
+                  "value": "DailyNotes"
+                }
+              ]
+            }
+          ]
+        },
+        "swimlanes": {
+          "enabled": false,
+          "hideEmptySwimlanes": false,
+          "property": "priority",
+          "maxHeight": "300px",
+          "sortCriteria": "desc",
+          "groupAllRest": true,
+          "headerUIType": "vert",
+          "minimized": []
+        },
+        "taskCount": {
+          "pending": 4,
+          "completed": 1037
+        }
+      },
+      {
+        "name": "便笺记录",
+        "index": 1,
+        "columns": [
+          {
+            "id": 4260318390,
+            "index": 1,
+            "colType": "taskStatus",
+            "active": true,
+            "collapsed": false,
+            "name": "🗂️ Plan",
+            "datedBasedColumn": {
+              "dateType": "due",
+              "from": "",
+              "to": ""
+            },
+            "taskStatus": " "
+          },
+          {
+            "id": 3630682714,
+            "index": 2,
+            "colType": "taskStatus",
+            "active": true,
+            "collapsed": false,
+            "name": "🗓️ Scheduing",
+            "datedBasedColumn": {
+              "dateType": "due",
+              "from": "",
+              "to": ""
+            },
+            "taskStatus": "<"
+          },
+          {
+            "id": 980767702,
+            "index": 4,
+            "colType": "taskStatus",
+            "active": true,
+            "collapsed": false,
+            "name": "🚧 In Progress",
+            "datedBasedColumn": {
+              "dateType": "due",
+              "from": "",
+              "to": ""
+            },
+            "taskStatus": "/"
+          },
+          {
+            "id": 8693002,
+            "index": 5,
+            "colType": "completed",
+            "active": true,
+            "collapsed": false,
+            "name": "✅ Done",
+            "datedBasedColumn": {
+              "dateType": "due",
+              "from": "",
+              "to": ""
+            },
+            "limit": 5
+          }
+        ],
+        "hideEmptyColumns": false,
+        "showColumnTags": true,
+        "showFilteredTags": true,
+        "boardFilter": {
+          "rootCondition": "any",
+          "filterGroups": [
+            {
+              "id": "id-1778082917691-408540389",
+              "groupCondition": "all",
+              "filters": [
+                {
+                  "id": "id-1778082917692-944703850",
+                  "property": "filePath",
+                  "condition": "contains",
+                  "value": "StickyNotes"
+                }
+              ]
+            }
+          ]
+        },
+        "swimlanes": {
+          "enabled": false,
+          "hideEmptySwimlanes": false,
+          "property": "tags",
+          "sortCriteria": "asc",
+          "minimized": [],
+          "maxHeight": "300px",
+          "headerUIType": "hor"
+        },
+        "taskCount": {
+          "pending": 16,
+          "completed": 39
+        }
+      },
+      {
+        "name": "每周规划",
+        "index": 2,
+        "columns": [
+          {
+            "id": 2143344661,
+            "index": 1,
+            "colType": "taskStatus",
+            "active": true,
+            "collapsed": false,
+            "name": "🗂️ Plan",
+            "datedBasedColumn": {
+              "dateType": "due",
+              "from": "",
+              "to": ""
+            },
+            "taskStatus": " "
+          },
+          {
+            "id": 4036435104,
+            "index": 2,
+            "colType": "taskStatus",
+            "active": true,
+            "collapsed": false,
+            "name": "🗓️ Scheduing",
+            "datedBasedColumn": {
+              "dateType": "due",
+              "from": "",
+              "to": ""
+            },
+            "taskStatus": "<"
+          },
+          {
+            "id": 1591060572,
+            "index": 4,
+            "colType": "taskStatus",
+            "active": true,
+            "collapsed": false,
+            "name": "🚧 In Progress",
+            "datedBasedColumn": {
+              "dateType": "due",
+              "from": "",
+              "to": ""
+            },
+            "taskStatus": "/"
+          },
+          {
+            "id": 3869815907,
+            "index": 5,
+            "colType": "completed",
+            "active": true,
+            "collapsed": false,
+            "name": "✅ Done",
+            "datedBasedColumn": {
+              "dateType": "due",
+              "from": "",
+              "to": ""
+            },
+            "limit": 6,
+            "sortCriteria": [
+              {
+                "criteria": "completedDate",
+                "order": "desc",
+                "priority": 1,
+                "uid": "1659830449"
+              }
+            ]
+          }
+        ],
+        "hideEmptyColumns": false,
+        "showColumnTags": true,
+        "showFilteredTags": true,
+        "boardFilter": {
+          "rootCondition": "any",
+          "filterGroups": [
+            {
+              "id": "id-1778077132563-1969407239",
+              "groupCondition": "all",
+              "filters": [
+                {
+                  "id": "id-1778077132564-4037591125",
+                  "property": "filePath",
+                  "condition": "contains",
+                  "value": "WeeklyNotes"
+                }
+              ]
+            }
+          ]
+        },
+        "swimlanes": {
+          "enabled": false,
+          "hideEmptySwimlanes": false,
+          "property": "tags",
+          "sortCriteria": "asc",
+          "minimized": [],
+          "maxHeight": "300px",
+          "headerUIType": "hor"
+        },
+        "taskCount": {
+          "pending": 0,
+          "completed": 11
+        }
+      },
+      {
+        "columns": [
+          {
+            "id": 1588723852,
+            "colType": "taskStatus",
+            "taskStatus": " ",
+            "active": true,
+            "collapsed": false,
+            "name": "🗂️ Plan",
+            "index": 1
+          },
+          {
+            "id": 3677199131,
+            "colType": "taskStatus",
+            "taskStatus": "<",
+            "active": true,
+            "collapsed": false,
+            "name": "🗓️ Scheduing",
+            "index": 2
+          },
+          {
+            "id": 3231576863,
+            "colType": "taskStatus",
+            "taskStatus": "/",
+            "active": true,
+            "collapsed": false,
+            "name": "🚧 In Progress",
+            "index": 3
+          },
+          {
+            "id": 2474737472,
+            "colType": "taskStatus",
+            "taskStatus": "?",
+            "active": true,
+            "collapsed": false,
+            "name": "🔄 In Review",
+            "index": 4
+          },
+          {
+            "id": 3746318651,
+            "index": 5,
+            "colType": "taskStatus",
+            "active": true,
+            "collapsed": false,
+            "name": "✅ Done",
+            "taskStatus": "x",
+            "minimized": false
+          },
+          {
+            "id": 2654197190,
+            "index": 6,
+            "colType": "taskStatus",
+            "active": false,
+            "collapsed": false,
+            "name": "⛔ Cancelled",
+            "taskStatus": "-",
+            "minimized": true
+          }
+        ],
+        "name": "任务进度",
+        "index": 3,
+        "showColumnTags": true,
+        "showFilteredTags": true,
+        "hideEmptyColumns": false,
+        "boardFilter": {
+          "rootCondition": "any",
+          "filterGroups": [
+            {
+              "id": "id-1777471202491-3099048635",
+              "groupCondition": "all",
+              "filters": [
+                {
+                  "id": "id-1777471202492-2473286379",
+                  "property": "tags",
+                  "condition": "contains",
+                  "value": "#TaskNote"
+                }
+              ]
+            }
+          ]
+        },
+        "swimlanes": {
+          "enabled": false,
+          "hideEmptySwimlanes": false,
+          "property": "priority",
+          "maxHeight": "300px",
+          "sortCriteria": "custom",
+          "customSortOrder": [
+            {
+              "value": "1",
+              "index": 1
+            },
+            {
+              "value": "2",
+              "index": 2
+            },
+            {
+              "value": "3",
+              "index": 3
+            },
+            {
+              "value": "0",
+              "index": 4
+            }
+          ],
+          "groupAllRest": true,
+          "headerUIType": "vert",
+          "minimized": []
+        },
+        "taskCount": {
+          "pending": 8,
+          "completed": 11
+        },
+        "filterConfig": {
+          "enableSavedFilters": true,
+          "savedConfigs": [
+            {
+              "id": "filter-config-1777471601777-163879474",
+              "name": "Tasknote",
+              "filterState": {
+                "rootCondition": "any",
+                "filterGroups": [
+                  {
+                    "id": "id-1777471202491-3099048635",
+                    "groupCondition": "all",
+                    "filters": [
+                      {
+                        "id": "id-1777471202492-2473286379",
+                        "property": "tags",
+                        "condition": "contains",
+                        "value": "#TaskNote"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "createdAt": "2026-04-29T14:06:41.777Z",
+              "updatedAt": "2026-04-29T14:06:41.777Z"
+            }
+          ]
+        }
+      },
+      {
+        "name": "任务管理",
+        "index": 4,
+        "columns": [
+          {
+            "id": 3500077279,
+            "index": 1,
+            "colType": "taskPriority",
+            "active": true,
+            "collapsed": false,
+            "name": "🟢不重要不紧急",
+            "taskPriority": 0
+          },
+          {
+            "id": 1870378652,
+            "index": 3,
+            "colType": "taskPriority",
+            "active": true,
+            "collapsed": false,
+            "name": "🟡重要但不紧急",
+            "taskPriority": 3
+          },
+          {
+            "id": 1187323578,
+            "index": 4,
+            "colType": "taskPriority",
+            "active": true,
+            "collapsed": false,
+            "name": "🟠不重要但紧急",
+            "taskPriority": 2
+          },
+          {
+            "id": 158380547,
+            "index": 5,
+            "colType": "taskPriority",
+            "active": true,
+            "collapsed": false,
+            "name": "🔴重要且紧急",
+            "taskPriority": 1
+          },
+          {
+            "id": 1232829281,
+            "index": 5,
+            "colType": "completed",
+            "active": true,
+            "collapsed": false,
+            "name": "✅ 已完成事项",
+            "datedBasedColumn": {
+              "dateType": "due",
+              "from": "",
+              "to": ""
+            },
+            "limit": 20
+          }
+        ],
+        "hideEmptyColumns": false,
+        "showColumnTags": true,
+        "showFilteredTags": true,
+        "boardFilter": {
+          "rootCondition": "all",
+          "filterGroups": [
+            {
+              "id": "id-1777441182056-2718166909",
+              "groupCondition": "all",
+              "filters": [
+                {
+                  "id": "id-1777441182057-327846649",
+                  "property": "tags",
+                  "condition": "contains",
+                  "value": "#TaskNote"
+                }
+              ]
+            }
+          ]
+        },
+        "swimlanes": {
+          "enabled": false,
+          "hideEmptySwimlanes": true,
+          "property": "status",
+          "maxHeight": "300px",
+          "sortCriteria": "custom",
+          "customSortOrder": [
+            {
+              "value": "/",
+              "index": 1
+            },
+            {
+              "value": "?",
+              "index": 2
+            },
+            {
+              "value": "<",
+              "index": 3
+            },
+            {
+              "value": " ",
+              "index": 4
+            }
+          ],
+          "groupAllRest": true,
+          "headerUIType": "vert",
+          "minimized": []
+        },
+        "taskCount": {
+          "pending": 9,
+          "completed": 12
+        },
+        "filterConfig": {
+          "enableSavedFilters": true,
+          "savedConfigs": []
+        }
+      }
+    ],
+    "globalSettings": {
+      "lang": "en",
+      "openOnStartup": false,
+      "scanFilters": {
+        "files": {
+          "polarity": 3,
+          "values": []
+        },
+        "folders": {
+          "polarity": 1,
+          "values": [
+            "310【任务】Tasks",
+            "210【日志】Journal/DailyNotes",
+            "300【项目】Project",
+            "210【日志】Journal/WeeklyNotes",
+            "210【日志】Journal/StickyNotes"
+          ]
+        },
+        "frontmatter": {
+          "polarity": 3,
+          "values": []
+        },
+        "tags": {
+          "polarity": 3,
+          "values": []
+        }
+      },
+      "firstDayOfWeek": "2",
+      "showTaskWithoutMetadata": true,
+      "ignoreFileNameDates": false,
+      "taskPropertyFormat": "2",
+      "dateFormat": "yyyy-MM-dd",
+      "dateTimeFormat": "yyyy-MM-dd",
+      "dailyNotesPluginComp": true,
+      "defaultStartTime": "",
+      "taskCompletionInLocalTime": true,
+      "taskCompletionShowUtcOffset": false,
+      "autoAddUniversalDate": true,
+      "autoAddCreatedDate": true,
+      "autoAddCompletedDate": true,
+      "autoAddCancelledDate": true,
+      "showModifiedFilesNotice": false,
+      "scanMode": "manual",
+      "columnWidth": "380px",
+      "visiblePropertiesList": [
+        "title",
+        "createdDate",
+        "startDate",
+        "scheduledDate",
+        "dueDate",
+        "cancelledDate",
+        "dependsOn",
+        "description",
+        "subTasksMinimized",
+        "completionDate",
+        "checkbox"
+      ],
+      "taskCardStyle": "emoji",
+      "showVerticalScroll": true,
+      "tagColors": [
+        {
+          "name": "学习",
+          "color": "rgba(255, 0, 0, 0.55)",
+          "priority": 2
+        },
+        {
+          "name": "娱乐",
+          "color": "rgba(246, 255, 0, 0.53)",
+          "priority": 3
+        },
+        {
+          "name": "生活",
+          "color": "rgba(0, 255, 0, 0.53)",
+          "priority": 4
+        },
+        {
+          "name": "运动",
+          "color": "rgba(181, 255, 35, 1)",
+          "priority": 5
+        },
+        {
+          "name": "工作",
+          "color": "rgba(0, 0, 255, 0.49)",
+          "priority": 6
+        }
+      ],
+      "editButtonAction": "popUp",
+      "doubleClickCardToEdit": "noteInTab",
+      "universalDate": "due",
+      "tagColorsType": "tagBg",
+      "customStatuses": [
+        {
+          "symbol": " ",
+          "name": "Todo",
+          "nextStatusSymbol": "x",
+          "availableAsCommand": false,
+          "type": "TODO"
+        },
+        {
+          "symbol": "<",
+          "name": "Ready to start",
+          "nextStatusSymbol": "x",
+          "availableAsCommand": false,
+          "type": "TODO"
+        },
+        {
+          "symbol": "?",
+          "name": "In Review",
+          "nextStatusSymbol": "x",
+          "availableAsCommand": false,
+          "type": "TODO"
+        },
+        {
+          "symbol": "/",
+          "name": "In Progress",
+          "nextStatusSymbol": "x",
+          "availableAsCommand": true,
+          "type": "IN_PROGRESS"
+        },
+        {
+          "symbol": "x",
+          "name": "Done",
+          "nextStatusSymbol": " ",
+          "availableAsCommand": true,
+          "type": "DONE"
+        },
+        {
+          "symbol": "X",
+          "name": "Completed",
+          "nextStatusSymbol": " ",
+          "availableAsCommand": true,
+          "type": "DONE"
+        },
+        {
+          "symbol": "-",
+          "name": "Cancelled",
+          "nextStatusSymbol": "x",
+          "availableAsCommand": true,
+          "type": "CANCELLED"
+        }
+      ],
+      "compatiblePlugins": {
+        "dailyNotesPlugin": false,
+        "dayPlannerPlugin": true,
+        "tasksPlugin": true,
+        "reminderPlugin": false,
+        "quickAddPlugin": false
+      },
+      "taskNoteIdentifierTag": "taskNote",
+      "preDefinedNote": "/",
+      "archivedTasksFilePath": "310【任务】Tasks/TaskBoard_Archived.md",
+      "taskNoteDefaultLocation": "310【任务】Tasks",
+      "archivedTBNotesFolderPath": "800【归档】Archive",
+      "quickAddPluginDefaultChoice": "",
+      "frontmatterFormatting": [
+        {
+          "index": 0,
+          "property": "ID",
+          "key": "id",
+          "taskItemKey": "id"
+        },
+        {
+          "index": 1,
+          "property": "Title",
+          "key": "title",
+          "taskItemKey": "title"
+        },
+        {
+          "index": 2,
+          "property": "Status",
+          "key": "status",
+          "taskItemKey": "status"
+        },
+        {
+          "index": 3,
+          "property": "Priority",
+          "key": "priority",
+          "taskItemKey": "priority"
+        },
+        {
+          "index": 4,
+          "property": "Tags",
+          "key": "tags",
+          "taskItemKey": "tags"
+        },
+        {
+          "index": 5,
+          "property": "Time",
+          "key": "time",
+          "taskItemKey": "time"
+        },
+        {
+          "index": 6,
+          "property": "Reminder",
+          "key": "reminder",
+          "taskItemKey": "reminder"
+        },
+        {
+          "index": 7,
+          "property": "Created date",
+          "key": "created-date",
+          "taskItemKey": "createdDate"
+        },
+        {
+          "index": 8,
+          "property": "Start date",
+          "key": "start-date",
+          "taskItemKey": "startDate"
+        },
+        {
+          "index": 9,
+          "property": "Scheduled date",
+          "key": "scheduled-date",
+          "taskItemKey": "scheduledDate"
+        },
+        {
+          "index": 10,
+          "property": "Due date",
+          "key": "due-date",
+          "taskItemKey": "due"
+        },
+        {
+          "index": 11,
+          "property": "Depends on",
+          "key": "depends-on",
+          "taskItemKey": "dependsOn"
+        },
+        {
+          "index": 12,
+          "property": "Completed date",
+          "key": "cancelled-date",
+          "taskItemKey": "cancelledDate"
+        },
+        {
+          "index": 13,
+          "key": "completed-date",
+          "taskItemKey": "completionDate"
+        }
+      ],
+      "showFrontmatterTagsOnCards": false,
+      "tasksCacheFilePath": ".obsidian/plugins/task-board/tasks.json",
+      "notificationService": "none",
+      "actions": [
+        {
+          "enabled": true,
+          "trigger": "Complete",
+          "type": "move",
+          "targetColumn": "Completed"
+        }
+      ],
+      "hiddenTaskProperties": [],
+      "autoAddUniqueID": false,
+      "uniqueIdCounter": 30,
+      "experimentalFeatures": true,
+      "safeGuardFeature": false,
+      "lastViewHistory": {
+        "viewedType": "kanban",
+        "boardIndex": 3,
+        "settingTab": 1,
+        "taskId": ""
+      },
+      "boundTaskCompletionToChildTasks": true,
+      "mapView": {
+        "background": "none",
+        "mapOrientation": "hor",
+        "optimizedRender": false,
+        "arrowDirection": "c2p",
+        "animatedEdges": true,
+        "scrollAction": "zoom",
+        "showMinimap": true,
+        "renderVisibleNodes": true,
+        "edgeType": "default"
+      },
+      "searchQuery": "",
+      "dragAutoScrollEdgePercent": 20,
+      "enableDragnDropTouch": false
+    }
+  }
+}

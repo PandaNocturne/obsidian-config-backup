@@ -1,0 +1,87 @@
+.theme-dark textarea {
+  color: var(--text-normal) !important;
+}
+
+
+
+/* body {
+  --base-h: 0;
+  --base-s: 0%;
+  --base-l: 96%;
+  --accent-h: 201;
+  --accent-s: 17%;
+  --accent-l: 50%
+} */
+
+.theme-light {
+  /* --text-normal: hsl(var(--base-h), var(--base-s), calc(var(--base-l) - 90%)) !important; */
+}
+
+/* 
+.theme-dark {
+  --text-normal: hsl(var(--base-h), var(--base-s), calc(var(--base-d) + 75%)) !important;
+} */
+
+
+/* 背景色 */
+.workspace-leaf-content>.view-content {
+  background-color: var(--background-primary);
+}
+
+.workspace-tab-header-container {
+  background-color: var(--background-secondary);
+}
+
+
+/* 工具栏 显示下边框 */
+.view-header {
+  border-bottom: 1px solid var(--background-modifier-border);
+
+}
+
+/* blockquote */
+body {
+  /* Quotes */
+  --blockquote-border-thickness: 6px;
+  --blockquote-background-color: var(--background-modifier-border) !important;
+}
+
+/* !标题 */
+body {
+  --font-bold: bold;
+  /* --text-normal: hsl(var(232), 12%, 12%); */
+  /* --h1-font: '司源赢宋', serif;
+  --h4-font: '司源赢宋', serif;
+  --h5-font: '司源赢宋', serif;
+  --h2-font: '司源赢宋', serif;
+  --h3-font: '司源赢宋', serif;
+  --h6-font: '司源赢宋', serif; */
+
+  /* 字体大小 */
+  --h1-size: 1.5em !important;
+  --h2-size: 1.3em !important;
+  --h3-size: 1.1em !important;
+  --h4-size: 1em !important;
+  --h5-size: 1em !important;
+  --h6-size: 1em !important;
+
+  --h1-line-height: 1.2 !important;
+  --h2-line-height: 1.2 !important;
+  --h3-line-height: 1.2 !important;
+  --h4-line-height: 1.2 !important;
+  --h5-line-height: var(--line-height-normal) !important;
+  --h6-line-height: var(--line-height-normal) !important;
+
+  /* 字重 */
+  --h1-weight: var(--font-bold) !important;
+  --h2-weight: var(--font-bold) !important;
+  --h3-weight: var(--font-bold) !important;
+  --h4-weight: var(--font-bold) !important;
+  --h5-weight: var(--font-bold) !important;
+  --h6-weight: var(--font-bold) !important;
+}
+
+/* 标题最大宽度调整 */
+.view-header-title-container .view-header-title-parent {
+  max-width: 25vw;
+}

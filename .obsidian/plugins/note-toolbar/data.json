@@ -1,0 +1,2401 @@
+{
+  "debugEnabled": false,
+  "defaultToolbar": null,
+  "editorMenuAsToolbar": false,
+  "editorMenuToolbar": null,
+  "emptyViewToolbar": "0bb7ff50-be97-486c-9cad-7b3ae098f297",
+  "export": {
+    "includeIcons": true,
+    "replaceVars": true,
+    "useDataEls": true,
+    "useIds": true
+  },
+  "folderMappings": [
+    {
+      "folder": "*",
+      "toolbar": "0bb7ff50-be97-486c-9cad-7b3ae098f297"
+    },
+    {
+      "folder": "610【画板】Excalidraw",
+      "toolbar": ""
+    },
+    {
+      "folder": "600【白板】Canvas",
+      "toolbar": ""
+    }
+  ],
+  "icon": "circle-ellipsis",
+  "keepPropsState": false,
+  "lockCallouts": false,
+  "obsidianUiVisibility": {},
+  "onboarding": {
+    "new-toolbar-mapping": true,
+    "startup-help-view": true,
+    "startup-help-welcome": true
+  },
+  "ribbonAction": "toolbar",
+  "ribbonToolbar": null,
+  "rules": [],
+  "scriptingEnabled": true,
+  "showEditInFabMenu": true,
+  "showLaunchpad": false,
+  "showToolbarIn": {
+    "audio": false,
+    "canvas": false,
+    "image": false,
+    "pdf": false,
+    "video": false,
+    "bases": false,
+    "kanban": true
+  },
+  "showToolbarInFileMenu": false,
+  "showToolbarInOther": "",
+  "showWhatsNew": true,
+  "textToolbar": "efd3ff42-1778-4c05-a09b-acf5316f3448",
+  "textToolbarOnKeyboard": true,
+  "toolbarProp": "notetoolbar",
+  "toolbars": [
+    {
+      "uuid": "0bb7ff50-be97-486c-9cad-7b3ae098f297",
+      "defaultStyles": [
+        "button",
+        "inactive"
+      ],
+      "items": [
+        {
+          "uuid": "f7e56105-13ff-4e84-badd-2508b79db528",
+          "label": "",
+          "icon": "lucide-image",
+          "link": "cb93bd32-a246-4d82-80c4-36902e277db9",
+          "linkAttr": {
+            "commandId": "",
+            "hasVars": false,
+            "type": "group"
+          },
+          "tooltip": "cmenu：图片处理",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            }
+          },
+          "inGallery": false
+        },
+        {
+          "uuid": "e30ee8a6-982d-4809-aadc-fc165455a5e4",
+          "label": "",
+          "icon": "",
+          "link": "",
+          "linkAttr": {
+            "commandId": "",
+            "hasVars": false,
+            "type": "separator"
+          },
+          "tooltip": "",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            }
+          },
+          "inGallery": false
+        },
+        {
+          "uuid": "53c68d60-56d4-45ce-bcc9-3699d93db41c",
+          "label": "",
+          "icon": "lucide-wifi",
+          "link": "QuickAdd: Capture：HTML Server",
+          "linkAttr": {
+            "commandId": "quickadd:choice:1c1571eb-4ac1-4e3e-95ae-8333af8b4795",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "QuickAdd: Capture：HTML Server",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            }
+          },
+          "inGallery": false
+        },
+        {
+          "uuid": "b11e69f9-6744-46b9-b155-83793bad9cee",
+          "label": "",
+          "icon": "",
+          "link": "",
+          "linkAttr": {
+            "commandId": "",
+            "hasVars": false,
+            "type": "separator"
+          },
+          "tooltip": "",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            }
+          },
+          "inGallery": false
+        },
+        {
+          "uuid": "a5ff9782-5d19-46b6-a17b-690de90368ee",
+          "label": "",
+          "icon": "lucide-home",
+          "link": "000【主页】Home/000【主页】Home.md",
+          "linkAttr": {
+            "commandId": "",
+            "hasVars": false,
+            "type": "file"
+          },
+          "tooltip": "主页",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            }
+          },
+          "inGallery": false,
+          "hasCommand": false
+        },
+        {
+          "uuid": "5a839bba-f65b-4aac-a7bf-0a57502c9ecd",
+          "label": "",
+          "icon": "lucide-lock-keyhole",
+          "link": "Password Manager: 打开密码管理器",
+          "linkAttr": {
+            "commandId": "password-manager:open-manager",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "密码库",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            }
+          },
+          "inGallery": false,
+          "hasCommand": false
+        },
+        {
+          "uuid": "cc3dd2f8-899a-450e-b05a-f1fdd7fa40eb",
+          "label": "",
+          "icon": "lucide-clover",
+          "link": "500【资源】Resource/500【资源】Resource.md",
+          "linkAttr": {
+            "commandId": "",
+            "hasVars": false,
+            "type": "file"
+          },
+          "tooltip": "资源库",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            }
+          },
+          "inGallery": false,
+          "hasCommand": false
+        },
+        {
+          "uuid": "ac3f1443-3514-45d8-9bbd-a1ec6f72495c",
+          "label": "",
+          "icon": "lucide-calendar-days",
+          "link": "210【日志】Journal/210【日志】Journal.components",
+          "linkAttr": {
+            "commandId": "",
+            "hasVars": false,
+            "type": "file"
+          },
+          "tooltip": "日志库",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            }
+          },
+          "inGallery": false,
+          "hasCommand": false
+        },
+        {
+          "uuid": "e5071184-d747-4a4c-8c5f-4b87857acfac",
+          "label": "",
+          "icon": "lucide-inbox",
+          "link": "100【收纳盒】Inbox/100【收纳盒】Inbox.md",
+          "linkAttr": {
+            "commandId": "",
+            "hasVars": false,
+            "type": "file"
+          },
+          "tooltip": "Inbox库",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            }
+          },
+          "inGallery": false,
+          "hasCommand": false
+        },
+        {
+          "uuid": "c0ffda6c-36e1-4cc2-b687-df6a4e5ed647",
+          "label": "",
+          "icon": "lucide-layout-grid",
+          "link": "600【可视化】VisualTools/600【可视化】VisualTools.md",
+          "linkAttr": {
+            "commandId": "",
+            "hasVars": false,
+            "type": "file"
+          },
+          "tooltip": "可视化库",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            }
+          },
+          "inGallery": false,
+          "hasCommand": false
+        },
+        {
+          "uuid": "e1abb9ec-0748-4d78-a4f8-dee507113d88",
+          "label": "",
+          "icon": "",
+          "link": "",
+          "linkAttr": {
+            "commandId": "",
+            "hasVars": false,
+            "type": "separator"
+          },
+          "tooltip": "",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            }
+          },
+          "inGallery": false,
+          "hasCommand": false
+        },
+        {
+          "uuid": "c9c013ff-72b4-4a27-94d9-d6d29155ad24",
+          "label": "",
+          "icon": "lucide-folder-kanban",
+          "link": "Task Board: 打开任务看板",
+          "linkAttr": {
+            "commandId": "task-board:open-task-board",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Task Board: 打开任务看板",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            }
+          },
+          "inGallery": false,
+          "hasCommand": false
+        },
+        {
+          "uuid": "feeb8afe-fee9-4ab3-9978-e192c2c1fff8",
+          "label": "",
+          "icon": "lucide-calendar-range",
+          "link": "210【日志】Journal/210【日志】Journal.md",
+          "linkAttr": {
+            "commandId": "",
+            "hasVars": false,
+            "type": "file"
+          },
+          "tooltip": "210【日志】Journal/210【日志】Journal.md",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            }
+          },
+          "inGallery": false
+        },
+        {
+          "uuid": "bd1660ce-e4fd-476e-92e8-79fa608bc716",
+          "label": "",
+          "icon": "",
+          "link": "",
+          "linkAttr": {
+            "commandId": "",
+            "hasVars": false,
+            "type": "separator"
+          },
+          "tooltip": "",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            }
+          },
+          "inGallery": false,
+          "hasCommand": false
+        },
+        {
+          "uuid": "d3e1cddb-7ffe-4eef-b00b-090757ef628a",
+          "hasCommand": false,
+          "icon": "lucide-calendar-1",
+          "inGallery": false,
+          "label": "",
+          "link": "",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "periodic-notes:open-daily-note",
+            "hasVars": false,
+            "target": "",
+            "type": "command"
+          },
+          "plugin": "",
+          "tooltip": "Today's daily note",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "viewMode": "all"
+          }
+        },
+        {
+          "uuid": "c60a3707-8446-47de-ba58-570fa8e6239a",
+          "hasCommand": false,
+          "icon": "arrow-left",
+          "inGallery": false,
+          "label": "",
+          "link": "",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "periodic-notes:prev-daily-note",
+            "hasVars": false,
+            "target": "",
+            "type": "command"
+          },
+          "plugin": "",
+          "tooltip": "Previous daily note",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "viewMode": "all"
+          }
+        },
+        {
+          "uuid": "e9922256-f60a-4f7e-80ac-fb5c0e8e975b",
+          "hasCommand": false,
+          "icon": "arrow-right",
+          "inGallery": false,
+          "label": "",
+          "link": "",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "periodic-notes:next-daily-note",
+            "hasVars": false,
+            "target": "",
+            "type": "command"
+          },
+          "plugin": "",
+          "tooltip": "Next daily note",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "viewMode": "all"
+          }
+        },
+        {
+          "uuid": "fa5899ec-dca1-4a89-a6d5-a0f7f5f13df3",
+          "hasCommand": false,
+          "icon": "",
+          "inGallery": false,
+          "label": "",
+          "link": "",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "",
+            "hasVars": false,
+            "type": "break"
+          },
+          "tooltip": "",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            }
+          }
+        },
+        {
+          "uuid": "d9dfa22d-ac6a-4bdb-9424-7f1dd7c56d05",
+          "label": "",
+          "icon": "lucide-sun-moon",
+          "link": "Toggle light/dark mode",
+          "linkAttr": {
+            "commandId": "theme:toggle-light-dark",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Toggle light/dark mode",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            }
+          },
+          "inGallery": false
+        },
+        {
+          "uuid": "e3e85069-73f0-439a-a897-dc3509cc2384",
+          "hasCommand": false,
+          "icon": "venetian-mask",
+          "inGallery": false,
+          "label": "",
+          "link": "",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "theme:switch",
+            "hasVars": false,
+            "target": "",
+            "type": "command"
+          },
+          "plugin": "",
+          "tooltip": "更改主题",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "viewMode": "all"
+          }
+        },
+        {
+          "uuid": "203171da-fc98-46dd-aae3-5bbefa0eed2d",
+          "label": "",
+          "icon": "lucide-letter-text",
+          "link": "Format with Prettier: Format current file",
+          "linkAttr": {
+            "commandId": "format-with-prettier:format-file",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Format with Prettier: Format current file",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            }
+          },
+          "inGallery": false
+        },
+        {
+          "uuid": "f0202678-b235-4a51-8514-08d40f7bbf0e",
+          "label": "",
+          "icon": "lucide-repeat-1",
+          "link": "QuickAdd: Macro：🔁BulkRenames",
+          "linkAttr": {
+            "commandId": "quickadd:choice:c5a6f529-f4f8-4500-878a-ae32626e0c61",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "BulkRenames",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            }
+          },
+          "inGallery": false
+        },
+        {
+          "uuid": "24957e0f-ba0b-4c76-9612-b655580ca401",
+          "label": "",
+          "icon": "",
+          "link": "",
+          "linkAttr": {
+            "commandId": "",
+            "hasVars": false,
+            "type": "separator"
+          },
+          "tooltip": "",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            }
+          },
+          "inGallery": false
+        },
+        {
+          "uuid": "6c40a7a3-829a-4831-882d-eb42a3c0fa08",
+          "label": "",
+          "icon": "lucide-link-2",
+          "link": "QuickAdd: Marco：Activate Virtual Linker",
+          "linkAttr": {
+            "commandId": "quickadd:choice:41835406-cf64-4345-8f65-f7011dc60af9",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "QuickAdd: Marco：Activate Virtual Linker",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            }
+          },
+          "inGallery": false,
+          "hasCommand": false
+        },
+        {
+          "uuid": "d889e05f-32b0-4c67-a024-067421a5375e",
+          "label": "",
+          "icon": "lucide-link-2off",
+          "link": "QuickAdd: Marco：Deactivate Virtual Linker",
+          "linkAttr": {
+            "commandId": "quickadd:choice:d91a2d55-8cda-481f-94bf-a40fb07fa598",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "QuickAdd: Marco：Deactivate Virtual Linker",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            }
+          },
+          "inGallery": false,
+          "hasCommand": false
+        },
+        {
+          "uuid": "599aa202-8786-416c-982c-40c34049ad61",
+          "label": "",
+          "icon": "",
+          "link": "",
+          "linkAttr": {
+            "commandId": "",
+            "hasVars": false,
+            "type": "separator"
+          },
+          "tooltip": "",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            }
+          },
+          "inGallery": false
+        },
+        {
+          "uuid": "540d2db9-a77d-4283-94fa-3d8694b2a025",
+          "label": "",
+          "icon": "lucide-settings-2",
+          "link": "Style Settings: Show style settings view",
+          "linkAttr": {
+            "commandId": "obsidian-style-settings:show-style-settings-leaf",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Style Settings: Show style settings view",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            }
+          },
+          "inGallery": false
+        },
+        {
+          "uuid": "ca04d79b-b694-4d7a-9474-bfc62ec3fb90",
+          "label": "",
+          "icon": "lucide-blocks",
+          "link": "obsidian://show-plugin?id=%20",
+          "linkAttr": {
+            "commandId": "",
+            "hasVars": false,
+            "type": "uri"
+          },
+          "tooltip": "ob插件市场",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            }
+          },
+          "inGallery": false
+        },
+        {
+          "uuid": "6a734217-f92a-4acc-ae7d-af32e7effc35",
+          "label": "",
+          "icon": "lucide-settings",
+          "link": "打开设置",
+          "linkAttr": {
+            "commandId": "app:open-settings",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "打开设置",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            }
+          },
+          "scriptConfig": {
+            "pluginFunction": "exec",
+            "sourceFile": "700【模板】Template/QuickAdd/250114_强化Obsidian搜索.js"
+          },
+          "inGallery": false
+        },
+        {
+          "uuid": "e1cd24cf-36e7-4f50-9411-71331973dab8",
+          "icon": "lucide-folder-cog-2",
+          "label": "",
+          "tooltip": "Better Plugins Manager: 开启插件管理器",
+          "hasCommand": false,
+          "inGallery": false,
+          "link": "Better Plugins Manager: 开启插件管理器",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "better-plugins-manager:manager-view",
+            "hasVars": false,
+            "type": "command"
+          },
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "viewMode": "all"
+          }
+        },
+        {
+          "uuid": "0c4c9491-1f11-476d-bac6-ff5dd7db7871",
+          "hasCommand": false,
+          "icon": "",
+          "inGallery": false,
+          "label": "",
+          "link": "",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "",
+            "hasVars": false,
+            "type": "separator"
+          },
+          "tooltip": "",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            }
+          }
+        },
+        {
+          "uuid": "86c5bb38-5bc9-482d-96fe-aaf07697ce71",
+          "hasCommand": false,
+          "icon": "lucide-tags",
+          "inGallery": false,
+          "label": "",
+          "link": "Quick Tagger: Add tag",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "quick-tagger:quick-add-tag",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Quick Tagger: Add tag",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            }
+          }
+        },
+        {
+          "uuid": "47e6e983-9275-4a47-a104-348c20be4f9e",
+          "hasCommand": false,
+          "icon": "lucide-tag",
+          "inGallery": false,
+          "label": "",
+          "link": "Quick Tagger: Remove tag",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "quick-tagger:quick-remove-tag",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Quick Tagger: Remove tag",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            }
+          }
+        },
+        {
+          "uuid": "1effaee7-2b1a-44ac-808f-6743cc18da6f",
+          "hasCommand": false,
+          "icon": "",
+          "inGallery": false,
+          "label": "",
+          "link": "",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "",
+            "hasVars": false,
+            "type": "separator"
+          },
+          "tooltip": "",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            }
+          }
+        },
+        {
+          "uuid": "f7e08294-35ee-43f9-b9e9-51362e712f2d",
+          "label": "",
+          "icon": "lucide-folder-git-2",
+          "link": "Modal Opener: 文件夹的导航预览",
+          "linkAttr": {
+            "commandId": "modal-opener:modal-opener:文件夹的导航预览",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "文件夹导航预览",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            }
+          },
+          "inGallery": false,
+          "hasCommand": false
+        },
+        {
+          "uuid": "62104e68-42c3-428e-bb90-a1209e175d0b",
+          "icon": "lucide-folder-search-2",
+          "label": "",
+          "tooltip": "QuickAdd: Macro：OpenFolderNote",
+          "hasCommand": false,
+          "inGallery": false,
+          "link": "QuickAdd: Macro：OpenFolderNote",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "quickadd:choice:0f61ba43-63e5-492d-a175-48fb304f9e1b",
+            "hasVars": false,
+            "type": "command"
+          },
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "viewMode": "all"
+          }
+        },
+        {
+          "uuid": "452752f1-a673-4be9-9e38-3c87126c55bb",
+          "label": "",
+          "icon": "lucide-notebook-pen",
+          "link": "QuickAdd: Multi：New Note",
+          "linkAttr": {
+            "commandId": "quickadd:choice:d5225627-9c9d-4a5a-8647-030deaa9f629",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "新建笔记",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            }
+          },
+          "inGallery": false,
+          "hasCommand": false
+        }
+      ],
+      "mobileStyles": [],
+      "name": "cmenu",
+      "position": {
+        "desktop": {
+          "allViews": {
+            "position": "bottom"
+          }
+        },
+        "mobile": {
+          "allViews": {
+            "position": "bottom"
+          }
+        },
+        "tablet": {
+          "allViews": {
+            "position": "bottom"
+          }
+        }
+      },
+      "updated": "2026-06-01T03:09:18.172Z",
+      "customClasses": "cmenu",
+      "hasCommand": true
+    },
+    {
+      "uuid": "cb93bd32-a246-4d82-80c4-36902e277db9",
+      "defaultStyles": [
+        "border"
+      ],
+      "items": [
+        {
+          "uuid": "958267d3-0257-42e2-9538-dd0bcfcb823e",
+          "label": "",
+          "icon": "lucide-file-archive",
+          "link": "插入附件",
+          "linkAttr": {
+            "commandId": "editor:attach-file",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "插入附件",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            }
+          },
+          "inGallery": false
+        },
+        {
+          "uuid": "49fac946-a0b3-471f-afd5-2383ab56808f",
+          "label": "",
+          "icon": "lucide-image-down",
+          "link": "Download attachments for current file",
+          "linkAttr": {
+            "commandId": "editor:download-attachments",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Download all images",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            }
+          },
+          "inGallery": false
+        },
+        {
+          "uuid": "22d141b1-d67a-4a67-a1e3-8bd4bf8c2d12",
+          "label": "",
+          "icon": "lucide-images",
+          "link": "Style Settings: Toggle 【Image-熊猫】Zoom Image(图片缩放)",
+          "linkAttr": {
+            "commandId": "obsidian-style-settings:style-settings-class-toggle-zoomingImage-zoomingImage",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "图片缩放",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            }
+          },
+          "inGallery": false
+        }
+      ],
+      "mobileStyles": [],
+      "name": "cmenu：图片处理",
+      "position": {
+        "desktop": {
+          "allViews": {
+            "position": "top"
+          }
+        },
+        "mobile": {
+          "allViews": {
+            "position": "hidden"
+          }
+        },
+        "tablet": {
+          "allViews": {
+            "position": "hidden"
+          }
+        }
+      },
+      "updated": "2026-04-30T03:08:54.731Z"
+    },
+    {
+      "uuid": "d143cf7c-8543-4755-a25e-b6bb9b951b12",
+      "commandPosition": "float",
+      "customClasses": "",
+      "defaultItem": null,
+      "defaultStyles": [
+        "border",
+        "even",
+        "sticky"
+      ],
+      "hasCommand": false,
+      "items": [
+        {
+          "uuid": "a699e382-133c-43bd-a645-b16617003542",
+          "icon": "lucide-book-open-check",
+          "label": "",
+          "tooltip": "Enhancing Export: 导出为......",
+          "hasCommand": false,
+          "inGallery": false,
+          "link": "Enhancing Export: 导出为......",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "obsidian-enhancing-export:obsidian-enhancing-export:export",
+            "hasVars": false,
+            "type": "command"
+          },
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "viewMode": "all"
+          }
+        },
+        {
+          "uuid": "e9bf5732-a9f1-4ce3-89f2-6ed0fb198374",
+          "icon": "lucide-file-text",
+          "label": "",
+          "tooltip": "markdown export: Export to Markdown",
+          "hasCommand": false,
+          "inGallery": false,
+          "link": "markdown export: Export to Markdown",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "obsidian-markdown-export-plugin:export-to-Markdown",
+            "hasVars": false,
+            "type": "command"
+          },
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "viewMode": "all"
+          }
+        },
+        {
+          "uuid": "b24c253f-76e7-41e8-8559-bbeb28cfb74f",
+          "icon": "lucide-folder-output",
+          "label": "",
+          "tooltip": "Linked Note Exporter: Export note & related files",
+          "hasCommand": false,
+          "inGallery": false,
+          "link": "Linked Note Exporter: Export note & related files",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "linked-note-exporter:export-current-file-with-links",
+            "hasVars": false,
+            "type": "command"
+          },
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "viewMode": "all"
+          }
+        },
+        {
+          "uuid": "b6884eed-7547-4b90-a3f3-b72914153a2e",
+          "icon": "lucide-book-image",
+          "label": "",
+          "tooltip": "Export Image plugin: 导出为图片",
+          "hasCommand": false,
+          "inGallery": false,
+          "link": "Export Image plugin: 导出为图片",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "obsidian-export-image:export-image",
+            "hasVars": false,
+            "type": "command"
+          },
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "viewMode": "all"
+          }
+        }
+      ],
+      "mobileStyles": [],
+      "name": "cmenu：文档导出",
+      "position": {
+        "desktop": {
+          "allViews": {
+            "position": "props"
+          }
+        },
+        "mobile": {
+          "allViews": {
+            "position": "props"
+          }
+        },
+        "tablet": {
+          "allViews": {
+            "position": "props"
+          }
+        }
+      },
+      "updated": "2026-04-11T09:38:57.148Z"
+    },
+    {
+      "uuid": "c3c488b6-73a2-49e3-bb07-673c7abd9706",
+      "defaultStyles": [
+        "border"
+      ],
+      "items": [
+        {
+          "uuid": "0e8f76be-59e4-4bb3-a500-33d425e9f8d0",
+          "label": "",
+          "icon": "lucide-mic",
+          "link": "Super Duper Audio Recorder: Start/Stop Recording",
+          "linkAttr": {
+            "commandId": "super-duper-audio-recorder:start-stop-recording",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Super Duper Audio Recorder: Start/Stop Recording",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            }
+          },
+          "inGallery": false
+        },
+        {
+          "uuid": "35aad617-25d5-4a87-89d1-9e12e784ae6f",
+          "label": "",
+          "icon": "lucide-circle-pause",
+          "link": "Super Duper Audio Recorder: Pause/Resume Recording",
+          "linkAttr": {
+            "commandId": "super-duper-audio-recorder:pause-resume-recording",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Super Duper Audio Recorder: Pause/Resume Recording",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            }
+          },
+          "inGallery": false
+        }
+      ],
+      "mobileStyles": [],
+      "name": "cmenu：音频处理",
+      "position": {
+        "desktop": {
+          "allViews": {
+            "position": "props"
+          }
+        },
+        "mobile": {
+          "allViews": {
+            "position": "props"
+          }
+        },
+        "tablet": {
+          "allViews": {
+            "position": "props"
+          }
+        }
+      },
+      "updated": "2026-03-31T15:39:32.587Z"
+    },
+    {
+      "uuid": "efd3ff42-1778-4c05-a09b-acf5316f3448",
+      "commandPosition": "float",
+      "customClasses": "ntb-float",
+      "defaultItem": null,
+      "defaultStyles": [
+        "even",
+        "center",
+        "sticky",
+        "border",
+        "inactive"
+      ],
+      "hasCommand": false,
+      "items": [
+        {
+          "uuid": "e167eceb-95e4-4589-aef6-b620704478da",
+          "hasCommand": false,
+          "icon": "highlighter",
+          "inGallery": false,
+          "label": "",
+          "link": "",
+          "linkAttr": {
+            "commandCheck": true,
+            "commandId": "editor:toggle-highlight",
+            "focus": "editor",
+            "hasVars": false,
+            "target": "",
+            "type": "command"
+          },
+          "plugin": "",
+          "tooltip": "切换高亮文本（Highlight）",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "viewMode": "all"
+          }
+        },
+        {
+          "uuid": "c5095c1e-c6e4-41b2-9ebf-417eead4cf29",
+          "hasCommand": false,
+          "icon": "code",
+          "inGallery": false,
+          "label": "",
+          "link": "",
+          "linkAttr": {
+            "commandCheck": true,
+            "commandId": "editor:toggle-code",
+            "focus": "editor",
+            "hasVars": false,
+            "target": "",
+            "type": "command"
+          },
+          "plugin": "",
+          "tooltip": "切换代码（Inline Code）",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "viewMode": "all"
+          }
+        },
+        {
+          "uuid": "e1208289-bcb9-478d-9643-f611b7763caf",
+          "hasCommand": false,
+          "icon": "sigma",
+          "inGallery": false,
+          "label": "",
+          "link": "",
+          "linkAttr": {
+            "commandCheck": true,
+            "commandId": "editor:toggle-inline-math",
+            "focus": "editor",
+            "hasVars": false,
+            "type": "command"
+          },
+          "plugin": "",
+          "tooltip": "切换内联数学（Inline Math）",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "viewMode": "all"
+          }
+        },
+        {
+          "uuid": "ab773124-3746-4901-be9b-a08cbcefe9e0",
+          "hasCommand": false,
+          "icon": "strikethrough",
+          "inGallery": false,
+          "label": "",
+          "link": "",
+          "linkAttr": {
+            "commandCheck": true,
+            "commandId": "editor:toggle-strikethrough",
+            "focus": "editor",
+            "hasVars": false,
+            "target": "",
+            "type": "command"
+          },
+          "plugin": "",
+          "tooltip": "切换删除线（Strikethrough）",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "viewMode": "all"
+          }
+        },
+        {
+          "uuid": "b6cd8045-cefa-44b7-8213-9905d1cade55",
+          "hasCommand": false,
+          "icon": "eraser",
+          "inGallery": false,
+          "label": "",
+          "link": "",
+          "linkAttr": {
+            "commandCheck": true,
+            "commandId": "editor:clear-formatting",
+            "focus": "editor",
+            "hasVars": false,
+            "target": "",
+            "type": "command"
+          },
+          "plugin": "",
+          "tooltip": "清除格式",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "viewMode": "all"
+          }
+        },
+        {
+          "uuid": "d9872ade-9e74-4387-9974-ca5f24bbb49b",
+          "icon": "",
+          "label": "",
+          "tooltip": "",
+          "hasCommand": false,
+          "inGallery": false,
+          "link": "",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "",
+            "hasVars": false,
+            "type": "separator"
+          },
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "viewMode": "all"
+          }
+        },
+        {
+          "uuid": "ede8578d-8a7f-436f-9dd8-a8f18b26f4f9",
+          "icon": "lucide-unlink",
+          "label": "",
+          "tooltip": "Links: Unlink",
+          "hasCommand": false,
+          "inGallery": false,
+          "link": "Links: Unlink",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "links:editor-unlink-link",
+            "hasVars": false,
+            "type": "command"
+          },
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "viewMode": "all"
+          }
+        },
+        {
+          "uuid": "e008e591-0753-4a98-883e-8fa1b0b5ddd1",
+          "icon": "lucide-link-2off",
+          "label": "",
+          "tooltip": "Links: Delete link",
+          "hasCommand": false,
+          "inGallery": false,
+          "link": "Links: Delete link",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "links:editor-delete-link",
+            "hasVars": false,
+            "type": "command"
+          },
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "viewMode": "all"
+          }
+        },
+        {
+          "uuid": "b81024e4-a288-454e-8aae-7c931dba1008",
+          "icon": "",
+          "label": "",
+          "tooltip": "",
+          "hasCommand": false,
+          "inGallery": false,
+          "link": "",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "",
+            "hasVars": false,
+            "type": "separator"
+          },
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "viewMode": "all"
+          }
+        },
+        {
+          "uuid": "deae3ea9-44b0-4e6e-9c4f-d406e006e715",
+          "icon": "lucide-image-up",
+          "label": "",
+          "tooltip": "QuickAdd: Macro：带图复制",
+          "hasCommand": false,
+          "inGallery": false,
+          "link": "QuickAdd: Macro：带图复制",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "quickadd:choice:69e5744c-f78d-4391-a12c-8589989165fb",
+            "hasVars": false,
+            "type": "command"
+          },
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "viewMode": "all"
+          }
+        },
+        {
+          "uuid": "d38e2b67-3253-4279-bea0-27ea96fbd142",
+          "icon": "lucide-book-copy",
+          "label": "",
+          "tooltip": "复制文本和图片(富文本)",
+          "hasCommand": false,
+          "inGallery": false,
+          "link": "复制图文 (Copy Image Text): 复制文本和图片(富文本)",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "copy-image-text:copy-text",
+            "hasVars": false,
+            "type": "command"
+          },
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "viewMode": "all"
+          }
+        },
+        {
+          "uuid": "d47f5f41-f9a9-4e4d-ab10-a5e326369124",
+          "icon": "lucide-receipt-text",
+          "label": "",
+          "tooltip": "复制为Markdown格式",
+          "hasCommand": false,
+          "inGallery": false,
+          "link": "复制图文 (Copy Image Text): 复制为Markdown格式",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "copy-image-text:copy-markdown",
+            "hasVars": false,
+            "type": "command"
+          },
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "viewMode": "all"
+          }
+        },
+        {
+          "uuid": "a8fddab6-6204-4a25-a995-0d523b8f5cdf",
+          "icon": "",
+          "label": "",
+          "tooltip": "",
+          "hasCommand": false,
+          "inGallery": false,
+          "link": "",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "",
+            "hasVars": false,
+            "type": "separator"
+          },
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "viewMode": "all"
+          }
+        },
+        {
+          "uuid": "dcb6eb4a-cdc9-4444-9746-46ef971628a4",
+          "hasCommand": false,
+          "icon": "lucide-quote",
+          "inGallery": false,
+          "label": "",
+          "link": "Copy Block Link: Copy link to current block or heading",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "obsidian-copy-block-link:copy-link-to-block",
+            "hasVars": false,
+            "target": "",
+            "type": "command"
+          },
+          "plugin": "",
+          "scriptConfig": {
+            "expression": "const { metadataCache: m } = app, e = ntb.app.workspace.activeEditor?.editor, f = ntb.app.workspace.getActiveFile(), l = e?.getCursor().line, b = e?.getLine(l).match(/\\^([\\w-]+)/)?.[1] || m.getFileCache(f)?.blocks?.[l]?.id;\nb ? (navigator.clipboard.writeText(`[[${f.path}#^${b}]]`), new Notice(ntb.t('api.msg.clipboard-copied'))) : new Notice(ntb.t('api.msg.block-no-id'));",
+            "pluginFunction": "evaluate"
+          },
+          "tooltip": "Copy Block Link: Copy link to current block or heading",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "viewMode": "all"
+          }
+        },
+        {
+          "uuid": "d281a9bd-dc73-48a6-b523-81711084e759",
+          "hasCommand": false,
+          "icon": "text-search",
+          "inGallery": false,
+          "label": "",
+          "link": "Advanced Search UI: 打开悬浮搜索面板",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "advanced-search-ui:open-floating-search-panel",
+            "hasVars": false,
+            "target": "",
+            "type": "command"
+          },
+          "plugin": "",
+          "tooltip": "Search for selection",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "viewMode": "all"
+          }
+        },
+        {
+          "uuid": "df4799a5-3f48-4158-8e7a-d7c260464472",
+          "icon": "lucide-message-square-quote",
+          "label": "",
+          "tooltip": "YOLO: 添加选中内容到聊天",
+          "hasCommand": false,
+          "inGallery": false,
+          "link": "YOLO: 添加选中内容到聊天",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "yolo:add-selection-to-chat",
+            "hasVars": false,
+            "type": "command"
+          },
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "viewMode": "all"
+          }
+        }
+      ],
+      "mobileStyles": [],
+      "name": "float toolbar",
+      "position": {
+        "desktop": {
+          "allViews": {
+            "position": "props"
+          }
+        },
+        "mobile": {
+          "allViews": {
+            "position": "props"
+          }
+        },
+        "tablet": {
+          "allViews": {
+            "position": "props"
+          }
+        }
+      },
+      "updated": "2026-05-30T09:16:09.796Z"
+    }
+  ],
+  "version": 20260428.1,
+  "webviewerToolbar": null,
+  "whatsnew_version": "1.31",
+  "showToolbarInCanvas": false
+}

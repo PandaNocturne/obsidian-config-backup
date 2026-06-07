@@ -1,0 +1,18 @@
+.mermaid {
+  /* g.root {
+    g.nodes {
+      rect.basic {
+        fill: #4ABF8A !important;
+        stroke: none !important;
+      }
+    }
+
+    g.cluster {
+      rect {
+        fill: #fbf1f129 !important;
+      }
+    }
+  } */
+  width: 100%;
+  text-align: center;
+}

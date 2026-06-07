@@ -1,0 +1,23 @@
+{
+  "selectedLocale": "zh-cn",
+  "align": "left",
+  "clickToUse": false,
+  "roundRanges": true,
+  "useUtc": true,
+  "useAI": false,
+  "showChangelogOnUpdate": true,
+  "enableCaching": true,
+  "lastSeenVersion": "3.6.0",
+  "openaiSecretName": null,
+  "aiProvider": "gemini",
+  "geminiSecretName": "gemini",
+  "basesPropNames": {
+    "start": "start",
+    "end": "end",
+    "group": "group",
+    "color": "color",
+    "type": "type",
+    "content": "content",
+    "description": "description"
+  }
+}

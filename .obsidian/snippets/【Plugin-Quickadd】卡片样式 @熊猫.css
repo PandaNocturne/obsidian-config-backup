@@ -1,0 +1,62 @@
+/* 仅针对 QuickAdd（prompt-results 内出现 quickadd-choice-suggestion 的模态框） */
+.modal-container.mod-dim:has(.prompt-results .quickadd-choice-suggestion) {
+
+  /* 居中显示 */
+  .prompt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 0;
+  }
+  /* 设置quickadd 的提示框为 */
+
+  /* 1. 容器改为网格布局 */
+  .prompt-results {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    /* 自动填充，每列最小140px */
+    gap: 12px;
+    /* 卡片间距 */
+    padding: 15px;
+    max-height: 400px;
+    overflow-y: auto;
+  }
+
+  /* 2. 卡片基础样式 */
+  .suggestion-item.quickadd-choice-suggestion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 10px;
+    border-radius: 8px;
+    background-color: var(--background-secondary);
+    border: 1px solid var(--background-modifier-border);
+    /* transition: all 0.2s ease; */
+    cursor: pointer;
+    text-align: center;
+  }
+
+  /* 3. 悬停效果 (Hover) */
+  /* .suggestion-item.quickadd-choice-suggestion:hover {
+    background-color: var(--background-modifier-hover);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  } */
+
+  /* 4. 选中状态样式 (Selected) */
+  .suggestion-item.quickadd-choice-suggestion.is-selected {
+    background-color: var(--interactive-accent) !important;
+    color: white !important;
+    border-color: var(--interactive-accent);
+  }
+
+  /* 5. 文字样式调整 */
+  .suggestion-item p {
+    margin: 0;
+    font-size: 0.9em;
+    font-weight: 500;
+    word-break: break-word;
+  }
+}

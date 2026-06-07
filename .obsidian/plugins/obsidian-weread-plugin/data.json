@@ -1,0 +1,162 @@
+{
+  "loginMethod": "scan",
+  "cookies": [],
+  "noteLocation": "510【资料】StudyNote/520【读书】WereadNote",
+  "dailyNotesLocation": "/",
+  "insertAfter": "<!-- start of weread -->",
+  "insertBefore": "<!-- end of weread -->",
+  "dailyNotesFormat": "YYYY-MM-DD",
+  "lastCookieTime": 1779615465297,
+  "isCookieValid": false,
+  "user": "",
+  "userVid": "",
+  "userAvatar": "",
+  "userSignature": "",
+  "template": "",
+  "noteCountLimit": -1,
+  "subFolderType": "title",
+  "fileNameType": "BOOK_NAME",
+  "removeParens": false,
+  "removeParensWhitelist": "",
+  "filterInlineImages": false,
+  "dailyNotesToggle": false,
+  "notesBlacklist": "",
+  "notesWhitelist": "",
+  "syncMode": "blacklist",
+  "showEmptyChapterTitleToggle": false,
+  "convertTags": false,
+  "saveArticleToggle": true,
+  "saveReadingInfoToggle": true,
+  "readingOpenMode": "TAB",
+  "bookOpenMode": "web",
+  "trimBlocks": false,
+  "cookieCloudInfo": {
+    "serverUrl": "",
+    "uuid": "",
+    "password": ""
+  },
+  "cookieAutoRefreshToggle": false,
+  "cookieRefreshInterval": 12,
+  "scheduledSyncToggle": false,
+  "scheduledSyncInterval": 5,
+  "lastSyncTime": 1779615465309,
+  "lastSyncBookCount": 0,
+  "lastSyncBookTitles": [],
+  "syncLogs": [
+    {
+      "id": "sync-1779615464298",
+      "timestamp": 1779615464298,
+      "totalBooks": 0,
+      "syncedBooks": 0,
+      "skippedBooks": 0,
+      "duration": 1.01,
+      "notes": [],
+      "success": true
+    },
+    {
+      "id": "sync-1777192046795",
+      "timestamp": 1777192046795,
+      "totalBooks": 9,
+      "syncedBooks": 0,
+      "skippedBooks": 0,
+      "duration": 0.118,
+      "notes": [],
+      "success": true
+    },
+    {
+      "id": "sync-1777191939565",
+      "timestamp": 1777191939565,
+      "totalBooks": 9,
+      "syncedBooks": 9,
+      "skippedBooks": 0,
+      "duration": 6.708,
+      "notes": [
+        {
+          "bookId": "CB_DGh7LD7LT7qS72u71aDvXCoz",
+          "title": "诡秘之主",
+          "filePath": "510【资料】StudyNote/520【读书】WereadNote/诡秘之主.md"
+        },
+        {
+          "bookId": "CB_2mf3qj3nkBG06zk71a6IDFHG",
+          "title": "金字塔原理",
+          "filePath": "510【资料】StudyNote/520【读书】WereadNote/金字塔原理.md"
+        },
+        {
+          "bookId": "CB_5hlBMjBMB5Bg6zA6xT8zIDy6",
+          "title": "《人性的弱点：增订全译版》",
+          "filePath": "510【资料】StudyNote/520【读书】WereadNote/《人性的弱点：增订全译版》.md"
+        },
+        {
+          "bookId": "CB_2FlEm1EmaE9B6oz6oz4QX85I",
+          "title": "工作、消费主义和新穷人 - (英)齐格蒙特·鲍曼",
+          "filePath": "510【资料】StudyNote/520【读书】WereadNote/工作、消费主义和新穷人 - (英)齐格蒙特·鲍曼.md"
+        },
+        {
+          "bookId": "CB_4dxBMzBMB5Bg6zA6xTG2OBKj",
+          "title": "我胆小如鼠（读客·当代文学文库）",
+          "filePath": "510【资料】StudyNote/520【读书】WereadNote/我胆小如鼠（读客·当代文学文库）.md"
+        },
+        {
+          "bookId": "CB_BTY69E69t8vr6nj6oz6iZBid",
+          "title": "转生成蜘蛛又怎样！ 13",
+          "filePath": "510【资料】StudyNote/520【读书】WereadNote/转生成蜘蛛又怎样！ 13.md"
+        },
+        {
+          "bookId": "CB_EGM0g20fzCKK6nc6oz1On6Yb",
+          "title": "想要成为影之实力者 06",
+          "filePath": "510【资料】StudyNote/520【读书】WereadNote/想要成为影之实力者 06.md"
+        },
+        {
+          "bookId": "CB_EKV0g30fzCKK6nc6ozGgD67o",
+          "title": "想要成为影之实力者 05",
+          "filePath": "510【资料】StudyNote/520【读书】WereadNote/想要成为影之实力者 05.md"
+        },
+        {
+          "bookId": "44026191",
+          "title": "纳瓦尔宝典",
+          "filePath": "510【资料】StudyNote/520【读书】WereadNote/纳瓦尔宝典.md"
+        }
+      ],
+      "success": true
+    }
+  ],
+  "bookshelfSortMode": "recent",
+  "bookshelfGroupByYear": true,
+  "bookshelfDefaultSyncStatusFilter": "all",
+  "themes": [
+    {
+      "id": "builtin_merged",
+      "name": "合并式模板",
+      "description": "划线和想法 inline 展示，适合快速回顾",
+      "template": "---\nisbn: {{ metaData.isbn }}\nlastReadDate: {{ metaData.lastReadDate }}\n---\n# 元数据\n> [!abstract] {{ metaData.title }}\n> - ![ {{ metaData.title }}|200]({{ metaData.cover }})\n> - 书名： {{ metaData.title }}\n> - 作者： {{ metaData.author }}\n> - 简介： {% set intro = metaData.intro | replace(\"\\n\",\"\") | replace(\"\\r\",\"\") %}{{ intro }}\n> - 出版时间： {{ metaData.publishTime }}\n> - ISBN： {{ metaData.isbn }}\n> - 分类： {{ metaData.category }}\n> - 出版社： {{ metaData.publisher }}\n> - PC地址：{{ metaData.pcUrl }}\n\n# 高亮划线\n{% for chapter in chapterHighlights %}\n{% if chapter.level == 1 %}\n## {{ chapter.chapterTitle }}\n{% elif chapter.level == 2 %}\n### {{ chapter.chapterTitle }}\n{% elif chapter.level == 3 %}\n#### {{ chapter.chapterTitle }}\n{% endif %}\n{% for highlight in chapter.highlights %}\n{% set rangeParts = highlight.range | split(\"-\") %}\n{% set deeplink = \"weread://bestbookmark?bookId=\" + metaData.bookId + \"&chapterUid=\" + highlight.chapterUid + \"&rangeStart=\" + rangeParts[0] + \"&rangeEnd=\" + rangeParts[1] %}\n{% if highlight.reviewContent %}\n> 📌 [{{ highlight.markText | trim }}](<{{ deeplink }}>) ^{{ highlight.bookmarkId }}\n- 💭 {{ highlight.reviewContent }} - ⏱ {{ highlight.createTime }}\n{% else %}\n> 📌 [{{ highlight.markText | trim }}](<{{ deeplink }}>)\n> ⏱ {{ highlight.createTime }} ^{{ highlight.bookmarkId }}\n{% endif %}\n{% endfor %}\n{% endfor %}\n\n# 读书笔记\n{% for chapter in bookReview.chapterReviews %}\n{% if chapter.reviews or chapter.chapterReview %}\n## {{ chapter.chapterTitle }}\n{% if chapter.chapterReviews %}\n{% for chapterReview in chapter.chapterReviews %}\n### 章节评论 No.{{ loop.index }}\n- {{ chapterReview.content }} ^{{ chapterReview.reviewId }}\n    - ⏱ {{ chapterReview.createTime }}\n{% endfor %}\n{% endif %}\n{% if chapter.reviews %}\n{% for review in chapter.reviews %}\n### 划线评论\n> 📌 {{ review.abstract | trim }} ^{{ review.reviewId }}\n    - 💭 {{ review.content }}\n    - ⏱ {{ review.createTime }}\n{% endfor %}\n{% endif %}\n{% endif %}\n{% endfor %}\n\n# 本书评论\n{% if bookReview.bookReviews %}\n{% for bookReview in bookReview.bookReviews %}\n## 书评 No.{{ loop.index }}\n{{ bookReview.mdContent }} ^{{ bookReview.reviewId }}\n⏱ {{ bookReview.createTime }}\n{% endfor %}\n{% endif %}\n",
+      "trimBlocks": true,
+      "isBuiltIn": true,
+      "isReadOnly": true,
+      "source": "builtin"
+    },
+    {
+      "id": "builtin_separated",
+      "name": "分离式模板",
+      "description": "先展示纯划线，笔记统一在底部，适合整理归纳",
+      "template": "---\nisbn: {{ metaData.isbn }}\nlastReadDate: {{ metaData.lastReadDate }}\n---\n《{{ metaData.title }}》\n{{ metaData.author }}\n{{ metaData.noteCount }}个笔记\n\n# 高亮划线\n{% for chapter in chapterHighlights %}\n{% if chapter.level == 1 %}\n## {{ chapter.chapterTitle }}\n{% elif chapter.level == 2 %}\n### {{ chapter.chapterTitle }}\n{% elif chapter.level == 3 %}\n#### {{ chapter.chapterTitle }}\n{% endif %}\n{% for highlight in chapter.highlights %}\n{% set rangeParts = highlight.range | split(\"-\") %}\n{% set deeplink = \"weread://bestbookmark?bookId=\" + metaData.bookId + \"&chapterUid=\" + highlight.chapterUid + \"&rangeStart=\" + rangeParts[0] + \"&rangeEnd=\" + rangeParts[1] %}\n> 📌 [{{ highlight.markText | trim }}](<{{ deeplink }}>) ^{{ highlight.bookmarkId }}\n{% endfor %}\n{% endfor %}\n\n# 笔记汇总\n{% for chapter in chapterHighlights %}\n{% for highlight in chapter.highlights %}\n{% if highlight.reviewContent %}\n## {{ chapter.chapterTitle }} 的想法\n{{ highlight.reviewContent }}\n> 📌 {{ highlight.markText | trim }}\n\n{% endif %}\n{% endfor %}\n{% endfor %}\n\n{% if bookReview.bookReviews %}\n{% for bookReview in bookReview.bookReviews %}\n# 书评\n{{ bookReview.createTime }}\n{{ bookReview.mdContent }}\n{% endfor %}\n{% endif %}\n",
+      "trimBlocks": true,
+      "isBuiltIn": true,
+      "isReadOnly": true,
+      "source": "builtin"
+    },
+    {
+      "id": "builtin_official",
+      "name": "微信官方笔记主题",
+      "description": "详细的元数据信息，适合生成书籍笔记",
+      "template": "---\nisbn: {{ metaData.isbn }}\nlastReadDate: {{ metaData.lastReadDate }}\n---\n《{{ metaData.title }}》\n{{ metaData.author }}\n{{ metaData.noteCount }}个笔记\n\n{% if bookReview.bookReviews %}\n{% for bookReview in bookReview.bookReviews %}\n◆ 点评\n{{ bookReview.createTime }}\n{{ bookReview.mdContent }}\n{% endfor %}\n{% endif %}\n\n{% for chapter in chapterHighlights %}\n{% if chapter.level == 1 %}\n## ◆ {{ chapter.chapterTitle }}\n{% elif chapter.level == 2 %}\n### ◆ {{ chapter.chapterTitle }}\n{% elif chapter.level == 3 %}\n#### ◆ {{ chapter.chapterTitle }}\n{% endif %}\n{% for highlight in chapter.highlights %}\n{% set rangeParts = highlight.range | split(\"-\") %}\n{% set deeplink = \"weread://bestbookmark?bookId=\" + metaData.bookId + \"&chapterUid=\" + highlight.chapterUid + \"&rangeStart=\" + rangeParts[0] + \"&rangeEnd=\" + rangeParts[1] %}\n{% if highlight.reviewContent %}\n\n{{ highlight.createTime }} 发表想法\n{{ highlight.reviewContent }}\n\n> [{{ highlight.markText | trim }}](<{{ deeplink }}>) ^{{ highlight.bookmarkId }}\n\n{% else %}\n\n> [{{ highlight.markText | trim }}](<{{ deeplink }}>) ^{{ highlight.bookmarkId }}\n\n{% endif %}\n{% endfor %}\n{% endfor %}\n",
+      "trimBlocks": true,
+      "isBuiltIn": true,
+      "isReadOnly": true,
+      "source": "builtin"
+    }
+  ],
+  "activeThemeId": "builtin_merged",
+  "wereadApiKey": "",
+  "readingStatsLocation": "/",
+  "statsStartYear": 0
+}

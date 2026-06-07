@@ -1,0 +1,5 @@
+body {
+  --graph-line: red;
+  --graph-node: black !important;
+  --graph-node-tag: yellow;
+}

@@ -1,0 +1,11 @@
+{
+	"id": "obsidian-title-serial-number-plugin",
+	"name": "Title Serial Number Plugin",
+	"version": "1.1.0",
+	"minAppVersion": "0.15.0",
+	"description": "This plugin adds serial numbers to your markdown title.",
+	"author": "Domenic",
+	"authorUrl": "",
+	"fundingUrl": "",
+	"isDesktopOnly": false
+}

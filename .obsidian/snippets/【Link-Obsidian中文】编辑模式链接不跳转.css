@@ -1,0 +1,17 @@
+/* https://flowus.cn/share/498a05ec-dc8b-4b8b-b792-e7f5afa5029c */
+/*[2024-04-04_ObsidianCSS：实时预览模式下如何不默认左键直接跳转双链](obsidian://adv-uri?vault=PandaNotes&uid=20240404202514868) */
+/* 取消编辑模式下链接的点击 */
+:is(.cm-link .cm-underline, .cm-hmd-internal-link .cm-underline) {
+  pointer-events: none;
+}
+
+/* 取消编辑模式下#标签的点击 */
+.cm-hashtag {
+  pointer-events: none;
+}
+
+/* 编辑模式下图片不能点击放大 */
+.markdown-source-view .image-embed {
+  /* pointer-events: none; */
+}
+

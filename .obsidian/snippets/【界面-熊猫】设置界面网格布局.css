@@ -1,0 +1,150 @@
+/* @settings
+
+name: Obsidian-Setting-Grid-Layout
+description: 一个用于 Obsidian 设置页面的网格布局
+id: obsidian-setting-grid-layout
+settings:
+    - 
+        id: Grid-Layout-info-text
+        title: Information
+        description: "本样式参考了Huajin的[obsidian-settings-management](https://github.com/xhuajin/obsidian-settings-management/)插件的样式。"
+        type: info-text
+        markdown: true
+    - 
+        id: hotkey-layout
+        title: 关闭快捷键列表卡片化
+        type: class-toggle
+        default: false
+    - 
+        id: plugin-layout
+        title: 关闭核心插件列表卡片化
+        type: class-toggle
+        default: false
+    - 
+        id: installed-plugin-layout
+        title: 关闭第三方插件列表卡片化
+        type: class-toggle
+        default: false
+*/
+
+/* 2024-12-17 参考Huajin的obsidian-settings-management插件的样式 https://github.com/xhuajin/obsidian-settings-management/blob/master/src/styles.css */
+/* 快捷键列表 */
+body:not(.hotkey-layout) .vertical-tabs-container .vertical-tab-content .setting-group>.setting-items .hotkey-list-container,
+/* 核心插件列表 */
+body:not(.plugin-layout) .vertical-tabs-container:not(:has(.installed-plugins-container)):not(:has([class *="__settings__"])) .setting-group>.setting-group-search+.setting-items:not(:has(.hotkey-list-container)),
+/* 第三方插件列表 */
+body:not(.installed-plugin-layout) .vertical-tabs-container .installed-plugins-container>.setting-items {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: min-content;
+
+  /* 子项目设置 */
+  .setting-item:not(:has(~.setting-item-heading)):not(.setting-item-heading) {
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 8px;
+    padding: 1em;
+  }
+
+  .setting-item:is(:has(~.setting-item-heading), .setting-item-heading) {
+    grid-column: 1 / -1;
+  }
+
+  .setting-item-info {
+    overflow: hidden;
+    overflow-wrap: anywhere;
+  }
+}
+
+
+
+/* 第三方插件列表 按钮微调*/
+.installed-plugins-container,
+.modal-container.mod-dim>.manager-container>.modal-content.manager-item-container:not(:has(.manager-install__info)) {
+  .setting-item {
+    position: relative;
+    display: flex;
+    flex-flow: column nowrap;
+  }
+
+  .setting-item-info {
+    flex: 2 0 auto;
+    width: 100%;
+    margin-left: 10px;
+  }
+
+  .setting-item-control {
+    flex: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    right: 0px;
+    justify-content: right;
+  }
+}
+
+.modal.manager-container {
+  width: 60vw !important;
+  height: 80vh;
+  overflow: auto;
+
+  /* .manager-bar__search .setting-item-control {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto auto;
+    gap: 10px;
+
+    .search-input-container {
+      grid-column: 4;
+      grid-row: 1;
+    }
+  } */
+
+  .setting-item:not(.manager-item),
+  .manager-install__info {
+    grid-column: 1 / -1;
+    /* grid-row: 1; */
+  }
+}
+
+
+.modal.manager-editor__container {
+  width: 40%;
+}
+
+.modal.manager-editor__container .modal-content.manager-item-container {
+  /* 网格布局 2栏 */
+  display: grid;
+  gap: 5px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: min-content;
+  max-height: 500px;
+}
+
+
+/* 插件管理器 */
+.modal-content.manager-item-container.manager-plugin-overview--list{
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: min-content;
+
+  .manager-bulk-bar-host{
+    grid-column: 1 / -1;
+  }
+
+  .setting-item:not(:has(~.setting-item-heading)):not(.setting-item-heading) {
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 8px;
+    padding: 1em;
+  }
+
+  .setting-item:is(:has(~.setting-item-heading), .setting-item-heading) {
+    grid-column: 1 / -1;
+  }
+
+  .setting-item-info {
+    overflow: hidden;
+    overflow-wrap: anywhere;
+  }
+}

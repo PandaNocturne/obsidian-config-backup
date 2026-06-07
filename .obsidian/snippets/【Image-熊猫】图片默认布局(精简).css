@@ -1,0 +1,65 @@
+/* @settings
+name: 【Image-熊猫】启动或关闭缩放图片
+id: zoomingImage
+settings:
+  -
+    id: zoomingImage
+    title: 【Image-熊猫】Zoom Image(图片缩放)
+    type: class-toggle
+    addCommand: true
+*/
+
+/* 片段来自：pkmer知识管理交流群，@熊猫别熬夜*/
+/* 图片圆角 + 阴影 */
+.image-embed img {
+  /* border-radius: 10px; */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+
+/* !编辑模式 则 最大为400 */
+/* :not(.excalidraw-svg) */
+/* .view-content .markdown-preview-sizer img:not([width]):not(.code-styler-icon):not(.svelte-frmt02), */
+.lineage-card .internal-embed.media-embed.image-embed {
+  display: block;
+  width: 100% !important;
+  text-align: center;
+
+  img {
+    max-width: 300px !important;
+    max-height: 20vh !important;
+  }
+}
+
+/* .view-content .markdown-source-view img:not([width]):not(.code-styler-icon):not(.svelte-frmt02):not(.excalidraw-embedded-img) {
+  max-width: 300px !important;
+  max-height: 20vh !important;
+
+} */
+/* .markdown-preview-view img:not([width]),
+.markdown-rendered img:not([width]) {
+  max-width: 100% !important;
+  outline: none !important;
+} */
+
+/* !图片网格布局 */
+/* [2024-03-28_ObsidianCSS：Image图片网格布局-Obsidian英文论坛](obsidian://advanced-uri?vault=PandaNotes&uid=20240328010924560) */
+/* https://forum.obsidian.md/t/display-side-by-side-image-grid/9359/38 */
+.zoomingImage .view-content .markdown-preview-sizer img:not([width]):not(.code-styler-icon):not(.svelte-frmt02):not(.excalidraw-embedded-img),
+.view-content .markdown-source-view img:not([width]):not(.code-styler-icon):not(.svelte-frmt02):not(.excalidraw-embedded-img) {
+  margin: 1px !important;
+  object-fit: cover;
+  height: auto;
+  max-height: 20vh !important;
+  max-width: 300px !important;
+}
+
+/* 视频 */
+.view-content {
+  video {
+    display: block;
+    margin: 0 auto; /* 设置左右间距为自适应，上下间距为零 */
+    
+    width: 90%;
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "pluginList": [
+    "zsviczian/obsidian-excalidraw-plugin",
+    "joeraad/obsidian-snipdock",
+    "BCS1037/notion-block",
+    "i-iooi-i/obsidian-memoria",
+    "AlbusGuo/albus-status-bar-music",
+    "little-pond/axl-light",
+    "Canna71/obsidian-chronology",
+    "any-menu/any-menu",
+    "KJH-Portfolio/202604-obsidian-task-manager",
+    "AlbusGuo/obsidian-super-daily-notes",
+    "WesternGua/obsidian-zotero-citations",
+    "Ariestar/obsidian-dragger",
+    "PandaNocturne/obsidian-advanced-search-ui",
+    "pjeby/hot-reload",
+    "Moyf/MySnippets",
+    "Quorafind/Obsidian-Legacy-Vault-Switcher",
+    "PlayerMiller109/obsidian-sheets-basic",
+    "nyable/obsidian-text-finder"
+  ],
+  "pluginSubListFrozenVersion": [
+    {
+      "repo": "zsviczian/obsidian-excalidraw-plugin",
+      "version": "2.22.3"
+    },
+    {
+      "repo": "joeraad/obsidian-snipdock",
+      "version": "latest"
+    },
+    {
+      "repo": "BCS1037/notion-block",
+      "version": "latest"
+    },
+    {
+      "repo": "i-iooi-i/obsidian-memoria",
+      "version": "latest"
+    },
+    {
+      "repo": "AlbusGuo/albus-status-bar-music",
+      "version": "latest",
+      "tokenName": "github"
+    },
+    {
+      "repo": "little-pond/axl-light",
+      "version": "latest"
+    },
+    {
+      "repo": "Canna71/obsidian-chronology",
+      "version": "1.1.16",
+      "tokenName": "github"
+    },
+    {
+      "repo": "any-menu/any-menu",
+      "version": "latest",
+      "tokenName": "github"
+    },
+    {
+      "repo": "KJH-Portfolio/202604-obsidian-task-manager",
+      "version": "latest"
+    },
+    {
+      "repo": "AlbusGuo/obsidian-super-daily-notes",
+      "version": "latest"
+    },
+    {
+      "repo": "WesternGua/obsidian-zotero-citations",
+      "version": "latest"
+    },
+    {
+      "repo": "Ariestar/obsidian-dragger",
+      "version": "1.2.6"
+    },
+    {
+      "repo": "PandaNocturne/obsidian-advanced-search-ui",
+      "version": "latest"
+    },
+    {
+      "repo": "pjeby/hot-reload",
+      "version": "latest"
+    },
+    {
+      "repo": "Moyf/MySnippets",
+      "version": "latest"
+    },
+    {
+      "repo": "Quorafind/Obsidian-Legacy-Vault-Switcher",
+      "version": "latest"
+    }
+  ],
+  "themesList": [],
+  "updateAtStartup": false,
+  "updateThemesAtStartup": false,
+  "enableAfterInstall": true,
+  "loggingEnabled": false,
+  "loggingPath": "BRAT-log",
+  "loggingVerboseEnabled": false,
+  "debuggingMode": false,
+  "notificationsEnabled": true,
+  "globalTokenName": "ob",
+  "personalAccessToken": "",
+  "selectLatestPluginVersionByDefault": true,
+  "allowIncompatiblePlugins": true
+}

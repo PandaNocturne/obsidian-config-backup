@@ -1,0 +1,85 @@
+/* https://forum-zh.obsidian.md/t/topic/50027/1 */
+
+/* ------ 卡片式任务面版样式 -----*/
+.dropdown-container {
+  margin-bottom: 1em;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 1px; /* 控制卡片左右间距 */
+  row-gap: 2px;     /* 控制卡片上下间距 */
+  margin: 1px 0px; 
+}
+
+.card {
+  background: var(--background-secondary);
+  border-radius: 4px; /* 12px */
+  box-shadow: var(--shadow-s); 
+  padding: 8px 0px; /*10px*/
+  margin: 0px 1px;
+  width: 60px;
+  height: 90px;
+  min-width: 45px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s ease; /* background 0.3s; */
+}
+
+/* .card:hover {
+  transform: scale(1.05);
+  background: #333;
+} */
+
+.card .number {
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: -7px;
+  padding-top: 0px;
+}
+
+.card .label {
+  font-size: 0.8em;
+  color: var(--text-muted);
+  margin-top: 4px;
+}
+
+
+.underline {
+  width: 36px;
+  height: 1.5px;
+  margin: 1px auto 0;
+  border-radius: 1px;
+}
+
+.task-list {
+  margin-top: 20px;
+  padding-top: 0px;
+  border-top: 1.5px solid #444;
+}
+
+.task-item {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+/* .cards-container .card.active {
+/*   border: 1px solid var(--text-accent); /*让激活卡片采用高亮边框*/
+/*  background-color: var(--background-secondary-alt); 
+/*   transform: scale(1.05);
+/* } */
+
+.cards-container .card.active {
+  background-color: var(--background-modifier-hover); /*var(--interactive-accent)：让激活卡片采用主题强调色背景。*/
+  color: white;
+}
+
+.cards-container .card.active .number,
+.cards-container .card.active .label {
+  color: white;
+}
+
+.cards-container .card.active .underline {
+  background-color: white;
+}

@@ -1,0 +1,14 @@
+{
+  "canvasCardDelimiter": "---",
+  "insertDelimiterOnMerge": false,
+  "splitCardsPerRow": 5,
+  "sortPriority": "yx",
+  "enableBadges": true,
+  "showEdgesAboveCards": true,
+  "defaultSortMode": "position",
+  "mergeCleanupMode": "keep-source",
+  "enablePerformanceMode": false,
+  "enablePerformanceDiagnostics": false,
+  "largeCanvasNodeThreshold": 80,
+  "badgeUpdateDebounceMs": 150
+}

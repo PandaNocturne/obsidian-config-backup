@@ -1,0 +1,1676 @@
+{
+  "Enhanced-editing:add-Line0": [],
+  "workspace:goto-tab-1": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "1"
+    }
+  ],
+  "workspace:goto-tab-2": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "2"
+    }
+  ],
+  "workspace:goto-tab-3": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "3"
+    }
+  ],
+  "workspace:goto-tab-4": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "4"
+    }
+  ],
+  "workspace:goto-tab-5": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "5"
+    }
+  ],
+  "workspace:goto-tab-6": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "6"
+    }
+  ],
+  "Enhanced-editing:paste-text": [],
+  "obsidian-excalidraw-plugin:toggle-lock": [],
+  "various-complements:reload-custom-dictionaries": [],
+  "editing-toolbar:header0-text": [],
+  "global-search-and-replace:search-and-replace": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "H"
+    }
+  ],
+  "editor:open-search-replace": [],
+  "Enhanced-editing:xiahua-text": [],
+  "graph:open": [],
+  "obsidian-textgenerator-plugin:generate-text": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "J"
+    }
+  ],
+  "Enhanced-editing:mouse-left": [],
+  "obsidian-excalidraw-plugin:Downloaded/Add Next Step in Process": [],
+  "复制双链:copy-embed-to-block": [],
+  "Enhanced-editing:del-lines": [],
+  "Enhanced-editing:mouse-up": [],
+  "obsidian-excalidraw-plugin:insert-link": [],
+  "convert-url-to-iframe:url-to-iframe": [],
+  "zk-prefixer": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "T"
+    }
+  ],
+  "editor:insert-link": [],
+  "float-search:open-search-view": [],
+  "global-search:open": [],
+  "obsidian-excalidraw-plugin:save": [],
+  "file-explorer:new-file": [],
+  "quickadd:choice:845a1679-513d-428c-828c-fbb004a6a249": [],
+  "obsidian-zotero-plugin:note-quick-switcher": [],
+  "workspace:close": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "W"
+    }
+  ],
+  "bookmarks:bookmark-current-view": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "B"
+    }
+  ],
+  "persistent-links:persistent-links:repair-links-in-file": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "L"
+    }
+  ],
+  "Enhanced-editing:mouse-right": [],
+  "canvas-presentation:mark-slide-number": [
+    {
+      "modifiers": [],
+      "key": "F3"
+    }
+  ],
+  "editor:open-link-in-new-leaf": [],
+  "obsidian-another-quick-switcher:grep": [],
+  "canvas-block-reference:copy-canvas-card-reference": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "Q"
+    }
+  ],
+  "file-explorer:new-file-in-new-pane": [],
+  "note-refactor-obsidian:app:extract-selection-first-line": [],
+  "float-search:search-obsidian-globally-state": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "F"
+    }
+  ],
+  "workspace:edit-file-title": [],
+  "obsidian-another-quick-switcher:search-command_recent-search": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "O"
+    }
+  ],
+  "obsidian-better-command-palette:open-better-commmand-palette": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "P"
+    }
+  ],
+  "Enhanced-editing:shanchu-text": [],
+  "workspace:next-tab": [],
+  "workspace:previous-tab": [],
+  "Enhanced-editing:text-background1": [],
+  "Enhanced-editing:text-background2": [],
+  "Enhanced-editing:text-background3": [],
+  "Enhanced-editing:text-background4": [],
+  "Enhanced-editing:text-background5": [],
+  "quickadd:choice:a0f51f4e-e4b5-4172-90a2-237da32b71f9": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "S"
+    }
+  ],
+  "Enhanced-editing:text-Color1": [],
+  "Enhanced-editing:text-Color2": [],
+  "Enhanced-editing:text-Color3": [],
+  "Enhanced-editing:text-Color4": [],
+  "Enhanced-editing:text-Color5": [],
+  "obsidian-carry-forward:carry-line-forward-link-only-selection": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "1"
+    }
+  ],
+  "obsidian42-text-transporter:obsidian42-text-transporter-RLA": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "3"
+    }
+  ],
+  "obsidian42-text-transporter:obsidian42-text-transporter-RLT": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "4"
+    }
+  ],
+  "Enhanced-editing:cuti-format": [],
+  "editor:toggle-bullet-list": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "]"
+    }
+  ],
+  "editor:toggle-numbered-list": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "["
+    }
+  ],
+  "Enhanced-editing:gaoliang-text": [],
+  "templater-obsidian:insert-templater": [],
+  "obsidian-pangu:pangu-format": [],
+  "editor:toggle-highlight": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "G"
+    }
+  ],
+  "switcher:open": [],
+  "Enhanced-editing:xiahua-format": [],
+  "Enhanced-editing:add-lines": [],
+  "templater-obsidian:replace-in-file-templater": [],
+  "quickadd:choice:50e5ad2d-65b7-4616-9bf4-4ae76e98eace": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "S"
+    }
+  ],
+  "quickadd:choice:fb87d177-4a4e-4973-83ed-e7752eb2d7c6": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "S"
+    }
+  ],
+  "obsidian-another-quick-switcher:move": [],
+  "file-explorer:move-file": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "M"
+    }
+  ],
+  "editor:toggle-comments": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "/"
+    }
+  ],
+  "editor:toggle-checklist-status": [],
+  "quickadd:choice:008fca10-4aa3-48bb-a3a3-668253b229c9": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "N"
+    }
+  ],
+  "workspace:close-window": [],
+  "Enhanced-editing:mouse-end": [],
+  "workspace:new-tab": [],
+  "editor:delete-paragraph": [],
+  "obsidian-excalidraw-plugin:熊猫别熬夜/GetSelectedTitleLink": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "S"
+    }
+  ],
+  "obsidian-excalidraw-plugin:insert-link-to-element": [],
+  "cycle-in-sidebar:cycle-left-sidebar": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "["
+    }
+  ],
+  "cycle-in-sidebar:cycle-right-sidebar": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "]"
+    }
+  ],
+  "obsidian-zoom:zoom-in": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "."
+    }
+  ],
+  "obsidian-zoom:zoom-out": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "/"
+    }
+  ],
+  "app:open-help": [],
+  "obsidian-excalidraw-plugin:熊猫别熬夜/TextExtractor": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "A"
+    }
+  ],
+  "Enhanced-editing:modify-link-showname": [],
+  "quick-snippets-and-navigation:openSwitcherWithTag1": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "P"
+    }
+  ],
+  "editor:set-heading-1": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "1"
+    }
+  ],
+  "editor:set-heading-2": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "2"
+    }
+  ],
+  "editor:set-heading-3": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "3"
+    }
+  ],
+  "editor:set-heading-4": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "4"
+    }
+  ],
+  "editor:set-heading-5": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "5"
+    }
+  ],
+  "editor:set-heading-6": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "6"
+    }
+  ],
+  "Enhanced-editing:biaoti0-text": [],
+  "Enhanced-editing:biaoti1-text": [],
+  "Enhanced-editing:biaoti2-text": [],
+  "Enhanced-editing:biaoti3-text": [],
+  "Enhanced-editing:biaoti4-text": [],
+  "Enhanced-editing:biaoti5-text": [],
+  "Enhanced-editing:biaoti6-text": [],
+  "quick-snippets-and-navigation:goToNextEmptyLine": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "\\"
+    }
+  ],
+  "quick-snippets-and-navigation:goToPrevEmptyLine": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "\\"
+    }
+  ],
+  "quickadd:choice:5b6f7b46-a2f7-450f-8afb-1dc0d20caa01": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "O"
+    }
+  ],
+  "markdown:toggle-preview": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "E"
+    }
+  ],
+  "links:editor-embed-link": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "L"
+    }
+  ],
+  "wikilinks-to-mdlinks-obsidian:toggle-wiki-md-links": [],
+  "links:editor-unembed-link": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "L"
+    }
+  ],
+  "obsidian-excalidraw-plugin:熊猫别熬夜/QuickerInsertZKCard": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "D"
+    }
+  ],
+  "editor:toggle-blockquote": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "R"
+    }
+  ],
+  "callout-integrator:callout-integrate": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "R"
+    }
+  ],
+  "markdown:add-metadata-property": [],
+  "obs-text-wrapper:quick-tag-one": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "Z"
+    }
+  ],
+  "obsidian-another-quick-switcher:in-file-search": [],
+  "editor:open-search": [],
+  "obs-text-wrapper:quick-tag-two": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "Z"
+    }
+  ],
+  "surfing-key:surfing-obsidian": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "`"
+    }
+  ],
+  "quickadd:choice:a96c3df6-3d1c-4715-b16c-6274729144d0": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "]"
+    }
+  ],
+  "quickadd:choice:88ab70df-2fc4-493b-894d-bee4f2c93474": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "["
+    }
+  ],
+  "quickadd:choice:33298781-153b-484a-931b-155ae186cad8": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "-"
+    }
+  ],
+  "quickadd:choice:8078e5bb-499b-4224-bbb4-0b5ace1ef69e": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "="
+    }
+  ],
+  "quickadd:choice:500a414d-9ca3-486f-b8ea-6265a4b49b7c": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "."
+    }
+  ],
+  "mrj-jump-to-link:activate-jump-to-link": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "'"
+    }
+  ],
+  "bmo-chatbot:open-bmo-chatbot": [],
+  "app:toggle-left-sidebar": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "8"
+    }
+  ],
+  "workspace:goto-last-tab": [],
+  "obsidian-stille:toggleStille": [],
+  "workspace:undo-close-pane": [],
+  "quickadd:choice:d9ab58be-711e-4939-b6ff-bec8004f8726": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "Z"
+    }
+  ],
+  "quickadd:choice:59846a5f-0f43-45a3-a2ef-bce1e6109058": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "Z"
+    }
+  ],
+  "quickadd:choice:7e9fce3d-2856-47a3-9ac5-7707d70a9cfb": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "\\"
+    }
+  ],
+  "quickadd:choice:f7f18732-2fc5-46d5-b8af-675dc803a7ae": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "\\"
+    }
+  ],
+  "obsidian-excalidraw-plugin:PandaScripts/TextExtractor": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "A"
+    }
+  ],
+  "better-comment-toggle:toggle": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "/"
+    }
+  ],
+  "templater-obsidian:create-new-note-from-template": [],
+  "canvas-presentation:next-slide": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "]"
+    }
+  ],
+  "canvas-presentation:previous-slide": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "["
+    }
+  ],
+  "clever-search:clever-search-in-vault": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "F"
+    }
+  ],
+  "bmo-chatbot:prompt-select-generate": [],
+  "bmo-chatbot:rename-note-title": [],
+  "editor:toggle-source": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "'"
+    }
+  ],
+  "obsidian-user-plugins:toggle-Vim-Mode": [],
+  "editor:insert-table": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "T"
+    }
+  ],
+  "note-refactor-obsidian:app:extract-selection-content-only": [],
+  "quickadd:choice:aba07a22-1454-4d4f-b5b9-6fe81b235569": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Tab"
+    }
+  ],
+  "quickadd:choice:2b85970c-43a9-4dbf-9e06-c8a71e5fb0e7": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "S"
+    }
+  ],
+  "grappling-hook:cycle-tabs-across-splits": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Tab"
+    }
+  ],
+  "grappling-hook:cycle-starred-notes": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "Tab"
+    }
+  ],
+  "obsidian-card-view-switcher-plugin:card-view-switcher:open": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Tab"
+    }
+  ],
+  "obsidian-excalidraw-plugin:PandaScripts/QuickerInsertZKCard": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "D"
+    }
+  ],
+  "full-screen-cross-platform:toggle-full-screen": [
+    {
+      "modifiers": [],
+      "key": "F5"
+    }
+  ],
+  "companion:toggle": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "J"
+    }
+  ],
+  "companion:suggest": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "J"
+    }
+  ],
+  "quickadd:choice:93ba6159-2670-4eb3-818d-ce45daf77bd7": [
+    {
+      "modifiers": [],
+      "key": "F2"
+    }
+  ],
+  "quickadd:choice:896cadb8-442d-43ec-a8e4-8c18515d7a47": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "X"
+    }
+  ],
+  "quickadd:choice:dc9697b1-80fa-471d-b030-10a3273df7b0": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "M"
+    }
+  ],
+  "quickadd:choice:945361d3-08cc-4e84-8e95-608f677b01ea": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "V"
+    }
+  ],
+  "quickadd:choice:3ffc0c8d-6b9f-4e71-afa2-f2f152260521": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "\\"
+    }
+  ],
+  "obsidian-math-plus:insert-math-block": [],
+  "quickadd:choice:3cdf057a-774b-4346-86b3-9b39eb359bf0": [
+    {
+      "modifiers": [],
+      "key": "F2"
+    }
+  ],
+  "obsidian-excalidraw-plugin:PandaScripts/QuickSearch": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "F"
+    }
+  ],
+  "obsidian-excalidraw-plugin:PandaScripts/ExcalidrawGlobalSearch": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "F"
+    }
+  ],
+  "obsidian-textgenerator-plugin:generate-text-with-metadata": [],
+  "obsidian-textgenerator-plugin:stop-stream": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "J"
+    }
+  ],
+  "editor:open-link-in-new-window": [],
+  "clever-search:clever-search-in-file": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "F"
+    }
+  ],
+  "various-complements:show-suggestions": [],
+  "loom:bookmark": [],
+  "notion-like-tables:add-column": [],
+  "notion-like-tables:create": [],
+  "obsidian-hotkeys-for-specific-files:000【主页】Home/120【工作】Work/120【工作】Work.md": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "F1"
+    }
+  ],
+  "obsidian-hotkeys-for-specific-files:000【主页】Home/110【标记】Mark/110【标记】Mark.md": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "F2"
+    }
+  ],
+  "open-gate:open-list-gates-modal": [],
+  "quickadd:choice:7c3fffd8-b880-4cad-903b-4c4157992a7a": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "W"
+    }
+  ],
+  "obsidian-paste-as-html:paste-as-html": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "V"
+    }
+  ],
+  "obsidian-emoji-toolbar:emoji-picker:open-picker": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "."
+    }
+  ],
+  "quickadd:choice:9104deb5-8675-4527-9ad6-89a25d938608": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "S"
+    }
+  ],
+  "heycalmdown-navigate-cursor-history:cursor-position-backward": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "="
+    }
+  ],
+  "heycalmdown-navigate-cursor-history:cursor-position-forward": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "-"
+    }
+  ],
+  "auto-card-link:auto-card-link-enhance-selected-url": [],
+  "obsidian-douban-plugin:searcher-douban-import-and-create-file": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "P"
+    }
+  ],
+  "advanced-cursors:copy-line-down": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "ArrowDown"
+    }
+  ],
+  "advanced-cursors:copy-line-up": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "ArrowUp"
+    }
+  ],
+  "quickadd:choice:3e3dacfc-4017-4dd2-97b0-644cd1e9b65b": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "Tab"
+    }
+  ],
+  "custom-tab-key": [],
+  "typewriter-mode:move-typewriter-up": [],
+  "typewriter-mode:move-typewriter-down": [],
+  "typewriter-mode:fullscreen-writing-focus": [
+    {
+      "modifiers": [],
+      "key": "F11"
+    }
+  ],
+  "typewriter-mode:isPluginActivated": [
+    {
+      "modifiers": [],
+      "key": "F10"
+    }
+  ],
+  "quickadd:choice:69e5744c-f78d-4391-a12c-8589989165fb": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "C"
+    }
+  ],
+  "app:toggle-right-sidebar": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "9"
+    }
+  ],
+  "workspace:goto-tab-8": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "8"
+    }
+  ],
+  "workspace:goto-tab-7": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "7"
+    }
+  ],
+  "keyshots:duplicate-line-down": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "ArrowDown"
+    }
+  ],
+  "keyshots:duplicate-line-up": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "ArrowUp"
+    }
+  ],
+  "obsidian-outliner:unfold": [],
+  "obsidian-outliner:fold": [],
+  "obsidian-auto-link-title:auto-link-title-normal-paste": [],
+  "Enhanced-editing:internal-link": [],
+  "Enhanced-editing:shanchu-format": [],
+  "obsidian-linter:lint-file": [],
+  "quickadd:choice:e75e5da7-a2b3-47cd-8f03-8ada713b94fe": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "S"
+    }
+  ],
+  "editor:set-heading-0": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "`"
+    }
+  ],
+  "obsidian-heading-shifter:decrease-heading": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "ArrowLeft"
+    }
+  ],
+  "obsidian-heading-shifter:increase-heading": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "ArrowRight"
+    }
+  ],
+  "creases:toggle-fold-heading-level-1": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "1"
+    }
+  ],
+  "creases:toggle-fold-heading-level-2": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "2"
+    }
+  ],
+  "creases:toggle-fold-heading-level-3": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "3"
+    }
+  ],
+  "creases:toggle-fold-heading-level-4": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "4"
+    }
+  ],
+  "creases:toggle-fold-heading-level-5": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "5"
+    }
+  ],
+  "creases:toggle-fold-heading-level-6": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "6"
+    }
+  ],
+  "creases:toggle-crease": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "C"
+    }
+  ],
+  "table-editor-obsidian:table-control-bar": [],
+  "quickadd:choice:db771769-38f4-4340-b615-98b377d5473e": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "S"
+    }
+  ],
+  "obsidian-text-finder:text-finder-show-find": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "F"
+    }
+  ],
+  "obsidian-text-finder:text-finder-show-find-and-replace": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "H"
+    }
+  ],
+  "quickadd:choice:a563d5e3-201e-4a20-81a5-923d641b4fcd": [
+    {
+      "modifiers": [],
+      "key": "F1"
+    }
+  ],
+  "quickadd:choice:045e67a5-630e-4a3d-af56-96235af95e16": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "N"
+    }
+  ],
+  "editor:save-file": [],
+  "links:editor-embed-unembed-link": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "L"
+    }
+  ],
+  "auto-card-link:auto-card-link-paste-and-enhance": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "P"
+    }
+  ],
+  "keyshots:add-caret-down": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "ArrowDown"
+    }
+  ],
+  "keyshots:add-caret-up": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "ArrowUp"
+    }
+  ],
+  "obsidian-outliner:move-list-item-down": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "ArrowDown"
+    }
+  ],
+  "obsidian-outliner:move-list-item-up": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "ArrowUp"
+    }
+  ],
+  "tab-navigator:load-all-tabs": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Tab"
+    }
+  ],
+  "quickadd:choice:35c79857-209c-44ae-94bf-adc8625ec4da": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "F"
+    }
+  ],
+  "better-plugins-manager:manager-view": [],
+  "obsidian-style-settings:style-settings-class-toggle-【界面-熊猫】自动悬浮两侧菜单栏-left-tab-float-choice": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "["
+    }
+  ],
+  "obsidian-style-settings:style-settings-class-toggle-【界面-熊猫】自动悬浮两侧菜单栏-right-tab-float-choice": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "]"
+    }
+  ],
+  "darlal-switcher-plus:switcher-plus:open": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "O"
+    }
+  ],
+  "obsidian-fullscreen-plugin:fullscreen-focus": [
+    {
+      "modifiers": [],
+      "key": "F4"
+    }
+  ],
+  "quickadd:choice:0f61ba43-63e5-492d-a175-48fb304f9e1b": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "O"
+    }
+  ],
+  "enhanced-copy:copy-all-in-markdown": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "C"
+    }
+  ],
+  "smart-composer:add-selection-to-chat": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "L"
+    }
+  ],
+  "editor:follow-link": [],
+  "inlineai:show-cursor-tooltip": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "K"
+    }
+  ],
+  "typewriter-mode:writing-focus-enable": [
+    {
+      "modifiers": [],
+      "key": "F7"
+    }
+  ],
+  "cursor-position-history:cursor-position-forward": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "ArrowRight"
+    }
+  ],
+  "cursor-position-history:previous-cursor-position": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "ArrowLeft"
+    }
+  ],
+  "enhanced-annotations:insert-a-comment": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "/"
+    }
+  ],
+  "easy-typing-obsidian:easy-typing-delete-blank-line": [],
+  "easy-typing-obsidian:easy-typing-insert-codeblock": [],
+  "easy-typing-obsidian:easy-typing-format-selection": [],
+  "easy-typing-obsidian:easy-typing-format-article": [],
+  "easy-typing-obsidian:easy-typing-paste-without-format": [],
+  "local-gpt:quick-access-2": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "J"
+    }
+  ],
+  "easy-typing-obsidian:easy-typing-format-switch": [],
+  "latex-ocr:paste-latex-from-clipboard": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "V"
+    }
+  ],
+  "vertical-tabs:toggle-zen-mode": [
+    {
+      "modifiers": [],
+      "key": "F5"
+    },
+    {
+      "modifiers": [],
+      "key": "F4"
+    }
+  ],
+  "vertical-tabs:zoom-in-current-tab": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "="
+    }
+  ],
+  "tab-selector:search-tabs": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Tab"
+    }
+  ],
+  "editor:insert-footnote": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "0"
+    }
+  ],
+  "workspace:split-vertical": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "\\"
+    }
+  ],
+  "workspace:split-horizontal": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "\\"
+    }
+  ],
+  "coco-askai:new-question": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "J"
+    }
+  ],
+  "editor:open-link-in-new-split": [],
+  "coco-askai:continue-focus-win": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "J"
+    }
+  ],
+  "editor:fold-all": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "`"
+    }
+  ],
+  "simple-mind-map:save-smm-mindmap-and-update-image": [],
+  "keyshots:toggle-all-callouts-fold-state": [],
+  "keyshots:move-selected-lines-down": [],
+  "editor:cycle-list-checklist": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "O"
+    }
+  ],
+  "keyshots:move-selected-lines-up": [],
+  "keyshots:duplicate-tab": [],
+  "keyshots:duplicate-selection-or-line": [],
+  "keyshots:indent": [],
+  "keyshots:open-all-foldable-callouts": [],
+  "keyshots:select-all-word-instances": [],
+  "keyshots:sort-selected-lines": [],
+  "keyshots:unindent": [],
+  "keyshots:toggle-keyboard-input": [],
+  "keyshots:close-all-foldable-callouts": [],
+  "keyshots:reopen-current-note": [],
+  "keyshots:expand-line-selections": [],
+  "obsidian-tasks-plugin:edit-task": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "K"
+    }
+  ],
+  "keyshots:better-insert-callout": [],
+  "keyshots:toggle-uri-encoded-or-decoded": [],
+  "keyshots:transform-selections-to-lowercase": [],
+  "keyshots:trim-selections": [],
+  "keyshots:transform-selections-to-titlecase": [],
+  "keyshots:toggle-underline": [],
+  "keyshots:toggle-snake-case": [],
+  "keyshots:toggle-kebab-case": [],
+  "keyshots:toggle-focus-mode": [],
+  "keyshots:toggle-case-jetbrains": [],
+  "keyshots:switch-keyshots-case-sensitivity": [],
+  "keyshots:switch-readable-length-setting": [],
+  "keyshots:switch-line-numbers-setting": [],
+  "keyshots:split-selections-on-new-line": [],
+  "keyshots:switch-inline-title-setting": [],
+  "keyshots:split-selections-by-lines": [],
+  "keyshots:shuffle-selected-lines": [],
+  "keyshots:select-multiple-word-instances": [],
+  "keyshots:open-keyshots-settings-tab": [],
+  "keyshots:replace-by-regex": [],
+  "keyshots:search-by-regex": [],
+  "keyshots:reverse-selected-lines": [],
+  "keyshots:join-selected-lines": [],
+  "keyshots:insert-ordinal-numbering": [],
+  "keyshots:insert-table": [],
+  "theme:toggle-light-dark": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "T"
+    }
+  ],
+  "virtual-linker:convert-selected-virtual-links": [
+    {
+      "modifiers": [],
+      "key": "F3"
+    }
+  ],
+  "obsidian-focus-mode:toggle-super-focus-mode": [
+    {
+      "modifiers": [],
+      "key": "F5"
+    }
+  ],
+  "obsidian-focus-mode:toggle-focus-mode": [],
+  "copilot:chat-open-window": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "L"
+    }
+  ],
+  "copilot:add-selection-to-chat-context": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "K"
+    }
+  ],
+  "claudian:inline-edit": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "K"
+    }
+  ],
+  "claudian:open-view": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "L"
+    }
+  ],
+  "force-read-mode:toggle-force-read-mode": [
+    {
+      "modifiers": [],
+      "key": "F6"
+    }
+  ],
+  "maximise-active-pane-obsidian:maximise-active-pane": [
+    {
+      "modifiers": [],
+      "key": "F5"
+    }
+  ],
+  "quickadd:choice:d5225627-9c9d-4a5a-8647-030deaa9f629": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "N"
+    }
+  ],
+  "obsidian-style-settings:style-settings-class-toggle-【界面-熊猫】自动悬浮两侧侧边栏-right-tab-float-choice": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "]"
+    }
+  ],
+  "obsidian-style-settings:style-settings-class-toggle-【界面-熊猫】自动悬浮两侧侧边栏-left-tab-float-choice": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "["
+    }
+  ],
+  "block-link-plus:file-outliner-toggle-task-marker": [],
+  "block-link-plus:file-outliner-toggle-task-status": [],
+  "bookmarks-caller:open-bookmarks-caller": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "Tab"
+    }
+  ],
+  "advanced-search-ui:open-floating-search-panel": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "F"
+    }
+  ],
+  "text-finder:text-finder-show-find-and-replace": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "H"
+    }
+  ],
+  "password-manager:open-manager": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "P"
+    }
+  ],
+  "keyshots:change-keyshots-preset": [],
+  "yolo:open-new-chat": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "L"
+    }
+  ],
+  "colorful-sticky-notes:open-sticky-workspace-panel": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Tab"
+    }
+  ],
+  "colorful-stickynotes:open-sticky-workspace-panel": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Tab"
+    }
+  ],
+  "sfb-better-search-and-replace:find-and-replace": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "F"
+    },
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "H"
+    }
+  ],
+  "workspace-plus-plus:duplicate-session": [],
+  "workspace-plus-plus:save-current-session": [],
+  "workspace-plus-plus:next-group": [],
+  "workspace-plus-plus:next-session": [],
+  "workspace-plus-plus:manage-sessions": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Tab"
+    }
+  ],
+  "workspace-plus-plus:delete-session": [],
+  "workspace-plus-plus:previous-session": [],
+  "quickadd:choice:9c7cf6ad-f117-4f09-bf98-4b508ff3bb7d": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "Tab"
+    }
+  ],
+  "super-zen:toggle-super-zen": [
+    {
+      "modifiers": [],
+      "key": "F4"
+    }
+  ]
+}

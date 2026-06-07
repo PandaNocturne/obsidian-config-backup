@@ -1,0 +1,98 @@
+/* !添加多彩标签页 在stacked和非stacked模式下都生效  */
+.theme-light {
+
+  .workspace .mod-root .workspace-tabs .workspace-tab-header:nth-child(10n+1) {
+    background-color: #ffebee;
+    color: #c62828;
+  }
+
+  .workspace .mod-root .workspace-tabs .workspace-tab-header:nth-child(10n+2) {
+    background-color: #e3f2fd;
+    color: #1565c0;
+  }
+
+  .workspace .mod-root .workspace-tabs .workspace-tab-header:nth-child(10n+3) {
+    background-color: #e8f5e9;
+    color: #2e7d32;
+  }
+
+  .workspace .mod-root .workspace-tabs .workspace-tab-header:nth-child(10n+4) {
+    background-color: #fffde7;
+    color: #f9a825;
+  }
+
+  .workspace .mod-root .workspace-tabs .workspace-tab-header:nth-child(10n+5) {
+    background-color: #f3e5f5;
+    color: #6a1b9a;
+  }
+
+  .workspace .mod-root .workspace-tabs .workspace-tab-header:nth-child(10n+6) {
+    background-color: #fbe9e7;
+    color: #d84315;
+  }
+
+  .workspace .mod-root .workspace-tabs .workspace-tab-header:nth-child(10n+7) {
+    background-color: #e0f7fa;
+    color: #00838f;
+  }
+
+  .workspace .mod-root .workspace-tabs .workspace-tab-header:nth-child(10n+8) {
+    background-color: #f9fbe7;
+    color: #827717;
+  }
+
+  .workspace .mod-root .workspace-tabs .workspace-tab-header:nth-child(10n+9) {
+    background-color: #ede7f6;
+    color: #4527a0;
+  }
+
+  .workspace .mod-root .workspace-tabs .workspace-tab-header:nth-child(10n) {
+    background-color: #f1f8e9;
+    color: #33691e;
+  }
+
+}
+
+/* 深色模式下的多彩tab配色 */
+.theme-dark {
+  .workspace .mod-root .workspace-tabs .workspace-tab-header:nth-child(10n+1) {
+    background-color: #2d2323;
+    color: #ff8a80;
+  }
+  .workspace .mod-root .workspace-tabs .workspace-tab-header:nth-child(10n+2) {
+    background-color: #1a237e;
+    color: #90caf9;
+  }
+  .workspace .mod-root .workspace-tabs .workspace-tab-header:nth-child(10n+3) {
+    background-color: #1b5e20;
+    color: #a5d6a7;
+  }
+  .workspace .mod-root .workspace-tabs .workspace-tab-header:nth-child(10n+4) {
+    background-color: #f9a825;
+    color: #fffde7;
+  }
+  .workspace .mod-root .workspace-tabs .workspace-tab-header:nth-child(10n+5) {
+    background-color: #4a148c;
+    color: #e1bee7;
+  }
+  .workspace .mod-root .workspace-tabs .workspace-tab-header:nth-child(10n+6) {
+    background-color: #bf360c;
+    color: #ffccbc;
+  }
+  .workspace .mod-root .workspace-tabs .workspace-tab-header:nth-child(10n+7) {
+    background-color: #006064;
+    color: #b2ebf2;
+  }
+  .workspace .mod-root .workspace-tabs .workspace-tab-header:nth-child(10n+8) {
+    background-color: #827717;
+    color: #f9fbe7;
+  }
+  .workspace .mod-root .workspace-tabs .workspace-tab-header:nth-child(10n+9) {
+    background-color: #4527a0;
+    color: #ede7f6;
+  }
+  .workspace .mod-root .workspace-tabs .workspace-tab-header:nth-child(10n) {
+    background-color: #33691e;
+    color: #f1f8e9;
+  }
+}

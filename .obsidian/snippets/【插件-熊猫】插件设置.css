@@ -1,0 +1,769 @@
+/* ! 插件：MySnippet */
+.MySnippets-statusbar-menu,
+.menu.snipdock-menu {
+  min-width: 50vw !important;
+  max-height: 80vh !important;
+
+  /* display: block !important;
+  column-width: 320px; */
+  .menu-scroll.menu-scroll.menu-scroll {
+    display: block !important;
+    column-width: 320px;
+    column-rule: 1px solid var(--background-modifier-border);
+    width: 100%;
+    height: 100%;
+  }
+
+  .menu-scroll+.menu-item {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+/* !better search and replace */
+.bsr-search-bar{
+  position: absolute;
+  top: 100px;
+  right: 100px;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 5px;
+  min-width: 500px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* !scroll top */
+
+.div-scrollToBottom,
+.div-scrollToTop,
+.div-scrollToCursor{
+  z-index: 1 !important;
+  right: 40px !important;
+}
+
+/*! !tasks  */
+/* tasks查询工具顶部浮动，hover 出现 */
+.block-language-tasks>div {
+  position: relative;
+}
+
+.plugin-tasks-toolbar {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0px;
+  /* transform: translateX(-50%); */
+  /* z-index: 999; */
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+}
+
+.block-language-tasks:hover .plugin-tasks-toolbar,
+.plugin-tasks-toolbar:hover {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.tasks-group-heading {
+  margin: 14px 0px !important;
+}
+
+/* ! task board */
+.EditTaskModalHomeModalTitle{
+  display: none;
+}
+
+/* !bookmark caller */
+div.modal.bookmarks-caller-modal.bc-modal {
+  /* 缩放 */
+  transform: scale(1);
+}
+
+/* !taskboard */
+.subtask-progress-bar-bg {
+  width: 70%;
+}
+
+.taskItemTag::content="taskNote" {
+  display: none;
+}
+
+/* !taskboard 任务板 */
+[modal-type="task-board-scan-vault-modal"] {
+  width: 60vw !important;
+  max-width: 60vw !important;
+}
+
+/* !Multiple Notes Outline */
+/* .view-content> .nav-files-container{
+  display: block;
+  column-width: 360px;
+  column-gap: 10px;
+  column-fill:auto;
+  overflow-y: auto;
+} */
+
+/* !hover editor */
+.popover-content div.cg-note-toolbar-container {
+  display: none !important;
+}
+
+.popover-content .markdown-source-view * {
+  /* 字体变小 */
+  font-size: 16px;
+
+  .cm-scroller {
+    padding: 0 !important;
+  }
+
+  .cm-gutterElement {
+    display: none;
+  }
+}
+
+/* !code block customizer */
+/* 修复行高异常问题 */
+.codeblock-customizer-line.codeblock-customizer-line.codeblock-customizer-line::after {
+  display: none !important;
+}
+
+/* !nav-link-header */
+
+.nav-link-header-container.svelte-j2s0p4 {
+  display: flex;
+  justify-content: center;
+}
+
+/* !Component */
+/*
+.components--DynamicDataView-PageCard {
+  background-color: var(--background-modifier-border);
+}
+ */
+
+
+.components-CardComponentMainTitleLabel {
+  font-size: 0.8rem !important;
+}
+
+.components--DynamicDataView-PageCardCoverPreviewContent {
+  height: 100%;
+  max-height: 250px;
+}
+
+
+.components--CalendarDynamicDataView .components--DynamicDataView-PageTitle {
+  /* font-size: var(--font-ui-small); */
+  text-align: justify;
+}
+
+
+.react-grid-item.cssTransforms {
+  transition-property: none;
+}
+
+/* !插件 markmind */
+.mm-node-menu {
+  width: fit-content !important;
+  /* width: 242px; */
+}
+
+/* !插件：modal open */
+.modal-opener:has(.workspace-leaf-content[data-type="markdown"]) {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+
+
+
+/* ! tab Select 标签页的调整 */
+.prompt.tab-search-modal.tse-modal .prompt-results {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: min-content;
+
+  .suggestion-item {
+    border: 1px solid var(--background-modifier-border);
+  }
+
+}
+
+.prompt.tab-search-modal.tse-modal {
+  top: 15vh;
+  width: 50vw;
+  height: 60vh;
+  overflow: auto;
+}
+
+/* !插件：link navigator head */
+
+/* !link navigator */
+.link-navigator-controls .depth-and-buttons-wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+  /* .depth-control{
+
+  } */
+  .button-container {
+    position: relative;
+    bottom: 0 !important;
+    /* left:0 !important; */
+
+  }
+}
+
+
+
+.link-navigator-details-wrapper {
+  width: 100%;
+
+  .link-navigator-details.visible {
+
+    width: max-content;
+    display: block;
+
+    .depth-and-buttons-wrapper {
+      .button-container {
+        left: unset;
+        transform: unset;
+        /* right: 0px; */
+      }
+    }
+  }
+}
+
+.view-header-title {
+  flex: 0 1 auto;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* !插件：Smart Composer */
+
+.smtcmp-chat-container {
+
+  .obsidian-default-textarea,
+  .smtcmp-markdown *,
+  .markdown-rendered {
+    font-size: large !important;
+  }
+}
+
+/* !插件：inlineAI */
+div:has(>.cm-cursor-overlay) {
+  z-index: var(--layer-tooltip);
+  position: sticky !important;
+  top: 10vh;
+}
+
+
+/* !插件：Dynamic Outline*/
+button[aria-label="Toggle Dynamic Outline"] {
+  position: absolute;
+  top: 100px;
+  right: 20px;
+
+  transform: scale(1.2);
+
+  border: 0.1px solid var(--background-modifier-border);
+  box-shadow: 1.1px 0.3px 2.2px rgba(0, 0, 0, 0.02),
+    2.7px 0.7px 5.3px rgba(0, 0, 0, 0.028), 5px 1.3px 10px rgba(0, 0, 0, 0.035),
+    8.9px 2.2px 17.9px rgba(0, 0, 0, 0.042),
+    16.7px 4.2px 33.4px rgba(0, 0, 0, 0.05), 40px 10px 80px rgba(0, 0, 0, 0.07);
+}
+
+#dynamic-outline {
+  top: calc(var(--dynamic-outline-top) + 20px) !important;
+}
+
+
+/* ! 插件：AnotherQuickSwitch */
+
+/* 2023-12-15_17:28:52 取消阴暗效果 */
+.modal-bg.another-quick-switcher__floating-modal-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-color: var(--background-modifier-cover); */
+  background-color: transparent;
+}
+
+/* 2023-12-15_17:29:44 稍微移动出现位置 */
+.another-quick-switcher__floating-prompt {
+  width: min(500px, 30vw);
+  /* margin: 0 50px; */
+  opacity: 0.9;
+  box-shadow: none;
+}
+
+/* !Another Switcher 计数*/
+/* .prompt-results {
+  counter-reset: innerCounter 0;
+}
+
+.prompt-results>.suggestion-item>.another-quick-switcher__item::before {
+  content: counters(innerCounter, ".") " ";
+  counter-increment: innerCounter;
+} */
+
+/* ! 插件：Thino */
+/* 输入框字体大小 已知预览大小默认为18px*/
+div[data-type="thino_view"] .markdown-source-view.mod-cm6 .cm-content>* {
+  font-size: 18px !important;
+}
+
+div[data-type="thino_view"] #page-wrapper {
+  border-radius: 0px !important;
+}
+
+/* ! 插件：VariousComplements */
+/* 2024-01-07_12:41:40 取消状态栏显示，有点太占位置了 */
+body>div.app-container>div.status-bar>div.status-bar-item.plugin-various-complements {
+  display: none;
+}
+
+/* !插件：dateview */
+/* .block-language-dataviewjs,
+.block-language-dataview {
+  max-height: 500px;
+  overflow: auto;
+} */
+
+
+/* ! 修改tagFolder与Novel word count的冲突 by 熊猫 2023-12-25_15:32:39*/
+.tagfolder-quantity span,
+.tagfolder-quantity span:hover {
+  position: absolute;
+  color: var(--tab-color);
+  width: 2rem;
+  text-align: center;
+  top: 1px;
+  right: 1.8rem;
+}
+
+/* 隐藏掉tagFolder的文字部分 */
+body>div.app-container>div.horizontal-main-container>div>div.workspace-split.mod-horizontal.mod-left-split>div.workspace-tabs.mod-top.mod-top-left-space>div.workspace-tab-container>div:nth-child(4)>div>div.nav-files-container.node-insert-event.svelte-1xm87ro>div>div.tree-item-self.nav-folder-title>div {
+  display: none;
+}
+
+/* ! clever search */
+
+/* ! better view */
+/* 2023-12-21_19:23:00 better view  */
+.better-search-views-file-match.markdown-rendered>*,
+.better-search-views-file-match.markdown-rendered>* {
+  font-size: 15px;
+}
+
+/* 2023-12-27_21:08:55 高亮样式 */
+/* .search-result-file-matched-text {
+  border-radius: 3px;
+  background: #3c3f50 !important;
+  color: #4ffa7b !important;
+} */
+
+
+
+/* ! hide folder */
+body>div.app-container>div.status-bar>div.status-bar-item.plugin-hide-folders {
+  display: none;
+}
+
+
+/* !Banner */
+/* [2024-03-28_ObsidianCSS：Banner插件bug样式修复 by 微信-Vran-周骅](obsidian://advanced-uri?vault=PandaNotes&uid=20240328113426276) */
+/* .obsidian-banner-wrapper {
+  margin-top: 0 !important;
+  padding-top: 0;
+}
+
+.markdown-preview-view:has(.obsidian-banner-wrapper) {
+  padding-top: calc(var(--banner-height) + var(--file-margins));
+} */
+
+/* !OZ Calendar */
+.oz-calendar-plugin-view .react-calendar__tile--active {
+  background-color: unset !important;
+  border-width: 1px;
+  border-color: var(--oz-calendar-selected-day-background) !important;
+}
+
+/*!插件 project-browser  */
+/* .project-browser_back-button-and-path, */
+/* .project-browser_section-header, */
+.project-browser_current-folder-menu {
+  display: none;
+}
+
+/* !Sticky Head */
+.obsidian-sticky-heading {
+  background-color: var(--background-primary);
+}
+
+.obsidian-sticky-heading::before {
+  content: attr(data-obsidian-sticky-heading_level);
+  position: absolute;
+  left: -30px;
+  top: 11px;
+  text-align: right;
+  font-weight: normal;
+  font-size: 14px;
+  /* background-color: var(--text-faint); */
+  /* color: unset; */
+  border-radius: 10%;
+}
+
+.obsidian-sticky-heading.HyperMD-header-1::before {
+  color: var(--background-primary);
+  background-color: var(--h1-indicator-color);
+}
+
+.obsidian-sticky-heading.HyperMD-header-2::before {
+  color: var(--background-primary);
+  background-color: var(--h2-indicator-color);
+}
+
+.obsidian-sticky-heading.HyperMD-header-3::before {
+  color: var(--background-primary);
+  background-color: var(--h3-indicator-color);
+}
+
+.obsidian-sticky-heading.HyperMD-header-4::before {
+  color: var(--background-primary);
+  background-color: var(--h4-indicator-color);
+}
+
+.obsidian-sticky-heading.HyperMD-header-5::before {
+  color: var(--background-primary);
+  background-color: var(--h5-indicator-color);
+}
+
+.obsidian-sticky-heading.HyperMD-header-6::before {
+  color: var(--background-primary);
+  background-color: var(--h6-indicator-color);
+}
+
+body {
+  --h1-indicator-color: #fe7968;
+  --h2-indicator-color: #f39c12;
+  --h3-indicator-color: #e5c700;
+  --h4-indicator-color: #78ba7e;
+  --h5-indicator-color: #038aff;
+  --h6-indicator-color: #9455ec;
+}
+
+/*! Visually Numbered Headings */
+/* container of first layer headings. */
+.workspace-leaf-content[data-type="outline"] {
+  counter-reset: rootCounter;
+
+  .tree-item .tree-item-self .tree-item-inner::before {
+    content: counters(rootCounter, ".") ". ";
+    counter-increment: rootCounter;
+  }
+
+  /* container of the ohter headings. */
+  /* NOTE: It is not .outline anymore. So we need a new counter */
+  .tree-item-children {
+    counter-reset: innerCounter;
+  }
+
+  .tree-item-children .tree-item .tree-item-self .tree-item-inner::before {
+    content: counters(rootCounter, ".") "." counters(innerCounter, ".") ". ";
+    counter-increment: innerCounter;
+  }
+}
+
+
+
+
+/* !glossary */
+.virtual-link {
+  background-color: unset;
+}
+
+.virtual-link-default {
+  filter: brightness(1);
+}
+
+.internal-link.virtual-link-a,
+.internal-link.virtual-link-a:hover {
+  color: inherit;
+  text-decoration: var(--interactive-accent) wavy underline;
+  text-decoration-thickness: 1px;
+}
+
+.internal-link.virtual-link-a::after {
+  display: unset !important;
+}
+
+/* 多个链接 */
+.multiple-files-indicator {
+  display: none;
+}
+
+span:has(>span+a.virtual-link-a),
+.multiple-files-references {
+  display: inline-block !important;
+  font-size: 1rem !important;
+  position: relative;
+  transform: translateY(-0.5rem);
+  text-decoration: none;
+
+  &>a {
+    text-decoration: none !important;
+    color: var(--interactive-accent) !important;
+  }
+}
+
+
+/*! dust Calendar by 熊猫别熬夜 2024-06-21_15-18 */
+.calendar-header-container {
+  display: flex;
+  flex-direction: row;
+
+  & .calendar-header-row>div {
+    flex: 1;
+  }
+
+  & .calendar-header-row:hover svg {
+    visibility: visible !important;
+  }
+
+  & .calendar-header-content-year {
+    width: 4rem;
+  }
+
+  & .calendar-header-block-quarter {
+    margin-left: 10px;
+  }
+
+  & .calendar-header-content-quarter {
+    width: 1rem;
+  }
+
+  & .calendar-header-content-month {
+    width: 2rem;
+  }
+
+  & .calendar-header-row .statistic-label:empty {
+    display: none;
+  }
+}
+
+/* 设置圆形选中项 */
+.month-view-day-item {
+  width: 35px;
+  height: 35px;
+}
+
+div.d-selected-item.month-view-day-item {
+  border-radius: 50%;
+}
+
+/* 添加背景图片 by 熊猫 2024-06-24_03-43 */
+/* .workspace-leaf-content[data-type="calendar-view"] {
+  content: "";
+  background-image: url(https://raw.githubusercontent.com/PandaNocturne/ImageAssets/main/Obsidian/202406240355304.png);
+  background-size: cover;
+  filter: blur(0px) contrast(1) saturate(1) brightness(1);
+  height: 100%;
+  width: 100%;
+} */
+
+
+/* ! Code styler 插件 */
+/* 2024-06-24_18-23 移除复制的悬浮出现动画 一直显示 */
+/* pre.code-styler-pre button.copy-code-button,
+pre.code-styler-pre button.run-code-button,
+.markdown-source-view.mod-cm6 .HyperMD-codeblock.code-styler-line span.code-block-flair {
+  margin-right: var(--copy-code-header-right-margin) !important;
+}
+
+pre.code-styler-pre.code-styler-folded button,
+pre.code-styler-pre:not(.code-styler-folded) button,
+pre.code-styler-pre:not(.code-styler-folded) .code-styler-header-container::after {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+
+pre.code-styler-pre button.copy-code-button:hover, pre.code-styler-pre button.run-code-button:hover, .markdown-source-view.mod-cm6 .HyperMD-codeblock.code-styler-line span.code-block-flair:hover {
+  animation: none;
+  clip-path: none !important;
+}
+
+pre.code-styler-pre button.copy-code-button:not(:active), pre.code-styler-pre button.run-code-button:not(:active), .markdown-source-view.mod-cm6 .HyperMD-codeblock.code-styler-line span.code-block-flair:not(:active) {
+  animation: none !important;
+} */
+
+
+
+/* !auto focus mode*/
+
+.hidden-tree-element {
+  display: none;
+}
+
+/* !插件 kanban */
+/* .kanban-plugin__item-button-wrapper, */
+.kanban-plugin__lane-items.kanban-plugin__vertical.kanban-plugin__scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+.workspace-leaf-content:has(.kanban-plugin) .view-header {
+  /* display: none !important; */
+}
+
+.HyperMD-header::after {
+  /* display: none; */
+}
+
+div.kanban-plugin__item-input-wrapper .markdown-source-view.mod-cm6 .cm-gutters {
+  display: none;
+}
+
+/*! Excalidraw */
+
+.excalidraw .Island:has(.App-menu__left) {
+  background-color: var(--interactive-accent);
+}
+
+/* ! show whitespace */
+.cm-trailingSpace {
+  background-color: transparent !important;
+}
+
+/* ! note tool bar */
+/* .cg-note-toolbar-fab-container {
+  right: 30px;
+  position: absolute;
+  top: 120px;
+} */
+
+/* .workspace-split.mod-horizontal.mod-sidedock.mod-left-split [role="menu"] {
+  display: none !important;
+} */
+
+/* 左右侧不显示 */
+.workspace-split.mod-horizontal.mod-right-split,
+.workspace-split.mod-horizontal.mod-left-split {
+  .cg-note-toolbar-container {
+    display: none;
+  }
+}
+
+/* ! components*/
+.components--embed-view {
+  width: 100%;
+}
+
+/* !lapel */
+
+.cm-gutter.cm-lapel {
+
+  /* .cm-gutterElement, */
+  .cm-heading-marker {
+    scale: 1.3;
+    margin-right: 2px;
+    color: var(--interactive-accent);
+
+  }
+
+
+}
+
+
+/* ! folder notes */
+
+.folder-overview-title {
+  display: none !important;
+}
+
+/* folder overview 的显示*/
+/* ul.folder-overview-list {
+  display: block;
+  column-width: 500px;
+  column-fill: balance;
+  font-size: 20px;
+
+  &>li {
+    list-style-type: decimal-leading-zero;
+
+    ul>li {
+      list-style-type: lower-alpha;
+    }
+  }
+} */
+
+/* ul.folder-overview-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+} */
+
+/* .folder-overview-title+ul.folder-overview-list:not(:has(ul>li)) {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 20px;
+} */
+
+/* !插件: rich foot */
+
+
+/* !Project */
+.svelte-16vy86e.svelte-16vy86e.svelte-16vy86e {
+  text-wrap: wrap;
+}
+
+/* ! Lineage */
+.view-content:has(>.lineage-view) {
+  padding: 0px !important;
+}
+
+/* ! canvas minimap */
+/* #_minimap_ {
+  pointer-events: all !important;
+  margin: 20px 20px !important;
+  background-color: var(--background-primary) !important;
+  opacity: 0.9 !important;
+
+  &>svg {
+    padding: 10px !important;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  #minimap_fg {
+    opacity: 0.6 !important;
+  }
+
+  border: none !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18) !important;
+} */
+
+/* !moy佬 yearly glance */
+.view-content:has(.yg-view) {
+  padding: 0px;
+
+  .yearly-calendar {
+    padding: 0px 10px;
+  }
+}
+
+/* !bon tasks genuis */
+
+.task-details-container {
+  width: 500px;
+}

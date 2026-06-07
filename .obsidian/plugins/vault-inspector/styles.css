@@ -1,0 +1,101 @@
+/* Vault Inspector */
+
+.vault-inspector { padding: 16px; font-size: 14px; }
+
+.vi-progress, .vi-empty { padding: 32px; text-align: center; color: var(--text-muted); font-size: 15px; }
+.vi-empty-btn { margin-top: 12px; padding: 8px 24px; border-radius: 6px; border: none; background: var(--interactive-accent); color: var(--text-on-accent); font-size: 14px; cursor: pointer; }
+.vi-empty-btn:hover { opacity: 0.85; }
+.vi-empty-hint { margin-top: 16px; font-size: 12px; color: var(--text-faint); max-width: 280px; margin-inline: auto; line-height: 1.5; }
+
+.vi-summary h2 { margin: 0 0 12px; font-size: 18px; }
+
+.vi-stats { display: flex; gap: 16px; margin-bottom: 12px; }
+
+.vi-stat { display: flex; flex-direction: column; align-items: center; padding: 8px 16px; border-radius: 6px; background: var(--background-secondary); min-width: 80px; }
+.vi-stat-clickable { cursor: pointer; transition: opacity 0.15s; }
+.vi-stat-clickable:hover { opacity: 0.75; }
+.vi-stat-value { font-size: 22px; font-weight: 700; }
+.vi-stat-label { font-size: 11px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; }
+
+.vi-stat-error .vi-stat-value { color: var(--text-error); }
+.vi-stat-warning .vi-stat-value { color: #e5a100; }
+.vi-stat-info .vi-stat-value { color: var(--text-muted); }
+
+.vi-meta { display: flex; gap: 16px; color: var(--text-muted); font-size: 12px; margin-bottom: 16px; }
+
+/* Toolbar */
+.vi-toolbar { display: flex; align-items: center; margin-bottom: 12px; gap: 6px; flex-wrap: wrap; }
+.vi-filter-group { display: flex; gap: 6px; flex-wrap: wrap; }
+.vi-filter-btn { font-size: 12px; padding: 6px 12px; border-radius: 4px; border: 1px solid var(--background-modifier-border); background: var(--background-secondary); color: var(--text-muted); cursor: pointer; white-space: nowrap; flex: 1 1 auto; text-align: center; }
+.vi-filter-btn.vi-active { background: var(--interactive-accent); color: var(--text-on-accent); border-color: var(--interactive-accent); }
+.vi-filter-btn:hover, .vi-filter-btn:active { opacity: 0.85; }
+.vi-select-btn { display: inline-flex; align-items: center; gap: 4px; }
+
+/* Scanner sections */
+.vi-scanner-section { margin-bottom: 16px; }
+.vi-scanner-header { font-size: 15px; margin: 12px 0 6px; padding-bottom: 4px; border-bottom: 1px solid var(--background-modifier-border); }
+.vi-no-issues { color: var(--text-muted); font-style: italic; padding: 4px 0; }
+
+/* Issue list */
+.vi-issue-list { list-style: none; padding: 0; margin: 0; }
+.vi-issue { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px; padding: 10px 12px; border-radius: 4px; }
+.vi-issue:hover { background: var(--background-secondary); }
+.vi-issue.vi-selectable { cursor: pointer; }
+.vi-issue.vi-selected { background: rgba(var(--interactive-accent-rgb, 64, 133, 235), 0.1); }
+
+.vi-severity-badge { font-size: 10px; font-weight: 700; padding: 1px 6px; border-radius: 3px; text-transform: uppercase; letter-spacing: 0.5px; }
+.vi-severity-error .vi-severity-badge { background: rgba(255, 60, 60, 0.15); color: var(--text-error); }
+.vi-severity-warning .vi-severity-badge { background: rgba(229, 161, 0, 0.15); color: #e5a100; }
+.vi-severity-info .vi-severity-badge { background: var(--background-secondary); color: var(--text-muted); }
+
+.vi-issue-title { font-weight: 500; }
+.vi-issue-path { color: var(--text-muted); font-size: 12px; font-family: var(--font-monospace); overflow-wrap: anywhere; cursor: pointer; }
+.vi-issue-path:hover { text-decoration: underline; }
+.vi-issue-message { width: 100%; color: var(--text-muted); font-size: 12px; padding-left: 4px; }
+
+.vi-issue-checkbox { margin: 0 4px 0 0; cursor: pointer; }
+.vi-toggle-all { display: inline-flex; align-items: center; cursor: pointer; }
+
+.vi-ignored { opacity: 0.5; }
+
+/* Ignored section */
+.vi-ignored-section { margin-top: 24px; border-top: 1px solid var(--background-modifier-border); padding-top: 12px; }
+.vi-ignored-header { display: flex; align-items: center; justify-content: space-between; gap: 6px; padding: 6px 0; color: var(--text-muted); font-size: 14px; font-weight: 500; }
+.vi-ignored-header .vi-filter-btn { flex: 0 0 auto; }
+.vi-ignored-header-left { display: flex; align-items: center; gap: 6px; cursor: pointer; }
+.vi-ignored-header-left:hover { color: var(--text-normal); }
+.vi-ignored-chevron { display: inline-flex; width: 16px; height: 16px; }
+.vi-ignored-body { padding-top: 8px; }
+.vi-ignored-list .vi-issue { opacity: 0.7; }
+.vi-ignored-list .vi-issue.vi-selected { opacity: 1; }
+
+/* Selection action bar */
+.vi-action-bar { display: flex; align-items: center; justify-content: space-between; padding: 8px 12px; margin-bottom: 12px; border-radius: 6px; background: var(--background-secondary); border: 1px solid var(--background-modifier-border); }
+.vi-action-bar-left, .vi-action-bar-right { display: flex; align-items: center; gap: 6px; }
+.vi-action-btn { font-size: 12px; padding: 5px 10px; border-radius: 4px; border: 1px solid var(--background-modifier-border); background: transparent; color: var(--text-muted); cursor: pointer; display: inline-flex; align-items: center; gap: 4px; }
+.vi-action-btn:hover { background: var(--background-modifier-hover); }
+.vi-action-btn.vi-action-delete { color: var(--text-error); }
+.vi-action-btn.vi-action-delete:hover { background: rgba(255, 60, 60, 0.1); }
+
+/* Narrow screens (Obsidian mobile, small tablets) */
+@media (max-width: 500px) {
+	.vault-inspector { padding: 10px; }
+	.vi-stats { flex-wrap: wrap; gap: 8px; }
+	.vi-stat { min-width: 60px; flex: 1 1 calc(50% - 4px); padding: 6px 10px; }
+	.vi-meta { flex-wrap: wrap; gap: 8px; }
+	.vi-action-bar { flex-direction: column; gap: 8px; }
+}
+
+/* Back to top */
+.vi-back-to-top-anchor { position: sticky; bottom: 24px; height: 0; pointer-events: none; z-index: 10; }
+.vi-back-to-top { pointer-events: auto; position: absolute; right: 16px; bottom: 0; transform: translateY(-100%); width: 36px; height: 36px; border-radius: 50%; border: 1px solid var(--background-modifier-border); background: var(--background-secondary); color: var(--text-muted); cursor: pointer; display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); }
+.vi-back-to-top:hover { background: var(--background-modifier-hover); color: var(--text-normal); }
+
+/* Confirm modal */
+.vi-confirm-modal h3 { margin: 0 0 12px; }
+.vi-confirm-modal p { margin: 0 0 12px; color: var(--text-muted); }
+.vi-file-list { max-height: 300px; overflow-y: auto; margin-bottom: 16px; border: 1px solid var(--background-modifier-border); border-radius: 4px; padding: 8px; }
+.vi-file-list-item { font-size: 12px; font-family: var(--font-monospace); padding: 2px 0; color: var(--text-muted); }
+.vi-confirm-buttons { display: flex; justify-content: flex-end; gap: 8px; }
+.vi-confirm-destructive { background: var(--text-error); color: white; border: none; padding: 6px 16px; border-radius: 4px; cursor: pointer; }
+.vi-confirm-destructive:hover { opacity: 0.85; }

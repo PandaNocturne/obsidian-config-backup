@@ -1,0 +1,13 @@
+.cg-note-toolbar-container:has(.ntb-float) {
+  transform: translateY(-20px);
+  .cg-note-toolbar-callout.ntb-float>.callout-content>ul {
+    gap: 5px;
+
+    &>li span {
+      padding: 5px;
+      background-color: var(--background-secondary);
+    }
+
+
+  }
+}

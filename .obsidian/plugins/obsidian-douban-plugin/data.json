@@ -1,0 +1,85 @@
+{
+  "pictureBedFlag": false,
+  "pictureBedSetting": {
+    "url": "http://127.0.0.1:36677/upload"
+  },
+  "pictureBedType": "PicGo",
+  "arraySettings": [
+    {
+      "arrayName": "ArrayType1",
+      "arrayStart": "",
+      "arrayElementStart": "[[",
+      "arraySpiltV2": ",",
+      "arrayElementEnd": "]]",
+      "arrayEnd": "",
+      "index": 1
+    }
+  ],
+  "onlineSettingsFileName": "obsidian_douban_plugin_online_settings.json",
+  "onlineSettingsGistId": "35693f9ece9bd6abba98f94e81afde19",
+  "movieTemplateFile": "700【模板】Template/【Template】豆瓣模版.md",
+  "bookTemplateFile": "700【模板】Template/【Template】豆瓣模版.md",
+  "musicTemplateFile": "700【模板】Template/【Template】豆瓣模版.md",
+  "noteTemplateFile": "700【模板】Template/【Template】豆瓣模版.md",
+  "gameTemplateFile": "700【模板】Template/【Template】豆瓣模版.md",
+  "teleplayTemplateFile": "700【模板】Template/【Template】豆瓣模版.md",
+  "searchUrl": "https://www.douban.com/search?q=",
+  "dateFormat": "yyyy-MM-DD",
+  "timeFormat": "HH:mm:ss",
+  "arrayStart": "",
+  "arrayElementStart": "\\n  - ",
+  "arraySpiltV2": "",
+  "arrayElementEnd": "",
+  "arrayEnd": "",
+  "personNameMode": "CH_EN",
+  "dataFilePath": "500【资源】Resource",
+  "dataFileNamePath": "/{{myType}}/【{{myType}}】{{title}}",
+  "statusBar": true,
+  "debugMode": false,
+  "customProperties": [
+    {
+      "name": "myType",
+      "value": "电影",
+      "field": "MOVIE"
+    },
+    {
+      "name": "myType",
+      "value": "图书",
+      "field": "BOOK"
+    },
+    {
+      "name": "myType",
+      "value": "音乐",
+      "field": "MUSIC"
+    },
+    {
+      "name": "myType",
+      "value": "Note",
+      "field": "NOTE"
+    },
+    {
+      "name": "myType",
+      "value": "游戏",
+      "field": "GAME"
+    },
+    {
+      "name": "myType",
+      "value": "电视剧",
+      "field": "TELEPLAY"
+    }
+  ],
+  "loginCookiesContent": "",
+  "loginHeadersContent": "{\"Accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\",\"Accept-Encoding\":\"gzip, deflate, br, zstd\",\"Accept-Language\":\"zh-CN\",\"Cookie\":\"bid=nv6SfngXo54; dbcl2=\\\"278460787:Kj1ODasIJfU\\\"; ck=IGjf\",\"Referer\":\"https://accounts.douban.com/\",\"Sec-Fetch-Mode\":\"navigate\",\"Sec-Fetch-Site\":\"same-site\",\"Sec-Fetch-User\":\"?1\",\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.12.7 Chrome/142.0.7444.265 Electron/39.8.3 Safari/537.36\"}",
+  "cacheImage": false,
+  "cacheHighQuantityImage": true,
+  "attachmentPath": "/",
+  "attachmentFileName": "{{title}}",
+  "syncHandledDataArray": [],
+  "scoreSetting": {
+    "starFull": "⭐",
+    "starEmpty": "☆",
+    "displayStarEmpty": true,
+    "maxStar": 5
+  },
+  "searchDefaultType": "all"
+}

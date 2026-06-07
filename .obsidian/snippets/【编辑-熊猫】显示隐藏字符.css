@@ -1,0 +1,68 @@
+/* 可更改颜色，也可以默认插件的颜色 */
+body {
+  /* --control-character-color: rgba(192, 192, 192, 0.415) !important; */
+  --control-character-color: var(--text-faint) !important;
+  --swcm6-whitespace-color: rgba(192, 192, 192, 0.415) !important;
+  --whitespace-color: rgba(192, 192, 192, 0.415) !important;
+}
+
+
+/* 取消显示字后的换行符号->不需要最好取消掉，也可以用上面的设置来 */
+.control-character[type="newline"]:after {
+  /* content: none; */
+}
+
+body {
+  --line-end: "⮐";
+}
+
+body:not(.swcm6-nix-plugin-styles).swcm6-show-line-endings {
+  --line-end: "⮐";
+}
+
+/* body:not(.swcm6-nix-plugin-styles) {
+  --line-end: "\ac";
+  --line-break: "\21b2"
+} */
+
+/* !代码块中移除空白的换行符的冲突 */
+div.HyperMD-codeblock {
+  span+img+br {
+    display: none;
+  }
+}
+
+/* !snw的引用符号的冲突 */
+div:has(>.snw-reference)+br {
+  display: none !important;
+}
+
+span.ab-line-yellow+br {
+  display: none;
+}
+
+/* !与better words的标题统计的冲突 */
+.HyperMD-header .bwc-section-count+br {
+  display: none;
+}
+
+
+/* 用绝对定位把换行符固定在行尾，避免空行内的 <br> 把符号挤到下一行 */
+body:not(.swcm6-nix-plugin-styles).swcm6-show-line-endings .cm-line {
+  position: relative;
+}
+
+body:not(.swcm6-nix-plugin-styles).swcm6-show-line-endings .cm-line::after {
+  content: var(--line-end);
+  color: var(--swcm6-whitespace-color);
+  display: inline;
+  position: static;
+  margin-left: 0.1em;
+  vertical-align: -0.15em;
+  /* font-size: 0.93em; */
+  pointer-events: none;
+}
+
+body:not(.swcm6-nix-plugin-styles).swcm6-show-line-endings .cm-line>br {
+  display: none;
+}

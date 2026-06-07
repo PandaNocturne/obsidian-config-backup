@@ -1,0 +1,14 @@
+body {
+  --status-bar-position: absolute;
+  --status-bar-radius: var(--radius-m);
+}
+.status-bar {
+  position: sticky;
+  
+  border-radius: 0px; /* 设置圆角 */
+  width: 100%; /* 设置宽度 */
+  height: 28px !important;
+  border: 0px;
+  /* background-color: transparent; */
+  /* border: 1px solid black;  */
+}

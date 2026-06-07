@@ -1,0 +1,199 @@
+/* 来源：https://forum-zh.obsidian.md/t/topic/60218 */
+/* Memphis Design — Obsidian Heading Styles */
+/* 保存为 memphis-headings.css，放入 .obsidian/snippets/ 后在外观设置中启用 */
+
+/* ── H1 黄色实心块 + 双重边框 + 阴影 ── */
+.markdown-preview-view h1,
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-header-1 .cm-header {
+  /* font-size: 1.9em;
+  font-weight: 900; */
+  padding: 0.25em 0.6em 0.25em 0.9em;
+  background: #FFE033;
+  color: #111;
+  border-left: 7px solid #111;
+  border-top: 3px solid #111;
+  border-bottom: 3px solid #111;
+  border-right: 3px solid #111;
+  box-shadow: 5px 5px 0 #111;
+  margin-bottom: 1.2em;
+  letter-spacing: -0.01em;
+}
+
+.markdown-preview-view h1 {
+  display: block;
+  width: fit-content;
+}
+
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-header-1 .cm-header {
+  display: inline-block;
+}
+
+/* ── H2 粉红块 + 偏移阴影 ── */
+.markdown-preview-view h2,
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-header-2 .cm-header {
+  /* font-size: 1.5em;
+  font-weight: 800; */
+  padding: 0.2em 0.7em;
+  background: #FF6B9D;
+  color: #fff;
+  border: 3px solid #111;
+  box-shadow: 4px 4px 0 #111;
+  margin-bottom: 1.1em;
+}
+
+.markdown-preview-view h2 {
+  display: block;
+  width: fit-content;
+}
+
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-header-2 .cm-header {
+  display: inline-block;
+}
+
+/* ── H3 青色块 + 波浪线伸出框外 ── */
+.markdown-preview-view h3,
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-header-3 .cm-header {
+  /* font-size: 1.25em;
+  font-weight: 700; */
+  padding: 0.15em 0.5em;
+  background: #00D4C8;
+  color: #111;
+  border: 2.5px solid #111;
+  box-shadow: 3px 3px 0 #111;
+  margin-bottom: 1.6em;
+  position: relative;
+  overflow: visible;
+}
+
+.markdown-preview-view h3 {
+  display: block;
+  width: fit-content;
+}
+
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-header-3 .cm-header {
+  display: inline-block;
+}
+
+.markdown-preview-view h3::after,
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-header-3 .cm-header::after {
+  content: '';
+  position: absolute;
+  bottom: -7px;
+  left: -3px;
+  right: -3px;
+  height: 5px;
+  background: repeating-linear-gradient(90deg,
+      #FF6B9D 0, #FF6B9D 8px,
+      transparent 8px, transparent 12px);
+}
+
+/* ── H4 橙色块 + 三角放大 ── */
+.markdown-preview-view h4,
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-header-4 .cm-header {
+  /* font-size: 1.08em;
+  font-weight: 800; */
+  padding: 0.18em 0.6em 0.18em 1.6em;
+  background: #FF7A1A;
+  color: #fff;
+  border: 2.5px solid #111;
+  box-shadow: 3px 3px 0 #111;
+  margin-bottom: 1em;
+  letter-spacing: 0.01em;
+  position: relative;
+}
+
+.markdown-preview-view h4 {
+  display: block;
+  width: fit-content;
+}
+
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-header-4 .cm-header {
+  display: inline-block;
+}
+
+.markdown-preview-view h4::before,
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-header-4 .cm-header::before {
+  content: '';
+  position: absolute;
+  left: 0.6em;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 11px solid #FFE033;
+}
+
+/* ── H5 紫色块 + 圆点 ── */
+.markdown-preview-view h5,
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-header-5 .cm-header {
+  /* font-size: 0.95em;
+  font-weight: 800; */
+  padding: 0.15em 0.55em 0.15em 1.5em;
+  background: #7B2FBE;
+  color: #fff;
+  border: 2px solid #111;
+  box-shadow: 2px 2px 0 #111;
+  margin-bottom: 0.9em;
+  letter-spacing: 0.02em;
+  position: relative;
+}
+
+.markdown-preview-view h5 {
+  display: block;
+  width: fit-content;
+}
+
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-header-5 .cm-header {
+  display: inline-block;
+}
+
+.markdown-preview-view h5::before,
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-header-5 .cm-header::before {
+  content: '';
+  position: absolute;
+  left: 0.7em;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #FF6B9D;
+}
+
+/* ── H6 红色块 + 方块放大 ── */
+.markdown-preview-view h6,
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-header-6 .cm-header {
+  /* font-size: 0.82em;
+  font-weight: 800; */
+  padding: 0.12em 0.5em 0.12em 1.5em;
+  background: #E02020;
+  color: #fff;
+  border: 2px solid #111;
+  box-shadow: 2px 2px 0 #111;
+  margin-bottom: 0.8em;
+  letter-spacing: 0.05em;
+  position: relative;
+}
+
+.markdown-preview-view h6 {
+  display: block;
+  width: fit-content;
+}
+
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-header-6 .cm-header {
+  display: inline-block;
+}
+
+.markdown-preview-view h6::before,
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-header-6 .cm-header::before {
+  content: '';
+  position: absolute;
+  left: 0.5em;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 12px;
+  height: 12px;
+  background: #FFE033;
+}

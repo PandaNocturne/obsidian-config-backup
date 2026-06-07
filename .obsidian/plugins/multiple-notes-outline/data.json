@@ -1,0 +1,135 @@
+{
+  "autoupdateFileView": false,
+  "suspendUpdateByClickingView": true,
+  "autoupdateFolderView": false,
+  "showFiles": {
+    "main": true,
+    "outgoing": true,
+    "backlink": true
+  },
+  "showElements": {
+    "heading": true,
+    "link": false,
+    "tag": true,
+    "listItems": false,
+    "task": true
+  },
+  "maxHeadingLevel": 6,
+  "hideLinksBetweenRelatedFiles": "none",
+  "allRootItems": false,
+  "allTasks": true,
+  "taskOnly": false,
+  "hideCompletedTasks": false,
+  "displayFileInfo": "tag",
+  "viewPosition": "right",
+  "inlinePreview": true,
+  "tooltipPreview": false,
+  "tooltipPreviewDirection": "left",
+  "wordsToExtract": "",
+  "icon": {
+    "heading": "heading",
+    "link": "link",
+    "tag": "tag",
+    "listItems": "list",
+    "note": "file",
+    "task": "square",
+    "taskDone": "check-square",
+    "backlink": "links-coming-in"
+  },
+  "customIcon": {
+    "heading": "hash",
+    "link": "link",
+    "tag": "tag",
+    "listItems": "list",
+    "note": "file",
+    "task": "square",
+    "taskDone": "check-square",
+    "backlink": "links-coming-in"
+  },
+  "indent": {
+    "heading": true,
+    "link": true,
+    "tag": true,
+    "listItems": true
+  },
+  "indentFollowHeading": 2,
+  "prefix": {
+    "heading": "",
+    "link": "",
+    "tag": "",
+    "listItems": "",
+    "task": "",
+    "taskDone": "",
+    "backlink": ""
+  },
+  "repeatHeadingPrefix": "none",
+  "addCheckboxText": false,
+  "hideDuplicated": true,
+  "readLimit": 50,
+  "processLimit": 100,
+  "noteTitleBackgroundColor": "none",
+  "customNoteTitleBackgroundColor": {
+    "light": "#BEBEBE",
+    "dark": "#4E4E4E"
+  },
+  "customNoteTitleBackgroundColorHover": {
+    "light": "#AEAEAE",
+    "dark": "#5E5E5E"
+  },
+  "tagsAOT": [],
+  "showBacklinks": false,
+  "relatedFiles": {
+    "420【编程】Code/WEB前端开发/CSS/CSS.md": {
+      "420【编程】Code/WEB前端开发/CSS/CSS.md": {
+        "fold": true
+      },
+      "420【编程】Code/WEB前端开发/CSS/240623_CSS：解决浮动元素后的布局问题的方案.md": {
+        "fold": true
+      }
+    }
+  },
+  "openAtStartup": {
+    "file": true,
+    "folder": false
+  },
+  "collapseFolder": true,
+  "sortType": "alphabetAscending",
+  "showDebugInfo": false,
+  "collapseAllAtStartup": false,
+  "showPropertyLinks": true,
+  "recent": {
+    "file": [
+      "310【任务】Tasks/2026/260317_嵌入式简历修改&面试找工作/260317_嵌入式简历修改&面试找工作.md",
+      "520【工具】ToolNote/【Tool】笔记工具/【工具】Obsidian/260410_Obsidian 笔记/260410_Obsidian 笔记.md",
+      "520【工具】ToolNote/【Tool】笔记工具/【工具】Obsidian/【工具】Obsidian.md",
+      "220【记录】Record/222【会议记录】Meeting Records/【工作】东莞市华氪精密设备公司/【工作-华氪】培训记录/2025-11-07_电控笔记：C语言及数据结构的学习笔记 by 邱腾煌/2025-11-07_电控笔记：C语言及数据结构的学习笔记 by 邱腾煌.md",
+      "010【笔记】Notes/010【笔记】Notes.md",
+      "420【编程】Code/嵌入式开发/C语言/【C语言】基础手册/【C语言】派生类型.md",
+      "420【编程】Code/WEB前端开发/CSS/CSS.md",
+      "420【编程】Code/WEB前端开发/HTML/HTML.md",
+      "310【任务】Tasks/310【任务】Tasks.md"
+    ],
+    "folder": []
+  },
+  "favorite": {
+    "file": [],
+    "folder": []
+  },
+  "numOfRecentFiles": 30,
+  "pinAfterJump": true,
+  "openRecentAtStartup": {
+    "file": true,
+    "folder": false
+  },
+  "popoutSize": {
+    "width": 600,
+    "height": 800
+  },
+  "popoutAlwaysOnTop": false,
+  "openLinkByClick": true,
+  "hideMinor2hopLink": true,
+  "dispListCallouts": true,
+  "saveRecentView": true,
+  "wrapLine": false,
+  "bootDelayTime": 300
+}

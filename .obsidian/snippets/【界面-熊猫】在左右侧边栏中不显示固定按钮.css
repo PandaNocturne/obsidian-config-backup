@@ -1,0 +1,33 @@
+/* !在左右侧边栏中不显示固定按钮 */
+.workspace-split.mod-horizontal.mod-right-split,
+.workspace-split.mod-horizontal.mod-left-split {
+  .workspace-tab-header-status-container {
+    display: none;
+  }
+
+  /* 缩减底部空白 不然可能加载成空白页 */
+  .markdown-preview-section {
+    padding-bottom: 0px !important;
+    min-height: unset !important;
+  }
+
+  .embedded-backlinks {
+    display: none;
+  }
+}
+
+/*! 侧边栏标签页过多时，自动换行 */
+.workspace-split.mod-horizontal.mod-right-split,
+.workspace-split.mod-horizontal.mod-left-split {
+  .workspace-tab-header-container {
+    padding: 0px 8px !important;
+    min-height: fit-content !important;
+
+    .workspace-tab-header-container-inner {
+      flex-flow: row wrap;
+    }
+  }
+
+}
+
+

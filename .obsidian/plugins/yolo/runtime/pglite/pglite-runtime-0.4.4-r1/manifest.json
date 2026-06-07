@@ -1,0 +1,29 @@
+{
+  "runtimeVersion": "pglite-runtime-0.4.4-r1",
+  "files": [
+    {
+      "name": "pglite.data",
+      "size": 5289109,
+      "sha256": "4507d476e23421aab8201ee9d58059c53736db40e1bfe5d14bb86124e59a116d",
+      "url": "https://github.com/Lapis0x0/obsidian-yolo/releases/download/pglite-runtime-0.4.4-r1/pglite.data"
+    },
+    {
+      "name": "pglite.wasm",
+      "size": 8739902,
+      "sha256": "551cf9bcfb34e4b0ea118b8e658b5e3e85b20d620a6f365239ce02f32ffc20e9",
+      "url": "https://github.com/Lapis0x0/obsidian-yolo/releases/download/pglite-runtime-0.4.4-r1/pglite.wasm"
+    },
+    {
+      "name": "initdb.wasm",
+      "size": 169969,
+      "sha256": "13ed8475e33d092d03e2378d6b78d52da0c4d497b1df2c2a62d33fe32ceb67e2",
+      "url": "https://github.com/Lapis0x0/obsidian-yolo/releases/download/pglite-runtime-0.4.4-r1/initdb.wasm"
+    },
+    {
+      "name": "vector.tar.gz",
+      "size": 46052,
+      "sha256": "3d968eee93191a2a0073b8c18a773c8aa315f4d4b4734cf5ff5e1fe6d100485b",
+      "url": "https://github.com/Lapis0x0/obsidian-yolo/releases/download/pglite-runtime-0.4.4-r1/vector.tar.gz"
+    }
+  ]
+}

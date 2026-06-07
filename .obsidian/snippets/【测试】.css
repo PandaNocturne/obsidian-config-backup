@@ -1,0 +1,151 @@
+* {
+  word-break: break-all;
+  /* text-align: justify; */
+}
+
+body {
+  --font-text-size: 28px !important;
+}
+
+.markdown-preview-sizer.markdown-preview-section {
+  padding-bottom: 0px !important;
+  min-height: 0px !important;
+}
+
+/* latex 换行 */
+mjx-mspace {
+  display: block !important;
+  margin: 0.5em 0;
+}
+
+/* 删除编号前面的间隙 */
+div.cm-gutters > div.cm-gutter.snw-gutter-ref {
+  display: none !important;
+}
+
+.cm-gutterElement span {
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* 插件市场可以选中文本 */
+.community-modal-info > div {
+  user-select: text !important;
+}
+
+.react-grid-layout {
+  transition-duration: 200ms;
+
+  .react-grid-item.cssTransforms {
+    /* transition-property: transform, width, height; */
+    transition-duration: 200ms;
+  }
+}
+
+/* .modal {
+  max-width: 60vw;
+  max-height: 80vh;
+  overflow: auto;
+  border-radius: 10px;
+} */
+
+/* 不显示图谱的重置 */
+.clickable-icon.graph-controls-button.mod-reset {
+  display: none !important;
+}
+
+/* 提示显示斑马线效果 */
+/* .prompt-results {
+  .suggestion-item {
+    border-top: 2px solid var(--background-modifier-border);
+  }
+
+  .suggestion-item:nth-of-type(1) {
+    border-top: none;
+  }
+} */
+
+.internal-embed.mm-node-image-embed {
+  max-width: 150px;
+}
+
+/*  */
+.albus-timecraft-journal-card-content {
+  font-size: 28px;
+  font-family: "等线", "Courier New", Courier, monospace;
+
+  p {
+    margin: 0;
+  }
+}
+
+/* .search-button {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    background: var(--background-primary);
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 4px;
+    padding: 2px 5px;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: opacity 0.2s;
+} */
+
+/* 
+.theme-light .asui-floating-panel-root.is-active>div{
+  background: rgba(255, 255, 255, 0.12) !important;
+  backdrop-filter: blur(0px) saturate(140%) !important;
+  border: 1px solid rgba(255, 255, 255, 0.18) !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18) !important;
+}
+
+.theme-dark .asui-floating-panel-root.is-active>div{
+  background: rgba(30, 30, 30, 0.28) !important;
+  backdrop-filter: blur(2px) saturate(140%) !important;
+  -webkit-backdrop-filter: blur(16px) saturate(140%) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.28) !important;
+} */
+/* 
+.block-language-dataviewjs .block-language-anyblock>.ab-replace{
+  max-height: 65vh;
+} */
+
+.is-popout-window {
+  .titlebar-button-container,
+	/* .workspace-tab-header-container, */
+	.view-header,
+	.status-bar {
+    display: none;
+  }
+}
+
+/* .csn-sticky,
+.csn-list-card{
+  border-radius: 0px;
+} */
+
+.csn-sticky {
+  .smtcmp-smart-space-overlay {
+    width: calc(100% - 30px) !important;
+  }
+  /* .cm-scroller::-webkit-scrollbar {
+    width: 8px;
+    background: transparent;
+  }
+  .cm-scroller::-webkit-scrollbar-thumb {
+    background: rgba(120,120,120,0.22);
+    border-radius: 6px;
+    min-height: 20px;
+    border: 2px solid transparent;
+    background-clip: padding-box;
+  }
+  .cm-scroller::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .cm-scroller {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(120,120,120,0.28) transparent;
+  } */
+}
+

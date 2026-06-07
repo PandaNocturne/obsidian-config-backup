@@ -1,0 +1,10 @@
+{
+	"id": "anchor-display-text",
+	"name": "Anchor Link Display Text",
+	"version": "1.4.0",
+	"minAppVersion": "0.15.0",
+	"description": "Automatically uses the linked heading as the display text for anchor links.",
+	"author": "Robert C Arsenault",
+	"authorUrl": "https://github.com/rca-umb",
+	"isDesktopOnly": false
+}

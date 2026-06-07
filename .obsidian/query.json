@@ -1,0 +1,40 @@
+{
+  "queries": [
+    {
+      "createdAt": "2026/03/10 09:30:20",
+      "id": "202603100930200",
+      "pinnedAt": "",
+      "querystring": "[{\"type\":\"SOURCE\",\"value\":{\"operator\":\"IS\",\"value\":\"DAILY\"},\"relation\":\"AND\"}]",
+      "title": "日记",
+      "updatedAt": "2026/03/10 09:30:20",
+      "userId": "Thino"
+    },
+    {
+      "createdAt": "2026/03/10 09:31:53",
+      "id": "202603100931531",
+      "pinnedAt": "",
+      "querystring": "[{\"type\":\"SOURCE\",\"value\":{\"operator\":\"IS\",\"value\":\"MULTI\"},\"relation\":\"AND\"}]",
+      "title": "多文件",
+      "updatedAt": "2026/03/10 09:31:53",
+      "userId": "Thino"
+    },
+    {
+      "createdAt": "2026/03/10 09:32:22",
+      "id": "202603100932222",
+      "pinnedAt": "",
+      "querystring": "[{\"type\":\"SOURCE\",\"value\":{\"operator\":\"IS\",\"value\":\"CANVAS\"},\"relation\":\"AND\"}]",
+      "title": "Canvas",
+      "updatedAt": "2026/03/10 09:32:22",
+      "userId": "Thino"
+    },
+    {
+      "createdAt": "2026/03/10 09:33:38",
+      "id": "202603100933383",
+      "pinnedAt": "",
+      "querystring": "[{\"type\":\"SOURCE\",\"value\":{\"operator\":\"IS\",\"value\":\"FILE\"},\"relation\":\"AND\"}]",
+      "title": "单文件",
+      "updatedAt": "2026/03/10 09:33:38",
+      "userId": "Thino"
+    }
+  ]
+}

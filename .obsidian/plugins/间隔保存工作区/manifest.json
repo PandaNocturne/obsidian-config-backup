@@ -1,0 +1,11 @@
+{
+	"id": "interval-workspace-saver",
+	"name": "间隔保存工作区",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "每隔指定时间自动保存工作区布局",
+	"author": "Your Name",
+	"authorUrl": "https://your-website.com",
+	"fundingUrl": "https://your-funding-link.com",
+	"isDesktopOnly": false
+}

@@ -1,0 +1,66 @@
+body {
+  --ex-svg-size: 30px;
+  --ex-sidebar-width: 70px;
+  --ex-icon-width: 50px;
+  --ex-icon-height: 40px;
+  --ex-icon-border-radius: 10%;
+  --ex-icon-margin: 4px;
+  --ex-icon-border: 1px solid rgb(2, 2, 2);
+  --ex-bottom-transform-x: 80px;
+}
+
+.excalidraw {
+
+  /* 侧边栏容器修改 */
+  .mobile-misc-tools-container,
+  .tray-misc-tools-container {
+    width: var(--ex-sidebar-width);
+    left: 0px;
+    height: 80%;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 10px;
+    overflow-y: auto !important;
+    scrollbar-width: none;
+
+    /* 居中 */
+    .ExcalidrawObsidianMenu {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      overflow-y: auto;
+    }
+
+    .default-sidebar-trigger,
+    .ToolIcon__icon {
+      width: var(--ex-icon-width);
+      height: var(--ex-icon-height);
+      border: var(--ex-icon-border);
+      border-radius: var(--ex-icon-border-radius);
+      margin: var(--ex-icon-margin);
+
+      svg {
+        width: var(--ex-svg-size) !important;
+        height: var(--ex-svg-size) !important;
+      }
+    }
+
+    .default-sidebar-trigger {
+      width: var(--ex-icon-width) !important;
+      height: var(--ex-icon-height) !important;
+      border-radius: var(--ex-icon-border-radius) !important;
+    }
+
+    /* 库图标置顶 */
+    .sidebar-trigger__label-element {
+      order: -1 !important;
+      align-self: center;
+    }
+
+  }
+
+  /* 底部菜单栏 */
+  .App-bottom-bar>.Island {
+    transform: translateX(var(--ex-bottom-transform-x));
+  }
+}

@@ -1,0 +1,29 @@
+.hidden-tbody {
+  display: none;
+}
+
+.table-collapse-toggle-icon {
+  cursor: pointer;
+  position: absolute;
+  top: 4px;
+  right: 0rem;
+  height: 2rem;
+  width: 2rem;
+  opacity: 0.5;
+}
+
+.table-collapse-toggle-icon.collapsed::after {
+  content: '◀';
+}
+
+.table-collapse-toggle-icon.expanded::after {
+  content: '▼';
+}
+
+/* .table-collapse-toggle-icon.collapsed {
+  background-image: url('path/to/arrow-down.svg');
+}
+
+.table-collapse-toggle-icon.expanded {
+  background-image: url('path/to/arrow-up.svg'); 
+} */

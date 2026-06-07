@@ -1,0 +1,36 @@
+.workspace-saver-status-bar {
+  padding: 2px 8px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+}
+
+.workspace-saver-status-bar.idle {
+  background-color: var(--ws-bg-idle, #3B82F6);
+  color: var(--ws-color-idle, #FFFFFF);
+}
+
+.workspace-saver-status-bar.saving {
+  background-color: var(--ws-bg-saving, #F59E0B);
+  color: var(--ws-color-saving, #FFFFFF);
+}
+
+.workspace-saver-status-bar.saved {
+  background-color: var(--ws-bg-saved, #22C55E);
+  color: var(--ws-color-saved, #FFFFFF);
+}
+
+.workspace-saver-status-bar.error {
+  background-color: var(--ws-bg-error, #EF4444);
+  color: var(--ws-color-error, #FFFFFF);
+}
+
+.workspace-saver-status-bar.disabled {
+  background-color: var(--ws-bg-disabled, #6B7280);
+  color: var(--ws-color-disabled, #FFFFFF);
+}
+
+.workspace-saver-status-bar.notfound {
+  background-color: var(--ws-bg-notfound, #8B5CF6);
+  color: var(--ws-color-notfound, #FFFFFF);
+}

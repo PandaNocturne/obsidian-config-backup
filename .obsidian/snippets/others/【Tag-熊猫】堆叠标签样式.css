@@ -1,0 +1,95 @@
+.workspace-leaf-content[data-type="tag"]>.tag-container>div {
+  display: flex !important;
+  flex-flow: row wrap;
+  gap: 4px;
+  justify-content: flex-start;
+  align-content: flex-start;
+
+  &>div:first-of-type {
+    display: none !important;
+  }
+
+  &>.tree-item {
+    overflow: auto;
+    border: 0.5px solid var(--background-modifier-border);
+    border-radius: 6px;
+    text-align: center;
+  }
+
+  .tree-item:not(.is-collapsed) {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 4px;
+    justify-content: flex-start;
+    align-content: flex-start;
+    position: relative;
+
+    .tree-item-children {
+      width: 100%;
+      display: flex;
+      flex-flow: row wrap;
+      gap: 4px;
+      justify-content: flex-start;
+      align-content: flex-start;
+      position: relative;
+      margin: 6px;
+
+      &>div:first-of-type {
+        display: none;
+      }
+
+    }
+
+    .tree-item-self,
+    .tree-item {
+      overflow: auto;
+      position: relative;
+      display: flex;
+      gap: 4px;
+      flex-flow: row wrap;
+      justify-content: flex-start;
+      align-content: flex-start;
+    }
+
+    .tree-item:has(span) {
+      border: 0.5px solid var(--background-modifier-border);
+      border-radius: 6px;
+
+    }
+  }
+
+  .tree-item-self.is-clickable:hover {
+    background-color: transparent;
+  }
+}
+
+/* 根据嵌套深度配置不同颜色 */
+.workspace-leaf-content[data-type="tag"]>.tag-container>div {
+  .tree-item {
+
+    &:nth-of-type(6n + 1) .tree-item-inner-text {
+      color: #54478C;
+    }
+
+    &:nth-of-type(6n + 2) .tree-item-inner-text {
+      color: #2C699A;
+    }
+
+    &:nth-of-type(6n + 3) .tree-item-inner-text {
+      color: #048BA8;
+    }
+
+    &:nth-of-type(6n + 4) .tree-item-inner-text {
+      color: #0DB39E;
+    }
+
+    &:nth-of-type(6n + 5) .tree-item-inner-text {
+      color: #16DB93;
+    }
+
+    &:nth-of-type(6n + 6) .tree-item-inner-text {
+      color: #83E377;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "review": {
+    "showProgress": false,
+    "enableKeyboardShortcuts": true,
+    "sessionDuration": 25,
+    "nextDayStartsAt": 4
+  },
+  "parsing": {
+    "folderSearchPath": "015【卡片】Decks",
+    "deckTag": "#decks"
+  },
+  "ui": {
+    "enableBackgroundRefresh": true,
+    "backgroundRefreshInterval": 120,
+    "enableNotices": false
+  },
+  "backup": {
+    "enableAutoBackup": true,
+    "maxBackups": 10
+  },
+  "debug": {
+    "enableLogging": false,
+    "performanceLogs": false
+  },
+  "experimental": {
+    "enableDatabaseWorker": true
+  },
+  "hasCreatedTestDeck": true
+}

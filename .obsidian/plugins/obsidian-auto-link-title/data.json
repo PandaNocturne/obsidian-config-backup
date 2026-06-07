@@ -1,0 +1,14 @@
+{
+  "regex": {},
+  "lineRegex": {},
+  "linkRegex": {},
+  "linkLineRegex": {},
+  "imageRegex": {},
+  "enhanceDefaultPaste": false,
+  "shouldPreserveSelectionAsTitle": true,
+  "enhanceDropEvents": true,
+  "websiteBlacklist": "",
+  "maximumTitleLength": 0,
+  "useNewScraper": true,
+  "shouldReplaceSelection": true
+}

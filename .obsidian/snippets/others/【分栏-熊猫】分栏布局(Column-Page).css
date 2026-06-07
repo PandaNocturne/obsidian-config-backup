@@ -1,0 +1,115 @@
+/* @settings
+name: 【分栏】分栏布局(Column-Page)
+id: ColumnPage
+settings:
+  - id: column-page
+    title: 分栏模式(Column-Page)
+    type: class-toggle
+    addCommand: true
+  - id: column-page-width
+    title: 分栏宽度
+    description: 分栏最小宽度，单位为px
+    type: variable-number
+    default: 550
+    format: px
+  - id: column-page-type
+    title: 默认分布模式
+    type: class-select
+    allowEmpty: false
+    options:
+      - value: column-h
+        label: 横向模式，高度不变，不能跨列
+      - value: column-v
+        label: 纵向模式，宽度不变，可以跨列
+    default: column-h
+*/
+/*! 分栏布局页面  by 熊猫 */
+body {
+  --column-page-width: 650px;
+}
+
+.column-v.column-page,
+.column-page-v {
+  & .markdown-preview-section {
+    --file-line-width: 100% !important;
+
+    & .snw-header-count-wrapper {
+      right: unset;
+    }
+
+    display: block;
+    column-gap: 2rem;
+    column-width: var(--column-page-width) !important;
+    column-rule: 2px dashed var(--background-modifier-border);
+    column-fill: balance;
+    /* 缩减底部空白 不然可能加载成空白页 */
+    padding-bottom: 0px !important;
+    min-height: unset !important;
+
+    /* 字体大小和行内高度改变，你可以不改变，并删掉 */
+    /* font-size: 18px !important;
+    line-height: 160%; */
+
+    /* 标题更紧凑一点 */
+    & h2, h3, h4, h5, h6 {
+      margin-top: 10px;
+      margin-bottom: 5px;
+      break-after: avoid;
+    }
+
+    & p {
+      break-inside: avoid;
+    }
+
+    /* 选择不分列的元素，默认为h1，hr */
+    & h1, hr {
+      column-span: all;
+    }
+
+    /* 多列布局后，部分列表圆点会错位，这样可以避免 */
+    & .list-bullet {
+      position: absolute;
+    }
+  }
+
+  &.column-h2 h2 {
+    column-span: all;
+  }
+}
+
+.column-page.column-h,
+.column-page-h {
+  & .markdown-preview-section {
+    --file-line-width: 100% !important;
+
+    & .snw-header-count-wrapper {
+      right: unset;
+    }
+
+    column-gap: 2rem;
+    column-width: var(--column-page-width) !important;
+    column-rule: 2px dashed var(--background-modifier-border);
+    column-fill: auto;
+    height: 100%;
+    /* 缩减底部空白 不然可能加载成空白页 */
+    padding-bottom: 0px !important;
+    min-height: unset !important;
+
+    /* 字体大小和行内高度改变，你可以不改变，并删掉 */
+    /* font-size: 18px !important; */
+    /* line-height: 160%; */
+
+    /* 标题更紧凑一点 */
+    & h2, h3, h4, h5, h6 {
+      margin-top: 10px;
+      margin-bottom: 5px;
+      break-after: avoid;
+    }
+
+
+    /* 多列布局后，部分列表圆点会错位，这样可以避免 */
+    & .list-bullet {
+      position: absolute;
+    }
+  }
+}

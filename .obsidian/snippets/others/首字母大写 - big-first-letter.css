@@ -1,0 +1,18 @@
+/* ========================================
+首字母大写 - big-first-letter
+======================================== */
+.big-first-letter-header :is(h1, h2, h3, h4, h5, h6)::first-letter {
+  margin: 0;
+  color: var(--text-normal);
+  font-size: 2em;
+  font-weight: bold;
+  color: var(--text-accent);
+}
+
+.big-first-letter :is(.cm-line, p)::first-letter {
+  margin: 0;
+  color: var(--text-normal);
+  font-size: 2em;
+  font-weight: bold;
+  color: var(--text-accent);
+}

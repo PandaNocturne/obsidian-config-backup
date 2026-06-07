@@ -1,0 +1,54 @@
+/* 图片下面显示 alt text */
+/* .markdown-preview-view, .markdown-source-view {
+    counter-reset: image-counter;
+}
+
+.internal-embed.image-embed {
+    display: inline-flex !important;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-embed[alt]:not([alt ^="Paste"]):not([alt ^="File"]):after {
+    content: "图 "attr(alt);
+    counter-increment: image-counter;
+    content: "图"counter(image-counter) " "attr(alt);
+    display: inline-block;
+    margin-top: 0px;
+    font-size: 0.7em;
+    text-align: center;
+    color: var(--text-muted);
+    user-select: text !important;
+}
+
+.image-embed:after {
+    counter-increment: image-counter;
+    content: "图"counter(image-counter);
+    display: inline-block;
+    margin-top: 0px;
+    font-size: 0.7em;
+    text-align: center;
+    color: var(--text-muted);
+    user-select: text !important;
+}
+
+.image-captions-enabled .image-embed[alt]:has([alt ^="Paste"], [alt ^="File"]):after {
+    display: none !important;
+} */
+
+/* 图片下面显示 alt text */
+.internal-embed.image-embed {
+    display: inline-flex !important;
+    flex-direction: column;
+    align-items: center;
+}
+.image-embed[alt]:not([alt ^="Paste"]):not([alt ^="File"]):after {
+    content: "图 "attr(alt);
+    display: inline-block;
+    margin-top: 0px;
+    font-size: 0.7em;
+    text-align: center;
+    color: var(--text-muted);
+    user-select: text !important;
+}
+

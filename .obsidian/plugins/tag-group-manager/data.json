@@ -1,0 +1,94 @@
+{
+  "tagGroups": [
+    {
+      "name": "动漫",
+      "tags": [
+        "动漫/经典",
+        "动漫/动作",
+        "动漫/冒险",
+        "动漫/科幻",
+        "动漫/奇幻",
+        "动漫/校园",
+        "动漫/恋爱",
+        "动漫/治愈",
+        "动漫/悬疑",
+        "动漫/搞笑",
+        "动漫/日常",
+        "动漫/运动",
+        "动漫/音乐",
+        "动漫/机战",
+        "动漫/热血",
+        "动漫/后宫",
+        "动漫/泡面番",
+        "动漫剧场版",
+        "定格动画",
+        "国创动漫"
+      ],
+      "id": "04ff9cab-5f84-4c29-a6dc-ebdf89b53d39"
+    },
+    {
+      "name": "游戏",
+      "tags": [
+        "游戏/经典",
+        "游戏/动作",
+        "游戏/射击",
+        "游戏/角色扮演",
+        "游戏/策略",
+        "游戏/模拟",
+        "游戏/冒险",
+        "游戏/恐怖",
+        "游戏/休闲",
+        "游戏/多人",
+        "游戏/独立",
+        "游戏/国产"
+      ],
+      "id": "9f3b46ba-a2aa-4df3-a5e1-7a1334bbabec"
+    },
+    {
+      "name": "电影",
+      "tags": [
+        "电影/动作",
+        "电影/喜剧",
+        "电影/爱情",
+        "电影/科幻",
+        "电影/悬疑",
+        "电影/恐怖",
+        "电影/剧情",
+        "电影/犯罪",
+        "电影/战争",
+        "电影/动画",
+        "电影/纪录片",
+        "电影/国产",
+        "电影/经典"
+      ],
+      "id": "a2fc74c2-463e-42fa-b2bb-28f6b63cbc36"
+    }
+  ],
+  "showStarButton": true,
+  "tagColorMappings": [],
+  "enableCustomColors": false,
+  "customColors": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "tagColors": {},
+  "tagGroupSets": [],
+  "lastSeenVersion": "1.8.12",
+  "autoExpandMultiLevelTags": false,
+  "autoAddTags": false,
+  "autoAddRules": "",
+  "multiLevelAutoAdd": {
+    "enabled": true,
+    "matchMode": "level1",
+    "createIfNotExists": false
+  },
+  "enableTextTagStyling": true,
+  "expandTagPrefixes": "",
+  "expandDepth": 2,
+  "enableQuickRename": false
+}

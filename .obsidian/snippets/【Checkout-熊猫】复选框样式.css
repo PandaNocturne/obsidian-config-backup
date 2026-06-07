@@ -1,0 +1,18 @@
+/*checkbox横线*/
+.HyperMD-task-line[data-task="x"],
+ul>li.task-list-item {
+  text-decoration-line: none !important;
+
+}
+
+ul>li.task-list-item.is-checked,
+.HyperMD-task-line[data-task="x"] .cm-list-1 {
+  color: var(--text-success);
+}
+
+.block-language-tasks {
+  ul>li.task-list-item {
+    /* text-indent: 1.5rem !important; */
+    margin-left: 2rem;
+  }
+}

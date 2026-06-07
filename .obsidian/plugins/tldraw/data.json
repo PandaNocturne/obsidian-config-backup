@@ -1,0 +1,33 @@
+{
+  "embeds": {
+    "padding": 0,
+    "showBg": true,
+    "showBgDots": true
+  },
+  "fileDestinations": {
+    "confirmDestination": false,
+    "assetsFolder": "tldraw/assets",
+    "destinationMethod": "default-folder",
+    "defaultFolder": "600【可视化】VisualTools/615【画板】Tldraw",
+    "colocationSubfolder": ""
+  },
+  "file": {
+    "insertTags": true
+  },
+  "saveFileDelay": 0.5,
+  "newFilePrefix": "Tldraw-",
+  "newFileTimeFormat": "YYMMDD_HHmmss",
+  "toolSelected": "select",
+  "themeMode": "light",
+  "gridMode": true,
+  "snapMode": true,
+  "debugMode": false,
+  "focusMode": false,
+  "workspace": {
+    "tldrMarkdownViewType": "tldraw-read-only",
+    "switchMarkdownView": true
+  },
+  "clipboard": {
+    "pasteAtCursor": true
+  }
+}

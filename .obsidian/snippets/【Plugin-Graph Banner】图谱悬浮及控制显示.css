@@ -1,0 +1,97 @@
+/* https://github.com/mgmeyers/obsidian-style-settings */
+/* @settings
+
+name: Graph Banner
+id: graph-banner
+settings:
+  - id: show-graph-banner
+    title: 打开或关闭Graph Banner图谱
+    type: class-toggle
+    addCommand: true
+  - id: graph-banner-type-select
+    title: 选择图谱类型
+    type: class-select
+    allowEmpty: false
+    default: banner-graph
+    options:
+      - banner-graph
+      - hanging-graph
+  - id: graph-banner-position
+    title: 选择图谱水平位置 (仅悬浮模式)
+    type: class-select
+    allowEmpty: false
+    default: graph-banner-right
+    options:
+      - graph-banner-left
+      - graph-banner-right
+  - id: banner-height
+    title: Banner Height
+    description: The height of the banner. (e.g. 20vh, 200px)
+    type: variable-text
+    default: 20vh
+  - id: banner-width
+    title: Banner Width
+    description: The width of the banner. (e.g. 20vh, 200px)
+    type: variable-text
+    default: 20vw
+*/
+
+body {
+  --banner-height: 20vh;
+  --banner-width: 20vw;
+}
+
+body:not(.show-graph-banner) .graph-banner-content {
+  display: none !important;
+}
+
+.graph-banner-content {
+  opacity: 0.9 !important;
+}
+
+.banner-graph .graph-banner-content {
+  width: auto;
+  height: var(--banner-height);
+  margin-bottom: 16px;
+}
+
+
+/* 编辑模式下 图谱可以常驻；阅读模式下 图谱不能常驻 */
+.hanging-graph .cm-sizer>div.view-content.graph-banner-content,
+.hanging-graph .mod-header>div.view-content.graph-banner-content {
+  display: block;
+  position: fixed !important;
+  top: 70px;
+  z-index: 2;
+
+  border-radius: 10px;
+  border: 1px solid var(--background-modifier-border);
+  width: var(--banner-width);
+  height: var(--banner-height);
+  margin-bottom: 16px;
+}
+
+/* 居左显示 */
+.graph-banner-left.hanging-graph .cm-sizer>div.view-content.graph-banner-content,
+.graph-banner-left.hanging-graph .mod-header>div.view-content.graph-banner-content {
+  left: 20px;
+  right: auto;
+}
+
+/* 居右显示 */
+.graph-banner-right.hanging-graph .cm-sizer>div.view-content.graph-banner-content,
+.graph-banner-right.hanging-graph .mod-header>div.view-content.graph-banner-content {
+  right: 80px;
+  left: auto;
+}
+
+/* 
+.graph-banner-content:not(:has(.is-close)) {
+  width: 75vw !important;
+  height: 75vh !important;
+} */
+
+/* .zoom-graph .graph-banner-content {
+  width: 1200px !important;
+  height: 800px !important;
+} */

@@ -1,0 +1,1 @@
+monthstamp = current_datetime.strftime("%Y%m")

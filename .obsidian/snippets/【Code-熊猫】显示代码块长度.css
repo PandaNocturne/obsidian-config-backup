@@ -1,0 +1,16 @@
+/* !代码块显示长度 */
+/* https://forum-zh.obsidian.md/t/topic/27088 */
+pre code {
+  display: block;
+  max-height: 500px !important;
+  overflow-y: auto !important;
+  overflow-x: hidden;
+  /* 添加自动换行 */
+  white-space: pre-wrap;
+}
+
+/* 隐藏滚动条只在代码块内生效 */
+pre code::-webkit-scrollbar {
+  display: inherit !important;
+}
+

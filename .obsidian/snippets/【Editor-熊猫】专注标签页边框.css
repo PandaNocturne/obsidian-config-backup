@@ -1,0 +1,27 @@
+/* ! 模仿Colorful Note Borders插件，针对激活的窗口进行添加边框 by 熊猫别熬夜 2023-12-27_10:18:01 */
+body.vt-zen-mode {
+  --focus-border-width: 4px;
+  --focus-border-color: rgba(255, 0, 0, 0.455);
+
+  .workspace-split:not(.mod-right-split):not(.mod-left-split)
+    .workspace-tab-container
+    .workspace-leaf-content {
+    border: var(--focus-border-width) solid var(--focus-border-color);
+  }
+
+  /* 
+  .markdown-preview-view,
+  .view-content>.markdown-source-view.mod-cm6>.cm-editor>.cm-scroller,
+  .markdown-preview-view {
+    border: var(--focus-border-width) solid var(--focus-border-color);
+  }
+
+  .markdown-preview-view {
+    border: var(--focus-border-width) solid var(--focus-border-color);
+  }
+
+  .markdown-preview-view,
+  .view-content>.markdown-source-view.mod-cm6>.cm-editor>.cm-scroller {
+    border: var(--focus-border-width) solid var(--focus-border-color);
+  } */
+}

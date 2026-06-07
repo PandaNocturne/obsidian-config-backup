@@ -1,0 +1,85 @@
+/* Datacore 纯语法版样式（对齐原 view.css 的视觉变量） */
+.tasksCalendarLite {
+  --tc-border: var(--nav-item-background-active);
+  --tc-bg: var(--background-secondary);
+  --tc-hover: var(--background-modifier-hover);
+  --tc-active: var(--background-modifier-active-hover);
+  --tc-text: var(--text-normal);
+  --tc-muted: var(--text-muted);
+  --tc-done: #22c55e;
+  --tc-due: #3b82f6;
+  --tc-overdue: #ef4444;
+  --tc-scheduled: #f59e0b;
+  --tc-process: #8b5cf6;
+
+  border: 1px solid var(--tc-border);
+  border-radius: 8px;
+  background: var(--tc-bg);
+  padding: 12px;
+}
+
+.tasksCalendarLite .tc-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.tasksCalendarLite .tc-title {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--tc-text);
+}
+
+.tasksCalendarLite .tc-subtitle {
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--tc-muted);
+}
+
+.tasksCalendarLite .tc-section {
+  border: 1px solid var(--tc-border);
+  border-radius: 8px;
+  padding: 8px 10px;
+  margin-top: 10px;
+}
+
+.tasksCalendarLite .tc-section > h3 {
+  margin: 0 0 8px 0;
+  font-size: 0.92rem;
+}
+
+.tasksCalendarLite .tc-section:hover {
+  background: var(--tc-hover);
+}
+
+.tasksCalendarLite .tc-done > h3 { color: var(--tc-done); }
+.tasksCalendarLite .tc-due > h3 { color: var(--tc-due); }
+.tasksCalendarLite .tc-overdue > h3 { color: var(--tc-overdue); }
+.tasksCalendarLite .tc-scheduled > h3 { color: var(--tc-scheduled); }
+.tasksCalendarLite .tc-process > h3 { color: var(--tc-process); }
+
+/* Datacore/Dataview 任务列表常见结构兼容 */
+.tasksCalendarLite ul,
+.tasksCalendarLite .dataview.list-view-ul {
+  margin: 0;
+  padding-left: 1.2em;
+}
+
+.tasksCalendarLite li,
+.tasksCalendarLite .task-list-item {
+  margin: 4px 0;
+  color: var(--tc-text);
+}
+
+.tasksCalendarLite .internal-link {
+  color: var(--link-color);
+}
+
+.tasksCalendarLite .tc-note {
+  margin-top: 10px;
+  color: var(--tc-muted);
+  font-size: 0.82rem;
+}

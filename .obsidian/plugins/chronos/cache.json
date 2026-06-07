@@ -1,0 +1,42 @@
+{
+  "fileChronosCache": [
+    [
+      "910【配置】Configs/copilot-conversations/能帮我生成一份甘特图吗@20260119_160744.md",
+      41
+    ],
+    [
+      "910【配置】Configs/copilot-conversations/转换为甘特图@20260119_144437.md",
+      30
+    ],
+    [
+      "910【配置】Configs/copilot-conversations/生成本文的时间线@20260119_143315.md",
+      222
+    ],
+    [
+      "910【配置】Configs/copilot-conversations/生成中国近代史的时间线@20260119_142359.md",
+      83
+    ],
+    [
+      "910【配置】Configs/copilot/system-prompts/Migrated Custom System Prompt.md",
+      74
+    ]
+  ],
+  "folderChronosCache": [
+    [
+      "910【配置】Configs",
+      450
+    ],
+    [
+      "910【配置】Configs/copilot",
+      74
+    ],
+    [
+      "910【配置】Configs/copilot-conversations",
+      376
+    ],
+    [
+      "910【配置】Configs/copilot/system-prompts",
+      74
+    ]
+  ]
+}

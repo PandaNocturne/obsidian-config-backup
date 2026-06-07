@@ -1,0 +1,61 @@
+/* 2024-05-31_18-23 表格居中设置 by 熊猫 */
+table:not(.dataview):not(.ab-table-timeline) {
+
+  tbody td,
+  tbody th {
+    vertical-align: middle !important;
+    /* height: 100% !important; */
+  }
+
+  /* 如果包含图片，则图片居中显示并强制宽度一致 */
+  tbody tr td:has(span>img) {
+    text-align: center !important;
+    vertical-align: middle;
+  }
+
+/* 
+  td,
+  .table-cell-wrapper {
+    padding: 1px !important;
+  } */
+
+
+  thead th {
+    text-align: center !important;
+    /* height: 100% !important; */
+  }
+
+  /* 2024-06-25_02-16 编辑模式下表格内容左侧空隙删除 */
+  .table-cell-wrapper>.cm-s-obsidian>.cm-editor .cm-gutters {
+    display: none;
+  }
+
+  /* 跨行居中 */
+  td[colspan] {
+    text-align: center !important;
+  }
+}
+
+/* table:not(.dataview):not(.ab-table-timeline) td,
+table:not(.dataview):not(.ab-table-timeline) th {
+  min-width: 250px !important;
+} */
+
+.markdown-preview-view table td, table th {
+  padding: 4px 8px !important;
+}
+
+
+/* 表格字体大小 */
+/* 只改变表格内的字体大小 */
+.markdown-rendered table,
+.markdown-source-view table {
+  font-size: 20px;
+  /* 修改为你想要的字号 */
+}
+
+.markdown-rendered table th,
+.markdown-rendered table td {
+  font-size: 20px;
+  /* 只针对表头和表格内容调整字号 */
+}

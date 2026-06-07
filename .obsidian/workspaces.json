@@ -1,0 +1,3166 @@
+{
+  "workspaces": {
+    "默认": {
+      "main": {
+        "id": "5324373015726ba8",
+        "type": "split",
+        "children": [
+          {
+            "id": "78fc6df695d8baf1",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "558b06b85ce894f9",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "500【资源】Resource/游戏/241221_【Inbox】Game track.md",
+                    "mode": "preview",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "241221_【Inbox】Game track"
+                }
+              },
+              {
+                "id": "561fd97d3875b9cb",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "500【资源】Resource/游戏/【游戏】港诡实录_港詭實錄.md",
+                    "mode": "preview",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "【游戏】港诡实录_港詭實錄"
+                }
+              },
+              {
+                "id": "f85c4e1be8839c85",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "600【可视化】VisualTools/600【可视化】VisualTools.md",
+                    "mode": "preview",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "600【可视化】VisualTools"
+                }
+              },
+              {
+                "id": "9f6e1ed7cb1b07ae",
+                "type": "leaf",
+                "state": {
+                  "type": "canvas",
+                  "state": {
+                    "file": "600【可视化】VisualTools/600【白板】Canvas/260605_192130.canvas",
+                    "viewState": {
+                      "x": 540.6035875606386,
+                      "y": -161.03251697885958,
+                      "zoom": 0.4721703660546563
+                    }
+                  },
+                  "icon": "lucide-layout-dashboard",
+                  "title": "260605_192130"
+                }
+              },
+              {
+                "id": "3aea7d56f1ab9083",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "210【日志】Journal/DailyNotes/2026/2026-06-05.md",
+                    "mode": "preview",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "2026-06-05"
+                }
+              }
+            ],
+            "currentTab": 4
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "95e6e6654593eb10",
+        "type": "split",
+        "children": [
+          {
+            "id": "e4bafa1670fe2ff9",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "35fcf03ddcc969ac",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "grid-view",
+                  "state": {
+                    "type": "grid-view",
+                    "state": {
+                      "sourceMode": "folder",
+                      "sourcePath": "220【记录】Record/222【会议记录】Meeting Records",
+                      "baseSortType": "mtime-desc",
+                      "sortType": "mtime-desc",
+                      "searchQuery": "",
+                      "searchCurrentLocationOnly": false,
+                      "searchFilesNameOnly": false,
+                      "searchMediaFiles": false,
+                      "fileNameFilterQuery": "",
+                      "includeMedia": false,
+                      "minMode": false,
+                      "showIgnoredItems": false,
+                      "baseCardLayout": "horizontal",
+                      "cardLayout": "horizontal",
+                      "hideHeaderElements": false,
+                      "showFileNameFilter": false,
+                      "showDateDividers": true,
+                      "showNoteTags": true,
+                      "recentSources": [
+                        "{\"mode\":\"folder\",\"path\":\"220【记录】Record\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                        "{\"mode\":\"folder\",\"path\":\"/\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                        "{\"mode\":\"folder\",\"path\":\"skills\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                        "{\"mode\":\"folder\",\"path\":\"/\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                        "{\"mode\":\"folder\",\"path\":\"220【记录】Record\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                        "{\"mode\":\"folder\",\"path\":\"/\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                        "{\"mode\":\"folder\",\"path\":\"220【记录】Record\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                        "{\"mode\":\"folder\",\"path\":\"220【记录】Record/222【会议记录】Meeting Records\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                        "{\"mode\":\"folder\",\"path\":\"220【记录】Record/222【会议记录】Meeting Records/【工作】华为外包-拓维云创\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                        "{\"mode\":\"folder\",\"path\":\"220【记录】Record/222【会议记录】Meeting Records\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}"
+                      ],
+                      "futureSources": [],
+                      "bookmarkGroupId": "all"
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "folder",
+                  "title": "220【记录】Record/222【会议记录】Meeting Records"
+                }
+              },
+              {
+                "id": "0bb1490b23fee648",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "pinned": true,
+                  "icon": "lucide-bookmark",
+                  "title": "书签"
+                }
+              },
+              {
+                "id": "f0c96d27d11be5cb",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "pinned": true,
+                  "icon": "lucide-archive",
+                  "title": "添加笔记属性"
+                }
+              },
+              {
+                "id": "4b5de29ce0d9592e",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "explorer-view",
+                  "state": {
+                    "expandedPaths": [
+                      "100【收纳盒】Inbox",
+                      "100【收纳盒】Inbox/150【便签】Zettelkasten",
+                      "220【记录】Record"
+                    ],
+                    "searchQuery": "",
+                    "stashFilePaths": []
+                  },
+                  "pinned": true,
+                  "icon": "folder-tree",
+                  "title": "浏览器"
+                }
+              },
+              {
+                "id": "80434c8001a22703",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "vertical-tabs",
+                  "state": {},
+                  "pinned": true,
+                  "icon": "vertical-tabs",
+                  "title": "Vertical tabs"
+                }
+              }
+            ],
+            "currentTab": 4
+          },
+          {
+            "id": "64571a9f9e9dddc6",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "375cbe815b51a418",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "chinese-calendar-view",
+                  "state": {},
+                  "pinned": true,
+                  "icon": "calendar-with-checkmark",
+                  "title": "日历"
+                }
+              },
+              {
+                "id": "df432f1e2e9f92fb",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "210【日志】Journal/StickyNotes/2026/【便笺】2026-05-23 11时09分04秒.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "【便笺】2026-05-23 11时09分04秒 的反向链接列表"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 452.51007080078125,
+        "collapsed": true
+      },
+      "right": {
+        "id": "afb6bb01c1a4f7a2",
+        "type": "split",
+        "children": [
+          {
+            "id": "e56a5ad948a86a71",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "aa945cbb90769d08",
+                "type": "leaf",
+                "state": {
+                  "type": "file-properties",
+                  "state": {
+                    "file": "220【记录】Record/222【会议记录】Meeting Records/202602【工作】华为外包-拓维云创/202602【工作】华为外包-拓维云创.md"
+                  },
+                  "icon": "lucide-info",
+                  "title": "202602【工作】华为外包-拓维云创的笔记属性"
+                }
+              },
+              {
+                "id": "9327aad8a0f4b0f8",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "310【任务】Tasks/Weekly Task Report by Dataviewjs.md",
+                    "mode": "preview",
+                    "source": true,
+                    "backlinks": false
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "Weekly Task Report by Dataviewjs"
+                }
+              },
+              {
+                "id": "096ae661f0f5c251",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabeticalReverse"
+                  },
+                  "icon": "lucide-search",
+                  "title": "搜索"
+                }
+              },
+              {
+                "id": "72f06361316ed811",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "multiple-notes-outline",
+                  "state": {},
+                  "pinned": true,
+                  "icon": "files",
+                  "title": "MNO - file view"
+                }
+              },
+              {
+                "id": "9139cb2656094de9",
+                "type": "leaf",
+                "state": {
+                  "type": "yolo-chat-view",
+                  "state": {},
+                  "icon": "wand-sparkles",
+                  "title": "新对话"
+                }
+              },
+              {
+                "id": "6ca449fb127d299d",
+                "type": "leaf",
+                "state": {
+                  "type": "colorful-sticky-notes-list",
+                  "state": {},
+                  "icon": "layout-list",
+                  "title": "便笺列表"
+                }
+              }
+            ],
+            "currentTab": 4
+          }
+        ],
+        "direction": "horizontal",
+        "width": 690.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "better-plugins-manager:插件管理器": false,
+          "yolo:打开聊天": false,
+          "obsidian-memos:Thino": false,
+          "obsidian-memos:Thino Super": false,
+          "obsidian-excalidraw-plugin:新建绘图文件": false,
+          "obsidian-kanban:Create new board": false,
+          "obsidian42-brat:BRAT": false,
+          "quick-tagger:Add tag to current note": false,
+          "quick-tagger:Remove tag from current note": false,
+          "cmdr:Commander: 打开 Commander 设置": false,
+          "cmdr:Style Settings: Show style settings view": false,
+          "cmdr:QuickAdd: Macro：归档附件": false,
+          "components:AI 对话（新标签页）": false,
+          "lineage:Toggle Lineage view": false,
+          "templater-obsidian:Templater": false,
+          "advanced-search-ui:切换悬浮搜索面板": false,
+          "focus-time:打开专注时间仪表盘": false,
+          "code-files:Create Code File": false,
+          "dashboard-navigator:Open dashboard navigator": false,
+          "quick-plugin-switcher:Quick Plugin Switcher": false,
+          "password-manager:打开密码管理器": false,
+          "obsidian-git:Open Git source control": false,
+          "switcher:打开快速切换": false,
+          "graph:查看关系图谱": false,
+          "canvas:新建白板": false,
+          "daily-notes:打开/创建今天的日记": false,
+          "templates:插入模板": false,
+          "command-palette:打开命令面板": false,
+          "audio-recorder:开始/结束录音": false,
+          "workspaces:管理工作区布局": false,
+          "bases:新建数据库": false,
+          "colorful-stickynotes:打开便笺": false,
+          "colorful-stickynotes:便笺列表": false,
+          "colorful-stickynotes:便笺工作区": false,
+          "gridexplorer:打开网格视图": false,
+          "periodic-notes:Open today": false,
+          "task-board:打开任务看板": false
+        }
+      },
+      "active": "3aea7d56f1ab9083",
+      "mtime": "2026-06-06T08:59:54+08:00"
+    },
+    "学习区": {
+      "main": {
+        "id": "5324373015726ba8",
+        "type": "split",
+        "children": [
+          {
+            "id": "c7cefb5b7a333189",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "82e16684b984e7b7",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "420【编程】Code/嵌入式开发/251004_嵌入式学习路线.md",
+                    "mode": "preview",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "251004_嵌入式学习路线"
+                }
+              },
+              {
+                "id": "24967421b54c9bc1",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "310【任务】Tasks/2025/250708_📅嵌入式基础入门学习/250708_📅嵌入式基础入门学习.md",
+                    "mode": "preview",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "250708_📅嵌入式基础入门学习"
+                }
+              },
+              {
+                "id": "8a373277fbaa732a",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "420【编程】Code/嵌入式开发/嵌入式开发.md",
+                    "mode": "preview",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "嵌入式开发"
+                }
+              },
+              {
+                "id": "ba41f1d415da8de3",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "310【任务】Tasks/2026/260525_基础电路的学习/260525_基础电路的学习.md",
+                    "mode": "preview",
+                    "source": true,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "260525_基础电路的学习"
+                }
+              },
+              {
+                "id": "eab8374fa8e65ed4",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "210【日志】Journal/DailyNotes/2026/2026-06-07.md",
+                    "mode": "preview",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "2026-06-07"
+                }
+              },
+              {
+                "id": "7b73df69d38484a6",
+                "type": "leaf",
+                "state": {
+                  "type": "canvas",
+                  "state": {
+                    "file": "310【任务】Tasks/2025/250708_📅嵌入式基础入门学习/260525_电子技术个人学习路径总结.canvas",
+                    "viewState": {
+                      "x": 3423.317233628272,
+                      "y": 606.479092160654,
+                      "zoom": -0.8554357362422778
+                    }
+                  },
+                  "icon": "lucide-layout-dashboard",
+                  "title": "260525_电子技术个人学习路径总结"
+                }
+              },
+              {
+                "id": "76e07fe774b78b03",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "420【编程】Code/嵌入式开发/251207_微机原理/251207_微机原理.md",
+                    "mode": "preview",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "251207_微机原理"
+                }
+              },
+              {
+                "id": "9b53ba6210449cd1",
+                "type": "leaf",
+                "state": {
+                  "type": "excalidraw",
+                  "state": {
+                    "file": "310【任务】Tasks/2026/260525_基础电路的学习/260601_电路分析基础-学习记录.excalidraw.md"
+                  },
+                  "icon": "excalidraw-icon",
+                  "title": "260601_电路分析基础-学习记录.excalidraw"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "95e6e6654593eb10",
+        "type": "split",
+        "children": [
+          {
+            "id": "e4bafa1670fe2ff9",
+            "type": "tabs",
+            "dimension": 44.8512585812357,
+            "children": [
+              {
+                "id": "35fcf03ddcc969ac",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "grid-view",
+                  "state": {
+                    "type": "grid-view",
+                    "state": {
+                      "sourceMode": "folder",
+                      "sourcePath": "700【模板】Template/Excalidraw/Scripts/PandaScripts",
+                      "baseSortType": "mtime-desc",
+                      "sortType": "mtime-desc",
+                      "searchQuery": "",
+                      "searchCurrentLocationOnly": false,
+                      "searchFilesNameOnly": false,
+                      "searchMediaFiles": false,
+                      "fileNameFilterQuery": "",
+                      "includeMedia": false,
+                      "minMode": false,
+                      "showIgnoredItems": false,
+                      "baseCardLayout": "horizontal",
+                      "cardLayout": "horizontal",
+                      "hideHeaderElements": false,
+                      "showFileNameFilter": false,
+                      "showDateDividers": false,
+                      "showNoteTags": true,
+                      "recentSources": [
+                        "{\"mode\":\"folder\",\"path\":\"700【模板】Template/Excalidraw/Scripts\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                        "{\"mode\":\"folder\",\"path\":\"700【模板】Template/Excalidraw\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                        "{\"mode\":\"folder\",\"path\":\"700【模板】Template\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                        "{\"mode\":\"folder\",\"path\":\"/\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                        "{\"mode\":\"folder\",\"path\":\"210【日志】Journal/StickyNotes/2026\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                        "{\"mode\":\"folder\",\"path\":\"210【日志】Journal/StickyNotes\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                        "{\"mode\":\"folder\",\"path\":\"210【日志】Journal/StickyNotes/2026\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                        "{\"mode\":\"folder\",\"path\":\"210【日志】Journal/StickyNotes\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                        "{\"mode\":\"folder\",\"path\":\"210【日志】Journal\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                        "{\"mode\":\"folder\",\"path\":\"/\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}"
+                      ],
+                      "futureSources": [],
+                      "bookmarkGroupId": "all"
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "folder",
+                  "title": "700【模板】Template/Excalidraw/Scripts/PandaScripts"
+                }
+              },
+              {
+                "id": "0bb1490b23fee648",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "书签"
+                }
+              },
+              {
+                "id": "f0c96d27d11be5cb",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "添加笔记属性"
+                }
+              },
+              {
+                "id": "4b5de29ce0d9592e",
+                "type": "leaf",
+                "state": {
+                  "type": "explorer-view",
+                  "state": {
+                    "expandedPaths": [
+                      "__folders__root"
+                    ],
+                    "searchQuery": "",
+                    "stashFilePaths": []
+                  },
+                  "icon": "folder-tree",
+                  "title": "浏览器"
+                }
+              },
+              {
+                "id": "93d5a6218ed02229",
+                "type": "leaf",
+                "state": {
+                  "type": "vertical-tabs",
+                  "state": {},
+                  "icon": "vertical-tabs",
+                  "title": "Vertical tabs"
+                }
+              }
+            ]
+          },
+          {
+            "id": "da20de394e8bef44",
+            "type": "tabs",
+            "dimension": 55.1487414187643,
+            "children": [
+              {
+                "id": "375cbe815b51a418",
+                "type": "leaf",
+                "state": {
+                  "type": "chinese-calendar-view",
+                  "state": {},
+                  "icon": "calendar-with-checkmark",
+                  "title": "日历"
+                }
+              },
+              {
+                "id": "ef3ded9dc2e7904a",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "000【主页】Home/000【主页】Home.components",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "lucide-ghost",
+                  "title": "backlink"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 455.5,
+        "collapsed": true
+      },
+      "right": {
+        "id": "afb6bb01c1a4f7a2",
+        "type": "split",
+        "children": [
+          {
+            "id": "e56a5ad948a86a71",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "f6d1efa19786ef2b",
+                "type": "leaf",
+                "state": {
+                  "type": "file-properties",
+                  "state": {
+                    "file": "310【任务】Tasks/2026/260525_基础电路的学习/260601_电路分析基础-学习记录.excalidraw.md"
+                  },
+                  "icon": "lucide-info",
+                  "title": "260601_电路分析基础-学习记录.excalidraw的笔记属性"
+                }
+              },
+              {
+                "id": "404c90fb01f1807a",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": true,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "搜索"
+                }
+              },
+              {
+                "id": "72f06361316ed811",
+                "type": "leaf",
+                "state": {
+                  "type": "multiple-notes-outline",
+                  "state": {},
+                  "icon": "files",
+                  "title": "MNO - file view"
+                }
+              },
+              {
+                "id": "c73a565e1f774dc4",
+                "type": "leaf",
+                "state": {
+                  "type": "quiet-outline",
+                  "state": {},
+                  "icon": "lines-of-text",
+                  "title": "Quiet Outline"
+                }
+              },
+              {
+                "id": "2d0da901387ff185",
+                "type": "leaf",
+                "state": {
+                  "type": "git-view",
+                  "state": {},
+                  "icon": "git-pull-request",
+                  "title": "Source Control"
+                }
+              },
+              {
+                "id": "e0cfeb10680d07e2",
+                "type": "leaf",
+                "state": {
+                  "type": "yolo-chat-view",
+                  "state": {},
+                  "icon": "wand-sparkles",
+                  "title": "新对话"
+                }
+              },
+              {
+                "id": "026d9881d19cda7f",
+                "type": "leaf",
+                "state": {
+                  "type": "colorful-sticky-notes-list",
+                  "state": {},
+                  "icon": "layout-list",
+                  "title": "便笺列表"
+                }
+              },
+              {
+                "id": "b7b4aea9e49bfe41",
+                "type": "leaf",
+                "state": {
+                  "type": "yolo-chat-view",
+                  "state": {},
+                  "icon": "wand-sparkles",
+                  "title": "Python绘图示例"
+                }
+              },
+              {
+                "id": "d98a36a437b21ac5",
+                "type": "leaf",
+                "state": {
+                  "type": "footnotes",
+                  "state": {
+                    "file": "420【编程】Code/嵌入式开发/251004_嵌入式学习路线.md"
+                  },
+                  "icon": "lucide-file-signature",
+                  "title": "脚注"
+                }
+              },
+              {
+                "id": "23dd1e661e2ceed3",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "标签"
+                }
+              }
+            ],
+            "currentTab": 6
+          }
+        ],
+        "direction": "horizontal",
+        "width": 694.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "yolo:打开聊天": false,
+          "obsidian-memos:Thino": false,
+          "obsidian-memos:Thino Super": false,
+          "gridexplorer:打开网格视图": false,
+          "obsidian-kanban:Create new board": false,
+          "colorful-stickynotes:打开便笺": false,
+          "colorful-stickynotes:便笺列表": false,
+          "colorful-stickynotes:便笺工作区": false,
+          "dashboard-navigator:Open dashboard navigator": false,
+          "quick-plugin-switcher:Quick Plugin Switcher": false,
+          "password-manager:打开密码管理器": false,
+          "advanced-search-ui:切换悬浮搜索面板": false,
+          "bases:新建数据库": false,
+          "switcher:打开快速切换": false,
+          "graph:查看关系图谱": false,
+          "canvas:新建白板": false,
+          "daily-notes:打开/创建今天的日记": false,
+          "templates:插入模板": false,
+          "command-palette:打开命令面板": false,
+          "audio-recorder:开始/结束录音": false,
+          "workspaces:管理工作区布局": false,
+          "components:AI 对话（新标签页）": false,
+          "obsidian42-brat:BRAT": false,
+          "quick-tagger:Add tag to current note": false,
+          "quick-tagger:Remove tag from current note": false,
+          "cmdr:Commander: 打开 Commander 设置": false,
+          "cmdr:Style Settings: Show style settings view": false,
+          "cmdr:QuickAdd: Macro：归档附件": false,
+          "lineage:Toggle Lineage view": false,
+          "obsidian-git:Open Git source control": false,
+          "code-files:Create Code File": true,
+          "templater-obsidian:Templater": true,
+          "focus-time:打开专注时间仪表盘": false,
+          "better-plugins-manager:插件管理器": false,
+          "obsidian-excalidraw-plugin:New drawing": false,
+          "pure-footnote:打开脚注大纲": false,
+          "periodic-notes:Open today": false,
+          "task-board:打开任务看板": false
+        }
+      },
+      "active": "82e16684b984e7b7",
+      "mtime": "2026-06-07T21:12:22+08:00"
+    },
+    "投稿区": {
+      "main": {
+        "id": "5324373015726ba8",
+        "type": "split",
+        "children": [
+          {
+            "id": "82352d809408d1ca",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "114db72bea09faf4",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "components-file-view",
+                  "state": {
+                    "file": "300【项目】Project/【Project】PKMer文章/【Project】PKMer文章.components"
+                  },
+                  "pinned": true,
+                  "icon": "gantt-chart",
+                  "title": "【Project】PKMer文章"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "95e6e6654593eb10",
+        "type": "split",
+        "children": [
+          {
+            "id": "543053ea24d0afde",
+            "type": "split",
+            "dimension": 46.206115515288786,
+            "children": [
+              {
+                "id": "e4bafa1670fe2ff9",
+                "type": "tabs",
+                "children": [
+                  {
+                    "id": "35fcf03ddcc969ac",
+                    "type": "leaf",
+                    "pinned": true,
+                    "state": {
+                      "type": "grid-view",
+                      "state": {
+                        "type": "grid-view",
+                        "state": {
+                          "sourceMode": "folder",
+                          "sourcePath": "310【任务】Tasks",
+                          "baseSortType": "mtime-desc",
+                          "sortType": "mtime-desc",
+                          "searchQuery": "",
+                          "searchCurrentLocationOnly": false,
+                          "searchFilesNameOnly": false,
+                          "searchMediaFiles": false,
+                          "includeMedia": false,
+                          "minMode": false,
+                          "showIgnoredItems": false,
+                          "baseCardLayout": "horizontal",
+                          "cardLayout": "horizontal",
+                          "hideHeaderElements": false,
+                          "showDateDividers": true,
+                          "showNoteTags": true,
+                          "recentSources": [
+                            "{\"mode\":\"folder\",\"path\":\"/\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                            "{\"mode\":\"folder\",\"path\":\"300【项目】Project\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                            "{\"mode\":\"folder\",\"path\":\"/\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                            "{\"mode\":\"folder\",\"path\":\"210【日志】Journal/ThinoNotes\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                            "{\"mode\":\"folder\",\"path\":\"210【日志】Journal\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                            "{\"mode\":\"folder\",\"path\":\"/\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                            "{\"mode\":\"folder\",\"path\":\"210【日志】Journal\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                            "{\"mode\":\"folder\",\"path\":\"/\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                            "{\"mode\":\"folder\",\"path\":\"300【项目】Project\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                            "{\"mode\":\"folder\",\"path\":\"/\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}"
+                          ],
+                          "futureSources": [],
+                          "bookmarkGroupId": "all"
+                        }
+                      },
+                      "pinned": true,
+                      "icon": "folder",
+                      "title": "310【任务】Tasks"
+                    }
+                  },
+                  {
+                    "id": "0bb1490b23fee648",
+                    "type": "leaf",
+                    "pinned": true,
+                    "state": {
+                      "type": "bookmarks",
+                      "state": {},
+                      "pinned": true,
+                      "icon": "lucide-bookmark",
+                      "title": "书签"
+                    }
+                  },
+                  {
+                    "id": "f0c96d27d11be5cb",
+                    "type": "leaf",
+                    "pinned": true,
+                    "state": {
+                      "type": "all-properties",
+                      "state": {
+                        "sortOrder": "frequency",
+                        "showSearch": false,
+                        "searchQuery": ""
+                      },
+                      "pinned": true,
+                      "icon": "lucide-archive",
+                      "title": "添加笔记属性"
+                    }
+                  }
+                ],
+                "currentTab": 2
+              },
+              {
+                "id": "a6969005a00f4828",
+                "type": "tabs",
+                "children": [
+                  {
+                    "id": "74495e07b8a52f36",
+                    "type": "leaf",
+                    "state": {
+                      "type": "vertical-tabs",
+                      "state": {},
+                      "icon": "lucide-ghost",
+                      "title": "vertical-tabs"
+                    }
+                  }
+                ]
+              }
+            ],
+            "direction": "vertical"
+          },
+          {
+            "id": "da20de394e8bef44",
+            "type": "tabs",
+            "dimension": 53.79388448471121,
+            "children": [
+              {
+                "id": "375cbe815b51a418",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "chinese-calendar-view",
+                  "state": {},
+                  "pinned": true,
+                  "icon": "calendar-with-checkmark",
+                  "title": "日历"
+                }
+              },
+              {
+                "id": "ef3ded9dc2e7904a",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "(path:( \"300【项目】Project/【Project】PKMer文章/QuickAdd脚本的相关文档\")) (file:(.md)) (file:/^\\d{4}/)",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "pinned": true,
+                  "icon": "lucide-ghost",
+                  "title": "backlink"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 412.5,
+        "collapsed": true
+      },
+      "right": {
+        "id": "afb6bb01c1a4f7a2",
+        "type": "split",
+        "children": [
+          {
+            "id": "e56a5ad948a86a71",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "35fdc4fef5989a48",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "310【任务】Tasks/Weekly Task Report by Datacore.md",
+                    "mode": "preview",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Weekly Task Report by Datacore"
+                }
+              },
+              {
+                "id": "5c6c69dbe39a13e8",
+                "type": "leaf",
+                "state": {
+                  "type": "smtcmp-chat-view",
+                  "state": {},
+                  "icon": "lucide-ghost",
+                  "title": "smtcmp-chat-view"
+                }
+              },
+              {
+                "id": "0fed33766fe591fd",
+                "type": "leaf",
+                "state": {
+                  "type": "file-properties",
+                  "state": {
+                    "file": "300【项目】Project/【Project】PKMer文章/Excalidraw脚本/260419_自定义Excalidraw脚本：图片网格布局工具（Images Grid Layout Tool）.md"
+                  },
+                  "icon": "lucide-info",
+                  "title": "260419_自定义Excalidraw脚本：图片网格布局工具（Images Grid Layout Tool）的笔记属性"
+                }
+              },
+              {
+                "id": "096ae661f0f5c251",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": true,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "搜索"
+                }
+              },
+              {
+                "id": "72f06361316ed811",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "multiple-notes-outline",
+                  "state": {},
+                  "pinned": true,
+                  "icon": "files",
+                  "title": "MNO - file view"
+                }
+              },
+              {
+                "id": "15b8d5805865e2a8",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "chronology-calendar-view",
+                  "state": {},
+                  "pinned": true,
+                  "icon": "lucide-ghost",
+                  "title": "chronology-calendar-view"
+                }
+              },
+              {
+                "id": "c392070aa874916d",
+                "type": "leaf",
+                "state": {
+                  "type": "quiet-outline",
+                  "state": {},
+                  "icon": "lucide-ghost",
+                  "title": "quiet-outline"
+                }
+              },
+              {
+                "id": "4b5de29ce0d9592e",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "explorer-view",
+                  "state": {
+                    "expandedPaths": [
+                      "100【收纳盒】Inbox"
+                    ],
+                    "searchQuery": "",
+                    "stashFilePaths": []
+                  },
+                  "pinned": true,
+                  "icon": "folder-tree",
+                  "title": "浏览器"
+                }
+              },
+              {
+                "id": "19bdfe610e8a5e91",
+                "type": "leaf",
+                "state": {
+                  "type": "Strange New Worlds",
+                  "state": {},
+                  "icon": "lucide-ghost",
+                  "title": "Strange New Worlds"
+                }
+              },
+              {
+                "id": "07e7fe302eba6b04",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-ghost",
+                  "title": "tag"
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "horizontal",
+        "width": 640.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "workspace-plus-plus:Workspace++": false,
+          "obsidian-kanban:Create new board": false,
+          "colorful-stickynotes:打开便笺": false,
+          "colorful-stickynotes:便笺列表": false,
+          "colorful-stickynotes:便笺工作区": false,
+          "obsidian-git:Open Git source control": false,
+          "dashboard-navigator:Open dashboard navigator": false,
+          "quick-plugin-switcher:Quick Plugin Switcher": false,
+          "password-manager:打开密码管理器": false,
+          "advanced-search-ui:切换悬浮搜索面板": false,
+          "obsidian-excalidraw-plugin:新建绘图文件": false,
+          "gridexplorer:打开网格视图": false,
+          "switcher:打开快速切换": false,
+          "graph:查看关系图谱": false,
+          "canvas:新建白板": false,
+          "daily-notes:打开/创建今天的日记": false,
+          "templates:插入模板": false,
+          "command-palette:打开命令面板": false,
+          "audio-recorder:开始/结束录音": false,
+          "workspaces:管理工作区布局": false,
+          "bases:新建数据库": false,
+          "code-files:Create Code File": false,
+          "focus-time:打开专注时间仪表盘": false,
+          "obsidian42-brat:BRAT": false,
+          "quick-tagger:Add tag to current note": false,
+          "quick-tagger:Remove tag from current note": false,
+          "components:AI 对话（新标签页）": false,
+          "lineage:Toggle Lineage view": false,
+          "templater-obsidian:Templater": false,
+          "cmdr:Commander: 打开 Commander 设置": false,
+          "cmdr:Style Settings: Show style settings view": false,
+          "cmdr:QuickAdd: Macro：归档附件": false,
+          "periodic-notes:Open today": false,
+          "task-board:打开任务看板": false,
+          "workspaces-plus:Manage workspaces": false
+        }
+      },
+      "active": "114db72bea09faf4",
+      "mtime": "2026-05-26T13:15:30+08:00",
+      "workspaces-plus:settings-v1": {
+        "explorerFoldState": []
+      }
+    },
+    "周报区": {
+      "main": {
+        "id": "5324373015726ba8",
+        "type": "split",
+        "children": [
+          {
+            "id": "c7cefb5b7a333189",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "ba41f1d415da8de3",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "310【任务】Tasks/2026/260525_基础电路的学习/260525_基础电路的学习.md",
+                    "mode": "preview",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "260525_基础电路的学习"
+                }
+              },
+              {
+                "id": "1becfaaa7490c1e9",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "310【任务】Tasks/2025/250708_📅嵌入式基础入门学习/250708_📅嵌入式基础入门学习.md",
+                    "mode": "preview",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "250708_📅嵌入式基础入门学习"
+                }
+              },
+              {
+                "id": "a8d277c5eba22cd0",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "mindmapview",
+                  "state": {
+                    "file": "310【任务】Tasks/2026/260525_基础电路的学习/260525_电路分析基础.markmind.md"
+                  },
+                  "pinned": true,
+                  "icon": "blocks",
+                  "title": "260525_电路分析基础.markmind"
+                }
+              },
+              {
+                "id": "26eea4a52c16323e",
+                "type": "leaf",
+                "state": {
+                  "type": "canvas",
+                  "state": {
+                    "file": "310【任务】Tasks/2026/260317_嵌入式简历修改&面试找工作/260506_根据卦象安排找工作的计划.canvas",
+                    "viewState": {
+                      "x": 2596.024784248977,
+                      "y": -46.783492156344835,
+                      "zoom": -0.12207253525472517
+                    }
+                  },
+                  "icon": "lucide-layout-dashboard",
+                  "title": "260506_根据卦象安排找工作的计划"
+                }
+              },
+              {
+                "id": "9260d1529fdb5c34",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "210【日志】Journal/DailyNotes/2026/2026-05-25.md",
+                    "mode": "preview",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "2026-05-25"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "95e6e6654593eb10",
+        "type": "split",
+        "children": [
+          {
+            "id": "e4bafa1670fe2ff9",
+            "type": "tabs",
+            "dimension": 44.8512585812357,
+            "children": [
+              {
+                "id": "35fcf03ddcc969ac",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "grid-view",
+                  "state": {
+                    "type": "grid-view",
+                    "state": {
+                      "sourceMode": "folder",
+                      "sourcePath": "/",
+                      "baseSortType": "mtime-desc",
+                      "sortType": "mtime-desc",
+                      "searchQuery": "",
+                      "searchCurrentLocationOnly": false,
+                      "searchFilesNameOnly": false,
+                      "searchMediaFiles": false,
+                      "fileNameFilterQuery": "",
+                      "includeMedia": false,
+                      "minMode": false,
+                      "showIgnoredItems": false,
+                      "baseCardLayout": "horizontal",
+                      "cardLayout": "horizontal",
+                      "hideHeaderElements": false,
+                      "showFileNameFilter": false,
+                      "showDateDividers": false,
+                      "showNoteTags": true,
+                      "recentSources": [
+                        "{\"mode\":\"folder\",\"path\":\"420【编程】Code/嵌入式开发/C语言\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                        "{\"mode\":\"folder\",\"path\":\"420【编程】Code/嵌入式开发\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                        "{\"mode\":\"folder\",\"path\":\"420【编程】Code\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                        "{\"mode\":\"folder\",\"path\":\"420【编程】Code/人工智能(AI)\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                        "{\"mode\":\"folder\",\"path\":\"420【编程】Code\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                        "{\"mode\":\"folder\",\"path\":\"420【编程】Code/操作系统\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                        "{\"mode\":\"folder\",\"path\":\"420【编程】Code\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                        "{\"mode\":\"folder\",\"path\":\"/\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}"
+                      ],
+                      "futureSources": [
+                        "{\"mode\":\"folder\",\"path\":\"400【领域】Area\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                        "{\"mode\":\"folder\",\"path\":\"/\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}"
+                      ],
+                      "bookmarkGroupId": "all"
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "folder",
+                  "title": "根目录"
+                }
+              },
+              {
+                "id": "0bb1490b23fee648",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "书签"
+                }
+              },
+              {
+                "id": "f0c96d27d11be5cb",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "添加笔记属性"
+                }
+              },
+              {
+                "id": "4b5de29ce0d9592e",
+                "type": "leaf",
+                "state": {
+                  "type": "explorer-view",
+                  "state": {
+                    "expandedPaths": [
+                      "__folders__root"
+                    ],
+                    "searchQuery": "",
+                    "stashFilePaths": []
+                  },
+                  "icon": "folder-tree",
+                  "title": "浏览器"
+                }
+              }
+            ]
+          },
+          {
+            "id": "da20de394e8bef44",
+            "type": "tabs",
+            "dimension": 55.1487414187643,
+            "children": [
+              {
+                "id": "375cbe815b51a418",
+                "type": "leaf",
+                "state": {
+                  "type": "chinese-calendar-view",
+                  "state": {},
+                  "icon": "calendar-with-checkmark",
+                  "title": "日历"
+                }
+              },
+              {
+                "id": "ef3ded9dc2e7904a",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "000【主页】Home/000【主页】Home.components",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "lucide-ghost",
+                  "title": "backlink"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 455.5,
+        "collapsed": true
+      },
+      "right": {
+        "id": "afb6bb01c1a4f7a2",
+        "type": "split",
+        "children": [
+          {
+            "id": "e56a5ad948a86a71",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "f6d1efa19786ef2b",
+                "type": "leaf",
+                "state": {
+                  "type": "file-properties",
+                  "state": {},
+                  "icon": "lucide-info",
+                  "title": "笔记属性"
+                }
+              },
+              {
+                "id": "404c90fb01f1807a",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": true,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "搜索"
+                }
+              },
+              {
+                "id": "72f06361316ed811",
+                "type": "leaf",
+                "state": {
+                  "type": "multiple-notes-outline",
+                  "state": {},
+                  "icon": "files",
+                  "title": "MNO - file view"
+                }
+              },
+              {
+                "id": "c73a565e1f774dc4",
+                "type": "leaf",
+                "state": {
+                  "type": "quiet-outline",
+                  "state": {},
+                  "icon": "lines-of-text",
+                  "title": "Quiet Outline"
+                }
+              },
+              {
+                "id": "2d0da901387ff185",
+                "type": "leaf",
+                "state": {
+                  "type": "git-view",
+                  "state": {},
+                  "icon": "git-pull-request",
+                  "title": "Source Control"
+                }
+              }
+            ],
+            "currentTab": 4
+          }
+        ],
+        "direction": "horizontal",
+        "width": 705.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "workspace-plus-plus:Workspace++": false,
+          "obsidian-excalidraw-plugin:新建绘图文件": false,
+          "gridexplorer:打开网格视图": false,
+          "obsidian-kanban:Create new board": false,
+          "colorful-stickynotes:打开便笺": false,
+          "colorful-stickynotes:便笺列表": false,
+          "colorful-stickynotes:便笺工作区": false,
+          "dashboard-navigator:Open dashboard navigator": false,
+          "quick-plugin-switcher:Quick Plugin Switcher": false,
+          "password-manager:打开密码管理器": false,
+          "advanced-search-ui:切换悬浮搜索面板": false,
+          "bases:新建数据库": false,
+          "switcher:打开快速切换": false,
+          "graph:查看关系图谱": false,
+          "canvas:新建白板": false,
+          "daily-notes:打开/创建今天的日记": false,
+          "templates:插入模板": false,
+          "command-palette:打开命令面板": false,
+          "audio-recorder:开始/结束录音": false,
+          "workspaces:管理工作区布局": false,
+          "components:AI 对话（新标签页）": false,
+          "obsidian42-brat:BRAT": false,
+          "quick-tagger:Add tag to current note": false,
+          "quick-tagger:Remove tag from current note": false,
+          "cmdr:Commander: 打开 Commander 设置": false,
+          "cmdr:Style Settings: Show style settings view": false,
+          "cmdr:QuickAdd: Macro：归档附件": false,
+          "lineage:Toggle Lineage view": false,
+          "obsidian-git:Open Git source control": false,
+          "code-files:Create Code File": true,
+          "templater-obsidian:Templater": true,
+          "focus-time:打开专注时间仪表盘": false,
+          "periodic-notes:Open today": false,
+          "workspaces-plus:Manage workspaces": false,
+          "task-board:打开任务看板": false
+        }
+      },
+      "active": "ba41f1d415da8de3",
+      "mtime": "2026-05-26T13:17:22+08:00",
+      "workspaces-plus:settings-v1": {
+        "explorerFoldState": []
+      }
+    },
+    "视频区": {
+      "main": {
+        "id": "5324373015726ba8",
+        "type": "split",
+        "children": [
+          {
+            "id": "82352d809408d1ca",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "114db72bea09faf4",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "components-file-view",
+                  "state": {
+                    "file": "300【项目】Project/【Project】PKMer文章/【Project】PKMer文章.components"
+                  },
+                  "pinned": true,
+                  "icon": "gantt-chart",
+                  "title": "【Project】PKMer文章"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "95e6e6654593eb10",
+        "type": "split",
+        "children": [
+          {
+            "id": "e4bafa1670fe2ff9",
+            "type": "tabs",
+            "dimension": 46.206115515288786,
+            "children": [
+              {
+                "id": "35fcf03ddcc969ac",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "grid-view",
+                  "state": {
+                    "type": "grid-view",
+                    "state": {
+                      "sourceMode": "folder",
+                      "sourcePath": "310【任务】Tasks",
+                      "baseSortType": "mtime-desc",
+                      "sortType": "mtime-desc",
+                      "searchQuery": "",
+                      "searchCurrentLocationOnly": false,
+                      "searchFilesNameOnly": false,
+                      "searchMediaFiles": false,
+                      "fileNameFilterQuery": "",
+                      "includeMedia": false,
+                      "minMode": false,
+                      "showIgnoredItems": false,
+                      "baseCardLayout": "horizontal",
+                      "cardLayout": "horizontal",
+                      "hideHeaderElements": false,
+                      "showFileNameFilter": false,
+                      "showDateDividers": true,
+                      "showNoteTags": true,
+                      "recentSources": [
+                        "{\"mode\":\"folder\",\"path\":\"/\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                        "{\"mode\":\"folder\",\"path\":\"300【项目】Project\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                        "{\"mode\":\"folder\",\"path\":\"/\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                        "{\"mode\":\"folder\",\"path\":\"210【日志】Journal/ThinoNotes\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                        "{\"mode\":\"folder\",\"path\":\"210【日志】Journal\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                        "{\"mode\":\"folder\",\"path\":\"/\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                        "{\"mode\":\"folder\",\"path\":\"210【日志】Journal\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                        "{\"mode\":\"folder\",\"path\":\"/\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                        "{\"mode\":\"folder\",\"path\":\"300【项目】Project\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                        "{\"mode\":\"folder\",\"path\":\"/\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}"
+                      ],
+                      "futureSources": [],
+                      "bookmarkGroupId": "all"
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "folder",
+                  "title": "310【任务】Tasks"
+                }
+              },
+              {
+                "id": "0bb1490b23fee648",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "pinned": true,
+                  "icon": "lucide-bookmark",
+                  "title": "书签"
+                }
+              },
+              {
+                "id": "f0c96d27d11be5cb",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "pinned": true,
+                  "icon": "lucide-archive",
+                  "title": "添加笔记属性"
+                }
+              }
+            ]
+          },
+          {
+            "id": "da20de394e8bef44",
+            "type": "tabs",
+            "dimension": 53.79388448471121,
+            "children": [
+              {
+                "id": "375cbe815b51a418",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "chinese-calendar-view",
+                  "state": {},
+                  "pinned": true,
+                  "icon": "calendar-with-checkmark",
+                  "title": "日历"
+                }
+              },
+              {
+                "id": "ef3ded9dc2e7904a",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "(path:( \"300【项目】Project/【Project】PKMer文章/QuickAdd脚本的相关文档\")) (file:(.md)) (file:/^\\d{4}/)",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "pinned": true,
+                  "icon": "lucide-ghost",
+                  "title": "backlink"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 412.5,
+        "collapsed": true
+      },
+      "right": {
+        "id": "afb6bb01c1a4f7a2",
+        "type": "split",
+        "children": [
+          {
+            "id": "e56a5ad948a86a71",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "35fdc4fef5989a48",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "310【任务】Tasks/Weekly Task Report by Datacore.md",
+                    "mode": "preview",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Weekly Task Report by Datacore"
+                }
+              },
+              {
+                "id": "5c6c69dbe39a13e8",
+                "type": "leaf",
+                "state": {
+                  "type": "smtcmp-chat-view",
+                  "state": {},
+                  "icon": "lucide-ghost",
+                  "title": "smtcmp-chat-view"
+                }
+              },
+              {
+                "id": "0fed33766fe591fd",
+                "type": "leaf",
+                "state": {
+                  "type": "file-properties",
+                  "state": {
+                    "file": "300【项目】Project/【Project】PKMer文章/Excalidraw脚本/260419_自定义Excalidraw脚本：图片网格布局工具（Images Grid Layout Tool）.md"
+                  },
+                  "icon": "lucide-info",
+                  "title": "260419_自定义Excalidraw脚本：图片网格布局工具（Images Grid Layout Tool）的笔记属性"
+                }
+              },
+              {
+                "id": "096ae661f0f5c251",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": true,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "搜索"
+                }
+              },
+              {
+                "id": "72f06361316ed811",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "multiple-notes-outline",
+                  "state": {},
+                  "pinned": true,
+                  "icon": "files",
+                  "title": "MNO - file view"
+                }
+              },
+              {
+                "id": "15b8d5805865e2a8",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "chronology-calendar-view",
+                  "state": {},
+                  "pinned": true,
+                  "icon": "lucide-ghost",
+                  "title": "chronology-calendar-view"
+                }
+              },
+              {
+                "id": "c392070aa874916d",
+                "type": "leaf",
+                "state": {
+                  "type": "quiet-outline",
+                  "state": {},
+                  "icon": "lucide-ghost",
+                  "title": "quiet-outline"
+                }
+              },
+              {
+                "id": "4b5de29ce0d9592e",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "explorer-view",
+                  "state": {
+                    "expandedPaths": [
+                      "100【收纳盒】Inbox"
+                    ],
+                    "searchQuery": "",
+                    "stashFilePaths": []
+                  },
+                  "pinned": true,
+                  "icon": "folder-tree",
+                  "title": "浏览器"
+                }
+              },
+              {
+                "id": "19bdfe610e8a5e91",
+                "type": "leaf",
+                "state": {
+                  "type": "Strange New Worlds",
+                  "state": {},
+                  "icon": "lucide-ghost",
+                  "title": "Strange New Worlds"
+                }
+              },
+              {
+                "id": "07e7fe302eba6b04",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-ghost",
+                  "title": "tag"
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "horizontal",
+        "width": 640.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "workspace-plus-plus:Workspace++": false,
+          "obsidian-kanban:Create new board": false,
+          "colorful-stickynotes:打开便笺": false,
+          "colorful-stickynotes:便笺列表": false,
+          "colorful-stickynotes:便笺工作区": false,
+          "obsidian-git:Open Git source control": false,
+          "dashboard-navigator:Open dashboard navigator": false,
+          "quick-plugin-switcher:Quick Plugin Switcher": false,
+          "password-manager:打开密码管理器": false,
+          "advanced-search-ui:切换悬浮搜索面板": false,
+          "obsidian-excalidraw-plugin:新建绘图文件": false,
+          "gridexplorer:打开网格视图": false,
+          "switcher:打开快速切换": false,
+          "graph:查看关系图谱": false,
+          "canvas:新建白板": false,
+          "daily-notes:打开/创建今天的日记": false,
+          "templates:插入模板": false,
+          "command-palette:打开命令面板": false,
+          "audio-recorder:开始/结束录音": false,
+          "workspaces:管理工作区布局": false,
+          "bases:新建数据库": false,
+          "code-files:Create Code File": false,
+          "focus-time:打开专注时间仪表盘": false,
+          "obsidian42-brat:BRAT": false,
+          "quick-tagger:Add tag to current note": false,
+          "quick-tagger:Remove tag from current note": false,
+          "components:AI 对话（新标签页）": false,
+          "lineage:Toggle Lineage view": false,
+          "templater-obsidian:Templater": false,
+          "cmdr:Commander: 打开 Commander 设置": false,
+          "cmdr:Style Settings: Show style settings view": false,
+          "cmdr:QuickAdd: Macro：归档附件": false,
+          "periodic-notes:Open today": false,
+          "task-board:打开任务看板": false,
+          "workspaces-plus:Manage workspaces": false
+        }
+      },
+      "active": "114db72bea09faf4",
+      "mtime": "2026-05-26T13:20:09+08:00",
+      "workspaces-plus:settings-v1": {
+        "explorerFoldState": []
+      }
+    },
+    "开发区": {
+      "main": {
+        "id": "5324373015726ba8",
+        "type": "split",
+        "children": [
+          {
+            "id": "c7cefb5b7a333189",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "ba41f1d415da8de3",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "310【任务】Tasks/2026/260525_基础电路的学习/260525_基础电路的学习.md",
+                    "mode": "preview",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "260525_基础电路的学习"
+                }
+              },
+              {
+                "id": "1becfaaa7490c1e9",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "310【任务】Tasks/2025/250708_📅嵌入式基础入门学习/250708_📅嵌入式基础入门学习.md",
+                    "mode": "preview",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "250708_📅嵌入式基础入门学习"
+                }
+              },
+              {
+                "id": "a8d277c5eba22cd0",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "mindmapview",
+                  "state": {
+                    "file": "310【任务】Tasks/2026/260525_基础电路的学习/260525_电路分析基础.markmind.md"
+                  },
+                  "pinned": true,
+                  "icon": "blocks",
+                  "title": "260525_电路分析基础.markmind"
+                }
+              },
+              {
+                "id": "26eea4a52c16323e",
+                "type": "leaf",
+                "state": {
+                  "type": "canvas",
+                  "state": {
+                    "file": "310【任务】Tasks/2026/260317_嵌入式简历修改&面试找工作/260506_根据卦象安排找工作的计划.canvas",
+                    "viewState": {
+                      "x": 2596.024784248977,
+                      "y": -46.783492156344835,
+                      "zoom": -0.12207253525472517
+                    }
+                  },
+                  "icon": "lucide-layout-dashboard",
+                  "title": "260506_根据卦象安排找工作的计划"
+                }
+              },
+              {
+                "id": "9260d1529fdb5c34",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "210【日志】Journal/DailyNotes/2026/2026-05-25.md",
+                    "mode": "preview",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "2026-05-25"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "95e6e6654593eb10",
+        "type": "split",
+        "children": [
+          {
+            "id": "e4bafa1670fe2ff9",
+            "type": "tabs",
+            "dimension": 44.8512585812357,
+            "children": [
+              {
+                "id": "35fcf03ddcc969ac",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "grid-view",
+                  "state": {
+                    "type": "grid-view",
+                    "state": {
+                      "sourceMode": "folder",
+                      "sourcePath": "/",
+                      "baseSortType": "mtime-desc",
+                      "sortType": "mtime-desc",
+                      "searchQuery": "",
+                      "searchCurrentLocationOnly": false,
+                      "searchFilesNameOnly": false,
+                      "searchMediaFiles": false,
+                      "fileNameFilterQuery": "",
+                      "includeMedia": false,
+                      "minMode": false,
+                      "showIgnoredItems": false,
+                      "baseCardLayout": "horizontal",
+                      "cardLayout": "horizontal",
+                      "hideHeaderElements": false,
+                      "showFileNameFilter": false,
+                      "showDateDividers": false,
+                      "showNoteTags": true,
+                      "recentSources": [
+                        "{\"mode\":\"folder\",\"path\":\"420【编程】Code/嵌入式开发/C语言\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                        "{\"mode\":\"folder\",\"path\":\"420【编程】Code/嵌入式开发\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                        "{\"mode\":\"folder\",\"path\":\"420【编程】Code\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                        "{\"mode\":\"folder\",\"path\":\"420【编程】Code/人工智能(AI)\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                        "{\"mode\":\"folder\",\"path\":\"420【编程】Code\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                        "{\"mode\":\"folder\",\"path\":\"420【编程】Code/操作系统\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                        "{\"mode\":\"folder\",\"path\":\"420【编程】Code\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                        "{\"mode\":\"folder\",\"path\":\"/\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}"
+                      ],
+                      "futureSources": [
+                        "{\"mode\":\"folder\",\"path\":\"400【领域】Area\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                        "{\"mode\":\"folder\",\"path\":\"/\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}"
+                      ],
+                      "bookmarkGroupId": "all"
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "folder",
+                  "title": "根目录"
+                }
+              },
+              {
+                "id": "0bb1490b23fee648",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "书签"
+                }
+              },
+              {
+                "id": "f0c96d27d11be5cb",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "添加笔记属性"
+                }
+              },
+              {
+                "id": "4b5de29ce0d9592e",
+                "type": "leaf",
+                "state": {
+                  "type": "explorer-view",
+                  "state": {
+                    "expandedPaths": [
+                      "__folders__root"
+                    ],
+                    "searchQuery": "",
+                    "stashFilePaths": []
+                  },
+                  "icon": "folder-tree",
+                  "title": "浏览器"
+                }
+              }
+            ]
+          },
+          {
+            "id": "da20de394e8bef44",
+            "type": "tabs",
+            "dimension": 55.1487414187643,
+            "children": [
+              {
+                "id": "375cbe815b51a418",
+                "type": "leaf",
+                "state": {
+                  "type": "chinese-calendar-view",
+                  "state": {},
+                  "icon": "calendar-with-checkmark",
+                  "title": "日历"
+                }
+              },
+              {
+                "id": "ef3ded9dc2e7904a",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "000【主页】Home/000【主页】Home.components",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "lucide-ghost",
+                  "title": "backlink"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 455.5,
+        "collapsed": true
+      },
+      "right": {
+        "id": "afb6bb01c1a4f7a2",
+        "type": "split",
+        "children": [
+          {
+            "id": "e56a5ad948a86a71",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "f6d1efa19786ef2b",
+                "type": "leaf",
+                "state": {
+                  "type": "file-properties",
+                  "state": {},
+                  "icon": "lucide-info",
+                  "title": "笔记属性"
+                }
+              },
+              {
+                "id": "404c90fb01f1807a",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": true,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "搜索"
+                }
+              },
+              {
+                "id": "72f06361316ed811",
+                "type": "leaf",
+                "state": {
+                  "type": "multiple-notes-outline",
+                  "state": {},
+                  "icon": "files",
+                  "title": "MNO - file view"
+                }
+              },
+              {
+                "id": "c73a565e1f774dc4",
+                "type": "leaf",
+                "state": {
+                  "type": "quiet-outline",
+                  "state": {},
+                  "icon": "lines-of-text",
+                  "title": "Quiet Outline"
+                }
+              },
+              {
+                "id": "2d0da901387ff185",
+                "type": "leaf",
+                "state": {
+                  "type": "git-view",
+                  "state": {},
+                  "icon": "git-pull-request",
+                  "title": "Source Control"
+                }
+              }
+            ],
+            "currentTab": 4
+          }
+        ],
+        "direction": "horizontal",
+        "width": 705.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "workspace-plus-plus:Workspace++": false,
+          "obsidian-excalidraw-plugin:新建绘图文件": false,
+          "gridexplorer:打开网格视图": false,
+          "obsidian-kanban:Create new board": false,
+          "colorful-stickynotes:打开便笺": false,
+          "colorful-stickynotes:便笺列表": false,
+          "colorful-stickynotes:便笺工作区": false,
+          "dashboard-navigator:Open dashboard navigator": false,
+          "quick-plugin-switcher:Quick Plugin Switcher": false,
+          "password-manager:打开密码管理器": false,
+          "advanced-search-ui:切换悬浮搜索面板": false,
+          "bases:新建数据库": false,
+          "switcher:打开快速切换": false,
+          "graph:查看关系图谱": false,
+          "canvas:新建白板": false,
+          "daily-notes:打开/创建今天的日记": false,
+          "templates:插入模板": false,
+          "command-palette:打开命令面板": false,
+          "audio-recorder:开始/结束录音": false,
+          "workspaces:管理工作区布局": false,
+          "components:AI 对话（新标签页）": false,
+          "obsidian42-brat:BRAT": false,
+          "quick-tagger:Add tag to current note": false,
+          "quick-tagger:Remove tag from current note": false,
+          "cmdr:Commander: 打开 Commander 设置": false,
+          "cmdr:Style Settings: Show style settings view": false,
+          "cmdr:QuickAdd: Macro：归档附件": false,
+          "lineage:Toggle Lineage view": false,
+          "obsidian-git:Open Git source control": false,
+          "code-files:Create Code File": true,
+          "templater-obsidian:Templater": true,
+          "focus-time:打开专注时间仪表盘": false,
+          "periodic-notes:Open today": false,
+          "workspaces-plus:Manage workspaces": false,
+          "task-board:打开任务看板": false
+        }
+      },
+      "active": "ba41f1d415da8de3",
+      "mtime": "2026-05-26T13:20:25+08:00",
+      "workspaces-plus:settings-v1": {
+        "explorerFoldState": [
+          "700【模板】Template"
+        ],
+        "mode": null
+      }
+    },
+    "工作区": {
+      "main": {
+        "id": "5324373015726ba8",
+        "type": "split",
+        "children": [
+          {
+            "id": "55b6ada96f19717e",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "713b2f07659757b3",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "210【日志】Journal/DailyNotes/2026/2026-05-30.md",
+                    "mode": "preview",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "2026-05-30"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "95e6e6654593eb10",
+        "type": "split",
+        "children": [
+          {
+            "id": "e4bafa1670fe2ff9",
+            "type": "tabs",
+            "dimension": 44.8512585812357,
+            "children": [
+              {
+                "id": "35fcf03ddcc969ac",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "grid-view",
+                  "state": {
+                    "type": "grid-view",
+                    "state": {
+                      "sourceMode": "folder",
+                      "sourcePath": "/",
+                      "baseSortType": "mtime-desc",
+                      "sortType": "mtime-desc",
+                      "searchQuery": "",
+                      "searchCurrentLocationOnly": false,
+                      "searchFilesNameOnly": false,
+                      "searchMediaFiles": false,
+                      "fileNameFilterQuery": "",
+                      "includeMedia": false,
+                      "minMode": false,
+                      "showIgnoredItems": false,
+                      "baseCardLayout": "horizontal",
+                      "cardLayout": "horizontal",
+                      "hideHeaderElements": false,
+                      "showFileNameFilter": false,
+                      "showDateDividers": false,
+                      "showNoteTags": true,
+                      "recentSources": [
+                        "{\"mode\":\"folder\",\"path\":\"420【编程】Code/嵌入式开发/C语言\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                        "{\"mode\":\"folder\",\"path\":\"420【编程】Code/嵌入式开发\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                        "{\"mode\":\"folder\",\"path\":\"420【编程】Code\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                        "{\"mode\":\"folder\",\"path\":\"420【编程】Code/人工智能(AI)\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                        "{\"mode\":\"folder\",\"path\":\"420【编程】Code\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                        "{\"mode\":\"folder\",\"path\":\"420【编程】Code/操作系统\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                        "{\"mode\":\"folder\",\"path\":\"420【编程】Code\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                        "{\"mode\":\"folder\",\"path\":\"/\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}"
+                      ],
+                      "futureSources": [
+                        "{\"mode\":\"folder\",\"path\":\"400【领域】Area\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                        "{\"mode\":\"folder\",\"path\":\"/\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}"
+                      ],
+                      "bookmarkGroupId": "all"
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "folder",
+                  "title": "根目录"
+                }
+              },
+              {
+                "id": "0bb1490b23fee648",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "书签"
+                }
+              },
+              {
+                "id": "f0c96d27d11be5cb",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "添加笔记属性"
+                }
+              },
+              {
+                "id": "4b5de29ce0d9592e",
+                "type": "leaf",
+                "state": {
+                  "type": "explorer-view",
+                  "state": {
+                    "expandedPaths": [
+                      "__folders__root"
+                    ],
+                    "searchQuery": "",
+                    "stashFilePaths": []
+                  },
+                  "icon": "folder-tree",
+                  "title": "浏览器"
+                }
+              }
+            ]
+          },
+          {
+            "id": "da20de394e8bef44",
+            "type": "tabs",
+            "dimension": 55.1487414187643,
+            "children": [
+              {
+                "id": "375cbe815b51a418",
+                "type": "leaf",
+                "state": {
+                  "type": "chinese-calendar-view",
+                  "state": {},
+                  "icon": "calendar-with-checkmark",
+                  "title": "日历"
+                }
+              },
+              {
+                "id": "ef3ded9dc2e7904a",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "000【主页】Home/000【主页】Home.components",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "lucide-ghost",
+                  "title": "backlink"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 455.5,
+        "collapsed": true
+      },
+      "right": {
+        "id": "afb6bb01c1a4f7a2",
+        "type": "split",
+        "children": [
+          {
+            "id": "e56a5ad948a86a71",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "f6d1efa19786ef2b",
+                "type": "leaf",
+                "state": {
+                  "type": "file-properties",
+                  "state": {
+                    "file": "500【资源】Resource/游戏/250206_游戏分类.md"
+                  },
+                  "icon": "lucide-info",
+                  "title": "250206_游戏分类的笔记属性"
+                }
+              },
+              {
+                "id": "0baf4cc82ef14b10",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "310【任务】Tasks/Weekly Task Report by Dataviewjs.md",
+                    "mode": "preview",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "Weekly Task Report by Dataviewjs"
+                }
+              },
+              {
+                "id": "404c90fb01f1807a",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": true,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "搜索"
+                }
+              },
+              {
+                "id": "72f06361316ed811",
+                "type": "leaf",
+                "state": {
+                  "type": "multiple-notes-outline",
+                  "state": {},
+                  "icon": "files",
+                  "title": "MNO - file view"
+                }
+              },
+              {
+                "id": "c73a565e1f774dc4",
+                "type": "leaf",
+                "state": {
+                  "type": "quiet-outline",
+                  "state": {},
+                  "icon": "lines-of-text",
+                  "title": "Quiet Outline"
+                }
+              },
+              {
+                "id": "2d0da901387ff185",
+                "type": "leaf",
+                "state": {
+                  "type": "git-view",
+                  "state": {},
+                  "icon": "git-pull-request",
+                  "title": "Source Control"
+                }
+              },
+              {
+                "id": "2b0b1ac0a985d266",
+                "type": "leaf",
+                "state": {
+                  "type": "yolo-chat-view",
+                  "state": {},
+                  "icon": "wand-sparkles",
+                  "title": "Vault链接标题的命名方法"
+                }
+              },
+              {
+                "id": "3848c37bbc903db4",
+                "type": "leaf",
+                "state": {
+                  "type": "colorful-sticky-notes-list",
+                  "state": {},
+                  "icon": "layout-list",
+                  "title": "便笺列表"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 625.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "obsidian-excalidraw-plugin:新建绘图文件": false,
+          "gridexplorer:打开网格视图": false,
+          "obsidian-kanban:Create new board": false,
+          "colorful-stickynotes:打开便笺": false,
+          "colorful-stickynotes:便笺列表": false,
+          "colorful-stickynotes:便笺工作区": false,
+          "dashboard-navigator:Open dashboard navigator": false,
+          "quick-plugin-switcher:Quick Plugin Switcher": false,
+          "password-manager:打开密码管理器": false,
+          "advanced-search-ui:切换悬浮搜索面板": false,
+          "bases:新建数据库": false,
+          "switcher:打开快速切换": false,
+          "graph:查看关系图谱": false,
+          "canvas:新建白板": false,
+          "daily-notes:打开/创建今天的日记": false,
+          "templates:插入模板": false,
+          "command-palette:打开命令面板": false,
+          "audio-recorder:开始/结束录音": false,
+          "workspaces:管理工作区布局": false,
+          "components:AI 对话（新标签页）": false,
+          "obsidian42-brat:BRAT": false,
+          "quick-tagger:Add tag to current note": false,
+          "quick-tagger:Remove tag from current note": false,
+          "cmdr:Commander: 打开 Commander 设置": false,
+          "cmdr:Style Settings: Show style settings view": false,
+          "cmdr:QuickAdd: Macro：归档附件": false,
+          "lineage:Toggle Lineage view": false,
+          "obsidian-git:Open Git source control": false,
+          "code-files:Create Code File": true,
+          "templater-obsidian:Templater": true,
+          "focus-time:打开专注时间仪表盘": false,
+          "yolo:打开聊天": false,
+          "obsidian-memos:Thino": false,
+          "obsidian-memos:Thino Super": false,
+          "periodic-notes:Open today": false,
+          "task-board:打开任务看板": false,
+          "zenmode:Toggle zen mode": false
+        }
+      },
+      "active": "713b2f07659757b3",
+      "mtime": "2026-05-30T15:16:20+08:00"
+    },
+    "测试区": {
+      "main": {
+        "id": "5324373015726ba8",
+        "type": "split",
+        "children": [
+          {
+            "id": "62e9e26511d986e1",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "d3611c3c73c5c3a2",
+                "type": "leaf",
+                "state": {
+                  "type": "task-board-view",
+                  "state": {},
+                  "icon": "brick-wall",
+                  "title": "任务看板"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "95e6e6654593eb10",
+        "type": "split",
+        "children": [
+          {
+            "id": "e4bafa1670fe2ff9",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "35fcf03ddcc969ac",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "grid-view",
+                  "state": {
+                    "type": "grid-view",
+                    "state": {
+                      "sourceMode": "folder",
+                      "sourcePath": "/",
+                      "baseSortType": "mtime-desc",
+                      "sortType": "mtime-desc",
+                      "searchQuery": "",
+                      "searchCurrentLocationOnly": false,
+                      "searchFilesNameOnly": false,
+                      "searchMediaFiles": false,
+                      "fileNameFilterQuery": "",
+                      "includeMedia": false,
+                      "minMode": false,
+                      "showIgnoredItems": false,
+                      "baseCardLayout": "vertical",
+                      "cardLayout": "vertical",
+                      "hideHeaderElements": false,
+                      "showFileNameFilter": false,
+                      "showDateDividers": true,
+                      "showNoteTags": true,
+                      "recentSources": [
+                        "{\"mode\":\"folder\",\"path\":\"010【笔记】Notes\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                        "{\"mode\":\"folder\",\"path\":\"/\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                        "{\"mode\":\"folder\",\"path\":\"000【主页】Home\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                        "{\"mode\":\"folder\",\"path\":\"/\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                        "{\"mode\":\"folder\",\"path\":\"StickyNotes\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                        "{\"mode\":\"folder\",\"path\":\"/\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                        "{\"mode\":\"folder\",\"path\":\"700【模板】Template\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                        "{\"mode\":\"folder\",\"path\":\"/\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                        "{\"mode\":\"folder\",\"path\":\"210【日志】Journal\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                        "{\"mode\":\"folder\",\"path\":\"/\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}"
+                      ],
+                      "futureSources": [],
+                      "bookmarkGroupId": "all"
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "folder",
+                  "title": "Root"
+                }
+              },
+              {
+                "id": "0bb1490b23fee648",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "pinned": true,
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              },
+              {
+                "id": "f0c96d27d11be5cb",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "pinned": true,
+                  "icon": "lucide-archive",
+                  "title": "添加笔记属性"
+                }
+              },
+              {
+                "id": "4b5de29ce0d9592e",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "explorer-view",
+                  "state": {
+                    "expandedPaths": [
+                      "100【收纳盒】Inbox"
+                    ],
+                    "searchQuery": "",
+                    "stashFilePaths": []
+                  },
+                  "pinned": true,
+                  "icon": "folder-tree",
+                  "title": "浏览器"
+                }
+              },
+              {
+                "id": "98f51c976ae091df",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "文件列表"
+                }
+              }
+            ]
+          },
+          {
+            "id": "da20de394e8bef44",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "375cbe815b51a418",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "chinese-calendar-view",
+                  "state": {},
+                  "pinned": true,
+                  "icon": "calendar-with-checkmark",
+                  "title": "日历"
+                }
+              },
+              {
+                "id": "cf6551e0c09fcd06",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "210【日志】Journal/DailyNotes/2026/2026-05-07.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "2026-05-07 的反向链接列表"
+                }
+              },
+              {
+                "id": "fdad5cef5a476d2f",
+                "type": "leaf",
+                "state": {
+                  "type": "vertical-tabs",
+                  "state": {},
+                  "icon": "vertical-tabs",
+                  "title": "Vertical tabs"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 429.51007080078125,
+        "collapsed": true
+      },
+      "right": {
+        "id": "afb6bb01c1a4f7a2",
+        "type": "split",
+        "children": [
+          {
+            "id": "e56a5ad948a86a71",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "0fed33766fe591fd",
+                "type": "leaf",
+                "state": {
+                  "type": "file-properties",
+                  "state": {
+                    "file": "100【收纳盒】Inbox/110【草稿】Draft/2026/260516_DataviewJS：Obsidian社区插件浏览-插件雷达.md"
+                  },
+                  "icon": "lucide-info",
+                  "title": "260516_DataviewJS：Obsidian社区插件浏览-插件雷达的笔记属性"
+                }
+              },
+              {
+                "id": "99add79591a462da",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "310【任务】Tasks/Weekly Task Report by Dataviewjs.md",
+                    "mode": "preview",
+                    "source": true,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "Weekly Task Report by Dataviewjs"
+                }
+              },
+              {
+                "id": "e4bbb9cf457253cd",
+                "type": "leaf",
+                "state": {
+                  "type": "yolo-chat-view",
+                  "state": {},
+                  "icon": "wand-sparkles",
+                  "title": "新对话"
+                }
+              },
+              {
+                "id": "e4812b22ad853292",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "\"File-20251229021743974.png\"",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "搜索"
+                }
+              },
+              {
+                "id": "4825f0bf8d9a16db",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "smtcmp-chat-view",
+                  "state": {},
+                  "pinned": true,
+                  "icon": "lucide-ghost",
+                  "title": "smtcmp-chat-view"
+                }
+              },
+              {
+                "id": "72f06361316ed811",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "multiple-notes-outline",
+                  "state": {},
+                  "pinned": true,
+                  "icon": "files",
+                  "title": "MNO - file view"
+                }
+              },
+              {
+                "id": "df2a79884aead72b",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "colorful-sticky-notes-list",
+                  "state": {},
+                  "pinned": true,
+                  "icon": "layout-list",
+                  "title": "Sticky list"
+                }
+              },
+              {
+                "id": "c22c77c608e83196",
+                "type": "leaf",
+                "state": {
+                  "type": "smtcmp-chat-view",
+                  "state": {},
+                  "icon": "lucide-ghost",
+                  "title": "smtcmp-chat-view"
+                }
+              }
+            ],
+            "currentTab": 6
+          }
+        ],
+        "direction": "horizontal",
+        "width": 643.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "obsidian-excalidraw-plugin:New drawing": false,
+          "gridexplorer:Open grid view": false,
+          "obsidian-kanban:Create new board": false,
+          "simple-mind-map:新建思维导图": false,
+          "colorful-stickynotes:打开便笺": false,
+          "colorful-stickynotes:便笺列表": false,
+          "colorful-stickynotes:便笺工作区": false,
+          "obsidian-memos:Thino": false,
+          "obsidian-memos:Thino Super": false,
+          "obsidian-git:Open Git source control": false,
+          "switcher:打开快速切换": false,
+          "graph:查看关系图谱": false,
+          "canvas:新建白板": false,
+          "daily-notes:打开/创建今天的日记": false,
+          "templates:插入模板": false,
+          "command-palette:打开命令面板": false,
+          "audio-recorder:开始/结束录音": false,
+          "workspaces:管理工作区布局": false,
+          "bases:新建数据库": false,
+          "obsidian42-brat:BRAT": false,
+          "quick-tagger:Add tag to current note": false,
+          "quick-tagger:Remove tag from current note": false,
+          "cmdr:Commander: 打开 Commander 设置": false,
+          "cmdr:Style Settings: Show style settings view": false,
+          "cmdr:QuickAdd: Macro：归档附件": false,
+          "components:AI 对话（新标签页）": false,
+          "lineage:Toggle Lineage view": false,
+          "modalforms:Edit forms": false,
+          "templater-obsidian:Templater": false,
+          "yolo:打开聊天": false,
+          "advanced-search-ui:切换悬浮搜索面板": false,
+          "focus-time:打开专注时间仪表盘": false,
+          "code-files:Create Code File": false,
+          "dashboard-navigator:Open dashboard navigator": false,
+          "quick-plugin-switcher:Quick Plugin Switcher": false,
+          "password-manager:打开密码管理器": false,
+          "obsidian-weread-plugin:打开微信读书书架": false,
+          "periodic-notes:Open today": false,
+          "workspaces-plus:Manage workspaces": false,
+          "task-board:打开任务看板": false
+        }
+      },
+      "active": "d3611c3c73c5c3a2",
+      "mtime": "2026-05-17T12:36:22+08:00",
+      "workspaces-plus:settings-v1": {
+        "explorerFoldState": [
+          "700【模板】Template"
+        ]
+      }
+    }
+  },
+  "active": "学习区"
+}

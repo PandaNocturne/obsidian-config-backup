@@ -1,0 +1,67 @@
+.workspace-leaf-content[data-type="copilot-chat-view"] .view-content {
+    * {
+        font-size: medium;
+    }
+
+    [data-testid="chat-messages"] {
+
+        /* 用户 */
+        .tw-my-1>div.tw-border-solid {
+            /* width: calc(100% - 20px); */
+            margin-left: auto;
+            border: none;
+            background-color: var(--background-primary);
+            max-width: 90%;
+
+            div:has(>svg) {
+                margin-left: auto;
+
+            }
+        }
+
+        /* gpt */
+        .tw-my-1>div:not(.tw-border-solid) {
+            /* border: 1px solid var(--background-modifier-border); */
+            background-color: var(--background-modifier-border);
+            max-width: 90%;
+        }
+    }
+
+    .bottom-container {
+
+        &>.rounded-md {
+            background-color: var(--background-primary);
+        }
+    }
+}
+
+/* !修改对话框配色 */
+.theme-light .workspace-leaf-content[data-type="copilot-chat-view"] .view-content [data-testid="chat-messages"] {
+
+    /* 用户 */
+    .tw-my-1>div.tw-border-solid {
+        background-color: #D6F3EC !important;
+        border: 1px solid var(--background-modifier-border);
+    }
+
+    /* gpt */
+    .tw-my-1>div:not(.tw-border-solid) {
+        background-color: #FFFFFF !important;
+        border: 1px solid var(--background-modifier-border);
+    }
+}
+
+.theme-dark .workspace-leaf-content[data-type="copilot-chat-view"] .view-content [data-testid="chat-messages"] {
+
+    /* 用户 */
+    .tw-my-1>div.tw-border-solid {
+        background-color: #21413B !important;
+        border: 1px solid var(--background-modifier-border);
+    }
+
+    /* gpt */
+    .tw-my-1>div:not(.tw-border-solid) {
+        background-color: #373739 !important;
+        border: 1px solid var(--background-modifier-border);
+    }
+}

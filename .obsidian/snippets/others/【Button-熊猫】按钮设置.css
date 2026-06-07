@@ -1,0 +1,9 @@
+/* commander按钮显示 */
+.workspace-leaf-content:not([data-type="canvas"]) [aria-label="QuickAdd: Macro：Canvas Presentations"],
+.workspace-leaf-content:not([data-type="canvas"]) [aria-label="Simple CanvaSearch: Open CanvaSearch modal"] {
+  display: none;
+}
+
+.workspace-leaf-content:not([data-type="excalidraw"]) [aria-label *="ExcalidrawMinimap"] {
+  display: none;
+}

@@ -1,0 +1,2608 @@
+{
+  "LANGUAGE": "zh-cn",
+  "LANGUAGE_INITIALIZED": true,
+  "MIGRATION_VERSION": "1.0.4",
+  "DEBUG": false,
+  "PERSISTENCE": true,
+  "CENTER": false,
+  "DELAY": false,
+  "HIDE_BPM_TAG": false,
+  "MAIN_PAGE_ACTION_PLACEMENT": {
+    "checkUpdate": "menu",
+    "downloadUpdate": "item",
+    "singleStart": "menu",
+    "restart": "menu",
+    "hide": "menu",
+    "note": "menu",
+    "hotkeys": "menu",
+    "copyId": "menu",
+    "openRepo": "item",
+    "openSettings": "item",
+    "openDir": "item",
+    "delete": "item"
+  },
+  "AUTO_TAKEOVER": false,
+  "SELF_CHECK_IGNORED": false,
+  "COMMAND_ITEM": false,
+  "COMMAND_GROUP": false,
+  "STARTUP_CHECK_UPDATES": false,
+  "SOURCE_STARTUP_CHECK_UPDATES": false,
+  "SOURCE_AUTO_UPDATE": true,
+  "GITHUB_TOKEN": "",
+  "FILTER_SEARCH": "",
+  "FILTER_STATUS": "enabled",
+  "FILTER_STATUS_OPERATOR": "contains",
+  "FILTER_GROUP": "",
+  "FILTER_GROUP_OPERATOR": "contains",
+  "FILTER_TAG": "",
+  "FILTER_TAG_OPERATOR": "contains",
+  "FILTER_DELAY": "",
+  "FILTER_DELAY_OPERATOR": "contains",
+  "PLUGIN_OVERVIEW_LAYOUT": "list",
+  "ITEM_STYLE": "alwaysExpand",
+  "GROUP_STYLE": "a",
+  "TAG_STYLE": "b",
+  "FADE_OUT_DISABLED_PLUGINS": true,
+  "GROUPS": [],
+  "TAGS": [
+    {
+      "id": "bpm-install",
+      "name": "BPM 安装",
+      "color": "#409EFF"
+    },
+    {
+      "id": "bpm-ignore",
+      "name": "BPM 忽略",
+      "color": "#6c757d"
+    }
+  ],
+  "DELAYS": [
+    {
+      "id": "default",
+      "name": "Default delay",
+      "time": 10
+    }
+  ],
+  "Plugins": [
+    {
+      "id": "better-plugins-manager",
+      "name": "Better Plugins Manager",
+      "desc": "Plugin Manager: Simplify, Enhance, Personalize | 插件管理器：简化操作、增强功能、个性化设置",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "advanced-canvas",
+      "name": "Advanced Canvas",
+      "desc": "Supercharge your canvas experience! Create presentations, flowcharts and more!",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "albus-super-daily-notes",
+      "name": "Super Daily Notes",
+      "desc": "A plugin for managing daily notes with schedule, events, habits, journal, statistics, and floating timer views in Obsidian.",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "anchor-display-text",
+      "name": "Anchor Link Display Text",
+      "desc": "Automatically uses the linked heading as the display text for anchor links.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "another-dynamic-highlights",
+      "name": "aDHL",
+      "desc": "Create pretty static highlighters from search or regEx. Group by tag and set commands for toggling. Based on Dynamic Highlights.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "any-block",
+      "name": "AnyBlock",
+      "desc": "You can flexibility to create a 'Block' by some means. It also provides some useful features, like `list to table`. ",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "beautiful-mermaid-renderer",
+      "name": "Beautiful Mermaid Renderer",
+      "desc": "Render Mermaid diagrams with beautiful-mermaid SVG output and theme variables.",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "better-heading-link",
+      "name": "Better Heading Link",
+      "desc": "Automatically repair internal links to headings and blocks.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "better-links",
+      "name": "Better Links",
+      "desc": "Enhance link editing experience with floating editor popover. Click links to edit their display text and URL with quick action buttons.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "better-search-views",
+      "name": "Better Search Views",
+      "desc": "Outliner-like breadcrumb trees for search, backlinks and embedded queries ",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "block-link-plus",
+      "name": "Block Link Plus",
+      "desc": "Logseq-like outliner for scoped files, block link commands, blp-view query rendering, and inline edit for embeds.",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "breadcrumbs",
+      "name": "Breadcrumbs",
+      "desc": "Add structured hierarchies to your notes.",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "callout-menu",
+      "name": "Callout menu",
+      "desc": "Adds some extra options to callouts context menu and allows you to add your own custom callouts.",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "canvas-loom",
+      "name": "Canvas Loom",
+      "desc": "Split, sort, merge, preview, and clean up Canvas cards. Supports English and Simplified Chinese.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "card-note",
+      "name": "CardNote",
+      "desc": "Help you quickly extract your thoughts in the Canvas and Excalidraw",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "checkbox-style-menu",
+      "name": "Checkbox Style Menu",
+      "desc": "Provides an intuitive menu for quickly changing checkbox styles.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "chinese-calendar",
+      "name": "Chinese Calendar",
+      "desc": "符合中国习惯的日历，可以显示农历、节日、调休、节气等信息，支持月视图和年视图切换，支持点击日期创建笔记，支持使用QuickAdd插件创建笔记。",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "chronology",
+      "name": "Chronology",
+      "desc": "Provides a calendar and a timeline of the notes creation and modification",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "chronos",
+      "name": "Chronos Timeline",
+      "desc": "Render interactive timelines in your notes from Markdown.",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "cm-chs-patch",
+      "name": "Simplified Chinese Word Splitting",
+      "desc": "Adds Simplified Chinese word splitting support for the editor and Vim mode.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "cmdr",
+      "name": "Commander",
+      "desc": "Customize your workspace by adding commands everywhere, create Macros and supercharge your mobile toolbar.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "code-files",
+      "name": "Code Files",
+      "desc": "Edit Code Files in Obsidian with VSCode's powerful Monaco Editor",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "codeblock-customizer",
+      "name": "Codeblock Customizer",
+      "desc": "This Obsidian plugin lets you customize your codeblocks in editing, and reading mode as well.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "colored-tags",
+      "name": "Colored Tags",
+      "desc": "Colorizes tags in different colors. Colors of nested tags are mixed with the root tag to improve readability. Text color contrast is automatically matched to comply with AA level of WCAG 2.1.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "colorful-stickynotes",
+      "name": "Colorful StickyNotes",
+      "desc": "Floating colorful sticky notes in your vault.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "components",
+      "name": "Components",
+      "desc": "create component for your obsidian",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "copy-image-text",
+      "name": "复制图文 (Copy Image Text)",
+      "desc": "Copy note content (including text and images) to clipboard. 复制笔记内容（包括文本和图片）到剪贴板。",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "copy-plaintext",
+      "name": "Copy As PlainText",
+      "desc": "Copy selections or entire notes as plain text. Both commands are available in the command palette; selection copy is also in the context menu.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "copy-url-in-preview",
+      "name": "Image Context Menus",
+      "desc": "Copy to clipboard, Copy URL, Open in default app, Show in system explorer, Reveal file in navigation, Open in new tab, Rename context menus for images.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "creases",
+      "name": "Creases",
+      "desc": "Tools for efficiently folding Markdown sections.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "css-inlay-colors",
+      "name": "CSS Inlay Colors",
+      "desc": "Show inline color hints for CSS colors",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "dashboard-navigator",
+      "name": "Dashboard navigator",
+      "desc": "Vault dashboard and navigator. Show recent files by type, files per day, week, month, search files by name, date, tags and more.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "dataview",
+      "name": "Dataview",
+      "desc": "Complex data views for the data-obsessed.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "decks",
+      "name": "Decks",
+      "desc": "Spaced repetition flashcards with FSRS algorithm. Supports cloze deletions and image occlusion using native markdown.",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "docx-exporter",
+      "name": "DOCX Exporter",
+      "desc": "Export notes to Microsoft Word docx files with mobile devices support.",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "docxer",
+      "name": "Docxer",
+      "desc": "Import Word files easily. Adds a preview mode for .docx files and the ability to convert them to markdown (.md) files.",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "draw-in-canvas",
+      "name": "Draw in Canvas",
+      "desc": "Draw freehand annotations on JSON Canvas files.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "dynamic-outline",
+      "name": "Dynamic Outline",
+      "desc": "Adds a customizable GitHub-like floating table of contents.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "editor-width-slider",
+      "name": "Editor Width Slider",
+      "desc": "Customize Obsidian's editor width with a slider for a tailored editing experience.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "execute-code",
+      "name": "Execute Code",
+      "desc": "Allows you to execute code snippets within a note. Support C, C++, Python, R, JavaScript, TypeScript, LaTeX, SQL, and many more.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "extended-graph",
+      "name": "Extended Graph",
+      "desc": "Extends the features of the core Graph view, display images, manage states, remove links, change node shapes, and more.",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "external-rename-handler",
+      "name": "External Rename Handler",
+      "desc": "Handles renames made outside of the app",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "focus-time",
+      "name": "Focus Time",
+      "desc": "Track the time spent on each note and visualize the data.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "folder-notes",
+      "name": "Folder notes",
+      "desc": "Create notes within folders that can be accessed without collapsing the folder, similar to the functionality offered in Notion.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "folders2graph",
+      "name": "Folders to Graph",
+      "desc": "Display your vault folder structure into your graphs.",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "format-with-prettier",
+      "name": "Format with Prettier",
+      "desc": "Format files in your vault using Prettier.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "gistr",
+      "name": "Gistr",
+      "desc": "Integrate Opengist and Github gists into your notes, allowing you to create, update, and share between your notes and gist services",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "gridexplorer",
+      "name": "GridExplorer",
+      "desc": "Browse note files in a grid view.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "heading-decorator",
+      "name": "Heading Decorator",
+      "desc": "Implement displaying specific content around headings based on their levels.",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "hot-reload",
+      "name": "Hot Reload",
+      "desc": "Automatically reload in-development plugins when their files are changed",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "html-docs",
+      "name": "HTML Docs",
+      "desc": "View local .html files in sandboxed tabs, embeds, and Canvas cards.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "html-server",
+      "name": "Html Server",
+      "desc": "This plugin lets you spin up a local http server to access your vault via a web browser from any device in your network.",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "inlineai",
+      "name": "InlineAI",
+      "desc": "AI-powered suggestions, contextual edits, and advanced text transformations directly into your editor.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "kanban-bases-view",
+      "name": "Kanban Bases View",
+      "desc": "A kanban-style drag-and-drop custom view for Bases.",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "keyboard-analyzer",
+      "name": "Keyboard Analyzer",
+      "desc": "See and analyze your keyboard hotkeys and shortcuts",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "keyshots",
+      "name": "Keyshots",
+      "desc": "Add classic hotkey/shortcuts commands from popular IDEs like Visual Studio Code or JetBrains Family.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "lineage",
+      "name": "Lineage",
+      "desc": "Edit Markdown in a keyboard-centric Miller columns interface. Inspired by Gingko Writer.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "link-navigation",
+      "name": "Link Navigation",
+      "desc": "Navigate between incoming links (inlinks), outgoing links (outlinks) N levels deep. Links from Canvas are also supported.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "linked-note-exporter",
+      "name": "Linked Note Exporter",
+      "desc": "Export note with all its attachments and linked notes.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "links",
+      "name": "Links",
+      "desc": "Manipulate links",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "markdown-viewer-extension",
+      "name": "Markdown Viewer",
+      "desc": "Markdown to perfect Word in one click — Mermaid, Vega, drawio, canvas, Infographic, Graphviz, LaTeX (editable), code highlighting, local processing.",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "markitdown",
+      "name": "Markitdown File Converter",
+      "desc": "Convert PDFs, Office documents, images, and other file formats to Markdown using Microsoft's Markitdown tool",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "mermaid-popup",
+      "name": "Diagram Popup",
+      "desc": "Show diagrams, from Mermaid, PlantUML, Graphviz and so on, in a draggable and zoomable popup",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "messager",
+      "name": "Messager",
+      "desc": "Save messages into vault which sending through WeChat / HTTP API / Email",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "modal-opener",
+      "name": "Modal Opener",
+      "desc": "Open files and links in modal windows, or create and edit compatible files in modal windows.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "modalforms",
+      "name": "Modal forms",
+      "desc": "Define forms for filling data that you will be able to open from anywhere you can run JS",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "multiple-notes-outline",
+      "name": "Multiple Notes Outline",
+      "desc": "Add custom views which show outlines of multiple notes with headings, links, tags and list items.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "mysnippets-plugin",
+      "name": "MySnippets",
+      "desc": "MySnippets is a plugin that adds a status bar menu allowing the user to quickly toggle their snippets on and off 🖌.",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "nav-link-header",
+      "name": "Nav Link Header",
+      "desc": "Display navigation links at the top of the notes.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "new-note-fixer",
+      "name": "New Note Fixer",
+      "desc": "Unifies the way non-existing notes are created when clicking on their links.",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "note-status",
+      "name": "Note Status",
+      "desc": "Track and change note statuses across your vault with templates, bulk folder actions, dashboards, and non-Markdown support.",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "note-toolbar",
+      "name": "Note Toolbar",
+      "desc": "Add customizable toolbars to your notes.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "notebook-navigator",
+      "name": "Notebook Navigator",
+      "desc": "Replace the default file explorer with a clean two-pane interface featuring folder tree, tag browsing, file previews, keyboard navigation, drag-and-drop, pinned notes, and customizable display options.",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "simple-mind-map",
+      "name": "Simple mind map",
+      "desc": "A relatively powerful mind map.",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "obdrawio",
+      "name": "ObDrawIO",
+      "desc": "Edit and manage draw.io diagrams (.drawio / .dio).",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "advanced-search-ui",
+      "name": "Advanced Search UI",
+      "desc": "A powerful search UI that provides AND/OR/NOT operators and easy access to search filters.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "obsidian-advanced-uri",
+      "name": "Advanced URI",
+      "desc": "Advanced modes for Obsidian URI",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "obsidian-another-quick-switcher",
+      "name": "Another Quick Switcher",
+      "desc": "This is an Obsidian plugin which is another choice of Quick switcher.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "obsidian-auto-link-title",
+      "name": "Auto Link Title",
+      "desc": "This plugin automatically fetches the titles of links from the web",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "table-collapse-plugin",
+      "name": "Table Collapse Plugin",
+      "desc": "Add a collapse button in the thead of the table.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "obsidian-copy-block-link",
+      "name": "Copy Block Link",
+      "desc": "Get links to blocks and headings from Obsidian's right click menu",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "obsidian-day-planner",
+      "name": "Day Planner",
+      "desc": "A day planner with clean UI and readable syntax",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "obsidian-douban-plugin",
+      "name": "Douban",
+      "desc": "This is a plugin that can import movies/books/musics/notes/games info data from Douban for Obsidian .",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "obsidian-enhancing-export",
+      "name": "Enhancing Export",
+      "desc": "This is a enhancing export plugin for Obsidian. It allows to export to formats like Html, DOCX, ePub and PDF or Markdown(Hugo) etc.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "obsidian-excalidraw-plugin",
+      "name": "Excalidraw",
+      "desc": "Sketch Your Mind. Edit and view Excalidraw drawings. Enter the world of 4D Visual PKM.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "obsidian-export-image",
+      "name": "Export Image plugin",
+      "desc": "Easily convert your article to image.",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "obsidian-front-matter-title-plugin",
+      "name": "Front Matter Title",
+      "desc": "Lets you define a title in frontmatter to be displayed as the filename for explorer, graph, search and etc.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "obsidian-git",
+      "name": "Git",
+      "desc": "Integrate Git version control with automatic backup and other advanced features.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "obsidian-heading-shifter",
+      "name": "Heading Shifter",
+      "desc": "Easily Shift and Change markdown headings.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "obsidian-image-auto-upload-plugin",
+      "name": "Image auto upload",
+      "desc": "This plugin uploads images from your clipboard by PicGo",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "obsidian-image-toolkit",
+      "name": "Image Toolkit",
+      "desc": "This plugin provides some image viewing toolkit.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "obsidian-importer",
+      "name": "Importer",
+      "desc": "Import data from Notion, Evernote, Apple Notes, Microsoft OneNote, Google Keep, Bear, Roam, Textbundle, CSV, and HTML files.",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "obsidian-kanban",
+      "name": "Kanban",
+      "desc": "Create markdown-backed Kanban boards in Obsidian.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "obsidian-latex-suite",
+      "name": "Latex Suite",
+      "desc": "Make typesetting LaTeX math as fast as handwriting through snippets, text expansion, and editor enhancements",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "obsidian-link-converter",
+      "name": "Link Converter",
+      "desc": "Scan all your links in the vault and convert them to your desired format.",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "obsidian-linter",
+      "name": "Linter",
+      "desc": "Formats and styles your notes. It can be used to format YAML tags, aliases, arrays, and metadata; footnotes; headings; spacing; math blocks; regular markdown contents like list, italics, and bold styles; and more with the use of custom rule options as well.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "obsidian-local-rest-api",
+      "name": "Local REST API with MCP",
+      "desc": "A secure REST API and Model Context Protocol (MCP) server for your vault.",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "obsidian-markdown-export-plugin",
+      "name": "markdown export",
+      "desc": "This is a markdown export plugin for Obsidian.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "obsidian-markmind",
+      "name": "Markmind",
+      "desc": "This is a mindmap , outline tool for obsidian.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "obsidian-memos",
+      "name": "Thino",
+      "desc": "Capturing ideas and save them into daily notes. (Closed source)",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "obsidian-mindmap-nextgen",
+      "name": "Mindmap NextGen",
+      "desc": "View your Markdown as a mindmap",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "obsidian-opener",
+      "name": "Opener",
+      "desc": "Open links in new/existing tabs by default. Open PDFs in System App by default. Can open other file formats in System Apps if desired.",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "obsidian-outliner",
+      "name": "Outliner",
+      "desc": "Work with your lists like in Workflowy or RoamResearch.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "password-manager",
+      "name": "Password Manager",
+      "desc": "A lightweight local password manager with encryption, backup, trash, and import/export support.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "obsidian-quiet-outline",
+      "name": "Quiet Outline",
+      "desc": "Make outline quiet and more powerful, including no-auto-expand, rendering heading as markdown, and search support.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "obsidian-scroll-to-top-plugin",
+      "name": "Scroll to Top",
+      "desc": "This is a plugin for Obsidian that adds a button to scroll to the top of the current note.",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "obsidian-spaced-repetition",
+      "name": "Spaced Repetition",
+      "desc": "Fight the forgetting curve by reviewing flashcards & entire notes using spaced repetition. Organize your flashcards into decks and learn only the cards you need to recall.",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "obsidian-style-settings",
+      "name": "Style Settings",
+      "desc": "Offers controls for adjusting theme, plugin, and snippet CSS variables.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "obsidian-tasks-plugin",
+      "name": "Tasks",
+      "desc": "Track tasks across your vault. Supports due dates, recurring tasks, done dates, sub-set of checklist items, and filtering.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "obsidian-title-serial-number-plugin",
+      "name": "Title Serial Number Plugin",
+      "desc": "This plugin adds serial numbers to your markdown title.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "obsidian-weread-plugin",
+      "name": "Weread",
+      "desc": "Sync Tencent Weread highlights and annotations.",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "yolo",
+      "name": "YOLO",
+      "desc": "Agent-native AI assistant — chat, write, search, orchestrate, all in one.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "obsidian-zoom",
+      "name": "Zoom",
+      "desc": "Zoom into heading and lists.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "obsidian42-brat",
+      "name": "BRAT",
+      "desc": "Easily install a beta version of a plugin for testing.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "obsidian42-strange-new-worlds",
+      "name": "Strange New Worlds",
+      "desc": "Help see how your vault is interconnected with visual indicators.",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "oin-gotoheading",
+      "name": "Go To Heading",
+      "desc": "Quickly navigate between headings",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "open-gate",
+      "name": "Open Gate",
+      "desc": "Embed any website to Obsidian, you have anything you need in one place. You can browse website and take notes at the same time. e.g. Ask ChatGPT and copy the answer directly to your note.",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "open-tab-settings",
+      "name": "Open Tab Settings",
+      "desc": "Adds options to customize how tabs are opened, including open in new tab by default, preventing duplicate tabs, and more.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "page-scroll",
+      "name": "Page Scroll",
+      "desc": "Page Up|Down|Top|Bottom",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "paste-image-rename-convert",
+      "name": "Paste Image Rename and Convert",
+      "desc": "Rename pasted images and convert them to webp or jpg",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "pdf-plus",
+      "name": "PDF++",
+      "desc": "The most Obsidian-native PDF annotation tool ever.",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "periodic-notes",
+      "name": "Periodic Notes",
+      "desc": "Create/manage your daily, weekly, and monthly notes",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "persistent-links",
+      "name": "Persistent Links",
+      "desc": "Automatically repair internal links to blocks and headings",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "pexels-banner",
+      "name": "Pixel Banner",
+      "desc": "Enhance your notes with customizable banner images, including AI-generated designs and a curated store of downloadable banners. Transform your workspace with visually stunning headers that add context, improve aesthetics, and take your note-taking beyond the ordinary.",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "pocket-bird",
+      "name": "Pocket Bird",
+      "desc": "Add a pet bird to fly around your notes and keep you company!",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "power-mode",
+      "name": "POWER MODE",
+      "desc": "Active POWER MODE!!!!",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "pseudocode-in-obs",
+      "name": "Pseudocode",
+      "desc": "This is an obsidian plugin that helps to render a LaTeX-style pseudocode inside a code block.",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "quick-explorer",
+      "name": "Quick Explorer",
+      "desc": "Perform file explorer operations (and see your current file path) from the title bar, using the mouse or keyboard",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "quick-plugin-switcher",
+      "name": "Quick Plugin Switcher",
+      "desc": "Quickly manage installed and community plugins. The only way to evolve in the jungle of plugins",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "quick-tagger",
+      "name": "Quick Tagger",
+      "desc": "Add and remove tags quickly. Tag search results, bulk tag, and add dedicated buttons/commands for your favorites!",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "quickadd",
+      "name": "QuickAdd",
+      "desc": "Quickly add new pages or content to your vault.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "rss-dashboard",
+      "name": "RSS Dashboard",
+      "desc": "A dashboard for organizing and consuming RSS feeds, YouTube channels, and podcasts with smart tagging, media playback, and seamless content flow.",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "sfb-better-search-and-replace",
+      "name": "Better Search and Replace",
+      "desc": "Enhanced search and replace with regex support, live diff preview, capture groups, and a floating editor bar.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "sheets",
+      "name": "Sheets Extended",
+      "desc": "Vertical headers, merged cells, and custom css tables with advanced table compatibility",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "sheets-basic",
+      "name": "Sheets Basic",
+      "desc": "Merge markdown table cells.",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "show-whitespace-cm6",
+      "name": "Show Whitespace",
+      "desc": "CSS styles and CM6 extensions to highlight whitespace in Source and Live Preview modes.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "simple-anki-sync",
+      "name": "Simple Anki Sync",
+      "desc": "The simplest way of syncing simple Flashchards with Anki.",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "slash-commander",
+      "name": "Slash Commander",
+      "desc": "Customize the slash command list, assign each command an icon.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "snipdock",
+      "name": "SnipDock",
+      "desc": "Toggle, create, rename and reload CSS snippets from a status-bar menu.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "solve",
+      "name": "Solve",
+      "desc": "Supercharge your notes with real-time calculations without AI fuss. From dates ('Now + 20 days'), percentages ('10% of 120'), units of measurement ('100cm + 2m'), arithmetic ('10 + 5') and more!",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "tabs",
+      "name": "Tabs",
+      "desc": "Create tabs in your notes.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "tag-buddy",
+      "name": "Tag Buddy",
+      "desc": "Unlock powerful tag editing features in Reading Mode. Add, remove, and edit tags across your vault, in the active note or a single instance. Use tag summaries to roundup and process tagged content like an inbox.",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "tag-group-manager",
+      "name": "Tag Group Manager",
+      "desc": "Manage tag groups and quickly insert tags.",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "tag-wrangler",
+      "name": "Tag Wrangler",
+      "desc": "Rename, merge, toggle, and search tags from the tags view",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "task-board",
+      "name": "Task Board",
+      "desc": "Manage all your tasks throughout your vault from a single board and much more...",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "templater-obsidian",
+      "name": "Templater",
+      "desc": "Advanced templating and automation using handlebars-like syntax.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "tick-tones",
+      "name": "Tick Tones",
+      "desc": "Plays a tone when you tick a checkbox.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "tldraw",
+      "name": "tldraw",
+      "desc": "Create whiteboards, diagrams, and drawings with the official tldraw plugin.",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "tray",
+      "name": "Tray",
+      "desc": "Run Obsidian from the system tray for customisable window management & global quick notes",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "url-into-selection",
+      "name": "Paste URL into selection",
+      "desc": "Paste URL \"into\" selected text to create markdown links.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "various-complements",
+      "name": "Various Complements",
+      "desc": "This plugin enables you to complete words like the auto-completion of IDE",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "vault-inspector",
+      "name": "Vault Inspector",
+      "desc": "Scan your vault for maintenance problems: broken links, orphan attachments, duplicate files, frontmatter inconsistencies, unused tags, and large files.",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "version-control",
+      "name": "Version Control",
+      "desc": "Create intentional snapshots with meaningful names, in-file branching, side-by-side diffs, timeline search, writing stats, and optional auto-saves.",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "vertical-tabs",
+      "name": "Vertical Tabs",
+      "desc": "Offer an alternative view that displays open tabs vertically, allowing users to group and organize tabs for a better navigation experience.",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "virtual-linker",
+      "name": "Virtual Linker / Glossary",
+      "desc": "Automatically creates virtual links for text within your notes that match the titles or aliases of other notes in your vault. Create a glossary-like functionality, show unlinked mentions and transform them to real links.",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "workspaces-plus",
+      "name": "Workspaces Plus",
+      "desc": "Quickly switch and manage workspaces",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "xmind-linker",
+      "name": "XMind Linker",
+      "desc": "View XMind files in your vault and connect to XMind software for editing.",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "zhihu",
+      "name": "Zhihu",
+      "desc": "Enable you to publish your articles and answers to Zhihu",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "zotero-citations",
+      "name": "Zotero Citations",
+      "desc": "Zotero citation management with Word export via Pandoc.",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "interval-workspace-saver",
+      "name": "间隔保存工作区",
+      "desc": "每隔指定时间自动保存工作区布局",
+      "group": "",
+      "tags": [],
+      "enabled": false,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "obsidian-fullscreen-plugin",
+      "name": "Fullscreen mode plugin",
+      "desc": "This plugin allows viewing a single document in fullscreen focus mode",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    },
+    {
+      "id": "pure-footnote",
+      "name": "Pure Footnote",
+      "desc": "A clean sidebar tool to manage footnotes and annotations, supporting synchronized highlighting and editing.",
+      "group": "",
+      "tags": [],
+      "enabled": true,
+      "delay": "",
+      "note": ""
+    }
+  ],
+  "HIDES": [],
+  "PLUGIN_LAYOUT": [
+    {
+      "id": "copy-image-text",
+      "type": "plugin"
+    },
+    {
+      "id": "interval-workspace-saver",
+      "type": "plugin"
+    },
+    {
+      "id": "another-dynamic-highlights",
+      "type": "plugin"
+    },
+    {
+      "id": "advanced-canvas",
+      "type": "plugin"
+    },
+    {
+      "id": "advanced-search-ui",
+      "type": "plugin"
+    },
+    {
+      "id": "obsidian-advanced-uri",
+      "type": "plugin"
+    },
+    {
+      "id": "anchor-display-text",
+      "type": "plugin"
+    },
+    {
+      "id": "obsidian-another-quick-switcher",
+      "type": "plugin"
+    },
+    {
+      "id": "any-block",
+      "type": "plugin"
+    },
+    {
+      "id": "obsidian-auto-link-title",
+      "type": "plugin"
+    },
+    {
+      "id": "beautiful-mermaid-renderer",
+      "type": "plugin"
+    },
+    {
+      "id": "better-heading-link",
+      "type": "plugin"
+    },
+    {
+      "id": "better-links",
+      "type": "plugin"
+    },
+    {
+      "id": "better-plugins-manager",
+      "type": "plugin"
+    },
+    {
+      "id": "sfb-better-search-and-replace",
+      "type": "plugin"
+    },
+    {
+      "id": "better-search-views",
+      "type": "plugin"
+    },
+    {
+      "id": "block-link-plus",
+      "type": "plugin"
+    },
+    {
+      "id": "obsidian42-brat",
+      "type": "plugin"
+    },
+    {
+      "id": "breadcrumbs",
+      "type": "plugin"
+    },
+    {
+      "id": "callout-menu",
+      "type": "plugin"
+    },
+    {
+      "id": "canvas-loom",
+      "type": "plugin"
+    },
+    {
+      "id": "card-note",
+      "type": "plugin"
+    },
+    {
+      "id": "checkbox-style-menu",
+      "type": "plugin"
+    },
+    {
+      "id": "chinese-calendar",
+      "type": "plugin"
+    },
+    {
+      "id": "chronology",
+      "type": "plugin"
+    },
+    {
+      "id": "chronos",
+      "type": "plugin"
+    },
+    {
+      "id": "code-files",
+      "type": "plugin"
+    },
+    {
+      "id": "codeblock-customizer",
+      "type": "plugin"
+    },
+    {
+      "id": "colored-tags",
+      "type": "plugin"
+    },
+    {
+      "id": "colorful-stickynotes",
+      "type": "plugin"
+    },
+    {
+      "id": "cmdr",
+      "type": "plugin"
+    },
+    {
+      "id": "components",
+      "type": "plugin"
+    },
+    {
+      "id": "copy-plaintext",
+      "type": "plugin"
+    },
+    {
+      "id": "obsidian-copy-block-link",
+      "type": "plugin"
+    },
+    {
+      "id": "creases",
+      "type": "plugin"
+    },
+    {
+      "id": "css-inlay-colors",
+      "type": "plugin"
+    },
+    {
+      "id": "dashboard-navigator",
+      "type": "plugin"
+    },
+    {
+      "id": "dataview",
+      "type": "plugin"
+    },
+    {
+      "id": "obsidian-day-planner",
+      "type": "plugin"
+    },
+    {
+      "id": "decks",
+      "type": "plugin"
+    },
+    {
+      "id": "mermaid-popup",
+      "type": "plugin"
+    },
+    {
+      "id": "docx-exporter",
+      "type": "plugin"
+    },
+    {
+      "id": "docxer",
+      "type": "plugin"
+    },
+    {
+      "id": "obsidian-douban-plugin",
+      "type": "plugin"
+    },
+    {
+      "id": "draw-in-canvas",
+      "type": "plugin"
+    },
+    {
+      "id": "dynamic-outline",
+      "type": "plugin"
+    },
+    {
+      "id": "editor-width-slider",
+      "type": "plugin"
+    },
+    {
+      "id": "obsidian-enhancing-export",
+      "type": "plugin"
+    },
+    {
+      "id": "obsidian-excalidraw-plugin",
+      "type": "plugin"
+    },
+    {
+      "id": "execute-code",
+      "type": "plugin"
+    },
+    {
+      "id": "obsidian-export-image",
+      "type": "plugin"
+    },
+    {
+      "id": "extended-graph",
+      "type": "plugin"
+    },
+    {
+      "id": "external-rename-handler",
+      "type": "plugin"
+    },
+    {
+      "id": "focus-time",
+      "type": "plugin"
+    },
+    {
+      "id": "folder-notes",
+      "type": "plugin"
+    },
+    {
+      "id": "folders2graph",
+      "type": "plugin"
+    },
+    {
+      "id": "format-with-prettier",
+      "type": "plugin"
+    },
+    {
+      "id": "obsidian-front-matter-title-plugin",
+      "type": "plugin"
+    },
+    {
+      "id": "gistr",
+      "type": "plugin"
+    },
+    {
+      "id": "obsidian-git",
+      "type": "plugin"
+    },
+    {
+      "id": "oin-gotoheading",
+      "type": "plugin"
+    },
+    {
+      "id": "gridexplorer",
+      "type": "plugin"
+    },
+    {
+      "id": "heading-decorator",
+      "type": "plugin"
+    },
+    {
+      "id": "obsidian-heading-shifter",
+      "type": "plugin"
+    },
+    {
+      "id": "hot-reload",
+      "type": "plugin"
+    },
+    {
+      "id": "html-docs",
+      "type": "plugin"
+    },
+    {
+      "id": "html-server",
+      "type": "plugin"
+    },
+    {
+      "id": "obsidian-image-auto-upload-plugin",
+      "type": "plugin"
+    },
+    {
+      "id": "copy-url-in-preview",
+      "type": "plugin"
+    },
+    {
+      "id": "obsidian-image-toolkit",
+      "type": "plugin"
+    },
+    {
+      "id": "obsidian-importer",
+      "type": "plugin"
+    },
+    {
+      "id": "inlineai",
+      "type": "plugin"
+    },
+    {
+      "id": "obsidian-kanban",
+      "type": "plugin"
+    },
+    {
+      "id": "kanban-bases-view",
+      "type": "plugin"
+    },
+    {
+      "id": "keyboard-analyzer",
+      "type": "plugin"
+    },
+    {
+      "id": "keyshots",
+      "type": "plugin"
+    },
+    {
+      "id": "obsidian-latex-suite",
+      "type": "plugin"
+    },
+    {
+      "id": "lineage",
+      "type": "plugin"
+    },
+    {
+      "id": "obsidian-link-converter",
+      "type": "plugin"
+    },
+    {
+      "id": "link-navigation",
+      "type": "plugin"
+    },
+    {
+      "id": "linked-note-exporter",
+      "type": "plugin"
+    },
+    {
+      "id": "links",
+      "type": "plugin"
+    },
+    {
+      "id": "obsidian-linter",
+      "type": "plugin"
+    },
+    {
+      "id": "obsidian-local-rest-api",
+      "type": "plugin"
+    },
+    {
+      "id": "obsidian-markdown-export-plugin",
+      "type": "plugin"
+    },
+    {
+      "id": "markdown-viewer-extension",
+      "type": "plugin"
+    },
+    {
+      "id": "markitdown",
+      "type": "plugin"
+    },
+    {
+      "id": "obsidian-markmind",
+      "type": "plugin"
+    },
+    {
+      "id": "messager",
+      "type": "plugin"
+    },
+    {
+      "id": "obsidian-mindmap-nextgen",
+      "type": "plugin"
+    },
+    {
+      "id": "modalforms",
+      "type": "plugin"
+    },
+    {
+      "id": "modal-opener",
+      "type": "plugin"
+    },
+    {
+      "id": "multiple-notes-outline",
+      "type": "plugin"
+    },
+    {
+      "id": "mysnippets-plugin",
+      "type": "plugin"
+    },
+    {
+      "id": "nav-link-header",
+      "type": "plugin"
+    },
+    {
+      "id": "new-note-fixer",
+      "type": "plugin"
+    },
+    {
+      "id": "note-status",
+      "type": "plugin"
+    },
+    {
+      "id": "note-toolbar",
+      "type": "plugin"
+    },
+    {
+      "id": "notebook-navigator",
+      "type": "plugin"
+    },
+    {
+      "id": "obdrawio",
+      "type": "plugin"
+    },
+    {
+      "id": "open-gate",
+      "type": "plugin"
+    },
+    {
+      "id": "open-tab-settings",
+      "type": "plugin"
+    },
+    {
+      "id": "obsidian-opener",
+      "type": "plugin"
+    },
+    {
+      "id": "obsidian-outliner",
+      "type": "plugin"
+    },
+    {
+      "id": "page-scroll",
+      "type": "plugin"
+    },
+    {
+      "id": "password-manager",
+      "type": "plugin"
+    },
+    {
+      "id": "paste-image-rename-convert",
+      "type": "plugin"
+    },
+    {
+      "id": "url-into-selection",
+      "type": "plugin"
+    },
+    {
+      "id": "pdf-plus",
+      "type": "plugin"
+    },
+    {
+      "id": "periodic-notes",
+      "type": "plugin"
+    },
+    {
+      "id": "persistent-links",
+      "type": "plugin"
+    },
+    {
+      "id": "pexels-banner",
+      "type": "plugin"
+    },
+    {
+      "id": "pocket-bird",
+      "type": "plugin"
+    },
+    {
+      "id": "power-mode",
+      "type": "plugin"
+    },
+    {
+      "id": "pseudocode-in-obs",
+      "type": "plugin"
+    },
+    {
+      "id": "quick-explorer",
+      "type": "plugin"
+    },
+    {
+      "id": "quick-plugin-switcher",
+      "type": "plugin"
+    },
+    {
+      "id": "quick-tagger",
+      "type": "plugin"
+    },
+    {
+      "id": "quickadd",
+      "type": "plugin"
+    },
+    {
+      "id": "obsidian-quiet-outline",
+      "type": "plugin"
+    },
+    {
+      "id": "rss-dashboard",
+      "type": "plugin"
+    },
+    {
+      "id": "obsidian-scroll-to-top-plugin",
+      "type": "plugin"
+    },
+    {
+      "id": "sheets-basic",
+      "type": "plugin"
+    },
+    {
+      "id": "sheets",
+      "type": "plugin"
+    },
+    {
+      "id": "show-whitespace-cm6",
+      "type": "plugin"
+    },
+    {
+      "id": "simple-anki-sync",
+      "type": "plugin"
+    },
+    {
+      "id": "simple-mind-map",
+      "type": "plugin"
+    },
+    {
+      "id": "cm-chs-patch",
+      "type": "plugin"
+    },
+    {
+      "id": "slash-commander",
+      "type": "plugin"
+    },
+    {
+      "id": "snipdock",
+      "type": "plugin"
+    },
+    {
+      "id": "solve",
+      "type": "plugin"
+    },
+    {
+      "id": "obsidian-spaced-repetition",
+      "type": "plugin"
+    },
+    {
+      "id": "obsidian42-strange-new-worlds",
+      "type": "plugin"
+    },
+    {
+      "id": "obsidian-style-settings",
+      "type": "plugin"
+    },
+    {
+      "id": "albus-super-daily-notes",
+      "type": "plugin"
+    },
+    {
+      "id": "super-zen",
+      "type": "plugin"
+    },
+    {
+      "id": "table-collapse-plugin",
+      "type": "plugin"
+    },
+    {
+      "id": "tabs",
+      "type": "plugin"
+    },
+    {
+      "id": "tag-buddy",
+      "type": "plugin"
+    },
+    {
+      "id": "tag-group-manager",
+      "type": "plugin"
+    },
+    {
+      "id": "tag-wrangler",
+      "type": "plugin"
+    },
+    {
+      "id": "task-board",
+      "type": "plugin"
+    },
+    {
+      "id": "obsidian-tasks-plugin",
+      "type": "plugin"
+    },
+    {
+      "id": "templater-obsidian",
+      "type": "plugin"
+    },
+    {
+      "id": "obsidian-memos",
+      "type": "plugin"
+    },
+    {
+      "id": "tick-tones",
+      "type": "plugin"
+    },
+    {
+      "id": "obsidian-title-serial-number-plugin",
+      "type": "plugin"
+    },
+    {
+      "id": "tldraw",
+      "type": "plugin"
+    },
+    {
+      "id": "tray",
+      "type": "plugin"
+    },
+    {
+      "id": "various-complements",
+      "type": "plugin"
+    },
+    {
+      "id": "vault-inspector",
+      "type": "plugin"
+    },
+    {
+      "id": "version-control",
+      "type": "plugin"
+    },
+    {
+      "id": "vertical-tabs",
+      "type": "plugin"
+    },
+    {
+      "id": "virtual-linker",
+      "type": "plugin"
+    },
+    {
+      "id": "obsidian-weread-plugin",
+      "type": "plugin"
+    },
+    {
+      "id": "workspaces-plus",
+      "type": "plugin"
+    },
+    {
+      "id": "xmind-linker",
+      "type": "plugin"
+    },
+    {
+      "id": "yolo",
+      "type": "plugin"
+    },
+    {
+      "id": "zhihu",
+      "type": "plugin"
+    },
+    {
+      "id": "obsidian-zoom",
+      "type": "plugin"
+    },
+    {
+      "id": "zotero-citations",
+      "type": "plugin"
+    },
+    {
+      "id": "separator-1780283032331-mpzkj",
+      "type": "separator",
+      "title": "分割线"
+    }
+  ],
+  "REPO_MAP": {},
+  "BPM_INSTALLED": [],
+  "BETA_SOURCES": [],
+  "INSTALL_HISTORY": [],
+  "RIBBON_SETTINGS": [
+    {
+      "id": "yolo:打开聊天",
+      "name": "打开聊天",
+      "icon": "wand-sparkles",
+      "visible": true,
+      "order": 0
+    },
+    {
+      "id": "obsidian-memos:Thino",
+      "name": "Thino",
+      "icon": "Memos",
+      "visible": true,
+      "order": 1
+    },
+    {
+      "id": "obsidian-memos:Thino Super",
+      "name": "Thino Super",
+      "icon": "sparkles",
+      "visible": true,
+      "order": 2
+    },
+    {
+      "id": "obsidian-excalidraw-plugin:新建绘图文件",
+      "name": "新建绘图文件",
+      "icon": "excalidraw-icon",
+      "visible": true,
+      "order": 3
+    },
+    {
+      "id": "gridexplorer:打开网格视图",
+      "name": "打开网格视图",
+      "icon": "grid",
+      "visible": true,
+      "order": 4
+    },
+    {
+      "id": "obsidian-kanban:Create new board",
+      "name": "Create new board",
+      "icon": "lucide-trello",
+      "visible": true,
+      "order": 5
+    },
+    {
+      "id": "colorful-stickynotes:打开便笺",
+      "name": "打开便笺",
+      "icon": "square-pen",
+      "visible": true,
+      "order": 6
+    },
+    {
+      "id": "colorful-stickynotes:便笺列表",
+      "name": "便笺列表",
+      "icon": "layout-list",
+      "visible": true,
+      "order": 7
+    },
+    {
+      "id": "colorful-stickynotes:便笺工作区",
+      "name": "便笺工作区",
+      "icon": "layers",
+      "visible": true,
+      "order": 8
+    },
+    {
+      "id": "dashboard-navigator:Open dashboard navigator",
+      "name": "Open dashboard navigator",
+      "icon": "gauge",
+      "visible": true,
+      "order": 9
+    },
+    {
+      "id": "quick-plugin-switcher:Quick Plugin Switcher",
+      "name": "Quick Plugin Switcher",
+      "icon": "toggle-right",
+      "visible": true,
+      "order": 10
+    },
+    {
+      "id": "password-manager:打开密码管理器",
+      "name": "打开密码管理器",
+      "icon": "lock",
+      "visible": true,
+      "order": 11
+    },
+    {
+      "id": "advanced-search-ui:切换悬浮搜索面板",
+      "name": "切换悬浮搜索面板",
+      "icon": "text-search",
+      "visible": true,
+      "order": 12
+    },
+    {
+      "id": "bases:新建数据库",
+      "name": "新建数据库",
+      "icon": "lucide-layout-list",
+      "visible": true,
+      "order": 13
+    },
+    {
+      "id": "switcher:打开快速切换",
+      "name": "打开快速切换",
+      "icon": "lucide-file-search",
+      "visible": true,
+      "order": 14
+    },
+    {
+      "id": "graph:查看关系图谱",
+      "name": "查看关系图谱",
+      "icon": "lucide-git-fork",
+      "visible": true,
+      "order": 15
+    },
+    {
+      "id": "canvas:新建白板",
+      "name": "新建白板",
+      "icon": "lucide-layout-dashboard",
+      "visible": true,
+      "order": 16
+    },
+    {
+      "id": "daily-notes:打开/创建今天的日记",
+      "name": "打开/创建今天的日记",
+      "icon": "lucide-calendar",
+      "visible": true,
+      "order": 17
+    },
+    {
+      "id": "templates:插入模板",
+      "name": "插入模板",
+      "icon": "lucide-files",
+      "visible": true,
+      "order": 18
+    },
+    {
+      "id": "command-palette:打开命令面板",
+      "name": "打开命令面板",
+      "icon": "lucide-terminal",
+      "visible": true,
+      "order": 19
+    },
+    {
+      "id": "audio-recorder:开始/结束录音",
+      "name": "开始/结束录音",
+      "icon": "lucide-mic",
+      "visible": true,
+      "order": 20
+    },
+    {
+      "id": "workspaces:管理工作区布局",
+      "name": "管理工作区布局",
+      "icon": "lucide-layout",
+      "visible": true,
+      "order": 21
+    },
+    {
+      "id": "components:AI 对话（新标签页）",
+      "name": "AI 对话（新标签页）",
+      "icon": "at-sign",
+      "visible": true,
+      "order": 22
+    },
+    {
+      "id": "obsidian42-brat:BRAT",
+      "name": "BRAT",
+      "icon": "BratIcon",
+      "visible": true,
+      "order": 23
+    },
+    {
+      "id": "quick-tagger:Add tag to current note",
+      "name": "Add tag to current note",
+      "icon": "tag",
+      "visible": true,
+      "order": 24
+    },
+    {
+      "id": "quick-tagger:Remove tag from current note",
+      "name": "Remove tag from current note",
+      "icon": "x-square",
+      "visible": true,
+      "order": 25
+    },
+    {
+      "id": "cmdr:Commander: 打开 Commander 设置",
+      "name": "Commander: 打开 Commander 设置",
+      "icon": "lucide-command",
+      "visible": true,
+      "order": 26
+    },
+    {
+      "id": "cmdr:Style Settings: Show style settings view",
+      "name": "Style Settings: Show style settings view",
+      "icon": "building-2",
+      "visible": true,
+      "order": 27
+    },
+    {
+      "id": "cmdr:QuickAdd: Macro：归档附件",
+      "name": "QuickAdd: Macro：归档附件",
+      "icon": "archive",
+      "visible": true,
+      "order": 28
+    },
+    {
+      "id": "lineage:Toggle Lineage view",
+      "name": "Toggle Lineage view",
+      "icon": "lineage-cards",
+      "visible": true,
+      "order": 29
+    },
+    {
+      "id": "obsidian-git:Open Git source control",
+      "name": "Open Git source control",
+      "icon": "git-pull-request",
+      "visible": true,
+      "order": 30
+    },
+    {
+      "id": "code-files:Create Code File",
+      "name": "Create Code File",
+      "icon": "file-json",
+      "visible": true,
+      "order": 31
+    },
+    {
+      "id": "templater-obsidian:Templater",
+      "name": "Templater",
+      "icon": "templater-icon",
+      "visible": true,
+      "order": 32
+    },
+    {
+      "id": "focus-time:打开专注时间仪表盘",
+      "name": "打开专注时间仪表盘",
+      "icon": "book-open-text",
+      "visible": true,
+      "order": 33
+    },
+    {
+      "id": "periodic-notes:Open today",
+      "name": "Open today",
+      "icon": "calendar-day",
+      "visible": true,
+      "order": 34
+    },
+    {
+      "id": "task-board:打开任务看板",
+      "name": "打开任务看板",
+      "icon": "brick-wall",
+      "visible": true,
+      "order": 35
+    },
+    {
+      "id": "better-plugins-manager:插件管理器",
+      "name": "插件管理器",
+      "icon": "folder-cog",
+      "visible": true,
+      "order": 36
+    }
+  ],
+  "SHARED_VAULT_MAIN_PATH": "",
+  "SHARED_VAULTS": [],
+  "EXPORT_DIR": ""
+}

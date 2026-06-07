@@ -1,0 +1,26 @@
+{
+  "pythonPath": "python",
+  "enablePlugins": true,
+  "pluginArgs": [],
+  "docintelEndpoint": "",
+  "outputPath": "",
+  "imageExtractionEnabled": true,
+  "imageSubfolderTemplate": "{filename}-images",
+  "enableBatchProgress": true,
+  "enableContextMenu": true,
+  "enableRecursiveConversion": true,
+  "outputFilenameTemplate": "{filename}",
+  "enableDragDrop": true,
+  "enableAutoFrontmatter": true,
+  "autoTags": "",
+  "conversionHistory": [
+    {
+      "inputFile": "D:\\PandaNotes\\markitdown-output\\tmp_1773977414193____________.pdf",
+      "outputFile": "D:\\PandaNotes\\markitdown-output\\第一章 计算机基础知识.md",
+      "timestamp": "2026-03-20T03:30:15.619Z",
+      "success": true,
+      "processingTimeMs": 1266,
+      "imagesExtracted": 0
+    }
+  ]
+}

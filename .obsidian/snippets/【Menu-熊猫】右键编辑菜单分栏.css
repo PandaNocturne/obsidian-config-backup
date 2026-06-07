@@ -1,0 +1,44 @@
+body:not(:has(.taskBoardView)) .menu:not(.MySnippets-statusbar-menu):not(.snipdock-menu)>.menu-scroll {
+	.menu-item {
+		flex: 0 0 fit-content;
+		max-width: 300px;
+
+		.menu-item-title {
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
+
+	}
+
+	/* 分栏设置 */
+	&:has(.menu-group:nth-child(n+10)),
+	&:has(>.menu-group>.menu-item:nth-child(n+20)) {
+		max-height: 50vh;
+		width: fit-content;
+		overflow-x: auto;
+
+		display: block;
+		columns: 2;
+		gap: 5px;
+		column-rule: 2px solid var(--background-modifier-border);
+
+		.menu-item-title {
+			max-width: 320px;
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
+	}
+
+	/* 最多3列 */
+	&:has(.menu-group:nth-child(n+20)),
+	&:has(>.menu-group>.menu-item:nth-child(n+40)) {
+		columns: 3;
+	}
+
+	/* 隐藏分割线 */
+	.menu-separator {
+		display: none;
+	}
+}
+

@@ -1,0 +1,23 @@
+{
+  "isCanvasLinksEnabled": true,
+  "isAttachmentsEnabled": true,
+  "isTagsEnabled": true,
+  "toggleCanvasLinks": true,
+  "toggleAttachments": false,
+  "toggleTags": false,
+  "cacheTimeout": 300000,
+  "cacheCleanupInterval": 5,
+  "showCacheCleanupNotice": false,
+  "inlinkFormat": "{arrow} {label} ({count})",
+  "outlinkFormat": "{label} ({count}) {arrow}",
+  "showInlinkCount": true,
+  "showOutlinkCount": true,
+  "inlinkText": "",
+  "outlinkText": "",
+  "inlinkArrow": "←",
+  "outlinkArrow": "→",
+  "inlinkCustomClass": "",
+  "outlinkCustomClass": "",
+  "inlinkIcon": "arrow-left-circle",
+  "outlinkIcon": "arrow-right-circle"
+}

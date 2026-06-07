@@ -1,0 +1,27 @@
+/*! 相邻图片之间并排 */
+
+/* 图链格式 */
+.view-content p img+br,
+/* wiki格式 */
+.view-content p span+br {
+  display: none;
+}
+
+/* 排除 callout */
+.callout-content {
+  p span+br {
+    display: unset !important;
+  }
+}
+
+/* div.cm-line:has(.image-embed) {
+  display: flex;
+  width: 100%;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: stretch;
+
+  &>.image-embed+img+img+.image-embed {
+    margin-left: 0.5em;
+  }
+} */

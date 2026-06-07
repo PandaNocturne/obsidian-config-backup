@@ -1,0 +1,378 @@
+{
+  "version": 26,
+  "providers": [
+    {
+      "type": "openai",
+      "id": "openai",
+      "baseUrl": "https://api2.aigcbest.top/v1",
+      "apiKey": "sk-5wYbCGfWMlpD282Y5rsPkCH7dt9xIyWcNIgjIVfQezEngIPt"
+    },
+    {
+      "type": "openai",
+      "id": "anthropic",
+      "baseUrl": "sk-5wYbCGfWMlpD282Y5rsPkCH7dt9xIyWcNIgjIVfQezEngIPt",
+      "apiKey": "https://api2.aigcbest.top/v1",
+      "additionalSettings": {}
+    },
+    {
+      "type": "openai",
+      "id": "gemini",
+      "baseUrl": "https://api2.aigcbest.top/v1",
+      "apiKey": "sk-5wYbCGfWMlpD282Y5rsPkCH7dt9xIyWcNIgjIVfQezEngIPt",
+      "additionalSettings": {}
+    },
+    {
+      "type": "deepseek",
+      "id": "deepseek"
+    }
+  ],
+  "chatModels": [
+    {
+      "providerType": "openai",
+      "providerId": "anthropic",
+      "id": "anthropic/claude-sonnet-4.0",
+      "model": "claude-sonnet-4-0",
+      "enable": false
+    },
+    {
+      "providerType": "openai",
+      "providerId": "anthropic",
+      "id": "anthropic/claude-opus-4.1",
+      "model": "claude-opus-4-1",
+      "enable": false
+    },
+    {
+      "providerType": "openai",
+      "providerId": "anthropic",
+      "id": "anthropic/claude-3.7-sonnet",
+      "model": "claude-3-7-sonnet-latest",
+      "enable": false
+    },
+    {
+      "providerType": "openai",
+      "providerId": "anthropic",
+      "id": "anthropic/claude-3.5-sonnet",
+      "model": "claude-3-5-sonnet-latest",
+      "enable": false
+    },
+    {
+      "providerType": "openai",
+      "providerId": "anthropic",
+      "id": "anthropic/claude-3.5-haiku",
+      "model": "claude-3-5-haiku-latest",
+      "enable": false
+    },
+    {
+      "providerType": "openai",
+      "providerId": "openai",
+      "id": "openai/gpt-5",
+      "model": "gpt-5",
+      "enable": false
+    },
+    {
+      "providerType": "openai",
+      "providerId": "openai",
+      "id": "openai/gpt-5-mini",
+      "model": "gpt-5-mini",
+      "enable": false
+    },
+    {
+      "providerType": "openai",
+      "providerId": "openai",
+      "id": "openai/gpt-5-nano",
+      "model": "gpt-5-nano",
+      "enable": false
+    },
+    {
+      "providerType": "openai",
+      "providerId": "openai",
+      "id": "openai/gpt-4.1",
+      "model": "gpt-4.1",
+      "enable": true
+    },
+    {
+      "providerType": "openai",
+      "providerId": "openai",
+      "id": "openai/gpt-4.1-mini",
+      "model": "gpt-4.1-mini",
+      "enable": true
+    },
+    {
+      "providerType": "openai",
+      "providerId": "openai",
+      "id": "openai/gpt-4.1-nano",
+      "model": "gpt-4.1-nano",
+      "enable": true
+    },
+    {
+      "providerType": "openai",
+      "providerId": "openai",
+      "id": "openai/gpt-4o",
+      "model": "gpt-4o",
+      "enable": false
+    },
+    {
+      "providerType": "openai",
+      "providerId": "openai",
+      "id": "openai/gpt-4o-mini",
+      "model": "gpt-4o-mini",
+      "enable": false
+    },
+    {
+      "providerType": "openai",
+      "providerId": "openai",
+      "id": "openai/o4-mini",
+      "model": "o4-mini",
+      "enable": false,
+      "reasoning": {
+        "enabled": true,
+        "reasoning_effort": "medium"
+      }
+    },
+    {
+      "providerType": "openai",
+      "providerId": "openai",
+      "id": "openai/o3",
+      "model": "o3",
+      "enable": false,
+      "reasoning": {
+        "enabled": true,
+        "reasoning_effort": "medium"
+      }
+    },
+    {
+      "providerType": "openai",
+      "providerId": "gemini",
+      "id": "gemini/gemini-2.5-pro",
+      "model": "gemini-2.5-pro",
+      "enable": false
+    },
+    {
+      "providerType": "openai",
+      "providerId": "gemini",
+      "id": "gemini/gemini-2.5-flash",
+      "model": "gemini-2.5-flash",
+      "enable": true
+    },
+    {
+      "providerType": "openai",
+      "providerId": "gemini",
+      "id": "gemini/gemini-2.5-flash-lite",
+      "model": "gemini-2.5-flash-lite",
+      "enable": true
+    },
+    {
+      "providerType": "openai",
+      "providerId": "gemini",
+      "id": "gemini/gemini-2.0-flash",
+      "model": "gemini-2.0-flash",
+      "enable": false
+    },
+    {
+      "providerType": "openai",
+      "providerId": "gemini",
+      "id": "gemini/gemini-2.0-flash-lite",
+      "model": "gemini-2.0-flash-lite",
+      "enable": false
+    },
+    {
+      "providerType": "deepseek",
+      "providerId": "deepseek",
+      "id": "deepseek/deepseek-chat",
+      "model": "deepseek-chat",
+      "enable": false
+    },
+    {
+      "providerType": "deepseek",
+      "providerId": "deepseek",
+      "id": "deepseek/deepseek-reasoner",
+      "model": "deepseek-reasoner",
+      "enable": false
+    },
+    {
+      "providerType": "openai",
+      "providerId": "anthropic",
+      "id": "anthropic/claude-3.7-sonnet-thinking",
+      "model": "claude-3-7-sonnet-latest",
+      "enable": true
+    },
+    {
+      "providerType": "openai",
+      "providerId": "gemini",
+      "id": "gemini/gemini-2.0-flash-thinking",
+      "model": "gemini-2.0-flash-thinking-exp",
+      "enable": false
+    },
+    {
+      "providerType": "openai",
+      "providerId": "gemini",
+      "id": "gemini/gemini-1.5-pro",
+      "model": "gemini-1.5-pro",
+      "enable": false
+    },
+    {
+      "providerType": "openai",
+      "providerId": "gemini",
+      "id": "gemini/gemini-1.5-flash",
+      "model": "gemini-1.5-flash",
+      "enable": false
+    },
+    {
+      "providerType": "openai",
+      "providerId": "openai",
+      "id": "openai/o3-mini",
+      "model": "o3-mini",
+      "reasoning": {
+        "enabled": true,
+        "reasoning_effort": "medium"
+      }
+    },
+    {
+      "providerType": "openai",
+      "providerId": "openai",
+      "id": "openai/o1",
+      "model": "o1",
+      "enable": true,
+      "reasoning": {
+        "enabled": true,
+        "reasoning_effort": "medium"
+      }
+    },
+    {
+      "providerType": "openai",
+      "providerId": "gemini",
+      "id": "gemini/gemini-exp-1206",
+      "model": "gemini-exp-1206",
+      "enable": false
+    },
+    {
+      "providerType": "openai",
+      "providerId": "gemini",
+      "id": "gemini/gemini-3-flash-preview",
+      "model": "gemini-3-flash-preview",
+      "name": "gemini-3-flash-preview",
+      "enable": true,
+      "customParameters": [
+        {
+          "key": "temperature",
+          "value": "0.8"
+        },
+        {
+          "key": "top_p",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "embeddingModels": [
+    {
+      "providerType": "openai",
+      "providerId": "openai",
+      "id": "openai/text-embedding-3-small",
+      "model": "text-embedding-3-small",
+      "dimension": 1536
+    },
+    {
+      "providerType": "openai",
+      "providerId": "openai",
+      "id": "openai/text-embedding-3-large",
+      "model": "text-embedding-3-large",
+      "dimension": 3072
+    },
+    {
+      "providerType": "openai",
+      "providerId": "gemini",
+      "id": "gemini/text-embedding-004",
+      "model": "text-embedding-004",
+      "dimension": 768
+    }
+  ],
+  "chatModelId": "gemini/gemini-3-flash-preview",
+  "applyModelId": "gemini/gemini-2.5-flash-lite",
+  "embeddingModelId": "openai/text-embedding-3-small",
+  "systemPrompt": "\n# Role\n\n你是一个专为 Obsidian 用户设计的知识管理助手。您正在与用户合作，帮助他们探索、理解和组织个人知识库中的信息，Let's think step by step。每当用户发送消息时，他们可能会提供有关当前笔记、知识库结构或特定知识需求的背景信息。这些信息可能与他们的询问相关，也可能不相关，您需要自行判断。\n\n您的主要目标是提供信息丰富的回答、深思熟虑的解释以及针对他们所面临的任何主题或挑战的实用指导，同时在相关时利用他们现有的知识基础。您可以分析信息、解释各个领域的概念，并在有帮助时访问外部资源。确保全面回答用户的问题，提供深思熟虑的解释和实用的指导。当复杂主题需要更清晰的阐述时，可以使用像 Mermaid 图表这样的视觉辅助工具。提供来自不同领域的挑战解决方案，而不仅限于技术领域，并提供有助于用户更好理解主题的背景信息。\n\n# Style & Format Rules\n\n1. **纯正 Markdown**:\n    1. 语法格式：所有输出必须严格遵循 Obsidian 兼容的 Markdown 语法标准，避免使用不被官方支持的扩展语法。\n    2. 严禁使用分隔符 `---`，禁止在每个标题或 Callout 前后使用分隔符，仅在段落中需要分离时使用，且非必要不要使用。\n    3. 严格换行模式：注意每个段落的上下文之间必须有一行空格。\n    4. 常见的 Markdown 元素包括多级标题、无序列表、有序列表、任务列表、代码块、表格、引用、分隔线、行内代码等，均应按照标准用法输出。\n    5. 链接、图片、任务列表、引用等基础语法需遵循 obsidian 官方文档示例。\n    6. 代码块说明：多行代码块需使用三个反引号（\\`\\`\\`）包裹，不可以使用整体缩进，单个词或变量名请用单反引号（\\`）行内代码。\n        如果内部需要嵌套代码块，外部代码块采用\\~\\~\\~格式，内部采用\\`\\`\\` 格式。\n    7. 文本缩进：文本内容层级缩进统一使用 4 个空格代替 tab，避免 tab 字符带来的兼容性问题。\n    8. 表格规范：在插入表格（Table）时，表格内容的前后必须分别留出至少一个空行，避免渲染异常。\n    9. Latex 公式：若涉及公式或特殊渲染语法，优先考虑 Obsidian 支持的写法（如 $LaTeX$ 数学公式）。\n    10. 禁止输出不支持或不兼容的 Markdown 语法片段；若用户请求不被支持的写法，需主动提示其限制。\n2. **结构化输出**:\n    1. 优先采用多级标题（`##`, `###`）、列表（List）、任务列表（`- [ ]`）和表格（Table）来组织内容。\n    2. 如需补充信息结构，可使用 Mermaid 的 `graph` 画图方式辅助，但应尽量少用，除非结构关系复杂且表述更清晰。\n    3. 少量需要备注说明的内容，用块引用符号 `> ` 来注释。\n4. **简洁至上**:\n    1. 避免冗长的开场白和结束语，直接输出核心内容。\n    2. 严禁滥用加粗样式，比如表格或列表中不要特别强调使用。\n\n# Mermaid\n\n精通 Mermaid.js 的架构，专门为 Obsidian 环境提供可渲染的图表代码。\n\n## Strict Rules for Syntax\n\n1. **Node Escape**: 必须对所有节点文本使用 `ID[\"Text\"]` 格式，严禁直接使用 `ID[Text]`，以防止特殊字符引发渲染错误。\n2. **Standard Only**: 仅使用 `graph`, `sequenceDiagram`, `pie`,`mindmap`, `gantt`, `classDiagram`, `erDiagram` 这几种 Obsidian 原生支持的类型。\n3. **Flat Subgraphs**: 在使用 `subgraph` 时，严禁超过 2 层的嵌套。如果逻辑复杂，请使用编号（如 A1, A2）代替深度嵌套。\n4. **No Explanations**: 仅输出代码块，不要在代码块前后添加任何自然语言解释。\n\n## Output Format\n\n以 \\`\\`\\`mermaid 开头，以 \\`\\`\\` 结尾。\n\n# AnyBlock\n\n你是 Obsidian 数据可视化专家。当需要展示结构化信息时，请根据场景选择最合适的 AnyBlock 处理器。\n\n## 语法规范\n\n1. 使用 \\`\\`\\`anyblock 代码块包裹。\n2. 首行必须是处理器标识符（如 `[list2node]`、`[list2timeline]` 等）。\n3. 标识符与内容之间**不要留空行**。\n4. `list` 类型的标识符内容都是用无序列表组成，`title` 类型的标识符主要用标题来转换。\n\n处理器标识符：\n\n- `[list2pumlWBS]`: 当需要生成“工作分解结构 (WBS)”或高度严谨的树状拆解图时使用。\n- `[list2node]`: （默认）思维导图模式，适用于一般的逻辑拆解。\n- `[list2markmap]`: 交互式思维导图，适用于需要 Markmap 风格（带圆点和连线颜色）的场景。\n- `[list2node|addClass(min)]`: 极简思维导图，适用于节点文字较多或需要紧凑布局的场景。\n- `[list2card]`: 当用户需要展示“卡片”、“资源清单”或“笔记卡片组”时使用。\n- `[list2table]`: 将列表内容转化为横向对比表格，只要在特别声明使用 anyblock 语法的使用，否则采用默认的 markdown 表格的语法。\n- `[title2tab]`: 当用户提供多个并列的大标题（#）且希望将其转化为“标签页 (Tabs)”切换显示时使用。\n\n## 案例实例\n\n`list` 标识类型\n\n```anyblock\n[list2node]\n- 标题\n    - 分支1\n        - 1.1\n        - 1.2\n    - 分支2\n        - 2.1\n            - 2.1.1\n```\n\n`title` 标识类型\n\n```anyblock\n[title2tab]\n## 标签页1\n\n文本内容\n\n- 列表\n\n## 标签页2\n\n文本内容\n\n- 列表\n```\n\n# Chronos Timeline\n\n根据 Obsidian Chronos Timeline 插件的语法，可以生成交互式的甘特图与时间线。\n\nChronos Timeline 的语法格式如下：\n\n## 日期格式\n\nChronos 能可视化从年份到秒级的各种日期，语法格式为 `YYYY-MM-DDThh:mm:ss`。\n\n日期格式中，**年（YYYY）是必需的**，其余各部分可按需补充更详细的时间粒度。\n\n若未指定：\n\n- 月和日默认为 `01`（1 月 1 日）\n- 时、分、秒默认为 `00`\n\n### 示例\n\n```chronos\n- [2020] 一年\n- [2020-02] 某月\n- [2020-02-28] 某天\n- [2020-02-28T12] 某小时\n- [2020-02-28T12:30] 某分钟\n- [2020-02-28T12:30:09] 某秒\n```\n\n## 事件（Events）\n\n**完整语法**\n\n```\n- [Date~Date] #Color {Group Name} Event Name | Description\n```\n\n- 第二个日期、颜色、分组名、事件名、描述均为可选\n- 描述会在时间线悬停时显示\n\n### 示例\n\n#### 单一日期事件\n\n**语法**\n\n```\n- [Date] Event Name\n```\n\n```chronos\n- [1879-03-14] 爱因斯坦出生\n```\n\n#### 时间区间事件\n\n**语法**\n\n```\n- [Date~Date] Event Name\n```\n\n```chronos\n- [1991~2001] 我相信圣诞老人的岁月\n```\n\n#### 有描述的时间区间\n\n**语法**\n\n```\n- [Date~Date] Event Name| Description\n```\n\n```chronos\n- [1991~2001] 我相信圣诞老人的岁月 | 有一天我弟弟试图用隐藏摄像机拍圣诞老人后就不信了\n```\n\n#### 带颜色\n\n可用颜色见下文 [颜色](#colors)\n\n**语法**\n\n```\n- [Date~Date] #Color Event Name| Description\n```\n\n```chronos\n- [2001~2009] #red 布什\n- [2009~2017] #blue 奥巴马\n- [2017~2021] #red 特朗普\n- [2021~2025] #blue 拜登\n```\n\n#### 分组事件/分组语法\n\n**语法**\n\n```\n- [Date(~Date)] {Group Name} Event Name| Description\n```\n\n```chronos\n@ [1892-10-08~1941-08-31] {茨维塔耶娃} 1892-1941\n- [1916] {茨维塔耶娃} 《朋友》\n- [1928] {茨维塔耶娃}  《尾声诗》\n- [1941] {茨维塔耶娃} 《论诗记》\n\n@ [1899-08-24~1986-06-14] {博尔赫斯} 1899-1986\n- [1944] {博尔赫斯} 《虚构集》\n- [1949] {博尔赫斯} 《艾莱夫》\n- [1962] {博尔赫斯} 《迷宫》\n```\n\n## 时期（Periods）\n\n**完整语法**\n\n```\n@ [Date~Date] #Color {Group Name} Period Name\n```\n\n- 颜色、分组名和时期名均为可选\n\n### 示例\n\n#### 基础示例\n\n```chronos\n@ [-300~250] 弥生时代\n- [-100] 稻作传入\n- [-57] 日本首次有中国纪录\n```\n\n#### 带颜色\n\n可用颜色见下文 [颜色](#colors)\n\n```chronos\n@ [-300~250] #red 弥生时代\n- [-100] 稻作传入\n- [-57] 日本首次有中国纪录\n\n@ [250~538] 古坟时代\n- [250] 开始修建前方后圆坟\n- [369] 倭国派遣使者至朝鲜\n```\n\n## 里程点（Points）\n\n**语法**\n\n```\n* [Date] Point Name | Description\n```\n\n```chronos\n- [2024-02-26~2024-03-10] 锦标赛\n* [2024-02-26] 第1场 | 奥斯汀\n* [2024-02-28] 第2场 | 洛杉矶\n* [2024-03-06] 第3场 | 东京\n* [2024-03-10] 第4场 | 雅加达\n```\n\n## 标记（Markers）\n\n**语法**\n\n```\n= [Date] Marker Name\n```\n\n### 示例\n\n```chronos\n= [1440] 古腾堡印刷机发明\n\n- [1455] 印刷古腾堡圣经\n@ [1501~1600] 印刷术传播\n- [1517] 路德九十五条\n```\n\n## 排序（Ordering）\n\n**按开始时间升序排序**\n\n```chronos\n> ORDERBY start\n\n- [2026~2028] 事件D\n- [2024~2028] 事件B\n- [2025~2030] #red 事件C\n- [2020~2030] #red 事件A\n```\n\n**按开始时间降序排序**\n\n```chronos\n> ORDERBY -start\n\n- [2026~2028] 事件D\n- [2024~2028] 事件B\n- [2025~2030] #red 事件C\n- [2020~2030] #red 事件A\n```\n\n**按颜色和开始时间排序**\n\n```chronos\n> ORDERBY color|start\n\n- [2026~2028] 事件D\n- [2024~2028] 事件B\n- [2025~2030] #red 事件C\n- [2020~2030] #red 事件A\n```\n\n## 默认视图日期（Default view dates）\n\n可以使用 `> DEFAULTVIEW start|end` 指令，设定时间线初始视图的默认起止日期。\n\n```chronos\n> DEFAULTVIEW  -3000|3000\n\n- [2024] AGI\n```\n\n## 进阶示例\n\n```chronos\n- [1945-07-17] {欧洲} 波茨坦会议 | 战后欧洲格局确立\n- [1947-03-12] {美国} 杜鲁门主义 | 宣示遏制共产主义\n- [1948-06-24~1949-05-12] {欧洲} 柏林封锁 | 以及西方空运对抗苏联\n- [1949-04-04] {欧洲} 北约成立\n\n# 冷战早期\n\n@ [1957~1969] #cyan {苏联} 太空竞赛\n@ [1957~1969] #cyan {美国} 太空竞赛\n- [1950-06-25~1953-07-27] {亚洲} 朝鲜战争 | 南北韩对抗\n- [1955-05-14] {苏联} 华沙条约签订 | 应对北约\n- [1957-10-04] #cyan {苏联} 斯普特尼克发射 | 拉开太空竞赛序幕\n- [1961-04-17] {古巴} 猪湾事件 | 入侵古巴\n\n# 冷战高峰\n\n- [1962-10-16] {古巴} 古巴导弹危机 | 美苏对峙巅峰\n- [1963-08-05] {全球} 部分禁止核试验条约签署\n- [1969-07-20] #cyan {美国} 阿波罗11号登月 | 美国赢得太空竞赛\n- [1972-05-26] {全球} 第一次战略武器限制条约签署\n\n# 缓和时期\n\n- [1979-12-24~1989-02-15] {苏联} 苏联入侵阿富汗 | 苏联国力受挫\n- [1983-03-23] {美国} 里根宣布星球大战计划\n- [1986-04-26] {苏联} 切尔诺贝利核事故\n- [1987-12-08] {全球} 中导条约签署 | 消除中程核导弹\n\n# 冷战晚期\n\n- [1989-11-09] {欧洲} 柏林墙倒塌 | 冷战缓和的象征\n- [1991-07-31] {全球} 第一次削减战略武器条约签署\n- [1991-12-26] {苏联} 苏联解体 | 标志冷战正式结束\n\n= [1991-12-26] 冷战结束\n\n```\n\n## Colors\n\n- `#red`\n- `#orange`\n- `#yellow`\n- `#green`\n- `#blue`\n- `#purple`\n- `#pink`\n- `#cyan`\n- ......\n",
+  "ragOptions": {
+    "enabled": false,
+    "chunkSize": 1000,
+    "thresholdTokens": 20000,
+    "minSimilarity": 0,
+    "limit": 10,
+    "excludePatterns": [],
+    "includePatterns": [],
+    "autoUpdateEnabled": false,
+    "autoUpdateIntervalHours": 24,
+    "lastAutoUpdateAt": 0
+  },
+  "mcp": {
+    "servers": []
+  },
+  "chatOptions": {
+    "includeCurrentFileContent": true,
+    "enableTools": false,
+    "maxAutoIterations": 1,
+    "maxContextMessages": 32,
+    "chatTitlePrompt": "",
+    "baseModelSpecialPrompt": "",
+    "chatMode": "chat"
+  },
+  "continuationOptions": {
+    "continuationModelId": "gemini/gemini-2.5-flash-lite",
+    "enableSmartSpace": true,
+    "enableSelectionChat": true,
+    "enableTabCompletion": false,
+    "tabCompletionModelId": "openai/gpt-4.1-mini",
+    "tabCompletionOptions": {
+      "idleTriggerEnabled": false,
+      "autoTriggerDelayMs": 3000,
+      "autoTriggerCooldownMs": 15000,
+      "triggerDelayMs": 3000,
+      "minContextLength": 20,
+      "contextRange": 4000,
+      "maxSuggestionLength": 2000,
+      "temperature": 0.5,
+      "requestTimeoutMs": 12000
+    },
+    "tabCompletionTriggers": [
+      {
+        "id": "sentence-end-comma",
+        "type": "string",
+        "pattern": ", ",
+        "enabled": true
+      },
+      {
+        "id": "sentence-end-chinese-comma",
+        "type": "string",
+        "pattern": "，",
+        "enabled": true
+      },
+      {
+        "id": "sentence-end-colon",
+        "type": "string",
+        "pattern": ": ",
+        "enabled": true
+      },
+      {
+        "id": "sentence-end-chinese-colon",
+        "type": "string",
+        "pattern": "：",
+        "enabled": true
+      },
+      {
+        "id": "newline",
+        "type": "regex",
+        "pattern": "\\n$",
+        "enabled": true
+      },
+      {
+        "id": "list-item",
+        "type": "regex",
+        "pattern": "(?:^|\\n)[-*+]\\s$",
+        "enabled": true
+      }
+    ],
+    "tabCompletionSystemPrompt": "Your job is to predict the most logical text that should be written at the location of the <mask/>. Your answer can be either code, a single word, or multiple sentences. Your answer must be in the same language as the text that is already there.\n\nAdditional constraints:\n{{tab_completion_constraints}}\n\nOutput only the text that should appear at the <mask/>. Do not include explanations, labels, or formatting.",
+    "tabCompletionLengthPreset": "medium",
+    "enableQuickAsk": false
+  },
+  "assistants": []
+}

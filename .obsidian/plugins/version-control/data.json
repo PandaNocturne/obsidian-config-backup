@@ -1,0 +1,1959 @@
+{
+  "version": "1.9.44",
+  "databasePath": ".versiondb",
+  "noteIdFrontmatterKey": "uid",
+  "legacyNoteIdFrontmatterKeys": [
+    "vc-id",
+    "uuid"
+  ],
+  "keyUpdatePathFilters": [],
+  "defaultExportFormat": "md",
+  "enableCompression": true,
+  "autoRegisterNotes": false,
+  "pathFilters": [],
+  "noteIdFormat": "{uuid}",
+  "versionIdFormat": "{timestamp}_{version}",
+  "centralManifest": {
+    "version": "1.0.0",
+    "notes": {
+      "093bd4b9-420a-4e11-9753-2dd96c3355dc": {
+        "notePath": "310【任务】Tasks/2025/250708_📅嵌入式基础入门学习/250825_📊嵌入式的长周期任务记录&规划_项目规划.md",
+        "manifestPath": ".versiondb/093bd4b9-420a-4e11-9753-2dd96c3355dc/manifest.json",
+        "createdAt": "2026-01-20T11:53:54.579Z",
+        "lastModified": "2026-01-20T11:53:54.579Z"
+      },
+      "fce9c301-ffbe-466a-9dfd-2099e457bcc7": {
+        "notePath": "210【日志】Journal/DailyNotes/2026/2026-01-20.md",
+        "manifestPath": ".versiondb/fce9c301-ffbe-466a-9dfd-2099e457bcc7/manifest.json",
+        "createdAt": "2026-01-20T12:12:22.000Z",
+        "lastModified": "2026-01-20T12:12:22.000Z"
+      },
+      "32e0f43e-7461-45b7-8db6-dc29e1f2588a": {
+        "notePath": "200【日记】Diary/💾重要事件记录/算命记录/260120_生辰八字算命记录 by 盲人算命.md",
+        "manifestPath": ".versiondb/32e0f43e-7461-45b7-8db6-dc29e1f2588a/manifest.json",
+        "createdAt": "2026-01-20T12:13:34.137Z",
+        "lastModified": "2026-02-28T10:01:58.863Z"
+      },
+      "110c9da2-943a-48d9-adcc-0e66474d0597": {
+        "notePath": "520【工具】ToolNote/【Tool】Adobe系列工具/【Tool】Adobe系列工具.md",
+        "manifestPath": ".versiondb/110c9da2-943a-48d9-adcc-0e66474d0597/manifest.json",
+        "createdAt": "2026-01-20T13:07:41.272Z",
+        "lastModified": "2026-01-20T13:07:41.272Z"
+      },
+      "f881774d-f905-49b2-90c8-6e5294256495": {
+        "notePath": "500【资源】Resource/游戏/250104_游戏推荐/250104_游戏推荐.md",
+        "manifestPath": ".versiondb/f881774d-f905-49b2-90c8-6e5294256495/manifest.json",
+        "createdAt": "2026-01-20T13:33:34.505Z",
+        "lastModified": "2026-01-20T13:33:34.505Z"
+      },
+      "77ef20c9-7a34-46a4-9a33-d5b861a6c231": {
+        "notePath": "500【资源】Resource/游戏/241221_Game track.md",
+        "manifestPath": ".versiondb/77ef20c9-7a34-46a4-9a33-d5b861a6c231/manifest.json",
+        "createdAt": "2026-01-20T13:33:44.856Z",
+        "lastModified": "2026-01-20T13:33:44.856Z"
+      },
+      "d5c4bd01-6473-4f20-af95-4b298a93ee38": {
+        "notePath": "210【日志】Journal/DailyNotes/2026/2026-01-21.md",
+        "manifestPath": ".versiondb/d5c4bd01-6473-4f20-af95-4b298a93ee38/manifest.json",
+        "createdAt": "2026-01-21T00:33:46.374Z",
+        "lastModified": "2026-01-21T00:33:46.374Z"
+      },
+      "6eb2981b-7fbd-4385-979a-2f5533e8d7d7": {
+        "notePath": "310【任务】Tasks/2025/250708_📅嵌入式基础入门学习/250802_C51单片机的学习/250819_尚硅谷51单片机入门到高手，最新全套51单片机教程！/251230_尚硅谷C51学习过程的临时笔记.md",
+        "manifestPath": ".versiondb/6eb2981b-7fbd-4385-979a-2f5533e8d7d7/manifest.json",
+        "createdAt": "2026-01-21T00:44:04.318Z",
+        "lastModified": "2026-01-21T00:44:04.318Z"
+      },
+      "73fce842-7d5a-41b6-9c46-75766c475662": {
+        "notePath": "310【任务】Tasks/Weekly Task Report.md",
+        "manifestPath": ".versiondb/73fce842-7d5a-41b6-9c46-75766c475662/manifest.json",
+        "createdAt": "2026-01-21T00:53:14.443Z",
+        "lastModified": "2026-03-11T06:35:38.040Z"
+      },
+      "0c9dc2d0-cccd-4b44-b796-0682833a8d21": {
+        "notePath": "100【收纳盒】Inbox/110【草稿】Draft/2026/2026-01/260120_Obsidian 工作区的插件灵感/260120_Obsidian 工作区的插件灵感.md",
+        "manifestPath": ".versiondb/0c9dc2d0-cccd-4b44-b796-0682833a8d21/manifest.json",
+        "createdAt": "2026-01-21T00:57:48.986Z",
+        "lastModified": "2026-03-09T02:54:47.628Z"
+      },
+      "83f34de5-eaf4-47b0-86f8-d7d12df51c8d": {
+        "notePath": "910【配置】Configs/copilot/system-prompts/Obsidian Copilot Prompt.md",
+        "manifestPath": ".versiondb/83f34de5-eaf4-47b0-86f8-d7d12df51c8d/manifest.json",
+        "createdAt": "2026-01-21T00:57:50.496Z",
+        "lastModified": "2026-03-04T14:50:18.751Z"
+      },
+      "1cd355b3-e665-40c9-a232-2e80718aa428": {
+        "notePath": "230【会议】Meeting/【工作】东莞市华氪精密设备公司/【工作-华氪】培训记录/2025-11-26_电控分享：Obsidian笔记方法与个人知识库建设实践分享 by 邱腾煌.md",
+        "manifestPath": ".versiondb/1cd355b3-e665-40c9-a232-2e80718aa428/manifest.json",
+        "createdAt": "2026-01-21T01:32:41.250Z",
+        "lastModified": "2026-01-21T01:32:41.250Z"
+      },
+      "46184c1a-190c-452e-8dc8-ca0e419bbac7": {
+        "notePath": "310【任务】Tasks/2025/250708_📅嵌入式基础入门学习/250802_C51单片机的学习/250819_尚硅谷51单片机入门到高手，最新全套51单片机教程！/260121_51 单片机存储类型说明符（C51 关键字）详解.md",
+        "manifestPath": ".versiondb/46184c1a-190c-452e-8dc8-ca0e419bbac7/manifest.json",
+        "createdAt": "2026-01-21T02:36:19.076Z",
+        "lastModified": "2026-01-21T02:38:21.181Z"
+      },
+      "adfee71b-493d-44b3-9516-05df095e3be0": {
+        "notePath": "310【任务】Tasks/2025/250708_📅嵌入式基础入门学习/250730_STM32单片机原理：嵌入式系统原理/250906_单片机概述.md",
+        "manifestPath": ".versiondb/adfee71b-493d-44b3-9516-05df095e3be0/manifest.json",
+        "createdAt": "2026-01-21T02:39:13.924Z",
+        "lastModified": "2026-01-21T02:39:13.924Z"
+      },
+      "d3aeaf30-2f6b-4e75-a099-b230feb48e23": {
+        "notePath": "420【编程】Code/代码开发工具/VSCode/【VS Code】常用快捷键.md",
+        "manifestPath": ".versiondb/d3aeaf30-2f6b-4e75-a099-b230feb48e23/manifest.json",
+        "createdAt": "2026-01-21T03:13:52.253Z",
+        "lastModified": "2026-01-21T03:13:52.253Z"
+      },
+      "bdb9054e-74b2-4338-88ba-8eaacb3306c2": {
+        "notePath": "310【任务】Tasks/2025/250708_📅嵌入式基础入门学习/250802_C51单片机的学习/250802_C51单片机的学习.md",
+        "manifestPath": ".versiondb/bdb9054e-74b2-4338-88ba-8eaacb3306c2/manifest.json",
+        "createdAt": "2026-01-21T03:53:56.483Z",
+        "lastModified": "2026-01-21T03:53:56.483Z"
+      },
+      "21c7609b-b3ae-4bb8-8fdc-210c5ec4a703": {
+        "notePath": "220【记录】Record/222【会议记录】Meeting Records/【工作】东莞市华氪精密设备公司/【工作-华氪】培训记录/2025-11-07_电控笔记：C语言及数据结构的学习笔记 by 邱腾煌/2025-11-07_电控笔记：C语言及数据结构的学习笔记 by 邱腾煌.md",
+        "manifestPath": ".versiondb/21c7609b-b3ae-4bb8-8fdc-210c5ec4a703/manifest.json",
+        "createdAt": "2026-01-21T03:54:05.628Z",
+        "lastModified": "2026-03-16T03:39:28.451Z"
+      },
+      "8dc68ab7-d6db-4f5b-a355-312045d0e51d": {
+        "notePath": "420【编程】Code/嵌入式开发/C语言/【C语言】基础手册/【C语言】C语言概述.md",
+        "manifestPath": ".versiondb/8dc68ab7-d6db-4f5b-a355-312045d0e51d/manifest.json",
+        "createdAt": "2026-01-21T03:54:07.130Z",
+        "lastModified": "2026-01-21T03:54:07.130Z"
+      },
+      "edf85ea6-910f-4e64-831c-c88450121c83": {
+        "notePath": "230【会议】Meeting/【工作】东莞市华氪精密设备公司/【工作-华氪】培训记录/2025-11-07_电控笔记：C语言及数据结构的学习笔记 by 邱腾煌/251208_C 语言的编译器.md",
+        "manifestPath": ".versiondb/edf85ea6-910f-4e64-831c-c88450121c83/manifest.json",
+        "createdAt": "2026-01-21T03:54:17.484Z",
+        "lastModified": "2026-01-21T03:54:17.484Z"
+      },
+      "a16652a8-6720-42e8-a711-b64d9b933854": {
+        "notePath": "310【任务】Tasks/2025/250708_📅嵌入式基础入门学习/250802_C51单片机的学习/250819_尚硅谷51单片机入门到高手，最新全套51单片机教程！/260110_C语言：嵌入式常用的位操作技巧汇总.md",
+        "manifestPath": ".versiondb/a16652a8-6720-42e8-a711-b64d9b933854/manifest.json",
+        "createdAt": "2026-01-21T06:23:01.117Z",
+        "lastModified": "2026-01-21T06:23:01.117Z"
+      },
+      "13d0fc0a-5667-4a11-8f03-30544143c93e": {
+        "notePath": "220【记录】Record/222【会议记录】Meeting Records/【工作】东莞市华氪精密设备公司/250719_华氪-PT项目（A25008 数显压力开关）/250719_华氪-PT项目（A25008 数显压力开关）.md",
+        "manifestPath": ".versiondb/13d0fc0a-5667-4a11-8f03-30544143c93e/manifest.json",
+        "createdAt": "2026-01-21T07:18:37.438Z",
+        "lastModified": "2026-03-17T05:47:42.949Z"
+      },
+      "714d87af-a6b4-4c97-b6a0-36f76624989a": {
+        "notePath": "100【收纳盒】Inbox/120【剪藏】Clippings/2026/2026-01/260121_OLED模块取模方式详解（汉字取模、英文取模、图片取模）.md",
+        "manifestPath": ".versiondb/714d87af-a6b4-4c97-b6a0-36f76624989a/manifest.json",
+        "createdAt": "2026-01-21T09:14:37.425Z",
+        "lastModified": "2026-03-09T02:56:46.703Z"
+      },
+      "e63b7168-e33a-4788-838a-49cc1d7c9825": {
+        "notePath": "910【配置】Configs/copilot-conversations/Copilot_20260122082131__重新给我定义名称和编一下排序_和_补充内容.md",
+        "manifestPath": ".versiondb/e63b7168-e33a-4788-838a-49cc1d7c9825/manifest.json",
+        "createdAt": "2026-01-22T00:33:48.419Z",
+        "lastModified": "2026-01-22T00:33:48.419Z"
+      },
+      "35283361-8d2b-4955-8648-866fbdb39389": {
+        "notePath": "210【日志】Journal/DailyNotes/2026/2026-01-22.md",
+        "manifestPath": ".versiondb/35283361-8d2b-4955-8648-866fbdb39389/manifest.json",
+        "createdAt": "2026-01-22T00:38:28.991Z",
+        "lastModified": "2026-01-22T00:38:28.991Z"
+      },
+      "d885936f-e052-4d2b-b99a-9d1c64861afb": {
+        "notePath": "230【会议】Meeting/【工作】东莞市华氪精密设备公司/250915_机械组-设备工具/250920_3D打印机类型及介绍.md",
+        "manifestPath": ".versiondb/d885936f-e052-4d2b-b99a-9d1c64861afb/manifest.json",
+        "createdAt": "2026-01-22T02:57:27.870Z",
+        "lastModified": "2026-01-22T02:57:27.870Z"
+      },
+      "7466d2d7-523f-431f-8859-82b615b929fc": {
+        "notePath": "230【会议】Meeting/【工作】东莞市华氪精密设备公司/【工作-华氪】培训记录/2025-11-20_电气培训：增材制造3D打印×SolidWorks PCB外壳设计 by 吴成象/250920_3D打印机的分类及其特点介绍.md",
+        "manifestPath": ".versiondb/7466d2d7-523f-431f-8859-82b615b929fc/manifest.json",
+        "createdAt": "2026-01-22T02:57:30.795Z",
+        "lastModified": "2026-01-22T02:57:30.795Z"
+      },
+      "5962b213-0532-4490-acb5-46e8598c8805": {
+        "notePath": "520【工具】ToolNote/【Tool】笔记工具/【工具】Obsidian/【Obsidian】Developer CSS/【Obsidian】Developer CSS.md",
+        "manifestPath": ".versiondb/5962b213-0532-4490-acb5-46e8598c8805/manifest.json",
+        "createdAt": "2026-01-22T03:50:21.846Z",
+        "lastModified": "2026-01-22T03:50:21.846Z"
+      },
+      "8bbc9433-ad37-4dd3-8137-fa6d753b69d5": {
+        "notePath": "520【工具】ToolNote/【Tool】笔记工具/【工具】Obsidian/【Obsidian】Developer CSS/【Obsidian-Developer-CSS】字体颜色 (Text Colors).md",
+        "manifestPath": ".versiondb/8bbc9433-ad37-4dd3-8137-fa6d753b69d5/manifest.json",
+        "createdAt": "2026-01-22T03:50:29.019Z",
+        "lastModified": "2026-01-22T03:50:29.019Z"
+      },
+      "29cead52-1d28-48aa-b9d8-0a97a8e852c7": {
+        "notePath": "520【工具】ToolNote/【Tool】笔记工具/【工具】Obsidian/【Obsidian】Plugin/【Obsidian】Plugin.md",
+        "manifestPath": ".versiondb/29cead52-1d28-48aa-b9d8-0a97a8e852c7/manifest.json",
+        "createdAt": "2026-01-23T00:19:02.826Z",
+        "lastModified": "2026-03-10T08:12:54.510Z"
+      },
+      "92ca3232-a35e-42f6-9ff6-f3856fabf4e5": {
+        "notePath": "520【工具】ToolNote/【Tool】笔记工具/【工具】Obsidian/【Obsidian】Plugin/251102_Obsidian插件类型.md",
+        "manifestPath": ".versiondb/92ca3232-a35e-42f6-9ff6-f3856fabf4e5/manifest.json",
+        "createdAt": "2026-01-23T00:19:08.528Z",
+        "lastModified": "2026-03-10T08:12:53.135Z"
+      },
+      "e32ffc3f-4542-4737-8722-39b563732bb3": {
+        "notePath": "520【工具】ToolNote/【Tool】笔记工具/【工具】Obsidian/【工具】Obsidian.md",
+        "manifestPath": ".versiondb/e32ffc3f-4542-4737-8722-39b563732bb3/manifest.json",
+        "createdAt": "2026-01-23T00:21:33.435Z",
+        "lastModified": "2026-01-23T00:21:33.435Z"
+      },
+      "1205ed6d-9b9e-430f-a544-d6e981f53fb5": {
+        "notePath": "520【工具】ToolNote/【Tool】笔记工具/【工具】Obsidian/【Obsidian】Plugin/260113_Obsidian插件市场外部访问代理设置.md",
+        "manifestPath": ".versiondb/1205ed6d-9b9e-430f-a544-d6e981f53fb5/manifest.json",
+        "createdAt": "2026-01-23T00:21:50.158Z",
+        "lastModified": "2026-01-23T00:21:50.158Z"
+      },
+      "358f7eb6-3f1f-403b-9c48-1104976d53c2": {
+        "notePath": "220【记录】Record/222【会议记录】Meeting Records/【工作】东莞市华氪精密设备公司/250719_华氪-PT项目（A25008 数显压力开关）/250915_数显压力开关方案设计报告 by 刘宸杰.md",
+        "manifestPath": ".versiondb/358f7eb6-3f1f-403b-9c48-1104976d53c2/manifest.json",
+        "createdAt": "2026-01-24T08:23:07.248Z",
+        "lastModified": "2026-03-16T03:39:28.450Z"
+      },
+      "f02e30da-d9ad-4dff-8c8e-cbaae00a72f6": {
+        "notePath": "200【日记】Diary/💾重要事件记录/💾重要事件记录.md",
+        "manifestPath": ".versiondb/f02e30da-d9ad-4dff-8c8e-cbaae00a72f6/manifest.json",
+        "createdAt": "2026-01-24T10:39:07.292Z",
+        "lastModified": "2026-01-24T10:39:07.292Z"
+      },
+      "6876895b-e8e0-45f4-8700-e21a46b57476": {
+        "notePath": "200【日记】Diary/💾重要事件记录/人生的几场大病.md",
+        "manifestPath": ".versiondb/6876895b-e8e0-45f4-8700-e21a46b57476/manifest.json",
+        "createdAt": "2026-01-24T10:39:23.799Z",
+        "lastModified": "2026-01-24T10:39:23.799Z"
+      },
+      "5bee34b7-b42e-4e75-b412-c3ad31d55fb6": {
+        "notePath": "200【日记】Diary/💾重要事件记录/算命记录/算命记录.md",
+        "manifestPath": ".versiondb/5bee34b7-b42e-4e75-b412-c3ad31d55fb6/manifest.json",
+        "createdAt": "2026-01-24T10:39:34.859Z",
+        "lastModified": "2026-02-28T10:01:58.826Z"
+      },
+      "7d8752cd-ad9c-4e6e-8e82-f8aba2c8bf5d": {
+        "notePath": "200【日记】Diary/200【日记】Diary.md",
+        "manifestPath": ".versiondb/7d8752cd-ad9c-4e6e-8e82-f8aba2c8bf5d/manifest.json",
+        "createdAt": "2026-01-24T10:40:11.306Z",
+        "lastModified": "2026-01-24T10:40:11.306Z"
+      },
+      "76001420-8955-4c93-8592-c5ed6e0e4df9": {
+        "notePath": "200【日记】Diary/2025/250404_清明节需要准备的东西以及拜访.md",
+        "manifestPath": ".versiondb/76001420-8955-4c93-8592-c5ed6e0e4df9/manifest.json",
+        "createdAt": "2026-01-26T02:43:20.187Z",
+        "lastModified": "2026-01-26T02:43:20.187Z"
+      },
+      "050b6744-725c-4853-8466-82cb1e570cf6": {
+        "notePath": "500【资源】Resource/游戏/游戏.md",
+        "manifestPath": ".versiondb/050b6744-725c-4853-8466-82cb1e570cf6/manifest.json",
+        "createdAt": "2026-01-31T11:33:08.830Z",
+        "lastModified": "2026-01-31T11:33:08.830Z"
+      },
+      "9e112759-b66d-489a-9277-a6e2d81480ff": {
+        "notePath": "500【资源】Resource/游戏/【游戏】森林之子（Sons of the Forest）.md",
+        "manifestPath": ".versiondb/9e112759-b66d-489a-9277-a6e2d81480ff/manifest.json",
+        "createdAt": "2026-02-04T10:40:51.587Z",
+        "lastModified": "2026-02-04T10:41:04.358Z"
+      },
+      "225a5fb1-f500-4a27-9a16-84bbde64ad06": {
+        "notePath": "500【资源】Resource/游戏/【游戏】剑星.md",
+        "manifestPath": ".versiondb/225a5fb1-f500-4a27-9a16-84bbde64ad06/manifest.json",
+        "createdAt": "2026-02-04T10:41:47.569Z",
+        "lastModified": "2026-02-04T10:41:47.569Z"
+      },
+      "ba699d35-2ec5-4fa4-98d3-0e3fd86e3572": {
+        "notePath": "500【资源】Resource/游戏/【游戏】禁闭求生.md",
+        "manifestPath": ".versiondb/ba699d35-2ec5-4fa4-98d3-0e3fd86e3572/manifest.json",
+        "createdAt": "2026-02-04T10:42:13.577Z",
+        "lastModified": "2026-02-04T10:42:13.577Z"
+      },
+      "a55bb313-cb6d-4a82-ae76-712214fb224b": {
+        "notePath": "500【资源】Resource/游戏/【游戏】MIMESIS 迷魅狩猎/【游戏】MIMESIS 迷魅狩猎.md",
+        "manifestPath": ".versiondb/a55bb313-cb6d-4a82-ae76-712214fb224b/manifest.json",
+        "createdAt": "2026-02-04T10:43:08.050Z",
+        "lastModified": "2026-02-04T10:43:08.050Z"
+      },
+      "17a53f76-e047-4317-9e5f-fcbde2d34d92": {
+        "notePath": "610【画板】Excalidraw/610【画板】Excalidraw.md",
+        "manifestPath": ".versiondb/17a53f76-e047-4317-9e5f-fcbde2d34d92/manifest.json",
+        "createdAt": "2026-02-06T05:14:09.857Z",
+        "lastModified": "2026-02-06T05:14:09.857Z"
+      },
+      "2da0e274-8670-4a8a-b12b-ed0e4f8c48a9": {
+        "notePath": "630【导图】Markmind/630【导图】Markmind.md",
+        "manifestPath": ".versiondb/2da0e274-8670-4a8a-b12b-ed0e4f8c48a9/manifest.json",
+        "createdAt": "2026-02-06T05:15:53.945Z",
+        "lastModified": "2026-02-06T05:15:53.945Z"
+      },
+      "e431dbac-3164-4c7b-923d-bc66b51004bb": {
+        "notePath": "410【论文】Paper/学术图表的规范与调整/论文中图表的基本类型.md",
+        "manifestPath": ".versiondb/e431dbac-3164-4c7b-923d-bc66b51004bb/manifest.json",
+        "createdAt": "2026-02-06T05:25:33.312Z",
+        "lastModified": "2026-02-06T05:25:33.312Z"
+      },
+      "0284210e-7ea7-4738-866d-264454427027": {
+        "notePath": "300【项目】Project/【Project】PKMer文章/QuickAdd脚本的相关文档/251225_Quickadd脚本：markmind的markdown导图模式的一键切换.md",
+        "manifestPath": ".versiondb/0284210e-7ea7-4738-866d-264454427027/manifest.json",
+        "createdAt": "2026-02-06T05:28:16.965Z",
+        "lastModified": "2026-02-06T05:28:16.965Z"
+      },
+      "275f5c44-af43-4b24-93b7-2dce18dc5c28": {
+        "notePath": "500【资源】Resource/游戏/【游戏】亚普亚普（YAPYAP）.md",
+        "manifestPath": ".versiondb/275f5c44-af43-4b24-93b7-2dce18dc5c28/manifest.json",
+        "createdAt": "2026-02-06T09:31:33.753Z",
+        "lastModified": "2026-02-06T09:31:41.993Z"
+      },
+      "07baed08-723d-4be7-ab5c-33a3ade13d43": {
+        "notePath": "520【工具】ToolNote/【Tool】系统工具/【Tool】系统工具.md",
+        "manifestPath": ".versiondb/07baed08-723d-4be7-ab5c-33a3ade13d43/manifest.json",
+        "createdAt": "2026-02-08T11:11:07.357Z",
+        "lastModified": "2026-02-08T11:11:07.357Z"
+      },
+      "437f49cf-1487-47e6-b1e7-c4b7b37316a1": {
+        "notePath": "520【工具】ToolNote/520【工具】ToolNote.md",
+        "manifestPath": ".versiondb/437f49cf-1487-47e6-b1e7-c4b7b37316a1/manifest.json",
+        "createdAt": "2026-02-08T11:11:18.228Z",
+        "lastModified": "2026-03-09T10:24:03.147Z"
+      },
+      "00f621e3-5a7c-40db-be37-673bd533cc09": {
+        "notePath": "520【工具】ToolNote/260109_【Inbox】Github实用工具记录.md",
+        "manifestPath": ".versiondb/00f621e3-5a7c-40db-be37-673bd533cc09/manifest.json",
+        "createdAt": "2026-02-12T04:16:20.646Z",
+        "lastModified": "2026-02-12T04:16:20.646Z"
+      },
+      "44c8e050-787d-4631-ac01-ad218a93349b": {
+        "notePath": "200【日记】Diary/💾重要事件记录/算命记录/260223_紫微斗数命盘 by 文墨天机.md",
+        "manifestPath": ".versiondb/44c8e050-787d-4631-ac01-ad218a93349b/manifest.json",
+        "createdAt": "2026-02-23T07:18:52.257Z",
+        "lastModified": "2026-02-28T10:01:58.865Z"
+      },
+      "fde0ce52-ce78-4712-b8f8-2ceee4807909": {
+        "notePath": "600【白板】Canvas/600【白板】Canvas.md",
+        "manifestPath": ".versiondb/fde0ce52-ce78-4712-b8f8-2ceee4807909/manifest.json",
+        "createdAt": "2026-02-24T06:52:47.361Z",
+        "lastModified": "2026-02-24T06:52:47.361Z"
+      },
+      "6e8dc5e3-5fa8-4dbd-96bc-9691df6abfb0": {
+        "notePath": "000【主页】Home/000【主页】Home.md",
+        "manifestPath": ".versiondb/6e8dc5e3-5fa8-4dbd-96bc-9691df6abfb0/manifest.json",
+        "createdAt": "2026-02-24T08:18:56.422Z",
+        "lastModified": "2026-02-24T08:18:56.422Z"
+      },
+      "301e8108-9ebf-4bfc-aaf4-2ecca0133c2c": {
+        "notePath": "500【资源】Resource/500【资源】Resource.md",
+        "manifestPath": ".versiondb/301e8108-9ebf-4bfc-aaf4-2ecca0133c2c/manifest.json",
+        "createdAt": "2026-02-24T15:01:25.827Z",
+        "lastModified": "2026-02-24T15:01:25.827Z"
+      },
+      "6c30c6cd-ece4-464a-ada0-7245cbadc253": {
+        "notePath": "500【资源】Resource/游戏/【游戏】黑神话：悟空.md",
+        "manifestPath": ".versiondb/6c30c6cd-ece4-464a-ada0-7245cbadc253/manifest.json",
+        "createdAt": "2026-02-24T15:01:33.934Z",
+        "lastModified": "2026-02-24T15:01:33.934Z"
+      },
+      "3442e0c4-258b-4844-b77b-7cf3525050b2": {
+        "notePath": "520【工具】ToolNote/【Tool】笔记工具/【工具】Obsidian/【Obsidian】基础语法/【Obsidian】文本、标记、表格(table).md",
+        "manifestPath": ".versiondb/3442e0c4-258b-4844-b77b-7cf3525050b2/manifest.json",
+        "createdAt": "2026-02-24T15:03:25.167Z",
+        "lastModified": "2026-02-24T15:03:25.167Z"
+      },
+      "a4773ac2-b717-4d37-9f03-6c3413e7f1e1": {
+        "notePath": "100【收纳盒】Inbox/110【草稿】Draft/2026/2026-02/260226_面试求职建议.md",
+        "manifestPath": ".versiondb/a4773ac2-b717-4d37-9f03-6c3413e7f1e1/manifest.json",
+        "createdAt": "2026-02-26T03:01:58.714Z",
+        "lastModified": "2026-03-09T02:54:47.628Z"
+      },
+      "66657a3d-af87-4cc5-905e-cde980dadbf0": {
+        "notePath": "500【资源】Resource/动漫/250304_童年回忆动漫.md",
+        "manifestPath": ".versiondb/66657a3d-af87-4cc5-905e-cde980dadbf0/manifest.json",
+        "createdAt": "2026-02-26T12:45:40.445Z",
+        "lastModified": "2026-02-26T12:45:40.445Z"
+      },
+      "ace9f731-b93c-4807-924f-978fb14e7f74": {
+        "notePath": "400【领域】Area/B 哲学、宗教/【玄学】玄学算命/六爻排盘/260226_六爻起卦方法.md",
+        "manifestPath": ".versiondb/ace9f731-b93c-4807-924f-978fb14e7f74/manifest.json",
+        "createdAt": "2026-02-26T15:56:56.271Z",
+        "lastModified": "2026-03-09T13:25:57.970Z"
+      },
+      "a0d2661e-cbd3-472c-952e-9f26614c38ae": {
+        "notePath": "520【工具】ToolNote/【Tool】笔记工具/【工具】Obsidian/260228_obsidian-releases v1.12.4.md",
+        "manifestPath": ".versiondb/a0d2661e-cbd3-472c-952e-9f26614c38ae/manifest.json",
+        "createdAt": "2026-02-28T02:33:15.156Z",
+        "lastModified": "2026-02-28T02:42:55.629Z"
+      },
+      "9075cbf7-721a-46c2-84f6-1fd16d276cb9": {
+        "notePath": "500【资源】Resource/游戏/【游戏】最后生还者 第二部 复刻版.md",
+        "manifestPath": ".versiondb/9075cbf7-721a-46c2-84f6-1fd16d276cb9/manifest.json",
+        "createdAt": "2026-02-28T02:37:33.097Z",
+        "lastModified": "2026-02-28T02:37:33.097Z"
+      },
+      "b1237f64-3756-42b7-bc0d-d6ed4bee006a": {
+        "notePath": "020【数据库】Bases/020【数据库】Bases.md",
+        "manifestPath": ".versiondb/b1237f64-3756-42b7-bc0d-d6ed4bee006a/manifest.json",
+        "createdAt": "2026-02-28T02:38:31.048Z",
+        "lastModified": "2026-03-09T03:05:32.076Z"
+      },
+      "b68909ff-a5b2-4ea6-b2d4-a362dda494de": {
+        "notePath": "500【资源】Resource/电视剧/【动漫】猫和老鼠/【动漫】猫和老鼠.md",
+        "manifestPath": ".versiondb/b68909ff-a5b2-4ea6-b2d4-a362dda494de/manifest.json",
+        "createdAt": "2026-02-28T02:40:21.363Z",
+        "lastModified": "2026-02-28T09:11:39.391Z"
+      },
+      "e228a3cb-1968-4956-9f9c-aceefefd62ce": {
+        "notePath": "210【日志】Journal/DailyNotes/2026/2026-02-28.md",
+        "manifestPath": ".versiondb/e228a3cb-1968-4956-9f9c-aceefefd62ce/manifest.json",
+        "createdAt": "2026-02-28T02:46:12.031Z",
+        "lastModified": "2026-02-28T02:46:12.031Z"
+      },
+      "302edf32-107d-445c-8f46-59ee26623667": {
+        "notePath": "520【工具】ToolNote/【Tool】笔记工具/【工具】Obsidian/【Obsidian】好看的主题收藏.md",
+        "manifestPath": ".versiondb/302edf32-107d-445c-8f46-59ee26623667/manifest.json",
+        "createdAt": "2026-02-28T02:50:24.266Z",
+        "lastModified": "2026-02-28T02:50:24.266Z"
+      },
+      "951614ee-30cb-46d1-be21-2cfc357c34eb": {
+        "notePath": "310【任务】Tasks/2025/250708_📅嵌入式基础入门学习/250730_STM32单片机学习/250730_STM32单片机学习.md",
+        "manifestPath": ".versiondb/951614ee-30cb-46d1-be21-2cfc357c34eb/manifest.json",
+        "createdAt": "2026-02-28T07:29:56.066Z",
+        "lastModified": "2026-02-28T07:29:56.066Z"
+      },
+      "5e189f9f-0079-4a22-afd4-b315516eb433": {
+        "notePath": "310【任务】Tasks/2025/250708_📅嵌入式基础入门学习/250730_STM32单片机学习/250819_尚硅谷stm32单片机教程，STM32入门教程 by 尚硅谷/250819_尚硅谷stm32单片机教程，STM32入门教程 by 尚硅谷.md",
+        "manifestPath": ".versiondb/5e189f9f-0079-4a22-afd4-b315516eb433/manifest.json",
+        "createdAt": "2026-02-28T07:30:47.133Z",
+        "lastModified": "2026-03-07T01:35:44.931Z"
+      },
+      "82f43042-0dba-45c4-b3d0-20e25b871f35": {
+        "notePath": "230【会议】Meeting/【工作】东莞市华氪精密设备公司/260122_研发部门的散伙饭.md",
+        "manifestPath": ".versiondb/82f43042-0dba-45c4-b3d0-20e25b871f35/manifest.json",
+        "createdAt": "2026-02-28T07:48:15.356Z",
+        "lastModified": "2026-02-28T07:55:15.288Z"
+      },
+      "63caddb3-037f-4d93-a8db-6d0e7476dfc4": {
+        "notePath": "220【记录】Record/222【会议记录】Meeting Records/【工作】东莞市华氪精密设备公司/【工作】东莞市华氪精密设备公司.md",
+        "manifestPath": ".versiondb/63caddb3-037f-4d93-a8db-6d0e7476dfc4/manifest.json",
+        "createdAt": "2026-02-28T07:52:41.684Z",
+        "lastModified": "2026-03-16T03:39:28.447Z"
+      },
+      "1ddd0ad9-c398-4fba-892c-50def4b59748": {
+        "notePath": "220【记录】Record/222【会议记录】Meeting Records/【工作】东莞市华氪精密设备公司/251013_东莞华氪宿舍的生活记录/251013_东莞华氪宿舍的生活记录.md",
+        "manifestPath": ".versiondb/1ddd0ad9-c398-4fba-892c-50def4b59748/manifest.json",
+        "createdAt": "2026-02-28T07:53:00.565Z",
+        "lastModified": "2026-03-16T03:41:08.082Z"
+      },
+      "a1f9a47a-c8ed-4ea6-9213-da8f997525fd": {
+        "notePath": "200【日记】Diary/💾重要事件记录/算命记录/260228_六爻算卦：之后是否能找到工作.md",
+        "manifestPath": ".versiondb/a1f9a47a-c8ed-4ea6-9213-da8f997525fd/manifest.json",
+        "createdAt": "2026-02-28T07:59:32.645Z",
+        "lastModified": "2026-02-28T10:01:58.865Z"
+      },
+      "aac59dd5-1ae2-4a0b-a63d-0e9a56d2cf19": {
+        "notePath": "500【资源】Resource/电影/250321_龙之谷系列电影.md",
+        "manifestPath": ".versiondb/aac59dd5-1ae2-4a0b-a63d-0e9a56d2cf19/manifest.json",
+        "createdAt": "2026-02-28T09:54:30.598Z",
+        "lastModified": "2026-02-28T09:54:30.598Z"
+      },
+      "8bf2f84a-f6aa-4371-b99b-a42afef7c69f": {
+        "notePath": "500【资源】Resource/电影/【电影】龙之谷：破晓奇兵.md",
+        "manifestPath": ".versiondb/8bf2f84a-f6aa-4371-b99b-a42afef7c69f/manifest.json",
+        "createdAt": "2026-02-28T09:54:44.177Z",
+        "lastModified": "2026-02-28T09:54:44.177Z"
+      },
+      "3dce2247-af9d-43e6-accf-d352aa4de7cf": {
+        "notePath": "200【日记】Diary/2026/2026-02-20_去姐夫家的烤馕.md",
+        "manifestPath": ".versiondb/3dce2247-af9d-43e6-accf-d352aa4de7cf/manifest.json",
+        "createdAt": "2026-02-28T10:00:47.233Z",
+        "lastModified": "2026-02-28T10:01:00.055Z"
+      },
+      "62243c55-de03-4d08-b3a8-d1863d173a73": {
+        "notePath": "505【书籍】BookNote/【BookNote】《我在北京送快递》/【BookNote】《我在北京送快递》.md",
+        "manifestPath": ".versiondb/62243c55-de03-4d08-b3a8-d1863d173a73/manifest.json",
+        "createdAt": "2026-03-04T07:08:13.174Z",
+        "lastModified": "2026-03-04T07:08:13.174Z"
+      },
+      "7a7d6196-e0b9-4f9b-82cf-2fa06acb0e91": {
+        "notePath": "100【收纳盒】Inbox/110【草稿】Draft/110【草稿】Draft.md",
+        "manifestPath": ".versiondb/7a7d6196-e0b9-4f9b-82cf-2fa06acb0e91/manifest.json",
+        "createdAt": "2026-03-04T07:33:47.681Z",
+        "lastModified": "2026-03-09T02:54:47.625Z"
+      },
+      "1cfad385-624c-4f42-a989-2786b8e35834": {
+        "notePath": "800【归档】Archive/2026/251229_PT会议内容的整理.md",
+        "manifestPath": ".versiondb/1cfad385-624c-4f42-a989-2786b8e35834/manifest.json",
+        "createdAt": "2026-03-04T07:37:58.771Z",
+        "lastModified": "2026-03-04T07:39:07.686Z"
+      },
+      "0721237d-d70e-4ff7-b4a2-f12efc97eafc": {
+        "notePath": "310【任务】Tasks/2025/250708_📅嵌入式基础入门学习/251119_嵌入式学习的体系 vs 问题导向 by Qwen3-max.md",
+        "manifestPath": ".versiondb/0721237d-d70e-4ff7-b4a2-f12efc97eafc/manifest.json",
+        "createdAt": "2026-03-04T07:48:01.505Z",
+        "lastModified": "2026-03-04T07:48:34.320Z"
+      },
+      "6d5ed3f4-9734-4b09-b2ae-53ea7947a298": {
+        "notePath": "520【工具】ToolNote/【Tool】笔记工具/【工具】Obsidian/【Obsidian】FAQ/【Obsidian】FAQ.md",
+        "manifestPath": ".versiondb/6d5ed3f4-9734-4b09-b2ae-53ea7947a298/manifest.json",
+        "createdAt": "2026-03-04T08:12:26.722Z",
+        "lastModified": "2026-03-04T08:12:26.722Z"
+      },
+      "4b4573b6-a441-435d-a71c-6a3a5d35698a": {
+        "notePath": "520【工具】ToolNote/【Tool】信息收集工具.md",
+        "manifestPath": ".versiondb/4b4573b6-a441-435d-a71c-6a3a5d35698a/manifest.json",
+        "createdAt": "2026-03-04T08:16:01.064Z",
+        "lastModified": "2026-03-04T08:16:36.477Z"
+      },
+      "456fe9bd-ca79-41ea-81ea-e64659cca30e": {
+        "notePath": "@【熊猫】赞美太阳！/账号密码管理/账号密码.md",
+        "manifestPath": ".versiondb/456fe9bd-ca79-41ea-81ea-e64659cca30e/manifest.json",
+        "createdAt": "2026-03-04T13:28:53.041Z",
+        "lastModified": "2026-03-04T13:28:53.041Z"
+      },
+      "e1bd8a2d-fb4d-43c2-b59f-b757b263e2d8": {
+        "notePath": "520【工具】ToolNote/【Tool】笔记工具/【Tool】笔记工具.md",
+        "manifestPath": ".versiondb/e1bd8a2d-fb4d-43c2-b59f-b757b263e2d8/manifest.json",
+        "createdAt": "2026-03-04T14:50:38.356Z",
+        "lastModified": "2026-03-04T14:50:38.356Z"
+      },
+      "109fff4f-47ab-4f45-9d7d-7221dcd4a969": {
+        "notePath": "500【资源】Resource/电影/250226_定格动画.md",
+        "manifestPath": ".versiondb/109fff4f-47ab-4f45-9d7d-7221dcd4a969/manifest.json",
+        "createdAt": "2026-03-05T03:40:41.054Z",
+        "lastModified": "2026-03-05T03:40:41.054Z"
+      },
+      "267d25a3-73c5-4949-bcc9-475cd0ed00f6": {
+        "notePath": "010【笔记】Notes/010【笔记】Notes.md",
+        "manifestPath": ".versiondb/267d25a3-73c5-4949-bcc9-475cd0ed00f6/manifest.json",
+        "createdAt": "2026-03-05T05:07:31.610Z",
+        "lastModified": "2026-03-05T05:07:31.610Z"
+      },
+      "2f0ae9e7-57de-419d-aba7-9d3bf3823c9f": {
+        "notePath": "220【记录】Record/223【物品记录】Item Records/260316_电脑&笔记本/251206_电脑（联想拯救者Y7000）数据备份需要转移的数据（华硕天选6）.md",
+        "manifestPath": ".versiondb/2f0ae9e7-57de-419d-aba7-9d3bf3823c9f/manifest.json",
+        "createdAt": "2026-03-05T05:08:51.836Z",
+        "lastModified": "2026-03-16T03:35:30.207Z"
+      },
+      "ac17c5cc-9aeb-4330-8e7b-b05e7b2742b0": {
+        "notePath": "900【素材】Assets/900【素材】Assets.md",
+        "manifestPath": ".versiondb/ac17c5cc-9aeb-4330-8e7b-b05e7b2742b0/manifest.json",
+        "createdAt": "2026-03-05T05:09:03.395Z",
+        "lastModified": "2026-03-05T05:09:03.395Z"
+      },
+      "1a41bea0-e381-448c-83f0-b96733584e9f": {
+        "notePath": "520【工具】ToolNote/【Tool】笔记工具/【工具】Obsidian/【Obsidian】Plugin/【Obsidian-Plugin】Components(Contribution widget)/【Obsidian-Plugin】Components(Contribution widget).md",
+        "manifestPath": ".versiondb/1a41bea0-e381-448c-83f0-b96733584e9f/manifest.json",
+        "createdAt": "2026-03-05T05:09:36.721Z",
+        "lastModified": "2026-03-05T05:09:36.721Z"
+      },
+      "d0b6ac7c-2198-4ac2-a6e1-3d7f12c721cb": {
+        "notePath": "310【任务】Tasks/2025/250913_长周期锻炼目标 📅 2025-09-13/250913_长周期锻炼目标 📅 2025-09-13.md",
+        "manifestPath": ".versiondb/d0b6ac7c-2198-4ac2-a6e1-3d7f12c721cb/manifest.json",
+        "createdAt": "2026-03-05T05:14:57.928Z",
+        "lastModified": "2026-03-05T05:14:57.928Z"
+      },
+      "a1bc0bdb-2a1b-4534-81fc-b44509dff2cd": {
+        "notePath": "310【任务】Tasks/2025/250914_尚硅谷Vue框架学习 📅 2025-09-14/250914_尚硅谷Vue框架学习 📅 2025-09-14.md",
+        "manifestPath": ".versiondb/a1bc0bdb-2a1b-4534-81fc-b44509dff2cd/manifest.json",
+        "createdAt": "2026-03-05T05:15:12.540Z",
+        "lastModified": "2026-03-05T05:15:44.771Z"
+      },
+      "6bae26f8-7f94-4f87-b9ca-494999a47380": {
+        "notePath": "800【归档】Archive/2026/251129_本周的小组会议纪要.md",
+        "manifestPath": ".versiondb/6bae26f8-7f94-4f87-b9ca-494999a47380/manifest.json",
+        "createdAt": "2026-03-05T05:17:44.714Z",
+        "lastModified": "2026-03-05T05:17:46.851Z"
+      },
+      "5ece0645-f8e9-4378-a9ac-b75a638e3751": {
+        "notePath": "400【领域】Area/C 社会科学总论/【C95】人类学、民族学/【C95】人类学、民族学.md",
+        "manifestPath": ".versiondb/5ece0645-f8e9-4378-a9ac-b75a638e3751/manifest.json",
+        "createdAt": "2026-03-05T05:18:45.545Z",
+        "lastModified": "2026-03-05T05:18:45.545Z"
+      },
+      "c9eaa59d-7686-4635-a8f7-61c74eb89470": {
+        "notePath": "010【笔记】Notes/生活常识/251026_皮肤如何美白.md",
+        "manifestPath": ".versiondb/c9eaa59d-7686-4635-a8f7-61c74eb89470/manifest.json",
+        "createdAt": "2026-03-05T05:20:28.976Z",
+        "lastModified": "2026-03-05T05:20:28.976Z"
+      },
+      "da66cae7-9d5d-425f-b8a6-85b92341466a": {
+        "notePath": "010【笔记】Notes/生活常识/251019_骑单车.md",
+        "manifestPath": ".versiondb/da66cae7-9d5d-425f-b8a6-85b92341466a/manifest.json",
+        "createdAt": "2026-03-05T05:20:44.661Z",
+        "lastModified": "2026-03-05T05:20:44.661Z"
+      },
+      "b677707a-9cae-4f4a-a18a-f344b9383bb3": {
+        "notePath": "010【笔记】Notes/生活常识/250305_餐桌礼仪(饭局)指南.md",
+        "manifestPath": ".versiondb/b677707a-9cae-4f4a-a18a-f344b9383bb3/manifest.json",
+        "createdAt": "2026-03-05T05:20:49.163Z",
+        "lastModified": "2026-03-05T05:20:49.163Z"
+      },
+      "5f065d9b-b4fe-4a11-b944-e91461429faf": {
+        "notePath": "010【笔记】Notes/生活常识/250224_呼吸性碱中毒.md",
+        "manifestPath": ".versiondb/5f065d9b-b4fe-4a11-b944-e91461429faf/manifest.json",
+        "createdAt": "2026-03-05T05:20:55.714Z",
+        "lastModified": "2026-03-05T05:20:55.714Z"
+      },
+      "db37b2c0-72b7-44f6-a133-cadf34bfa8d8": {
+        "notePath": "010【笔记】Notes/生活常识/240320_海姆立克急救法.md",
+        "manifestPath": ".versiondb/db37b2c0-72b7-44f6-a133-cadf34bfa8d8/manifest.json",
+        "createdAt": "2026-03-05T05:20:55.720Z",
+        "lastModified": "2026-03-05T05:20:55.720Z"
+      },
+      "df02fa14-54db-42da-91ac-9f9aa6893657": {
+        "notePath": "010【笔记】Notes/生活实用技巧/251017_如何快速记住陌生人的名字（任何事物）.md",
+        "manifestPath": ".versiondb/df02fa14-54db-42da-91ac-9f9aa6893657/manifest.json",
+        "createdAt": "2026-03-05T05:21:03.177Z",
+        "lastModified": "2026-03-05T05:21:03.177Z"
+      },
+      "dc13b0d3-6e9f-46bb-83bf-39ff8ec2dda7": {
+        "notePath": "220【备忘录】Memos/同事/251029_@刘宸杰/251031_考研不复习可以吗 by 刘宸杰.md",
+        "manifestPath": ".versiondb/dc13b0d3-6e9f-46bb-83bf-39ff8ec2dda7/manifest.json",
+        "createdAt": "2026-03-05T05:21:16.568Z",
+        "lastModified": "2026-03-05T05:21:31.698Z"
+      },
+      "6425c78a-1af1-48dc-b4f5-ff41ca3ab149": {
+        "notePath": "220【备忘录】Memos/同事/251029_@刘宸杰/251029_@刘宸杰.md",
+        "manifestPath": ".versiondb/6425c78a-1af1-48dc-b4f5-ff41ca3ab149/manifest.json",
+        "createdAt": "2026-03-05T05:21:27.491Z",
+        "lastModified": "2026-03-05T05:21:27.491Z"
+      },
+      "721ee26b-512c-4f99-9d16-105346973d78": {
+        "notePath": "220【备忘录】Memos/同事/同事.md",
+        "manifestPath": ".versiondb/721ee26b-512c-4f99-9d16-105346973d78/manifest.json",
+        "createdAt": "2026-03-05T05:21:41.950Z",
+        "lastModified": "2026-03-05T05:21:41.950Z"
+      },
+      "2a298a50-055a-4767-a6ba-4568baaf2f64": {
+        "notePath": "220【记录】Record/221【备忘录】Memos/221【备忘录】Memos.md",
+        "manifestPath": ".versiondb/2a298a50-055a-4767-a6ba-4568baaf2f64/manifest.json",
+        "createdAt": "2026-03-05T05:21:49.208Z",
+        "lastModified": "2026-03-09T03:09:58.886Z"
+      },
+      "298110a8-6a3b-473c-a5fe-c59359bcb74b": {
+        "notePath": "230【会议】Meeting/【工作】东莞市华氪精密设备公司/250913_部门人员分配.md",
+        "manifestPath": ".versiondb/298110a8-6a3b-473c-a5fe-c59359bcb74b/manifest.json",
+        "createdAt": "2026-03-05T05:22:39.979Z",
+        "lastModified": "2026-03-05T05:22:39.979Z"
+      },
+      "c2f1084b-c449-4e63-99ee-62c63a1ac079": {
+        "notePath": "310【任务】Tasks/2025/250708_📅嵌入式基础入门学习/250802_C51单片机的学习/250819_尚硅谷51单片机入门到高手，最新全套51单片机教程！/250819_尚硅谷51单片机入门到高手，最新全套51单片机教程！.md",
+        "manifestPath": ".versiondb/c2f1084b-c449-4e63-99ee-62c63a1ac079/manifest.json",
+        "createdAt": "2026-03-05T05:25:17.435Z",
+        "lastModified": "2026-03-05T05:25:17.435Z"
+      },
+      "fe6028ab-8557-4eed-ac59-1c0ff9f66fec": {
+        "notePath": "100【收纳盒】Inbox/110【草稿】Draft/2026/2026-02/260223_玄学问题收集整理/260223_玄学问题收集整理.md",
+        "manifestPath": ".versiondb/fe6028ab-8557-4eed-ac59-1c0ff9f66fec/manifest.json",
+        "createdAt": "2026-03-05T05:29:48.493Z",
+        "lastModified": "2026-03-09T02:55:51.686Z"
+      },
+      "db58375b-0331-471b-b0e4-fcf30d06b708": {
+        "notePath": "200【日记】Diary/💾重要事件记录/算命记录/260305_紫微斗数全盘深度解析报告.md",
+        "manifestPath": ".versiondb/db58375b-0331-471b-b0e4-fcf30d06b708/manifest.json",
+        "createdAt": "2026-03-05T05:48:10.384Z",
+        "lastModified": "2026-03-05T05:49:37.926Z"
+      },
+      "db64488f-ab3d-4eaa-990a-92dccf2d097e": {
+        "notePath": "220【记录】Record/221【备忘录】Memos/网友/网友.md",
+        "manifestPath": ".versiondb/db64488f-ab3d-4eaa-990a-92dccf2d097e/manifest.json",
+        "createdAt": "2026-03-05T08:08:21.983Z",
+        "lastModified": "2026-03-09T03:11:32.835Z"
+      },
+      "26e950a5-286e-45ff-95b3-483fb380efc1": {
+        "notePath": "500【资源】Resource/游戏/251031_多人合作联机游戏推荐.md",
+        "manifestPath": ".versiondb/26e950a5-286e-45ff-95b3-483fb380efc1/manifest.json",
+        "createdAt": "2026-03-05T08:09:49.288Z",
+        "lastModified": "2026-03-05T08:09:49.288Z"
+      },
+      "39a172e2-2bbb-4ebe-8b32-b057692a6355": {
+        "notePath": "510【资料】StudyNote/512【书籍】BookNote/512【书籍】BookNote.md",
+        "manifestPath": ".versiondb/39a172e2-2bbb-4ebe-8b32-b057692a6355/manifest.json",
+        "createdAt": "2026-03-05T08:27:28.327Z",
+        "lastModified": "2026-03-09T03:17:30.227Z"
+      },
+      "65a2975c-7d50-4307-b89e-f0081616fadc": {
+        "notePath": "210【日志】Journal/210【日志】Journal.md",
+        "manifestPath": ".versiondb/65a2975c-7d50-4307-b89e-f0081616fadc/manifest.json",
+        "createdAt": "2026-03-05T08:32:18.852Z",
+        "lastModified": "2026-03-05T08:32:18.852Z"
+      },
+      "c3385580-bd2c-4598-ba33-75d1e780a173": {
+        "notePath": "310【任务】Tasks/2025/250218_Obsidian插件制作：网页书签精灵 📅 2025-02-18/250218_Obsidian插件制作：网页书签精灵 📅 2025-02-18.md",
+        "manifestPath": ".versiondb/c3385580-bd2c-4598-ba33-75d1e780a173/manifest.json",
+        "createdAt": "2026-03-05T08:34:05.122Z",
+        "lastModified": "2026-03-05T08:34:05.122Z"
+      },
+      "8b9aac87-3784-4617-a685-aa0271ed90e5": {
+        "notePath": "210【日志】Journal/DailyNotes/2026/2026-01-19.md",
+        "manifestPath": ".versiondb/8b9aac87-3784-4617-a685-aa0271ed90e5/manifest.json",
+        "createdAt": "2026-03-05T08:35:04.411Z",
+        "lastModified": "2026-03-05T08:35:04.411Z"
+      },
+      "c4489a80-659b-4d4d-b230-824f6e8aac25": {
+        "notePath": "210【日志】Journal/DailyNotes/2026/2026-01-15.md",
+        "manifestPath": ".versiondb/c4489a80-659b-4d4d-b230-824f6e8aac25/manifest.json",
+        "createdAt": "2026-03-05T08:35:06.289Z",
+        "lastModified": "2026-03-05T08:35:06.289Z"
+      },
+      "04c9a171-4410-48d3-b721-56856413a039": {
+        "notePath": "210【日志】Journal/DailyNotes/2026/2026-01-14.md",
+        "manifestPath": ".versiondb/04c9a171-4410-48d3-b721-56856413a039/manifest.json",
+        "createdAt": "2026-03-05T08:35:07.066Z",
+        "lastModified": "2026-03-05T08:35:07.066Z"
+      },
+      "9a4e323d-95c8-4ccd-ab7d-28c32da247bb": {
+        "notePath": "210【日志】Journal/DailyNotes/2026/2026-01-13.md",
+        "manifestPath": ".versiondb/9a4e323d-95c8-4ccd-ab7d-28c32da247bb/manifest.json",
+        "createdAt": "2026-03-05T08:35:07.652Z",
+        "lastModified": "2026-03-05T08:35:07.652Z"
+      },
+      "982efa68-185a-405b-9929-57937642618b": {
+        "notePath": "210【日志】Journal/DailyNotes/2026/2026-01-08.md",
+        "manifestPath": ".versiondb/982efa68-185a-405b-9929-57937642618b/manifest.json",
+        "createdAt": "2026-03-05T08:35:08.588Z",
+        "lastModified": "2026-03-05T08:35:08.588Z"
+      },
+      "7bff74a1-2fc9-461d-a717-cb1a6a4cae8a": {
+        "notePath": "210【日志】Journal/DailyNotes/2025/2025-10-15.md",
+        "manifestPath": ".versiondb/7bff74a1-2fc9-461d-a717-cb1a6a4cae8a/manifest.json",
+        "createdAt": "2026-03-05T08:35:26.253Z",
+        "lastModified": "2026-03-05T08:35:26.253Z"
+      },
+      "40add0af-9a33-4cef-8a2c-e363767841ba": {
+        "notePath": "310【任务】Tasks/2025/250708_📅嵌入式基础入门学习/250708_📅嵌入式基础入门学习.md",
+        "manifestPath": ".versiondb/40add0af-9a33-4cef-8a2c-e363767841ba/manifest.json",
+        "createdAt": "2026-03-05T08:35:49.334Z",
+        "lastModified": "2026-03-05T08:35:49.334Z"
+      },
+      "bab72a02-9107-41aa-9454-6a9dfd349c66": {
+        "notePath": "210【日志】Journal/WeeklyNotes/2025/2025-03-W09.md",
+        "manifestPath": ".versiondb/bab72a02-9107-41aa-9454-6a9dfd349c66/manifest.json",
+        "createdAt": "2026-03-05T08:37:08.574Z",
+        "lastModified": "2026-03-05T08:37:08.574Z"
+      },
+      "52c9c28a-bd57-4fff-a7f4-90cc16b869bb": {
+        "notePath": "220【记录】Record/222【会议记录】Meeting Records/【工作】东莞市华氪精密设备公司/【工作-华氪】培训记录/250929_Python Pyside上位机学习记录/250929_Python Pyside上位机学习记录.md",
+        "manifestPath": ".versiondb/52c9c28a-bd57-4fff-a7f4-90cc16b869bb/manifest.json",
+        "createdAt": "2026-03-05T08:39:05.497Z",
+        "lastModified": "2026-03-16T03:39:28.451Z"
+      },
+      "f8e3c094-cf0b-40a2-8be3-413d2772bcdd": {
+        "notePath": "230【会议】Meeting/【工作】东莞市华氪精密设备公司/【工作-华氪】培训记录/250929_Python Pyside上位机学习记录/251128_Python并发编程（多线程 threading）/251128_Python并发编程（多线程 threading）.md",
+        "manifestPath": ".versiondb/f8e3c094-cf0b-40a2-8be3-413d2772bcdd/manifest.json",
+        "createdAt": "2026-03-05T08:39:07.007Z",
+        "lastModified": "2026-03-05T08:39:07.007Z"
+      },
+      "b5d615ec-6eca-49ab-9b8b-5027229528c5": {
+        "notePath": "230【会议】Meeting/【工作】东莞市华氪精密设备公司/【工作-华氪】培训记录/250929_Python Pyside上位机学习记录/250930_Python类结构设计&SOLID原则 by AI.md",
+        "manifestPath": ".versiondb/b5d615ec-6eca-49ab-9b8b-5027229528c5/manifest.json",
+        "createdAt": "2026-03-05T08:39:21.355Z",
+        "lastModified": "2026-03-05T08:39:21.355Z"
+      },
+      "91144afe-2e76-4b01-a2db-89f973e84ce5": {
+        "notePath": "620【图表】Diagrams/620【图表】Diagrams.md",
+        "manifestPath": ".versiondb/91144afe-2e76-4b01-a2db-89f973e84ce5/manifest.json",
+        "createdAt": "2026-03-05T08:44:58.624Z",
+        "lastModified": "2026-03-05T08:44:58.624Z"
+      },
+      "8d090f14-3332-4cb5-acf3-0cd590c45d0d": {
+        "notePath": "300【项目】Project/【Project】PKMer文章/Obsidian技巧分享/240327_如何关闭Quicker Explorer插件的自动预览.md",
+        "manifestPath": ".versiondb/8d090f14-3332-4cb5-acf3-0cd590c45d0d/manifest.json",
+        "createdAt": "2026-03-05T08:48:53.367Z",
+        "lastModified": "2026-03-05T08:48:53.367Z"
+      },
+      "3792f180-8098-4576-b6c3-a70be84a3163": {
+        "notePath": "300【项目】Project/【Project】PKMer文章/Obsidian技巧分享/2023-07-29_Obsidian辅助工具——Umi-OCR_本地图片识别并批量转换.md",
+        "manifestPath": ".versiondb/3792f180-8098-4576-b6c3-a70be84a3163/manifest.json",
+        "createdAt": "2026-03-05T08:51:45.897Z",
+        "lastModified": "2026-03-05T08:51:45.897Z"
+      },
+      "13ca7792-7b34-4805-b6b2-74e00bd636a9": {
+        "notePath": "010【笔记】Notes/自我认知定位/自我认知定位.md",
+        "manifestPath": ".versiondb/13ca7792-7b34-4805-b6b2-74e00bd636a9/manifest.json",
+        "createdAt": "2026-03-05T14:07:27.906Z",
+        "lastModified": "2026-03-05T14:07:27.906Z"
+      },
+      "2c3f6870-af20-4459-84e7-6c2c93bef5a6": {
+        "notePath": "220【记录】Record/222【会议记录】Meeting Records/【工作】东莞市华氪精密设备公司/【工作-华氪】培训记录/【工作-华氪】培训记录.md",
+        "manifestPath": ".versiondb/2c3f6870-af20-4459-84e7-6c2c93bef5a6/manifest.json",
+        "createdAt": "2026-03-05T14:13:06.665Z",
+        "lastModified": "2026-03-16T03:39:28.450Z"
+      },
+      "1c5625df-decd-4169-a92f-ac9945712a71": {
+        "notePath": "500【资源】Resource/动漫/动漫.md",
+        "manifestPath": ".versiondb/1c5625df-decd-4169-a92f-ac9945712a71/manifest.json",
+        "createdAt": "2026-03-05T14:14:29.171Z",
+        "lastModified": "2026-03-05T14:14:29.171Z"
+      },
+      "4f08a3b5-5cb0-4633-8c6e-b94fb01d63e3": {
+        "notePath": "500【资源】Resource/电视剧/【电视剧】西游记/24.09.13_盘点西游记中 13 个女妖精，谁是你心中的西游女妖颜值担当？.md",
+        "manifestPath": ".versiondb/4f08a3b5-5cb0-4633-8c6e-b94fb01d63e3/manifest.json",
+        "createdAt": "2026-03-05T14:29:18.016Z",
+        "lastModified": "2026-03-05T14:29:18.016Z"
+      },
+      "3a1899d1-30cd-4604-9b54-af6cf64f0db0": {
+        "notePath": "310【任务】Tasks/2025/250708_📅嵌入式基础入门学习/250802_C51单片机的学习/260105_C51单片机入门教程知识点汇总 by 江协科技.md",
+        "manifestPath": ".versiondb/3a1899d1-30cd-4604-9b54-af6cf64f0db0/manifest.json",
+        "createdAt": "2026-03-06T07:20:15.874Z",
+        "lastModified": "2026-03-06T07:20:15.874Z"
+      },
+      "61ad92f2-7c3e-4d8a-80a0-7b6d55cac8fb": {
+        "notePath": "310【任务】Tasks/2025/250708_📅嵌入式基础入门学习/250802_C51单片机的学习/260105_C51单片机超全面 (P4 - P36) 笔记 by 江协科技.md",
+        "manifestPath": ".versiondb/61ad92f2-7c3e-4d8a-80a0-7b6d55cac8fb/manifest.json",
+        "createdAt": "2026-03-06T07:20:24.929Z",
+        "lastModified": "2026-03-06T07:20:24.929Z"
+      },
+      "bc034661-fb75-4985-a588-9f9db65e8377": {
+        "notePath": "420【编程】Code/人工智能(AI)/260113_Claude Code/260112_尚硅谷Calude教程，Claude Code使用指南.md",
+        "manifestPath": ".versiondb/bc034661-fb75-4985-a588-9f9db65e8377/manifest.json",
+        "createdAt": "2026-03-06T07:45:54.964Z",
+        "lastModified": "2026-03-06T07:45:54.964Z"
+      },
+      "2e8d435c-1d28-4048-baad-7d19cec399da": {
+        "notePath": "420【编程】Code/人工智能(AI)/260113_Claude Code/260113_Claudian 配置与 Obsidian 集成测试.md",
+        "manifestPath": ".versiondb/2e8d435c-1d28-4048-baad-7d19cec399da/manifest.json",
+        "createdAt": "2026-03-06T08:26:33.529Z",
+        "lastModified": "2026-03-06T08:26:33.529Z"
+      },
+      "2ffcaf66-a94b-45dc-8867-5263d9cdc1e3": {
+        "notePath": "310【任务】Tasks/2025/250708_📅嵌入式基础入门学习/250730_STM32单片机学习/stm32_learning_path.md",
+        "manifestPath": ".versiondb/2ffcaf66-a94b-45dc-8867-5263d9cdc1e3/manifest.json",
+        "createdAt": "2026-03-06T08:44:49.535Z",
+        "lastModified": "2026-03-06T08:46:18.851Z"
+      },
+      "ade7a08a-1d00-413b-b8d0-00e205e14cc4": {
+        "notePath": "420【编程】Code/人工智能(AI)/人工智能(AI).md",
+        "manifestPath": ".versiondb/ade7a08a-1d00-413b-b8d0-00e205e14cc4/manifest.json",
+        "createdAt": "2026-03-06T08:51:37.055Z",
+        "lastModified": "2026-03-06T08:51:37.055Z"
+      },
+      "cf62d3ca-4a39-43e9-a101-d9d08958598f": {
+        "notePath": "420【编程】Code/人工智能(AI)/260306_OpenClaw/260306_OpenClaw.md",
+        "manifestPath": ".versiondb/cf62d3ca-4a39-43e9-a101-d9d08958598f/manifest.json",
+        "createdAt": "2026-03-06T08:51:59.050Z",
+        "lastModified": "2026-03-06T11:40:34.850Z"
+      },
+      "e642a582-dfd5-4196-b8eb-a7dc4b0e594d": {
+        "notePath": "420【编程】Code/人工智能(AI)/250918_PKMer群友 程序员闪电侠.md",
+        "manifestPath": ".versiondb/e642a582-dfd5-4196-b8eb-a7dc4b0e594d/manifest.json",
+        "createdAt": "2026-03-06T08:59:12.016Z",
+        "lastModified": "2026-03-06T08:59:12.016Z"
+      },
+      "98ba2713-4fcd-4337-991f-288cfe39ab0c": {
+        "notePath": "420【编程】Code/人工智能(AI)/260113_Claude Code/260113_Claude Code.md",
+        "manifestPath": ".versiondb/98ba2713-4fcd-4337-991f-288cfe39ab0c/manifest.json",
+        "createdAt": "2026-03-06T11:02:23.138Z",
+        "lastModified": "2026-03-06T11:02:23.138Z"
+      },
+      "e34fb0c0-1771-4a1d-9a79-5a869c254894": {
+        "notePath": "420【编程】Code/人工智能(AI)/260306_Skills 教程.md",
+        "manifestPath": ".versiondb/e34fb0c0-1771-4a1d-9a79-5a869c254894/manifest.json",
+        "createdAt": "2026-03-06T11:40:50.646Z",
+        "lastModified": "2026-03-08T16:21:22.977Z"
+      },
+      "b997ab6e-9b14-4da3-8f83-7053c00a9cb4": {
+        "notePath": "310【任务】Tasks/2025/250708_📅嵌入式基础入门学习/250730_STM32单片机原理：嵌入式系统原理/250906_嵌入式绪论.md",
+        "manifestPath": ".versiondb/b997ab6e-9b14-4da3-8f83-7053c00a9cb4/manifest.json",
+        "createdAt": "2026-03-06T13:47:02.604Z",
+        "lastModified": "2026-03-06T13:47:02.604Z"
+      },
+      "f065646c-d44f-4e6d-b226-04015b8e2da5": {
+        "notePath": "420【编程】Code/人工智能(AI)/DeepSeek/DeepSeek.md",
+        "manifestPath": ".versiondb/f065646c-d44f-4e6d-b226-04015b8e2da5/manifest.json",
+        "createdAt": "2026-03-06T14:35:25.521Z",
+        "lastModified": "2026-03-06T14:35:25.521Z"
+      },
+      "e7f1d0c0-6304-43a0-8da4-b083bf443f31": {
+        "notePath": "200【日记】Diary/💾重要事件记录/算命记录/260306_223819.md",
+        "manifestPath": ".versiondb/e7f1d0c0-6304-43a0-8da4-b083bf443f31/manifest.json",
+        "createdAt": "2026-03-06T14:38:21.204Z",
+        "lastModified": "2026-03-06T14:38:21.204Z"
+      },
+      "af2f0c95-62ef-4ab4-91bc-3c1505df9f95": {
+        "notePath": "420【编程】Code/人工智能(AI)/260307_大语言模型（LLM）.md",
+        "manifestPath": ".versiondb/af2f0c95-62ef-4ab4-91bc-3c1505df9f95/manifest.json",
+        "createdAt": "2026-03-07T01:39:02.381Z",
+        "lastModified": "2026-03-07T01:39:44.574Z"
+      },
+      "4fea735f-b458-4288-8735-4282d2386028": {
+        "notePath": "420【编程】Code/人工智能(AI)/260307_AI Agent 简介.md",
+        "manifestPath": ".versiondb/4fea735f-b458-4288-8735-4282d2386028/manifest.json",
+        "createdAt": "2026-03-07T01:44:44.602Z",
+        "lastModified": "2026-03-07T01:44:52.676Z"
+      },
+      "aa5d9661-71af-4b6c-aeb7-8b01c6857c07": {
+        "notePath": "420【编程】Code/人工智能(AI)/260309_AI Prompts/260307_提示词工程（Prompt Engineering）.md",
+        "manifestPath": ".versiondb/aa5d9661-71af-4b6c-aeb7-8b01c6857c07/manifest.json",
+        "createdAt": "2026-03-07T01:50:24.855Z",
+        "lastModified": "2026-03-08T16:24:50.458Z"
+      },
+      "efe66200-5ce6-48bd-8d8d-a74bb830faec": {
+        "notePath": "500【资源】Resource/游戏/【游戏】巅峰 Peak/【游戏】巅峰 Peak.md",
+        "manifestPath": ".versiondb/efe66200-5ce6-48bd-8d8d-a74bb830faec/manifest.json",
+        "createdAt": "2026-03-07T11:17:24.689Z",
+        "lastModified": "2026-03-07T11:17:24.689Z"
+      },
+      "af34318e-0c92-415d-99e1-85bdbed9f48b": {
+        "notePath": "500【资源】Resource/游戏/【游戏】深岩银河/【游戏】深岩银河.md",
+        "manifestPath": ".versiondb/af34318e-0c92-415d-99e1-85bdbed9f48b/manifest.json",
+        "createdAt": "2026-03-07T11:18:03.118Z",
+        "lastModified": "2026-03-07T11:18:03.118Z"
+      },
+      "db74b545-765f-44c4-be2c-6e813d312452": {
+        "notePath": "500【资源】Resource/游戏/【游戏】MIMESIS 迷魅狩猎/251222_迷魅狩猎游戏笔记.md",
+        "manifestPath": ".versiondb/db74b545-765f-44c4-be2c-6e813d312452/manifest.json",
+        "createdAt": "2026-03-07T11:18:50.826Z",
+        "lastModified": "2026-03-07T11:18:50.826Z"
+      },
+      "7b297faf-6755-4a2a-a93b-9f4a5f8ead40": {
+        "notePath": "500【资源】Resource/游戏/【游戏】星露谷物语.md",
+        "manifestPath": ".versiondb/7b297faf-6755-4a2a-a93b-9f4a5f8ead40/manifest.json",
+        "createdAt": "2026-03-07T11:19:01.071Z",
+        "lastModified": "2026-03-07T11:19:01.071Z"
+      },
+      "475dace0-71e3-4800-9c34-d1b45a2c0a2d": {
+        "notePath": "500【资源】Resource/游戏/【游戏】瘟疫传说：无罪.md",
+        "manifestPath": ".versiondb/475dace0-71e3-4800-9c34-d1b45a2c0a2d/manifest.json",
+        "createdAt": "2026-03-07T11:20:46.470Z",
+        "lastModified": "2026-03-07T11:20:46.470Z"
+      },
+      "f7f8a73c-63e3-4fc1-86ce-7b8efaefd434": {
+        "notePath": "500【资源】Resource/书籍/书籍.md",
+        "manifestPath": ".versiondb/f7f8a73c-63e3-4fc1-86ce-7b8efaefd434/manifest.json",
+        "createdAt": "2026-03-07T11:25:44.842Z",
+        "lastModified": "2026-03-07T11:25:44.842Z"
+      },
+      "7b1e788b-fcae-4258-8c29-1b8a08a43f73": {
+        "notePath": "500【资源】Resource/电视剧/【动漫】世界顶尖的暗杀者转生为异世界贵族/【动漫】世界顶尖的暗杀者转生为异世界贵族.md",
+        "manifestPath": ".versiondb/7b1e788b-fcae-4258-8c29-1b8a08a43f73/manifest.json",
+        "createdAt": "2026-03-07T11:26:42.968Z",
+        "lastModified": "2026-03-07T13:50:56.901Z"
+      },
+      "3602ae67-33c4-405a-a000-dd0babaafd1b": {
+        "notePath": "500【资源】Resource/游戏/【游戏】阴暗森林（DrakWood）.md",
+        "manifestPath": ".versiondb/3602ae67-33c4-405a-a000-dd0babaafd1b/manifest.json",
+        "createdAt": "2026-03-07T11:27:28.255Z",
+        "lastModified": "2026-03-07T11:27:28.255Z"
+      },
+      "70a9e7c0-5991-4224-b291-e7cf4cd76693": {
+        "notePath": "500【资源】Resource/动漫/日本动漫/日本动漫.md",
+        "manifestPath": ".versiondb/70a9e7c0-5991-4224-b291-e7cf4cd76693/manifest.json",
+        "createdAt": "2026-03-08T09:47:23.456Z",
+        "lastModified": "2026-03-08T09:47:23.456Z"
+      },
+      "5548febc-0f25-4d57-b372-62b702e24277": {
+        "notePath": "500【资源】Resource/动漫/日本动漫/日本动画公司的作品.md",
+        "manifestPath": ".versiondb/5548febc-0f25-4d57-b372-62b702e24277/manifest.json",
+        "createdAt": "2026-03-08T09:47:31.525Z",
+        "lastModified": "2026-03-08T09:47:31.525Z"
+      },
+      "947e9145-55b6-439f-957d-f4656011d742": {
+        "notePath": "500【资源】Resource/动漫/欧美动漫/【动漫】英雄联盟：双城之战/【动漫】英雄联盟：双城之战.md",
+        "manifestPath": ".versiondb/947e9145-55b6-439f-957d-f4656011d742/manifest.json",
+        "createdAt": "2026-03-08T09:48:41.511Z",
+        "lastModified": "2026-03-08T09:49:15.514Z"
+      },
+      "ce7810f0-8a81-470d-99bf-5585a685dfef": {
+        "notePath": "500【资源】Resource/动漫/欧美动漫/【动漫】常见副作用.md",
+        "manifestPath": ".versiondb/ce7810f0-8a81-470d-99bf-5585a685dfef/manifest.json",
+        "createdAt": "2026-03-08T09:49:28.094Z",
+        "lastModified": "2026-03-08T09:49:31.018Z"
+      },
+      "c38ca8b8-c660-4b1f-b3e5-e422b22171b1": {
+        "notePath": "500【资源】Resource/动漫/欧美动漫/【动漫】极恶老大.md",
+        "manifestPath": ".versiondb/c38ca8b8-c660-4b1f-b3e5-e422b22171b1/manifest.json",
+        "createdAt": "2026-03-08T09:49:34.749Z",
+        "lastModified": "2026-03-08T09:49:39.769Z"
+      },
+      "7ed067be-5b15-4bef-ad0f-b951b8add1b3": {
+        "notePath": "500【资源】Resource/动漫/欧美动漫/【动漫】史前战纪.md",
+        "manifestPath": ".versiondb/7ed067be-5b15-4bef-ad0f-b951b8add1b3/manifest.json",
+        "createdAt": "2026-03-08T09:49:45.346Z",
+        "lastModified": "2026-03-08T09:49:50.477Z"
+      },
+      "0990a464-4e98-4bdc-b20b-a85b88fa6a96": {
+        "notePath": "500【资源】Resource/动漫/国产动漫/【动漫】纳米核心/【动漫】纳米核心.md",
+        "manifestPath": ".versiondb/0990a464-4e98-4bdc-b20b-a85b88fa6a96/manifest.json",
+        "createdAt": "2026-03-08T09:50:03.823Z",
+        "lastModified": "2026-03-08T09:50:07.228Z"
+      },
+      "aa295b46-8622-435f-8784-55b2793ffcab": {
+        "notePath": "500【资源】Resource/动漫/国产动漫/【动漫】一人之下.md",
+        "manifestPath": ".versiondb/aa295b46-8622-435f-8784-55b2793ffcab/manifest.json",
+        "createdAt": "2026-03-08T09:50:40.946Z",
+        "lastModified": "2026-03-08T09:50:45.589Z"
+      },
+      "598d8e0b-988b-4480-8a47-93a72ba3c97f": {
+        "notePath": "500【资源】Resource/动漫/国产动漫/【动漫】时光代理人/【动漫】时光代理人 第二季.md",
+        "manifestPath": ".versiondb/598d8e0b-988b-4480-8a47-93a72ba3c97f/manifest.json",
+        "createdAt": "2026-03-08T09:50:50.595Z",
+        "lastModified": "2026-03-08T09:51:28.407Z"
+      },
+      "4105de7d-61a8-4f3e-8f90-60ce6316acbb": {
+        "notePath": "500【资源】Resource/动漫/国产动漫/【动漫】时光代理人/【动漫】时光代理人.md",
+        "manifestPath": ".versiondb/4105de7d-61a8-4f3e-8f90-60ce6316acbb/manifest.json",
+        "createdAt": "2026-03-08T09:50:52.126Z",
+        "lastModified": "2026-03-08T09:51:24.353Z"
+      },
+      "785aa60f-0e8d-40b0-b67e-775fc637a360": {
+        "notePath": "500【资源】Resource/动漫/国产动漫/【动漫】枕刀歌/【动漫】枕刀歌.md",
+        "manifestPath": ".versiondb/785aa60f-0e8d-40b0-b67e-775fc637a360/manifest.json",
+        "createdAt": "2026-03-08T09:51:34.642Z",
+        "lastModified": "2026-03-08T09:52:06.572Z"
+      },
+      "f5df8b6f-7e72-4c1b-a473-32543bd0a7ae": {
+        "notePath": "500【资源】Resource/动漫/国产动漫/【动漫】胶囊计划/【动漫】胶囊计划.md",
+        "manifestPath": ".versiondb/f5df8b6f-7e72-4c1b-a473-32543bd0a7ae/manifest.json",
+        "createdAt": "2026-03-08T09:52:18.852Z",
+        "lastModified": "2026-03-08T09:52:23.701Z"
+      },
+      "c6392a30-75c6-4ae8-a726-b89ab881d05f": {
+        "notePath": "500【资源】Resource/动漫/国产动漫/【动漫】胶囊计划/【动漫】胶囊计划 第二季.md",
+        "manifestPath": ".versiondb/c6392a30-75c6-4ae8-a726-b89ab881d05f/manifest.json",
+        "createdAt": "2026-03-08T09:53:02.546Z",
+        "lastModified": "2026-03-08T09:53:21.363Z"
+      },
+      "f85179b2-feff-4887-b946-0dd59e160db2": {
+        "notePath": "500【资源】Resource/动漫/国产动漫/【动漫】胶囊计划/【动漫】胶囊计划 英雄.md",
+        "manifestPath": ".versiondb/f85179b2-feff-4887-b946-0dd59e160db2/manifest.json",
+        "createdAt": "2026-03-08T09:53:07.099Z",
+        "lastModified": "2026-03-08T09:53:21.408Z"
+      },
+      "a0a9edb5-6979-4746-bbce-c3ae73d5f7fc": {
+        "notePath": "500【资源】Resource/动漫/日本动漫/【动漫】动物狂想曲.md",
+        "manifestPath": ".versiondb/a0a9edb5-6979-4746-bbce-c3ae73d5f7fc/manifest.json",
+        "createdAt": "2026-03-08T09:55:27.063Z",
+        "lastModified": "2026-03-08T09:55:27.063Z"
+      },
+      "d5494a6e-a494-40cc-9248-50abed1e0219": {
+        "notePath": "500【资源】Resource/动漫/日本动漫/【动漫】胆大党.md",
+        "manifestPath": ".versiondb/d5494a6e-a494-40cc-9248-50abed1e0219/manifest.json",
+        "createdAt": "2026-03-08T09:55:44.416Z",
+        "lastModified": "2026-03-08T09:55:44.416Z"
+      },
+      "0f057617-9f0e-4335-977b-d0a630104d86": {
+        "notePath": "500【资源】Resource/动漫/日本动漫/【动漫】钢之炼金术师FA.md",
+        "manifestPath": ".versiondb/0f057617-9f0e-4335-977b-d0a630104d86/manifest.json",
+        "createdAt": "2026-03-08T09:55:58.815Z",
+        "lastModified": "2026-03-08T09:55:58.815Z"
+      },
+      "db08b18f-53e4-4589-a67d-705e547ec4b0": {
+        "notePath": "500【资源】Resource/动漫/日本动漫/【动漫】迷糊餐厅.md",
+        "manifestPath": ".versiondb/db08b18f-53e4-4589-a67d-705e547ec4b0/manifest.json",
+        "createdAt": "2026-03-08T09:56:22.950Z",
+        "lastModified": "2026-03-08T09:56:22.950Z"
+      },
+      "5835d59c-01ef-4bd4-8ddc-26ee69243a67": {
+        "notePath": "500【资源】Resource/动漫/日本动漫/【动漫】校园迷糊大王.md",
+        "manifestPath": ".versiondb/5835d59c-01ef-4bd4-8ddc-26ee69243a67/manifest.json",
+        "createdAt": "2026-03-08T09:56:28.873Z",
+        "lastModified": "2026-03-08T09:56:28.873Z"
+      },
+      "074f6e89-1e39-40d6-8728-181072a5fae8": {
+        "notePath": "500【资源】Resource/动漫/日本动漫/【动漫】黑岩射手.md",
+        "manifestPath": ".versiondb/074f6e89-1e39-40d6-8728-181072a5fae8/manifest.json",
+        "createdAt": "2026-03-08T09:56:58.834Z",
+        "lastModified": "2026-03-08T09:56:58.834Z"
+      },
+      "1d36e809-2f82-4fc9-af84-362ceedbfde8": {
+        "notePath": "500【资源】Resource/音乐/【音乐】玫瑰少年.md",
+        "manifestPath": ".versiondb/1d36e809-2f82-4fc9-af84-362ceedbfde8/manifest.json",
+        "createdAt": "2026-03-08T09:57:28.388Z",
+        "lastModified": "2026-03-08T09:57:28.388Z"
+      },
+      "aeb12262-6f3d-4302-aba6-128cd0b76e07": {
+        "notePath": "500【资源】Resource/动漫/日本动漫/【动漫】尸鬼.md",
+        "manifestPath": ".versiondb/aeb12262-6f3d-4302-aba6-128cd0b76e07/manifest.json",
+        "createdAt": "2026-03-08T10:00:56.914Z",
+        "lastModified": "2026-03-08T10:01:02.785Z"
+      },
+      "7df499d0-26a1-47b2-9d9b-daf75d9c1166": {
+        "notePath": "420【编程】Code/人工智能(AI)/260105_Gemini.md",
+        "manifestPath": ".versiondb/7df499d0-26a1-47b2-9d9b-daf75d9c1166/manifest.json",
+        "createdAt": "2026-03-08T10:02:57.657Z",
+        "lastModified": "2026-03-08T10:02:57.657Z"
+      },
+      "9bcb2ebe-30c1-4692-9088-16cf7bcb39e8": {
+        "notePath": "230【会议】Meeting/【工作】东莞市华氪精密设备公司/【工作-华氪】培训记录/250731_入职培训记录.md",
+        "manifestPath": ".versiondb/9bcb2ebe-30c1-4692-9088-16cf7bcb39e8/manifest.json",
+        "createdAt": "2026-03-08T10:12:18.672Z",
+        "lastModified": "2026-03-08T10:12:18.672Z"
+      },
+      "b58bbd83-aa95-417f-a02b-9958d16acc21": {
+        "notePath": "910【配置】Configs/copilot-conversations/Copilot_20260308181545_!File-20250731040727796.jpg_分析图片内容.md",
+        "manifestPath": ".versiondb/b58bbd83-aa95-417f-a02b-9958d16acc21/manifest.json",
+        "createdAt": "2026-03-08T10:19:50.683Z",
+        "lastModified": "2026-03-08T10:19:50.683Z"
+      },
+      "98b89d28-8f06-4684-a49f-2588d89d98b7": {
+        "notePath": "100【收纳盒】Inbox/110【草稿】Draft/2025/2025-09/250923_PCB层压结构.md",
+        "manifestPath": ".versiondb/98b89d28-8f06-4684-a49f-2588d89d98b7/manifest.json",
+        "createdAt": "2026-03-08T10:26:00.689Z",
+        "lastModified": "2026-03-09T02:54:47.628Z"
+      },
+      "e5219092-9fcd-4f2c-ab2d-8a74383f3002": {
+        "notePath": "310【任务】Tasks/2025/250708_📅嵌入式基础入门学习/【嵌入式】原理图&PCB设计/【EDA】嘉立创EDA/250923_嘉立创EDA：PCB设计常用知识点.md",
+        "manifestPath": ".versiondb/e5219092-9fcd-4f2c-ab2d-8a74383f3002/manifest.json",
+        "createdAt": "2026-03-08T10:26:14.068Z",
+        "lastModified": "2026-03-08T10:26:14.068Z"
+      },
+      "c98a510c-3bd0-4519-8d5d-addd27a0c890": {
+        "notePath": "310【任务】Tasks/2025/250708_📅嵌入式基础入门学习/【嵌入式】原理图&PCB设计/【EDA】嘉立创EDA/【EDA】嘉立创EDA.md",
+        "manifestPath": ".versiondb/c98a510c-3bd0-4519-8d5d-addd27a0c890/manifest.json",
+        "createdAt": "2026-03-08T10:26:24.391Z",
+        "lastModified": "2026-03-08T10:26:24.391Z"
+      },
+      "3ab3b90d-e93e-4a73-8a18-e8667f0e1fed": {
+        "notePath": "010【笔记】Notes/碎片语录/碎片语录.md",
+        "manifestPath": ".versiondb/3ab3b90d-e93e-4a73-8a18-e8667f0e1fed/manifest.json",
+        "createdAt": "2026-03-08T10:27:26.358Z",
+        "lastModified": "2026-03-08T10:27:26.358Z"
+      },
+      "16f414d4-8ddb-43de-b58c-c853d890a95e": {
+        "notePath": "210【日志】Journal/ThinoNotes/20260308-68245c6fcaf39581.md",
+        "manifestPath": ".versiondb/16f414d4-8ddb-43de-b58c-c853d890a95e/manifest.json",
+        "createdAt": "2026-03-08T14:17:35.812Z",
+        "lastModified": "2026-03-08T15:15:06.331Z"
+      },
+      "7a71a1fa-5ecb-42f5-90be-c3a291beb414": {
+        "notePath": "210【日志】Journal/ThinoNotes/20240910-89b0847b79fc8cb1.md",
+        "manifestPath": ".versiondb/7a71a1fa-5ecb-42f5-90be-c3a291beb414/manifest.json",
+        "createdAt": "2026-03-08T14:18:25.490Z",
+        "lastModified": "2026-03-08T14:18:25.490Z"
+      },
+      "ddf86d8a-098e-4f90-9cdd-83104f2675f0": {
+        "notePath": "210【日志】Journal/ThinoNotes/20250102-9f295d250fe37958.md",
+        "manifestPath": ".versiondb/ddf86d8a-098e-4f90-9cdd-83104f2675f0/manifest.json",
+        "createdAt": "2026-03-08T14:19:46.443Z",
+        "lastModified": "2026-03-08T14:19:46.443Z"
+      },
+      "f8180deb-0aeb-47ea-a719-ab25ed39c6b4": {
+        "notePath": "210【日志】Journal/ThinoNotes/20240731-651335a3c5cbe8fe.md",
+        "manifestPath": ".versiondb/f8180deb-0aeb-47ea-a719-ab25ed39c6b4/manifest.json",
+        "createdAt": "2026-03-08T14:27:34.931Z",
+        "lastModified": "2026-03-08T14:27:34.931Z"
+      },
+      "276c2505-b0e3-46ca-95c4-1dd1b47585ef": {
+        "notePath": "210【日志】Journal/DailyNotes/2026/2026-03-08.md",
+        "manifestPath": ".versiondb/276c2505-b0e3-46ca-95c4-1dd1b47585ef/manifest.json",
+        "createdAt": "2026-03-08T14:31:35.210Z",
+        "lastModified": "2026-03-08T14:31:35.210Z"
+      },
+      "20aae12b-1b3e-4a79-ae0c-9ae69b113dcb": {
+        "notePath": "210【日志】Journal/DailyNotes/2026/2026-03-07.md",
+        "manifestPath": ".versiondb/20aae12b-1b3e-4a79-ae0c-9ae69b113dcb/manifest.json",
+        "createdAt": "2026-03-08T15:18:54.032Z",
+        "lastModified": "2026-03-08T15:18:54.032Z"
+      },
+      "97a19290-f815-486d-b736-97b2253086dd": {
+        "notePath": "400【领域】Area/B 哲学、宗教/【玄学】玄学算命/六爻排盘/260308_六爻占卜的注意事项.md",
+        "manifestPath": ".versiondb/97a19290-f815-486d-b736-97b2253086dd/manifest.json",
+        "createdAt": "2026-03-08T15:27:51.001Z",
+        "lastModified": "2026-03-09T13:25:57.970Z"
+      },
+      "941cd537-affd-47c7-b2a2-3d83813736b7": {
+        "notePath": "400【领域】Area/G 文化、科学、教育、体育/【教育】知识管理/文件夹分类法/中图分类法/中图分类法.md",
+        "manifestPath": ".versiondb/941cd537-affd-47c7-b2a2-3d83813736b7/manifest.json",
+        "createdAt": "2026-03-08T15:41:44.100Z",
+        "lastModified": "2026-03-08T15:41:44.100Z"
+      },
+      "678d3d93-1f2e-44b6-834f-7cbb8e5d718e": {
+        "notePath": "520【工具】ToolNote/【Tool】电子书籍工具/【Tool】电子书籍工具.md",
+        "manifestPath": ".versiondb/678d3d93-1f2e-44b6-834f-7cbb8e5d718e/manifest.json",
+        "createdAt": "2026-03-08T15:42:19.192Z",
+        "lastModified": "2026-03-08T15:42:19.192Z"
+      },
+      "7d83bb2d-9a92-48ce-91f5-d9126a35f983": {
+        "notePath": "400【领域】Area/G 文化、科学、教育、体育/【教育】知识管理/文件夹分类法/中图分类法/中国图书分类法简表.md",
+        "manifestPath": ".versiondb/7d83bb2d-9a92-48ce-91f5-d9126a35f983/manifest.json",
+        "createdAt": "2026-03-08T15:42:34.787Z",
+        "lastModified": "2026-03-08T15:42:34.787Z"
+      },
+      "0e769f17-afb1-44ec-869e-2136a5f6adfb": {
+        "notePath": "400【领域】Area/B 哲学、宗教/【玄学】玄学算命/【玄学】玄学算命.md",
+        "manifestPath": ".versiondb/0e769f17-afb1-44ec-869e-2136a5f6adfb/manifest.json",
+        "createdAt": "2026-03-08T15:52:14.788Z",
+        "lastModified": "2026-03-08T15:52:14.788Z"
+      },
+      "b483bb9a-df4a-4160-abda-7cebc2744459": {
+        "notePath": "400【领域】Area/B 哲学、宗教/【玄学】玄学算命/六爻排盘/六爻排盘.md",
+        "manifestPath": ".versiondb/b483bb9a-df4a-4160-abda-7cebc2744459/manifest.json",
+        "createdAt": "2026-03-08T15:58:49.524Z",
+        "lastModified": "2026-03-09T13:25:57.960Z"
+      },
+      "316099d1-d8f4-41d1-a640-5389c79abe35": {
+        "notePath": "400【领域】Area/B 哲学、宗教/【玄学】玄学算命/八字命理/八字命理.md",
+        "manifestPath": ".versiondb/316099d1-d8f4-41d1-a640-5389c79abe35/manifest.json",
+        "createdAt": "2026-03-08T15:59:46.511Z",
+        "lastModified": "2026-03-08T16:00:05.065Z"
+      },
+      "99ed41d2-70bf-4b17-aade-dc2044e8dbbe": {
+        "notePath": "400【领域】Area/B 哲学、宗教/【玄学】玄学算命/塔罗占卜.md",
+        "manifestPath": ".versiondb/99ed41d2-70bf-4b17-aade-dc2044e8dbbe/manifest.json",
+        "createdAt": "2026-03-08T16:00:23.071Z",
+        "lastModified": "2026-03-08T16:00:33.053Z"
+      },
+      "4b56cea4-4690-42e9-8258-b3a25930f0b5": {
+        "notePath": "420【编程】Code/人工智能(AI)/260309_AI Prompts/260309_AI Prompts.md",
+        "manifestPath": ".versiondb/4b56cea4-4690-42e9-8258-b3a25930f0b5/manifest.json",
+        "createdAt": "2026-03-08T16:22:35.218Z",
+        "lastModified": "2026-03-08T16:24:44.114Z"
+      },
+      "522d3449-c406-42c9-9ebf-3e44a0b2b070": {
+        "notePath": "420【编程】Code/人工智能(AI)/260309_AI Prompts/260309_六爻分析Prompt.md",
+        "manifestPath": ".versiondb/522d3449-c406-42c9-9ebf-3e44a0b2b070/manifest.json",
+        "createdAt": "2026-03-08T16:23:34.476Z",
+        "lastModified": "2026-03-08T16:24:50.507Z"
+      },
+      "6f7c8ec9-bbbc-43f6-ba70-df4607de74ab": {
+        "notePath": "000【主页】Home/000-知识库结构设计（PARA+中图法+杜威十进制）.md",
+        "manifestPath": ".versiondb/6f7c8ec9-bbbc-43f6-ba70-df4607de74ab/manifest.json",
+        "createdAt": "2026-03-09T02:11:04.878Z",
+        "lastModified": "2026-03-09T03:17:53.283Z"
+      },
+      "10729a74-e832-483e-8c75-d26e06fde8dd": {
+        "notePath": "510【资料】StudyNote/520【工具】ToolNote/【Tool】笔记工具/【工具】Obsidian/【Obsidian】Obsidian 工作流/【Obsidian】Obsidian 工作流.md",
+        "manifestPath": ".versiondb/10729a74-e832-483e-8c75-d26e06fde8dd/manifest.json",
+        "createdAt": "2026-03-09T02:11:26.199Z",
+        "lastModified": "2026-03-09T03:26:51.637Z"
+      },
+      "5601230d-69e9-4900-85f9-7dbd6ef30ec2": {
+        "notePath": "010【笔记】Notes/学习方法/学习方法.md",
+        "manifestPath": ".versiondb/5601230d-69e9-4900-85f9-7dbd6ef30ec2/manifest.json",
+        "createdAt": "2026-03-09T02:25:16.048Z",
+        "lastModified": "2026-03-09T02:25:16.048Z"
+      },
+      "f4f300f2-9080-4790-b356-c204318eaaa9": {
+        "notePath": "510【资料】StudyNote/511【文献】ZoteroNote/511【文献】ZoteroNote.md",
+        "manifestPath": ".versiondb/f4f300f2-9080-4790-b356-c204318eaaa9/manifest.json",
+        "createdAt": "2026-03-09T03:11:59.072Z",
+        "lastModified": "2026-03-09T03:17:30.227Z"
+      },
+      "785b7750-e0b7-4074-baaa-bddf83fc5943": {
+        "notePath": "520【工具】ToolNote/【Tool】笔记工具/【工具】Obsidian/【Obsidian】Plugin/251106_Obsidian中Tasks的相关插件.md",
+        "manifestPath": ".versiondb/785b7750-e0b7-4074-baaa-bddf83fc5943/manifest.json",
+        "createdAt": "2026-03-09T04:15:18.353Z",
+        "lastModified": "2026-03-10T08:12:56.024Z"
+      },
+      "e5f21f12-49ce-4fbc-816c-8b9ae10f805c": {
+        "notePath": "510【资料】StudyNote/520【工具】ToolNote/【Tool】笔记工具/【工具】Obsidian/【Obsidian】Plugin/【Obsidian-Plugin】TaskNotes.md",
+        "manifestPath": ".versiondb/e5f21f12-49ce-4fbc-816c-8b9ae10f805c/manifest.json",
+        "createdAt": "2026-03-09T04:17:51.684Z",
+        "lastModified": "2026-03-09T04:17:51.684Z"
+      },
+      "5222cdca-ff11-4613-8dcc-9cef88a18ff9": {
+        "notePath": "210【日志】Journal/DailyNotes/2026/2026-03-09.md",
+        "manifestPath": ".versiondb/5222cdca-ff11-4613-8dcc-9cef88a18ff9/manifest.json",
+        "createdAt": "2026-03-09T04:36:05.971Z",
+        "lastModified": "2026-03-09T04:36:05.971Z"
+      },
+      "344d5a03-d954-4a67-b7a6-63e89a9614f5": {
+        "notePath": "310【任务】Tasks/2026/260309_减肥计划：2 个月 20 斤（3月~5月） 📅 2026-03-09/260309_减肥计划：2 个月 20 斤（3月~5月） 📅 2026-03-09.md",
+        "manifestPath": ".versiondb/344d5a03-d954-4a67-b7a6-63e89a9614f5/manifest.json",
+        "createdAt": "2026-03-09T07:59:59.536Z",
+        "lastModified": "2026-03-18T04:22:37.976Z"
+      },
+      "128c6760-36f0-46a7-a5dd-65188b794594": {
+        "notePath": "210【日志】Journal/DailyNotes/2026/2026-03-10.md",
+        "manifestPath": ".versiondb/128c6760-36f0-46a7-a5dd-65188b794594/manifest.json",
+        "createdAt": "2026-03-09T09:05:54.923Z",
+        "lastModified": "2026-03-09T09:05:54.923Z"
+      },
+      "f828cb96-8373-45ee-95d3-36e9d47d3754": {
+        "notePath": "420【编程】Code/代码开发工具/Keil 5 MDK/Keil 5 MDK.md",
+        "manifestPath": ".versiondb/f828cb96-8373-45ee-95d3-36e9d47d3754/manifest.json",
+        "createdAt": "2026-03-09T10:32:37.857Z",
+        "lastModified": "2026-03-09T10:32:37.857Z"
+      },
+      "27344ae5-0741-4b56-bdd3-fd61446305c9": {
+        "notePath": "310【任务】Tasks/2025/250708_📅嵌入式基础入门学习/250916_PCB设计相关文章-CSDN博客 by Zevalin爱灰灰.md",
+        "manifestPath": ".versiondb/27344ae5-0741-4b56-bdd3-fd61446305c9/manifest.json",
+        "createdAt": "2026-03-09T10:32:44.358Z",
+        "lastModified": "2026-03-09T10:32:44.358Z"
+      },
+      "dbe48ce9-aa6e-498f-ba96-2fb1add41e7a": {
+        "notePath": "100【收纳盒】Inbox/120【剪藏】Clippings/2025/2025-08/250818_嵌入式软件开发学习路线_牛客网.md",
+        "manifestPath": ".versiondb/dbe48ce9-aa6e-498f-ba96-2fb1add41e7a/manifest.json",
+        "createdAt": "2026-03-09T10:32:49.807Z",
+        "lastModified": "2026-03-09T10:32:49.807Z"
+      },
+      "3823d693-ef6a-404c-a17a-00b52ffd4381": {
+        "notePath": "520【工具】ToolNote/【Tool】笔记工具/【工具】Obsidian/【Obsidian】Plugin/【Obsidian-Plugin】breadcumbs 面包屑.md",
+        "manifestPath": ".versiondb/3823d693-ef6a-404c-a17a-00b52ffd4381/manifest.json",
+        "createdAt": "2026-03-09T11:06:46.867Z",
+        "lastModified": "2026-03-09T11:06:52.762Z"
+      },
+      "10b7b1ce-609d-462b-946c-c2fb4ed25571": {
+        "notePath": "400【领域】Area/B 哲学、宗教/【玄学】玄学算命/260309_算命方法分类.md",
+        "manifestPath": ".versiondb/10b7b1ce-609d-462b-946c-c2fb4ed25571/manifest.json",
+        "createdAt": "2026-03-09T13:04:02.201Z",
+        "lastModified": "2026-03-09T13:04:14.105Z"
+      },
+      "f4c78406-a60c-42cb-acc2-773fe9505773": {
+        "notePath": "400【领域】Area/B 哲学、宗教/【玄学】玄学算命/260309_算命常用工具.md",
+        "manifestPath": ".versiondb/f4c78406-a60c-42cb-acc2-773fe9505773/manifest.json",
+        "createdAt": "2026-03-09T13:04:36.917Z",
+        "lastModified": "2026-03-09T13:04:45.667Z"
+      },
+      "140f164a-4773-4f3c-8c14-fc4ddfb47230": {
+        "notePath": "400【领域】Area/B 哲学、宗教/【玄学】玄学算命/260309_六爻学习资源.md",
+        "manifestPath": ".versiondb/140f164a-4773-4f3c-8c14-fc4ddfb47230/manifest.json",
+        "createdAt": "2026-03-09T13:13:33.583Z",
+        "lastModified": "2026-03-09T13:14:54.298Z"
+      },
+      "892f722b-7a8b-4bb6-9205-8b745e74579b": {
+        "notePath": "400【领域】Area/B 哲学、宗教/【玄学】玄学算命/八字命理/260309_八字算命禁忌.md",
+        "manifestPath": ".versiondb/892f722b-7a8b-4bb6-9205-8b745e74579b/manifest.json",
+        "createdAt": "2026-03-09T13:26:37.542Z",
+        "lastModified": "2026-03-09T13:26:44.413Z"
+      },
+      "c2529ce7-899e-40b0-b47e-001573990b31": {
+        "notePath": "200【日记】Diary/💾重要事件记录/算命记录/260309_我的四柱八字.md",
+        "manifestPath": ".versiondb/c2529ce7-899e-40b0-b47e-001573990b31/manifest.json",
+        "createdAt": "2026-03-09T13:29:09.173Z",
+        "lastModified": "2026-03-09T13:29:25.577Z"
+      },
+      "d30112bb-4b6b-4369-a648-09aa0b1600d2": {
+        "notePath": "010【笔记】Notes/碎片名词/碎片名词.md",
+        "manifestPath": ".versiondb/d30112bb-4b6b-4369-a648-09aa0b1600d2/manifest.json",
+        "createdAt": "2026-03-10T01:06:45.349Z",
+        "lastModified": "2026-03-10T01:06:45.349Z"
+      },
+      "b644d176-87d1-4d43-ab27-5501bea78394": {
+        "notePath": "010【笔记】Notes/碎片卡片/碎片卡片.md",
+        "manifestPath": ".versiondb/b644d176-87d1-4d43-ab27-5501bea78394/manifest.json",
+        "createdAt": "2026-03-10T01:06:54.069Z",
+        "lastModified": "2026-03-10T01:07:03.892Z"
+      },
+      "90911bcb-228f-4712-897e-7f84b6a06eb7": {
+        "notePath": "010【笔记】Notes/碎片卡片/260310_伪国学：那些被曲解的传统文化智慧.md",
+        "manifestPath": ".versiondb/90911bcb-228f-4712-897e-7f84b6a06eb7/manifest.json",
+        "createdAt": "2026-03-10T01:07:14.356Z",
+        "lastModified": "2026-03-10T01:13:30.842Z"
+      },
+      "085b2900-b914-4fa8-b527-42d3f60211a8": {
+        "notePath": "010【笔记】Notes/碎片卡片/250425_黑大帅和潇洒哥.md",
+        "manifestPath": ".versiondb/085b2900-b914-4fa8-b527-42d3f60211a8/manifest.json",
+        "createdAt": "2026-03-10T01:13:37.837Z",
+        "lastModified": "2026-03-10T01:13:37.837Z"
+      },
+      "0014b0af-f23b-43c7-b721-dc71c37d6b1e": {
+        "notePath": "010【笔记】Notes/碎片卡片/241223_中医阴阳五行图解.md",
+        "manifestPath": ".versiondb/0014b0af-f23b-43c7-b721-dc71c37d6b1e/manifest.json",
+        "createdAt": "2026-03-10T01:19:17.721Z",
+        "lastModified": "2026-03-10T01:19:17.721Z"
+      },
+      "76d3a922-5839-4fa5-b9fc-b577236af9ce": {
+        "notePath": "010【笔记】Notes/碎片卡片/250106_眯眯眼(`__´).md",
+        "manifestPath": ".versiondb/76d3a922-5839-4fa5-b9fc-b577236af9ce/manifest.json",
+        "createdAt": "2026-03-10T01:19:40.088Z",
+        "lastModified": "2026-03-10T01:19:40.088Z"
+      },
+      "d7e084bb-38cc-4aa7-88c1-5c0260014fd8": {
+        "notePath": "520【工具】ToolNote/【Tool】笔记工具/【工具】Obsidian/【Obsidian】FAQ/260115_Show Whitespace插件会导致mermaid代码块无法正常显示换行.md",
+        "manifestPath": ".versiondb/d7e084bb-38cc-4aa7-88c1-5c0260014fd8/manifest.json",
+        "createdAt": "2026-03-10T03:50:03.690Z",
+        "lastModified": "2026-03-10T03:50:03.690Z"
+      },
+      "3d38aa85-3fe1-4453-95c3-f1624b6d8aa9": {
+        "notePath": "010【笔记】Notes/素材管理.md",
+        "manifestPath": ".versiondb/3d38aa85-3fe1-4453-95c3-f1624b6d8aa9/manifest.json",
+        "createdAt": "2026-03-10T04:38:12.723Z",
+        "lastModified": "2026-03-10T04:38:12.723Z"
+      },
+      "d805bded-ed2b-40f5-9850-4dd6594d126f": {
+        "notePath": "500【资源】Resource/游戏/250206_游戏分类.md",
+        "manifestPath": ".versiondb/d805bded-ed2b-40f5-9850-4dd6594d126f/manifest.json",
+        "createdAt": "2026-03-10T04:45:38.133Z",
+        "lastModified": "2026-03-10T04:45:38.133Z"
+      },
+      "7237d6b1-8dfd-4594-9b50-deb69c9d26d1": {
+        "notePath": "420【编程】Code/代码开发工具/VSCode/【VS Code】插件.md",
+        "manifestPath": ".versiondb/7237d6b1-8dfd-4594-9b50-deb69c9d26d1/manifest.json",
+        "createdAt": "2026-03-10T05:22:00.323Z",
+        "lastModified": "2026-03-10T05:22:00.323Z"
+      },
+      "cb8d32d7-f3fe-43e8-965c-50174a8d51ca": {
+        "notePath": "210【日志】Journal/DailyNotes/2026/2026-01-07.md",
+        "manifestPath": ".versiondb/cb8d32d7-f3fe-43e8-965c-50174a8d51ca/manifest.json",
+        "createdAt": "2026-03-10T06:21:50.574Z",
+        "lastModified": "2026-03-10T06:21:50.574Z"
+      },
+      "426c833b-747b-4314-a1bd-1af5d356f65c": {
+        "notePath": "210【日志】Journal/DailyNotes/2025/2025-12-31.md",
+        "manifestPath": ".versiondb/426c833b-747b-4314-a1bd-1af5d356f65c/manifest.json",
+        "createdAt": "2026-03-10T06:21:53.914Z",
+        "lastModified": "2026-03-10T06:21:53.914Z"
+      },
+      "1e84f4d8-beeb-4c61-a876-1a2f52d0ca43": {
+        "notePath": "210【日志】Journal/DailyNotes/2025/2025-12-30.md",
+        "manifestPath": ".versiondb/1e84f4d8-beeb-4c61-a876-1a2f52d0ca43/manifest.json",
+        "createdAt": "2026-03-10T06:21:55.075Z",
+        "lastModified": "2026-03-10T06:21:55.075Z"
+      },
+      "109721b4-3e56-4cee-b252-6ac33535074e": {
+        "notePath": "210【日志】Journal/DailyNotes/2025/2025-12-29.md",
+        "manifestPath": ".versiondb/109721b4-3e56-4cee-b252-6ac33535074e/manifest.json",
+        "createdAt": "2026-03-10T06:21:55.828Z",
+        "lastModified": "2026-03-10T06:21:55.828Z"
+      },
+      "05d8b5d1-f595-45d4-a8cc-8c03e9764df6": {
+        "notePath": "010【笔记】Notes/奇思妙想/250108_游戏设定想法.md",
+        "manifestPath": ".versiondb/05d8b5d1-f595-45d4-a8cc-8c03e9764df6/manifest.json",
+        "createdAt": "2026-03-10T06:22:35.699Z",
+        "lastModified": "2026-03-10T06:22:35.699Z"
+      },
+      "bd60389d-8682-43be-9e17-8113760439b0": {
+        "notePath": "010【笔记】Notes/奇思妙想/奇思妙想.md",
+        "manifestPath": ".versiondb/bd60389d-8682-43be-9e17-8113760439b0/manifest.json",
+        "createdAt": "2026-03-10T06:22:51.408Z",
+        "lastModified": "2026-03-10T06:22:51.408Z"
+      },
+      "12784a90-cf1b-47d8-bda2-01a7ce1d96e2": {
+        "notePath": "010【笔记】Notes/奇思妙想/250108_小说幻想设定.md",
+        "manifestPath": ".versiondb/12784a90-cf1b-47d8-bda2-01a7ce1d96e2/manifest.json",
+        "createdAt": "2026-03-10T06:22:58.756Z",
+        "lastModified": "2026-03-10T06:22:58.756Z"
+      },
+      "6f5381ee-fa96-4f68-8e8f-3bd6f0ec0083": {
+        "notePath": "500【资源】Resource/动漫/日本动漫/【动漫】无限斯特拉托斯.md",
+        "manifestPath": ".versiondb/6f5381ee-fa96-4f68-8e8f-3bd6f0ec0083/manifest.json",
+        "createdAt": "2026-03-11T00:40:37.063Z",
+        "lastModified": "2026-03-11T00:40:37.063Z"
+      },
+      "a7229c97-da74-4257-b8c1-965919cafd28": {
+        "notePath": "210【日志】Journal/DailyNotes/2026/2026-03-05.md",
+        "manifestPath": ".versiondb/a7229c97-da74-4257-b8c1-965919cafd28/manifest.json",
+        "createdAt": "2026-03-11T01:05:47.332Z",
+        "lastModified": "2026-03-11T01:05:47.332Z"
+      },
+      "b3bc2fe0-654b-4e24-a893-d5426445997e": {
+        "notePath": "100【收纳盒】Inbox/120【剪藏】Clippings/2026/2026-03/260311_利用 VsCode + EIDE 进行嵌入式开发(保姆级教程).md",
+        "manifestPath": ".versiondb/b3bc2fe0-654b-4e24-a893-d5426445997e/manifest.json",
+        "createdAt": "2026-03-11T01:41:39.228Z",
+        "lastModified": "2026-03-11T06:18:25.615Z"
+      },
+      "5062c436-3751-4d5e-8bc6-7bba4359f8c5": {
+        "notePath": "210【日志】Journal/DailyNotes/2026/2026-03-11.md",
+        "manifestPath": ".versiondb/5062c436-3751-4d5e-8bc6-7bba4359f8c5/manifest.json",
+        "createdAt": "2026-03-11T04:11:36.845Z",
+        "lastModified": "2026-03-11T04:11:36.845Z"
+      },
+      "072a9ec8-3834-4ce5-8525-7fcdb2793baa": {
+        "notePath": "420【编程】Code/WEB前端开发/CSS/【CSS】伸缩盒模型-弹性盒子(Flexbox)/【CSS】伸缩盒模型-弹性盒子(Flexbox).md",
+        "manifestPath": ".versiondb/072a9ec8-3834-4ce5-8525-7fcdb2793baa/manifest.json",
+        "createdAt": "2026-03-11T06:07:02.869Z",
+        "lastModified": "2026-03-11T06:07:02.869Z"
+      },
+      "c826babe-6e62-4113-981e-689e83614f5a": {
+        "notePath": "420【编程】Code/WEB前端开发/CSS/【CSS】CSS文本属性(text)/【CSS】布局小技巧：垂直水平居中.md",
+        "manifestPath": ".versiondb/c826babe-6e62-4113-981e-689e83614f5a/manifest.json",
+        "createdAt": "2026-03-11T06:07:40.563Z",
+        "lastModified": "2026-03-11T06:07:40.563Z"
+      },
+      "f6ab0d87-d0d9-42d6-bc07-bb3fca5e87f6": {
+        "notePath": "310【任务】Tasks/TasksCalendar.md",
+        "manifestPath": ".versiondb/f6ab0d87-d0d9-42d6-bc07-bb3fca5e87f6/manifest.json",
+        "createdAt": "2026-03-11T06:35:18.021Z",
+        "lastModified": "2026-03-11T06:35:18.021Z"
+      },
+      "98dc0723-ab4c-4606-8421-2901a8f61986": {
+        "notePath": "700【模板】Template/TaskNote模板.md",
+        "manifestPath": ".versiondb/98dc0723-ab4c-4606-8421-2901a8f61986/manifest.json",
+        "createdAt": "2026-03-11T06:45:22.977Z",
+        "lastModified": "2026-03-11T06:45:40.128Z"
+      },
+      "ec74148f-9a97-41e2-aae5-af0e79e54597": {
+        "notePath": "310【任务】Tasks/2025/250708_📅嵌入式基础入门学习/250815_嵌入式的三个方向.md",
+        "manifestPath": ".versiondb/ec74148f-9a97-41e2-aae5-af0e79e54597/manifest.json",
+        "createdAt": "2026-03-11T13:46:58.939Z",
+        "lastModified": "2026-03-11T13:46:58.939Z"
+      },
+      "42d9b754-1a93-4a1e-8a9c-a352fe818fcf": {
+        "notePath": "210【日志】Journal/DailyNotes/2026/2026-03-12.md",
+        "manifestPath": ".versiondb/42d9b754-1a93-4a1e-8a9c-a352fe818fcf/manifest.json",
+        "createdAt": "2026-03-11T15:42:16.510Z",
+        "lastModified": "2026-03-11T15:42:16.510Z"
+      },
+      "0dab5684-5baa-4500-bee3-a3df0ba8c0d9": {
+        "notePath": "510【资料】StudyNote/530【视频】VideoNote/关注的UP主/260312_UP主分类平台管理方案.md",
+        "manifestPath": ".versiondb/0dab5684-5baa-4500-bee3-a3df0ba8c0d9/manifest.json",
+        "createdAt": "2026-03-12T01:33:44.499Z",
+        "lastModified": "2026-03-12T01:41:40.279Z"
+      },
+      "deab1945-504c-450d-b770-4ed454710b13": {
+        "notePath": "510【资料】StudyNote/530【视频】VideoNote/关注的UP主/【UP-B站】我想成为你的验证码.md",
+        "manifestPath": ".versiondb/deab1945-504c-450d-b770-4ed454710b13/manifest.json",
+        "createdAt": "2026-03-12T01:39:43.235Z",
+        "lastModified": "2026-03-12T01:39:43.235Z"
+      },
+      "2500ea09-7a4e-4ce8-a968-eb173d756a10": {
+        "notePath": "010【笔记】Notes/生活常识/生活常识.md",
+        "manifestPath": ".versiondb/2500ea09-7a4e-4ce8-a968-eb173d756a10/manifest.json",
+        "createdAt": "2026-03-12T01:42:50.120Z",
+        "lastModified": "2026-03-12T01:42:50.120Z"
+      },
+      "2dcb3bbd-5077-4dd5-b139-fb48e219de44": {
+        "notePath": "510【资料】StudyNote/530【视频】VideoNote/关注的UP主/【UP-B站】吃瓜蒙主.md",
+        "manifestPath": ".versiondb/2dcb3bbd-5077-4dd5-b139-fb48e219de44/manifest.json",
+        "createdAt": "2026-03-12T01:45:31.336Z",
+        "lastModified": "2026-03-12T01:45:31.336Z"
+      },
+      "a26aede3-f84d-4af1-aeaf-092898549f8c": {
+        "notePath": "510【资料】StudyNote/530【视频】VideoNote/关注的UP主/260312_【UP-B站】斯奎奇大王（牢A）.md",
+        "manifestPath": ".versiondb/a26aede3-f84d-4af1-aeaf-092898549f8c/manifest.json",
+        "createdAt": "2026-03-12T01:45:54.683Z",
+        "lastModified": "2026-03-12T01:45:54.683Z"
+      },
+      "18f88a0e-43fd-486a-b701-1ea2adcbc56a": {
+        "notePath": "510【资料】StudyNote/530【视频】VideoNote/关注的UP主/260312_【UP-B站】菲菲今年想出书.md",
+        "manifestPath": ".versiondb/18f88a0e-43fd-486a-b701-1ea2adcbc56a/manifest.json",
+        "createdAt": "2026-03-12T01:47:01.763Z",
+        "lastModified": "2026-03-12T01:47:01.763Z"
+      },
+      "7a6e6e2e-62c9-4d37-bb68-326b882f3d61": {
+        "notePath": "100【收纳盒】Inbox/120【剪藏】Clippings/2026/2026-03/260312_苦难反噬：女性为何“越抗争，越痛苦”？ - 我们正被自己发明的武器吞噬？硬核拆解性别战争死循环！_哔哩哔哩_bilibili.md",
+        "manifestPath": ".versiondb/7a6e6e2e-62c9-4d37-bb68-326b882f3d61/manifest.json",
+        "createdAt": "2026-03-12T01:49:48.708Z",
+        "lastModified": "2026-03-12T03:58:22.158Z"
+      },
+      "4a4ef7db-ce0d-4e9b-9fc1-055405f0bf18": {
+        "notePath": "010【笔记】Notes/自我认知定位/251105_吾日三省.md",
+        "manifestPath": ".versiondb/4a4ef7db-ce0d-4e9b-9fc1-055405f0bf18/manifest.json",
+        "createdAt": "2026-03-12T01:53:23.932Z",
+        "lastModified": "2026-03-12T01:53:23.932Z"
+      },
+      "7ce39ad2-e4a2-44c4-a6a1-683183bc00a1": {
+        "notePath": "910【配置】Configs/components/ai/agents/Copilot 助理.md",
+        "manifestPath": ".versiondb/7ce39ad2-e4a2-44c4-a6a1-683183bc00a1/manifest.json",
+        "createdAt": "2026-03-12T04:02:57.351Z",
+        "lastModified": "2026-03-12T04:03:15.170Z"
+      },
+      "5d357720-61e9-45bd-85fe-7a375411de72": {
+        "notePath": "910【配置】Configs/copilot/memory/Recent Conversations.md",
+        "manifestPath": ".versiondb/5d357720-61e9-45bd-85fe-7a375411de72/manifest.json",
+        "createdAt": "2026-03-12T04:23:17.819Z",
+        "lastModified": "2026-03-12T04:23:17.819Z"
+      },
+      "527d57fb-4652-44ad-b2da-68f8b1e584d9": {
+        "notePath": "910【配置】Configs/components/ai/agents/周易六爻的预测师.md",
+        "manifestPath": ".versiondb/527d57fb-4652-44ad-b2da-68f8b1e584d9/manifest.json",
+        "createdAt": "2026-03-12T11:20:32.171Z",
+        "lastModified": "2026-03-12T11:20:44.759Z"
+      },
+      "63626a12-5e4e-4466-b75b-df11a13f9399": {
+        "notePath": "010【笔记】Notes/碎片名词/260312_16+8轻断食减肥法.md",
+        "manifestPath": ".versiondb/63626a12-5e4e-4466-b75b-df11a13f9399/manifest.json",
+        "createdAt": "2026-03-13T01:20:04.947Z",
+        "lastModified": "2026-03-13T01:20:25.237Z"
+      },
+      "b3db4ddb-9dab-4076-8d07-c50171aa0563": {
+        "notePath": "710【组件】Component/710【组件】Component.md",
+        "manifestPath": ".versiondb/b3db4ddb-9dab-4076-8d07-c50171aa0563/manifest.json",
+        "createdAt": "2026-03-13T01:25:31.308Z",
+        "lastModified": "2026-03-13T01:25:31.308Z"
+      },
+      "d1c08670-7757-4a3c-bbf9-9c49408e5486": {
+        "notePath": "210【日志】Journal/DailyNotes/2026/2026-03-13.md",
+        "manifestPath": ".versiondb/d1c08670-7757-4a3c-bbf9-9c49408e5486/manifest.json",
+        "createdAt": "2026-03-13T01:48:28.737Z",
+        "lastModified": "2026-03-13T01:48:28.737Z"
+      },
+      "57bd1659-c7b9-4752-a8cf-0c4935f122bc": {
+        "notePath": "220【记录】Record/222【会议记录】Meeting Records/【社区】PKMer社区/PKMer周报/PKMer周报.md",
+        "manifestPath": ".versiondb/57bd1659-c7b9-4752-a8cf-0c4935f122bc/manifest.json",
+        "createdAt": "2026-03-13T08:05:36.006Z",
+        "lastModified": "2026-03-16T03:39:28.450Z"
+      },
+      "1cf64ca8-418c-45d6-a14f-af1d05b24325": {
+        "notePath": "220【记录】Record/222【会议】Meeting/【社区】PKMer社区/PKMer周报/241226_PKMer周报记录.md",
+        "manifestPath": ".versiondb/1cf64ca8-418c-45d6-a14f-af1d05b24325/manifest.json",
+        "createdAt": "2026-03-13T08:05:40.597Z",
+        "lastModified": "2026-03-13T08:06:36.442Z"
+      },
+      "a849ac23-b609-4017-a3d6-bf3040dc7f25": {
+        "notePath": "220【记录】Record/222【会议记录】Meeting Records/【社区】PKMer社区/PKMer周报/241219_PKMer周报记录.md",
+        "manifestPath": ".versiondb/a849ac23-b609-4017-a3d6-bf3040dc7f25/manifest.json",
+        "createdAt": "2026-03-13T08:05:43.952Z",
+        "lastModified": "2026-03-16T03:39:28.450Z"
+      },
+      "7f7ab4e8-b37b-4a8f-9175-984ddd85047a": {
+        "notePath": "210【日志】Journal/DailyNotes/2026/2026-03-14.md",
+        "manifestPath": ".versiondb/7f7ab4e8-b37b-4a8f-9175-984ddd85047a/manifest.json",
+        "createdAt": "2026-03-13T11:19:35.188Z",
+        "lastModified": "2026-03-13T11:19:35.188Z"
+      },
+      "8f18f79b-ffd3-4f4b-b798-39e7ccbca32a": {
+        "notePath": "220【记录】Record/221【备忘录】Memos/网友/【备忘录-网友】Moy/250126_Moy分享的插件(分享一下现在的笔记四周的“四大金刚”插件，超级爽).md",
+        "manifestPath": ".versiondb/8f18f79b-ffd3-4f4b-b798-39e7ccbca32a/manifest.json",
+        "createdAt": "2026-03-14T00:45:00.260Z",
+        "lastModified": "2026-03-14T00:45:00.260Z"
+      },
+      "41c81659-3947-4e16-8662-0207f4e1f78b": {
+        "notePath": "500【资源】Resource/动漫/日本动漫/260113_我是星际国家的恶德领主！ - 萌娘百科 萬物皆可萌的百科全書.md",
+        "manifestPath": ".versiondb/41c81659-3947-4e16-8662-0207f4e1f78b/manifest.json",
+        "createdAt": "2026-03-14T00:52:14.854Z",
+        "lastModified": "2026-03-14T00:53:41.968Z"
+      },
+      "2e9b1565-6830-49bf-b665-c24f69f442ff": {
+        "notePath": "420【编程】Code/代码开发工具/GitHub/Git/240127_Git Branching + 菜鸟教程 学习笔记/【Git】提交与修改.md",
+        "manifestPath": ".versiondb/2e9b1565-6830-49bf-b665-c24f69f442ff/manifest.json",
+        "createdAt": "2026-03-14T03:21:32.068Z",
+        "lastModified": "2026-03-14T03:28:12.687Z"
+      },
+      "48017de3-b610-4ad5-8ba4-fcc05f03890b": {
+        "notePath": "420【编程】Code/代码开发工具/GitHub/Git/241218_尚硅谷前端Git教程/241218_尚硅谷前端Git教程.md",
+        "manifestPath": ".versiondb/48017de3-b610-4ad5-8ba4-fcc05f03890b/manifest.json",
+        "createdAt": "2026-03-14T03:21:56.442Z",
+        "lastModified": "2026-03-14T03:21:56.442Z"
+      },
+      "5390bab8-7a44-4b89-a613-57831176f032": {
+        "notePath": "420【编程】Code/代码开发工具/GitHub/Git/240127_Git Branching + 菜鸟教程 学习笔记/250104_基本大纲.md",
+        "manifestPath": ".versiondb/5390bab8-7a44-4b89-a613-57831176f032/manifest.json",
+        "createdAt": "2026-03-14T03:24:46.436Z",
+        "lastModified": "2026-03-14T03:28:09.668Z"
+      },
+      "a7bd2b05-d53e-43cf-bf5e-472631eab099": {
+        "notePath": "420【编程】Code/代码开发工具/GitHub/Git/250426_Git上传失效的处理方法.md",
+        "manifestPath": ".versiondb/a7bd2b05-d53e-43cf-bf5e-472631eab099/manifest.json",
+        "createdAt": "2026-03-14T03:28:26.193Z",
+        "lastModified": "2026-03-14T03:28:26.193Z"
+      },
+      "5c6948b9-5c63-402a-92ff-d737d6c8445c": {
+        "notePath": "420【编程】Code/代码开发工具/GitHub/Git/2024-03-04_git 换行符报错.md",
+        "manifestPath": ".versiondb/5c6948b9-5c63-402a-92ff-d737d6c8445c/manifest.json",
+        "createdAt": "2026-03-14T03:29:50.153Z",
+        "lastModified": "2026-03-14T03:29:50.153Z"
+      },
+      "06467a06-4ca7-4540-802a-424d1eb56df2": {
+        "notePath": "420【编程】Code/代码开发工具/GitHub/GitHub.md",
+        "manifestPath": ".versiondb/06467a06-4ca7-4540-802a-424d1eb56df2/manifest.json",
+        "createdAt": "2026-03-14T03:30:49.240Z",
+        "lastModified": "2026-03-14T03:30:49.240Z"
+      },
+      "c7fda5c7-0343-4412-b622-b481a76621e0": {
+        "notePath": "420【编程】Code/代码开发工具/GitHub/GitHub个人访问令牌.md",
+        "manifestPath": ".versiondb/c7fda5c7-0343-4412-b622-b481a76621e0/manifest.json",
+        "createdAt": "2026-03-14T03:31:03.510Z",
+        "lastModified": "2026-03-14T03:31:03.510Z"
+      },
+      "55f8a4c9-33cc-443b-958c-9705b57508f3": {
+        "notePath": "420【编程】Code/代码开发工具/GitHub/Git/240127_Git Branching + 菜鸟教程 学习笔记/260314_Git操作手册 - 技巧分享.md",
+        "manifestPath": ".versiondb/55f8a4c9-33cc-443b-958c-9705b57508f3/manifest.json",
+        "createdAt": "2026-03-14T03:32:56.483Z",
+        "lastModified": "2026-03-14T03:32:56.483Z"
+      },
+      "b40ea208-0083-4e3d-b211-4fc3d42ad45d": {
+        "notePath": "420【编程】Code/嵌入式开发/C语言/【C语言】基础手册/【C语言】基础手册.md",
+        "manifestPath": ".versiondb/b40ea208-0083-4e3d-b211-4fc3d42ad45d/manifest.json",
+        "createdAt": "2026-03-14T05:29:00.808Z",
+        "lastModified": "2026-03-14T05:29:00.808Z"
+      },
+      "9f99a4a3-309c-4d00-bb0a-f2f1081f4350": {
+        "notePath": "310【任务】Tasks/2025/250708_📅嵌入式基础入门学习/250802_C51单片机的学习/250819_尚硅谷51单片机入门到高手，最新全套51单片机教程！/260105_嵌入式C语言代码规范 by 尚硅谷.md",
+        "manifestPath": ".versiondb/9f99a4a3-309c-4d00-bb0a-f2f1081f4350/manifest.json",
+        "createdAt": "2026-03-14T05:29:17.886Z",
+        "lastModified": "2026-03-14T05:29:17.886Z"
+      },
+      "54fc14a6-cce1-4998-b4be-68a53d171667": {
+        "notePath": "420【编程】Code/嵌入式开发/C语言/250728_尚硅谷嵌入式技术之C语言笔记/250728_尚硅谷嵌入式技术之C语言笔记.md",
+        "manifestPath": ".versiondb/54fc14a6-cce1-4998-b4be-68a53d171667/manifest.json",
+        "createdAt": "2026-03-14T05:29:34.015Z",
+        "lastModified": "2026-03-14T05:30:41.950Z"
+      },
+      "3703a87b-895b-4812-bb0b-0475de834eda": {
+        "notePath": "310【任务】Tasks/2025/250708_📅嵌入式基础入门学习/250906_数字电路与模拟电路的区别.md",
+        "manifestPath": ".versiondb/3703a87b-895b-4812-bb0b-0475de834eda/manifest.json",
+        "createdAt": "2026-03-14T05:33:44.753Z",
+        "lastModified": "2026-03-14T05:33:44.753Z"
+      },
+      "b1defa3b-328a-47a7-a8e3-52a59c5397ec": {
+        "notePath": "220【记录】Record/222【会议记录】Meeting Records/【工作】东莞市华氪精密设备公司/250925_机械工程师的基础知识/250925_机械工程师的基础知识.md",
+        "manifestPath": ".versiondb/b1defa3b-328a-47a7-a8e3-52a59c5397ec/manifest.json",
+        "createdAt": "2026-03-14T05:39:07.528Z",
+        "lastModified": "2026-03-16T03:39:28.450Z"
+      },
+      "f4891a7e-8afc-4e26-8752-da864778f258": {
+        "notePath": "220【记录】Record/222【会议记录】Meeting Records/【工作】东莞市华氪精密设备公司/【工作-华氪】培训记录/2025-11-07_电控笔记：C语言及数据结构的学习笔记 by 邱腾煌/251208_C语言：变量（标识符、关键字）.md",
+        "manifestPath": ".versiondb/f4891a7e-8afc-4e26-8752-da864778f258/manifest.json",
+        "createdAt": "2026-03-14T06:12:35.335Z",
+        "lastModified": "2026-03-16T03:39:28.451Z"
+      },
+      "0afb5c7e-6911-4be8-86cd-faf975cf4bd9": {
+        "notePath": "420【编程】Code/嵌入式开发/C语言/251119_【C语言】排序算法.md",
+        "manifestPath": ".versiondb/0afb5c7e-6911-4be8-86cd-faf975cf4bd9/manifest.json",
+        "createdAt": "2026-03-14T06:15:27.769Z",
+        "lastModified": "2026-03-14T06:15:27.769Z"
+      },
+      "82098895-1a77-4c9b-b463-39ea39aee6d3": {
+        "notePath": "220【记录】Record/222【会议】Meeting/【工作】东莞市华氪精密设备公司/【工作-华氪】培训记录/2025-11-06_电控培训：振阀电路图解析及代码讲解 by 刘宸杰.md",
+        "manifestPath": ".versiondb/82098895-1a77-4c9b-b463-39ea39aee6d3/manifest.json",
+        "createdAt": "2026-03-14T06:16:28.138Z",
+        "lastModified": "2026-03-14T06:16:28.138Z"
+      },
+      "9cf36b2f-d5f5-443a-86e8-462ef85fe0f9": {
+        "notePath": "420【编程】Code/嵌入式开发/C语言/【C语言】基础手册/250712_数组的基础介绍.md",
+        "manifestPath": ".versiondb/9cf36b2f-d5f5-443a-86e8-462ef85fe0f9/manifest.json",
+        "createdAt": "2026-03-14T06:22:11.519Z",
+        "lastModified": "2026-03-14T06:22:11.519Z"
+      },
+      "e781413e-3429-48bb-95c4-b7422b2f165c": {
+        "notePath": "420【编程】Code/嵌入式开发/C语言/250728_尚硅谷嵌入式技术之C语言笔记/251017_C语言学习临时草稿.md",
+        "manifestPath": ".versiondb/e781413e-3429-48bb-95c4-b7422b2f165c/manifest.json",
+        "createdAt": "2026-03-14T06:28:22.055Z",
+        "lastModified": "2026-03-14T06:28:22.055Z"
+      },
+      "e0d2a6b3-9af2-48ef-85fc-70465210ad5a": {
+        "notePath": "420【编程】Code/嵌入式开发/C语言/250708_VSCode中C语言代码格式化值Clang-format拓展及其配置.md",
+        "manifestPath": ".versiondb/e0d2a6b3-9af2-48ef-85fc-70465210ad5a/manifest.json",
+        "createdAt": "2026-03-14T06:38:19.250Z",
+        "lastModified": "2026-03-14T06:38:19.250Z"
+      },
+      "0dd3d57d-0962-4199-813c-4e6fca2021a7": {
+        "notePath": "420【编程】Code/嵌入式开发/C语言/250708_VS Code中C语言运行中文乱码现象.md",
+        "manifestPath": ".versiondb/0dd3d57d-0962-4199-813c-4e6fca2021a7/manifest.json",
+        "createdAt": "2026-03-14T06:39:14.627Z",
+        "lastModified": "2026-03-14T06:39:14.627Z"
+      },
+      "1852b54b-34cb-404b-9ef5-4f46d09ba28f": {
+        "notePath": "420【编程】Code/WEB前端开发/CSS/【CSS】伸缩盒模型-弹性盒子(Flexbox)/【JavaScript】Flexbox：项目排序(order).md",
+        "manifestPath": ".versiondb/1852b54b-34cb-404b-9ef5-4f46d09ba28f/manifest.json",
+        "createdAt": "2026-03-16T02:48:42.267Z",
+        "lastModified": "2026-03-16T02:48:42.267Z"
+      },
+      "5878daba-5341-4c07-b3f3-249205da67a3": {
+        "notePath": "220【记录】Record/223【物品记录】Item Records/260316_电脑&笔记本/251205_华硕天选6Pro笔记本的保修记录+硬盘添加+跑分测试+办公使用+性能调整/251205_华硕天选6Pro笔记本的保修记录+硬盘添加+跑分测试+办公使用+性能调整.md",
+        "manifestPath": ".versiondb/5878daba-5341-4c07-b3f3-249205da67a3/manifest.json",
+        "createdAt": "2026-03-16T03:07:02.808Z",
+        "lastModified": "2026-03-16T03:35:30.249Z"
+      },
+      "6d86cf3a-21b7-4366-95e3-c72ba5028bc1": {
+        "notePath": "520【工具】ToolNote/【Tool】系统工具/音乐播放器/音乐播放器.md",
+        "manifestPath": ".versiondb/6d86cf3a-21b7-4366-95e3-c72ba5028bc1/manifest.json",
+        "createdAt": "2026-03-16T03:11:39.290Z",
+        "lastModified": "2026-03-16T03:11:39.290Z"
+      },
+      "8d0df433-df2e-421f-8fd9-9bba985716bf": {
+        "notePath": "420【编程】Code/操作系统/251125_硬件科普/251125_硬件科普.md",
+        "manifestPath": ".versiondb/8d0df433-df2e-421f-8fd9-9bba985716bf/manifest.json",
+        "createdAt": "2026-03-16T03:20:03.830Z",
+        "lastModified": "2026-03-16T03:20:03.830Z"
+      },
+      "82e9e1c2-75aa-4569-844e-63a10e02136e": {
+        "notePath": "220【记录】Record/223【物品记录】Item Records/223【物品记录】Item Records.md",
+        "manifestPath": ".versiondb/82e9e1c2-75aa-4569-844e-63a10e02136e/manifest.json",
+        "createdAt": "2026-03-16T03:28:58.521Z",
+        "lastModified": "2026-03-16T03:28:58.521Z"
+      },
+      "79504d5a-9859-4336-b046-fa69b5a9ab98": {
+        "notePath": "220【记录】Record/223【物品记录】Item Records/260316_电脑&笔记本/260316_电脑&笔记本.md",
+        "manifestPath": ".versiondb/79504d5a-9859-4336-b046-fa69b5a9ab98/manifest.json",
+        "createdAt": "2026-03-16T03:32:51.261Z",
+        "lastModified": "2026-03-16T03:35:24.325Z"
+      },
+      "29923667-04cc-498c-8cb7-99d06d867abe": {
+        "notePath": "220【记录】Record/223【物品记录】Item Records/260316_电脑&笔记本/241223_电脑清灰换内存&加机械硬盘.md",
+        "manifestPath": ".versiondb/29923667-04cc-498c-8cb7-99d06d867abe/manifest.json",
+        "createdAt": "2026-03-16T03:41:34.297Z",
+        "lastModified": "2026-03-16T03:41:34.297Z"
+      },
+      "622f28ec-49e8-44cb-aef2-cc9ca702422c": {
+        "notePath": "420【编程】Code/操作系统/251125_硬件科普/251116_游戏手柄推荐.md",
+        "manifestPath": ".versiondb/622f28ec-49e8-44cb-aef2-cc9ca702422c/manifest.json",
+        "createdAt": "2026-03-16T03:42:29.807Z",
+        "lastModified": "2026-03-16T03:42:29.807Z"
+      },
+      "f3420925-2933-436a-b3b7-cb2353a6cf44": {
+        "notePath": "220【记录】Record/223【物品记录】Item Records/260316_自行车&电动车/260316_自行车&电动车.md",
+        "manifestPath": ".versiondb/f3420925-2933-436a-b3b7-cb2353a6cf44/manifest.json",
+        "createdAt": "2026-03-16T03:58:14.077Z",
+        "lastModified": "2026-03-16T03:59:20.432Z"
+      },
+      "38146a5a-fc0c-440c-9c6c-8ae08217bd3c": {
+        "notePath": "100【收纳盒】Inbox/110【草稿】Draft/2026/2026-01/260109_RSS订阅/【工具】Follow.md",
+        "manifestPath": ".versiondb/38146a5a-fc0c-440c-9c6c-8ae08217bd3c/manifest.json",
+        "createdAt": "2026-03-16T10:10:24.016Z",
+        "lastModified": "2026-03-16T10:10:24.016Z"
+      },
+      "93cd49ea-440e-41ac-8104-7f4e102e7d3c": {
+        "notePath": "010【笔记】Notes/碎片卡片/250112_古有潘金莲的药，今有燕冬萍的笑.md",
+        "manifestPath": ".versiondb/93cd49ea-440e-41ac-8104-7f4e102e7d3c/manifest.json",
+        "createdAt": "2026-03-17T02:06:26.299Z",
+        "lastModified": "2026-03-17T02:06:26.299Z"
+      },
+      "93a272d3-2a11-4ba8-a5e4-e63a479795d9": {
+        "notePath": "010【笔记】Notes/碎片卡片/250425_埃及猫.md",
+        "manifestPath": ".versiondb/93a272d3-2a11-4ba8-a5e4-e63a479795d9/manifest.json",
+        "createdAt": "2026-03-17T02:06:51.122Z",
+        "lastModified": "2026-03-17T02:06:51.122Z"
+      },
+      "ac5e770f-c7b3-494c-930d-7b9c0b89ff1b": {
+        "notePath": "010【笔记】Notes/碎片卡片/240817_字体的设计.md",
+        "manifestPath": ".versiondb/ac5e770f-c7b3-494c-930d-7b9c0b89ff1b/manifest.json",
+        "createdAt": "2026-03-17T02:14:21.761Z",
+        "lastModified": "2026-03-17T02:14:21.761Z"
+      },
+      "ae5abbd8-aa7e-4b62-93c1-2d3b02ed1c87": {
+        "notePath": "220【记录】Record/222【会议记录】Meeting Records/【工作】东莞市华氪精密设备公司/【工作-华氪】培训记录/250929_Python Pyside上位机学习记录/2025-09-29_项目实战：MFC上位机软件制作、面向对象OOP及软件架构设计 with 孔德保×刘宸杰/2025-09-29_项目实战：MFC上位机软件制作、面向对象OOP及软件架构设计 with 孔德保×刘宸杰.md",
+        "manifestPath": ".versiondb/ae5abbd8-aa7e-4b62-93c1-2d3b02ed1c87/manifest.json",
+        "createdAt": "2026-03-17T05:44:38.041Z",
+        "lastModified": "2026-03-17T05:44:38.041Z"
+      },
+      "cf519d91-4b6d-4827-a740-f4978e94fbcd": {
+        "notePath": "220【记录】Record/222【会议记录】Meeting Records/【工作】东莞市华氪精密设备公司/250714_半导体用阀门了解/250714_半导体用阀门相关笔记.md",
+        "manifestPath": ".versiondb/cf519d91-4b6d-4827-a740-f4978e94fbcd/manifest.json",
+        "createdAt": "2026-03-17T06:16:56.874Z",
+        "lastModified": "2026-03-17T06:16:56.874Z"
+      },
+      "39259694-c913-4996-a51a-0d424e74ed76": {
+        "notePath": "220【记录】Record/222【会议记录】Meeting Records/【工作】东莞市华氪精密设备公司/250714_半导体用阀门了解/260114_半导体、光伏用的气体管路连接设备.md",
+        "manifestPath": ".versiondb/39259694-c913-4996-a51a-0d424e74ed76/manifest.json",
+        "createdAt": "2026-03-17T06:17:03.694Z",
+        "lastModified": "2026-03-17T06:17:03.694Z"
+      },
+      "2948ef60-202e-44b5-b6a3-b240b9367743": {
+        "notePath": "310【任务】Tasks/2025/240825_研三面试找工作 📅 2024-08-25 ✅ 2025-07-01/24.10.09_应届生面试自我介绍.md",
+        "manifestPath": ".versiondb/2948ef60-202e-44b5-b6a3-b240b9367743/manifest.json",
+        "createdAt": "2026-03-17T06:26:22.228Z",
+        "lastModified": "2026-03-17T06:26:22.228Z"
+      },
+      "2c1e0e66-00c5-4839-ac71-06c70871c703": {
+        "notePath": "220【记录】Record/222【会议记录】Meeting Records/【工作】东莞市华氪精密设备公司/【工作-华氪】培训记录/250929_Python Pyside上位机学习记录/2025-09-29_项目实战：MFC上位机软件制作、面向对象OOP及软件架构设计 with 孔德保×刘宸杰/250918_MFC调试软件的通信测试 by 孔德保.md",
+        "manifestPath": ".versiondb/2c1e0e66-00c5-4839-ac71-06c70871c703/manifest.json",
+        "createdAt": "2026-03-17T06:34:21.628Z",
+        "lastModified": "2026-03-17T06:34:21.628Z"
+      },
+      "939ea459-89fe-42d0-bd74-aeb4a9b6d064": {
+        "notePath": "220【记录】Record/222【会议记录】Meeting Records/【工作】东莞市华氪精密设备公司/【工作-华氪】培训记录/250929_Python Pyside上位机学习记录/2025-09-29_项目实战：MFC上位机软件制作、面向对象OOP及软件架构设计 with 孔德保×刘宸杰/251128_MFC上位机功能设计要求 by 孔德保.md",
+        "manifestPath": ".versiondb/939ea459-89fe-42d0-bd74-aeb4a9b6d064/manifest.json",
+        "createdAt": "2026-03-17T06:34:24.695Z",
+        "lastModified": "2026-03-17T06:34:24.695Z"
+      },
+      "50c01a3a-b74a-44fb-823b-312f0fcad85e": {
+        "notePath": "310【任务】Tasks/2026/260317_嵌入式简历修改&面试找工作 📅2026-03-17/260317_嵌入式简历修改&面试找工作 📅2026-03-17.md",
+        "manifestPath": ".versiondb/50c01a3a-b74a-44fb-823b-312f0fcad85e/manifest.json",
+        "createdAt": "2026-03-17T09:35:26.380Z",
+        "lastModified": "2026-03-18T03:09:32.572Z"
+      },
+      "b6ed2d5b-2274-41c9-80c1-0a949111f897": {
+        "notePath": "310【任务】Tasks/2026/260317_嵌入式简历修改&面试找工作 📅2026-03-17/260317_半导体设备零部件嵌入式开发自我介绍.md",
+        "manifestPath": ".versiondb/b6ed2d5b-2274-41c9-80c1-0a949111f897/manifest.json",
+        "createdAt": "2026-03-17T09:44:08.763Z",
+        "lastModified": "2026-03-18T03:09:32.609Z"
+      },
+      "f453469f-9402-4364-ade0-871c212c6edd": {
+        "notePath": "900【素材】Assets/ObsidianAssets/2026/2026-03/2026-03-17/260317_半导体设备零部件嵌入式开发简历.md",
+        "manifestPath": ".versiondb/f453469f-9402-4364-ade0-871c212c6edd/manifest.json",
+        "createdAt": "2026-03-17T10:08:02.860Z",
+        "lastModified": "2026-03-18T01:31:23.099Z"
+      },
+      "42a52abb-2d2b-4a00-a3c6-d75610ce9c5d": {
+        "notePath": "210【日志】Journal/TasksBoard.md",
+        "manifestPath": ".versiondb/42a52abb-2d2b-4a00-a3c6-d75610ce9c5d/manifest.json",
+        "createdAt": "2026-03-18T03:17:35.978Z",
+        "lastModified": "2026-03-18T03:17:35.978Z"
+      },
+      "c27ec716-e73d-41c1-b271-782f35aa4691": {
+        "notePath": "Meta/Task_Board/Task_Notes/260318_测试.md",
+        "manifestPath": ".versiondb/c27ec716-e73d-41c1-b271-782f35aa4691/manifest.json",
+        "createdAt": "2026-03-18T04:58:01.564Z",
+        "lastModified": "2026-03-18T04:58:09.638Z"
+      },
+      "762b1232-403b-4fe1-ae1d-d8dd27485a9a": {
+        "notePath": "300【项目】Project/【Project】PKMer文章/241221_Tasks系列文档写作/241221_Tasks系列文档写作.md",
+        "manifestPath": ".versiondb/762b1232-403b-4fe1-ae1d-d8dd27485a9a/manifest.json",
+        "createdAt": "2026-03-22T06:24:39.500Z",
+        "lastModified": "2026-03-22T06:24:39.500Z"
+      },
+      "76cfdb84-9c3a-4fea-981d-e6329c4b71d5": {
+        "notePath": "300【项目】Project/【Project】PKMer文章/241221_Tasks系列文档写作/241221_DataViewJS+Tasks：最佳的每周任务管理及周报/260322_添加搜索按钮功能 by AI.md",
+        "manifestPath": ".versiondb/76cfdb84-9c3a-4fea-981d-e6329c4b71d5/manifest.json",
+        "createdAt": "2026-03-22T06:25:32.927Z",
+        "lastModified": "2026-03-22T06:28:31.179Z"
+      },
+      "07f9dbc0-5562-485c-9827-f5428fa2119a": {
+        "notePath": "500【资源】Resource/动漫/日本动漫/【动漫】学园默示录.md",
+        "manifestPath": ".versiondb/07f9dbc0-5562-485c-9827-f5428fa2119a/manifest.json",
+        "createdAt": "2026-03-22T11:43:53.242Z",
+        "lastModified": "2026-03-22T11:43:53.242Z"
+      },
+      "107b162b-2ce7-4b19-9b16-d59327292259": {
+        "notePath": "910【配置】Configs/components/ai/sessions/260322_2024_33424fab/compacts/260322_866b1889-727c-4c08-ac7c-ca4d30d10b7e.md",
+        "manifestPath": ".versiondb/107b162b-2ce7-4b19-9b16-d59327292259/manifest.json",
+        "createdAt": "2026-03-22T12:30:51.780Z",
+        "lastModified": "2026-03-22T12:30:51.780Z"
+      },
+      "4d2871b7-dbb1-4136-92a5-f4152474df13": {
+        "notePath": "420【编程】Code/人工智能(AI)/260319_LLM API KEY.md",
+        "manifestPath": ".versiondb/4d2871b7-dbb1-4136-92a5-f4152474df13/manifest.json",
+        "createdAt": "2026-03-22T12:35:42.856Z",
+        "lastModified": "2026-03-22T12:35:42.856Z"
+      },
+      "28db8199-712d-4099-a7d5-70f5762b715a": {
+        "notePath": "500【资源】Resource/游戏/250307_BLACK SOULS的系列作品.md",
+        "manifestPath": ".versiondb/28db8199-712d-4099-a7d5-70f5762b715a/manifest.json",
+        "createdAt": "2026-03-22T13:08:47.897Z",
+        "lastModified": "2026-03-22T13:08:47.897Z"
+      },
+      "1767a53e-0919-4cb5-a919-ad3396974e88": {
+        "notePath": "100【收纳盒】Inbox/110【草稿】Draft/2026/2026-03/260322_091321.md",
+        "manifestPath": ".versiondb/1767a53e-0919-4cb5-a919-ad3396974e88/manifest.json",
+        "createdAt": "2026-03-22T13:13:23.428Z",
+        "lastModified": "2026-03-22T13:13:23.428Z"
+      }
+    }
+  },
+  "versionHistorySettings": {
+    "maxVersionsPerNote": 50,
+    "autoCleanupOldVersions": false,
+    "autoCleanupDays": 60,
+    "useRelativeTimestamps": true,
+    "enableVersionNaming": false,
+    "enableVersionDescription": false,
+    "showDescriptionInList": false,
+    "isListView": false,
+    "renderMarkdownInPreview": true,
+    "enableWatchMode": false,
+    "watchModeInterval": 60,
+    "autoSaveOnSave": false,
+    "autoSaveOnSaveInterval": 2,
+    "enableMinLinesChangedCheck": true,
+    "minLinesChanged": 5,
+    "enableWordCount": true,
+    "includeMdSyntaxInWordCount": true,
+    "enableCharacterCount": true,
+    "includeMdSyntaxInCharacterCount": true,
+    "enableLineCount": true,
+    "includeMdSyntaxInLineCount": true,
+    "isGlobal": true,
+    "enableDiskPersistence": true,
+    "autoRegisterNotes": true,
+    "pathFilters": []
+  },
+  "editHistorySettings": {
+    "maxVersionsPerNote": 50,
+    "autoCleanupOldVersions": false,
+    "autoCleanupDays": 60,
+    "useRelativeTimestamps": true,
+    "enableVersionNaming": true,
+    "enableVersionDescription": true,
+    "showDescriptionInList": true,
+    "isListView": true,
+    "renderMarkdownInPreview": true,
+    "enableWatchMode": false,
+    "watchModeInterval": 60,
+    "autoSaveOnSave": false,
+    "autoSaveOnSaveInterval": 2,
+    "enableMinLinesChangedCheck": true,
+    "minLinesChanged": 5,
+    "enableWordCount": true,
+    "includeMdSyntaxInWordCount": true,
+    "enableCharacterCount": true,
+    "includeMdSyntaxInCharacterCount": true,
+    "enableLineCount": true,
+    "includeMdSyntaxInLineCount": true,
+    "isGlobal": true,
+    "enableDiskPersistence": true,
+    "autoRegisterNotes": true,
+    "pathFilters": []
+  }
+}

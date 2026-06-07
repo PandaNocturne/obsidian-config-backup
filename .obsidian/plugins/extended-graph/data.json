@@ -1,0 +1,846 @@
+{
+  "enableFeatures": {
+    "graph": {
+      "auto-enabled": false,
+      "tags": false,
+      "properties": false,
+      "property-key": false,
+      "links": false,
+      "linksSameColorAsNode": true,
+      "folders": false,
+      "imagesFromProperty": false,
+      "imagesFromEmbeds": false,
+      "imagesForAttachments": false,
+      "focus": false,
+      "shapes": false,
+      "elements-stats": false,
+      "names": false,
+      "icons": false,
+      "arrows": false,
+      "layers": false
+    },
+    "localgraph": {
+      "auto-enabled": false,
+      "tags": true,
+      "properties": false,
+      "property-key": false,
+      "links": true,
+      "linksSameColorAsNode": true,
+      "folders": true,
+      "imagesFromProperty": true,
+      "imagesFromEmbeds": true,
+      "imagesForAttachments": true,
+      "focus": true,
+      "shapes": true,
+      "elements-stats": true,
+      "names": true,
+      "icons": false,
+      "arrows": true,
+      "layers": false
+    }
+  },
+  "interactiveSettings": {
+    "tag": {
+      "colormap": "hsv",
+      "colors": [
+        {
+          "type": "动漫",
+          "color": "#3700ff",
+          "recursive": true
+        },
+        {
+          "type": "游戏",
+          "color": "#ff0000",
+          "recursive": true
+        },
+        {
+          "type": "电影",
+          "color": "#ffff00",
+          "recursive": true
+        },
+        {
+          "type": "Obsidian",
+          "color": "#ff00ff",
+          "recursive": true
+        }
+      ],
+      "unselected": [],
+      "excludeRegex": {
+        "regex": "",
+        "flags": ""
+      },
+      "noneType": "none",
+      "showOnGraph": true,
+      "enableByDefault": true
+    },
+    "link": {
+      "colormap": "rainbow_r",
+      "colors": [],
+      "unselected": [],
+      "excludeRegex": {
+        "regex": "",
+        "flags": ""
+      },
+      "noneType": "none",
+      "showOnGraph": true,
+      "enableByDefault": true
+    },
+    "folder": {
+      "colormap": "rainbow_r",
+      "colors": [],
+      "unselected": [],
+      "excludeRegex": {
+        "regex": "",
+        "flags": ""
+      },
+      "noneType": ".",
+      "showOnGraph": true,
+      "enableByDefault": false
+    }
+  },
+  "additionalProperties": {},
+  "openInNewTab": false,
+  "canonicalizePropertiesWithDataview": true,
+  "startingStateID": "e051b358-2dc4-4a0b-91c5-12e6940866fa",
+  "syncDefaultState": true,
+  "saveConfigsWithState": false,
+  "imageProperties": [
+    "banner"
+  ],
+  "borderFactor": 0.05,
+  "allowExternalImages": false,
+  "allowExternalLocalImages": false,
+  "nodesSizeProperties": [
+    ""
+  ],
+  "nodesSizeFunction": "default",
+  "nodesSizeRange": {
+    "min": 0.5,
+    "max": 1.5
+  },
+  "nodesColorColormap": "YlOrRd",
+  "nodesColorFunction": "default",
+  "linksSizeFunction": "default",
+  "linksColorColormap": "YlOrRd",
+  "linksColorFunction": "default",
+  "recomputeStatsOnGraphChange": false,
+  "zoomFactor": 2,
+  "maxNodes": 1000,
+  "delay": 100,
+  "revertAction": true,
+  "enableCSS": false,
+  "cssSnippetFilename": "",
+  "shapeQueries": {
+    "circle": {
+      "combinationLogic": "AND",
+      "index": 191,
+      "rules": []
+    },
+    "square": {
+      "combinationLogic": "AND",
+      "index": 78,
+      "rules": []
+    },
+    "triangle": {
+      "combinationLogic": "AND",
+      "index": 144,
+      "rules": []
+    },
+    "diamond": {
+      "combinationLogic": "AND",
+      "index": 145,
+      "rules": []
+    },
+    "pentagon": {
+      "combinationLogic": "AND",
+      "index": 146,
+      "rules": []
+    },
+    "hexagon": {
+      "combinationLogic": "AND",
+      "index": 190,
+      "rules": []
+    },
+    "octagon": {
+      "combinationLogic": "AND",
+      "index": 6,
+      "rules": []
+    },
+    "decagon": {
+      "combinationLogic": "AND",
+      "index": 7,
+      "rules": []
+    },
+    "star4": {
+      "combinationLogic": "AND",
+      "index": 8,
+      "rules": []
+    },
+    "star5": {
+      "combinationLogic": "AND",
+      "index": 9,
+      "rules": []
+    },
+    "star6": {
+      "combinationLogic": "AND",
+      "index": 10,
+      "rules": []
+    },
+    "star8": {
+      "combinationLogic": "AND",
+      "index": 11,
+      "rules": []
+    },
+    "star10": {
+      "combinationLogic": "AND",
+      "index": 12,
+      "rules": []
+    }
+  },
+  "colorBasedOnDepth": true,
+  "depthColormap": "rainbow",
+  "currentNode": {
+    "useColor": true,
+    "color": "#ba75ff",
+    "size": 60,
+    "shape": "star5"
+  },
+  "fadeOnDisable": true,
+  "focusScaleFactor": 1.8,
+  "borderUnresolved": "",
+  "spreadArcs": true,
+  "weightArcs": true,
+  "animateDotsOnLinks": true,
+  "animationSpeedForDots": 2,
+  "interactivesBrightness": {
+    "light": 1,
+    "dark": 1
+  },
+  "fadeInElements": true,
+  "externalLinks": "none",
+  "allowMultipleLinkTypes": false,
+  "disableSource": false,
+  "disableTarget": false,
+  "excludedSourcesFolder": [],
+  "excludedTargetsFolder": [],
+  "curvedLinks": false,
+  "curvedFactor": 1.2,
+  "outlineLinks": false,
+  "displayLinkTypeLabel": true,
+  "colorLinkTypeLabel": true,
+  "noLineHighlight": false,
+  "folderShowFullPath": false,
+  "invertArrows": false,
+  "flatArrows": true,
+  "opaqueArrowsButKeepFading": true,
+  "alwaysOpaqueArrows": false,
+  "arrowScale": 1,
+  "arrowFixedSize": true,
+  "arrowColorBool": false,
+  "arrowColor": "",
+  "numberOfCharacters": null,
+  "showOnlyFileName": true,
+  "noExtension": true,
+  "usePropertiesForName": [],
+  "addBackgroundToName": false,
+  "nameVerticalOffset": 0,
+  "dynamicVerticalOffset": false,
+  "showNamesWhenNeighborHighlighted": true,
+  "iconProperties": [
+    ""
+  ],
+  "usePluginForIcon": false,
+  "usePluginForIconColor": true,
+  "useParentIcon": true,
+  "layerProperties": [],
+  "numberOfActiveLayers": 4,
+  "layersOrder": "ASC",
+  "displayLabelsInUI": false,
+  "nodesWithoutLayerOpacity": 0,
+  "useLayerCustomOpacity": false,
+  "layersCustomOpacity": {},
+  "layersLevels": {},
+  "defaultLevelForLayers": 0,
+  "horizontalLegend": true,
+  "useRadialMenu": true,
+  "radialMenuModifier": "Shift",
+  "pinNodeModifier": "Alt",
+  "filterAbstractFiles": [],
+  "exportSVGOptions": {
+    "asImage": false,
+    "onlyVisibleArea": false,
+    "showNodeNames": true,
+    "useCurvedLinks": true,
+    "useModifiedArrows": true,
+    "useNodesShapes": true,
+    "showArcs": true,
+    "showFolders": true,
+    "useModifiedNames": false,
+    "showIcons": false
+  },
+  "backupGraphOptions": {
+    "collapse-filter": false,
+    "search": "((path:(\"220【记录】Record/221【备忘录】Memos\")) (file:(备忘录)))",
+    "showTags": true,
+    "showAttachments": false,
+    "hideUnresolved": true,
+    "showOrphans": true,
+    "collapse-color-groups": false,
+    "colorGroups": [
+      {
+        "query": "((path:(\"500【资源】Resource/动漫\")) (file:(【动漫】)))",
+        "color": {
+          "a": 1,
+          "rgb": 14048348
+        }
+      },
+      {
+        "query": "((path:(\"500【资源】Resource/游戏\")) (file:(【游戏】)))",
+        "color": {
+          "a": 1,
+          "rgb": 14069084
+        }
+      },
+      {
+        "query": "((path:(\"500【资源】Resource/电影\")) (file:(【电影】)))",
+        "color": {
+          "a": 1,
+          "rgb": 11392604
+        }
+      },
+      {
+        "query": "((path:(\"500【资源】Resource/游戏\")) (file:(【游戏】)))",
+        "color": {
+          "a": 1,
+          "rgb": 6084188
+        }
+      },
+      {
+        "query": "((path:(\"500【资源】Resource/动漫\")) (file:(【动漫】)))",
+        "color": {
+          "a": 1,
+          "rgb": 6084269
+        }
+      },
+      {
+        "query": "((path:(\"500【资源】Resource/电影\")) (file:(【电影】)))",
+        "color": {
+          "a": 1,
+          "rgb": 6073814
+        }
+      },
+      {
+        "query": "((path:(\"500【资源】Resource/游戏\")) (file:(【游戏】)))",
+        "color": {
+          "a": 1,
+          "rgb": 6053078
+        }
+      },
+      {
+        "query": "((path:(\"500【资源】Resource/动漫\")) (file:(【动漫】)))",
+        "color": {
+          "a": 1,
+          "rgb": 11361494
+        }
+      },
+      {
+        "query": "((path:(\"500【资源】Resource/电影\")) (file:(【电影】)))",
+        "color": {
+          "a": 1,
+          "rgb": 14048429
+        }
+      },
+      {
+        "query": "(path:(\"420【编程】Code/WEB前端开发/CSS\"))",
+        "color": {
+          "a": 1,
+          "rgb": 14048348
+        }
+      },
+      {
+        "query": "(path:(\"420【编程】Code/WEB前端开发/HTML\"))",
+        "color": {
+          "a": 1,
+          "rgb": 14069084
+        }
+      },
+      {
+        "query": "(path:(\"420【编程】Code/WEB前端开发/JavaScript\"))",
+        "color": {
+          "a": 1,
+          "rgb": 11392604
+        }
+      },
+      {
+        "query": "(path:(\"420【编程】Code/嵌入式开发/C语言\"))",
+        "color": {
+          "a": 1,
+          "rgb": 6084188
+        }
+      },
+      {
+        "query": "(path:(\"420【编程】Code/数学建模笔记/Python\"))",
+        "color": {
+          "a": 1,
+          "rgb": 6084269
+        }
+      },
+      {
+        "query": "(path:(\"420【编程】Code/数学建模笔记/MATLAB\"))",
+        "color": {
+          "a": 1,
+          "rgb": 6073814
+        }
+      },
+      {
+        "query": "(path:(\"420【编程】Code/WEB前端开发/CSS\"))",
+        "color": {
+          "a": 1,
+          "rgb": 6053078
+        }
+      },
+      {
+        "query": "(path:(\"420【编程】Code/WEB前端开发/HTML\"))",
+        "color": {
+          "a": 1,
+          "rgb": 6053078
+        }
+      },
+      {
+        "query": "(path:(\"420【编程】Code/WEB前端开发/JavaScript\"))",
+        "color": {
+          "a": 1,
+          "rgb": 6053037
+        }
+      },
+      {
+        "query": "(path:(\"420【编程】Code/嵌入式开发/C语言\"))",
+        "color": {
+          "a": 1,
+          "rgb": 6052956
+        }
+      },
+      {
+        "query": "(path:(\"420【编程】Code/数学建模笔记/Python\"))",
+        "color": {
+          "a": 1,
+          "rgb": 6052956
+        }
+      },
+      {
+        "query": "(path:(\"420【编程】Code/数学建模笔记/MATLAB\"))",
+        "color": {
+          "a": 1,
+          "rgb": 6052956
+        }
+      },
+      {
+        "query": "(path:(\"420【编程】Code/WEB前端开发/CSS\"))",
+        "color": {
+          "a": 1,
+          "rgb": 6052956
+        }
+      },
+      {
+        "query": "(path:(\"420【编程】Code/WEB前端开发/HTML\"))",
+        "color": {
+          "a": 1,
+          "rgb": 6052956
+        }
+      },
+      {
+        "query": "(path:(\"420【编程】Code/WEB前端开发/JavaScript\"))",
+        "color": {
+          "a": 1,
+          "rgb": 6052956
+        }
+      },
+      {
+        "query": "(path:(\"420【编程】Code/嵌入式开发/C语言\"))",
+        "color": {
+          "a": 1,
+          "rgb": 6052956
+        }
+      },
+      {
+        "query": "(path:(\"420【编程】Code/数学建模笔记/Python\"))",
+        "color": {
+          "a": 1,
+          "rgb": 6052956
+        }
+      },
+      {
+        "query": "(path:(\"420【编程】Code/数学建模笔记/MATLAB\"))",
+        "color": {
+          "a": 1,
+          "rgb": 6052956
+        }
+      },
+      {
+        "query": "(path:(\"420【编程】Code/WEB前端开发/CSS\"))",
+        "color": {
+          "a": 1,
+          "rgb": 6052956
+        }
+      },
+      {
+        "query": "(path:(\"420【编程】Code/WEB前端开发/HTML\"))",
+        "color": {
+          "a": 1,
+          "rgb": 6052956
+        }
+      },
+      {
+        "query": "(path:(\"420【编程】Code/WEB前端开发/JavaScript\"))",
+        "color": {
+          "a": 1,
+          "rgb": 6052956
+        }
+      },
+      {
+        "query": "(path:(\"420【编程】Code/嵌入式开发/C语言\"))",
+        "color": {
+          "a": 1,
+          "rgb": 6052956
+        }
+      },
+      {
+        "query": "(path:(\"420【编程】Code/数学建模笔记/Python\"))",
+        "color": {
+          "a": 1,
+          "rgb": 6052956
+        }
+      },
+      {
+        "query": "(path:(\"420【编程】Code/数学建模笔记/MATLAB\"))",
+        "color": {
+          "a": 1,
+          "rgb": 6052956
+        }
+      },
+      {
+        "query": "(path:(\"420【编程】Code/WEB前端开发/CSS\"))",
+        "color": {
+          "a": 1,
+          "rgb": 6052956
+        }
+      },
+      {
+        "query": "(path:(\"420【编程】Code/WEB前端开发/HTML\"))",
+        "color": {
+          "a": 1,
+          "rgb": 6052956
+        }
+      },
+      {
+        "query": "(path:(\"420【编程】Code/WEB前端开发/JavaScript\"))",
+        "color": {
+          "a": 1,
+          "rgb": 6052956
+        }
+      },
+      {
+        "query": "(path:(\"420【编程】Code/嵌入式开发/C语言\"))",
+        "color": {
+          "a": 1,
+          "rgb": 6052956
+        }
+      },
+      {
+        "query": "(path:(\"420【编程】Code/数学建模笔记/Python\"))",
+        "color": {
+          "a": 1,
+          "rgb": 6052956
+        }
+      },
+      {
+        "query": "(path:(\"420【编程】Code/数学建模笔记/MATLAB\"))",
+        "color": {
+          "a": 1,
+          "rgb": 6052956
+        }
+      },
+      {
+        "query": "(path:(\"420【编程】Code/WEB前端开发/CSS\"))",
+        "color": {
+          "a": 1,
+          "rgb": 6052956
+        }
+      },
+      {
+        "query": "(path:(\"420【编程】Code/WEB前端开发/HTML\"))",
+        "color": {
+          "a": 1,
+          "rgb": 6052956
+        }
+      },
+      {
+        "query": "(path:(\"420【编程】Code/WEB前端开发/JavaScript\"))",
+        "color": {
+          "a": 1,
+          "rgb": 6052956
+        }
+      },
+      {
+        "query": "(path:(\"420【编程】Code/嵌入式开发/C语言\"))",
+        "color": {
+          "a": 1,
+          "rgb": 6052956
+        }
+      },
+      {
+        "query": "(path:(\"420【编程】Code/数学建模笔记/Python\"))",
+        "color": {
+          "a": 1,
+          "rgb": 6052956
+        }
+      },
+      {
+        "query": "(path:(\"420【编程】Code/数学建模笔记/MATLAB\"))",
+        "color": {
+          "a": 1,
+          "rgb": 6052956
+        }
+      }
+    ],
+    "collapse-display": true,
+    "showArrow": true,
+    "textFadeMultiplier": 0.6,
+    "nodeSizeMultiplier": 1.91904046568397,
+    "lineSizeMultiplier": 1.18295934654023,
+    "collapse-forces": false,
+    "centerStrength": 0.702381882077314,
+    "repelStrength": 20,
+    "linkStrength": 1,
+    "linkDistance": 30,
+    "scale": 0.20022585485369693,
+    "close": true
+  },
+  "states": [
+    {
+      "id": "default-vault",
+      "name": "默认状态",
+      "engineOptions": {
+        "colorGroups": [],
+        "search": "(path:(\"010【笔记】Notes\"))",
+        "hideUnresolved": true,
+        "showAttachments": false,
+        "showOrphans": false,
+        "showTags": false,
+        "lineSizeMultiplier": 1.18295934654023,
+        "nodeSizeMultiplier": 1.91904046568397,
+        "showArrow": true,
+        "textFadeMultiplier": 0.6,
+        "centerStrength": 0.563099315068493,
+        "linkDistance": 30,
+        "linkStrength": 1,
+        "repelStrength": 20
+      },
+      "toggleTypes": {
+        "tag": [],
+        "link": [],
+        "folder": []
+      },
+      "logicTypes": {
+        "tag": "OR",
+        "link": "AND",
+        "folder": "OR"
+      },
+      "enableLayers": false,
+      "currentLayerLevel": 0,
+      "pinNodes": {},
+      "hiddenLegendRows": [],
+      "collapsedLegendRows": []
+    },
+    {
+      "id": "1e001a40-1d8c-4a7b-ae1d-c7b3d8d69607",
+      "name": "深度2",
+      "enableLayers": false,
+      "currentLayerLevel": 0,
+      "toggleTypes": {
+        "tag": [],
+        "link": [],
+        "folder": []
+      },
+      "logicTypes": {
+        "tag": "OR",
+        "link": "AND",
+        "folder": "OR"
+      },
+      "pinNodes": {},
+      "hiddenLegendRows": [
+        "link"
+      ],
+      "collapsedLegendRows": [
+        "tag"
+      ],
+      "engineOptions": {
+        "colorGroups": [],
+        "search": "",
+        "hideUnresolved": true,
+        "showAttachments": false,
+        "showTags": false,
+        "localBacklinks": true,
+        "localForelinks": true,
+        "localInterlinks": true,
+        "localJumps": 2,
+        "lineSizeMultiplier": 1.18295934654023,
+        "nodeSizeMultiplier": 1.91904046568397,
+        "showArrow": true,
+        "textFadeMultiplier": 0.6,
+        "centerStrength": 0.563099315068493,
+        "linkDistance": 30,
+        "linkStrength": 1,
+        "repelStrength": 20
+      }
+    },
+    {
+      "id": "aa67fde3-f381-435d-bf4d-cd424a6866db",
+      "name": "深度3",
+      "enableLayers": false,
+      "currentLayerLevel": 0,
+      "toggleTypes": {
+        "tag": [],
+        "link": [],
+        "folder": []
+      },
+      "logicTypes": {
+        "tag": "OR",
+        "link": "AND",
+        "folder": "OR"
+      },
+      "pinNodes": {},
+      "hiddenLegendRows": [
+        "link"
+      ],
+      "collapsedLegendRows": [],
+      "engineOptions": {
+        "colorGroups": [],
+        "search": "",
+        "hideUnresolved": true,
+        "showAttachments": false,
+        "showTags": false,
+        "localBacklinks": true,
+        "localForelinks": true,
+        "localInterlinks": true,
+        "localJumps": 3,
+        "lineSizeMultiplier": 1.18295934654023,
+        "nodeSizeMultiplier": 1.91904046568397,
+        "showArrow": true,
+        "textFadeMultiplier": 0.6,
+        "centerStrength": 1,
+        "linkDistance": 30,
+        "linkStrength": 1,
+        "repelStrength": 20
+      }
+    },
+    {
+      "id": "e051b358-2dc4-4a0b-91c5-12e6940866fa",
+      "name": "深度1",
+      "enableLayers": false,
+      "currentLayerLevel": 0,
+      "toggleTypes": {
+        "tag": [],
+        "link": [],
+        "folder": []
+      },
+      "logicTypes": {
+        "tag": "OR",
+        "link": "OR",
+        "folder": "OR"
+      },
+      "pinNodes": {},
+      "hiddenLegendRows": [
+        "tag",
+        "link"
+      ],
+      "collapsedLegendRows": [
+        "tag",
+        "link"
+      ],
+      "engineOptions": {
+        "colorGroups": [],
+        "search": "",
+        "hideUnresolved": true,
+        "showAttachments": false,
+        "showTags": false,
+        "localBacklinks": true,
+        "localForelinks": true,
+        "localInterlinks": true,
+        "localJumps": 1,
+        "lineSizeMultiplier": 1.18295934654023,
+        "nodeSizeMultiplier": 1.91904046568397,
+        "showArrow": true,
+        "textFadeMultiplier": 0.6,
+        "centerStrength": 0.563099315068493,
+        "linkDistance": 30,
+        "linkStrength": 1,
+        "repelStrength": 20
+      }
+    }
+  ],
+  "customColorMaps": {},
+  "collapseState": true,
+  "collapseLegend": true,
+  "resetAfterChanges": false,
+  "collapsedSettings": {
+    "automation": false,
+    "tags": true,
+    "properties": false,
+    "links": false,
+    "arrows": true,
+    "folders": true,
+    "images": false,
+    "icons": true,
+    "focus": false,
+    "shapes": true,
+    "layers": false,
+    "elements-stats": false,
+    "names": false,
+    "zoom": false,
+    "local-graph": false,
+    "display": false,
+    "filter": false,
+    "inputs": false,
+    "performances": false,
+    "beta": false
+  },
+  "multipleNodesData": {
+    "shapeData": {
+      "type": "grid",
+      "center": {
+        "x": 0,
+        "y": 0
+      },
+      "step": 150,
+      "columns": 5
+    },
+    "queryData": {
+      "combinationLogic": "AND",
+      "rules": [
+        {
+          "source": "all",
+          "property": "",
+          "value": "",
+          "logic": ""
+        }
+      ]
+    }
+  },
+  "graphStatsDirection": "normal",
+  "highlightOpenNodes": false,
+  "highlightSearchResults": false,
+  "externalLinksProperties": [
+    "url"
+  ],
+  "externalLinkOpenMode": "note",
+  "showPinIcon": true,
+  "ellipsis": "…",
+  "backgroundOpacityWithIcon": 0,
+  "useIconColorForBackgroud": true,
+  "borderWidthWithIcon": 1,
+  "useLeftClickToSelect": true,
+  "selectNodeModifier": "Shift",
+  "ignoreInlineLinks": false,
+  "selectionMode": "replace"
+}

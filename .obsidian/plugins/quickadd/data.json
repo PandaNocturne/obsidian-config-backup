@@ -1,0 +1,4133 @@
+{
+  "choices": [
+    {
+      "id": "d5225627-9c9d-4a5a-8647-030deaa9f629",
+      "name": "Multi：New Note",
+      "type": "Multi",
+      "command": true,
+      "choices": [
+        {
+          "id": "d5b109cc-1b9e-41eb-9684-4fd6986755ad",
+          "name": "🎨Excalidraw",
+          "type": "Template",
+          "command": false,
+          "templatePath": "700【模板】Template/Template.excalidraw.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{date:YYMMDD_HHmmss}}.excalidraw"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "600【可视化】VisualTools/610【画板】Excalidraw"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": false,
+          "openFile": true,
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "focus": true,
+            "mode": "preview"
+          },
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFileInMode": "preview",
+          "fileExistsBehavior": {
+            "kind": "apply",
+            "mode": "increment"
+          }
+        },
+        {
+          "id": "d43be67e-3e43-4ab8-a40e-fe693334202c",
+          "name": "⏹️Canvas",
+          "type": "Macro",
+          "command": false,
+          "runOnStartup": false,
+          "macro": {
+            "name": "⏹️Canvas",
+            "id": "f68654b1-4ff5-4365-a82a-ebdec7f862db",
+            "commands": [
+              {
+                "name": "260407_新建白板",
+                "type": "UserScript",
+                "id": "d8579a29-dbe5-448e-88c9-433bd2400f0e",
+                "path": "700【模板】Template/QuickAdd/260407_新建白板.js",
+                "settings": {
+                  "文件路径": "600【可视化】VisualTools/600【白板】Canvas",
+                  "文件命名格式": "{{DATE:YYMMDD_HHmmss}}"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "efdac45f-43d0-42dc-91b3-0b2a02fa2920",
+          "name": "⚓Markmind",
+          "type": "Multi",
+          "command": false,
+          "choices": [
+            {
+              "id": "ab6033bb-7a25-4755-a5d0-f79727b2b88b",
+              "name": "⚓Markmind（markdown）",
+              "type": "Template",
+              "command": false,
+              "templatePath": "700【模板】Template/Template-Markmind-markdown.md",
+              "fileNameFormat": {
+                "enabled": true,
+                "format": "{{date:YYMMDD_HHmmss}}.markmind"
+              },
+              "folder": {
+                "enabled": true,
+                "folders": [
+                  "600【可视化】VisualTools/630【导图】Markmind"
+                ],
+                "chooseWhenCreatingNote": false,
+                "createInSameFolderAsActiveFile": false,
+                "chooseFromSubfolders": false
+              },
+              "appendLink": false,
+              "openFile": true,
+              "fileOpening": {
+                "location": "tab",
+                "direction": "vertical",
+                "focus": true,
+                "mode": "preview"
+              },
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFileInMode": "preview",
+              "fileExistsBehavior": {
+                "kind": "prompt"
+              }
+            },
+            {
+              "id": "bf292ce3-3bdf-45b1-b326-2fcc7b78c5ae",
+              "name": "⚓Markmind（rich）",
+              "type": "Template",
+              "command": false,
+              "templatePath": "700【模板】Template/Template-Markmind-Rich.md",
+              "fileNameFormat": {
+                "enabled": true,
+                "format": "{{date:YYMMDD_HHmmss}}.markmind-rich"
+              },
+              "folder": {
+                "enabled": true,
+                "folders": [
+                  "600【可视化】VisualTools/630【导图】Markmind"
+                ],
+                "chooseWhenCreatingNote": false,
+                "createInSameFolderAsActiveFile": false,
+                "chooseFromSubfolders": false
+              },
+              "appendLink": false,
+              "openFile": true,
+              "fileOpening": {
+                "location": "tab",
+                "direction": "vertical",
+                "focus": true,
+                "mode": "preview"
+              },
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFileInMode": "preview",
+              "fileExistsBehavior": {
+                "kind": "prompt"
+              }
+            }
+          ],
+          "collapsed": true
+        },
+        {
+          "id": "c81ee233-f56d-4d76-9a5e-e07c6e241181",
+          "name": "🗓️日记记录",
+          "type": "Template",
+          "command": false,
+          "templatePath": "700【模板】Template/QuickDraft模板.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{date:YYYY/YYMMDD_hhmmss}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "200【日记】Diary"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": false,
+          "openFile": true,
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "focus": true,
+            "mode": "source"
+          },
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFileInMode": "source",
+          "fileExistsBehavior": {
+            "kind": "prompt"
+          }
+        },
+        {
+          "id": "4aca66c5-37e0-4aeb-8001-198d26ecd39e",
+          "name": "💡灵感记录",
+          "type": "Macro",
+          "command": false,
+          "runOnStartup": false,
+          "macro": {
+            "name": "💡灵感记录",
+            "id": "1c54d3a0-9c09-47d0-bb38-c673570584ec",
+            "commands": [
+              {
+                "name": "Thino: 在中心窗口打开 thino",
+                "type": "Obsidian",
+                "id": "a180b3dd-4957-40bf-9750-6ea578022a1e",
+                "commandId": "obsidian-memos:open-thino-in-center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "6d231273-6dec-44ab-b365-581f192f31fd",
+          "name": "📒 打开便笺",
+          "type": "Macro",
+          "command": false,
+          "runOnStartup": false,
+          "macro": {
+            "name": "📒 打开便笺",
+            "id": "7548f327-1fb8-44aa-8610-c1078eedc214",
+            "commands": [
+              {
+                "name": "Colorful StickyNotes: 打开/关闭当前便笺工作区的便笺",
+                "type": "Obsidian",
+                "id": "29bb5a21-8f4e-4c09-97c5-a768d873916c",
+                "commandId": "colorful-stickynotes:open-sticky-note-windows"
+              }
+            ]
+          }
+        },
+        {
+          "id": "3fcf7077-0f0c-452e-b9ac-215b41f41d75",
+          "name": "✨ 动漫&游戏",
+          "type": "Macro",
+          "command": false,
+          "runOnStartup": false,
+          "macro": {
+            "name": "✨ 动漫&游戏",
+            "id": "551079e4-546d-4416-9cce-e2b87e363f22",
+            "commands": [
+              {
+                "name": "Douban: 搜索并创建文档",
+                "type": "Obsidian",
+                "id": "cc70d75f-0a05-482b-98c4-5b5369d78dbe",
+                "commandId": "obsidian-douban-plugin:searcher-douban-import-and-create-file"
+              }
+            ]
+          }
+        },
+        {
+          "id": "78cafc5a-9f08-4e90-a689-56675b23152d",
+          "name": "🎯项目&任务",
+          "type": "Macro",
+          "command": false,
+          "runOnStartup": false,
+          "macro": {
+            "name": "🎯项目&任务",
+            "id": "a0944a0c-e519-47aa-b056-74815f162c72",
+            "commands": [
+              {
+                "name": "260409_项目生成器",
+                "type": "UserScript",
+                "id": "530e3b6a-01d5-42a4-80c0-01469456e4b8",
+                "path": "700【模板】Template/QuickAdd/260409_项目生成器.js",
+                "settings": {
+                  "TaskNote文件夹": "310【任务】Tasks/{{DATE:YYYY}}",
+                  "TaskNote创建模板": "700【模板】Template/TaskNote模板.md",
+                  "TaskNote默认标签": "#TaskNote",
+                  "Project文件夹": "300【项目】Project",
+                  "Project创建模板": "700【模板】Template/TaskNote模板.md",
+                  "Project默认标签": "#Project",
+                  "任务状态字段": "status",
+                  "任务状态选项": "Plan\nScheduing\nIn Progress\nIn Review\nDone\nCancelled",
+                  "默认开启FolderNote": false,
+                  "TaskNote默认开启FolderNote": false,
+                  "Project默认开启FolderNote": false
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "3de7740d-3e24-4b42-b6e8-3f1ab69f33ed",
+          "name": "📥 收纳&输入",
+          "type": "Multi",
+          "command": false,
+          "choices": [
+            {
+              "id": "1b82b2be-3a86-48c2-8cd7-1cef0135ac9f",
+              "name": "✂️ Clippings",
+              "type": "Template",
+              "command": false,
+              "templatePath": "700【模板】Template/QuickDraft模板.md",
+              "fileNameFormat": {
+                "enabled": true,
+                "format": "{{date:yyyy}}/{{date:YYMMDD_hhmmss}}"
+              },
+              "folder": {
+                "enabled": true,
+                "folders": [
+                  "100【收纳盒】Inbox/120【剪藏】Clippings"
+                ],
+                "chooseWhenCreatingNote": false,
+                "createInSameFolderAsActiveFile": false,
+                "chooseFromSubfolders": false
+              },
+              "appendLink": false,
+              "openFile": true,
+              "fileOpening": {
+                "location": "tab",
+                "direction": "vertical",
+                "focus": true,
+                "mode": "live"
+              },
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFileInMode": "source",
+              "fileExistsBehavior": {
+                "kind": "apply",
+                "mode": "increment"
+              }
+            },
+            {
+              "id": "28602f0a-4d7a-4d3a-aa7c-2eb448231b1b",
+              "name": "🎥 VideoNotes",
+              "type": "Template",
+              "command": false,
+              "templatePath": "700【模板】Template/QuickDraft模板.md",
+              "fileNameFormat": {
+                "enabled": true,
+                "format": "{{date:yyyy}}/{{date:YYMMDD_hhmmss}}"
+              },
+              "folder": {
+                "enabled": true,
+                "folders": [
+                  "100【收纳盒】Inbox/130【视频】VideoNotes"
+                ],
+                "chooseWhenCreatingNote": false,
+                "createInSameFolderAsActiveFile": false,
+                "chooseFromSubfolders": false
+              },
+              "appendLink": false,
+              "openFile": true,
+              "fileOpening": {
+                "location": "tab",
+                "direction": "vertical",
+                "focus": true,
+                "mode": "live"
+              },
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFileInMode": "source",
+              "fileExistsBehavior": {
+                "kind": "apply",
+                "mode": "increment"
+              }
+            },
+            {
+              "id": "53b02ff9-5741-429b-8ca6-cc633e105b4d",
+              "name": "🧩 CodeSnippets",
+              "type": "Template",
+              "command": false,
+              "templatePath": "700【模板】Template/QuickDraft模板.md",
+              "fileNameFormat": {
+                "enabled": true,
+                "format": "{{date:yyyy}}/{{date:YYMMDD_[【Snippets】]hhmmss}}"
+              },
+              "folder": {
+                "enabled": true,
+                "folders": [
+                  "100【收纳盒】Inbox/160【片段】CodeSnippets"
+                ],
+                "chooseWhenCreatingNote": false,
+                "createInSameFolderAsActiveFile": false,
+                "chooseFromSubfolders": false
+              },
+              "appendLink": false,
+              "openFile": true,
+              "fileOpening": {
+                "location": "tab",
+                "direction": "vertical",
+                "focus": true,
+                "mode": "live"
+              },
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFileInMode": "source",
+              "fileExistsBehavior": {
+                "kind": "apply",
+                "mode": "increment"
+              }
+            },
+            {
+              "id": "b1204574-16b0-418b-b2f7-cba80dfa3b82",
+              "name": "📒 Zettelkasten",
+              "type": "Macro",
+              "command": false,
+              "runOnStartup": false,
+              "macro": {
+                "name": "📒 Zettelkasten",
+                "id": "495f383b-45ed-4100-aabb-def44331874a",
+                "commands": [
+                  {
+                    "name": "260407_新建白板",
+                    "type": "UserScript",
+                    "id": "de1b4684-4ced-4fc6-bf8c-3e4638b82c3d",
+                    "path": "700【模板】Template/QuickAdd/260407_新建白板.js",
+                    "settings": {
+                      "文件路径": "100【收纳盒】Inbox/150【便签】Zettelkasten",
+                      "文件命名格式": "{{date:yyyy}}/{{date:YYMMDD_hhmmss}}"
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "collapsed": false
+        }
+      ],
+      "collapsed": false
+    },
+    {
+      "id": "4bf42596-4827-499c-adb2-3dfc20a6d223",
+      "name": "Multi：Template",
+      "type": "Multi",
+      "command": false,
+      "choices": [
+        {
+          "id": "82af08c1-92d4-4e1c-a9e9-a0cc9f60483b",
+          "name": "Template：📝QuickNote",
+          "type": "Template",
+          "command": true,
+          "templatePath": "700【模板】Template/QuickDraft模板.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{date:YYMMDD_HHmmss}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": true,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": true,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "source",
+          "fileOpening": {
+            "location": "split",
+            "direction": "vertical",
+            "focus": true,
+            "mode": "live"
+          },
+          "fileExistsBehavior": {
+            "kind": "apply",
+            "mode": "increment"
+          }
+        },
+        {
+          "id": "0ce891b0-79dc-44dd-a3f2-6c19c3fc5bc9",
+          "name": "Template：📋QuickDraft (insert)",
+          "type": "Template",
+          "command": true,
+          "templatePath": "700【模板】Template/QuickDraft模板.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{date:YYYY/YYYY-MM/YYMMDD_hhmmss}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "100【收纳盒】Inbox/110【草稿】Draft"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": true,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "source",
+          "fileOpening": {
+            "location": "split",
+            "direction": "vertical",
+            "focus": true,
+            "mode": "live"
+          },
+          "fileExistsBehavior": {
+            "kind": "prompt"
+          }
+        },
+        {
+          "id": "327efa76-b5b1-4df4-b370-414618126220",
+          "name": "Template：📊InsertKanban (insert) ",
+          "type": "Template",
+          "command": true,
+          "templatePath": "700【模板】Template/【Template】Kanban模板.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{date:YYMMDD_hhmmss}}.kanban"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": true,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": true,
+          "openFile": false,
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "focus": true,
+            "mode": "source"
+          },
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFileInMode": "source",
+          "fileExistsBehavior": {
+            "kind": "prompt"
+          }
+        },
+        {
+          "id": "045e67a5-630e-4a3d-af56-96235af95e16",
+          "name": "Template：📋QuickDraft",
+          "type": "Template",
+          "command": true,
+          "templatePath": "700【模板】Template/QuickDraft模板.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{date:YYYY/YYMMDD_hhmmss}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "100【收纳盒】Inbox/110【草稿】Draft"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "source",
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "focus": true,
+            "mode": "live"
+          },
+          "onePageInput": "always",
+          "fileExistsBehavior": {
+            "kind": "apply",
+            "mode": "increment"
+          }
+        },
+        {
+          "id": "acdfe3af-b76b-4b80-b471-52a09bb372f1",
+          "name": "Template：📋QuickDraft (copy)",
+          "type": "Template",
+          "command": true,
+          "templatePath": "700【模板】Template/QuickDraft模板.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{date:[【Draft】]YYMMDD_hhmmss}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": true,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": false,
+          "openFileInNewTab": {
+            "enabled": true,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "source",
+          "fileOpening": {
+            "location": "split",
+            "direction": "vertical",
+            "focus": true,
+            "mode": "live"
+          },
+          "fileExistsBehavior": {
+            "kind": "prompt"
+          }
+        },
+        {
+          "id": "e5e6ec5c-ad4e-4b32-9d4d-354a5c4f8fb1",
+          "name": "Template：🎯QuickTasks",
+          "type": "Template",
+          "command": true,
+          "templatePath": "700【模板】Template/TaskNote模板.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{date:YYYY/YYMMDD_hhmmss/YYMMDD_hhmmss}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "310【任务】Tasks"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": true,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "source",
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "focus": true,
+            "mode": "live"
+          },
+          "fileExistsBehavior": {
+            "kind": "prompt"
+          }
+        },
+        {
+          "id": "c2286e21-0231-4458-90d2-e26671803bee",
+          "name": "Capture：insert Canvas Link",
+          "type": "Capture",
+          "command": true,
+          "appendLink": false,
+          "captureTo": "",
+          "captureToActiveFile": true,
+          "createFileIfItDoesntExist": {
+            "enabled": false,
+            "createWithTemplate": false,
+            "template": ""
+          },
+          "format": {
+            "enabled": true,
+            "format": "[[{{DATE:YYMMDD_HHmmss}}.canvas]]"
+          },
+          "insertAfter": {
+            "enabled": false,
+            "after": "",
+            "insertAtEnd": false,
+            "considerSubsections": false,
+            "createIfNotFound": false,
+            "createIfNotFoundLocation": "top"
+          },
+          "prepend": false,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default",
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "focus": true,
+            "mode": "default"
+          },
+          "activeFileWritePosition": "cursor"
+        },
+        {
+          "id": "eba016c0-294b-4301-b25f-2138a06e9c00",
+          "name": "Template：🎨InsertDraw",
+          "type": "Template",
+          "command": true,
+          "templatePath": "700【模板】Template/Template.excalidraw.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{date:YYMMDD_HHmmss}}.excalidraw"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": true,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": true,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "preview",
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "focus": true,
+            "mode": "preview"
+          },
+          "fileExistsBehavior": {
+            "kind": "apply",
+            "mode": "increment"
+          }
+        },
+        {
+          "id": "fed11708-8d98-42bc-a7b9-55a0e9f3d491",
+          "name": "Macro：📐InsertSVG",
+          "type": "Macro",
+          "command": true,
+          "macro": {
+            "id": "4dc2fbba-0b20-4d0d-b3ed-bb6e09dd8661",
+            "name": "Macro：📐InsertSVG",
+            "commands": [
+              {
+                "name": "2024-03-27_InsertSVGTemplate",
+                "type": "UserScript",
+                "id": "0e104cde-d90e-4e68-8572-f05fc8a0346f",
+                "path": "700【模板】Template/QuickAdd/2024-03-27_InsertSVGTemplate.js",
+                "settings": {
+                  "SVG命名格式": "{{DATE:[600【可视化】VisualTools/620【图表】Diagrams/]YYMMDD_HHmmss}}",
+                  "SVG文件路径": "仓库根目录",
+                  "SVG自动打开": true,
+                  "SVG编辑器": "D:\\Drawio\\draw.io\\draw.io.exe"
+                }
+              }
+            ]
+          },
+          "runOnStartup": false
+        },
+        {
+          "id": "59ba4124-a70a-4241-8796-d1ab5156a458",
+          "name": "Multi：Markmind",
+          "type": "Multi",
+          "command": true,
+          "choices": [
+            {
+              "id": "f3746cb8-e8ea-4c6c-90fa-c4cf75530788",
+              "name": "Template：⚓Markmind (markdown) ",
+              "type": "Template",
+              "command": true,
+              "templatePath": "700【模板】Template/Template-Markmind-markdown.md",
+              "fileNameFormat": {
+                "enabled": true,
+                "format": "{{date:YYMMDD_HHmmss}}.markmind"
+              },
+              "folder": {
+                "enabled": true,
+                "folders": [
+                  "630【导图】Markmind"
+                ],
+                "chooseWhenCreatingNote": false,
+                "createInSameFolderAsActiveFile": true,
+                "chooseFromSubfolders": false
+              },
+              "appendLink": true,
+              "openFile": true,
+              "fileOpening": {
+                "location": "tab",
+                "direction": "vertical",
+                "focus": true,
+                "mode": "preview"
+              },
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFileInMode": "preview",
+              "fileExistsBehavior": {
+                "kind": "prompt"
+              }
+            },
+            {
+              "id": "e84f7b46-4c17-49cf-925c-336fb608e331",
+              "name": "Template：⚓Markmind(rich)",
+              "type": "Template",
+              "command": true,
+              "templatePath": "700【模板】Template/Template-Markmind-Rich.md",
+              "fileNameFormat": {
+                "enabled": true,
+                "format": "{{date:YYMMDD_HHmmss}}.markmind-rich"
+              },
+              "folder": {
+                "enabled": true,
+                "folders": [
+                  "630【导图】Markmind"
+                ],
+                "chooseWhenCreatingNote": false,
+                "createInSameFolderAsActiveFile": true,
+                "chooseFromSubfolders": false
+              },
+              "appendLink": true,
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": true,
+              "openFileInMode": "preview",
+              "fileOpening": {
+                "location": "tab",
+                "direction": "vertical",
+                "focus": true,
+                "mode": "preview"
+              },
+              "fileExistsBehavior": {
+                "kind": "prompt"
+              }
+            }
+          ],
+          "collapsed": true
+        },
+        {
+          "id": "1c483c14-51bb-4943-b766-8af89c2e7756",
+          "name": "Template：📊PKMerReport",
+          "type": "Template",
+          "command": false,
+          "templatePath": "700【模板】Template/模板-PKMer会议汇报.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{date:YYYY/YYYY-MM-[W]ww}}_PKMer会议汇报"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "230【会议】Meeting/【社区】PKMer社区/PKMer会议汇报"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": true,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "source",
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "focus": true,
+            "mode": "source"
+          },
+          "fileExistsBehavior": {
+            "kind": "apply",
+            "mode": "doNothing"
+          }
+        },
+        {
+          "id": "09c0a815-09fd-46ea-a48f-3a9eadeeb746",
+          "name": "Template：🍀PKMerProjects",
+          "type": "Template",
+          "command": false,
+          "templatePath": "700【模板】Template/PKMer写作模板.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{date:YYMMDD}}_{{VALUE: 输入笔记名称}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "300【项目】Project/【Project】PKMer文章"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": true,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": false
+          },
+          "openFile": false,
+          "openFileInMode": "source",
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "focus": false,
+            "mode": "source"
+          },
+          "fileExistsBehavior": {
+            "kind": "apply",
+            "mode": "increment"
+          }
+        }
+      ],
+      "collapsed": false
+    },
+    {
+      "id": "af18a296-4a51-41dd-94a1-abd157928559",
+      "name": "Multi：自定义脚本",
+      "type": "Multi",
+      "command": false,
+      "choices": [
+        {
+          "id": "7c3fffd8-b880-4cad-903b-4c4157992a7a",
+          "name": "Macro：新窗口打开笔记",
+          "type": "Macro",
+          "command": true,
+          "macro": {
+            "id": "b60eda5c-d399-435d-9ad3-1e66730c811c",
+            "name": "Macro：新窗口打开笔记",
+            "commands": [
+              {
+                "name": "24.06.14_新窗口打开笔记",
+                "type": "UserScript",
+                "id": "64b9bfe7-a5a9-422d-bc86-a2d34ad79091",
+                "path": "700【模板】Template/QuickAdd/24.06.14_新窗口打开笔记.js",
+                "settings": {}
+              }
+            ]
+          },
+          "runOnStartup": false
+        },
+        {
+          "id": "be9e569b-ae0c-43e4-9d4a-429d497c70d7",
+          "name": "Macro：⏰EditTask",
+          "type": "Macro",
+          "command": true,
+          "macro": {
+            "id": "960e3177-a4ce-48c0-9559-5d864670afcf",
+            "name": "Macro：⏰EditTask",
+            "commands": [
+              {
+                "name": "2024-04-30_EditorOrCreatTask",
+                "type": "UserScript",
+                "id": "2fdf2dba-5114-44d0-b1aa-6df6d0ceb81a",
+                "path": "700【模板】Template/QuickAdd/2024-04-30_EditorOrCreatTask.js",
+                "settings": {
+                  "Tag": "",
+                  "time": true,
+                  "AutoTime": false,
+                  "AutoCreatedDate": false
+                }
+              }
+            ]
+          },
+          "runOnStartup": false
+        },
+        {
+          "id": "78e62e2c-b2ea-49fa-bd3a-7d320368a4fe",
+          "name": "Capture：插入创建时间",
+          "type": "Capture",
+          "command": true,
+          "appendLink": false,
+          "captureTo": "",
+          "captureToActiveFile": true,
+          "createFileIfItDoesntExist": {
+            "enabled": false,
+            "createWithTemplate": false,
+            "template": ""
+          },
+          "format": {
+            "enabled": true,
+            "format": "```js quickadd\nconst yaml = \"date\";\nconst file = app.workspace.getActiveFile();\nawait app.fileManager.processFrontMatter(file, fm => {\n  if (!fm[yaml]) {\n    fm[yaml] = \"\";\n    const ctime = new Date(file.stat.ctime);\n    console.log(formattedTime);\n    fm[yaml] = moment(ctime).format(\"YYYY-MM-DD\");\n  }\n});\n```"
+          },
+          "insertAfter": {
+            "enabled": false,
+            "after": "",
+            "insertAtEnd": false,
+            "considerSubsections": false,
+            "createIfNotFound": false,
+            "createIfNotFoundLocation": "top"
+          },
+          "prepend": false,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default",
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "focus": true,
+            "mode": "default"
+          }
+        },
+        {
+          "id": "c5a6f529-f4f8-4500-878a-ae32626e0c61",
+          "name": "Macro：🔁BulkRenames",
+          "type": "Macro",
+          "command": true,
+          "macro": {
+            "id": "5c62cacd-dc32-4072-a673-5022a18d15e1",
+            "name": "Macro：🔁BulkRenames",
+            "commands": [
+              {
+                "name": "Obsidian_Bulk_Rename",
+                "type": "UserScript",
+                "id": "06322a54-9022-47d9-bd02-51d4270c57de",
+                "path": "700【模板】Template/QuickAdd/Obsidian_Bulk_Rename.js",
+                "settings": {
+                  "RenameChangeLogPath": "900【素材】Assets/RenameChangeLog.md"
+                }
+              }
+            ]
+          },
+          "runOnStartup": false
+        },
+        {
+          "id": "10fe1d40-df0c-440e-90d0-ab23f92bcc90",
+          "name": "Macro：⚓TreeFolder",
+          "type": "Macro",
+          "command": false,
+          "macro": {
+            "id": "686e963a-d888-4677-be07-bf2d6aa0e616",
+            "name": "Macro：⚓TreeFolder",
+            "commands": [
+              {
+                "name": "2024-03-13_TreeFolder",
+                "type": "UserScript",
+                "id": "65987377-baae-4e62-83c6-8c25dd3e5952",
+                "path": "700【模板】Template/QuickAdd/2024-03-13_TreeFolder.js",
+                "settings": {
+                  "folderMindPath": "FolderNote.markmind.md",
+                  "maxDepth": "6",
+                  "limit": "2",
+                  "ignoreFolders": "@【熊阿莫】赞美太阳！",
+                  "ignoreSubfoldersList": "900【素材】Assets,510_Bookxnote库,700【模板】Template,550_CodeSnippet,540_图形文件存储",
+                  "level": "2"
+                }
+              }
+            ]
+          },
+          "runOnStartup": false
+        },
+        {
+          "id": "674b56eb-b2d5-41ba-a1dc-e079a9d94dfa",
+          "name": "Capture：♻FixCanvas",
+          "type": "Capture",
+          "command": true,
+          "appendLink": false,
+          "captureTo": "700【模板】Template/日记空白模板.md",
+          "captureToActiveFile": false,
+          "createFileIfItDoesntExist": {
+            "enabled": false,
+            "createWithTemplate": false,
+            "template": ""
+          },
+          "format": {
+            "enabled": true,
+            "format": "```js quickadd\nconst path = require('path');\nconst fs = require('fs');\n\n// 获取笔记的基本路径\nconst file = app.workspace.getActiveFile();\nconst fileFullPath = app.vault.adapter.getFullPath(file.path);\n\nif (file.extension == 'canvas') {\n    new Notice('🔴开始修复Canvas的失效文档');\n    // 获取库所有文件列表\n    const files = app.vault.getFiles();\n    // wikiPath = getFilePath(files, selectionEmbed); // 匹配Wiki链接\n    // console.log(wikiPath);\n    // 读取JSON格式的canvas文件并修改nodes中的object.file后再写回原文件\n    fs.readFile(fileFullPath, 'utf8', (err, data) => {\n        if (err) throw err;\n        const canvasData = JSON.parse(data);\n\n        // 处理nodes中的object.file，例如将其替换为其他文件\n        canvasData.nodes.forEach(node => {\n            // 进行处理，例如替换为其他文件\n            const baseName = path.basename(String(node.file));\n            const filePath = getFilePath(files, baseName);\n\n            if ((filePath.length > 1 || !filePath) && (baseName.length > 1)) {\n                new Notice(`🟡文件：${baseName}，有${filePath.length}个重复文件，故跳过修复`, 5000);\n\n            } else if (baseName.length > 1) {\n                node.file = String(filePath);\n            }\n\n        });\n        // 将修改后的canvasData写回原文件\n        fs.writeFile(fileFullPath, JSON.stringify(canvasData, null, 2), 'utf8', (err) => {\n            if (err) throw err;\n            new Notice('🟢Canvas失效文档已更新');\n        });\n    });\n\n}\n\nfunction getFilePath(files, baseName) {\n\tlet files2 = files.filter(f => path.basename(f.path).replace(\".md\", \"\") === path.basename(baseName).replace(\".md\", \"\"));\n\tlet filePath = files2.map((f) => f.path);\n\treturn filePath[0];\n}\n\n```"
+          },
+          "insertAfter": {
+            "enabled": false,
+            "after": "",
+            "insertAtEnd": false,
+            "considerSubsections": false,
+            "createIfNotFound": false,
+            "createIfNotFoundLocation": "top"
+          },
+          "prepend": false,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default",
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "focus": true,
+            "mode": "default"
+          }
+        },
+        {
+          "id": "f0d497e3-a9ab-481f-8de4-2d8f1755e488",
+          "name": "Macro：🌊ConvertCanvas",
+          "type": "Macro",
+          "command": true,
+          "macro": {
+            "id": "fc7f1550-2ad2-431b-9a72-d267773f0c04",
+            "name": "Macro：🌊ConvertCanvas",
+            "commands": [
+              {
+                "name": "convertMdToCanvas",
+                "type": "UserScript",
+                "id": "537f1f6d-bdb0-4cfb-838e-48538ce40914",
+                "path": "700【模板】Template/QuickAdd/convertMdToCanvas.js",
+                "settings": {
+                  "canvasPath": "900【素材】Assets/MdToCanvas.canvas",
+                  "level": "1",
+                  "width": "1000",
+                  "height": "600",
+                  "space": "50",
+                  "limit": "2"
+                }
+              }
+            ]
+          },
+          "runOnStartup": false
+        },
+        {
+          "id": "79ea5bef-d7ba-471b-9677-53dbf85e5e06",
+          "name": "Capture：悬浮Thino",
+          "type": "Capture",
+          "command": true,
+          "appendLink": false,
+          "captureTo": "700【模板】Template/日记空白模板.md",
+          "captureToActiveFile": false,
+          "createFileIfItDoesntExist": {
+            "enabled": false,
+            "createWithTemplate": false,
+            "template": ""
+          },
+          "format": {
+            "enabled": true,
+            "format": "```js quickadd\n// 在hover中打开\napp.plugins.plugins[\"obsidian-memos\"].showInPopover();\n```"
+          },
+          "insertAfter": {
+            "enabled": false,
+            "after": "",
+            "insertAtEnd": false,
+            "considerSubsections": false,
+            "createIfNotFound": false,
+            "createIfNotFoundLocation": "top"
+          },
+          "prepend": false,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default",
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "focus": true,
+            "mode": "default"
+          }
+        },
+        {
+          "id": "ae3371b8-02cd-4cf5-8ba8-85614dc2c1df",
+          "name": "Capture：⚡重命名小标题",
+          "type": "Capture",
+          "command": true,
+          "appendLink": false,
+          "captureTo": "",
+          "captureToActiveFile": true,
+          "createFileIfItDoesntExist": {
+            "enabled": false,
+            "createWithTemplate": false,
+            "template": ""
+          },
+          "format": {
+            "enabled": true,
+            "format": "```js quickadd\nfunction uniEv(item, type, func) {\n    item.ev && item.removeEventListener(type, item.ev)\n    item.ev = func; item.addEventListener(type, item.ev)\n}; setInterval(()=> {\n    let eles = Array.from(document.querySelectorAll('.cm-header')).filter(p=> !p.classList.contains('cm-formatting'))\n    for (let ele of eles) uniEv(ele, 'click', ()=> app.commands.executeCommandById('editor:rename-heading')) }, 1000)\n```"
+          },
+          "insertAfter": {
+            "enabled": false,
+            "after": "",
+            "insertAtEnd": false,
+            "considerSubsections": false,
+            "createIfNotFound": false,
+            "createIfNotFoundLocation": "top"
+          },
+          "prepend": false,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default",
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "focus": true,
+            "mode": "default"
+          }
+        },
+        {
+          "id": "85b42841-c89f-4b60-a4cf-bf8ee9f5a7a5",
+          "name": "ModaForms：🔴ZoteroItem(简)",
+          "type": "Capture",
+          "command": true,
+          "appendLink": false,
+          "captureTo": "",
+          "captureToActiveFile": true,
+          "createFileIfItDoesntExist": {
+            "enabled": false,
+            "createWithTemplate": false,
+            "template": ""
+          },
+          "format": {
+            "enabled": true,
+            "format": "```js quickadd\n// 🔴修改Zotero路径即可\nconst folderPath = 'D:/Zotero/storage';\nconst fs = require('fs');\nconst modalForm = app.plugins.plugins.modalforms.api;\nconst files = fs.readdirSync(folderPath);\nconst zoteroItems = [];\n\nlet selection = window.getSelection();\nselection = selection.toString();\n\nfiles.forEach((file) => {\n\tconst filePath = `${folderPath}/${file}`;\n\tconst stat = fs.statSync(filePath);\n\tif (stat.isDirectory()) {\n\t\tconst subFiles = fs.readdirSync(filePath);\n\t\tconst pdfFiles = subFiles.filter((subFile) => subFile.endsWith('.pdf')).map((pdfFile) => pdfFile.replace('.pdf', ''));\n\n\t\tif (pdfFiles.length > 0) {\n\t\t\tconst zoteroItem = {};\n\t\t\tzoteroItem[\"item\"] = file;\n\t\t\tzoteroItem[\"link\"] = `zotero://open-pdf/library/items/${file}`;\n\t\t\tzoteroItem[\"file\"] = pdfFiles[0];\n\t\t\tzoteroItems.push(zoteroItem);\n\t\t}\n\t}\n});\n\nconsole.log(zoteroItems);\n\nlet zoteroItemNames = [];\nzoteroItems.forEach((item) => {\n\tzoteroItemNames.push(item[\"file\"]);\n});\n\n// console.log(zoteroItemNames)\nconst values = {\n\tZoteroItems: selection,\n};\n\nconst result = await modalForm.openForm({\n\ttitle: \"zoteroModalForms\",\n\tname: \"zoteroModalForms\",\n\tversion: \"1\",\n\tfields: [\n\t\t{\n\t\t\tname: \"ZoteroItems\",\n\t\t\tlabel: \"\",\n\t\t\tdescription: \"\",\n\t\t\tinput: {\n\t\t\t\ttype: \"multiselect\",\n\t\t\t\tsource: \"fixed\",\n\t\t\t\tmulti_select_options: zoteroItemNames,\n\t\t\t}\n\t\t},\n\n\t]\n}, {values:values});\n\nlet getZoteroItems = result.getValue('ZoteroItems').value;\n\nlet zoteroItemsLinks = [];\n\ngetZoteroItems.forEach((item) => {\n\t// const foundItem = zoteroItems.find((zoteroItem) => zoteroItem[\"file\"].includes(item.substring(0, 10)));\n\tconst foundItem = zoteroItems.find((zoteroItem) => {\n\t\tconst similarityThreshold = 0.3; // 相似度阈值\n\t\tconst similarity = 1 - levenshteinDistance(zoteroItem[\"file\"], item) / Math.max(zoteroItem[\"file\"].length, item.length);\n\t\treturn similarity >= similarityThreshold;\n\t});\n\tif (foundItem) {\n\t\tconst zoteroLink = `[《${item}》](${foundItem[\"link\"]})`;\n\t\tzoteroItemsLinks.push(zoteroLink);\n\t}\n});\n\nif (zoteroItemsLinks.length) {\n\tconst output = zoteroItemsLinks.join(\"\\n\");\n\tconsole.log(output);\n\treturn output;\n}\n\nfunction matchZoteroItems(text) {\n\tconst regex = /《(.*?)》/gm;\n\tconst matches = text.match(regex);\n\treturn matches ? matches.map(match => match.slice(1, -1)) : \"\";\n}\n\nfunction levenshteinDistance(a, b) {\n\t// Levenshtein距离计算相似度 by ChatGPT @2024-01-04 \n\tconst m = a.length;\n\tconst n = b.length;\n\tconst dp = Array.from(Array(m + 1), () => Array(n + 1).fill(0));\n\n\tfor (let i = 0; i <= m; i++) {\n\t\tdp[i][0] = i;\n\t}\n\n\tfor (let j = 0; j <= n; j++) {\n\t\tdp[0][j] = j;\n\t}\n\n\tfor (let i = 1; i <= m; i++) {\n\t\tfor (let j = 1; j <= n; j++) {\n\t\t\tif (a[i - 1] === b[j - 1]) {\n\t\t\t\tdp[i][j] = dp[i - 1][j - 1];\n\t\t\t} else {\n\t\t\t\tdp[i][j] = Math.min(\n\t\t\t\t\tdp[i - 1][j] + 1, // 删除操作\n\t\t\t\t\tdp[i][j - 1] + 1, // 插入操作\n\t\t\t\t\tdp[i - 1][j - 1] + 1 // 替换操作\n\t\t\t\t);\n\t\t\t}\n\t\t}\n\t}\n\n\treturn dp[m][n];\n}\n```"
+          },
+          "insertAfter": {
+            "enabled": false,
+            "after": "",
+            "insertAtEnd": false,
+            "considerSubsections": false,
+            "createIfNotFound": false,
+            "createIfNotFoundLocation": "top"
+          },
+          "prepend": false,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default",
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "focus": true,
+            "mode": "default"
+          }
+        },
+        {
+          "id": "e698aeb8-799f-4f2a-acee-2005a193aed3",
+          "name": "ModaForms：🔴ZoteroItem",
+          "type": "Capture",
+          "command": true,
+          "appendLink": false,
+          "captureTo": "",
+          "captureToActiveFile": true,
+          "createFileIfItDoesntExist": {
+            "enabled": false,
+            "createWithTemplate": false,
+            "template": ""
+          },
+          "format": {
+            "enabled": true,
+            "format": "```js quickadd\n// 🔴修改Zotero路径即可\nconst folderPath = 'D:/Zotero/storage';\nconst fs = require('fs');\nconst modalForm = app.plugins.plugins.modalforms.api;\nconst files = fs.readdirSync(folderPath);\nconst zoteroItems = [];\n\nlet selection = window.getSelection();\nselection = selection.toString();\n\nfiles.forEach((file) => {\n\tconst filePath = `${folderPath}/${file}`;\n\tconst stat = fs.statSync(filePath);\n\tif (stat.isDirectory()) {\n\t\tconst subFiles = fs.readdirSync(filePath);\n\t\tconst pdfFiles = subFiles.filter((subFile) => subFile.endsWith('.pdf')).map((pdfFile) => pdfFile.replace('.pdf', ''));\n\n\t\tif (pdfFiles.length > 0) {\n\t\t\tconst zoteroItem = {};\n\t\t\tzoteroItem[\"item\"] = file;\n\t\t\tzoteroItem[\"link\"] = `zotero://open-pdf/library/items/${file}`;\n\t\t\tzoteroItem[\"file\"] = pdfFiles[0];\n\t\t\tzoteroItems.push(zoteroItem);\n\t\t}\n\t}\n});\n\nconsole.log(zoteroItems);\nlet zoteroItemNames = [];\n\nzoteroItems.forEach((item) => {\n\tzoteroItemNames.push(item[\"file\"]);\n});\n\n// console.log(zoteroItemNames)\nconst values = {\n\tZoteroCites: selection,\n};\n\nconst result = await modalForm.openForm({\n\ttitle: \"zoteroModalForms\",\n\tname: \"zoteroModalForms\",\n\tversion: \"1\",\n\tfields: [\n\t\t{\n\t\t\tname: \"ZoteroCites\",\n\t\t\tlabel: \"通过引用匹配对应的Items\",\n\t\t\tdescription: \"引用格式需要IEEE格式\",\n\t\t\tinput: {\n\t\t\t\ttype: \"textarea\"\n\t\t\t}\n\t\t},\n\t\t{\n\t\t\tname: \"ZoteroItems\",\n\t\t\tlabel: \"\",\n\t\t\tdescription: \"\",\n\t\t\tinput: {\n\t\t\t\ttype: \"multiselect\",\n\t\t\t\tsource: \"fixed\",\n\t\t\t\tmulti_select_options: zoteroItemNames,\n\t\t\t}\n\t\t},\n\n\t]\n}, {values:values});\n\nlet getZoteroItems = result.getValue('ZoteroItems').value;\nlet getZoteroCites = result.getValue('ZoteroCites').value;\n\nif (getZoteroCites) {\n\tgetZoteroItems = getZoteroItems.concat(matchZoteroItems(getZoteroCites));\n\n}\nconsole.log(getZoteroItems);\n\nlet zoteroItemsLinks = [];\n\ngetZoteroItems.forEach((item) => {\n\t// const foundItem = zoteroItems.find((zoteroItem) => zoteroItem[\"file\"].includes(item.substring(0, 10)));\n\tconst foundItem = zoteroItems.find((zoteroItem) => {\n\t\tconst similarityThreshold = 0.3; // 相似度阈值\n\t\tconst similarity = 1 - levenshteinDistance(zoteroItem[\"file\"], item) / Math.max(zoteroItem[\"file\"].length, item.length);\n\t\treturn similarity >= similarityThreshold;\n\t});\n\tif (foundItem) {\n\t\tconst zoteroLink = `[《${item}》](${foundItem[\"link\"]})`;\n\t\tzoteroItemsLinks.push(zoteroLink);\n\t}\n});\n\nif (zoteroItemsLinks.length) {\n\tconst output = zoteroItemsLinks.join(\"\\n\");\n\tconsole.log(output);\n\treturn output;\n}\n\nfunction matchZoteroItems(text) {\n\tconst regex = /《(.*?)》/gm;\n\tconst matches = text.match(regex);\n\treturn matches ? matches.map(match => match.slice(1, -1)) : \"\";\n}\n\nfunction levenshteinDistance(a, b) {\n\t// Levenshtein距离计算相似度 by ChatGPT @2024-01-04 \n\tconst m = a.length;\n\tconst n = b.length;\n\tconst dp = Array.from(Array(m + 1), () => Array(n + 1).fill(0));\n\n\tfor (let i = 0; i <= m; i++) {\n\t\tdp[i][0] = i;\n\t}\n\n\tfor (let j = 0; j <= n; j++) {\n\t\tdp[0][j] = j;\n\t}\n\n\tfor (let i = 1; i <= m; i++) {\n\t\tfor (let j = 1; j <= n; j++) {\n\t\t\tif (a[i - 1] === b[j - 1]) {\n\t\t\t\tdp[i][j] = dp[i - 1][j - 1];\n\t\t\t} else {\n\t\t\t\tdp[i][j] = Math.min(\n\t\t\t\t\tdp[i - 1][j] + 1, // 删除操作\n\t\t\t\t\tdp[i][j - 1] + 1, // 插入操作\n\t\t\t\t\tdp[i - 1][j - 1] + 1 // 替换操作\n\t\t\t\t);\n\t\t\t}\n\t\t}\n\t}\n\n\treturn dp[m][n];\n}\n```"
+          },
+          "insertAfter": {
+            "enabled": false,
+            "after": "",
+            "insertAtEnd": false,
+            "considerSubsections": false,
+            "createIfNotFound": false,
+            "createIfNotFoundLocation": "top"
+          },
+          "prepend": false,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default",
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "focus": true,
+            "mode": "default"
+          }
+        },
+        {
+          "id": "a967b6d0-442c-4672-9997-8b0d5450a60f",
+          "name": "Macro：折叠文件夹",
+          "type": "Macro",
+          "command": false,
+          "macro": {
+            "id": "e08e42b9-f088-4ae8-bd6b-12900e903bc5",
+            "name": "Macro：折叠文件夹",
+            "commands": []
+          },
+          "runOnStartup": false
+        },
+        {
+          "id": "58a7c4ce-1214-4ffc-906d-1ed991107ef0",
+          "name": "Macro：LinkConverter",
+          "type": "Macro",
+          "command": true,
+          "macro": {
+            "id": "3f9b64ed-8633-4252-b194-6d759cdd4181",
+            "name": "Macro：LinkConverter",
+            "commands": [
+              {
+                "name": "2024-04-23_LinkConverter",
+                "type": "UserScript",
+                "id": "afe9c046-0368-4da6-9347-c7fa6b03847a",
+                "path": "700【模板】Template/QuickAdd/2024-04-23_LinkConverter.js",
+                "settings": {}
+              }
+            ]
+          },
+          "runOnStartup": false
+        },
+        {
+          "id": "8bb81f00-d4a8-4dd5-b707-07d8fc26110e",
+          "name": "Multi：光标操作",
+          "type": "Multi",
+          "command": false,
+          "choices": [
+            {
+              "id": "9104deb5-8675-4527-9ad6-89a25d938608",
+              "name": "Capture：跳转光标",
+              "type": "Capture",
+              "command": true,
+              "appendLink": false,
+              "captureTo": "",
+              "captureToActiveFile": true,
+              "createFileIfItDoesntExist": {
+                "enabled": false,
+                "createWithTemplate": false,
+                "template": ""
+              },
+              "format": {
+                "enabled": true,
+                "format": "```js quickadd\nconst { editor, file, containerEl } = app.workspace.activeEditor\nconst cache = app.metadataCache.getFileCache(file);\nconst frontmatter = cache.frontmatter;\n\n// 获取记录的光标位置\nconst jumpLine = parseInt(frontmatter?.光标位置[0] || editor.getCursor().line + 1);\nconst jumpColumn = parseInt(frontmatter?.光标位置[1] || 0);\n\n// 边界检查，确保跳转的行数和列数不超出文档范围\nconst targetLine = Math.max(1, Math.min(jumpLine, editor.lineCount()));\nconst targetColumn = Math.max(0, Math.min(jumpColumn, editor.getLine(targetLine - 1).length));\n\n// 设置光标位置并滚动到可视区域\neditor.setCursor(targetLine - 1, targetColumn);\ncontainerEl.querySelector('.cm-active.cm-line').scrollIntoView({block: 'center', behavior: 'auto'})\n\n```"
+              },
+              "insertAfter": {
+                "enabled": false,
+                "after": "",
+                "insertAtEnd": false,
+                "considerSubsections": false,
+                "createIfNotFound": false,
+                "createIfNotFoundLocation": "top"
+              },
+              "prepend": false,
+              "task": false,
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": false,
+              "openFileInMode": "default",
+              "fileOpening": {
+                "location": "tab",
+                "direction": "vertical",
+                "focus": true,
+                "mode": "default"
+              }
+            },
+            {
+              "id": "0c5d7747-4171-4e01-95b5-9803e77c8021",
+              "name": "Capture：记录光标",
+              "type": "Capture",
+              "command": true,
+              "appendLink": false,
+              "captureTo": "",
+              "captureToActiveFile": true,
+              "createFileIfItDoesntExist": {
+                "enabled": false,
+                "createWithTemplate": false,
+                "template": ""
+              },
+              "format": {
+                "enabled": true,
+                "format": "```js quickadd\nconst { editor, file } = app.workspace.activeEditor;\nconst cache = app.metadataCache.getFileCache(file);\n\n// 记录当前光标的行和列\nconst currentLine = editor.getCursor().line + 1;\nconst currentColumn = editor.getCursor().ch;\n\n// 保存文件\nawait app.commands.executeCommandById('editor:save-file');\nawait new Promise(r => setTimeout(r, 300));\n\n// 更新前置元数据中的光标位置记录\napp.fileManager.processFrontMatter(file, fm => {\n  fm['光标位置'] = [currentLine.toString(), currentColumn.toString()];\n});\n\n// 显示保存成功的提示\nnew Notice('光标位置已记录', 1000);\n\n```"
+              },
+              "insertAfter": {
+                "enabled": false,
+                "after": "",
+                "insertAtEnd": false,
+                "considerSubsections": false,
+                "createIfNotFound": false,
+                "createIfNotFoundLocation": "top"
+              },
+              "prepend": false,
+              "task": false,
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": false,
+              "openFileInMode": "default",
+              "fileOpening": {
+                "location": "tab",
+                "direction": "vertical",
+                "focus": true,
+                "mode": "default"
+              }
+            }
+          ],
+          "collapsed": true
+        },
+        {
+          "id": "d1978713-ac85-422f-977f-7e0e6d0c5f18",
+          "name": "Multi：文件夹右键",
+          "type": "Multi",
+          "command": false,
+          "choices": [
+            {
+              "id": "4df10db8-dc6c-4cea-ae6e-24c33fc9db44",
+              "name": "Capture：复制文件夹/多个文件路径",
+              "type": "Capture",
+              "command": false,
+              "appendLink": false,
+              "captureTo": "",
+              "captureToActiveFile": true,
+              "createFileIfItDoesntExist": {
+                "enabled": false,
+                "createWithTemplate": false,
+                "template": ""
+              },
+              "format": {
+                "enabled": true,
+                "format": "```js quickadd\n// 获取库的基本路径\nconst basePath = (app.vault.adapter).getBasePath().replace(/\\\\/g, '/');\n\n// 添加到右侧菜单\nlet addi = (menu, param, func) => menu.addItem(i => i.setTitle('复制文件夹/多个文件路径').setIcon('percent').onClick(async () => await func(param)));\n\nlet multiFRN = async (menu, items) => addi(menu, items, async items => {\n    let files = items.filter(item => item.extension);\n    if (!files || files.length === 0) return;\n    const paths = files.map(file => `${basePath}/${file.path}`).join('\\n');\n    copyToClipboard(paths);\n});\n\nlet folderFRN = async (menu, item) => !item.extension && addi(menu, item, async folder => {\n    copyToClipboard(`${basePath}/${folder.path}`);\n});\n\nuniReg('files-menu', multiFRN, 0);\nuniReg('file-menu', folderFRN, 0);\n\n\n// 注册事件\nfunction uniReg(str, func, isVault) {\n    let place = isVault ? app.vault : app.workspace;\n    place._[str].map(ev => String(ev.fn) == String(func) && place.offref(ev));\n    app.plugins.plugins.quickadd.registerEvent(place.on(str, func));\n};\n\n// 复制文本\nfunction copyToClipboard(extrTexts) {\n    const txtArea = document.createElement('textarea');\n    txtArea.value = extrTexts;\n    document.body.appendChild(txtArea);\n    txtArea.select();\n    if (document.execCommand('copy')) {\n        console.log('copy to clipboard.');\n    } else {\n        console.log('fail to copy.');\n    }\n    document.body.removeChild(txtArea);\n}\n\n```"
+              },
+              "insertAfter": {
+                "enabled": false,
+                "after": "",
+                "insertAtEnd": false,
+                "considerSubsections": false,
+                "createIfNotFound": false,
+                "createIfNotFoundLocation": "top"
+              },
+              "prepend": false,
+              "task": false,
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": false,
+              "openFileInMode": "default",
+              "fileOpening": {
+                "location": "tab",
+                "direction": "vertical",
+                "focus": true,
+                "mode": "default"
+              }
+            },
+            {
+              "id": "adb5968d-cd02-4eeb-a1bb-1eb7c158b692",
+              "name": "Capture：🎰批量重命名",
+              "type": "Capture",
+              "command": false,
+              "appendLink": false,
+              "captureTo": "",
+              "captureToActiveFile": true,
+              "createFileIfItDoesntExist": {
+                "enabled": false,
+                "createWithTemplate": false,
+                "template": ""
+              },
+              "format": {
+                "enabled": true,
+                "format": "```js quickadd\n\nfunction uniReg(str, func, isVault) {\n    let place = isVault ? app.vault : app.workspace;\n    place._[str].map(ev => String(ev.fn) == String(func) && place.offref(ev));\n    app.plugins.plugins.quickadd.registerEvent(place.on(str, func));\n}; \n\nconst appFRN = (old, now) => app.fileManager.renameFile(app.vault.getAbstractFileByPath(old), now);\nlet prompt = (str, holder, value) => this.quickAddApi.inputPrompt(str, holder, value); \nlet rgx; \nlet form;\n\nlet confirm = async (files, info) => {\n    let test = files[0]; if (!test) return; do {\n        rgx = await prompt(`${info} 正则`, rgx, rgx); if (!rgx) return;\n        form = await prompt(`${info} 替换`, form, form);\n    } while (!form);\n    const repi = (p, i) => p.basename.replace(eval(rgx), eval(form));\n    await this.quickAddApi.yesNoPrompt(test.name, [test].map((p, i) => repi(p, i)))\n        ? files.map(async (p, i) => await appFRN(p.path, `${p.parent.path}/${repi(p, i)}.${p.extension}`)) : confirm(files, info);\n};\n\nlet addi = (menu, param, func) => menu.addItem(i => i.setTitle('批量重命名').setIcon('percent').onClick(async () => await func(param)));\n\nlet multiFRN = async (menu, items) => addi(menu, items, async items => {\n    let files = items.filter(item => item.extension); \n    let paths = files.map(p => p.path);\n    let box = await this.quickAddApi.checkboxPrompt(paths, paths);\n    files = files.filter(p => box.includes(p.path)); \n    await confirm(files, '');\n});\n\nlet folderFRN = async (menu, item) => !item.extension && addi(menu, item, async folder => {\n    let files = folder.children.filter(child => child.extension); await confirm(files, folder.path);\n}); uniReg('files-menu', multiFRN, 0); uniReg('file-menu', folderFRN, 0);\n```"
+              },
+              "insertAfter": {
+                "enabled": false,
+                "after": "",
+                "insertAtEnd": false,
+                "considerSubsections": false,
+                "createIfNotFound": false,
+                "createIfNotFoundLocation": "top"
+              },
+              "prepend": false,
+              "task": false,
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": false,
+              "openFileInMode": "default",
+              "fileOpening": {
+                "location": "tab",
+                "direction": "vertical",
+                "focus": true,
+                "mode": "default"
+              }
+            }
+          ],
+          "collapsed": false
+        }
+      ],
+      "collapsed": true
+    },
+    {
+      "id": "d2c9345f-7af4-40c9-937a-c31111e4361f",
+      "name": "Multi：便捷指令",
+      "type": "Multi",
+      "command": false,
+      "choices": [
+        {
+          "id": "343bc019-6c12-4010-ba97-b0cc5563d5cc",
+          "name": "Macro：修改编程语言",
+          "type": "Macro",
+          "command": true,
+          "macro": {
+            "id": "84eea593-7101-4571-a20c-e6a33001874d",
+            "name": "Macro：修改编程语言",
+            "commands": [
+              {
+                "name": "2024-04-03_批量修改代码块编程语言",
+                "type": "UserScript",
+                "id": "61e45317-33f1-426d-8307-286472d49756",
+                "path": "700【模板】Template/QuickAdd/2024-04-03_批量修改代码块编程语言.js",
+                "settings": {}
+              }
+            ]
+          },
+          "runOnStartup": false
+        },
+        {
+          "id": "c03a1d9e-50ff-4378-82fb-5f5404f117ed",
+          "name": "Macro：中英文视图",
+          "type": "Macro",
+          "command": true,
+          "macro": {
+            "id": "8b6e0ccc-8cc2-4de0-8973-f15c1c4e184e",
+            "name": "Macro：中英文视图",
+            "commands": [
+              {
+                "name": "2024-03-20_中英文视图切换",
+                "type": "UserScript",
+                "id": "1fde64a1-b95e-46c8-8e90-fbb7c77ce821",
+                "path": "700【模板】Template/QuickAdd/2024-03-20_中英文视图切换.js",
+                "settings": {}
+              }
+            ]
+          },
+          "runOnStartup": false
+        },
+        {
+          "id": "599fa05d-d13a-4bfd-a7c9-bb8cc1989eeb",
+          "name": "Macro：⚙openExternalEditor",
+          "type": "Macro",
+          "command": true,
+          "macro": {
+            "id": "ae8d6bbe-4b55-416e-b9ed-32ea425c6832",
+            "name": "Macro：⚙openExternalEditor",
+            "commands": [
+              {
+                "name": "openExternalEditor",
+                "type": "UserScript",
+                "id": "214929af-cd5b-48b1-9cd7-547194f1aa5e",
+                "path": "700【模板】Template/QuickAdd/openExternalEditor.js",
+                "settings": {
+                  "Editor": "D:\\Program Files\\cursor\\Cursor.exe\nD:\\Users\\94359\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\nC:\\Users\\94359\\AppData\\Roaming\\FSCapture\\FSCapture.exe"
+                }
+              }
+            ]
+          },
+          "runOnStartup": false
+        },
+        {
+          "id": "b2da82b6-fb96-42f7-83c8-0e24f7673c56",
+          "name": "Capture：🚲VimToggle",
+          "type": "Capture",
+          "command": true,
+          "appendLink": false,
+          "captureTo": "700【模板】Template/日记空白模板.md",
+          "captureToActiveFile": false,
+          "createFileIfItDoesntExist": {
+            "enabled": false,
+            "createWithTemplate": false,
+            "template": ""
+          },
+          "format": {
+            "enabled": true,
+            "format": "```js quickadd\nif (app.vault.getConfig(\"vimMode\")) {\n\tapp.vault.setConfig(\"vimMode\", false);\n\tnew Notice(\"🔴已关闭Vim模式\");\n} else {\n\tapp.vault.setConfig(\"vimMode\", true);\n\tnew Notice(\"🟢已启动Vim模式\");\n}\n```"
+          },
+          "insertAfter": {
+            "enabled": false,
+            "after": "",
+            "insertAtEnd": false,
+            "considerSubsections": false,
+            "createIfNotFound": false,
+            "createIfNotFoundLocation": "top"
+          },
+          "prepend": false,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default",
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "focus": true,
+            "mode": "default"
+          }
+        },
+        {
+          "id": "db771769-38f4-4340-b615-98b377d5473e",
+          "name": "Macro：SwitchHeads",
+          "type": "Macro",
+          "command": true,
+          "macro": {
+            "id": "67e6b547-a6eb-4d18-9ad1-494c5019eea6",
+            "name": "Macro：SwitchHeads",
+            "commands": [
+              {
+                "name": "SwitchHeads",
+                "type": "UserScript",
+                "id": "8e4c617e-7689-47a8-88ed-3dbac10477d8",
+                "path": "700【模板】Template/QuickAdd/SwitchHeads.js",
+                "settings": {}
+              }
+            ]
+          },
+          "runOnStartup": false
+        },
+        {
+          "id": "61ca7fb8-1f7e-44f3-a27f-08229499732d",
+          "name": "Capture：RebuildView",
+          "type": "Capture",
+          "command": true,
+          "appendLink": false,
+          "captureTo": "700【模板】Template/日记空白模板.md",
+          "captureToActiveFile": false,
+          "createFileIfItDoesntExist": {
+            "enabled": false,
+            "createWithTemplate": false,
+            "template": ""
+          },
+          "format": {
+            "enabled": true,
+            "format": "```js quickadd\nawait app.workspace.activeLeaf.rebuildView()\n```"
+          },
+          "insertAfter": {
+            "enabled": false,
+            "after": "",
+            "insertAtEnd": false,
+            "considerSubsections": false,
+            "createIfNotFound": false,
+            "createIfNotFoundLocation": "top"
+          },
+          "prepend": false,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default",
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "focus": true,
+            "mode": "default"
+          },
+          "activeFileWritePosition": "cursor",
+          "captureToCanvasNodeId": ""
+        },
+        {
+          "id": "cd4ab1f7-4985-45a1-8d2d-86c2242e560f",
+          "name": "Macro：ShowProjects",
+          "type": "Macro",
+          "command": true,
+          "macro": {
+            "id": "9d466e38-d520-4599-96c1-d583a346fce9",
+            "name": "Macro：ShowProjects",
+            "commands": [
+              {
+                "name": "ShowProjects",
+                "type": "UserScript",
+                "id": "75e99d2f-0e2e-492e-ac7d-2bf9d73e4a95",
+                "path": "700【模板】Template/QuickAdd/ShowProjects.js",
+                "settings": {}
+              }
+            ]
+          },
+          "runOnStartup": false
+        },
+        {
+          "id": "a3d975be-8274-4d93-80e7-675b3ac8012b",
+          "name": "Capture：切换Basic模式",
+          "type": "Capture",
+          "command": false,
+          "appendLink": false,
+          "captureTo": "",
+          "captureToActiveFile": true,
+          "createFileIfItDoesntExist": {
+            "enabled": false,
+            "createWithTemplate": false,
+            "template": ""
+          },
+          "format": {
+            "enabled": true,
+            "format": "```js quickadd\nconst activeFile = app.workspace.getActiveFile();\nawait app.fileManager.processFrontMatter(activeFile, fm => {\n\tconsole.log(fm[`mindmap-plugin`])\n\tif (fm[`mind-plugin`] === \"rich\"){\n\t\tnew Notice(\"该模式为Rich模式\")\n\t\treturn;\n\t}else{\n\t\tfm[`mindmap-plugin`] = \"basic\";\t\t\n\t}\n});\n\n```"
+          },
+          "insertAfter": {
+            "enabled": false,
+            "after": "",
+            "insertAtEnd": false,
+            "considerSubsections": false,
+            "createIfNotFound": false,
+            "createIfNotFoundLocation": "top"
+          },
+          "prepend": false,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default",
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "focus": true,
+            "mode": "default"
+          }
+        },
+        {
+          "id": "d0a8550e-845b-4047-b7a4-c11fab762482",
+          "name": "Macro：CopyUUID",
+          "type": "Macro",
+          "command": true,
+          "macro": {
+            "id": "cf6e53cd-3ae6-425b-9b60-bf184e4561c6",
+            "name": "Macro：CopyUUID",
+            "commands": [
+              {
+                "name": "uuid: Add an UUID to current note",
+                "type": "Obsidian",
+                "id": "179a6fdd-50da-40ba-8250-e9c7c6cc0ade",
+                "commandId": "obsidian-uuid-plugin:add-id-to-current-note"
+              },
+              {
+                "name": "Wait",
+                "type": "Wait",
+                "id": "88b91c3f-eb62-46b6-8fd3-6f7ffa368a8a",
+                "time": 500
+              },
+              {
+                "name": "Advanced URI: copy URI for current file",
+                "type": "Obsidian",
+                "id": "94ab449b-d5ae-4246-9e9e-175da4a2eef0",
+                "commandId": "obsidian-advanced-uri:copy-uri-current-file-simple"
+              }
+            ]
+          },
+          "runOnStartup": false
+        },
+        {
+          "id": "5c22229e-b098-45e9-bb12-5b5d494559ab",
+          "name": "Macro：FocusFolder",
+          "type": "Macro",
+          "command": true,
+          "macro": {
+            "id": "9a4607ff-3292-4985-96cd-5c001afac2db",
+            "name": "Macro：FocusFolder",
+            "commands": [
+              {
+                "name": "Folder Focus Mode: Enable folder focus mode for active file",
+                "type": "Obsidian",
+                "id": "9157325f-822b-4a95-b819-c68b7b245604",
+                "commandId": "obsidian-folder-focus-mode:folder-focus-mode-focus-active"
+              },
+              {
+                "name": "Wait",
+                "type": "Wait",
+                "id": "439f666a-2489-49ce-82c4-39ec9169a488",
+                "time": 200
+              },
+              {
+                "name": "文件列表: 在文件列表中显示当前文件",
+                "type": "Obsidian",
+                "id": "eb2bb236-6c5b-4b08-bd49-341dc28161e5",
+                "commandId": "file-explorer:reveal-active-file"
+              }
+            ]
+          },
+          "runOnStartup": false
+        },
+        {
+          "id": "948ed9fd-370b-4408-bd2c-7bf6b64447bf",
+          "name": "Macro：👥ToggleTheme",
+          "type": "Macro",
+          "command": false,
+          "macro": {
+            "id": "2bf55ea7-200e-4174-8878-68a62fe67e5f",
+            "name": "Macro：👥ToggleTheme",
+            "commands": [
+              {
+                "name": "Toggle Theme",
+                "type": "UserScript",
+                "id": "fc8805fa-4c01-4591-90a5-e8015ad6cf89",
+                "path": "700【模板】Template/QuickAdd/Toggle Theme.js",
+                "settings": {
+                  "主题名称": "Blue Topaz",
+                  "第一个主题名称": "default",
+                  "主题名称1": "Blue Topaz",
+                  "主题名称2": "default",
+                  "theme 1": "default",
+                  "theme 1 mode": "Auto",
+                  "theme 2": "default",
+                  "theme 2 mode": "Auto"
+                }
+              }
+            ]
+          },
+          "runOnStartup": false
+        },
+        {
+          "id": "e0a7281c-a3ba-43ac-a2e5-2f4b1a4b625a",
+          "name": "Capture：💡UpdateYamlTitle",
+          "type": "Capture",
+          "command": true,
+          "appendLink": false,
+          "captureTo": "",
+          "captureToActiveFile": true,
+          "createFileIfItDoesntExist": {
+            "enabled": false,
+            "createWithTemplate": false,
+            "template": ""
+          },
+          "format": {
+            "enabled": true,
+            "format": "```js quickadd\n//This file changes the title value in yaml to the file name\nmodule.exports = async (params) => {\n  const currentFile = app.workspace.activeLeaf.view.file\n  const newTitle = currentFile.basename\n  if(!currentFile || !currentFile.path.startsWith(\"Publish\")){\n    return\n  }\n  const frontmatter = app.metadataCache.getFileCache(currentFile)?.frontmatter\n  if(!frontmatter){\n    return \n  }\n\n  const {position: {start, end}} = frontmatter\n  const fileContent = await app.vault.cachedRead(currentFile)\n  const newFileContent = fileContent.split(\"\\n\").map((line, index)=>{\n    if(index > end){\n      return line\n    }\n    if(/^title: .*/.test(line)){\n      return `title: ${newTitle}`\n    }\n    return line\n  }).join(\"\\n\")\n  //console.log(newFileContent)\n  await this.app.vault.modify(currentFile, newFileContent)\n}\n```"
+          },
+          "insertAfter": {
+            "enabled": false,
+            "after": "",
+            "insertAtEnd": false,
+            "considerSubsections": false,
+            "createIfNotFound": false,
+            "createIfNotFoundLocation": "top"
+          },
+          "prepend": false,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default",
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "focus": true,
+            "mode": "default"
+          },
+          "activeFileWritePosition": "cursor"
+        },
+        {
+          "id": "1546fa77-4acf-4ccf-bd72-5f0eba0162f5",
+          "name": "Capture：切换笔记背景颜色",
+          "type": "Capture",
+          "command": true,
+          "appendLink": false,
+          "captureTo": "",
+          "captureToActiveFile": true,
+          "createFileIfItDoesntExist": {
+            "enabled": false,
+            "createWithTemplate": false,
+            "template": ""
+          },
+          "format": {
+            "enabled": true,
+            "format": "```js quickadd\nconst activeFile = app.workspace.getActiveFile();\nconst choices = [\"默认视图\", \"YellowNote\", \"GreenNote\", \"PinkNote\",\"PurpleNote\",\"BlueNote\",\"BlackNote\"];\n\n  const quickaddApi = app.plugins.plugins.quickadd.api;\n  const choice = await quickaddApi.suggester(choices, choices);\n\n  await app.fileManager.processFrontMatter(activeFile, fm => {\n    if (!fm[\"cssclasses\"]) fm[\"cssclasses\"] = [];\n    // 清除所有选项\n    fm[\"cssclasses\"] = fm[\"cssclasses\"].filter(item => !choices.includes(item));\n\n    // 根据选择的选项添加对应的视图\n    for (let i = 1; i < choices.length; i++) {\n      if (choice === choices[i]) {\n        fm[\"cssclasses\"].push(choices[i]);\n        return;\n      }\n    }\n  });\n  console.log(\"运行完成\");\n\n```"
+          },
+          "insertAfter": {
+            "enabled": false,
+            "after": "",
+            "insertAtEnd": false,
+            "considerSubsections": false,
+            "createIfNotFound": false,
+            "createIfNotFoundLocation": "top"
+          },
+          "prepend": false,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default",
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "focus": true,
+            "mode": "default"
+          }
+        },
+        {
+          "id": "60e4afc6-84be-4faa-a77f-bba5e69c860e",
+          "name": "Multi：文件操作",
+          "type": "Multi",
+          "command": false,
+          "choices": [
+            {
+              "id": "3cdf057a-774b-4346-86b3-9b39eb359bf0",
+              "name": "Macro：Rename",
+              "type": "Macro",
+              "command": true,
+              "macro": {
+                "id": "971e8799-ceaa-4142-8636-06910789aa97",
+                "name": "Macro：Rename",
+                "commands": [
+                  {
+                    "name": "2024-03-27_重命名",
+                    "type": "UserScript",
+                    "id": "a30e37d3-63b6-4573-a488-29bda35cd5b8",
+                    "path": "700【模板】Template/QuickAdd/2024-03-27_重命名.js",
+                    "settings": {}
+                  }
+                ]
+              },
+              "runOnStartup": false
+            },
+            {
+              "id": "dc9697b1-80fa-471d-b030-10a3273df7b0",
+              "name": "Macro：移动至同一文件夹",
+              "type": "Macro",
+              "command": true,
+              "macro": {
+                "id": "2996eb1d-c940-4cc5-924a-8be0de36821b",
+                "name": "Macro：移动至同一文件夹",
+                "commands": [
+                  {
+                    "name": "2024-03-15_移动子笔记或附件到当前文件夹",
+                    "type": "UserScript",
+                    "id": "9596f499-64a7-4bde-8e38-99db1af8c2e3",
+                    "path": "700【模板】Template/QuickAdd/2024-03-15_移动子笔记或附件到当前文件夹.js",
+                    "settings": {
+                      "归档路径": "800【归档】Archive",
+                      "SVG命名格式": "{{DATE: YYYY}}",
+                      "归档分类": "{{DATE:YYYY}}",
+                      "归档格式": "YYYY"
+                    }
+                  }
+                ]
+              },
+              "runOnStartup": false
+            },
+            {
+              "id": "896cadb8-442d-43ec-a8e4-8c18515d7a47",
+              "name": "Macro：复制并删除文件",
+              "type": "Macro",
+              "command": true,
+              "macro": {
+                "id": "74ddc25c-56c6-4807-9844-3cee225e0280",
+                "name": "Macro：复制并删除文件",
+                "commands": [
+                  {
+                    "name": "2024-03-13_复制并删除文件",
+                    "type": "UserScript",
+                    "id": "765cc0f7-ed15-4ace-9000-9f4360e8bc5c",
+                    "path": "700【模板】Template/QuickAdd/2024-03-13_复制并删除文件.js",
+                    "settings": {
+                      "Types": "md,txt,js,ts,py"
+                    }
+                  }
+                ]
+              },
+              "runOnStartup": false
+            }
+          ],
+          "collapsed": true
+        },
+        {
+          "id": "dc1c42f1-a495-4e27-b291-fdcfa93dbc11",
+          "name": "Multi：窗口布局设置",
+          "type": "Multi",
+          "command": false,
+          "choices": [
+            {
+              "id": "149439c2-6307-4e38-8073-b19dcaf1d383",
+              "name": "Capture：左7右3",
+              "type": "Capture",
+              "command": true,
+              "appendLink": false,
+              "captureTo": "700【模板】Template/日记空白模板.md",
+              "captureToActiveFile": false,
+              "createFileIfItDoesntExist": {
+                "enabled": false,
+                "createWithTemplate": false,
+                "template": ""
+              },
+              "format": {
+                "enabled": true,
+                "format": "```js quickadd\nconst setPanel = percent=> {\n  let right = document.querySelector('.workspace-split.mod-vertical.mod-root').lastElementChild\n  right.previousSibling.style.flexGrow = percent; right.style.flexGrow = 100-percent\n}; setPanel(65) // 50、80\n```"
+              },
+              "insertAfter": {
+                "enabled": false,
+                "after": "",
+                "insertAtEnd": false,
+                "considerSubsections": false,
+                "createIfNotFound": false,
+                "createIfNotFoundLocation": "top"
+              },
+              "prepend": false,
+              "task": false,
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": false,
+              "openFileInMode": "default",
+              "fileOpening": {
+                "location": "tab",
+                "direction": "vertical",
+                "focus": true,
+                "mode": "default"
+              }
+            },
+            {
+              "id": "3ffc0c8d-6b9f-4e71-afa2-f2f152260521",
+              "name": "Capture：左5右5",
+              "type": "Capture",
+              "command": true,
+              "appendLink": false,
+              "captureTo": "700【模板】Template/日记空白模板.md",
+              "captureToActiveFile": false,
+              "createFileIfItDoesntExist": {
+                "enabled": false,
+                "createWithTemplate": false,
+                "template": ""
+              },
+              "format": {
+                "enabled": true,
+                "format": "```js quickadd\nconst setPanel = percent=> {\n  let right = document.querySelector('.workspace-split.mod-vertical.mod-root').lastElementChild\n  right.previousSibling.style.flexGrow = percent; right.style.flexGrow = 100-percent\n}; setPanel(50) // 50、80\n```"
+              },
+              "insertAfter": {
+                "enabled": false,
+                "after": "",
+                "insertAtEnd": false,
+                "considerSubsections": false,
+                "createIfNotFound": false,
+                "createIfNotFoundLocation": "top"
+              },
+              "prepend": false,
+              "task": false,
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": false,
+              "openFileInMode": "default",
+              "fileOpening": {
+                "location": "tab",
+                "direction": "vertical",
+                "focus": true,
+                "mode": "default"
+              }
+            },
+            {
+              "id": "6ceb6eb8-0b57-49c2-82de-0a1e9639637e",
+              "name": "Capture：左3右7",
+              "type": "Capture",
+              "command": true,
+              "appendLink": false,
+              "captureTo": "",
+              "captureToActiveFile": true,
+              "createFileIfItDoesntExist": {
+                "enabled": false,
+                "createWithTemplate": false,
+                "template": ""
+              },
+              "format": {
+                "enabled": true,
+                "format": "```js quickadd\nconst setPanel = percent=> {\n  let right = document.querySelector('.workspace-split.mod-vertical.mod-root').lastElementChild\n  right.previousSibling.style.flexGrow = percent; right.style.flexGrow = 100-percent\n}; setPanel(35) // 50、80\n```"
+              },
+              "insertAfter": {
+                "enabled": false,
+                "after": "",
+                "insertAtEnd": false,
+                "considerSubsections": false,
+                "createIfNotFound": false,
+                "createIfNotFoundLocation": "top"
+              },
+              "prepend": false,
+              "task": false,
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": false,
+              "openFileInMode": "default",
+              "fileOpening": {
+                "location": "tab",
+                "direction": "vertical",
+                "focus": true,
+                "mode": "default"
+              }
+            }
+          ],
+          "collapsed": true
+        },
+        {
+          "id": "59846a5f-0f43-45a3-a2ef-bce1e6109058",
+          "name": "Multi：Details注释",
+          "type": "Multi",
+          "command": false,
+          "choices": [
+            {
+              "id": "d9ab58be-711e-4939-b6ff-bec8004f8726",
+              "name": "Capture：🕓Timestamp",
+              "type": "Capture",
+              "command": true,
+              "appendLink": false,
+              "captureTo": "",
+              "captureToActiveFile": true,
+              "createFileIfItDoesntExist": {
+                "enabled": false,
+                "createWithTemplate": false,
+                "template": ""
+              },
+              "format": {
+                "enabled": true,
+                "format": "```js quickadd\nlet selection = window.getSelection();\nselection = selection.toString();\nconst quickaddApi = this.app.plugins.plugins.quickadd.api;\nif (!selection) {\n    \n    // 调用函数生成时间戳\n    const timestamp = quickaddApi.date.now(`YYMMDD_HHmmss`);\n    \n    console.log(\"[[\"+timestamp+\"]]\");\n    return \"[[\"+timestamp+\"]]\";\n} else {\nconst datestamp= quickaddApi.date.now(`YYMMDD_`);\n    return `[[${datestamp}${selection}|${selection}]]`\n}\n```"
+              },
+              "insertAfter": {
+                "enabled": false,
+                "after": "",
+                "insertAtEnd": false,
+                "considerSubsections": false,
+                "createIfNotFound": false,
+                "createIfNotFoundLocation": "top"
+              },
+              "prepend": false,
+              "task": false,
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": false,
+              "openFileInMode": "default",
+              "fileOpening": {
+                "location": "tab",
+                "direction": "vertical",
+                "focus": true,
+                "mode": "default"
+              }
+            },
+            {
+              "id": "cba227c7-7bfb-4eb5-9f3d-665b1c5ecf02",
+              "name": "modalForms：✏DetailsSelected",
+              "type": "Capture",
+              "command": true,
+              "appendLink": false,
+              "captureTo": "",
+              "captureToActiveFile": true,
+              "createFileIfItDoesntExist": {
+                "enabled": false,
+                "createWithTemplate": false,
+                "template": ""
+              },
+              "format": {
+                "enabled": true,
+                "format": "```js quickadd\n\nlet selection = window.getSelection();\nselection = selection.toString();\nconst modalForm = app.plugins.plugins.modalforms.api;\nconst values = {\n    Details: \"\",\n    Tags: []\n};\nconst result = await modalForm.openForm({\n    title: \"输入Details注释\",\n    fields: [\n        {\n            name: \"Details\",\n            description: selection,\n            label: \"输入注释\",\n            input: {\n                type: \"textarea\"\n            }\n        },\n        {\n            name: \"Tags\",\n            description: \"添加标签到开头\",\n            input: { type: \"tag\" }\n        },\n    ]\n}, {\n    values: values\n});\nlet detailsText = result.getValue('Details').value.replace(/\\n+/g, \"\\n\").replace(/\\n/g, \"<br>\");\nlet tags = result.getValue('Tags').value;\nlet tagsStr;\nif (tags.length >= 1) {\n    tagsStr = \"#\" + tags.join(\" #\");\n} else {\n    tagsStr = \"\";\n}\n\nlet output;\nif (selection) {\n    output = `==${selection}==<details>${tagsStr} ${detailsText}</details>`;\n} else {\n    output = `<details>${tagsStr} ${detailsText}</details>`;\n}\nreturn output;\n```\n"
+              },
+              "insertAfter": {
+                "enabled": false,
+                "after": "",
+                "insertAtEnd": false,
+                "considerSubsections": false,
+                "createIfNotFound": false,
+                "createIfNotFoundLocation": "top"
+              },
+              "prepend": false,
+              "task": false,
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": false,
+              "openFileInMode": "default",
+              "fileOpening": {
+                "location": "tab",
+                "direction": "vertical",
+                "focus": true,
+                "mode": "default"
+              }
+            }
+          ],
+          "collapsed": false
+        },
+        {
+          "id": "304387d4-509b-4643-ab9f-ae38f7cf25e7",
+          "name": "Multi：控制Snippets",
+          "type": "Multi",
+          "command": false,
+          "choices": [
+            {
+              "id": "28112e0b-2e3e-417a-99c1-f4cc196e04f3",
+              "name": "Capture：👁‍🗨PrivacyFont",
+              "type": "Capture",
+              "command": true,
+              "appendLink": false,
+              "captureTo": "",
+              "captureToActiveFile": true,
+              "createFileIfItDoesntExist": {
+                "enabled": false,
+                "createWithTemplate": false,
+                "template": ""
+              },
+              "format": {
+                "enabled": true,
+                "format": "```js quickadd\nconst snippetName = \"[字体-熊猫]隐私字体\";\nconst snippetPath = app.customCss.getSnippetPath(snippetName);\nif (!snippetPath) {\n    new Notice(`Snippet ${snippetName} not found`);\n}\n\nconst isSnippetsEnabled = app.customCss.enabledSnippets.has(snippetName)\n    ? true\n    : false;\n\nif (isSnippetsEnabled) {\n    console.log(\"关闭\");\n    app.customCss.setCssEnabledStatus(snippetName, false);\n    app.customCss.requestLoadSnippets();\n} else {\n    console.log(\"启动\");\n    app.customCss.setCssEnabledStatus(snippetName, true);\n    app.customCss.requestLoadSnippets();\n}\n```"
+              },
+              "insertAfter": {
+                "enabled": false,
+                "after": "",
+                "insertAtEnd": false,
+                "considerSubsections": false,
+                "createIfNotFound": false,
+                "createIfNotFoundLocation": "top"
+              },
+              "prepend": false,
+              "task": false,
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": false,
+              "openFileInMode": "default",
+              "fileOpening": {
+                "location": "tab",
+                "direction": "vertical",
+                "focus": true,
+                "mode": "default"
+              }
+            }
+          ],
+          "collapsed": false
+        },
+        {
+          "id": "316cd5d3-7743-4b08-abff-8e57cb0ef030",
+          "name": "Multi：Zoom缩放",
+          "type": "Multi",
+          "command": false,
+          "choices": [
+            {
+              "id": "8078e5bb-499b-4224-bbb4-0b5ace1ef69e",
+              "name": "Macro：🔍ZoomHead",
+              "type": "Macro",
+              "command": true,
+              "macro": {
+                "id": "18a1423d-8aa4-4c9f-85df-0c03ccb7fe90",
+                "name": "Macro：🔍ZoomHead",
+                "commands": [
+                  {
+                    "name": "设为小标题 6",
+                    "type": "Obsidian",
+                    "id": "c75e9917-817c-434a-bb74-a5e8c79e5357",
+                    "commandId": "editor:set-heading-6"
+                  },
+                  {
+                    "name": "Zoom: Zoom in",
+                    "type": "Obsidian",
+                    "id": "7a6a833a-87a1-4957-894b-67d5af179096",
+                    "commandId": "obsidian-zoom:zoom-in"
+                  },
+                  {
+                    "name": "移除小标题格式",
+                    "type": "Obsidian",
+                    "id": "ab3a1223-dc0b-4948-8a25-95cf340d3ad1",
+                    "commandId": "editor:set-heading-0"
+                  }
+                ]
+              },
+              "runOnStartup": false
+            },
+            {
+              "id": "33298781-153b-484a-931b-155ae186cad8",
+              "name": "Macro：🔍ZoomList",
+              "type": "Macro",
+              "command": true,
+              "macro": {
+                "id": "2b5112aa-d9b0-4639-9905-7cc95ad2cce4",
+                "name": "Macro：🔍ZoomList",
+                "commands": [
+                  {
+                    "name": "无序列表",
+                    "type": "Obsidian",
+                    "id": "a4792129-e7b5-4218-a0f8-49f5f79b583b",
+                    "commandId": "editor:toggle-bullet-list"
+                  },
+                  {
+                    "name": "Zoom: Zoom in",
+                    "type": "Obsidian",
+                    "id": "7f0b74ae-5dc3-4eb4-8192-44e1148ed3f8",
+                    "commandId": "obsidian-zoom:zoom-in"
+                  },
+                  {
+                    "name": "无序列表",
+                    "type": "Obsidian",
+                    "id": "5d49e180-8fa6-46d9-a3a3-0407fd513d26",
+                    "commandId": "editor:toggle-bullet-list"
+                  }
+                ]
+              },
+              "runOnStartup": false
+            },
+            {
+              "id": "88ab70df-2fc4-493b-894d-bee4f2c93474",
+              "name": "Macro：🔍ZoomPreious",
+              "type": "Macro",
+              "command": true,
+              "macro": {
+                "id": "74582a02-e8c0-4cb5-adb2-5b78861859cd",
+                "name": "Macro：🔍ZoomPreious",
+                "commands": [
+                  {
+                    "name": "Zoom: Zoom out the entire document",
+                    "type": "Obsidian",
+                    "id": "b7a97104-e655-4661-9a95-a040ed9cf85d",
+                    "commandId": "obsidian-zoom:zoom-out"
+                  },
+                  {
+                    "name": "Go To Heading: Previous heading",
+                    "type": "Obsidian",
+                    "id": "9d16f6ad-4188-44e4-9c4b-a2170159bbdc",
+                    "commandId": "oin-gotoheading:gotoheading-previous"
+                  },
+                  {
+                    "name": "Zoom: Zoom in",
+                    "type": "Obsidian",
+                    "id": "8c0e318c-cba8-4db3-90e8-a6cf3448dfe8",
+                    "commandId": "obsidian-zoom:zoom-in"
+                  }
+                ]
+              },
+              "runOnStartup": false
+            },
+            {
+              "id": "a96c3df6-3d1c-4715-b16c-6274729144d0",
+              "name": "Macro：🔍ZoomNext",
+              "type": "Macro",
+              "command": true,
+              "macro": {
+                "id": "36b437b4-674c-4612-9990-9b9fa9d2055b",
+                "name": "Macro：🔍ZoomNext",
+                "commands": [
+                  {
+                    "name": "Zoom: Zoom out the entire document",
+                    "type": "Obsidian",
+                    "id": "7a349906-41db-474a-a534-061e6d72d93d",
+                    "commandId": "obsidian-zoom:zoom-out"
+                  },
+                  {
+                    "name": "Go To Heading: Next heading",
+                    "type": "Obsidian",
+                    "id": "028a6e73-5da7-4581-8693-889200ed977f",
+                    "commandId": "oin-gotoheading:gotoheading-next"
+                  },
+                  {
+                    "name": "Zoom: Zoom in",
+                    "type": "Obsidian",
+                    "id": "94d27f08-247b-4324-ab5b-1551d62d05dd",
+                    "commandId": "obsidian-zoom:zoom-in"
+                  }
+                ]
+              },
+              "runOnStartup": false
+            }
+          ],
+          "collapsed": false
+        },
+        {
+          "id": "5b6f7b46-a2f7-450f-8afb-1dc0d20caa01",
+          "name": "Macro：📖QuickOpen",
+          "type": "Macro",
+          "command": true,
+          "macro": {
+            "id": "9200974e-6a29-480f-b0fe-48ccf8b9aae3",
+            "name": "Macro：📖QuickOpen",
+            "commands": [
+              {
+                "name": "新标签页",
+                "type": "Obsidian",
+                "id": "39862c5c-e607-4fa9-8ec8-9ac7b72e71f8",
+                "commandId": "workspace:new-tab"
+              },
+              {
+                "name": "Wait",
+                "type": "Wait",
+                "id": "c9346aa4-a6d4-4d40-98f8-b269675291b7",
+                "time": 100
+              },
+              {
+                "name": "Another Quick Switcher: Recent search",
+                "type": "Obsidian",
+                "id": "7e4bf61c-1a89-4f85-ae8c-b15211c0e7a8",
+                "commandId": "obsidian-another-quick-switcher:search-command_recent-search"
+              },
+              {
+                "name": "Quick Switcher++: Open in Standard Mode",
+                "type": "Obsidian",
+                "id": "e89654f8-0d8f-404d-a53f-1f0f52d9e4df",
+                "commandId": "darlal-switcher-plus:switcher-plus:open"
+              }
+            ]
+          },
+          "runOnStartup": false
+        },
+        {
+          "id": "e75e5da7-a2b3-47cd-8f03-8ada713b94fe",
+          "name": "Macro：🛫QuickFormat",
+          "type": "Macro",
+          "command": true,
+          "macro": {
+            "id": "28b11711-3bc7-4cd5-a350-6caeb0259e71",
+            "name": "Macro：🛫QuickFormat",
+            "commands": [
+              {
+                "name": "Linter: 格式化当前文件",
+                "type": "Obsidian",
+                "id": "0acbcf88-7474-4b26-8118-fbc6ab4a9120",
+                "commandId": "obsidian-linter:lint-file"
+              },
+              {
+                "name": "241219_固定的YAML属性",
+                "type": "UserScript",
+                "id": "4f5767c8-9643-40a4-8a8a-039f893c724d",
+                "path": "700【模板】Template/QuickAdd/241219_固定的YAML属性.js",
+                "settings": {}
+              },
+              {
+                "name": "2024-04-17_自动更新Banner",
+                "type": "UserScript",
+                "id": "443eac5b-917d-4012-ae23-8e28d95919e5",
+                "path": "700【模板】Template/QuickAdd/2024-04-17_自动更新Banner.js",
+                "settings": {
+                  "图片属性": "banner",
+                  "是否强制更新": true,
+                  "显示第几张图片": "1",
+                  "默认图片": ""
+                }
+              },
+              {
+                "name": "工作区: 保存布局",
+                "type": "Obsidian",
+                "id": "a7f293bc-51bd-4a89-a77f-85647fb9ea91",
+                "commandId": "workspaces:save"
+              }
+            ]
+          },
+          "runOnStartup": false
+        }
+      ],
+      "collapsed": true
+    },
+    {
+      "id": "1284e6d7-cca0-4091-9e58-a3bfa1bbf81d",
+      "name": "Multi：Marco",
+      "type": "Multi",
+      "command": false,
+      "choices": [
+        {
+          "id": "d8392426-53e5-45c2-9bbd-a92b0b3f4fa6",
+          "name": "Macro：每日任务",
+          "type": "Macro",
+          "command": true,
+          "runOnStartup": false,
+          "macro": {
+            "name": "Macro：每日任务",
+            "id": "95ea1c8e-623d-4880-a55d-ab567d7dafca",
+            "commands": [
+              {
+                "name": "260318_新建每日任务 by tasks modal",
+                "type": "UserScript",
+                "id": "8fee6b32-00ad-43ae-b3ff-849821214c23",
+                "path": "700【模板】Template/QuickAdd/260318_新建每日任务 by tasks modal.js",
+                "settings": {}
+              }
+            ]
+          }
+        },
+        {
+          "id": "28b39fe7-7aca-4ed2-a80c-3128623b994b",
+          "name": "Macro：切换副本",
+          "type": "Macro",
+          "command": true,
+          "macro": {
+            "id": "a5c11149-de55-48ab-92d9-12de3b54b41a",
+            "name": "Macro：切换副本",
+            "commands": [
+              {
+                "name": "24.06.19_切换副本",
+                "type": "UserScript",
+                "id": "3bb19f2b-eb4b-46ac-b044-1a9a32147899",
+                "path": "700【模板】Template/QuickAdd/24.06.19_切换副本.js",
+                "settings": {
+                  "level": "3",
+                  "columns": "5",
+                  "space": "100",
+                  "width": "1080",
+                  "height": "600"
+                }
+              }
+            ]
+          },
+          "runOnStartup": false
+        },
+        {
+          "id": "57106577-1d60-4ce4-9131-100574de182d",
+          "name": "Macro：关联性图形定位文件",
+          "type": "Macro",
+          "command": true,
+          "macro": {
+            "id": "be9a3edb-94ba-4d34-94ad-628daa4bab2f",
+            "name": "Macro：关联性图形定位文件",
+            "commands": [
+              {
+                "name": "24.10.26_基于文件夹的媒体文件预览",
+                "type": "UserScript",
+                "id": "2adabd57-a7a3-4e66-8883-38aed318744f",
+                "path": "700【模板】Template/QuickAdd/24.10.26_基于文件夹的媒体文件预览.js",
+                "settings": {}
+              }
+            ]
+          },
+          "runOnStartup": false
+        },
+        {
+          "id": "69e5744c-f78d-4391-a12c-8589989165fb",
+          "name": "Macro：带图复制",
+          "type": "Macro",
+          "command": true,
+          "macro": {
+            "id": "726cb415-0bb9-42d9-a312-6de76ab935a5",
+            "name": "Macro：带图复制",
+            "commands": [
+              {
+                "name": "2024-05-07_带图复制",
+                "type": "UserScript",
+                "id": "3b31770f-0df7-4307-b1f2-5ad56e7d6445",
+                "path": "700【模板】Template/QuickAdd/2024-05-07_带图复制.js",
+                "settings": {}
+              }
+            ]
+          },
+          "runOnStartup": false
+        },
+        {
+          "id": "7844acf0-b9f6-48fa-b4a8-9f2514f4ca90",
+          "name": "Macro：管理工作区",
+          "type": "Macro",
+          "command": true,
+          "macro": {
+            "id": "8f0c5a3a-dc7c-440a-9091-04970c956328",
+            "name": "Macro：管理工作区",
+            "commands": [
+              {
+                "name": "2024-05-27_管理工作区",
+                "type": "UserScript",
+                "id": "6009e00a-4352-423b-8cbb-17038165f55b",
+                "path": "700【模板】Template/QuickAdd/2024-05-27_管理工作区.js",
+                "settings": {}
+              }
+            ]
+          },
+          "runOnStartup": false
+        },
+        {
+          "id": "4ae29081-9d9d-4dff-a0cc-e0edf4619cd8",
+          "name": "Macro：归档附件",
+          "type": "Macro",
+          "command": true,
+          "macro": {
+            "id": "affd76f0-f797-4df7-a528-8c045d8a1a52",
+            "name": "Macro：归档附件",
+            "commands": [
+              {
+                "name": "Wait",
+                "type": "Wait",
+                "id": "525591ec-446e-4465-a400-f90398d49c82",
+                "time": 5000
+              },
+              {
+                "name": "2024-06-13_按创建时间归档Obsidian附件",
+                "type": "UserScript",
+                "id": "a0ebadbd-1734-4cfe-b9e1-dcde24e1ce41",
+                "path": "700【模板】Template/QuickAdd/2024-06-13_按创建时间归档Obsidian附件.js",
+                "settings": {
+                  "自定义文件夹(custom folder path)": "",
+                  "归档日期格式(date format)": "{{DATE:YYYY/YYYY-MM/YYYY-MM-DD}}",
+                  "文件类型(Custom folder path)": "png|jpe?g|webp|mp[3,4]|pdf",
+                  "自定义文件夹路径(custom folder path)": "",
+                  "文件类型(file type)": ""
+                }
+              },
+              {
+                "name": "2024-06-13_按创建时间归档Obsidian附件",
+                "type": "UserScript",
+                "id": "b7b411ad-af9b-4c64-9361-78f940716966",
+                "path": "700【模板】Template/QuickAdd/2024-06-13_按创建时间归档Obsidian附件.js",
+                "settings": {
+                  "自定义文件夹路径(custom folder path)": "100【收纳盒】Inbox/120【剪藏】Clippings",
+                  "归档日期格式(date format)": "{{DATE:YYYY/YYYY-MM}}",
+                  "文件类型(file type)": "md"
+                }
+              },
+              {
+                "name": "2024-06-13_按创建时间归档Obsidian附件",
+                "type": "UserScript",
+                "id": "63c983f3-21e3-44c4-8122-ba4254617ff0",
+                "path": "700【模板】Template/QuickAdd/2024-06-13_按创建时间归档Obsidian附件.js",
+                "settings": {
+                  "自定义文件夹路径(custom folder path)": "100【收纳盒】Inbox/130【视频】VideoNotes",
+                  "归档日期格式(date format)": "{{DATE:YYYY/YYYY-MM}}",
+                  "文件类型(file type)": "md"
+                }
+              }
+            ]
+          },
+          "runOnStartup": true
+        },
+        {
+          "id": "7f96da86-57a6-4dce-a474-866d8469113a",
+          "name": "Macro：无序列表样式切换器",
+          "type": "Macro",
+          "command": true,
+          "macro": {
+            "id": "afa0c061-5998-4636-8bf6-3898b106b15d",
+            "name": "Macro：无序列表样式切换器",
+            "commands": [
+              {
+                "name": "2024-04-16_【无序列表样式-上善若水】样式切换器",
+                "type": "UserScript",
+                "id": "7248be0a-0313-4d4c-8199-28d26afd22ee",
+                "path": "700【模板】Template/QuickAdd/2024-04-16_【无序列表样式-上善若水】样式切换器.js",
+                "settings": {}
+              }
+            ]
+          },
+          "runOnStartup": false
+        },
+        {
+          "id": "345e1e63-6f65-47d6-ad05-65102fac52cb",
+          "name": "Macro：List2Table",
+          "type": "Macro",
+          "command": true,
+          "macro": {
+            "id": "a98fe00c-6c47-468d-97a1-685fda6cae1a",
+            "name": "Macro：List2Table",
+            "commands": [
+              {
+                "name": "24.06.28_Markdown列表转表格",
+                "type": "UserScript",
+                "id": "873417ae-bffd-4cbb-a86d-e40deee6dbda",
+                "path": "700【模板】Template/QuickAdd/24.06.28_Markdown列表转表格.js",
+                "settings": {}
+              }
+            ]
+          },
+          "runOnStartup": false
+        },
+        {
+          "id": "a563d5e3-201e-4a20-81a5-923d641b4fcd",
+          "name": "Macro：RenameAttachments",
+          "type": "Macro",
+          "command": true,
+          "macro": {
+            "id": "49da2f56-5b3a-4f47-bb6c-cf7135d63422",
+            "name": "Macro：RenameAttachments",
+            "commands": [
+              {
+                "name": "24.08.17_时间戳统一附件",
+                "type": "UserScript",
+                "id": "301171a7-7c09-4491-ac08-dbaabf4c868c",
+                "path": "700【模板】Template/QuickAdd/24.08.17_时间戳统一附件.js",
+                "settings": {}
+              }
+            ]
+          },
+          "runOnStartup": false
+        },
+        {
+          "id": "6b8179b7-96ce-4820-8f48-7f7800891513",
+          "name": "Macro：Prettier格式化",
+          "type": "Macro",
+          "command": true,
+          "macro": {
+            "id": "24f12e10-a8c6-4797-9a78-c26ae5dd9f43",
+            "name": "Macro：Prettier格式化",
+            "commands": [
+              {
+                "name": "24.12.03_使用Prettier格式化Obsidian笔记",
+                "type": "UserScript",
+                "id": "66113524-3fba-4a21-ac52-96fdf6961d13",
+                "path": "700【模板】Template/QuickAdd/24.12.03_使用Prettier格式化Obsidian笔记.js",
+                "settings": {}
+              }
+            ]
+          },
+          "runOnStartup": false
+        },
+        {
+          "id": "e9a09299-4a6f-42cd-babc-892ca0bc60e2",
+          "name": "Macro：VScode终端打开Ob",
+          "type": "Macro",
+          "command": true,
+          "macro": {
+            "id": "896f281c-0485-4b20-a837-3d78ba4bc0bd",
+            "name": "Macro：VScode终端打开Ob",
+            "commands": [
+              {
+                "name": "24.12.16_VSCode终端打开库",
+                "type": "UserScript",
+                "id": "72cf3ece-1066-4141-b187-9e5b24ff8fec",
+                "path": "700【模板】Template/QuickAdd/24.12.16_VSCode终端打开库.js",
+                "settings": {}
+              }
+            ]
+          },
+          "runOnStartup": false
+        },
+        {
+          "id": "35c79857-209c-44ae-94bf-adc8625ec4da",
+          "name": "Macro：高级搜索",
+          "type": "Macro",
+          "command": false,
+          "macro": {
+            "id": "57dfcf92-bf7e-40d0-bc9e-9dac3a8a3414",
+            "name": "Macro：高级搜索",
+            "commands": [
+              {
+                "name": "搜索: 在所有文件中搜索",
+                "type": "Obsidian",
+                "id": "f2ed6bc3-458c-48fe-845b-1109f90afbcd",
+                "commandId": "global-search:open"
+              },
+              {
+                "name": "Wait",
+                "type": "Wait",
+                "id": "a8cf434d-ee95-4f04-a619-9166fcfc9a29",
+                "time": 200
+              },
+              {
+                "name": "250114_强化Obsidian搜索",
+                "type": "UserScript",
+                "id": "4ffdef4a-c085-47a4-a98d-65ed29506953",
+                "path": "700【模板】Template/QuickAdd/250114_强化Obsidian搜索.js",
+                "settings": {}
+              }
+            ]
+          },
+          "runOnStartup": false
+        },
+        {
+          "id": "41835406-cf64-4345-8f65-f7011dc60af9",
+          "name": "Marco：Activate Virtual Linker",
+          "type": "Macro",
+          "command": true,
+          "runOnStartup": false,
+          "macro": {
+            "name": "Marco：Activate Virtual Linker",
+            "id": "a6514eb4-c68a-430e-b467-5b03eb3fa28d",
+            "commands": [
+              {
+                "name": "Virtual Linker / Glossary: Activate Virtual Linker",
+                "type": "Obsidian",
+                "id": "54b911be-2b07-4ed9-bc25-9901dc902d04",
+                "commandId": "virtual-linker:activate-virtual-linker"
+              },
+              {
+                "name": "Capture：RebuildView",
+                "type": "Choice",
+                "id": "bc2436e5-aa23-4256-98ea-6ab5cc2702b8",
+                "choiceId": "61ca7fb8-1f7e-44f3-a27f-08229499732d"
+              }
+            ]
+          }
+        },
+        {
+          "id": "0f61ba43-63e5-492d-a175-48fb304f9e1b",
+          "name": "Macro：OpenFolderNote",
+          "type": "Macro",
+          "command": true,
+          "macro": {
+            "id": "f2ea7e97-d669-4b20-8107-2b145c0cbea1",
+            "name": "Macro：OpenFolderNote",
+            "commands": [
+              {
+                "name": "250216_FolderNoteOpener",
+                "type": "UserScript",
+                "id": "df6ea5fa-25c8-447c-9a7d-46c25583dd92",
+                "path": "700【模板】Template/QuickAdd/250216_FolderNoteOpener.js",
+                "settings": {}
+              }
+            ]
+          },
+          "runOnStartup": false
+        },
+        {
+          "id": "ed1ebd4f-1c07-4749-b48a-626c5ff6a280",
+          "name": "Macro：打开网址",
+          "type": "Macro",
+          "command": true,
+          "macro": {
+            "id": "f64c919c-f412-42af-84ca-1f74a6107fcb",
+            "name": "Macro：打开网址",
+            "commands": [
+              {
+                "name": "250227_打开网址",
+                "type": "UserScript",
+                "id": "1304b0db-c6cd-45d3-b37f-6588dea37f45",
+                "path": "700【模板】Template/QuickAdd/250227_打开网址.js",
+                "settings": {}
+              }
+            ]
+          },
+          "runOnStartup": false
+        },
+        {
+          "id": "0e43c175-8d5f-4d81-b7ab-6cf96410bc9f",
+          "name": "Macro：切换任务状态",
+          "type": "Macro",
+          "command": true,
+          "macro": {
+            "id": "0b6d5526-f05b-41d9-8452-1cddb2298b7f",
+            "name": "Macro：切换任务状态",
+            "commands": [
+              {
+                "name": "250803_切换任务列表状态",
+                "type": "UserScript",
+                "id": "e3735253-dadd-475a-811b-c5b80a004b01",
+                "path": "700【模板】Template/QuickAdd/250803_切换任务列表状态.js",
+                "settings": {}
+              }
+            ]
+          },
+          "runOnStartup": false
+        },
+        {
+          "id": "32d4c552-4d26-4624-861d-286f22e0c6ba",
+          "name": "Marco：markmind的一键切换",
+          "type": "Macro",
+          "command": true,
+          "runOnStartup": false,
+          "macro": {
+            "name": "Marco：markmind的一键切换",
+            "id": "4f036175-f400-43c7-a409-3a8b902e1e36",
+            "commands": [
+              {
+                "name": "251225_markmind的markdown导图模式的切换",
+                "type": "UserScript",
+                "id": "50792ed1-58f0-488d-ba64-d5b774da6a73",
+                "path": "700【模板】Template/QuickAdd/251225_markmind的markdown导图模式的切换.js",
+                "settings": {}
+              }
+            ]
+          }
+        },
+        {
+          "id": "d91a2d55-8cda-481f-94bf-a40fb07fa598",
+          "name": "Marco：Deactivate Virtual Linker",
+          "type": "Macro",
+          "command": true,
+          "runOnStartup": false,
+          "macro": {
+            "name": "Marco：Deactivate Virtual Linker",
+            "id": "f91469af-b0e8-471e-bfdd-582e3cdfbc74",
+            "commands": [
+              {
+                "name": "Virtual Linker / Glossary: Deactivate Virtual Linker",
+                "type": "Obsidian",
+                "id": "7a9b083f-b065-4c9e-a61e-d4eda3ebe77b",
+                "commandId": "virtual-linker:deactivate-virtual-linker"
+              },
+              {
+                "name": "Capture：RebuildView",
+                "type": "Choice",
+                "id": "e52eeec2-0fc6-49e1-afa6-17581781dbe5",
+                "choiceId": "61ca7fb8-1f7e-44f3-a27f-08229499732d"
+              }
+            ]
+          }
+        },
+        {
+          "id": "bac3760a-a10a-4811-afc1-900f5595a3ab",
+          "name": "Macro：Canvas Presentations",
+          "type": "Macro",
+          "command": true,
+          "runOnStartup": false,
+          "macro": {
+            "name": "Macro：Canvas Presentations",
+            "id": "95439619-3720-4acc-ae96-26435225a467",
+            "commands": [
+              {
+                "name": "Advanced Canvas: Start presentation",
+                "type": "Obsidian",
+                "id": "ccb09c1f-17ec-44d2-9c0a-623b7c420039",
+                "commandId": "advanced-canvas:start-presentation"
+              }
+            ]
+          }
+        },
+        {
+          "id": "9c7cf6ad-f117-4f09-bf98-4b508ff3bb7d",
+          "name": "Macro：切换工作区",
+          "type": "Macro",
+          "command": true,
+          "runOnStartup": false,
+          "macro": {
+            "name": "Macro：切换工作区",
+            "id": "190547cb-cad4-4af1-96af-544209ce6a0f",
+            "commands": [
+              {
+                "name": "工作区: 保存布局",
+                "type": "Obsidian",
+                "id": "b31c5bac-d0ec-4290-8e89-56306d79b8a5",
+                "commandId": "workspaces:save"
+              },
+              {
+                "name": "Wait",
+                "type": "Wait",
+                "id": "f82ecf75-a86e-4567-a304-6fa612896962",
+                "time": 100
+              },
+              {
+                "name": "工作区: 管理工作区布局",
+                "type": "Obsidian",
+                "id": "09a7d353-eec9-458f-9e74-85d93bf44ce7",
+                "commandId": "workspaces:open-modal"
+              }
+            ]
+          }
+        }
+      ],
+      "collapsed": true
+    },
+    {
+      "id": "50ef6f7f-4bc5-452e-8d5e-62fed9b71307",
+      "name": "Multi：Capture",
+      "type": "Multi",
+      "command": false,
+      "choices": [
+        {
+          "id": "08200a5d-925e-4f15-9d02-aa82f207e7f2",
+          "name": "Capture：在侧边打开",
+          "type": "Capture",
+          "command": true,
+          "appendLink": false,
+          "captureTo": "",
+          "captureToActiveFile": true,
+          "createFileIfItDoesntExist": {
+            "enabled": false,
+            "createWithTemplate": false,
+            "template": ""
+          },
+          "format": {
+            "enabled": true,
+            "format": "```js quickadd\nconst activefile = app.workspace.getActiveFile();\nconst filePath = app.vault.getAbstractFileByPath(activefile.path)\napp.workspace.getLeaf('split', 'vertical').openFile(filePath);\n\nconst comm = str => app.commands.executeCommandById(str);\n\nconst setPanel = percent => {\n    let right = document.querySelector('.workspace-split.mod-vertical.mod-root').lastElementChild;\n    right.previousSibling.style.flexGrow = percent;\n    right.style.flexGrow = 100 - percent;\n};\n\nsetTimeout(() => {\n    setPanel(75); // 50、80\n    comm('editor:focus-right');\n    comm(\"workspace:toggle-pin\");\n}, 1);\n\n```"
+          },
+          "insertAfter": {
+            "enabled": false,
+            "after": "",
+            "insertAtEnd": false,
+            "considerSubsections": false,
+            "createIfNotFound": false,
+            "createIfNotFoundLocation": "top"
+          },
+          "prepend": false,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default",
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "focus": true,
+            "mode": "default"
+          }
+        },
+        {
+          "id": "1c1571eb-4ac1-4e3e-95ae-8333af8b4795",
+          "name": "Capture：HTML Server",
+          "type": "Capture",
+          "command": true,
+          "appendLink": false,
+          "captureTo": "700【模板】Template/日记空白模板.md",
+          "captureToActiveFile": true,
+          "createFileIfItDoesntExist": {
+            "enabled": false,
+            "createWithTemplate": false,
+            "template": ""
+          },
+          "format": {
+            "enabled": true,
+            "format": "```js quickadd\nconst filePath = app.workspace.getActiveFile().path;\nconst hs = app.plugins.getPlugin(\"html-server\");\nif (!hs) {\n  console.log(\"🟠未能找到 HTML Server 插件\");\n} else {\n  const port = hs.settings.port;\n  let url = `http://127.0.0.1:${port}/${filePath}`;\n  new Notice(\"Open 🌐\" + url);\n  window.open(url, '_blank');\n}\n```"
+          },
+          "insertAfter": {
+            "enabled": false,
+            "after": "",
+            "insertAtEnd": false,
+            "considerSubsections": false,
+            "createIfNotFound": false,
+            "createIfNotFoundLocation": "top"
+          },
+          "prepend": false,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default",
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "focus": true,
+            "mode": "default"
+          },
+          "activeFileWritePosition": "cursor"
+        },
+        {
+          "id": "82f279ea-2acf-4306-8b13-5925d9f94b5c",
+          "name": "Capture：启动/关闭 护眼模式",
+          "type": "Capture",
+          "command": true,
+          "appendLink": false,
+          "captureTo": "",
+          "captureToActiveFile": true,
+          "createFileIfItDoesntExist": {
+            "enabled": false,
+            "createWithTemplate": false,
+            "template": ""
+          },
+          "format": {
+            "enabled": true,
+            "format": "```js quickadd\nconst snippetName = \"【Theme-Material】护眼模式\";\nconst snippetPath = app.customCss.getSnippetPath(snippetName);\nif (!snippetPath) {\n    new Notice(`Snippet ${snippetName} not found`);\n}\n\nconst isSnippetsEnabled = app.customCss.enabledSnippets.has(snippetName)\n    ? true\n    : false;\n\nif (isSnippetsEnabled) {\n    console.log(\"关闭\");\n    app.customCss.setCssEnabledStatus(snippetName, false);\n    app.customCss.requestLoadSnippets();\n} else {\n    console.log(\"启动\");\n    app.customCss.setCssEnabledStatus(snippetName, true);\n    app.customCss.requestLoadSnippets();\n}\n```"
+          },
+          "insertAfter": {
+            "enabled": false,
+            "after": "",
+            "insertAtEnd": false,
+            "considerSubsections": false,
+            "createIfNotFound": false,
+            "createIfNotFoundLocation": "top"
+          },
+          "prepend": false,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default",
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "focus": true,
+            "mode": "default"
+          }
+        }
+      ],
+      "collapsed": true
+    },
+    {
+      "id": "c0f78407-177e-42ce-952b-39f2fa548eb5",
+      "name": "💡QuickAddTest",
+      "type": "Macro",
+      "command": true,
+      "macro": {
+        "id": "d42131b2-05b1-47ce-b8d3-554ebe8f205b",
+        "name": "QuickAddTest",
+        "commands": [
+          {
+            "name": "Quickaddtest",
+            "type": "UserScript",
+            "id": "f2a38b96-eae7-4dbc-926b-bc6eb2fcda8e",
+            "path": "700【模板】Template/QuickAdd/Quickaddtest.js",
+            "settings": {
+              "RenameChangeLogPath": "Z-附件文件存储/RenameChangeLog.md",
+              "canvasPath": "Y-图形文件存储/CardsView.canvas",
+              "width": "670",
+              "height": "430",
+              "limit": "3",
+              "space": "50",
+              "附件类型": "png,jpg,jpeg,gif,svg,webp,tif,tiff,pdf,mp4,mp3",
+              "attachmentTypes": "png,jpg,jpeg,gif,svg,webp,tif,tiff,pdf,mp4,mp3",
+              "SVG命名格式": "{{DATE:YYYY-MM-DD_HHmmss}}",
+              "SVG文件路径": "当前文件夹",
+              "SVG自动打开": true,
+              "SVG编辑器": "D:\\Drawio\\draw.io\\draw.io.exe",
+              "Format": "YYYY-MM-DD HH:mm:ss Z",
+              "Properties": "date",
+              "Type": "mtime",
+              "自定义文件夹(custom folder path)": "",
+              "归档日期格式(date format)": "{{DATE:YYYY/YYYY-MM-DD}}",
+              "文件类型(Custom folder path)": "png|jpe?g|webp|mp[3,4]|pdf",
+              "FixedProperties": "uid,title,aliases,tags,url,description,date,created,modified",
+              "DatePropertyName": "date",
+              "CtimePropertyName": "created",
+              "MtimePropertyName": "modified",
+              "DateFormat": "YYYY-MM-DD",
+              "CtimeFormat": "YYYY-MM-DD HH:mm:ss",
+              "MtimeFormat": "YYYY-MM-DD HH:mm:ss",
+              "date日期的格式": "date",
+              "date的属性名": "date",
+              "ctime的属性名": "created",
+              "mtime的属性名": "modified",
+              "uid的时间戳格式": "YYYY-MM-DD",
+              "ctime或mtime的时间戳格式": "YYYY-MM-DD HH:mm:ss",
+              "TaskNote默认标签": "#TaskNote",
+              "Project默认标签": "#Project",
+              "项目文件夹路径": "300【项目】Project",
+              "1_任务类型图标": "🗂️",
+              "2_任务名称图标": "📌",
+              "3_项目文件夹图标": "📁",
+              "3.1_项目类型图标": "📂",
+              "4_任务标签图标": "🏷️",
+              "5_正文内容图标": "✍️",
+              "项目属性字段": "type",
+              "任务状态字段": "status",
+              "任务状态选项": "Plan\nScheduing\nIn Progress\nIn Review\nDone\nCancelled",
+              "项目分类路径": "300【项目】Project",
+              "默认开启FolderNote": true,
+              "TaskNote创建模板": "700【模板】Template/TaskNote.md",
+              "Project创建模板": "700【模板】Template/Project.md",
+              "TaskNote文件夹": "310【任务】Tasks/{{DATE:YYYY}}",
+              "Project文件夹": "300【项目】Project"
+            }
+          }
+        ]
+      },
+      "runOnStartup": false
+    },
+    {
+      "id": "2e2f0f3d-b4ad-4625-bb95-e6be748f801c",
+      "name": "Macro：初始化",
+      "type": "Macro",
+      "command": true,
+      "runOnStartup": true,
+      "macro": {
+        "name": "Macro：初始化",
+        "id": "b6e78a3a-dc63-45bb-8304-51f87ae88e59",
+        "commands": [
+          {
+            "name": "250114_双击代码块在Monaco中打开",
+            "type": "UserScript",
+            "id": "9181358a-c666-45ca-a2c2-a5d34625298f",
+            "path": "700【模板】Template/QuickAdd/250114_双击代码块在Monaco中打开.js",
+            "settings": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "eb9daf1b-8ece-49a4-a09f-5b7ad60e8d57",
+      "name": "Macro：便笺背景",
+      "type": "Macro",
+      "command": true,
+      "runOnStartup": false,
+      "macro": {
+        "name": "Macro：便笺背景",
+        "id": "05780984-714d-4c25-aacf-26afbd636cff",
+        "commands": [
+          {
+            "name": "240416_切换笔记背景",
+            "type": "UserScript",
+            "id": "6f84f379-0ced-44ca-a14b-691b5d3a66d2",
+            "path": "700【模板】Template/QuickAdd/240416_切换笔记背景.js",
+            "settings": {}
+          }
+        ]
+      }
+    }
+  ],
+  "inputPrompt": "single-line",
+  "persistInputPromptDrafts": false,
+  "useSelectionAsCaptureValue": false,
+  "devMode": false,
+  "templateFolderPath": "700【模板】Template",
+  "announceUpdates": "all",
+  "version": "2.12.3",
+  "globalVariables": {},
+  "onePageInputEnabled": false,
+  "disableOnlineFeatures": false,
+  "enableRibbonIcon": false,
+  "showCaptureNotification": false,
+  "showInputCancellationNotification": false,
+  "enableTemplatePropertyTypes": false,
+  "dateAliases": {
+    "t": "today",
+    "tm": "tomorrow",
+    "yd": "yesterday",
+    "nw": "next week",
+    "nm": "next month",
+    "ny": "next year",
+    "lw": "last week",
+    "lm": "last month",
+    "ly": "last year"
+  },
+  "ai": {
+    "defaultModel": "gpt-3.5-turbo-16k",
+    "defaultSystemPrompt": "作为 Obsidian 中的人工智能助手，您的主要目标是帮助用户更有效地管理他们的想法和知识。使用 Markdown 语法格式化您的回复。请使用[[Obsidian]]链接格式。您可以通过编写 [[Obsidian|管道符号后的别名]] 为链接编写别名。要使用数学符号，请使用 LaTeX 语法。较大方程的 LaTeX 语法应位于单独的行上，并用双美元符号 ($$) 包围。 您还可以通过将数学表达式包裹在 $ 符号中来内联数学表达式。例如，使用 $$w_{ij}^{\text{new}}:=w_{ij}^{\text{current}}+etacdotdelta_jcdot x_{ij}$$ on 单独一行，但你可以写\"($eta$ = learning rate, $delta_j$ = error term, $x_{ij}$ = input)\" 排队。",
+    "promptTemplatesFolderPath": "",
+    "showAssistant": true,
+    "providers": [
+      {
+        "name": "OpenAI",
+        "endpoint": "https://api.openai-sb.com/v1",
+        "apiKey": "",
+        "models": [
+          {
+            "name": "gpt-3.5-turbo",
+            "maxTokens": 4096
+          },
+          {
+            "name": "gpt-3.5-turbo-16k",
+            "maxTokens": 16384
+          },
+          {
+            "name": "gpt-3.5-turbo-1106",
+            "maxTokens": 16385
+          },
+          {
+            "name": "gpt-4",
+            "maxTokens": 8192
+          },
+          {
+            "name": "gpt-4-32k",
+            "maxTokens": 32768
+          },
+          {
+            "name": "gpt-4-1106-preview",
+            "maxTokens": 128000
+          },
+          {
+            "name": "text-davinci-003",
+            "maxTokens": 4096
+          }
+        ],
+        "modelSource": "auto",
+        "apiKeyRef": "quickadd-ai-openai"
+      }
+    ]
+  },
+  "migrations": {
+    "migrateToMacroIDFromEmbeddedMacro": true,
+    "useQuickAddTemplateFolder": true,
+    "incrementFileNameSettingMoveToDefaultBehavior": true,
+    "mutualExclusionInsertAfterAndWriteToBottomOfFile": true,
+    "setVersionAfterUpdateModalRelease": true,
+    "addDefaultAIProviders": true,
+    "removeMacroIndirection": true,
+    "migrateFileOpeningSettings": true,
+    "setProviderModelDiscoveryMode": true,
+    "backfillFileOpeningDefaults": true,
+    "migrateProviderApiKeysToSecretStorage": true,
+    "consolidateFileExistsBehavior": true,
+    "repairTemplateFileExistsBehavior": true
+  },
+  "macros": [
+    {
+      "name": "Macro：🛫QuickFormat",
+      "id": "28b11711-3bc7-4cd5-a350-6caeb0259e71",
+      "commands": [
+        {
+          "name": "Linter: 格式化当前文件",
+          "type": "Obsidian",
+          "id": "0acbcf88-7474-4b26-8118-fbc6ab4a9120",
+          "commandId": "obsidian-linter:lint-file"
+        },
+        {
+          "name": "241219_固定的YAML属性",
+          "type": "UserScript",
+          "id": "4f5767c8-9643-40a4-8a8a-039f893c724d",
+          "path": "700【模板】Template/QuickAdd/241219_固定的YAML属性.js",
+          "settings": {}
+        },
+        {
+          "name": "2024-04-17_自动更新Banner",
+          "type": "UserScript",
+          "id": "443eac5b-917d-4012-ae23-8e28d95919e5",
+          "path": "700【模板】Template/QuickAdd/2024-04-17_自动更新Banner.js",
+          "settings": {
+            "图片属性": "banner",
+            "是否强制更新": true,
+            "显示第几张图片": "1",
+            "默认图片": ""
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Macro：📖QuickOpen",
+      "id": "9200974e-6a29-480f-b0fe-48ccf8b9aae3",
+      "commands": [
+        {
+          "name": "新标签页",
+          "type": "Obsidian",
+          "id": "39862c5c-e607-4fa9-8ec8-9ac7b72e71f8",
+          "commandId": "workspace:new-tab"
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "c9346aa4-a6d4-4d40-98f8-b269675291b7",
+          "time": 100
+        },
+        {
+          "name": "Another Quick Switcher: Recent search",
+          "type": "Obsidian",
+          "id": "d01d0304-7ae6-46c6-80a0-d6753f116ca3",
+          "commandId": "obsidian-another-quick-switcher:search-command_recent-search"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "OpenActiveFileNewTab",
+      "id": "6bd5fcfe-7453-4353-ad07-878d328c6b04",
+      "commands": [
+        {
+          "name": "OpenActiveFileNewTab",
+          "type": "UserScript",
+          "id": "7aafcc2d-3e24-4269-8f29-1ba02d861bc0",
+          "path": "700【模板】Template/QuickAdd/OpenActiveFileNewTab.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Macro：⚙openExternalEditor",
+      "id": "ae8d6bbe-4b55-416e-b9ed-32ea425c6832",
+      "commands": [
+        {
+          "name": "openExternalEditor",
+          "type": "UserScript",
+          "id": "214929af-cd5b-48b1-9cd7-547194f1aa5e",
+          "path": "700【模板】Template/QuickAdd/openExternalEditor.js",
+          "settings": {
+            "Editor": "D:\\Cursor\\Cursor.exe\nD:\\Microsoft VS Code\\Code.exe\nE:\\SoftwarePrograms\\文本编辑器\\NotepadNext-v0.7-win64\\NotepadNext.exe\nE:\\SoftwarePrograms\\便携软件\\FSCapture\\FSCapture.exe\nC:\\Users\\94359\\AppData\\Roaming\\FSCapture\\FSCapture.exe"
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Macro：🔍ZoomNext",
+      "id": "36b437b4-674c-4612-9990-9b9fa9d2055b",
+      "commands": [
+        {
+          "name": "Zoom: Zoom out the entire document",
+          "type": "Obsidian",
+          "id": "7a349906-41db-474a-a534-061e6d72d93d",
+          "commandId": "obsidian-zoom:zoom-out"
+        },
+        {
+          "name": "Go To Heading: Next heading",
+          "type": "Obsidian",
+          "id": "028a6e73-5da7-4581-8693-889200ed977f",
+          "commandId": "oin-gotoheading:gotoheading-next"
+        },
+        {
+          "name": "Zoom: Zoom in",
+          "type": "Obsidian",
+          "id": "94d27f08-247b-4324-ab5b-1551d62d05dd",
+          "commandId": "obsidian-zoom:zoom-in"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Macro：🔍ZoomPreious",
+      "id": "74582a02-e8c0-4cb5-adb2-5b78861859cd",
+      "commands": [
+        {
+          "name": "Zoom: Zoom out the entire document",
+          "type": "Obsidian",
+          "id": "b7a97104-e655-4661-9a95-a040ed9cf85d",
+          "commandId": "obsidian-zoom:zoom-out"
+        },
+        {
+          "name": "Go To Heading: Previous heading",
+          "type": "Obsidian",
+          "id": "9d16f6ad-4188-44e4-9c4b-a2170159bbdc",
+          "commandId": "oin-gotoheading:gotoheading-previous"
+        },
+        {
+          "name": "Zoom: Zoom in",
+          "type": "Obsidian",
+          "id": "8c0e318c-cba8-4db3-90e8-a6cf3448dfe8",
+          "commandId": "obsidian-zoom:zoom-in"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Macro：🔍ZoomList",
+      "id": "2b5112aa-d9b0-4639-9905-7cc95ad2cce4",
+      "commands": [
+        {
+          "name": "无序列表",
+          "type": "Obsidian",
+          "id": "a4792129-e7b5-4218-a0f8-49f5f79b583b",
+          "commandId": "editor:toggle-bullet-list"
+        },
+        {
+          "name": "Zoom: Zoom in",
+          "type": "Obsidian",
+          "id": "7f0b74ae-5dc3-4eb4-8192-44e1148ed3f8",
+          "commandId": "obsidian-zoom:zoom-in"
+        },
+        {
+          "name": "无序列表",
+          "type": "Obsidian",
+          "id": "5d49e180-8fa6-46d9-a3a3-0407fd513d26",
+          "commandId": "editor:toggle-bullet-list"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Macro：🔍ZoomHead",
+      "id": "18a1423d-8aa4-4c9f-85df-0c03ccb7fe90",
+      "commands": [
+        {
+          "name": "设为小标题 6",
+          "type": "Obsidian",
+          "id": "c75e9917-817c-434a-bb74-a5e8c79e5357",
+          "commandId": "editor:set-heading-6"
+        },
+        {
+          "name": "Zoom: Zoom in",
+          "type": "Obsidian",
+          "id": "7a6a833a-87a1-4957-894b-67d5af179096",
+          "commandId": "obsidian-zoom:zoom-in"
+        },
+        {
+          "name": "移除小标题格式",
+          "type": "Obsidian",
+          "id": "ab3a1223-dc0b-4948-8a25-95cf340d3ad1",
+          "commandId": "editor:set-heading-0"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "QuickAddTest",
+      "id": "d42131b2-05b1-47ce-b8d3-554ebe8f205b",
+      "commands": [
+        {
+          "name": "Quickaddtest",
+          "type": "UserScript",
+          "id": "f2a38b96-eae7-4dbc-926b-bc6eb2fcda8e",
+          "path": "700【模板】Template/QuickAdd/Quickaddtest.js",
+          "settings": {
+            "RenameChangeLogPath": "Z-附件文件存储/RenameChangeLog.md",
+            "canvasPath": "Y-图形文件存储/CardsView.canvas",
+            "width": "670",
+            "height": "430",
+            "limit": "3",
+            "space": "50",
+            "附件类型": "png,jpg,jpeg,gif,svg,webp,tif,tiff,pdf,mp4,mp3",
+            "attachmentTypes": "png,jpg,jpeg,gif,svg,webp,tif,tiff,pdf,mp4,mp3",
+            "SVG命名格式": "{{DATE:YYYY-MM-DD_HHmmss}}",
+            "SVG文件路径": "当前文件夹",
+            "SVG自动打开": true,
+            "SVG编辑器": "D:\\Drawio\\draw.io\\draw.io.exe",
+            "Format": "YYYY-MM-DD HH:mm:ss Z",
+            "Properties": "date",
+            "Type": "mtime",
+            "自定义文件夹(custom folder path)": "",
+            "归档日期格式(date format)": "{{DATE:YYYY/YYYY-MM-DD}}",
+            "文件类型(Custom folder path)": "png|jpe?g|webp|mp[3,4]|pdf",
+            "FixedProperties": "uid,title,aliases,tags,url,description,date,created,modified",
+            "DatePropertyName": "date",
+            "CtimePropertyName": "created",
+            "MtimePropertyName": "modified",
+            "DateFormat": "YYYY-MM-DD",
+            "CtimeFormat": "YYYY-MM-DD HH:mm:ss",
+            "MtimeFormat": "YYYY-MM-DD HH:mm:ss",
+            "date日期的格式": "date",
+            "date的属性名": "date",
+            "ctime的属性名": "created",
+            "mtime的属性名": "modified",
+            "uid的时间戳格式": "YYYY-MM-DD",
+            "ctime或mtime的时间戳格式": "YYYY-MM-DD HH:mm:ss"
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Macro：🌊ConvertCanvas",
+      "id": "fc7f1550-2ad2-431b-9a72-d267773f0c04",
+      "commands": [
+        {
+          "name": "convertMdToCanvas",
+          "type": "UserScript",
+          "id": "537f1f6d-bdb0-4cfb-838e-48538ce40914",
+          "path": "700【模板】Template/QuickAdd/convertMdToCanvas.js",
+          "settings": {
+            "canvasPath": "900【素材】Assets/MdToCanvas.canvas",
+            "level": "1",
+            "width": "1000",
+            "height": "600",
+            "space": "50",
+            "limit": "2"
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Macro：👥ToggleTheme",
+      "id": "2bf55ea7-200e-4174-8878-68a62fe67e5f",
+      "commands": [
+        {
+          "name": "Toggle Theme",
+          "type": "UserScript",
+          "id": "fc8805fa-4c01-4591-90a5-e8015ad6cf89",
+          "path": "700【模板】Template/QuickAdd/Toggle Theme.js",
+          "settings": {
+            "主题名称": "Blue Topaz",
+            "第一个主题名称": "default",
+            "主题名称1": "Blue Topaz",
+            "主题名称2": "default",
+            "theme 1": "default",
+            "theme 1 mode": "Light",
+            "theme 2": "default",
+            "theme 2 mode": "Dark"
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Macro：🔁BulkRenames",
+      "id": "5c62cacd-dc32-4072-a673-5022a18d15e1",
+      "commands": [
+        {
+          "name": "Obsidian_Bulk_Rename",
+          "type": "UserScript",
+          "id": "06322a54-9022-47d9-bd02-51d4270c57de",
+          "path": "700【模板】Template/QuickAdd/Obsidian_Bulk_Rename.js",
+          "settings": {
+            "RenameChangeLogPath": "900【素材】Assets/RenameChangeLog.md"
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Macro：SwitchHeads",
+      "id": "67e6b547-a6eb-4d18-9ad1-494c5019eea6",
+      "commands": [
+        {
+          "name": "SwitchHeads",
+          "type": "UserScript",
+          "id": "8e4c617e-7689-47a8-88ed-3dbac10477d8",
+          "path": "700【模板】Template/QuickAdd/SwitchHeads.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Macro：ShowProjects",
+      "id": "9d466e38-d520-4599-96c1-d583a346fce9",
+      "commands": [
+        {
+          "name": "ShowProjects",
+          "type": "UserScript",
+          "id": "75e99d2f-0e2e-492e-ac7d-2bf9d73e4a95",
+          "path": "700【模板】Template/QuickAdd/ShowProjects.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Macro：FocusFolder",
+      "id": "9a4607ff-3292-4985-96cd-5c001afac2db",
+      "commands": [
+        {
+          "name": "Folder Focus Mode: Enable folder focus mode for active file",
+          "type": "Obsidian",
+          "id": "9157325f-822b-4a95-b819-c68b7b245604",
+          "commandId": "obsidian-folder-focus-mode:folder-focus-mode-focus-active"
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "439f666a-2489-49ce-82c4-39ec9169a488",
+          "time": 200
+        },
+        {
+          "name": "文件列表: 在文件列表中显示当前文件",
+          "type": "Obsidian",
+          "id": "eb2bb236-6c5b-4b08-bd49-341dc28161e5",
+          "commandId": "file-explorer:reveal-active-file"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Macro：CopyUUID",
+      "id": "cf6e53cd-3ae6-425b-9b60-bf184e4561c6",
+      "commands": [
+        {
+          "name": "uuid: Add an UUID to current note",
+          "type": "Obsidian",
+          "id": "179a6fdd-50da-40ba-8250-e9c7c6cc0ade",
+          "commandId": "obsidian-uuid-plugin:add-id-to-current-note"
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "88b91c3f-eb62-46b6-8fd3-6f7ffa368a8a",
+          "time": 500
+        },
+        {
+          "name": "Advanced URI: copy URI for current file",
+          "type": "Obsidian",
+          "id": "94ab449b-d5ae-4246-9e9e-175da4a2eef0",
+          "commandId": "obsidian-advanced-uri:copy-uri-current-file-simple"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Macro：⚓TreeFolder",
+      "id": "686e963a-d888-4677-be07-bf2d6aa0e616",
+      "commands": [
+        {
+          "name": "2024-03-13_TreeFolder",
+          "type": "UserScript",
+          "id": "65987377-baae-4e62-83c6-8c25dd3e5952",
+          "path": "700【模板】Template/QuickAdd/2024-03-13_TreeFolder.js",
+          "settings": {
+            "folderMindPath": "FolderNote.markmind.md",
+            "maxDepth": "6",
+            "limit": "2",
+            "ignoreFolders": "@【熊阿莫】赞美太阳！",
+            "ignoreSubfoldersList": "900【素材】Assets,510_Bookxnote库,700【模板】Template,550_CodeSnippet,540_图形文件存储",
+            "level": "2"
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Macro：复制并删除文件",
+      "id": "74ddc25c-56c6-4807-9844-3cee225e0280",
+      "commands": [
+        {
+          "name": "2024-03-13_复制并删除文件",
+          "type": "UserScript",
+          "id": "765cc0f7-ed15-4ace-9000-9f4360e8bc5c",
+          "path": "700【模板】Template/QuickAdd/2024-03-13_复制并删除文件.js",
+          "settings": {
+            "Types": "md,txt,js,ts,py"
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Macro：移动至同一文件夹",
+      "id": "2996eb1d-c940-4cc5-924a-8be0de36821b",
+      "commands": [
+        {
+          "name": "2024-03-15_移动子笔记或附件到当前文件夹",
+          "type": "UserScript",
+          "id": "9596f499-64a7-4bde-8e38-99db1af8c2e3",
+          "path": "700【模板】Template/QuickAdd/2024-03-15_移动子笔记或附件到当前文件夹.js",
+          "settings": {
+            "归档路径": "800【归档】Archive",
+            "SVG命名格式": "{{DATE: YYYY}}",
+            "归档分类": "{{DATE:YYYY}}",
+            "归档格式": "YYYY"
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Macro：中英文视图",
+      "id": "8b6e0ccc-8cc2-4de0-8973-f15c1c4e184e",
+      "commands": [
+        {
+          "name": "2024-03-20_中英文视图切换",
+          "type": "UserScript",
+          "id": "1fde64a1-b95e-46c8-8e90-fbb7c77ce821",
+          "path": "700【模板】Template/QuickAdd/2024-03-20_中英文视图切换.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Macro：Rename",
+      "id": "971e8799-ceaa-4142-8636-06910789aa97",
+      "commands": [
+        {
+          "name": "2024-03-27_重命名",
+          "type": "UserScript",
+          "id": "a30e37d3-63b6-4573-a488-29bda35cd5b8",
+          "path": "700【模板】Template/QuickAdd/2024-03-27_重命名.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Macro：📐InsertSVG",
+      "id": "4dc2fbba-0b20-4d0d-b3ed-bb6e09dd8661",
+      "commands": [
+        {
+          "name": "2024-03-27_InsertSVGTemplate",
+          "type": "UserScript",
+          "id": "0e104cde-d90e-4e68-8572-f05fc8a0346f",
+          "path": "700【模板】Template/QuickAdd/2024-03-27_InsertSVGTemplate.js",
+          "settings": {
+            "SVG命名格式": "{{DATE:[620【图表】Diagrams/]YYMMDD_HHmmss}}",
+            "SVG文件路径": "仓库根目录",
+            "SVG自动打开": true,
+            "SVG编辑器": "D:\\Drawio\\draw.io\\draw.io.exe"
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Macro：修改编程语言",
+      "id": "84eea593-7101-4571-a20c-e6a33001874d",
+      "commands": [
+        {
+          "name": "2024-04-03_批量修改代码块编程语言",
+          "type": "UserScript",
+          "id": "61e45317-33f1-426d-8307-286472d49756",
+          "path": "700【模板】Template/QuickAdd/2024-04-03_批量修改代码块编程语言.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Macro：折叠文件夹",
+      "id": "e08e42b9-f088-4ae8-bd6b-12900e903bc5",
+      "commands": [],
+      "runOnStartup": false
+    },
+    {
+      "name": "Macro：新窗口打开笔记",
+      "id": "b60eda5c-d399-435d-9ad3-1e66730c811c",
+      "commands": [
+        {
+          "name": "24.06.14_新窗口打开笔记",
+          "type": "UserScript",
+          "id": "64b9bfe7-a5a9-422d-bc86-a2d34ad79091",
+          "path": "700【模板】Template/QuickAdd/24.06.14_新窗口打开笔记.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Macro：LinkConverter",
+      "id": "3f9b64ed-8633-4252-b194-6d759cdd4181",
+      "commands": [
+        {
+          "name": "2024-04-23_LinkConverter",
+          "type": "UserScript",
+          "id": "afe9c046-0368-4da6-9347-c7fa6b03847a",
+          "path": "700【模板】Template/QuickAdd/2024-04-23_LinkConverter.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Macro：⏰EditTask",
+      "id": "960e3177-a4ce-48c0-9559-5d864670afcf",
+      "commands": [
+        {
+          "name": "2024-04-30_EditorOrCreatTask",
+          "type": "UserScript",
+          "id": "2fdf2dba-5114-44d0-b1aa-6df6d0ceb81a",
+          "path": "700【模板】Template/QuickAdd/2024-04-30_EditorOrCreatTask.js",
+          "settings": {
+            "Tag": "",
+            "time": true,
+            "AutoTime": false,
+            "AutoCreatedDate": false
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Macro：带图复制",
+      "id": "726cb415-0bb9-42d9-a312-6de76ab935a5",
+      "commands": [
+        {
+          "name": "2024-05-07_带图复制",
+          "type": "UserScript",
+          "id": "3b31770f-0df7-4307-b1f2-5ad56e7d6445",
+          "path": "700【模板】Template/QuickAdd/2024-05-07_带图复制.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Macro：管理工作区",
+      "id": "8f0c5a3a-dc7c-440a-9091-04970c956328",
+      "commands": [
+        {
+          "name": "2024-05-27_管理工作区",
+          "type": "UserScript",
+          "id": "6009e00a-4352-423b-8cbb-17038165f55b",
+          "path": "700【模板】Template/QuickAdd/2024-05-27_管理工作区.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Macro：归档附件",
+      "id": "affd76f0-f797-4df7-a528-8c045d8a1a52",
+      "commands": [
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "525591ec-446e-4465-a400-f90398d49c82",
+          "time": 5000
+        },
+        {
+          "name": "2024-06-13_按创建时间归档Obsidian附件",
+          "type": "UserScript",
+          "id": "a0ebadbd-1734-4cfe-b9e1-dcde24e1ce41",
+          "path": "700【模板】Template/QuickAdd/2024-06-13_按创建时间归档Obsidian附件.js",
+          "settings": {
+            "自定义文件夹(custom folder path)": "",
+            "归档日期格式(date format)": "{{DATE:YYYY/YYYY-MM/YYYY-MM-DD}}",
+            "文件类型(Custom folder path)": "png|jpe?g|webp|mp[3,4]|pdf",
+            "自定义文件夹路径(custom folder path)": "",
+            "文件类型(file type)": ""
+          }
+        },
+        {
+          "name": "2024-06-13_按创建时间归档Obsidian附件",
+          "type": "UserScript",
+          "id": "b7b411ad-af9b-4c64-9361-78f940716966",
+          "path": "700【模板】Template/QuickAdd/2024-06-13_按创建时间归档Obsidian附件.js",
+          "settings": {
+            "自定义文件夹路径(custom folder path)": "120【剪藏】Clippings",
+            "归档日期格式(date format)": "{{DATE:YYYY/YYYY-MM}}",
+            "文件类型(file type)": "md"
+          }
+        }
+      ],
+      "runOnStartup": true
+    },
+    {
+      "name": "Macro：切换副本",
+      "id": "a5c11149-de55-48ab-92d9-12de3b54b41a",
+      "commands": [
+        {
+          "name": "24.06.19_切换副本",
+          "type": "UserScript",
+          "id": "3bb19f2b-eb4b-46ac-b044-1a9a32147899",
+          "path": "700【模板】Template/QuickAdd/24.06.19_切换副本.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Macro：无序列表样式切换器",
+      "id": "afa0c061-5998-4636-8bf6-3898b106b15d",
+      "commands": [
+        {
+          "name": "2024-04-16_【无序列表样式-上善若水】样式切换器",
+          "type": "UserScript",
+          "id": "7248be0a-0313-4d4c-8199-28d26afd22ee",
+          "path": "700【模板】Template/QuickAdd/2024-04-16_【无序列表样式-上善若水】样式切换器.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Macro：List2Table",
+      "id": "a98fe00c-6c47-468d-97a1-685fda6cae1a",
+      "commands": [
+        {
+          "name": "24.06.28_Markdown列表转表格",
+          "type": "UserScript",
+          "id": "873417ae-bffd-4cbb-a86d-e40deee6dbda",
+          "path": "700【模板】Template/QuickAdd/24.06.28_Markdown列表转表格.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Macro：RenameAttachments",
+      "id": "49da2f56-5b3a-4f47-bb6c-cf7135d63422",
+      "commands": [
+        {
+          "name": "24.08.17_时间戳统一附件",
+          "type": "UserScript",
+          "id": "301171a7-7c09-4491-ac08-dbaabf4c868c",
+          "path": "700【模板】Template/QuickAdd/24.08.17_时间戳统一附件.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Macro：BannerGraphMod",
+      "id": "c5fdffcd-8e39-45a4-923e-7e69c3be7565",
+      "commands": [
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "4e313490-75d8-4e36-83a2-dfc356a1caf9",
+          "time": 2000
+        },
+        {
+          "name": "24.09.11_GraphBannerMod",
+          "type": "UserScript",
+          "id": "da50518b-4d50-4b63-83c6-4a56cb03514c",
+          "path": "700【模板】Template/QuickAdd/24.09.11_GraphBannerMod.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Macro：关联性图形定位文件",
+      "id": "be9a3edb-94ba-4d34-94ad-628daa4bab2f",
+      "commands": [
+        {
+          "name": "24.10.26_基于文件夹的媒体文件预览",
+          "type": "UserScript",
+          "id": "2adabd57-a7a3-4e66-8883-38aed318744f",
+          "path": "700【模板】Template/QuickAdd/24.10.26_基于文件夹的媒体文件预览.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Macro：Prettier格式化",
+      "id": "24f12e10-a8c6-4797-9a78-c26ae5dd9f43",
+      "commands": [
+        {
+          "name": "24.12.03_使用Prettier格式化Obsidian笔记",
+          "type": "UserScript",
+          "id": "66113524-3fba-4a21-ac52-96fdf6961d13",
+          "path": "700【模板】Template/QuickAdd/24.12.03_使用Prettier格式化Obsidian笔记.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Macro：VScode终端打开Ob",
+      "id": "896f281c-0485-4b20-a837-3d78ba4bc0bd",
+      "commands": [
+        {
+          "name": "24.12.16_VSCode终端打开库",
+          "type": "UserScript",
+          "id": "72cf3ece-1066-4141-b187-9e5b24ff8fec",
+          "path": "700【模板】Template/QuickAdd/24.12.16_VSCode终端打开库.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Macro：ZoomOutlines",
+      "id": "f711918e-c347-4cda-b04d-bcaf5967b249",
+      "commands": [
+        {
+          "name": "24.11.07_Quiet Outline添加Zoom按钮",
+          "type": "UserScript",
+          "id": "d2ac1961-b031-4946-8544-7e77fc5387ab",
+          "path": "700【模板】Template/QuickAdd/24.11.07_Quiet Outline添加Zoom按钮.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Macro：BMO助手",
+      "id": "69da85d5-85a7-4ab1-83ad-2fdfc52d6d1b",
+      "commands": [
+        {
+          "name": "241220_发送选中文本至BMO",
+          "type": "UserScript",
+          "id": "23f7ddb2-3dd9-42fa-b963-e955f0a43fbb",
+          "path": "700【模板】Template/QuickAdd/241220_发送选中文本至BMO.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Macro：初始化设置",
+      "id": "c9abbd90-c039-4407-ace0-c6344f9ba185",
+      "commands": [
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "eb70b65e-0837-4d42-b80c-8ccbc79ec7cc",
+          "time": 1000
+        },
+        {
+          "name": "250114_双击代码块在Monac中打开",
+          "type": "UserScript",
+          "id": "fac5d28d-b9ce-4829-8649-a7bc4ed74580",
+          "path": "700【模板】Template/QuickAdd/250114_双击代码块在Monac中打开.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": true
+    },
+    {
+      "name": "Macro：高级搜索",
+      "id": "57dfcf92-bf7e-40d0-bc9e-9dac3a8a3414",
+      "commands": [
+        {
+          "name": "搜索: 在所有文件中搜索",
+          "type": "Obsidian",
+          "id": "f2ed6bc3-458c-48fe-845b-1109f90afbcd",
+          "commandId": "global-search:open"
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "a8cf434d-ee95-4f04-a619-9166fcfc9a29",
+          "time": 200
+        },
+        {
+          "name": "250114_强化Obsidian搜索",
+          "type": "UserScript",
+          "id": "4ffdef4a-c085-47a4-a98d-65ed29506953",
+          "path": "700【模板】Template/QuickAdd/250114_强化Obsidian搜索.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Macro：OpenFolderNote",
+      "id": "f2ea7e97-d669-4b20-8107-2b145c0cbea1",
+      "commands": [
+        {
+          "name": "250216_FolderNoteOpener",
+          "type": "UserScript",
+          "id": "df6ea5fa-25c8-447c-9a7d-46c25583dd92",
+          "path": "700【模板】Template/QuickAdd/250216_FolderNoteOpener.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Macro：打开网址",
+      "id": "f64c919c-f412-42af-84ca-1f74a6107fcb",
+      "commands": [
+        {
+          "name": "250227_打开网址",
+          "type": "UserScript",
+          "id": "1304b0db-c6cd-45d3-b37f-6588dea37f45",
+          "path": "700【模板】Template/QuickAdd/250227_打开网址.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Macro：切换任务状态",
+      "id": "0b6d5526-f05b-41d9-8452-1cddb2298b7f",
+      "commands": [
+        {
+          "name": "250803_切换任务列表状态",
+          "type": "UserScript",
+          "id": "e3735253-dadd-475a-811b-c5b80a004b01",
+          "path": "700【模板】Template/QuickAdd/250803_切换任务列表状态.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    }
+  ]
+}

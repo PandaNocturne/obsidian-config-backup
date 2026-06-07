@@ -1,0 +1,252 @@
+/* 参考：[Obsidian 样式 - 实现 TiddlyWiki 故事河]( https://pkmer.cn/show/20230904215512 )
+ */
+/* @settings
+name: 【界面-熊猫】自动悬浮两侧侧边栏
+id: 【界面-熊猫】自动悬浮两侧侧边栏
+settings:
+-
+	id: auto-float-choice
+	title: 自动悬浮两侧侧边栏
+	type: class-toggle
+	addCommand: true
+	default: true
+-
+	id: tab-float-distance
+	title: 侧边栏悬空距离
+	type: variable-text
+	default: 0px
+-
+	id: 左侧侧边栏设置
+	title: 左侧侧边栏设置
+	type: heading
+	level: 2
+	collapsed: true
+-
+	id: left-tab-float-choice
+	title: 左侧侧边栏悬浮开关
+	type: class-toggle
+	addCommand: true
+	default: true
+-
+	id: tab-right-length
+	title: 调整左侧菜单距离
+	type: variable-text
+	default: 44px
+-
+	id: left-tab-opacity
+	title: 左侧侧边栏的不透明度
+	type: variable-number-slider
+	default: 1
+	format: 
+	min: 0.2
+	max: 1
+	step: 0.1
+-
+	id: 右侧侧边栏设置
+	title: 右侧侧边栏设置
+	type: heading
+	level: 2
+	collapsed: true
+-
+	id: right-tab-float-choice
+	title: 右侧侧边栏悬浮开关
+	type: class-toggle
+	addCommand: true
+	default: true
+-
+	id: right-tab-opacity
+	title: 右侧侧边栏的不透明度
+	type: variable-number-slider
+	default: 1
+	format: 
+	min: 0.2
+	max: 1
+	step: 0.1
+-
+	id: 悬浮侧边栏设置
+	title: 悬浮侧边栏设置
+	type: heading
+	level: 2
+	collapsed: true
+-
+	id: tab-top-height
+	title: 侧边栏距离顶部高度
+	type: variable-text
+	default: 80px
+-
+	id: tab-bottom-height
+	title: 侧边栏距离顶部底部
+	type: variable-text
+	default: 25px
+
+*/
+
+
+
+body {
+	--tab-float-distance: 0px;
+	--tab-top-height: 80px;
+	--tab-right-length: 44px;
+	--left-tab-opacity: 1;
+	--right-tab-opacity: 1;
+	--tab-bottom-height: 25px;
+	--sidebar-toggle-button-width: 15px;
+	--sidebar-toggle-button-height: 800px;
+	--tab-hight: calc(101% - var(--tab-top-height) - var(--tab-bottom-height));
+}
+
+/* 修复composer主题卡片模式下，工作区左右有边距的问题 */
+
+.workspace-split.mod-horizontal.mod-left-split,
+.workspace-split.mod-horizontal.mod-right-split {
+	padding: 0px !important;
+	/* z-index: var(--layer-modal) !important; */
+	background-color: var(--background-secondary) !important;
+	/* border: 1px solid var(--background-modifier-border); */
+
+	/* 添加阴影 */
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* 让工作区左右边距与侧边栏是否打开无关 */
+body:not(.is-phone) .workspace .mod-root.workspace-split.mod-vertical {
+	/* 左右统一用同一个间距（或你想要的固定值） */
+	margin-left: var(--root-workspace-margin-spacing) !important;
+	margin-right: var(--root-workspace-margin-spacing) !important;
+	padding-bottom: var(--root-workspace-padding-bottom) !important;
+}
+
+
+/* 固定根工作区位置，禁止 tab 区域左右挪动 */
+.workspace-tab-header-container {
+	padding-left: 0px !important;
+}
+
+/* !左侧侧边栏 */
+.left-tab-float-choice .workspace-split.mod-horizontal.mod-left-split {
+	position: fixed;
+	display: flex;
+	width: 280px;
+	top: var(--tab-top-height);
+	height: var(--tab-hight);
+	left: var(--tab-right-length);
+	margin: 0;
+	opacity: var(--left-tab-opacity);
+	z-index: 5;
+}
+
+
+.left-tab-float-choice .workspace-split.mod-left-split>.workspace-leaf-resize-handle {
+	border-right-style: unset;
+	border-right-width: unset;
+}
+
+/* !右侧侧边栏 */
+.right-tab-float-choice .workspace-split.mod-horizontal.mod-right-split {
+	position: fixed;
+	display: flex;
+	top: var(--tab-top-height);
+	right: var(--tab-float-distance);
+	height: var(--tab-hight);
+	margin: 0;
+	opacity: var(--right-tab-opacity);
+	z-index: 5;
+
+	.mod-top-right-space {
+		border: 1px solid var(--background-modifier-border);
+
+	}
+}
+
+.right-tab-float-choice .workspace-split.mod-right-split>.workspace-leaf-resize-handle {
+	border-right-style: none;
+	border-right-width: none;
+}
+
+.mod-left-split .workspace-tab-header-tab-list,
+.mod-right-split .workspace-tab-header-tab-list {
+	display: none;
+}
+
+/* ! 直接隐藏掉关闭和最小化按钮 */
+/* 不显示最大最小化后，使那块区域可以双击及拖动 */
+.mod-windows .titlebar-button,
+.is-hidden-frameless:not(.is-fullscreen) .workspace-tabs.mod-top-right-space .workspace-tab-header-container:after {
+	display: none;
+}
+
+/* !下拉菜单调整 */
+.workspace-tab-header-tab-list {
+	display: block;
+	position: absolute;
+	top: 0px !important;
+	right: 10px !important;
+	z-index: 10;
+}
+
+/* 侧边的折叠按钮设置 */
+.sidebar-toggle-button.mod-left {
+	position: absolute !important;
+	height: var(--sidebar-toggle-button-height);
+	top: calc(50vh - var(--sidebar-toggle-button-height)/2);
+	width: var(--sidebar-toggle-button-width);
+	left: var(--tab-right-length);
+	z-index: 10;
+
+	&:hover {
+		background-color: var(--background-modifier-border);
+		opacity: 0.5;
+	}
+
+	border-radius: 0% 20px 20px 0%;
+}
+
+/* 如果工作区被隐藏，左侧侧边栏的距离自动为0px @202601210958 */
+body:not(.show-ribbon) .workspace-split.mod-horizontal.mod-left-split,
+body:not(.show-ribbon) .sidebar-toggle-button.mod-left {
+	left: var(--tab-float-distance);
+}
+
+/* 侧边的折叠按钮设置 */
+.sidebar-toggle-button.mod-right.mod-right.mod-right {
+	position: absolute;
+	height: var(--sidebar-toggle-button-height);
+	top: calc(50vh - var(--sidebar-toggle-button-height)/2);
+	width: var(--sidebar-toggle-button-width);
+	/* right: -14px; */
+	right: 0;
+	z-index: 10;
+
+	&:hover {
+		background-color: var(--background-modifier-border);
+		opacity: 0.5;
+	}
+
+	border-radius: 20px 0% 0% 20px;
+}
+
+.sidebar-toggle-button.mod-left .clickable-icon,
+.sidebar-toggle-button.mod-right .clickable-icon {
+	/* width: var(--sidebar-toggle-button-width); */
+	width: 0px;
+	visibility: hidden;
+}
+
+/* .sidebar-toggle-button.mod-left .clickable-icon {
+	border-radius: 0% 20px 20px 0%;
+}
+
+.sidebar-toggle-button.mod-right .clickable-icon {
+	border-radius: 20px 0% 0% 20px;
+} */
+
+/* !透明度调整 */
+.sidebar-toggle-button .clickable-icon svg {
+	visibility: hidden;
+}
+
+/* !启动Obsidian按钮 */
+.titlebar-button.mod-logo {
+	display: flex !important;
+
+}

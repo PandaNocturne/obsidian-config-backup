@@ -1,0 +1,47 @@
+.callout {
+  --callout-radius: 0px;
+  --callout-blend-mode: normal;
+  padding: 0;
+  border-left: solid 3.5px rgb(var(--callout-color));
+  box-shadow: 0 .2rem .5rem var(--background-modifier-box-shadow);
+  background-color: var(--background-primary);
+}
+
+
+
+
+/* .theme-dark {
+  --background-modifier-box-shadow: rgb(84, 81, 81);
+} */
+
+.callout-title {
+  position: relative;
+  .callout-fold {
+    position: absolute;
+    right: 1rem;
+  }
+}
+
+
+.callout-icon {
+  margin-left: 5px;
+}
+
+.callout-title-inner {
+  margin-left: 6px;
+  font-weight: bolder;
+}
+
+.callout .callout-title {
+  padding: 6px;
+  font-family: "Source Han Sans CN";
+}
+
+.callout .callout-content {
+  background: none;
+}
+
+.callout-content {
+  padding: 5px 15px;
+  z-index: 100;
+}

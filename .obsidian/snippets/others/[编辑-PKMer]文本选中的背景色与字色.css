@@ -1,0 +1,6 @@
+/* 文本选中的背景色与字色 */
+/* 可选组合为：黑底绿字#191a21+#4ffa7b，红底白字#ff0000+#ffffff */
+::selection {
+    background: #3c3f50 !important;
+    color: #4ffa7b !important;
+}

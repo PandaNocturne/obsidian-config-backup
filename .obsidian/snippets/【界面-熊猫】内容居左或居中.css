@@ -1,0 +1,92 @@
+/* @settings
+name: 【界面-熊猫】内容居左或居中
+id: contentAlignLeft
+settings:
+  -
+    id: contentAlignLeft
+    title: 【界面-熊猫】内容居左或居中
+    type: class-toggle
+    addCommand: true
+*/
+
+
+/* 居左模式 */
+.contentAlignLeft {
+
+  /* !笔记内容居左 */
+  & .markdown-source-view.mod-cm6.is-readable-line-width .cm-sizer,
+  & .markdown-preview-view.is-readable-line-width .markdown-preview-sizer {
+    max-width: var(--file-line-width);
+    margin-left: 0px;
+    margin-right: auto;
+  }
+
+  /* !内容居左后的浮动目录 */
+  /* .floating-toc-div.floating-right.alignLeft .floating-toc {
+    left: calc(var(--file-line-width) + 80px);
+  } */
+
+
+
+  /* !2023-12-14_12:45:34 Thino插件修改 */
+  & div[data-type="thino_view"] #page-wrapper {
+    margin: -15px 20px auto;
+  }
+
+  /* !适配Zomm插件：防止遮挡 */
+  & .markdown-source-view.mod-cm6 .cm-panels {
+    /* background-color: inherit; */
+    background-color: var(--background-primary);
+    width: calc(var(--file-line-width) + 4%);
+    right: calc(96% - var(--file-line-width));
+    z-index: 3;
+    font-size: small;
+  }
+
+  /* !适配Scroll to Top Plugin插件 */
+  #__C_scrollToCursor,
+  #__C_scrollToTop,
+  #__C_scrollToBottom {
+    right: calc(92% - var(--file-line-width));
+  }
+
+  /* !适配SNW插件的笔记引用按钮 */
+  & .snw-header-count-wrapper {
+    /* position: fixed;
+    right: calc(97% - var(--file-line-width)); */
+  }
+
+}
+
+/* 居中模式 */
+body:not(.contentAlignLeft) {
+
+  /* !适配Zomm插件：防止遮挡 */
+  & .markdown-source-view.mod-cm6 .cm-panels {
+    /* background-color: inherit; */
+    background-color: var(--background-primary);
+    width: calc(var(--file-line-width) + 6%);
+    left: calc(47% - var(--file-line-width) / 2);
+    z-index: 10;
+    font-size: small;
+  }
+
+  /* !内容居中后的浮动目录 */
+  /* .floating-toc-div.floating-right.alignLeft .floating-toc {
+    left: calc(50% + var(--file-line-width)/2 + 80px);
+  } */
+
+
+  /* ! 适配Scroll To Top Plugin插件 */
+  #__C_scrollToCursor,
+  #__C_scrollToTop,
+  #__C_scrollToBottom {
+    right: calc(47.5% - var(--file-line-width) / 2);
+  }
+
+  /* ! 适配SNW插件的笔记引用按钮 */
+  & .mod-vertical:not(.mod-left-split):not(.mod-right-split) .workspace-tabs:not(.mod-stacked) .snw-header-count-wrapper {
+    /* position: fixed;
+    right: calc(50% - var(--file-line-width) / 2); */
+  }
+}

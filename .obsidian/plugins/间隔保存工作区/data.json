@@ -1,0 +1,15 @@
+{
+  "intervalSeconds": 20,
+  "isEnabled": true,
+  "showNotice": false,
+  "colors": {
+    "idle": "#3B82F6",
+    "saving": "#F59E0B",
+    "saved": "#22C55E",
+    "error": "#EF4444",
+    "disabled": "#6B7280",
+    "notfound": "#8B5CF6"
+  },
+  "workspaceName": "mo",
+  "favoriteWorkspaces": []
+}

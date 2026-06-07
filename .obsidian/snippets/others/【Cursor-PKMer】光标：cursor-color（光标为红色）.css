@@ -1,0 +1,14 @@
+/* Text Cursor Indicator */
+.CodeMirror-cursor,
+.CodeMirror div.CodeMirror-secondarycursor {
+  border-color: var(--interactive-accent);
+  border-width: 3px !important;
+}
+
+/*.cm-line */
+.cm-line {
+  caret-color: #ff0000 !important;
+}
+body{
+  caret-color: #ff0000 !important;
+}

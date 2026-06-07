@@ -1,0 +1,92 @@
+{
+  "items": [
+    {
+      "type": "group",
+      "ctime": 1763301360031,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1763301382978,
+          "path": "310【任务】Tasks/2025/250708_📅嵌入式基础入门学习/250825_📊嵌入式的长周期任务记录&规划_项目规划.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1765087122703,
+          "path": "310【任务】Tasks/2025/250708_📅嵌入式基础入门学习/250708_📅嵌入式基础入门学习.md"
+        }
+      ],
+      "title": "🗃️ 任务规划"
+    },
+    {
+      "type": "group",
+      "ctime": 1772687318116,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1764404415201,
+          "path": "310【任务】Tasks/2025/250708_📅嵌入式基础入门学习/251129_近期主要任务的拆分_思路整理.canvas"
+        },
+        {
+          "type": "file",
+          "ctime": 1765590979420,
+          "path": "600【白板】Canvas/251213_【Inbox】代办事项整理.canvas"
+        }
+      ],
+      "title": "📑代办笔记"
+    },
+    {
+      "type": "group",
+      "ctime": 1772687348686,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1768822136645,
+          "path": "420【编程】Code/人工智能(AI)/260309_AI Prompts/Obsidian Copilot Prompt.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1773210890501,
+          "path": "310【任务】Tasks/Weekly Task Report by Dataviewjs.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1774186479430,
+          "path": "700【模板】Template/Periodic模板/DailyNotes模板.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1774747397707,
+          "path": "300【项目】Project/300【项目】Project.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1775498634011,
+          "path": "520【工具】ToolNote/【Tool】笔记工具/【工具】Obsidian/260410_Obsidian 笔记/【Obsidian】基础入门/【Obsidian】白板（Canvas）.canvas"
+        }
+      ],
+      "title": "📌收藏笔记"
+    },
+    {
+      "type": "group",
+      "ctime": 1774149826991,
+      "items": [
+        {
+          "type": "search",
+          "ctime": 1776158318957,
+          "query": "((path:(\"500【资源】Resource/动漫\")) (file:(【动漫】))) OR ((path:(\"500【资源】Resource/游戏\")) (file:(【游戏】))) OR ((path:(\"500【资源】Resource/电影\")) (file:(【电影】)))"
+        },
+        {
+          "type": "search",
+          "ctime": 1776176331980,
+          "query": "(path:(\"420【编程】Code/WEB前端开发/CSS\")) OR (path:(\"420【编程】Code/WEB前端开发/HTML\")) OR (path:(\"420【编程】Code/WEB前端开发/JavaScript\")) OR (path:(\"420【编程】Code/嵌入式开发/C语言\")) OR (path:(\"420【编程】Code/数学建模笔记/Python\")) OR (path:(\"420【编程】Code/数学建模笔记/MATLAB\"))"
+        },
+        {
+          "type": "search",
+          "ctime": 1776335134001,
+          "query": "((path:(\"300【项目】Project\")) OR (path:(\"310【任务】Tasks\"))) OR (path:(\"400【领域】Area\")) OR (path:(\"420【编程】Code\")) OR (path:(\"500【资源】Resource\")) OR ((path:(\"220【记录】Record\")) (path:(\"210【日志】Journal\")))"
+        }
+      ],
+      "title": "🔍检索记录"
+    }
+  ]
+}

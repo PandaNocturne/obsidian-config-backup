@@ -1,0 +1,274 @@
+/* =========================
+   CSS Custom Properties
+   ========================= */
+.checkbox-style-menu-widget {
+    --menu-bg: var(--background-primary);
+    --menu-border: var(--background-modifier-border);
+    --menu-shadow: var(--background-modifier-box-shadow);
+    --menu-hover: var(--background-modifier-hover);
+    --menu-border-radius: 4px;
+    --menu-gap: 2px;
+    --menu-padding: 4px 3px;
+}
+
+/* =========================
+   Menu Widget Base Styles
+   ========================= */
+.checkbox-style-menu-widget {
+    background: var(--menu-bg);
+    border: 1px solid var(--menu-border);
+    border-radius: var(--menu-border-radius);
+    box-shadow: 0 2px 8px var(--menu-shadow);
+    padding: var(--menu-padding);
+    z-index: 1000;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+/* =========================
+   Overlay Styles
+   ========================= */
+.checkbox-overlay {
+    background: transparent;
+    border-radius: 2px;
+    cursor: default;
+    pointer-events: auto;
+}
+
+/* =========================
+   Markdown Content Styles
+   ========================= */
+.checkbox-style-menu-widget .markdown-preview-view {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.checkbox-style-menu-widget ul {
+    list-style: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--menu-gap);
+}
+
+.checkbox-style-menu-widget li {
+    padding: var(--menu-gap) !important;
+    margin: var(--menu-gap) 0 !important;
+    cursor: pointer;
+    display: flex !important;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    width: auto;
+    box-sizing: border-box;
+    border-radius: var(--menu-gap);
+    transition: background-color 0.1s ease;
+}
+
+.checkbox-style-menu-widget li:hover {
+    background: var(--menu-hover);
+}
+
+.checkbox-style-menu-widget li .task-list-item-checkbox {
+    margin: 0 !important;
+    flex-shrink: 0;
+}
+
+.checkbox-style-menu-widget li p {
+    margin: 0 !important;
+    padding: 0 !important;
+    display: inline;
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* =========================
+   Mobile Responsive Design
+   ========================= */
+
+/* Target mobile devices specifically using Platform.isMobile detection */
+.is-mobile .checkbox-style-menu-widget {
+    --menu-border-radius: 6px;
+    --menu-gap: 8px;
+    --menu-padding: 6px 4px;
+    
+    min-width: 44px;
+    overflow: visible;
+    white-space: nowrap;
+    position: relative;
+    width: auto; /* Width will be set dynamically by JavaScript */
+}
+
+.is-mobile .checkbox-style-menu-widget ul {
+    flex-direction: row;
+    overflow-x: auto;
+    padding: 0 20px; /* Add padding for scroll indicators */
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    width: 100%; /* Allow the ul to expand to fill available space */
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.is-mobile .checkbox-style-menu-widget ul::-webkit-scrollbar {
+    display: none;
+}
+
+/* Scroll Indicators */
+.is-mobile .checkbox-style-menu-widget::before,
+.is-mobile .checkbox-style-menu-widget::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--text-normal);
+    z-index: 1001;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    background: linear-gradient(to right, var(--menu-bg), transparent);
+}
+
+.is-mobile .checkbox-style-menu-widget::before {
+    content: '‹';
+    left: 0;
+    background: linear-gradient(to right, var(--menu-bg), transparent);
+}
+
+.is-mobile .checkbox-style-menu-widget::after {
+    content: '›';
+    right: 0;
+    background: linear-gradient(to left, var(--menu-bg), transparent);
+}
+
+/* Show indicators when scrollable */
+.is-mobile .checkbox-style-menu-widget.has-scroll-left::before {
+    opacity: 0.8;
+}
+
+.is-mobile .checkbox-style-menu-widget.has-scroll-right::after {
+    opacity: 0.8;
+}
+
+.is-mobile .checkbox-style-menu-widget li {
+    padding: 4px 6px !important;
+    margin: 0 !important;
+    min-height: 44px;
+    min-width: 44px;
+    flex-shrink: 0;
+    justify-content: center;
+}
+
+.is-mobile .checkbox-style-menu-widget li .task-list-item-checkbox {
+    transform: scale(1.2);
+    margin: 0 auto !important;
+}
+
+/* Settings Panel Mobile Styles */
+.is-mobile .checkbox-style-toggles .setting-item-name li {
+    font-size: calc(var(--font-text-size) * 1.1);
+}
+
+.is-mobile .checkbox-style-toggles .setting-item-name .task-list-item-checkbox {
+    transform: scale(1.2);
+}
+
+/* =========================
+   Settings Panel Styles
+   ========================= */
+.checkbox-style-toggles .setting-item-name ul {
+    margin: 0;
+}
+
+.checkbox-style-toggles .setting-item-name li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: var(--font-text-size);
+}
+
+.checkbox-style-toggles .setting-item-name .task-list-item-checkbox {
+    flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+    .checkbox-style-toggles .setting-item-name li {
+        font-size: calc(var(--font-text-size) * 1.1);
+    }
+    
+    .checkbox-style-toggles .setting-item-name .task-list-item-checkbox {
+        transform: scale(1.2);
+    }
+}
+
+/* =========================
+   Advanced Section Collapsible
+   ========================= */
+
+/* Make the Advanced heading clickable and add arrow indicator */
+.checkbox-style-menu-collapsible {
+    cursor: pointer;
+    user-select: none;
+}
+
+.checkbox-style-menu-collapsible .setting-item-info {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Add dropdown arrow using pseudo-element */
+.checkbox-style-menu-collapsible .setting-item-name::before {
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 6px solid var(--text-muted);
+    margin-right: 8px;
+    transition: transform 0.2s ease;
+    vertical-align: middle;
+}
+
+/* Rotate arrow when collapsed */
+.checkbox-style-menu-collapsible.is-collapsed .setting-item-name::before {
+    transform: rotate(-90deg);
+}
+
+/* Hover effect for the collapsible heading */
+.checkbox-style-menu-collapsible:hover {
+    background-color: var(--background-modifier-hover);
+}
+
+/* Smooth transition for content expansion/collapse */
+.checkbox-style-menu-collapsible-content {
+    overflow: hidden;
+    transition: opacity 0.2s ease;
+}
+
+/* Add a subtle top border to the collapsible content */
+.checkbox-style-menu-collapsible-content {
+    border-top: 1px solid var(--background-modifier-border);
+    margin-top: 8px;
+    padding-top: 8px;
+}

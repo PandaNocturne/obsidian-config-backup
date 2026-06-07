@@ -1,0 +1,576 @@
+{
+  "main": {
+    "id": "5324373015726ba8",
+    "type": "split",
+    "children": [
+      {
+        "id": "c7cefb5b7a333189",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "82e16684b984e7b7",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "420【编程】Code/嵌入式开发/251004_嵌入式学习路线.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "251004_嵌入式学习路线"
+            }
+          },
+          {
+            "id": "24967421b54c9bc1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "310【任务】Tasks/2025/250708_📅嵌入式基础入门学习/250708_📅嵌入式基础入门学习.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "250708_📅嵌入式基础入门学习"
+            }
+          },
+          {
+            "id": "8a373277fbaa732a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "420【编程】Code/嵌入式开发/嵌入式开发.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "嵌入式开发"
+            }
+          },
+          {
+            "id": "ba41f1d415da8de3",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "310【任务】Tasks/2026/260525_基础电路的学习/260525_基础电路的学习.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "260525_基础电路的学习"
+            }
+          },
+          {
+            "id": "eab8374fa8e65ed4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "210【日志】Journal/DailyNotes/2026/2026-06-07.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2026-06-07"
+            }
+          },
+          {
+            "id": "7b73df69d38484a6",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "310【任务】Tasks/2025/250708_📅嵌入式基础入门学习/260525_电子技术个人学习路径总结.canvas",
+                "viewState": {
+                  "x": 3423.317233628272,
+                  "y": 606.479092160654,
+                  "zoom": -0.8554357362422778
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "260525_电子技术个人学习路径总结"
+            }
+          },
+          {
+            "id": "76e07fe774b78b03",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "420【编程】Code/嵌入式开发/251207_微机原理/251207_微机原理.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "251207_微机原理"
+            }
+          },
+          {
+            "id": "9b53ba6210449cd1",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "310【任务】Tasks/2026/260525_基础电路的学习/260601_电路分析基础-学习记录.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "260601_电路分析基础-学习记录.excalidraw"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "95e6e6654593eb10",
+    "type": "split",
+    "children": [
+      {
+        "id": "e4bafa1670fe2ff9",
+        "type": "tabs",
+        "dimension": 44.8512585812357,
+        "children": [
+          {
+            "id": "35fcf03ddcc969ac",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "grid-view",
+              "state": {
+                "type": "grid-view",
+                "state": {
+                  "sourceMode": "folder",
+                  "sourcePath": "/",
+                  "baseSortType": "mtime-desc",
+                  "sortType": "mtime-desc",
+                  "searchQuery": "",
+                  "searchCurrentLocationOnly": false,
+                  "searchFilesNameOnly": false,
+                  "searchMediaFiles": false,
+                  "fileNameFilterQuery": "",
+                  "includeMedia": false,
+                  "minMode": false,
+                  "showIgnoredItems": false,
+                  "baseCardLayout": "horizontal",
+                  "cardLayout": "horizontal",
+                  "hideHeaderElements": false,
+                  "showFileNameFilter": false,
+                  "showDateDividers": false,
+                  "showNoteTags": true,
+                  "recentSources": [
+                    "{\"mode\":\"folder\",\"path\":\"400【领域】Area\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                    "{\"mode\":\"folder\",\"path\":\"400【领域】Area/T 工业技术\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                    "{\"mode\":\"folder\",\"path\":\"400【领域】Area\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                    "{\"mode\":\"folder\",\"path\":\"/\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                    "{\"mode\":\"folder\",\"path\":\"700【模板】Template\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                    "{\"mode\":\"folder\",\"path\":\"700【模板】Template/Excalidraw/Scripts/PandaScripts\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                    "{\"mode\":\"folder\",\"path\":\"700【模板】Template/Excalidraw/Scripts\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                    "{\"mode\":\"folder\",\"path\":\"700【模板】Template/Excalidraw\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                    "{\"mode\":\"folder\",\"path\":\"700【模板】Template\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                    "{\"mode\":\"folder\",\"path\":\"/\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}"
+                  ],
+                  "futureSources": [],
+                  "bookmarkGroupId": "all"
+                }
+              },
+              "pinned": true,
+              "icon": "folder",
+              "title": "根目录"
+            }
+          },
+          {
+            "id": "0bb1490b23fee648",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          },
+          {
+            "id": "f0c96d27d11be5cb",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "4b5de29ce0d9592e",
+            "type": "leaf",
+            "state": {
+              "type": "explorer-view",
+              "state": {
+                "expandedPaths": [
+                  "__folders__root"
+                ],
+                "searchQuery": "",
+                "stashFilePaths": []
+              },
+              "icon": "folder-tree",
+              "title": "浏览器"
+            }
+          },
+          {
+            "id": "93d5a6218ed02229",
+            "type": "leaf",
+            "state": {
+              "type": "vertical-tabs",
+              "state": {},
+              "icon": "vertical-tabs",
+              "title": "Vertical tabs"
+            }
+          }
+        ]
+      },
+      {
+        "id": "da20de394e8bef44",
+        "type": "tabs",
+        "dimension": 55.1487414187643,
+        "children": [
+          {
+            "id": "375cbe815b51a418",
+            "type": "leaf",
+            "state": {
+              "type": "chinese-calendar-view",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "日历"
+            }
+          },
+          {
+            "id": "ef3ded9dc2e7904a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "000【主页】Home/000【主页】Home.components",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "lucide-ghost",
+              "title": "backlink"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 455.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "afb6bb01c1a4f7a2",
+    "type": "split",
+    "children": [
+      {
+        "id": "e56a5ad948a86a71",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f6d1efa19786ef2b",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "310【任务】Tasks/2026/260525_基础电路的学习/260601_电路分析基础-学习记录.excalidraw.md"
+              },
+              "icon": "lucide-info",
+              "title": "260601_电路分析基础-学习记录.excalidraw的笔记属性"
+            }
+          },
+          {
+            "id": "404c90fb01f1807a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": true,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "72f06361316ed811",
+            "type": "leaf",
+            "state": {
+              "type": "multiple-notes-outline",
+              "state": {},
+              "icon": "files",
+              "title": "MNO - file view"
+            }
+          },
+          {
+            "id": "c73a565e1f774dc4",
+            "type": "leaf",
+            "state": {
+              "type": "quiet-outline",
+              "state": {},
+              "icon": "lines-of-text",
+              "title": "Quiet Outline"
+            }
+          },
+          {
+            "id": "2d0da901387ff185",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "e0cfeb10680d07e2",
+            "type": "leaf",
+            "state": {
+              "type": "yolo-chat-view",
+              "state": {},
+              "icon": "wand-sparkles",
+              "title": "新对话"
+            }
+          },
+          {
+            "id": "026d9881d19cda7f",
+            "type": "leaf",
+            "state": {
+              "type": "colorful-sticky-notes-list",
+              "state": {},
+              "icon": "layout-list",
+              "title": "便笺列表"
+            }
+          },
+          {
+            "id": "b7b4aea9e49bfe41",
+            "type": "leaf",
+            "state": {
+              "type": "yolo-chat-view",
+              "state": {},
+              "icon": "wand-sparkles",
+              "title": "Python绘图示例"
+            }
+          },
+          {
+            "id": "d98a36a437b21ac5",
+            "type": "leaf",
+            "state": {
+              "type": "footnotes",
+              "state": {
+                "file": "420【编程】Code/嵌入式开发/嵌入式开发.md"
+              },
+              "icon": "lucide-file-signature",
+              "title": "脚注"
+            }
+          },
+          {
+            "id": "23dd1e661e2ceed3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          }
+        ],
+        "currentTab": 6
+      }
+    ],
+    "direction": "horizontal",
+    "width": 694.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "yolo:打开聊天": false,
+      "obsidian-memos:Thino": false,
+      "obsidian-memos:Thino Super": false,
+      "gridexplorer:打开网格视图": false,
+      "obsidian-kanban:Create new board": false,
+      "colorful-stickynotes:打开便笺": false,
+      "colorful-stickynotes:便笺列表": false,
+      "colorful-stickynotes:便笺工作区": false,
+      "dashboard-navigator:Open dashboard navigator": false,
+      "quick-plugin-switcher:Quick Plugin Switcher": false,
+      "password-manager:打开密码管理器": false,
+      "advanced-search-ui:切换悬浮搜索面板": false,
+      "bases:新建数据库": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "audio-recorder:开始/结束录音": false,
+      "workspaces:管理工作区布局": false,
+      "components:AI 对话（新标签页）": false,
+      "obsidian42-brat:BRAT": false,
+      "quick-tagger:Add tag to current note": false,
+      "quick-tagger:Remove tag from current note": false,
+      "cmdr:Commander: 打开 Commander 设置": false,
+      "cmdr:Style Settings: Show style settings view": false,
+      "cmdr:QuickAdd: Macro：归档附件": false,
+      "lineage:Toggle Lineage view": false,
+      "obsidian-git:Open Git source control": false,
+      "code-files:Create Code File": true,
+      "templater-obsidian:Templater": true,
+      "focus-time:打开专注时间仪表盘": false,
+      "better-plugins-manager:插件管理器": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "pure-footnote:打开脚注大纲": false,
+      "periodic-notes:Open today": false,
+      "task-board:打开任务看板": false
+    }
+  },
+  "active": "8a373277fbaa732a",
+  "lastOpenFiles": [
+    "obsidian config @260607.zip",
+    "obsidian .zip",
+    "420【编程】Code/嵌入式开发/251004_嵌入式学习路线.md",
+    "310【任务】Tasks/2025/250708_📅嵌入式基础入门学习/250708_📅嵌入式基础入门学习.md",
+    "310【任务】Tasks/2025/250708_📅嵌入式基础入门学习/250803_电子工程的基础知识.rich.md",
+    "210【日志】Journal/StickyNotes/2026/2026-06/【便笺】2026-06-06 11时32分50秒.md",
+    "310【任务】Tasks/2025/250708_📅嵌入式基础入门学习/251119_嵌入式学习的体系 vs 问题导向 by Qwen3-max.md",
+    "420【编程】Code/嵌入式开发/嵌入式开发.md",
+    "310【任务】Tasks/2025/250708_📅嵌入式基础入门学习/260525_电子技术个人学习路径总结.canvas",
+    "210【日志】Journal/StickyNotes/2026/2026-05/【便笺】2026-05-30 03时35分19秒.md",
+    "210【日志】Journal/DailyNotes/2026/2026-06-07.md",
+    "210【日志】Journal/StickyNotes/2026/2026-06/【便笺】2026-06-02 09时37分24秒.md",
+    "210【日志】Journal/DailyNotes/2026/2026-06-08.md",
+    "310【任务】Tasks/2026/260525_基础电路的学习/260601_电路分析基础-学习记录.excalidraw.md",
+    "000【主页】Home/000【主页】Home.md",
+    "500【资源】Resource/500【资源】Resource.md",
+    "210【日志】Journal/210【日志】Journal.components",
+    "310【任务】Tasks/2026/260525_基础电路的学习/260601_电路分析基础-学习笔记.md",
+    "310【任务】Tasks/2026/260525_基础电路的学习/260525_基础电路的学习.md",
+    "420【编程】Code/嵌入式开发/251207_微机原理/251207_微机原理.md",
+    "310【任务】Tasks/2025/250708_📅嵌入式基础入门学习/电路仿真软件/250813_电路仿真软件汇总.md",
+    "310【任务】Tasks/2026/260525_基础电路的学习/260606_090011.excalidraw.md",
+    "700【模板】Template/Excalidraw/Scripts/PandaScripts/FrameListMindmapLayoutTool.md",
+    "310【任务】Tasks/2025/250708_📅嵌入式基础入门学习/电路仿真软件/电路仿真软件.md",
+    "900【素材】Assets/ObsidianAssets/Pasted Image 20260607173705_046.png",
+    "220【记录】Record/224【事件记录】Event Records/算命记录/算命记录.md",
+    "400【领域】Area/B 哲学、宗教/【玄学】玄学算命/八字命理/260529_八字基础知识.md",
+    "220【记录】Record/224【事件记录】Event Records/算命记录/260530_生辰八字算命_录音整理.md",
+    "220【记录】Record/224【事件记录】Event Records/算命记录/260120_生辰八字算命记录 by 盲人算命.md",
+    "220【记录】Record/224【事件记录】Event Records/算命记录/260525_我的八字大运排盘（0~100岁，事业）.md",
+    "900【素材】Assets/ObsidianAssets/File-20260607115434941.png",
+    "900【素材】Assets/ObsidianAssets/Pasted Image 20260607111955_654.png",
+    "010【笔记】Notes/个人职业规划/260530_命理规划：正缘时间线节点梳理.canvas",
+    "900【素材】Assets/ObsidianAssets/2026/2026-06/2026-06-06/婚姻-艮为山.png",
+    "900【素材】Assets/ObsidianAssets/2026/2026-06/2026-06-06/Pasted Image 20260606173712_975.png",
+    "900【素材】Assets/ObsidianAssets/2026/2026-06/2026-06-06/Pasted Image 20260606173423_101.png",
+    "900【素材】Assets/ObsidianAssets/2026/2026-06/2026-06-06/Pasted Image 20260606172747_134.png",
+    "900【素材】Assets/ObsidianAssets/2026/2026-06/2026-06-06/Pasted Image 20260606172620_608.png",
+    "900【素材】Assets/ObsidianAssets/2026/2026-06/2026-06-06/Pasted Image 20260606172239_263.png",
+    "900【素材】Assets/ObsidianAssets/2026/2026-06/2026-06-06/Pasted Image 20260606171749_253.png",
+    "900【素材】Assets/ObsidianAssets/2026/2026-06/2026-06-06",
+    "910【配置】Configs/passwords/backup/auto-backup-20260606-115751-090.json",
+    "910【配置】Configs/passwords/backup/auto-backup-20260606-093728-713.json",
+    "900【素材】Assets/ObsidianAssets/2026/2026-06/2026-06-05",
+    "900【素材】Assets/ObsidianAssets/Attachments",
+    "900【素材】Assets/ObsidianAssets/1000004970.jpg.~tmp",
+    "600【可视化】VisualTools/600【白板】Canvas/260605_192130.canvas",
+    "900【素材】Assets/ObsidianAssets/2026/2026-06/2026-06-03",
+    "900【素材】Assets/ObsidianAssets/2026/2026-06/2026-06-02/260602_拓维信息-录用意向书.pdf",
+    "310【任务】Tasks/2026/260317_嵌入式简历修改&面试找工作/260506_根据卦象安排找工作的计划.canvas",
+    "600【可视化】VisualTools/600【白板】Canvas/260529_165912.canvas",
+    "300【项目】Project/【Project】PKMer文章/PKMer Weekly 周报/260403_PKMer Weekly 整理工作流.canvas",
+    "520【工具】ToolNote/【Tool】笔记工具/【工具】Obsidian/260410_Obsidian 开发/260410_Obsidian插件开发流程.canvas",
+    "600【可视化】VisualTools/600【白板】Canvas/260410_文稿撰写的需要的Prompt.canvas",
+    "520【工具】ToolNote/【Tool】笔记工具/【工具】Obsidian/260410_Obsidian 笔记/【Obsidian】Plugin/251102_Obsidian插件分类&记录.canvas",
+    "100【收纳盒】Inbox/150【便签】Zettelkasten/2026/260407_日本动漫分类.canvas"
+  ]
+}

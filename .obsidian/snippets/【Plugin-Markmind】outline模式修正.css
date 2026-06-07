@@ -1,0 +1,25 @@
+
+.mm-app-container {
+  --mindmap-scale: 1.8;
+
+  .mm-list li.node-showNode>.node-control {
+    margin-bottom: 20px;
+  }
+
+  .mm-router, .mm-list {
+    margin-top: 0px;
+  }
+
+  .mm-mindmap-container {
+    transform: scale(var(--mindmap-scale));
+    transform-origin: top center;
+    overflow: auto;
+    padding-bottom: calc(75vh);
+    /* width: calc(100%/var(--mindmap-scale)) !important; */
+  }
+
+  .mm-mindmap-container span[class^="icon-"] {
+    /* 让所有以icon-开头的span背景透明，更通用 */
+    background-color: transparent !important;
+  }
+}

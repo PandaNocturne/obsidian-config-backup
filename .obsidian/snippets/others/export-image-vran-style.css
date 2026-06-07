@@ -1,0 +1,1942 @@
+/* @settings
+
+name: Export Image macOS Style
+id: export-image-macos-style
+settings:
+    -
+        id: export-image-theme
+        title: 导出图主题
+        description: 选择整体配色主题（外层画布 + 纸张 + 标题 联动）
+        type: class-select
+        default: theme-muji
+        allowEmpty: false
+        options:
+            -
+                label: 蒙德里安 · 红黄蓝硬边构成
+                value: theme-mondrian
+            -
+                label: 包豪斯 · 红圆 / 黄方 / 蓝三角
+                value: theme-bauhaus
+            -
+                label: 毕加索 · 综合立体主义拼贴
+                value: theme-picasso-cubism
+            -
+                label: 罗斯科 · 三段色域
+                value: theme-rothko
+            -
+                label: 无印 · Japandi 麻白
+                value: theme-muji
+            -
+                label: 迪特·拉姆斯 · Braun 灰白 + 橙
+                value: theme-rams
+            -
+                label: 孟菲斯 · Sottsass 色块拼接
+                value: theme-memphis
+            -
+                label: 侘寂 · 土陶 / 麻纸 / 墨
+                value: theme-wabisabi
+            -
+                label: 瑞士国际主义 · 红黑斜切
+                value: theme-swiss
+            -
+                label: 极简 · 留白
+                value: theme-minimal
+
+*/
+
+/* ============================================================
+ * 基础结构
+ * ============================================================ */
+.export-image-root {
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.08);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.12);
+  --shadow-lg: 0 16px 48px rgba(0, 0, 0, 0.16);
+
+  --inline-title-font-family: "Fira Code", "Courier New", Courier, monospace;
+  --mac-button-size: 12px;
+
+  position: relative;
+  padding: 3.5rem 32px 32px 32px;
+  background: var(--canvas-bg, #efe9dd);
+}
+
+.export-image-root > div {
+  background-color: var(--paper-bg, #faf6ec);
+}
+
+.export-image-root > div:first-child {
+  border-radius: 16px;
+  box-shadow: var(--paper-shadow, var(--shadow-md));
+  position: relative;
+  z-index: 1;
+}
+
+.export-image-root::before {
+  content: "";
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  width: var(--mac-button-size);
+  height: var(--mac-button-size);
+  border-radius: 50%;
+  background: #ff5f57;
+  box-shadow:
+    20px 0 0 #ffbd2e,
+    40px 0 0 #28ca41;
+  z-index: 2;
+}
+
+.export-image-root > div:nth-child(2) {
+  border-bottom-left-radius: var(--radius-m);
+  border-bottom-right-radius: var(--radius-m);
+}
+
+.export-image-root .inline-title {
+  position: relative;
+  font-weight: normal;
+  color: var(--inline-title-color, #2b2b2b);
+  font-family: var(--inline-title-font-family);
+}
+
+/* ============================================================
+ * 主题专属 H1 设计
+ * ============================================================ */
+
+/* 1 · 蒙德里安：标题底部一根 4px 黑色硬线（呼应画作的黑色网格） */
+body.theme-mondrian .export-image-root .inline-title {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  padding-bottom: 0.4em;
+  border-bottom: 4px solid #111;
+  display: inline-block;
+}
+body.theme-dark.theme-mondrian .export-image-root .inline-title {
+  border-bottom-color: #fafaf7;
+}
+
+/* 2 · 包豪斯：标题 = Bayer universal lowercase + 红圆前缀
+ *   不是边框装饰条，而是真正的红圆符号 — 与 hr/avatar 共同构成"红圆"语义系统 */
+body.theme-bauhaus .export-image-root .inline-title {
+  font-family: "Futura", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  text-transform: lowercase; /* 拜尔小写宇宙字母原则 */
+  letter-spacing: 0.02em;
+  position: relative;
+  padding-left: 1.4em;
+  display: inline-block;
+}
+body.theme-bauhaus .export-image-root .inline-title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 0.85em;
+  height: 0.85em;
+  border-radius: 50%;
+  background: #d7263d;
+}
+body.theme-dark.theme-bauhaus .export-image-root .inline-title::before {
+  background: #e63950;
+}
+
+/* 3 · 毕加索：标题 = "拼贴在画面左上角的剪报"，黑底反白 + 红色硬阴影
+ *   阴影用 box-shadow（投在整张剪报上），text-shadow 在 inline-title 容器里
+ *   常被 Obsidian 主题或 overflow 裁掉，不可靠 */
+body.theme-picasso-cubism .export-image-root .inline-title {
+  font-family: "Helvetica Neue", "Arial Black", sans-serif;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  display: inline-block;
+  padding: 0.1em 0.5em;
+  background: #111;
+  color: #f0e8d0 !important;
+  box-shadow: 5px 5px 0 #c8321f;
+  margin-bottom: 6px;
+}
+body.theme-dark.theme-picasso-cubism .export-image-root .inline-title {
+  background: #f0e8d0;
+  color: #1a1612 !important;
+  box-shadow: 5px 5px 0 #d8442a;
+}
+
+/* 4 · 罗斯科：标题极小、谦逊、不大写 — 像罗斯科的画背签名
+ *   罗斯科的画里没有装饰性大字。所谓"标题"不过是画背一行小字。
+ *   不居中、不大写、不衬线大字 — 让色域去说话。 */
+body.theme-rothko .export-image-root .inline-title {
+  font-family: "Didot", "Bodoni 72", "Times New Roman", serif;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: 0.02em;
+  font-size: 0.95em;
+  opacity: 0.7;
+  display: block;
+  text-align: left;
+}
+
+/* 5 · 无印：极细字 + 大字距 + 居左 + 标题前 8px 的小红点（无印 logo 思路） */
+body.theme-muji .export-image-root .inline-title {
+  font-family: "Hiragino Sans", "Helvetica Neue", "PingFang SC", sans-serif;
+  font-weight: 200;
+  letter-spacing: 0.08em;
+  position: relative;
+  padding-left: 1em;
+}
+body.theme-muji .export-image-root .inline-title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 6px;
+  height: 6px;
+  background: #c8321f;
+  border-radius: 50%;
+  transform: translateY(-50%);
+}
+body.theme-dark.theme-muji .export-image-root .inline-title::before {
+  background: #d8442a;
+}
+
+/* 6 · 拉姆斯：等宽字体 + 数字编号感 + 标题下方 1px 细线（Braun 产品铭牌） */
+body.theme-rams .export-image-root .inline-title {
+  font-family: "Helvetica Neue", "Akzidenz-Grotesk", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid #1a1a1a;
+}
+body.theme-dark.theme-rams .export-image-root .inline-title {
+  border-bottom-color: #f5f5f3;
+}
+
+/* 7 · 孟菲斯：超粗体 + 倾斜 + 双色描边（80s 海报字体） */
+body.theme-memphis .export-image-root .inline-title {
+  font-family: "Futura", "Helvetica Neue", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  letter-spacing: -0.02em;
+  text-shadow:
+    3px 3px 0 #6ed3c1,
+    6px 6px 0 #f4c430;
+}
+body.theme-dark.theme-memphis .export-image-root .inline-title {
+  text-shadow:
+    3px 3px 0 #00d9d4,
+    6px 6px 0 #ffd23f;
+}
+
+/* 8 · 侘寂：明朝体 / 楷书感 + 字距宽松 + 标题前一道墨痕 */
+body.theme-wabisabi .export-image-root .inline-title {
+  font-family: "Yu Mincho", "Hiragino Mincho ProN", "Songti SC", "Noto Serif", serif;
+  font-weight: 400;
+  letter-spacing: 0.12em;
+  position: relative;
+  padding-left: 1.2em;
+}
+body.theme-wabisabi .export-image-root .inline-title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.4em;
+  width: 0.7em;
+  height: 0.05em;
+  background: #2a1f15;
+  /* 不规则的"笔锋"形状 */
+  border-radius: 60% 40% 50% 80%;
+  transform: rotate(-3deg);
+  opacity: 0.7;
+}
+body.theme-dark.theme-wabisabi .export-image-root .inline-title::before {
+  background: #c9b88e;
+}
+
+/* 9 · 瑞士主义：超粗 Helvetica + 紧字距 + 左对齐到极致（Müller-Brockmann 标题字模） */
+body.theme-swiss .export-image-root .inline-title {
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: 900;
+  letter-spacing: -0.03em;
+  line-height: 0.95;
+  font-size: 1.8em;
+  text-transform: uppercase;
+}
+
+/* 10 · 极简：标题不做任何装饰，让内容自己说话 */
+/* （故意留空：完全继承默认 .inline-title 样式） */
+
+.export-image-markdown {
+  border-radius: var(--radius-m);
+}
+
+.export-image-root .user-info-container {
+  display: flex;
+  padding: 16px 24px;
+  border-radius: 0px;
+  align-items: center;
+  border: none !important;
+  background-color: transparent !important;
+}
+
+.user-info-avatar {
+  margin-left: 0px;
+  margin-right: 16px;
+}
+
+.export-image-root .export-image-preview-containe {
+  padding: 16px 32px;
+  color: var(--text-normal);
+}
+
+/* ============================================================
+ * 主题专属 · 内容区(content) + 用户信息区(user-info) 关系设计
+ *   - 默认结构：两块上下分离、共享 --paper-bg、各自圆角
+ *   - 各主题按照大师/流派语言重新定义两者关系：
+ *     合并 / 撞色分隔 / 错位拼贴 / 极细分隔线 / 控制面板 ...
+ * ============================================================ */
+
+/* 1 · 蒙德里安：两块视为网格里两个相邻矩形，共用黑色硬边框
+ *   user-info 改为黄色色块（呼应右下黄块），与白纸形成新造型主义二色构图 */
+body.theme-mondrian .export-image-root > div:nth-child(2) {
+  background-color: #fbbf24 !important;
+  border: 4px solid #111;
+  border-top: none;
+  margin-top: 0;
+}
+body.theme-dark.theme-mondrian .export-image-root > div:nth-child(2) {
+  background-color: #b8860b !important;
+  border-color: #fafaf7;
+}
+
+/* 2 · 包豪斯：user-info 作为一条红色"页脚条"，与白纸形成功能主义双层结构
+ *   关键：paper 底部圆角清零，让红色色带从纸张底沿无缝衔接，并继承同一片阴影 */
+body.theme-bauhaus .export-image-root > div:first-child {
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+  box-shadow: none !important;
+}
+body.theme-bauhaus .export-image-root > div:nth-child(2) {
+  background-color: #d7263d !important;
+  color: #fbf6ea;
+  border-radius: 0 !important;
+  /* 把整组阴影下移到红条上，让纸张+红条整体一片阴影 */
+  box-shadow: 0 8px 22px rgba(60, 40, 20, 0.16);
+}
+body.theme-bauhaus .export-image-root > div:nth-child(2) * {
+  color: #fbf6ea !important;
+}
+body.theme-dark.theme-bauhaus .export-image-root > div:nth-child(2) {
+  background-color: #f4c430 !important;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.55);
+}
+body.theme-dark.theme-bauhaus .export-image-root > div:nth-child(2) * {
+  color: #1c1a16 !important;
+}
+
+/* 3 · 毕加索：user-info 作为另一张"剪贴纸片"，与 paper 严丝合缝拼接
+ *   关键：不旋转、不错位 — 旋转会让顶边与 paper 错开产生缝隙
+ *   两片纸共享同一个红色硬阴影，作为一个整体"被剪贴在画布上" */
+body.theme-picasso-cubism .export-image-root > div:first-child {
+  /* paper 卸掉自身阴影，由 user-info 接管整组阴影 */
+  box-shadow: none !important;
+  border-bottom: none !important;
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+body.theme-picasso-cubism .export-image-root > div:nth-child(2) {
+  background-color: #1c4ea1 !important;
+  /* 与 paper 共用同一套黑边：左右底继承，顶部用 1px 黑线作为"剪贴接缝" */
+  border: 2px solid #111;
+  border-top: 1px solid #111;
+  border-radius: 0 !important;
+  /* 红色硬阴影从底部整体投出 */
+  box-shadow: 5px 5px 0 #c8321f;
+}
+body.theme-picasso-cubism .export-image-root > div:nth-child(2) * {
+  color: #f0e8d0 !important;
+}
+body.theme-dark.theme-picasso-cubism .export-image-root > div:first-child {
+  box-shadow: none !important;
+}
+body.theme-dark.theme-picasso-cubism .export-image-root > div:nth-child(2) {
+  background-color: #f0b91a !important;
+  border-color: #f0e8d0;
+  border-top-color: #f0e8d0;
+  box-shadow: 5px 5px 0 #d8442a;
+}
+body.theme-dark.theme-picasso-cubism .export-image-root > div:nth-child(2) * {
+  color: #1a1612 !important;
+}
+
+/* 4 · 罗斯科：user-info 不是另一块色域，而是 paper 底部"色域沉淀的一段"
+ *   罗斯科一幅画通常只有 2-3 个色域。再加第三块异色会破坏色域语言。
+ *   这里让 user-info 与 paper 同调，仅靠透明度差和一段渐变形成"沉淀"。 */
+body.theme-rothko .export-image-root > div:first-child {
+  border-radius: 2px !important;
+  /* paper 卸掉自身阴影，整组阴影由 user-info 承担 */
+  box-shadow: none !important;
+}
+body.theme-rothko .export-image-root > div:nth-child(2) {
+  /* 与 paper 同色调，但更深 — 像色域底部自然沉淀的一段 */
+  background: rgba(180, 110, 70, 0.32) !important;
+  margin-top: 0;
+  border-top: none;
+  border-radius: 0 0 2px 2px !important;
+  /* 整组阴影：与色域呼吸感一致的极柔软阴影 */
+  box-shadow: 0 24px 60px rgba(20, 8, 4, 0.45);
+}
+body.theme-rothko .export-image-root > div:nth-child(2) * {
+  color: #2a1a14 !important;
+  opacity: 0.78;
+}
+body.theme-dark.theme-rothko .export-image-root > div:nth-child(2) {
+  background: rgba(80, 20, 16, 0.55) !important;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.8);
+}
+body.theme-dark.theme-rothko .export-image-root > div:nth-child(2) * {
+  color: #c08060 !important;
+}
+
+/* 5 · 无印：两块完全合并，仅靠一根 1px 暖灰发丝线分隔（极致克制） */
+body.theme-muji .export-image-root > div:nth-child(2) {
+  border-top: 1px solid rgba(170, 155, 125, 0.35);
+}
+body.theme-dark.theme-muji .export-image-root > div:nth-child(2) {
+  border-top-color: rgba(255, 240, 200, 0.10);
+}
+
+/* 6 · 拉姆斯：Braun 工业设计的"控制面板"语言
+ *   关键：paper 与 user-info 之间用 2px 金属凹槽（深线+浅提亮）分隔，
+ *   user-info 区作为产品底部的功能面板，配 1px 的浅色细线网格暗示扬声器格栅 */
+body.theme-rams .export-image-root > div:first-child {
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+  box-shadow: none !important;
+}
+body.theme-rams .export-image-root > div:nth-child(2) {
+  background:
+    /* 顶部 2px 金属凹槽：上深下浅 */
+    linear-gradient(#b8b8b6, #b8b8b6) 0 0 / 100% 1px no-repeat,
+    linear-gradient(#ffffff, #ffffff) 0 1px / 100% 1px no-repeat,
+    /* 底色：极浅冷灰金属 */
+    #e6e6e4 !important;
+  border-bottom-left-radius: 2px !important;
+  border-bottom-right-radius: 2px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.10);
+}
+body.theme-dark.theme-rams .export-image-root > div:first-child {
+  box-shadow: none !important;
+}
+body.theme-dark.theme-rams .export-image-root > div:nth-child(2) {
+  background:
+    linear-gradient(#0a0a0a, #0a0a0a) 0 0 / 100% 1px no-repeat,
+    linear-gradient(#3d3d3c, #3d3d3c) 0 1px / 100% 1px no-repeat,
+    #1f1f1e !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+}
+
+/* 7 · 孟菲斯：Sottsass 的"几何拼贴 + 故意错位"
+ *   关键：user-info 不做规整色带，而是做斜切色块 + 跨越分隔线的几何符号
+ *   - 用 clip-path 给 user-info 切一刀斜边
+ *   - 留一段更窄的色带在右侧形成层次错位 */
+body.theme-memphis .export-image-root > div:first-child {
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+  box-shadow: none !important;
+  /* paper 底部反向斜切，与 user-info 顶部斜切严丝合缝拼成一条 Z 字接缝 */
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 8px));
+}
+body.theme-memphis .export-image-root > div:nth-child(2) {
+  position: relative;
+  background:
+    /* 右侧 35% 撞色块（芥末黄）盖在薄荷底上，形成 80s 拼贴 */
+    linear-gradient(#f4c430, #f4c430) right 0 / 35% 100% no-repeat,
+    /* 主底：薄荷绿 */
+    #6ed3c1 !important;
+  border-bottom-left-radius: 16px !important;
+  border-bottom-right-radius: 16px !important;
+  box-shadow: 0 12px 28px rgba(180, 50, 90, 0.20);
+  /* 顶部斜切 — 左低右高一刀，孟菲斯的"故意不对齐" */
+  clip-path: polygon(0 8px, 100% 0, 100% 100%, 0 100%);
+}
+body.theme-memphis .export-image-root > div:nth-child(2)::before {
+  /* 跨越上方分隔线的一个粉色小圆点（Sottsass 的几何符号） */
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 24px;
+  width: 18px;
+  height: 18px;
+  background: #d6336c;
+  border-radius: 50%;
+  z-index: 3;
+}
+body.theme-memphis .export-image-root > div:nth-child(2) * {
+  color: #2b0d3a !important;
+  position: relative;
+  z-index: 2;
+}
+/* —— Dark 模式色彩规训 ——
+   旧版同时塞了品红/黄/青/紫四种高饱和色，色彩没有主次。
+   新版纪律：品红 = 主角；青 = 唯一跳色（仅 user-info 圆点）；
+   黄退出；茄紫 = 沉底。让"霓虹夜晚"有焦点，不是色彩混战。 */
+body.theme-dark.theme-memphis .export-image-root > div:nth-child(2) {
+  background:
+    /* 右侧色块从黄改成深一档的品红，与主底拉开层次但同色系 */
+    linear-gradient(#c0399a, #c0399a) right 0 / 35% 100% no-repeat,
+    #ff4ecd !important;
+  box-shadow: 0 12px 28px rgba(255, 78, 205, 0.30);
+}
+body.theme-dark.theme-memphis .export-image-root > div:nth-child(2)::before {
+  background: #00d9d4;  /* 唯一保留的青色跳点 */
+}
+body.theme-dark.theme-memphis .export-image-root > div:nth-child(2) * {
+  color: #1a0823 !important;
+}
+
+/* 8 · 侘寂：器物的釉色不会有清晰的边界
+ *   关键：用渐变让 paper 到 user-info 自然融合，而非一条硬边
+ *   - 不要 border / 不要虚线
+ *   - paper 底部本身做一段向下变深的"釉色沉淀"
+ *   - user-info 顶部继续这段渐变，色彩无缝接续 */
+body.theme-wabisabi .export-image-root > div:first-child {
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+  /* 卸掉 paper 自身阴影，由 user-info 承担整个器物的釉色阴影 */
+  box-shadow: none !important;
+  /* 在 paper 内部底部叠一段向下变深的釉色 */
+  background:
+    linear-gradient(to bottom, transparent 70%, rgba(150, 120, 80, 0.18) 100%),
+    var(--paper-bg) !important;
+}
+body.theme-wabisabi .export-image-root > div:nth-child(2) {
+  /* 顶部继续釉色沉淀 → 向下过渡到陶土色 */
+  background:
+    linear-gradient(to bottom, rgba(150, 120, 80, 0.18) 0%, transparent 30%),
+    #d6c5a0 !important;
+  border-top: none;
+  /* 整个器物的不规则手作圆角接力到底 */
+  border-radius: 0 0 4px 9px !important;
+  box-shadow: 0 10px 24px rgba(40, 25, 15, 0.30);
+}
+body.theme-dark.theme-wabisabi .export-image-root > div:first-child {
+  background:
+    linear-gradient(to bottom, transparent 70%, rgba(60, 40, 20, 0.5) 100%),
+    var(--paper-bg) !important;
+}
+body.theme-dark.theme-wabisabi .export-image-root > div:nth-child(2) {
+  background:
+    linear-gradient(to bottom, rgba(60, 40, 20, 0.5) 0%, transparent 30%),
+    #221a12 !important;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.6);
+}
+
+/* 9 · 瑞士主义：两块共享白纸，仅一根 1px 黑线作为网格分隔（Müller-Brockmann 网格律） */
+body.theme-swiss .export-image-root > div:nth-child(2) {
+  border-top: 1px solid #111;
+}
+body.theme-dark.theme-swiss .export-image-root > div:nth-child(2) {
+  border-top-color: #f5f5f5;
+}
+
+/* ============================================================
+ * 1 · 蒙德里安 Composition with Red, Blue, Yellow (1930) —— 重做版
+ *   核心修正：之前是"四角放色块"，那是拼贴不是蒙德里安。
+ *   蒙德里安的本质是「黑色网格切割整个画面，色块只是网格里的某几格」。
+ *
+ *   新结构：
+ *   - 画布 = 整幅画。用多条 linear-gradient 画出贯穿全画的黑色网格线。
+ *   - 色块（红/黄/蓝）= 网格里某几格被填色，边缘必然紧贴黑线。
+ *   - 纸张 = 网格中央那块最大的"白色矩形"，没有自己的边框
+ *     （它的边界由周围画布上的黑线天然定义）。
+ *   - user-info = 网格下方被切出的另一格，填黄色。
+ *
+ *   关键：画布需要更大的内边距让网格透出，纸张本身去边框。
+ * ============================================================ */
+body.theme-mondrian .export-image-root {
+  /* 加大画布留白，让外圈网格 + 色块充分露出 */
+  padding: 5rem 4.5rem 4.5rem 4.5rem;
+
+  --canvas-bg:
+    /* —— 三块"被网格切出"的纯色格子 —— */
+    /* 左下：大红块 */
+    linear-gradient(#dc2626, #dc2626) left bottom / 16% 38% no-repeat,
+    /* 右上：小蓝块 */
+    linear-gradient(#1d4ed8, #1d4ed8) right top / 16% 22% no-repeat,
+    /* 右下：黄方块 */
+    linear-gradient(#fbbf24, #fbbf24) right bottom / 16% 14% no-repeat,
+
+    /* —— 贯穿全画的黑色网格线（3 横 2 竖）—— */
+    /* 左竖线：x=16% */
+    linear-gradient(#111, #111) 16% 0 / 5px 100% no-repeat,
+    /* 右竖线：x=84% */
+    linear-gradient(#111, #111) 84% 0 / 5px 100% no-repeat,
+    /* 上横线：y=22%（蓝块下沿，贯穿画面） */
+    linear-gradient(#111, #111) 0 22% / 100% 5px no-repeat,
+    /* 中横线：y=62%（红块上沿，贯穿画面） */
+    linear-gradient(#111, #111) 0 62% / 100% 5px no-repeat,
+    /* 下横线：y=86%（黄块上沿，仅右侧短段） */
+    linear-gradient(#111, #111) 100% 86% / 16% 5px no-repeat,
+
+    #fafaf7;
+  --paper-bg: #ffffff;
+  --inline-title-color: #111;
+  --paper-shadow: none;
+}
+/* Dark：反转为黑底白线（蒙德里安晚期 Boogie-Woogie 的反相变体感） */
+body.theme-dark.theme-mondrian .export-image-root {
+  --canvas-bg:
+    linear-gradient(#dc2626, #dc2626) left bottom / 16% 38% no-repeat,
+    linear-gradient(#1d4ed8, #1d4ed8) right top / 16% 22% no-repeat,
+    linear-gradient(#fbbf24, #fbbf24) right bottom / 16% 14% no-repeat,
+    linear-gradient(#fafaf7, #fafaf7) 16% 0 / 5px 100% no-repeat,
+    linear-gradient(#fafaf7, #fafaf7) 84% 0 / 5px 100% no-repeat,
+    linear-gradient(#fafaf7, #fafaf7) 0 22% / 100% 5px no-repeat,
+    linear-gradient(#fafaf7, #fafaf7) 0 62% / 100% 5px no-repeat,
+    linear-gradient(#fafaf7, #fafaf7) 100% 86% / 16% 5px no-repeat,
+    #0a0a0a;
+  --paper-bg: #1a1a1a;
+  --inline-title-color: #fafaf7;
+}
+
+/* 纸张：去掉自己的边框（边界由画布的网格线自然形成）
+   仅保留 4px 黑线作为"嵌入网格的接缝"——而不是"框起来" */
+body.theme-mondrian .export-image-root > div:first-child,
+body.theme-mondrian .export-image-root > div:nth-child(2) {
+  border-radius: 0 !important;
+}
+body.theme-mondrian .export-image-root > div:first-child {
+  /* 关键修正：仅顶/左/右黑线，底部无线（让它与下方 user-info 共享一条网格线） */
+  border-top: 5px solid #111;
+  border-left: 5px solid #111;
+  border-right: 5px solid #111;
+  border-bottom: none;
+}
+body.theme-dark.theme-mondrian .export-image-root > div:first-child {
+  border-color: #fafaf7;
+}
+
+/* ============================================================
+ * 2 · 包豪斯 Bauhaus —— 色彩审查后微调
+ *   色彩审查：旧版 paper #fbf6ea 与画布 #ede4cc 都是奶油黄调，色温太近，
+ *   paper "陷在画布里"而不是"放在画布上"。包豪斯展览出版物原本就用纯白
+ *   印刷在砂米色封皮上 —— 改 paper 为纯白，并把 inline-title 从红改为深炭色，
+ *   让红色专一地用在"左上红圆"和"hr 红圆点"两处（强化几何语义系统）。
+ * ============================================================ */
+body.theme-bauhaus .export-image-root {
+  --canvas-bg:
+    /* 左上红圆 */
+    radial-gradient(circle 60px at 6% 8%, #d7263d 0 60px, transparent 61px),
+    /* 右下蓝三角（用 conic-gradient 近似） */
+    conic-gradient(from 225deg at 94% 94%, #1f4e8a 0deg 90deg, transparent 90deg),
+    /* 右上黄方 */
+    linear-gradient(#f4c430, #f4c430) right 4% top 6% / 90px 90px no-repeat,
+    #ede4cc;
+  --paper-bg: #ffffff;        /* 改：纯白漂浮于砂米 */
+  --inline-title-color: #1c1a16;  /* 改：深炭。红色让位给真正的几何符号 */
+  --paper-shadow: 0 8px 22px rgba(60, 40, 20, 0.16);
+}
+/* Dark：1923 包豪斯展览海报式黑底 + 高饱和原色
+   dark 下 paper 提亮一档（#33302a → #2f2c26 中间值），与画布对比拉开 */
+body.theme-dark.theme-bauhaus .export-image-root {
+  --canvas-bg:
+    radial-gradient(circle 60px at 6% 8%, #e63950 0 60px, transparent 61px),
+    conic-gradient(from 225deg at 94% 94%, #2a6cba 0deg 90deg, transparent 90deg),
+    linear-gradient(#f4c430, #f4c430) right 4% top 6% / 90px 90px no-repeat,
+    #1c1a16;
+  --paper-bg: #2f2c26;
+  --inline-title-color: #f4c430;
+  --paper-shadow: 0 8px 22px rgba(0, 0, 0, 0.55);
+}
+
+/* 包豪斯：纯几何、功能主义 → 直角 */
+body.theme-bauhaus .export-image-root > div:first-child,
+body.theme-bauhaus .export-image-root > div:nth-child(2) {
+  border-radius: 0 !important;
+}
+
+/* ============================================================
+ * 3 · 毕加索 综合立体主义 Synthetic Cubism (《三个音乐家》1921)
+ *   高对比硬边色块拼贴：朱红 / 明黄 / 钴蓝 / 纯黑 / 象牙白
+ *   模拟剪贴拼贴 (papier collé) 的几何拼接感
+ * ============================================================ */
+body.theme-picasso-cubism .export-image-root {
+  --canvas-bg:
+    /* 左上：朱红方块 */
+    linear-gradient(#c8321f, #c8321f) left top / 28% 38% no-repeat,
+    /* 右上：纯黑色块 */
+    linear-gradient(#111111, #111111) right top / 30% 22% no-repeat,
+    /* 右上下方：钴蓝色块 */
+    linear-gradient(#1c4ea1, #1c4ea1) right 0 top 22% / 30% 30% no-repeat,
+    /* 左下：明黄三角切面 */
+    conic-gradient(from 0deg at 0% 100%, #f0b91a 0deg 60deg, transparent 60deg) bottom left / 45% 55% no-repeat,
+    /* 右下：墨黑斜面 */
+    conic-gradient(from 270deg at 100% 100%, #1a1a1a 0deg 50deg, transparent 50deg) bottom right / 40% 45% no-repeat,
+    /* 底色：象牙白（剪贴底纸） */
+    #ede4cf;
+  --paper-bg: #f4ecd7;
+  --inline-title-color: #c8321f;
+  --paper-shadow: 0 10px 26px rgba(20, 15, 10, 0.35);
+}
+/* Dark：象牙底反转为深棕拼贴底纸，色块更鲜（《格尔尼卡》式黑灰对比） */
+body.theme-dark.theme-picasso-cubism .export-image-root {
+  --canvas-bg:
+    linear-gradient(#d8442a, #d8442a) left top / 28% 38% no-repeat,
+    linear-gradient(#f0e8d0, #f0e8d0) right top / 30% 22% no-repeat,
+    linear-gradient(#2563b8, #2563b8) right 0 top 22% / 30% 30% no-repeat,
+    conic-gradient(from 0deg at 0% 100%, #f0b91a 0deg 60deg, transparent 60deg) bottom left / 45% 55% no-repeat,
+    conic-gradient(from 270deg at 100% 100%, #f0e8d0 0deg 50deg, transparent 50deg) bottom right / 40% 45% no-repeat,
+    #1a1612;
+  --paper-bg: #2a221c;
+  --inline-title-color: #f0b91a;
+}
+
+/* 立体主义：硬边拼贴拒绝圆角 + 黑边强化"剪贴纸片"感 */
+body.theme-picasso-cubism .export-image-root > div:first-child,
+body.theme-picasso-cubism .export-image-root > div:nth-child(2) {
+  border-radius: 0 !important;
+}
+body.theme-picasso-cubism .export-image-root > div:first-child {
+  border: 2px solid #111;
+}
+body.theme-dark.theme-picasso-cubism .export-image-root > div:first-child {
+  border-color: #f0e8d0;
+}
+
+/* ============================================================
+ * 4 · 罗斯科 No.14 (1960) —— 重做版
+ *   核心修正：
+ *   1) 旧版用清晰分段的 linear-gradient，色域边缘太硬，像 RGB 测试条。
+ *      罗斯科真画里色域之间是 5-15% 的虚化呼吸带。新版扩大过渡区到 12%+。
+ *   2) 旧版纸张是异质米白漂浮在色域上 —— 破坏沉浸感。
+ *      新版纸张 = 色域里一块半透明的亮色叠层，与背景同色调。
+ *   3) 减少色域数量到 2 块（罗斯科的 No.14 就是上橙下蓝，仅此而已）。
+ *
+ *   Rothko: "Silence is so accurate."
+ * ============================================================ */
+body.theme-rothko .export-image-root {
+  /* 加大画布让色域有足够呼吸空间 */
+  padding: 4.5rem 3.5rem 3.5rem 3.5rem;
+
+  /* 经典 No.14 上橙下深蓝：仅 2 块色域，过渡带极宽（呼吸感） */
+  --canvas-bg:
+    linear-gradient(
+      to bottom,
+      #c84a1a 0%,
+      #d8581a 38%,
+      /* —— 12% 的呼吸过渡带，色域在此处"融化" —— */
+      #6b2f2a 50%,
+      #2a3a5a 62%,
+      #1f2d4a 100%
+    );
+  /* 纸张：与底层色域同调的"亮色雾面"，半透明让背景渗透
+     #fff8ec 是从橙色色域里抽出的最亮调，alpha 0.86 让色域透过来 */
+  --paper-bg: rgba(255, 248, 236, 0.88);
+  --inline-title-color: #2a1a14;
+  /* 极柔软的阴影，模拟色域漂浮 */
+  --paper-shadow: 0 24px 60px rgba(20, 8, 4, 0.45);
+}
+/* Dark：罗斯科 Seagram Murals (1958) — Black on Maroon
+   两块色域：上深栗、下黑紫，更压抑、更沉。 */
+body.theme-dark.theme-rothko .export-image-root {
+  --canvas-bg:
+    linear-gradient(
+      to bottom,
+      #3a0a0a 0%,
+      #4a0e10 38%,
+      #1a0508 50%,
+      #0a0508 62%,
+      #050204 100%
+    );
+  --paper-bg: rgba(35, 12, 14, 0.9);
+  --inline-title-color: #c08060;
+  --paper-shadow: 0 24px 60px rgba(0, 0, 0, 0.8);
+}
+
+/* ============================================================
+ * 5 · 无印良品 / Japandi · 原研哉的"白"
+ *   设计语言：纯净留白 + 一根若有若无的水平细线（暗示秩序）
+ *   层次靠"冷白纸 / 暖米外框 / 极细分隔线"三段精确分明
+ * ============================================================ */
+body.theme-muji .export-image-root {
+  --canvas-bg:
+    /* 一根 1px 暖灰水平线，位于顶部 4rem 处，作为"地平线" */
+    linear-gradient(#c9bfa9, #c9bfa9) 0 3.6rem / 100% 1px no-repeat,
+    #e3dccb;
+  --paper-bg: #fbfaf6;
+  --inline-title-color: #2a2520;
+  --paper-shadow: 0 1px 0 rgba(170, 155, 125, 0.35), 0 8px 20px rgba(80, 65, 40, 0.06);
+}
+/* Dark：无印夜灯 — 木炭外框 + 暖墨纸 + 微光地平线 */
+body.theme-dark.theme-muji .export-image-root {
+  --canvas-bg:
+    linear-gradient(#5a5347, #5a5347) 0 3.6rem / 100% 1px no-repeat,
+    #1f1d18;
+  --paper-bg: #2b2823;
+  --inline-title-color: #e8e0cd;
+  --paper-shadow: 0 1px 0 rgba(255, 240, 200, 0.05), 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* 无印：极小圆角 1px（几乎是直角，但避免视觉锐利），无装饰 */
+body.theme-muji .export-image-root > div:first-child {
+  border-radius: 1px !important;
+}
+body.theme-muji .export-image-root > div:nth-child(2) {
+  border-radius: 0 0 1px 1px !important;
+}
+
+/* ============================================================
+ * 6 · 迪特·拉姆斯 Less but better
+ *   Braun T1000 收音机配色：浅灰金属 + 纯白 + 一抹橙红按钮
+ * ============================================================ */
+body.theme-rams .export-image-root {
+  --canvas-bg:
+    /* 右下角一个橙色小圆点（Braun 标志性的开关色） */
+    radial-gradient(circle 8px at calc(100% - 28px) calc(100% - 28px), #ff5b1f 0 8px, transparent 9px),
+    #d8d8d6;
+  --paper-bg: #ffffff;
+  --inline-title-color: #1a1a1a;
+  --paper-shadow: 0 4px 12px rgba(0, 0, 0, 0.10);
+}
+/* Dark：Braun TS-45 / SK-4 黑色款 — 哑光黑机壳 + 深炭面板 + 同款橙开关 */
+body.theme-dark.theme-rams .export-image-root {
+  --canvas-bg:
+    radial-gradient(circle 8px at calc(100% - 28px) calc(100% - 28px), #ff5b1f 0 8px, transparent 9px),
+    #1d1d1c;
+  --paper-bg: #2a2a29;
+  --inline-title-color: #f5f5f3;
+  --paper-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+}
+
+/* Rams：Braun 工业产品的精确几何 → 极小圆角 2px，硬阴影 */
+body.theme-rams .export-image-root > div:first-child {
+  border-radius: 2px !important;
+}
+body.theme-rams .export-image-root > div:nth-child(2) {
+  border-radius: 0 0 2px 2px !important;
+}
+
+/* ============================================================
+ * 7 · 孟菲斯 Memphis (Sottsass, 1981)
+ *   高饱和不对称色块拼接：粉 / 薄荷 / 芥末黄
+ *   保留孟菲斯"撞色拼贴"的精神，去掉粗暴的圆点纹样
+ * ============================================================ */
+body.theme-memphis .export-image-root {
+  --canvas-bg:
+    /* 右上薄荷绿斜切色块 */
+    linear-gradient(200deg, #6ed3c1 0%, #6ed3c1 28%, transparent 28%) top right / 55% 60% no-repeat,
+    /* 左下芥末黄三角 */
+    conic-gradient(from 45deg at 0% 100%, #f4c430 0deg 90deg, transparent 90deg) bottom left / 50% 55% no-repeat,
+    /* 底色：柔和的蜜桃粉 */
+    #f7c8c0;
+  --paper-bg: #fffaf3;
+  --inline-title-color: #d6336c;
+  --paper-shadow: 0 12px 28px rgba(180, 50, 90, 0.20);
+}
+/* Dark：80s 霓虹夜晚 — 茄紫底 + 霓虹品红 / 青 / 黄 */
+body.theme-dark.theme-memphis .export-image-root {
+  --canvas-bg:
+    linear-gradient(200deg, #00d9d4 0%, #00d9d4 28%, transparent 28%) top right / 55% 60% no-repeat,
+    conic-gradient(from 45deg at 0% 100%, #ffd23f 0deg 90deg, transparent 90deg) bottom left / 50% 55% no-repeat,
+    #2b0d3a;
+  --paper-bg: #1a0823;
+  --inline-title-color: #ff4ecd;
+  --paper-shadow: 0 12px 28px rgba(255, 78, 205, 0.30);
+}
+
+/* ============================================================
+ * 8 · 侘寂 Wabi-sabi
+ *   不完美、不均匀。土陶 + 隐约墨痕（用偏移 radial 模拟茶渍）
+ * ============================================================ */
+body.theme-wabisabi .export-image-root {
+  --canvas-bg:
+    radial-gradient(ellipse 200px 120px at 20% 30%, rgba(60, 40, 25, 0.18) 0%, transparent 70%),
+    radial-gradient(ellipse 160px 100px at 85% 75%, rgba(40, 25, 15, 0.15) 0%, transparent 70%),
+    linear-gradient(135deg, #b59574 0%, #9a7a58 100%);
+  --paper-bg: #ede0c4;
+  --inline-title-color: #2a1f15;
+  --paper-shadow: 0 10px 24px rgba(40, 25, 15, 0.30);
+}
+/* Dark：黑陶 / 墨色 — 千利休的茶室之夜，微红光痕模拟炭火 */
+body.theme-dark.theme-wabisabi .export-image-root {
+  --canvas-bg:
+    radial-gradient(ellipse 200px 120px at 20% 30%, rgba(180, 100, 50, 0.10) 0%, transparent 70%),
+    radial-gradient(ellipse 160px 100px at 85% 75%, rgba(140, 70, 30, 0.08) 0%, transparent 70%),
+    linear-gradient(135deg, #2a201a 0%, #1a130d 100%);
+  --paper-bg: #2e251c;
+  --inline-title-color: #c9b88e;
+  --paper-shadow: 0 10px 24px rgba(0, 0, 0, 0.6);
+}
+
+/* 侘寂：拒绝完美对称的几何 → 顶部用不对称圆角模拟手作器口
+ *   底部圆角由内容区+user-info 段落里统一接管，这里只管顶部 */
+body.theme-wabisabi .export-image-root > div:first-child {
+  border-top-left-radius: 3px !important;
+  border-top-right-radius: 6px !important;
+}
+
+/* ============================================================
+ * 9 · 瑞士国际主义 Swiss / International Typographic Style
+ *   Müller-Brockmann 的网格 + 一刀切的红色斜切
+ * ============================================================ */
+body.theme-swiss .export-image-root {
+  --canvas-bg:
+    linear-gradient(115deg, #ffffff 0%, #ffffff 62%, #e10600 62%, #e10600 100%);
+  --paper-bg: #ffffff;
+  --inline-title-color: #e10600;
+  --paper-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+/* Dark：经典瑞士黑红海报 — 黑底斜切朱红 */
+body.theme-dark.theme-swiss .export-image-root {
+  --canvas-bg:
+    linear-gradient(115deg, #0a0a0a 0%, #0a0a0a 62%, #e10600 62%, #e10600 100%);
+  --paper-bg: #161616;
+  --inline-title-color: #e10600;
+  --paper-shadow: none;
+}
+
+/* 瑞士主义：网格、Helvetica、零装饰 → 直角，纸张靠 1px 黑线与白底分离 */
+body.theme-swiss .export-image-root > div:first-child,
+body.theme-swiss .export-image-root > div:nth-child(2) {
+  border-radius: 0 !important;
+}
+body.theme-swiss .export-image-root > div:first-child {
+  border: 1px solid #111;
+  box-shadow: none !important;
+}
+body.theme-dark.theme-swiss .export-image-root > div:first-child {
+  border-color: #f5f5f5;
+}
+
+/* ============================================================
+ * 10 · 极简 Minimal —— 编辑式版面（参考图）
+ *   不是"什么都不加"，而是"用最少的元素建立秩序"：
+ *   - 顶部一根极细发丝线，给整张卡片定基准
+ *   - user-info 上移到顶部（avatar 左 / 名字+bio 右对齐）
+ *   - 标题居中衬线 + 下方 24px 朱红短横（唯一的颜色锚点）
+ *   - 正文衬线，链接朱红，strong 仅加重不变色
+ *   - 列表项之间发丝线分隔，前缀朱红小方点
+ *   - 隐藏 mac 按钮（极简版面不要这种"窗口装饰"）
+ * ============================================================ */
+body.theme-minimal .export-image-root {
+  --canvas-bg: #ffffff;
+  --paper-bg: #ffffff;
+  --inline-title-color: #1a1a1a;
+  --paper-shadow: 0 12px 32px rgba(0, 0, 0, 0.06);
+  /* 让 user-info 通过 flex order 移到顶部 */
+  display: flex;
+  flex-direction: column;
+  padding: 2.5rem 0 0 0;  /* 顶部留给那根发丝线 */
+  background-color: #FFF !important;  /* 画布不需要底色，纯白纸张直接放在白底上 */
+}
+body.theme-dark.theme-minimal .export-image-root {
+  background-color: var(--paper-bg) !important;
+}
+
+/* 顶部一根极细发丝线（"地平线"） */
+body.theme-minimal .export-image-root::after {
+  content: "";
+  position: absolute;
+  top: 2.2rem;
+  left: 2.5rem;
+  right: 2.5rem;
+  height: 1px;
+  background: #d8d6d2;
+}
+/* 隐藏 mac 按钮：极简不要"窗口装饰" */
+body.theme-minimal .export-image-root::before {
+  display: none;
+}
+/* user-info 上移到标题上方 */
+body.theme-minimal .export-image-root > div:nth-child(2) {
+  order: -1;
+  padding: 1rem 4rem !important;
+}
+body.theme-minimal .export-image-root > div:first-child {
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  padding: 0 6rem;
+}
+body.theme-dark.theme-minimal .export-image-root {
+  --canvas-bg: #161616;
+  --paper-bg: #161616;
+  --inline-title-color: #f5f5f3;
+  --paper-shadow: none;
+}
+body.theme-dark.theme-minimal .export-image-root::after { background: #2e2e2c; }
+
+/* user-info：avatar 左，文字右对齐 */
+body.theme-minimal .user-info-container {
+  padding: 0 !important;
+  display: flex;
+  justify-content: space-between !important;
+  align-items: center;
+}
+body.theme-minimal .user-info-avatar {
+  margin-right: 0;
+}
+body.theme-minimal .user-info-avatar img {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: none;
+}
+/* 用户名 + bio 整体右对齐 */
+body.theme-minimal .user-info-container > *:not(.user-info-avatar) {
+  text-align: right;
+}
+
+/* inline-title：居中衬线大字 + 下方朱红短横 */
+body.theme-minimal .export-image-root .inline-title {
+  font-family: "Source Han Serif SC", "Noto Serif SC", "Songti SC", "Yu Mincho", serif;
+  font-weight: 500;
+  font-size: 2.1em;
+  line-height: 1.35;
+  letter-spacing: 0.02em;
+  text-align: center;
+  display: block;
+  margin: auto auto 1.5em;
+  position: relative;
+  padding-bottom: 0em;
+}
+
+body.theme-minimal .export-image-root .inline-title:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -0.8em;
+  width: 3rem;
+  height: 2px;
+  background: #c8321f;
+}
+
+body.theme-minimal .export-image-root .export-image-markdown {
+  padding: 0 2.5rem;
+}
+
+
+/* 正文：衬线 + 舒适行距 */
+body.theme-minimal .export-image-preview-containe {
+  font-family: "Source Han Serif SC", "Noto Serif SC", "Songti SC", "Yu Mincho", "Georgia", serif;
+  line-height: 1.85;
+  color: #2a2a28;
+  padding: 0 2.5rem 2.5rem 2.5rem;
+}
+body.theme-dark.theme-minimal .export-image-preview-containe { color: #e8e6e2; }
+
+/* 链接：朱红，无下划线（极简的克制） */
+body.theme-minimal .export-image-preview-containe a {
+  color: #c8321f;
+  text-decoration: none;
+  border-bottom: none;
+}
+body.theme-dark.theme-minimal .export-image-preview-containe a { color: #d8442a; }
+
+/* strong：仅加重，不变色 */
+body.theme-minimal .export-image-preview-containe strong {
+  font-weight: 700;
+  color: inherit;
+  background: transparent;
+}
+
+/* h2/h3：节标题，小字号 + 大字距 + 浅灰（编辑式排版的小标题）
+   左侧加一根 8px 朱红短竖线，与列表点 / hr / inline-title 的朱红体系呼应 */
+body.theme-minimal .export-image-preview-containe h2,
+body.theme-minimal .export-image-preview-containe h3,
+body.theme-minimal .export-image-root .markdown-rendered h2,
+body.theme-minimal .export-image-root .markdown-rendered h3 {
+  font-family: "Source Han Serif SC", "Noto Serif SC", "Songti SC", serif;
+  font-weight: 400;
+  font-size: 0.95em;
+  letter-spacing: 0.5em;
+  color: #6a665e;
+  text-align: left;
+  margin: 2.4em 0 1em;
+  padding-left: 1em;
+  position: relative;
+  border-bottom: none;
+}
+body.theme-minimal .export-image-preview-containe h2::before,
+body.theme-minimal .export-image-preview-containe h3::before,
+body.theme-minimal .export-image-root .markdown-rendered h2::before,
+body.theme-minimal .export-image-root .markdown-rendered h3::before {
+  content: "";
+  position: absolute;
+  left: 0; top: 50%;
+  transform: translateY(-50%);
+  width: 3px; height: 0.9em;
+  background: #c8321f;
+}
+body.theme-dark.theme-minimal .export-image-preview-containe h2,
+body.theme-dark.theme-minimal .export-image-preview-containe h3,
+body.theme-dark.theme-minimal .export-image-root .markdown-rendered h2,
+body.theme-dark.theme-minimal .export-image-root .markdown-rendered h3 { color: #9a9690; }
+body.theme-dark.theme-minimal .export-image-preview-containe h2::before,
+body.theme-dark.theme-minimal .export-image-preview-containe h3::before,
+body.theme-dark.theme-minimal .export-image-root .markdown-rendered h2::before,
+body.theme-dark.theme-minimal .export-image-root .markdown-rendered h3::before { background: #d8442a; }
+
+/* 列表：每项之间一根浅灰发丝线，前缀朱红方点 */
+body.theme-minimal .export-image-preview-containe ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0.6em 0;
+}
+body.theme-minimal .export-image-preview-containe ul li {
+  position: relative;
+  padding: 0.7em 0 0.7em 1.4em;
+  border-bottom: 1px solid #ececea;
+  line-height: 1.7;
+}
+body.theme-minimal .export-image-preview-containe ul li:last-child {
+  border-bottom: none;
+}
+body.theme-minimal .export-image-preview-containe ul li::before {
+  content: "";
+  position: absolute;
+  left: 0.2em;
+  top: 1.15em;
+  width: 4px;
+  height: 4px;
+  background: #c8321f;
+}
+body.theme-dark.theme-minimal .export-image-preview-containe ul li {
+  border-bottom-color: #2a2a28;
+}
+body.theme-dark.theme-minimal .export-image-preview-containe ul li::before { background: #d8442a; }
+
+/* hr：居中 24px 朱红短横，呼应标题下的锚点 */
+body.theme-minimal .export-image-preview-containe hr {
+  border: none;
+  height: 2px;
+  width: 28px;
+  background: #c8321f;
+  margin: 2.4em auto;
+}
+body.theme-dark.theme-minimal .export-image-preview-containe hr { background: #d8442a; }
+
+/* blockquote：朱红左条 + 极浅灰底 + 小字衬线 */
+body.theme-minimal .export-image-preview-containe blockquote {
+  border-left: 2px solid #c8321f !important;
+  background: #f7f5f1;
+  padding: 0.8em 1.2em;
+  margin: 1.6em 0;
+  border-radius: 0;
+  font-family: inherit;
+  color: #6a6660;
+  font-size: 0.95em;
+  letter-spacing: 0.04em;
+}
+body.theme-dark.theme-minimal .export-image-preview-containe blockquote {
+  border-left-color: #d8442a !important;
+  background: #1d1d1b;
+  color: #908c86;
+}
+
+/* code：浅灰底，无边框 */
+body.theme-minimal .export-image-preview-containe code {
+  background: #f3f1ed;
+  color: inherit;
+  border-radius: 2px;
+  padding: 0.05em 0.4em;
+  font-family: "Fira Code", "Courier New", monospace;
+  font-size: 0.9em;
+}
+body.theme-dark.theme-minimal .export-image-preview-containe code {
+  background: #232220;
+}
+
+/* ============================================================
+ * 主题专属 · 内容区细节（avatar / blockquote / hr / 标题层级 / code / list / link）
+ *   每个主题用自己的视觉语言重新定义内容区里的微元素。
+ *   极简主题不写 — 它要的就是干净的默认。
+ * ============================================================ */
+
+/* ---------- 1 · 蒙德里安：内容区即"网格中的某一格被填色" ----------
+ *  原则：装饰元素 = 网格的一段黑线 / 一格被填色，不堆叠不渐变。
+ *  - hr 是贯穿基线网格的一条黑横线（粗、硬，不带任何高光）
+ *  - blockquote 不用左条，而是"上下两条黑线之间整段被填上原色"——它就是网格里的一格
+ *  - h2/h3 是"标题占用了一整行 grid"，用上下两条黑线包夹（而不是 underline）
+ *  - code 是"内联的微型色块"
+ *  - avatar 是"网格里的一个小方块"，硬黑边贴边
+ */
+body.theme-mondrian .user-info-avatar,
+body.theme-mondrian .user-info-avatar img {
+  border-radius: 0 !important;
+  border: 4px solid #111;
+}
+body.theme-mondrian .export-image-preview-containe blockquote {
+  /* 上下黑线包夹一格黄色色域；左右无边——它属于"被网格切出的一格" */
+  border: none !important;
+  border-top: 4px solid #111;
+  border-bottom: 4px solid #111;
+  background: #fbbf24;
+  color: #111;
+  padding: 0.7em 1em;
+  border-radius: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+body.theme-mondrian .export-image-preview-containe hr {
+  /* 网格基线，不是分隔——更粗、贯穿、绝对硬 */
+  border: none;
+  height: 4px;
+  background: #111;
+  margin: 1.6em 0;
+}
+body.theme-mondrian .export-image-preview-containe h2,
+body.theme-mondrian .export-image-root .markdown-rendered h2 {
+  /* 标题占一行 grid：上方一根粗黑横线，左侧贴一格小色块（三原色之一） */
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-weight: 700;
+  border-bottom: none;
+  padding: 0.35em 0 0 1em;
+  margin: 1.6em 0 0.8em;
+  position: relative;
+}
+body.theme-mondrian .export-image-preview-containe h2::before,
+body.theme-mondrian .export-image-root .markdown-rendered h2::before {
+  content: "";
+  position: absolute;
+  left: 0px; top: 4px;
+  width: 0.55em; height: 100%;
+  background: #dc2626;  /* 红格 */
+}
+body.theme-mondrian .export-image-preview-containe h3,
+body.theme-mondrian .export-image-root .markdown-rendered h3 {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-weight: 700;
+  padding: 0 0 0.15em 0.6em;
+  position: relative;
+  margin: 1.4em 0 0.6em;
+}
+body.theme-mondrian .export-image-preview-containe h3::before,
+body.theme-mondrian .export-image-root .markdown-rendered h3::before {
+  content: "";
+  position: absolute;
+  left: 0; bottom: -2px;
+  width: 0.4em; height: 0.5em;
+  background: #1d4ed8;  /* 蓝格 */
+}
+body.theme-mondrian .export-image-preview-containe code {
+  /* 内联色块 — 三原色随机感（用蓝） */
+  background: #1d4ed8;
+  color: #fff;
+  padding: 0.05em 0.4em;
+  border-radius: 0;
+}
+body.theme-mondrian .export-image-preview-containe strong {
+  /* 强调字 = 红色色块包裹 */
+  background: #dc2626; color: #fff;
+  padding: 0 0.2em;
+}
+body.theme-dark.theme-mondrian .user-info-avatar,
+body.theme-dark.theme-mondrian .user-info-avatar img { border-color: #fafaf7; }
+body.theme-dark.theme-mondrian .export-image-preview-containe blockquote {
+  border-top-color: #fafaf7;
+  border-bottom-color: #fafaf7;
+}
+body.theme-dark.theme-mondrian .export-image-preview-containe hr { background: #fafaf7; }
+body.theme-dark.theme-mondrian .export-image-preview-containe h2,
+body.theme-dark.theme-mondrian .export-image-root .markdown-rendered h2 {
+  border-top-color: #fafaf7;
+}
+body.theme-dark.theme-mondrian .export-image-preview-containe h3,
+body.theme-dark.theme-mondrian .export-image-root .markdown-rendered h3 { border-bottom-color: #fafaf7; }
+
+/* ---------- 2 · 包豪斯：几何语义系统 ----------
+ *  Itten + Bayer 的核心教义：每种几何原型绑定一种功能。
+ *  - ⬤ 红圆 → "标记/终止" → hr / avatar / strong
+ *  - ▲ 蓝三角 → "指向/引用" → blockquote
+ *  - ■ 黄方 → "占位/容器" → code / 行内高亮
+ *  每个符号只承担一种语义，这才是"形式追随功能"的真精神。
+ */
+body.theme-bauhaus .user-info-avatar,
+body.theme-bauhaus .user-info-avatar img {
+  /* 红圆 — 主"标记" */
+  border-radius: 50% !important;
+  border: 3px solid #d7263d;
+}
+body.theme-bauhaus .export-image-preview-containe blockquote {
+  /* 蓝三角"指向" — 引言被一根真正的三角符号引导 */
+  position: relative;
+  border: none !important;
+  background: transparent;
+  padding: 0.3em 0 0.3em 2.4em;
+  margin-left: 0;
+  font-family: "Futura", "Helvetica Neue", sans-serif;
+}
+body.theme-bauhaus .export-image-preview-containe blockquote::before {
+  /* 用 CSS border 绘制一个真三角形（不是色块） */
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.5em;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0.7em 0 0.7em 1.1em;
+  border-color: transparent transparent transparent #1f4e8a;
+}
+body.theme-bauhaus .export-image-preview-containe hr {
+  /* 红圆 — 把"分隔"抽象到极限：仅一个居中的红色圆点。
+     不是线、不是带、不是积木。 */
+  border: none;
+  height: 14px;
+  background: radial-gradient(circle 6px at center, #d7263d 0 6px, transparent 7px);
+  margin: 2em 0;
+}
+body.theme-bauhaus .export-image-preview-containe h2,
+body.theme-bauhaus .export-image-root .markdown-rendered h2 {
+  /* Bayer universal lowercase + 黄色色块铺底 + 一根黑色基线
+     —— 字"坐落"在黄方上、黄方"坐落"在黑线上 */
+  font-family: "Futura", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  text-transform: lowercase;
+  letter-spacing: 0;
+  display: inline-block;
+  background: #f4c430;
+  color: #1c1a16;
+  padding: 0.05em 0.5em;
+  border-bottom: 3px solid #1c1a16;
+  margin-bottom: 0.6em;
+}
+body.theme-bauhaus .export-image-preview-containe h3,
+body.theme-bauhaus .export-image-root .markdown-rendered h3 {
+  /* h3 用红圆点引导，标题语义"由红色标记起头" */
+  font-family: "Futura", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  text-transform: lowercase;
+  letter-spacing: 0;
+  color: #1c1a16;
+  padding-left: 1.1em;
+  position: relative;
+  margin: 1.4em 0 0.6em;
+}
+body.theme-bauhaus .export-image-preview-containe h3::before,
+body.theme-bauhaus .export-image-root .markdown-rendered h3::before {
+  content: "";
+  position: absolute;
+  left: 0; top: 50%;
+  transform: translateY(-50%);
+  width: 0.7em; height: 0.7em;
+  border-radius: 50%;
+  background: #d7263d;
+}
+body.theme-bauhaus .export-image-preview-containe code {
+  /* 黄方"容器" */
+  background: #f4c430;
+  color: #1c1a16;
+  padding: 0.05em 0.4em;
+  border-radius: 0;
+}
+body.theme-bauhaus .export-image-preview-containe strong {
+  /* 红"标记"，不加底色（已被 code 用掉） */
+  color: #d7263d;
+  font-weight: 700;
+}
+body.theme-bauhaus .export-image-preview-containe a {
+  color: #1f4e8a;
+  text-decoration: none;
+  border-bottom: 2px solid #1f4e8a;
+}
+/* 列表符号：保持默认圆点，不强行换字符 — 包豪斯不爱往文本流塞符号 */
+body.theme-bauhaus .export-image-preview-containe ul li::marker {
+  color: #d7263d;
+}
+
+/* —— Dark 模式：1923 包豪斯展览海报式 黑底 + 高饱和原色 ——
+   注意色彩平移：dark 下黄变成主"亮"色（替代红的视觉权重），
+   红保持作为强调，蓝在深底上提亮以维持可见度 */
+body.theme-dark.theme-bauhaus .user-info-avatar,
+body.theme-dark.theme-bauhaus .user-info-avatar img {
+  border-color: #f4c430;  /* 黑底用黄圆边更醒目 */
+}
+body.theme-dark.theme-bauhaus .export-image-preview-containe blockquote::before {
+  border-left-color: #2a6cba;  /* 蓝提亮 */
+}
+body.theme-dark.theme-bauhaus .export-image-preview-containe hr {
+  background: radial-gradient(circle 6px at center, #e63950 0 6px, transparent 7px);
+}
+body.theme-dark.theme-bauhaus .export-image-preview-containe h2,
+body.theme-dark.theme-bauhaus .export-image-root .markdown-rendered h2 {
+  background: #f4c430; color: #1c1a16;
+  border-bottom-color: #f4c430;
+}
+body.theme-dark.theme-bauhaus .export-image-preview-containe h3,
+body.theme-dark.theme-bauhaus .export-image-root .markdown-rendered h3 {
+  color: #f4c430;
+}
+body.theme-dark.theme-bauhaus .export-image-preview-containe h3::before,
+body.theme-dark.theme-bauhaus .export-image-root .markdown-rendered h3::before {
+  background: #e63950;
+}
+body.theme-dark.theme-bauhaus .export-image-preview-containe code {
+  background: #f4c430; color: #1c1a16;
+}
+body.theme-dark.theme-bauhaus .export-image-preview-containe strong {
+  color: #e63950;
+}
+body.theme-dark.theme-bauhaus .export-image-preview-containe a {
+  color: #2a6cba; border-bottom-color: #2a6cba;
+}
+
+/* ---------- 3 · 毕加索：剪贴拼贴 + 硬阴影错位 ---------- */
+body.theme-picasso-cubism .user-info-avatar,
+body.theme-picasso-cubism .user-info-avatar img {
+  border-radius: 0 !important;
+  border: 2px solid #111;
+  box-shadow: 4px 4px 0 #c8321f;
+}
+body.theme-picasso-cubism .export-image-preview-containe blockquote {
+  background: #f4ecd7;
+  border: 2px solid #111;
+  border-left: 8px solid #c8321f;
+  padding: 0.7em 1em;
+  margin-left: 0;
+  border-radius: 0;
+  box-shadow: 4px 4px 0 #1c4ea1;
+  font-family: "Georgia", serif;
+  font-style: italic;
+}
+body.theme-picasso-cubism .export-image-preview-containe hr {
+  border: none;
+  height: 0;
+  border-top: 3px dashed #111;
+}
+body.theme-picasso-cubism .export-image-preview-containe h2,
+body.theme-picasso-cubism .export-image-root .markdown-rendered h2 {
+  /* h2：黑色块 + 红硬阴影 + 微逆时针旋转，像被剪贴上墙 */
+  font-family: "Georgia", serif;
+  font-style: italic;
+  font-weight: 700;
+  display: inline-block;
+  background: #111;
+  color: #f0e8d0 !important;
+  padding: 0.1em 0.55em;
+  box-shadow: 4px 4px 0 #c8321f;
+  transform: rotate(-1.2deg);
+  margin: 1.4em 0 0.9em;
+}
+body.theme-picasso-cubism .export-image-preview-containe h3,
+body.theme-picasso-cubism .export-image-root .markdown-rendered h3 {
+  /* h3：奶白底 + 蓝硬阴影 + 顺时针微旋，与 h2 错位拼贴 */
+  font-family: "Georgia", serif;
+  font-style: italic;
+  font-weight: 700;
+  display: inline-block;
+  background: #f0e8d0;
+  color: #111 !important;
+  padding: 0.05em 0.45em;
+  box-shadow: 3px 3px 0 #1c4ea1;
+  transform: rotate(0.8deg);
+  margin: 1.2em 0 0.7em;
+}
+body.theme-picasso-cubism .export-image-preview-containe code {
+  background: #1c4ea1;
+  color: #f0e8d0;
+  border-radius: 0;
+  padding: 0.05em 0.35em;
+}
+body.theme-dark.theme-picasso-cubism .user-info-avatar,
+body.theme-dark.theme-picasso-cubism .user-info-avatar img {
+  border-color: #f0e8d0;
+  box-shadow: 4px 4px 0 #d8442a;
+}
+body.theme-dark.theme-picasso-cubism .export-image-preview-containe blockquote {
+  background: #2a221c;
+  border-color: #f0e8d0;
+  border-left-color: #d8442a;
+  box-shadow: 4px 4px 0 #2563b8;
+  color: #f0e8d0;
+}
+body.theme-dark.theme-picasso-cubism .export-image-preview-containe h2,
+body.theme-dark.theme-picasso-cubism .export-image-root .markdown-rendered h2 {
+  background: #f0b91a; color: #1a1612 !important;
+  box-shadow: 4px 4px 0 #d8442a;
+}
+body.theme-dark.theme-picasso-cubism .export-image-preview-containe h3,
+body.theme-dark.theme-picasso-cubism .export-image-root .markdown-rendered h3 {
+  background: #2a221c; color: #f0e8d0 !important;
+  box-shadow: 3px 3px 0 #2563b8;
+}
+
+/* ---------- 4 · 罗斯科：正文 = 极致克制 ----------
+ *  上一轮的错误：给 blockquote 加背景、hr 加 blur 高光线、h2 加 Didot 大写居中
+ *  —— 这些都是在正文里"做罗斯科风装饰"，恰恰是罗斯科最反对的事。
+ *
+ *  新方案：正文比 minimal 还克制。
+ *  - 所有装饰都退到几乎不可见
+ *  - blockquote 仅左侧一根极细的"色域边缘色"线（从画布提取），无背景
+ *  - hr 是一段"色域过渡带"的微缩版 — 6px 高，从透明到深色再回透明的渐变
+ *  - h2/h3 仅靠字号、不加任何装饰、不大写
+ *  - 让正文谦逊地存在于色域之中
+ */
+body.theme-rothko .user-info-avatar,
+body.theme-rothko .user-info-avatar img {
+  border-radius: 2px !important;
+  /* 头像边缘也学色域：极柔阴影替代硬边 */
+  box-shadow: 0 4px 14px rgba(20, 8, 4, 0.25);
+}
+body.theme-rothko .export-image-preview-containe blockquote {
+  /* 仅一根 1px 色域边缘色线，无背景、无字体改变 */
+  border-left: 1px solid rgba(107, 27, 27, 0.35) !important;
+  background: transparent;
+  padding: 0.2em 0 0.2em 1em;
+  margin-left: 0;
+  border-radius: 0;
+  font-style: normal;
+  text-align: left;
+  letter-spacing: normal;
+}
+body.theme-rothko .export-image-preview-containe hr {
+  /* 一段"色域过渡带"的微缩版 — 不是分隔线，是色域呼吸 */
+  border: none;
+  height: 6px;
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgba(107, 27, 27, 0.18) 50%,
+    transparent 100%
+  );
+  margin: 2.4em 0;
+}
+body.theme-rothko .export-image-preview-containe h2,
+body.theme-rothko .export-image-root .markdown-rendered h2 {
+  /* h2：在标题下方落一段极柔的"色域带"——不是下划线，是色域呼吸 */
+  font-family: inherit;
+  font-weight: 600;
+  letter-spacing: normal;
+  text-transform: none;
+  text-align: left;
+  padding-bottom: 0.4em;
+  margin: 1.6em 0 0.8em;
+  background:
+    linear-gradient(to bottom, transparent calc(100% - 10px), rgba(107, 27, 27, 0.18) calc(100% - 10px), rgba(107, 27, 27, 0.18) calc(100% - 4px), transparent calc(100% - 4px));
+  background-size: 70% 100%;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+body.theme-rothko .export-image-preview-containe h3,
+body.theme-rothko .export-image-root .markdown-rendered h3 {
+  /* h3：仅靠字重和字号区分层级，绝不加装饰 */
+  font-family: inherit;
+  font-weight: 500;
+  letter-spacing: normal;
+  text-transform: none;
+  text-align: left;
+}
+body.theme-rothko .export-image-preview-containe code {
+  background: rgba(107, 27, 27, 0.08);
+  color: inherit;
+  border-radius: 1px;
+  padding: 0.05em 0.35em;
+}
+body.theme-dark.theme-rothko .export-image-preview-containe blockquote {
+  border-left-color: rgba(216, 144, 96, 0.35) !important;
+}
+body.theme-dark.theme-rothko .export-image-preview-containe hr {
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgba(216, 144, 96, 0.18) 50%,
+    transparent 100%
+  );
+}
+body.theme-dark.theme-rothko .export-image-preview-containe code {
+  background: rgba(216, 144, 96, 0.10);
+}
+body.theme-dark.theme-rothko .export-image-preview-containe h2,
+body.theme-dark.theme-rothko .export-image-root .markdown-rendered h2 {
+  background:
+    linear-gradient(to bottom, transparent calc(100% - 10px), rgba(216, 144, 96, 0.20) calc(100% - 10px), rgba(216, 144, 96, 0.20) calc(100% - 4px), transparent calc(100% - 4px));
+  background-size: 70% 100%;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+
+/* ---------- 5 · 无印：极致克制，仅以暖灰发丝线 ---------- */
+body.theme-muji .user-info-avatar,
+body.theme-muji .user-info-avatar img {
+  border-radius: 50% !important;
+  border: 1px solid rgba(170, 155, 125, 0.5);
+}
+body.theme-muji .export-image-preview-containe blockquote {
+  border-left: 1px solid rgba(170, 155, 125, 0.5) !important;
+  padding-left: 1em;
+  margin-left: 0;
+  color: var(--text-muted);
+  font-weight: 200;
+  letter-spacing: 0.04em;
+}
+body.theme-muji .export-image-preview-containe hr {
+  border: none;
+  height: 1px;
+  background: rgba(170, 155, 125, 0.35);
+}
+body.theme-muji .export-image-preview-containe code {
+  background: rgba(170, 155, 125, 0.12);
+  color: inherit;
+  border-radius: 1px;
+  padding: 0.05em 0.4em;
+  font-weight: 300;
+}
+body.theme-muji .export-image-preview-containe h2,
+body.theme-muji .export-image-preview-containe h3,
+body.theme-muji .export-image-root .markdown-rendered h2,
+body.theme-muji .export-image-root .markdown-rendered h3 {
+  /* 无印良品：薄、轻、暖灰发丝线在下方拖一条短尾 */
+  font-family: "Hiragino Sans", "Source Han Sans SC", sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.08em;
+  color: var(--text-normal);
+  border-bottom: 1px solid rgba(170, 155, 125, 0.35);
+  padding-bottom: 0.3em;
+  margin: 1.6em 0 0.8em;
+}
+body.theme-muji .export-image-preview-containe h3,
+body.theme-muji .export-image-root .markdown-rendered h3 {
+  border-bottom: none;
+  color: var(--text-muted);
+}
+body.theme-dark.theme-muji .user-info-avatar,
+body.theme-dark.theme-muji .user-info-avatar img { border-color: rgba(255, 240, 200, 0.18); }
+body.theme-dark.theme-muji .export-image-preview-containe blockquote { border-left-color: rgba(255, 240, 200, 0.18) !important; }
+body.theme-dark.theme-muji .export-image-preview-containe hr { background: rgba(255, 240, 200, 0.12); }
+body.theme-dark.theme-muji .export-image-preview-containe code { background: rgba(255, 240, 200, 0.08); }
+body.theme-dark.theme-muji .export-image-preview-containe h2,
+body.theme-dark.theme-muji .export-image-root .markdown-rendered h2 { border-bottom-color: rgba(255, 240, 200, 0.18); }
+
+/* ---------- 6 · 拉姆斯：Braun 控制面板（精确网格 / 1px 灰线 / 橙色按钮） ---------- */
+body.theme-rams .user-info-avatar,
+body.theme-rams .user-info-avatar img {
+  border-radius: 2px !important;
+  border: 1px solid #b8b8b6;
+}
+body.theme-rams .export-image-preview-containe blockquote {
+  border-left: 3px solid #ff5b1f !important;
+  background: #f4f4f2;
+  padding: 0.6em 1em;
+  margin-left: 0;
+  border-radius: 0 2px 2px 0;
+  font-family: "Helvetica Neue", "Akzidenz-Grotesk", sans-serif;
+}
+body.theme-rams .export-image-preview-containe hr {
+  border: none;
+  height: 1px;
+  background: #b8b8b6;
+}
+body.theme-rams .export-image-preview-containe h2,
+body.theme-rams .export-image-preview-containe h3,
+body.theme-rams .export-image-root .markdown-rendered h2,
+body.theme-rams .export-image-root .markdown-rendered h3 {
+  /* Braun 控制面板的功能标签：底部一根 1px 灰线 + 左侧 3px 橙色短竖线（功能开关） */
+  font-family: "Helvetica Neue", "Akzidenz-Grotesk", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  border-bottom: 1px solid #b8b8b6;
+  padding: 0 0 0.25em 0.7em;
+  margin: 1.6em 0 0.8em;
+  position: relative;
+}
+body.theme-rams .export-image-preview-containe h2::before,
+body.theme-rams .export-image-preview-containe h3::before,
+body.theme-rams .export-image-root .markdown-rendered h2::before,
+body.theme-rams .export-image-root .markdown-rendered h3::before {
+  content: "";
+  position: absolute;
+  left: 0; top: 0.15em;
+  width: 3px; height: 0.85em;
+  background: #ff5b1f;
+}
+body.theme-rams .export-image-preview-containe code {
+  background: #ececea;
+  border: 1px solid #d8d8d6;
+  border-radius: 2px;
+  padding: 0.05em 0.4em;
+  font-size: 0.92em;
+}
+body.theme-rams .export-image-preview-containe a {
+  color: #ff5b1f;
+  text-decoration: none;
+  border-bottom: 1px solid #ff5b1f;
+}
+body.theme-dark.theme-rams .user-info-avatar,
+body.theme-dark.theme-rams .user-info-avatar img { border-color: #3d3d3c; }
+body.theme-dark.theme-rams .export-image-preview-containe blockquote { background: #2a2a29; }
+body.theme-dark.theme-rams .export-image-preview-containe hr,
+body.theme-dark.theme-rams .export-image-preview-containe h2,
+body.theme-dark.theme-rams .export-image-preview-containe h3,
+body.theme-dark.theme-rams .export-image-root .markdown-rendered h2,
+body.theme-dark.theme-rams .export-image-root .markdown-rendered h3 { border-bottom-color: #3d3d3c; }
+body.theme-dark.theme-rams .export-image-preview-containe code { background: #1f1f1e; border-color: #3d3d3c; }
+
+/* ---------- 7 · 孟菲斯：撞色 + 几何符号 + 故意错位 ---------- */
+body.theme-memphis .user-info-avatar,
+body.theme-memphis .user-info-avatar img {
+  border-radius: 50% !important;
+  border: 3px solid #f4c430;
+  box-shadow: 4px 4px 0 #d6336c;
+}
+body.theme-memphis .export-image-preview-containe blockquote {
+  background: #f4c430;
+  color: #2b0d3a;
+  border-left: none !important;
+  padding: 0.7em 1em;
+  margin-left: 0;
+  border-radius: 0 16px 0 16px;
+  box-shadow: 5px 5px 0 #6ed3c1;
+  font-weight: 600;
+}
+body.theme-memphis .export-image-preview-containe hr {
+  border: none;
+  height: 8px;
+  background:
+    radial-gradient(circle, #d6336c 30%, transparent 31%) 0 0 / 14px 8px repeat-x;
+}
+body.theme-memphis .export-image-preview-containe h2,
+body.theme-memphis .export-image-root .markdown-rendered h2 {
+  font-family: "Futura", "Helvetica Neue", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  display: inline-block;
+  background: #6ed3c1;
+  color: #2b0d3a;
+  padding: 0.1em 0.6em;
+  transform: rotate(-1.5deg);
+  box-shadow: 4px 4px 0 #d6336c;
+  margin: 1.4em 0 1em;
+}
+body.theme-memphis .export-image-preview-containe h3,
+body.theme-memphis .export-image-root .markdown-rendered h3 {
+  font-family: "Futura", sans-serif;
+  font-weight: 900;
+  color: #d6336c;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  /* 一根紫色波浪线在下方，呼应 Memphis 的"squiggle"母题 */
+  text-decoration: underline wavy #2b0d3a;
+  text-underline-offset: 0.35em;
+  text-decoration-thickness: 2px;
+}
+body.theme-memphis .export-image-preview-containe code {
+  background: #d6336c;
+  color: #fffaf3;
+  padding: 0.05em 0.4em;
+  border-radius: 3px;
+}
+body.theme-memphis .export-image-preview-containe ul li::marker { color: #d6336c; }
+body.theme-dark.theme-memphis .user-info-avatar,
+body.theme-dark.theme-memphis .user-info-avatar img {
+  border-color: #ffd23f;
+  box-shadow: 4px 4px 0 #ff4ecd;
+}
+body.theme-dark.theme-memphis .export-image-preview-containe blockquote {
+  /* 茄紫底 + 品红字 + 青色硬阴影：3 色纪律内的最大表现力 */
+  background: #2b0d3a; color: #ff4ecd;
+  box-shadow: 5px 5px 0 #00d9d4;
+}
+body.theme-dark.theme-memphis .export-image-preview-containe h2,
+body.theme-dark.theme-memphis .export-image-root .markdown-rendered h2 {
+  /* 品红主角 + 茄紫深字 + 青跳影 */
+  background: #ff4ecd; color: #1a0823;
+  box-shadow: 4px 4px 0 #00d9d4;
+}
+body.theme-dark.theme-memphis .export-image-preview-containe h3,
+body.theme-dark.theme-memphis .export-image-root .markdown-rendered h3 {
+  color: #ff4ecd;
+  text-decoration-color: #00d9d4;
+}
+body.theme-dark.theme-memphis .export-image-preview-containe code {
+  /* code 也归入品红体系，保持纪律 */
+  background: #ff4ecd; color: #1a0823;
+}
+
+/* ---------- 8 · 侘寂：手作不规则 / 釉色 / 墨痕 ---------- */
+body.theme-wabisabi .user-info-avatar,
+body.theme-wabisabi .user-info-avatar img {
+  /* 不规则的器物边沿 */
+  border-radius: 58% 42% 50% 50% / 45% 55% 45% 55% !important;
+  border: 1px solid rgba(60, 40, 25, 0.35);
+}
+body.theme-wabisabi .export-image-preview-containe blockquote {
+  font-family: "Yu Mincho", "Hiragino Mincho ProN", "Songti SC", serif;
+  border-left: none !important;
+  background:
+    linear-gradient(to right, rgba(60, 40, 25, 0.10), transparent 60%);
+  padding: 0.6em 1em 0.6em 1.2em;
+  margin-left: 0;
+  letter-spacing: 0.08em;
+  position: relative;
+  border-radius: 0 4px 9px 0;
+}
+body.theme-wabisabi .export-image-preview-containe blockquote::before {
+  content: "";
+  position: absolute;
+  left: 0; top: 0.5em; bottom: 0.5em;
+  width: 2px;
+  background: #2a1f15;
+  border-radius: 60% 40% 50% 80%;
+  opacity: 0.55;
+}
+body.theme-wabisabi .export-image-preview-containe hr {
+  /* 不是三个 PS 滤镜叠加，是「一笔扫过的墨痕」。
+     用单条横向 linear-gradient 做"枯笔"效果：
+     - 起笔（左 8%）墨色最浓
+     - 行笔过程被自然抬起（中段透明度起伏）
+     - 收笔（右 5%）墨断成飞白
+     再叠一层极细的颗粒模拟纸纤维。 */
+  border: none;
+  height: 3px;
+  background:
+    /* 主笔触：从左浓到右飞白的墨线 */
+    linear-gradient(
+      90deg,
+      transparent 0%,
+      rgba(42, 31, 21, 0.78) 6%,
+      rgba(42, 31, 21, 0.65) 28%,
+      rgba(42, 31, 21, 0.40) 52%,
+      rgba(42, 31, 21, 0.55) 70%,
+      rgba(42, 31, 21, 0.20) 88%,
+      transparent 96%,
+      rgba(42, 31, 21, 0.30) 97%,
+      transparent 100%
+    );
+  /* 笔锋的轻微抬笔感：左端略尖、右端飞白 */
+  border-radius: 60% 40% 50% 80% / 100% 100% 100% 100%;
+  margin: 1.8em 0;
+  opacity: 0.9;
+}
+body.theme-wabisabi .export-image-preview-containe h2,
+body.theme-wabisabi .export-image-preview-containe h3,
+body.theme-wabisabi .export-image-root .markdown-rendered h2,
+body.theme-wabisabi .export-image-root .markdown-rendered h3 {
+  /* 一段「墨晕」托在字下方：左浓右淡，像生宣上的洇染 */
+  font-family: "Yu Mincho", "Hiragino Mincho ProN", "Songti SC", serif;
+  font-weight: 400;
+  letter-spacing: 0.10em;
+  color: #2a1f15;
+  display: inline-block;
+  padding: 0 0.4em 0.15em;
+  background:
+    linear-gradient(
+      90deg,
+      rgba(60, 40, 25, 0.18) 0%,
+      rgba(60, 40, 25, 0.10) 40%,
+      rgba(60, 40, 25, 0.04) 70%,
+      transparent 100%
+    );
+  background-size: 100% 0.45em;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  border-radius: 60% 40% 50% 80% / 100% 100% 100% 100%;
+  margin: 1.6em 0 0.9em;
+}
+body.theme-wabisabi .export-image-preview-containe code {
+  background: rgba(60, 40, 25, 0.10);
+  color: #2a1f15;
+  border-radius: 2px;
+  padding: 0.05em 0.4em;
+}
+body.theme-dark.theme-wabisabi .user-info-avatar,
+body.theme-dark.theme-wabisabi .user-info-avatar img { border-color: rgba(201, 184, 142, 0.4); }
+body.theme-dark.theme-wabisabi .export-image-preview-containe blockquote {
+  background: linear-gradient(to right, rgba(201, 184, 142, 0.10), transparent 60%);
+}
+body.theme-dark.theme-wabisabi .export-image-preview-containe blockquote::before { background: #c9b88e; }
+body.theme-dark.theme-wabisabi .export-image-preview-containe hr {
+  background:
+    linear-gradient(
+      90deg,
+      transparent 0%,
+      rgba(201, 184, 142, 0.68) 6%,
+      rgba(201, 184, 142, 0.55) 28%,
+      rgba(201, 184, 142, 0.30) 52%,
+      rgba(201, 184, 142, 0.45) 70%,
+      rgba(201, 184, 142, 0.18) 88%,
+      transparent 96%,
+      rgba(201, 184, 142, 0.25) 97%,
+      transparent 100%
+    );
+}
+body.theme-dark.theme-wabisabi .export-image-preview-containe code {
+  background: rgba(201, 184, 142, 0.12); color: #c9b88e;
+}
+body.theme-dark.theme-wabisabi .export-image-preview-containe h2,
+body.theme-dark.theme-wabisabi .export-image-preview-containe h3,
+body.theme-dark.theme-wabisabi .export-image-root .markdown-rendered h2,
+body.theme-dark.theme-wabisabi .export-image-root .markdown-rendered h3 {
+  color: #c9b88e;
+  background:
+    linear-gradient(
+      90deg,
+      rgba(201, 184, 142, 0.22) 0%,
+      rgba(201, 184, 142, 0.12) 40%,
+      rgba(201, 184, 142, 0.05) 70%,
+      transparent 100%
+    );
+  background-size: 100% 0.45em;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+
+/* ---------- 9 · 瑞士主义：网格 + 粗 Helvetica + 一根黑线 ---------- */
+body.theme-swiss .user-info-avatar,
+body.theme-swiss .user-info-avatar img {
+  border-radius: 0 !important;
+  border: 1px solid #111;
+}
+body.theme-swiss .export-image-preview-containe blockquote {
+  border-left: 8px solid #111 !important;
+  background: transparent;
+  padding: 0.4em 0 0.4em 1em;
+  margin-left: 0;
+  border-radius: 0;
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  line-height: 1.3;
+}
+body.theme-swiss .export-image-preview-containe hr {
+  border: none;
+  height: 1px;
+  background: #111;
+}
+body.theme-swiss .export-image-preview-containe h2,
+body.theme-swiss .export-image-preview-containe h3,
+body.theme-swiss .export-image-root .markdown-rendered h2,
+body.theme-swiss .export-image-root .markdown-rendered h3 {
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  border-left: 6px solid #111;
+  padding: 0.05em 0 0.05em 0.55em;
+  margin: 1.6em 0 0.8em;
+  line-height: 1;
+}
+body.theme-swiss .export-image-preview-containe h2,
+body.theme-swiss .export-image-root .markdown-rendered h2 {
+  font-size: 1.7em;
+  border-left-color: #e10600;  /* h2：朱红粗竖，呼应画布的红斜面 */
+}
+body.theme-swiss .export-image-preview-containe h3,
+body.theme-swiss .export-image-root .markdown-rendered h3 {
+  font-size: 1.1em;
+}
+body.theme-swiss .export-image-preview-containe code {
+  background: #111;
+  color: #fff;
+  border-radius: 0;
+  padding: 0.05em 0.4em;
+}
+body.theme-swiss .export-image-preview-containe a {
+  color: #e10600;
+  text-decoration: none;
+  font-weight: 700;
+}
+body.theme-dark.theme-swiss .user-info-avatar,
+body.theme-dark.theme-swiss .user-info-avatar img { border-color: #f5f5f5; }
+body.theme-dark.theme-swiss .export-image-preview-containe blockquote { border-left-color: #f5f5f5 !important; }
+body.theme-dark.theme-swiss .export-image-preview-containe hr { background: #f5f5f5; }
+body.theme-dark.theme-swiss .export-image-preview-containe code { background: #f5f5f5; color: #0a0a0a; }
+

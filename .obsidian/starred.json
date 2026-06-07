@@ -1,0 +1,64 @@
+{
+  "items": [
+    {
+      "type": "file",
+      "title": "文献整理汇总",
+      "path": "F-文献笔记汇总/文献整理汇总.md"
+    },
+    {
+      "type": "file",
+      "title": "文献整理汇总",
+      "path": "F-文献笔记汇总/B-阅读文献汇总库/文献整理汇总.md"
+    },
+    {
+      "type": "file",
+      "title": "A-任务规划",
+      "path": "B-任务管理面板/任务管理规划.md"
+    },
+    {
+      "type": "file",
+      "title": "C-任务汇总",
+      "path": "B-任务管理面板/任务汇总列表.md"
+    },
+    {
+      "type": "file",
+      "title": "《机械阅读学报》",
+      "path": "F-文献笔记汇总/阅读文献汇总库/文献阅读展板.md"
+    },
+    {
+      "type": "file",
+      "title": "图书阅读看板",
+      "path": "B-任务管理面板/图书阅读看板.md"
+    },
+    {
+      "type": "file",
+      "title": "00未完成事项汇总",
+      "path": "D-每日生活记录/存放日记文档/灵感收集汇总.md"
+    },
+    {
+      "type": "file",
+      "title": "B-插件面板",
+      "path": "C-QTH_Journal/Obsidian学习/OB插件面板.md"
+    },
+    {
+      "type": "file",
+      "title": "Anki插件面板 1",
+      "path": "C-QTH_Journal/Anki学习笔记/Anki插件面板.md"
+    },
+    {
+      "type": "file",
+      "title": "Omnivore总览表",
+      "path": "E-浏览记录存储/Omnivore展板.md"
+    },
+    {
+      "type": "file",
+      "title": "Exaclidraw插件",
+      "path": "C-QTH_Journal/Obsidian学习/Excalidraw学习/Exaclidraw插件.md"
+    },
+    {
+      "type": "file",
+      "title": "OB数据库汇总图",
+      "path": "Y-图形文件存储/Graph Presets/OB数据库汇总图.md"
+    }
+  ]
+}

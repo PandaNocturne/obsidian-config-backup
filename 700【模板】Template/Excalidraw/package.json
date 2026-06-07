@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "@eslint/js": "^9.10.0",
+    "@types/node": "^20.9.0",
+    "eslint": "^9.10.0",
+    "globals": "^15.9.0",
+    "typescript-eslint": "^8.5.0"
+  },
+  "dependencies": {
+    "axios": "^1.6.1",
+    "bib2json": "^0.0.1",
+    "openai": "^4.0.0",
+    "socks-proxy-agent": "^8.0.2"
+  }
+}

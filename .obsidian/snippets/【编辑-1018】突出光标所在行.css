@@ -1,0 +1,12 @@
+/* 光标所在编辑行的行号颜色 */
+.markdown-source-view.mod-cm6 .cm-lineNumbers .cm-gutterElement.cm-active {
+  font-weight: bold;
+  border-left: 4px solid var(--interactive-accent);
+  background-color: transparent !important;
+}
+
+
+/* 当前编辑行背景颜色 */
+.markdown-source-view.mod-cm6 .cm-line.cm-active {
+  background-color: transparent !important;
+}

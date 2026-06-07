@@ -1,0 +1,51 @@
+
+/* Define the Heart Color based on Light/Dark mode */
+.theme-dark {
+    --heart-color: #ff005c; /* Neon Pink for Dark Mode */
+}
+.theme-light {
+    --heart-color: #9e124a; /* Deep Magenta for Light Mode */
+}
+
+/* THE HEART CONFIGURATION */
+.app-container::after {
+    content: '';
+    position: fixed; 
+    bottom: 40px; 
+    right: 40px;
+    width: 5px; 
+    height: 5px; 
+    background: transparent;
+    border-radius: 0 !important; /* Force Square Pixels */
+    
+    /* THE PIXEL MAP */
+    box-shadow: 
+        /* Row 1 */
+        -10px -15px 0 var(--heart-color), -5px -15px 0 var(--heart-color), 5px -15px 0 var(--heart-color), 10px -15px 0 var(--heart-color),
+        /* Row 2 */
+        -15px -10px 0 var(--heart-color), -10px -10px 0 var(--heart-color), -5px -10px 0 var(--heart-color), 0px -10px 0 var(--heart-color), 5px -10px 0 var(--heart-color), 10px -10px 0 var(--heart-color), 15px -10px 0 var(--heart-color),
+        /* Row 3 */
+        -15px -5px 0 var(--heart-color), -10px -5px 0 var(--heart-color), -5px -5px 0 var(--heart-color), 0px -5px 0 var(--heart-color), 5px -5px 0 var(--heart-color), 10px -5px 0 var(--heart-color), 15px -5px 0 var(--heart-color),
+        /* Row 4 */
+        -10px 0px 0 var(--heart-color), -5px 0px 0 var(--heart-color), 0px 0px 0 var(--heart-color), 5px 0px 0 var(--heart-color), 10px 0px 0 var(--heart-color),
+        /* Row 5 */
+        -5px 5px 0 var(--heart-color), 0px 5px 0 var(--heart-color), 5px 5px 0 var(--heart-color),
+        /* Row 6 */
+        0px 10px 0 var(--heart-color);
+        
+    z-index: 99999; 
+    pointer-events: none; /* Allows you to click "through" the heart */
+    opacity: 0.9;
+    
+    /* THE THUMP ANIMATION */
+    animation: heartbeat 1.3s infinite cubic-bezier(0.215, 0.61, 0.355, 1); 
+}
+
+@keyframes heartbeat {
+    0% { transform: scale(1); } 
+    14% { transform: scale(1.15); } /* Lub */
+    28% { transform: scale(1); } 
+    42% { transform: scale(1.15); } /* Dub */
+    70% { transform: scale(1); } 
+    100% { transform: scale(1); }
+}

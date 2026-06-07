@@ -1,0 +1,12 @@
+{
+  "apikey": "4f6247ac42c91d6d4875085ef0982d5f",
+  "savedFolder": "210【日志】Journal/DailyNotes/2026",
+  "filenameRule": "yyyy-mm-dd",
+  "conflictFileRule": "append",
+  "refreshInterval": "10",
+  "fixedTitle": "",
+  "contentPrefix": "- [ ] ",
+  "contentSuffix": "",
+  "templateName": "DailyNotes模板.md",
+  "fetchWechatArticleContent": true
+}

@@ -1,0 +1,240 @@
+{
+  "confirmDeletion": true,
+  "showAddCommand": true,
+  "debug": false,
+  "editorMenu": [
+    {
+      "id": "editor:clear-formatting",
+      "icon": "lucide-eraser",
+      "name": "Clear formatting",
+      "mode": "any"
+    },
+    {
+      "id": "easy-bake:bake-file",
+      "icon": "lucide-merge",
+      "name": "Easy Bake: Bake current file",
+      "mode": "any"
+    }
+  ],
+  "fileMenu": [
+    {
+      "id": "workspace:copy-path",
+      "icon": "lucide-copy",
+      "name": "复制当前文件的路径",
+      "mode": "any"
+    },
+    {
+      "id": "file-explorer:move-file",
+      "icon": "lucide-folder-tree",
+      "name": "将文件移动到其他文件夹",
+      "mode": "any"
+    }
+  ],
+  "leftRibbon": [
+    {
+      "id": "cmdr:open-commander-settings",
+      "icon": "lucide-command",
+      "name": "Commander: 打开 Commander 设置",
+      "mode": "any",
+      "color": "#ff0505"
+    },
+    {
+      "id": "obsidian-style-settings:show-style-settings-leaf",
+      "icon": "building-2",
+      "name": "Style Settings: Show style settings view",
+      "mode": "any"
+    },
+    {
+      "id": "quickadd:choice:4ae29081-9d9d-4dff-a0cc-e0edf4619cd8",
+      "icon": "archive",
+      "name": "QuickAdd: Macro：归档附件",
+      "mode": "any"
+    }
+  ],
+  "rightRibbon": [],
+  "titleBar": [],
+  "statusBar": [],
+  "pageHeader": [
+    {
+      "id": "simple-canvasearch:open-canvasearch-modal",
+      "icon": "airplay",
+      "name": "Simple CanvaSearch: Open CanvaSearch modal",
+      "mode": "f2ac05e1d5f3ae2a"
+    },
+    {
+      "id": "app:delete-file",
+      "icon": "lucide-trash-2",
+      "name": "删除当前文件",
+      "mode": "any",
+      "color": "#ff0000"
+    },
+    {
+      "id": "workspace:toggle-pin",
+      "icon": "lucide-pin",
+      "name": "解锁/锁定",
+      "mode": "any"
+    },
+    {
+      "id": "gridexplorer:view-current-note-in-grid-view",
+      "icon": "lucide-folder-search-2",
+      "name": "GridExplorer: 在网格视图中打开当前笔记",
+      "mode": "any",
+      "color": "#ffae00"
+    },
+    {
+      "id": "quickadd:choice:599fa05d-d13a-4bfd-a7c9-bb8cc1989eeb",
+      "icon": "arrow-up-right",
+      "name": "QuickAdd: Macro：⚙openExternalEditor",
+      "mode": "any"
+    },
+    {
+      "id": "obsidian-style-settings:style-settings-class-toggle-【Properties】控制Yaml的显示情况-hide-yaml",
+      "icon": "alert-circle",
+      "name": "Style Settings: Toggle 显示或隐藏YAML(Properties)",
+      "mode": "any"
+    },
+    {
+      "id": "obsidian-style-settings:style-settings-class-toggle-contentAlignLeft-contentAlignLeft",
+      "icon": "align-start-vertical",
+      "name": "Style Settings: Toggle 【界面-熊猫】内容居左或居中",
+      "mode": "any"
+    },
+    {
+      "id": "quickadd:choice:28b39fe7-7aca-4ed2-a80c-3128623b994b",
+      "icon": "arrow-left-right",
+      "name": "QuickAdd: Macro：切换副本",
+      "mode": "any"
+    },
+    {
+      "id": "quickadd:choice:57106577-1d60-4ce4-9131-100574de182d",
+      "icon": "film",
+      "name": "QuickAdd: Macro：关联性图形定位文件",
+      "mode": "any"
+    },
+    {
+      "id": "quickadd:choice:e9a09299-4a6f-42cd-babc-892ca0bc60e2",
+      "icon": "lucide-terminal-square",
+      "name": "QuickAdd: Macro：终端打开Ob",
+      "mode": "any",
+      "color": "#001eff"
+    },
+    {
+      "id": "lineage:toggle-view",
+      "icon": "lineage-cards",
+      "name": "Lineage: Toggle view",
+      "mode": "any"
+    },
+    {
+      "id": "obsidian-enhancing-export:obsidian-enhancing-export:export",
+      "icon": "lucide-log-out",
+      "name": "Enhancing Export: 导出为......",
+      "mode": "any"
+    },
+    {
+      "id": "quickadd:choice:61ca7fb8-1f7e-44f3-a27f-08229499732d",
+      "icon": "lucide-refresh-cw",
+      "name": "QuickAdd: Capture：RebuildView",
+      "mode": "any"
+    },
+    {
+      "id": "obsidian-style-settings:style-settings-class-toggle-ColumnPage-column-page",
+      "icon": "lucide-columns-4",
+      "name": "Style Settings: Toggle 分栏模式(Column-Page)",
+      "mode": "any"
+    },
+    {
+      "id": "quickadd:choice:32d4c552-4d26-4624-861d-286f22e0c6ba",
+      "icon": "lucide-network",
+      "name": "QuickAdd: Marco：markmind的一键切换",
+      "mode": "any"
+    },
+    {
+      "id": "multiple-notes-outline:open-file-view",
+      "icon": "lucide-list-tree",
+      "name": "Multiple Notes Outline: Open File View",
+      "mode": "any"
+    },
+    {
+      "id": "obsidian-excalidraw-plugin:PandaScripts/ExcalidrawMinimap",
+      "icon": "lucide-map",
+      "name": "Excalidraw: (Script) PandaScripts/ExcalidrawMinimap",
+      "mode": "any",
+      "color": "#ff0000"
+    },
+    {
+      "id": "quickadd:choice:0f61ba43-63e5-492d-a175-48fb304f9e1b",
+      "icon": "lucide-folder-tree",
+      "name": "QuickAdd: Macro：OpenFolderNote",
+      "mode": "any"
+    }
+  ],
+  "macros": [],
+  "explorer": [],
+  "hide": {
+    "statusbar": [
+      "obsidian-douban-plugin",
+      "canvas-mindmap"
+    ],
+    "leftRibbon": [
+      "使用浅色模式",
+      "使用深色模式",
+      "Advanced Tables Toolbar",
+      "打开快速切换",
+      "单词列表",
+      "打开统计",
+      "打开命令面板",
+      "发布更改",
+      "打开新词面板",
+      "打开查词面板",
+      "插入模板",
+      "开始漫游笔记",
+      "Templater",
+      "Open today's daily note",
+      "Create a new database table",
+      "Open quick switcher",
+      "Open command palette",
+      "Search Obsidian In Modal",
+      "QuickAdd: Run QuickAdd",
+      "Open edit history",
+      "Toggle completion",
+      "Open projects",
+      "KIMI",
+      "Edit forms",
+      "Start/Stop Recording",
+      "Create new drawing",
+      "🚩 Pixel Banner Menu",
+      "打开网格视图",
+      "Open status pane",
+      "Create new task",
+      "Open pomodoro",
+      "Open kanban board",
+      "Open pomodoro stats",
+      "Open agenda",
+      "Open notes",
+      "Open task list",
+      "Open mini calendar",
+      "Open today",
+      "Manage workspaces",
+      "开始/结束录音",
+      "新建数据库",
+      "Open Symbols for the active editor",
+      "Open in Headings Mode",
+      "AI 对话（新标签页）",
+      "打开任务看板",
+      "Create new board",
+      "Thino Super",
+      "Search Notes"
+    ]
+  },
+  "spacing": "3",
+  "advancedToolbar": {
+    "rowHeight": 48,
+    "rowCount": 1,
+    "spacing": 0,
+    "buttonWidth": 48,
+    "columnLayout": true,
+    "mappedIcons": [],
+    "tooltips": false,
+    "heightOffset": 0
+  }
+}

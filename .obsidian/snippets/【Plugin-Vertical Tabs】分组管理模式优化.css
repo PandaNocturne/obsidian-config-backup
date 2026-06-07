@@ -1,0 +1,43 @@
+/* !插件：vertical tabs */
+/* body.vt-show-active-tabs:not(.is-popout-window) .workspace-split.mod-root .workspace-tabs>.workspace-tab-header-container .workspace-tab-header:not(.is-active) {
+  display: unset !important;
+} */
+
+.obsidian-vertical-tabs-container .tree-item.is-tab.is-highlighted .tree-item-self {
+  background-color: var(--nav-item-background-active) !important;
+  /* color: var(--nav-item-background-active); */
+}
+
+.workspace-tabs.vt-mission-control-view {
+  --vt-mission-control-view-leaf-gap: 20px;
+  --vt-mission-control-view-leaf-zoom-factor: 0.5;
+  --vt-mission-control-view-leaf-height: 600px;
+  --vt-mission-control-view-leaf-width: 400px;
+
+
+  .workspace-tab-container {
+    padding: 30px;
+    height: fit-content;
+    max-height: 90%;
+    overflow: auto !important;
+
+
+    width: 100% !important;
+    flex: 0 0 auto;
+    display: grid;
+    gap: var(--vt-mission-control-view-leaf-gap);
+    grid-template-columns: repeat(auto-fill, minmax(var(--vt-mission-control-view-leaf-width), 1fr));
+
+    .workspace-leaf {
+      border-radius: 10px;
+      display: block !important;
+      border: 2px solid var(--background-modifier-border);
+      min-height: var(--vt-mission-control-view-leaf-heigh) !important;
+      min-width: 100% !important;
+    }
+  }
+}
+
+.vt-mission-control-view .cg-note-toolbar-container {
+  display: none;
+}

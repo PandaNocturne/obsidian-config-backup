@@ -1,0 +1,279 @@
+{
+  "enableFeatures": {
+    "graph": {
+      "auto-enabled": false,
+      "tags": false,
+      "properties": false,
+      "property-key": false,
+      "links": false,
+      "linksSameColorAsNode": false,
+      "folders": false,
+      "imagesFromProperty": false,
+      "imagesFromEmbeds": false,
+      "imagesForAttachments": false,
+      "focus": false,
+      "shapes": false,
+      "elements-stats": false,
+      "names": false,
+      "icons": false,
+      "arrows": false,
+      "layers": false
+    },
+    "localgraph": {
+      "auto-enabled": true,
+      "tags": true,
+      "properties": false,
+      "property-key": false,
+      "links": false,
+      "linksSameColorAsNode": true,
+      "folders": true,
+      "imagesFromProperty": true,
+      "imagesFromEmbeds": true,
+      "imagesForAttachments": true,
+      "focus": false,
+      "shapes": false,
+      "elements-stats": true,
+      "names": false,
+      "icons": false,
+      "arrows": true,
+      "layers": false
+    }
+  },
+  "interactiveSettings": {
+    "tag": {
+      "colormap": "hsv",
+      "colors": [],
+      "unselected": [],
+      "excludeRegex": {
+        "regex": "",
+        "flags": ""
+      },
+      "noneType": "none",
+      "showOnGraph": true,
+      "enableByDefault": true
+    },
+    "link": {
+      "colormap": "rainbow_r",
+      "colors": [],
+      "unselected": [],
+      "excludeRegex": {
+        "regex": "",
+        "flags": ""
+      },
+      "noneType": "none",
+      "showOnGraph": true,
+      "enableByDefault": true
+    },
+    "folder": {
+      "colormap": "rainbow_r",
+      "colors": [],
+      "unselected": [],
+      "excludeRegex": {
+        "regex": "",
+        "flags": ""
+      },
+      "noneType": ".",
+      "showOnGraph": true,
+      "enableByDefault": false
+    }
+  },
+  "additionalProperties": {},
+  "openInNewTab": false,
+  "canonicalizePropertiesWithDataview": true,
+  "startingStateID": "default-vault",
+  "syncDefaultState": true,
+  "saveConfigsWithState": true,
+  "imageProperties": [
+    "banner"
+  ],
+  "borderFactor": 0.05,
+  "allowExternalImages": false,
+  "allowExternalLocalImages": false,
+  "nodesSizeProperties": [
+    ""
+  ],
+  "nodesSizeFunction": "default",
+  "nodesSizeRange": {
+    "min": 0.5,
+    "max": 1.5
+  },
+  "nodesColorColormap": "YlOrRd",
+  "nodesColorFunction": "default",
+  "linksSizeFunction": "default",
+  "linksColorColormap": "YlOrRd",
+  "linksColorFunction": "default",
+  "recomputeStatsOnGraphChange": false,
+  "zoomFactor": 2,
+  "maxNodes": 500,
+  "delay": 500,
+  "revertAction": false,
+  "enableCSS": false,
+  "cssSnippetFilename": "",
+  "shapeQueries": {
+    "circle": {
+      "combinationLogic": "AND",
+      "index": 191,
+      "rules": []
+    },
+    "square": {
+      "combinationLogic": "AND",
+      "index": 78,
+      "rules": []
+    },
+    "triangle": {
+      "combinationLogic": "AND",
+      "index": 144,
+      "rules": []
+    },
+    "diamond": {
+      "combinationLogic": "AND",
+      "index": 145,
+      "rules": []
+    },
+    "pentagon": {
+      "combinationLogic": "AND",
+      "index": 146,
+      "rules": []
+    },
+    "hexagon": {
+      "combinationLogic": "AND",
+      "index": 190,
+      "rules": []
+    },
+    "octagon": {
+      "combinationLogic": "AND",
+      "index": 6,
+      "rules": []
+    },
+    "decagon": {
+      "combinationLogic": "AND",
+      "index": 7,
+      "rules": []
+    },
+    "star4": {
+      "combinationLogic": "AND",
+      "index": 8,
+      "rules": []
+    },
+    "star5": {
+      "combinationLogic": "AND",
+      "index": 9,
+      "rules": []
+    },
+    "star6": {
+      "combinationLogic": "AND",
+      "index": 10,
+      "rules": []
+    },
+    "star8": {
+      "combinationLogic": "AND",
+      "index": 11,
+      "rules": []
+    },
+    "star10": {
+      "combinationLogic": "AND",
+      "index": 12,
+      "rules": []
+    }
+  },
+  "colorBasedOnDepth": false,
+  "depthColormap": "rainbow",
+  "currentNode": {
+    "useColor": false,
+    "color": "#000000",
+    "size": 100,
+    "shape": "circle"
+  },
+  "fadeOnDisable": false,
+  "focusScaleFactor": 1.8,
+  "borderUnresolved": "",
+  "spreadArcs": true,
+  "weightArcs": true,
+  "animateDotsOnLinks": true,
+  "animationSpeedForDots": 2,
+  "interactivesBrightness": {
+    "light": 1,
+    "dark": 1
+  },
+  "fadeInElements": true,
+  "externalLinks": "domain",
+  "allowMultipleLinkTypes": true,
+  "disableSource": false,
+  "disableTarget": false,
+  "excludedSourcesFolder": [],
+  "excludedTargetsFolder": [],
+  "curvedLinks": false,
+  "curvedFactor": 1,
+  "outlineLinks": false,
+  "displayLinkTypeLabel": true,
+  "colorLinkTypeLabel": true,
+  "noLineHighlight": false,
+  "folderShowFullPath": false,
+  "invertArrows": true,
+  "flatArrows": true,
+  "opaqueArrowsButKeepFading": false,
+  "alwaysOpaqueArrows": false,
+  "arrowScale": 1,
+  "arrowFixedSize": false,
+  "arrowColorBool": false,
+  "arrowColor": "",
+  "numberOfCharacters": null,
+  "showOnlyFileName": true,
+  "noExtension": true,
+  "usePropertiesForName": [],
+  "addBackgroundToName": false,
+  "nameVerticalOffset": 0,
+  "dynamicVerticalOffset": false,
+  "showNamesWhenNeighborHighlighted": true,
+  "iconProperties": [
+    ""
+  ],
+  "usePluginForIcon": true,
+  "usePluginForIconColor": true,
+  "useParentIcon": true,
+  "layerProperties": [
+    "layer"
+  ],
+  "numberOfActiveLayers": 4,
+  "layersOrder": "ASC",
+  "displayLabelsInUI": true,
+  "nodesWithoutLayerOpacity": 0,
+  "useLayerCustomOpacity": true,
+  "layersCustomOpacity": {},
+  "layersLevels": {},
+  "defaultLevelForLayers": 0,
+  "horizontalLegend": false,
+  "useRadialMenu": true,
+  "radialMenuModifier": "Ctrl",
+  "pinNodeModifier": "Alt",
+  "filterAbstractFiles": [],
+  "exportSVGOptions": {
+    "asImage": true,
+    "onlyVisibleArea": false,
+    "showNodeNames": true,
+    "useCurvedLinks": false,
+    "useModifiedArrows": true,
+    "useNodesShapes": false,
+    "showArcs": true,
+    "showFolders": true,
+    "useModifiedNames": false,
+    "showIcons": false
+  },
+  "graphStatsDirection": "normal",
+  "highlightOpenNodes": false,
+  "highlightSearchResults": false,
+  "externalLinksProperties": [
+    "url"
+  ],
+  "externalLinkOpenMode": "note",
+  "showPinIcon": true,
+  "ellipsis": "…",
+  "backgroundOpacityWithIcon": 0,
+  "useIconColorForBackgroud": true,
+  "borderWidthWithIcon": 0,
+  "useLeftClickToSelect": true,
+  "selectNodeModifier": "Shift",
+  "ignoreInlineLinks": false,
+  "selectionMode": "replace",
+  "stateID": "1f628d45-5ad5-4ec5-85ed-46d892b3413c"
+}

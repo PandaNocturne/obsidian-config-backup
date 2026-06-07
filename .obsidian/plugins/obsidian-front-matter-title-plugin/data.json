@@ -1,0 +1,130 @@
+{
+  "version": "3.13.1",
+  "templates": {
+    "common": {
+      "main": "_basename",
+      "fallback": ""
+    }
+  },
+  "rules": {
+    "paths": {
+      "mode": "black",
+      "values": []
+    },
+    "delimiter": {
+      "enabled": false,
+      "value": ""
+    }
+  },
+  "debug": false,
+  "boot": {
+    "delay": 1000,
+    "background": true
+  },
+  "features": {
+    "alias": {
+      "enabled": false,
+      "strategy": "adjust",
+      "validator": "fa",
+      "templates": {
+        "main": "",
+        "fallback": ""
+      }
+    },
+    "explorer": {
+      "enabled": true,
+      "sort": true,
+      "templates": {
+        "main": "",
+        "fallback": ""
+      }
+    },
+    "tab": {
+      "enabled": false,
+      "templates": {
+        "main": "title",
+        "fallback": ""
+      }
+    },
+    "header": {
+      "enabled": false,
+      "templates": {
+        "main": "title",
+        "fallback": ""
+      }
+    },
+    "graph": {
+      "enabled": true,
+      "templates": {
+        "main": "_basename",
+        "fallback": ""
+      }
+    },
+    "bookmarks": {
+      "enabled": true,
+      "templates": {
+        "main": "",
+        "fallback": ""
+      }
+    },
+    "search": {
+      "enabled": false,
+      "templates": {
+        "main": "",
+        "fallback": ""
+      }
+    },
+    "suggest": {
+      "enabled": false,
+      "templates": {
+        "main": "",
+        "fallback": ""
+      }
+    },
+    "inlineTitle": {
+      "enabled": false,
+      "templates": {
+        "main": "aliases",
+        "fallback": ""
+      }
+    },
+    "canvas": {
+      "enabled": false,
+      "templates": {
+        "main": "",
+        "fallback": ""
+      }
+    },
+    "backlink": {
+      "enabled": true,
+      "templates": {
+        "main": "",
+        "fallback": ""
+      }
+    },
+    "windowFrame": {
+      "enabled": false,
+      "templates": {
+        "main": "",
+        "fallback": ""
+      }
+    },
+    "noteLink": {
+      "enabled": true,
+      "strategy": "all",
+      "approval": false,
+      "templates": {
+        "main": "",
+        "fallback": ""
+      }
+    }
+  },
+  "processor": {
+    "args": [
+      "(\\d{2}\\.?\\d{2}\\.?\\d{2}_?)?(【.*】)?",
+      "",
+      ""
+    ],
+    "type": "replace"
+  }
+}

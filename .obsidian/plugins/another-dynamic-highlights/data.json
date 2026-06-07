@@ -1,0 +1,47 @@
+{
+  "selectionHighlighter": {
+    "highlightWordAroundCursor": true,
+    "highlightSelectedText": true,
+    "maxMatches": 100,
+    "minSelectionLength": 3,
+    "highlightDelay": 200,
+    "ignoredWords": "about, after, all, also, and, any, as, at, back, be, because, before, but, by, can, come, could, day, do, down, each, even, find, first, for, from, get, give, go, good, great, have, he, I, if, in, into, it, just, know, like, long, look, make, man, many, may, more, most, much, must, new, no, not, now, of, on, one, only, or, other, out, over, own, people, say, see, she, should, so, some, state, such, take, than, that, the, then, there, these, they, think, this, through, time, to, up, use, way, we, well, what, when, where, which, who, will, with, work, would, year, you",
+    "selectionColor": "default",
+    "selectionDecoration": "default",
+    "css": "text-decoration: underline dotted var(--text-accent)"
+  },
+  "staticHighlighter": {
+    "showInReadingMode": true,
+    "queries": {
+      "atPeople": {
+        "class": "atPeople",
+        "staticColor": "#00FF2D",
+        "staticDecoration": "color",
+        "staticCss": {
+          "fontWeight": "400",
+          "color": "#00FF2D"
+        },
+        "colorIconSnippet": "font-weight: 400; color: #00FF2D",
+        "regex": true,
+        "query": "(?![\\d\\S\\s])(@\\S+)(?<![:：\\)）])",
+        "mark": [
+          "match"
+        ],
+        "highlighterEnabled": true,
+        "tag": "#unsorted",
+        "tagEnabled": true
+      }
+    },
+    "queryOrder": [
+      "atPeople"
+    ],
+    "tagOrder": [],
+    "expandedTags": [
+      "#unsorted"
+    ],
+    "toggleable": [
+      "#unsorted"
+    ],
+    "onOffSwitch": true
+  }
+}

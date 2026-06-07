@@ -1,0 +1,46 @@
+{
+  "license": {
+    "key": "SDN-eyJpZCI6IlNETjExMyIsInBsYW4iOiJsaWZldGltZSIsImlhdCI6IjIwMjYtMDQtMTQifQ.WLisuQn5mgHyoD7H4TiZ8Yy9fgAQ6OhriS-LDAQxWV6ILTD1ztJUX5KNbR6Mb1-awKI9O4Dl9W1y48Zp69uRAw"
+  },
+  "scheduleTitle": "## 日程",
+  "habitTitle": "## 打卡",
+  "journalTitle": "## 日志",
+  "dayStartHour": 8,
+  "grayOutCompleted": true,
+  "customTags": [
+    {
+      "name": "学习",
+      "color": "#ff0000"
+    },
+    {
+      "name": "工作",
+      "color": "#0062ff"
+    },
+    {
+      "name": "运动",
+      "color": "#00ff04"
+    },
+    {
+      "name": "娱乐",
+      "color": "#ffca38"
+    }
+  ],
+  "habitItems": [],
+  "dragSnapMode": "round",
+  "showOnlyLeafTag": true,
+  "cardStyle": "colorful",
+  "statsEnabled": true,
+  "habitsEnabled": true,
+  "eventsEnabled": true,
+  "journalEnabled": true,
+  "floatingTimerEnabled": false,
+  "floatingTimerAudioEnabled": true,
+  "floatingTimerExpandRadius": 140,
+  "settingsTab": "basic",
+  "ganttLabelWidth": 160,
+  "untaggedColor": "#9ca3af",
+  "floatingTimerPosition": {
+    "x": 1745.2950439453125,
+    "y": 359.8650207519531
+  }
+}

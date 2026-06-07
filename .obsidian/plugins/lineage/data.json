@@ -1,0 +1,823 @@
+{
+  "documents": {
+    "500【资源】Resource/电影/电影.md": {
+      "documentFormat": "sections",
+      "viewType": "markdown",
+      "activeSection": "1",
+      "pinnedSections": {
+        "sections": []
+      }
+    },
+    "420【编程】Code/WEB前端开发/CSS/CSS.md": {
+      "documentFormat": "sections",
+      "viewType": "markdown",
+      "activeSection": "1",
+      "pinnedSections": {
+        "sections": []
+      }
+    },
+    "420【编程】Code/WEB前端开发/DOM/DOM.md": {
+      "documentFormat": "sections",
+      "viewType": "markdown",
+      "activeSection": "3",
+      "pinnedSections": {
+        "sections": []
+      }
+    },
+    "420【编程】Code/WEB前端开发/DOM/241226_HTML DOM by 菜鸟教程.md": {
+      "documentFormat": "sections",
+      "viewType": "lineage",
+      "activeSection": "10.2.2",
+      "pinnedSections": {
+        "sections": []
+      }
+    },
+    "400【领域】Area/G 文化、科学、教育、体育/【教育】知识管理/240914_我是怎么做个人知识管理的，从备忘录，经历了 Markdown 兴起，Notion 革命，飞书语雀，到 Obsidian 等心路历程.md": {
+      "documentFormat": "sections",
+      "viewType": "markdown",
+      "activeSection": "7.1",
+      "pinnedSections": {
+        "sections": []
+      }
+    },
+    "420【编程】Code/WEB前端开发/Mermaid/【Mermaid】时序图(sequenceDiagram).md": {
+      "documentFormat": "sections",
+      "viewType": "markdown",
+      "activeSection": "1",
+      "pinnedSections": {
+        "sections": []
+      }
+    },
+    "420【编程】Code/WEB前端开发/DOM/241229_尚硅谷DOM教程.md": {
+      "documentFormat": "sections",
+      "viewType": "markdown",
+      "activeSection": "4",
+      "pinnedSections": {
+        "sections": []
+      }
+    },
+    "420【编程】Code/WEB前端开发/DOM/【DOM】浏览器环境，规格.md": {
+      "documentFormat": "sections",
+      "viewType": "markdown",
+      "activeSection": "1",
+      "pinnedSections": {
+        "sections": [],
+        "activeSection": null
+      }
+    },
+    "420【编程】Code/WEB前端开发/DOM/【DOM】DOM结构：树形结构.md": {
+      "documentFormat": "sections",
+      "viewType": "markdown",
+      "activeSection": "3.1",
+      "pinnedSections": {
+        "sections": []
+      }
+    },
+    "420【编程】Code/WEB前端开发/DOM/【DOM】Node类型/【DOM】节点类型.md": {
+      "documentFormat": "sections",
+      "viewType": "markdown",
+      "activeSection": "1",
+      "pinnedSections": {
+        "sections": [],
+        "activeSection": null
+      }
+    },
+    "400【领域】Area/C 社会科学总论/【C95】人类学、民族学/250206_中国主要亲属关系/250207_辈分关系梳理.md": {
+      "documentFormat": "outline",
+      "viewType": "markdown",
+      "activeSection": "1",
+      "pinnedSections": {
+        "sections": [],
+        "activeSection": null
+      },
+      "outline": {
+        "collapsedSections": []
+      }
+    },
+    "300【项目】Project/【Project】PKMer文章/Quicker动作制作/250424_使用Quicker实现Zotero标注到Obsidian的高效工作流/250424_使用Quicker实现Zotero标注到Obsidian的高效工作流.md": {
+      "documentFormat": "sections",
+      "viewType": "markdown",
+      "activeSection": "5",
+      "pinnedSections": {
+        "sections": []
+      },
+      "outline": {
+        "collapsedSections": []
+      }
+    },
+    "310【任务】Tasks/2025/250422_尚硅谷React教程学习记录 📅 2025-04-22/250424_尚硅谷React教学笔记.md": {
+      "documentFormat": "sections",
+      "viewType": "markdown",
+      "activeSection": "1.4.1.1",
+      "pinnedSections": {
+        "sections": [
+          "1.3.2"
+        ],
+        "activeSection": "1.3.2"
+      },
+      "outline": {
+        "collapsedSections": []
+      }
+    },
+    "310【任务】Tasks/2025/250317_EasyUI快速入门 📅 2025-03-17 ✅ 2025-03-20/250317_EasyUI快速入门 📅 2025-03-17 ✅ 2025-03-20.md": {
+      "documentFormat": "sections",
+      "viewType": "lineage",
+      "activeSection": "4",
+      "pinnedSections": {
+        "sections": []
+      },
+      "outline": {
+        "collapsedSections": []
+      }
+    },
+    "310【任务】Tasks/2024/241115_研究生毕业设计规划 📅 2024-11-15 ✅ 2025-05-19/250219_周长及椭圆度测量流程及方法.md": {
+      "documentFormat": "sections",
+      "viewType": "lineage",
+      "activeSection": "1",
+      "pinnedSections": {
+        "sections": []
+      },
+      "outline": {
+        "collapsedSections": []
+      }
+    },
+    "310【任务】Tasks/2024/241115_研究生毕业设计规划 📅 2024-11-15 ✅ 2025-05-19/250311_Task Progress Overview.md": {
+      "documentFormat": "outline",
+      "viewType": "markdown",
+      "activeSection": "1",
+      "pinnedSections": {
+        "sections": [],
+        "activeSection": null
+      },
+      "outline": {
+        "collapsedSections": []
+      }
+    },
+    "310【任务】Tasks/2024/241115_研究生毕业设计规划 📅 2024-11-15 ✅ 2025-05-19/250327_绪论以及全文总结的说明汇总.md": {
+      "documentFormat": "sections",
+      "viewType": "markdown",
+      "activeSection": "1.4.5",
+      "pinnedSections": {
+        "sections": []
+      },
+      "outline": {
+        "collapsedSections": []
+      }
+    },
+    "010【笔记】Notes/生活常识/生活常识.md": {
+      "documentFormat": "sections",
+      "viewType": "markdown",
+      "activeSection": "2",
+      "pinnedSections": {
+        "sections": []
+      },
+      "outline": {
+        "collapsedSections": []
+      }
+    },
+    "420【编程】Code/嵌入式开发/C语言/C语言.md": {
+      "documentFormat": "sections",
+      "viewType": "markdown",
+      "activeSection": "1",
+      "pinnedSections": {
+        "sections": [],
+        "activeSection": null
+      },
+      "outline": {
+        "collapsedSections": []
+      }
+    },
+    "310【任务】Tasks/2025/250708_📅嵌入式基础入门学习/250819_电子元器件识别与选型.md": {
+      "documentFormat": "sections",
+      "viewType": "markdown",
+      "activeSection": "1.9.3",
+      "pinnedSections": {
+        "sections": []
+      },
+      "outline": {
+        "collapsedSections": []
+      }
+    },
+    "310【任务】Tasks/2025/250708_📅嵌入式基础入门学习/250730_STM32单片机原理：嵌入式系统原理/250730_STM32单片机原理：嵌入式系统原理.md": {
+      "documentFormat": "html-element",
+      "viewType": "markdown",
+      "activeSection": "1",
+      "pinnedSections": {
+        "sections": []
+      },
+      "outline": {
+        "collapsedSections": []
+      }
+    },
+    "310【任务】Tasks/2025/250708_📅嵌入式基础入门学习/250730_STM32单片机原理：嵌入式系统原理/250904_串口通信.md": {
+      "documentFormat": "html-element",
+      "viewType": "markdown",
+      "activeSection": "2.1.4.5.1",
+      "pinnedSections": {
+        "sections": []
+      },
+      "outline": {
+        "collapsedSections": []
+      }
+    },
+    "310【任务】Tasks/2025/250708_📅嵌入式基础入门学习/250730_STM32单片机原理：嵌入式系统原理/250906_单片机概述.md": {
+      "documentFormat": "html-element",
+      "viewType": "markdown",
+      "activeSection": "1",
+      "pinnedSections": {
+        "sections": [],
+        "activeSection": null
+      },
+      "outline": {
+        "collapsedSections": []
+      }
+    },
+    "310【任务】Tasks/2025/250708_📅嵌入式基础入门学习/250730_STM32单片机原理：嵌入式系统原理/250906_嵌入式绪论.md": {
+      "documentFormat": "html-element",
+      "viewType": "markdown",
+      "activeSection": "1",
+      "pinnedSections": {
+        "sections": [],
+        "activeSection": null
+      },
+      "outline": {
+        "collapsedSections": []
+      }
+    },
+    "310【任务】Tasks/2025/250708_📅嵌入式基础入门学习/250730_STM32单片机原理：嵌入式系统原理/250906_数制与编码.md": {
+      "documentFormat": "sections",
+      "viewType": "markdown",
+      "activeSection": "1.2.1.2",
+      "pinnedSections": {
+        "sections": []
+      },
+      "outline": {
+        "collapsedSections": []
+      }
+    },
+    "310【任务】Tasks/2025/250708_📅嵌入式基础入门学习/250730_STM32单片机原理：嵌入式系统原理/250906_计算机组成原理.md": {
+      "documentFormat": "html-element",
+      "viewType": "markdown",
+      "activeSection": "1",
+      "pinnedSections": {
+        "sections": [],
+        "activeSection": null
+      },
+      "outline": {
+        "collapsedSections": []
+      }
+    },
+    "310【任务】Tasks/2025/250708_📅嵌入式基础入门学习/250708_📅嵌入式基础入门学习.md": {
+      "documentFormat": "sections",
+      "viewType": "markdown",
+      "activeSection": "1",
+      "pinnedSections": {
+        "sections": []
+      },
+      "outline": {
+        "collapsedSections": []
+      }
+    },
+    "210【日志】Journal/DailyNotes/2025/2025-12-08.md": {
+      "documentFormat": "sections",
+      "viewType": "markdown",
+      "activeSection": "1",
+      "pinnedSections": {
+        "sections": [],
+        "activeSection": null
+      },
+      "outline": {
+        "collapsedSections": []
+      }
+    },
+    "500【资源】Resource/动漫/日本动漫/【动漫】我们不可能成为恋人！绝对不行。(※似乎可行!).md": {
+      "documentFormat": "sections",
+      "viewType": "markdown",
+      "activeSection": "1",
+      "pinnedSections": {
+        "sections": [],
+        "activeSection": null
+      },
+      "outline": {
+        "collapsedSections": []
+      }
+    },
+    "510【资料】StudyNote/512【书籍】BookNote/【BookNote】100天写出一篇论文：论文写作的本质及过程控制.md": {
+      "documentFormat": "sections",
+      "viewType": "markdown",
+      "activeSection": "1",
+      "pinnedSections": {
+        "sections": []
+      },
+      "outline": {
+        "collapsedSections": []
+      }
+    },
+    "400【领域】Area/G 文化、科学、教育、体育/【写作】论文写作/【写作】论文写作.md": {
+      "documentFormat": "sections",
+      "viewType": "markdown",
+      "activeSection": "3",
+      "pinnedSections": {
+        "sections": []
+      }
+    },
+    "400【领域】Area/T 工业技术/【计算机】计算机视觉/250301_图像处理笔记汇总 by 湾仔码农 - 博客园 (cnblogs.com)/250302_基于Python实现OpenCV的一些案例.md": {
+      "documentFormat": "sections",
+      "viewType": "markdown",
+      "activeSection": "2.1",
+      "pinnedSections": {
+        "sections": []
+      },
+      "outline": {
+        "collapsedSections": [
+          "2.2.1",
+          "2.2.2",
+          "2.2.3"
+        ]
+      }
+    },
+    "400【领域】Area/T 工业技术/【机械】机械工程/250707_机械制图/250107_粗糙度 Ra 为什么用 0.8，1.6，3.2，6.3，12.5 表示.md": {
+      "documentFormat": "sections",
+      "viewType": "markdown",
+      "activeSection": "13",
+      "pinnedSections": {
+        "sections": []
+      }
+    },
+    "300【项目】Project/【Project】PKMer文章/Obsidian插件介绍/241221_Tasks系列文档写作/241218_Task查询语法手册.md": {
+      "documentFormat": "sections",
+      "viewType": "markdown",
+      "activeSection": "2.2.2",
+      "pinnedSections": {
+        "sections": []
+      }
+    },
+    "300【项目】Project/【Project】PKMer文章/Obsidian插件介绍/241221_Tasks系列文档写作/241221_Tasks系列文档写作.md": {
+      "documentFormat": "sections",
+      "viewType": "markdown",
+      "activeSection": "1",
+      "pinnedSections": {
+        "sections": [],
+        "activeSection": null
+      }
+    },
+    "420【编程】Code/代码开发工具/Git/241218_尚硅谷前端Git教程/241218_尚硅谷前端Git教程.md": {
+      "documentFormat": "sections",
+      "viewType": "markdown",
+      "activeSection": "2.7",
+      "pinnedSections": {
+        "sections": []
+      },
+      "outline": {
+        "collapsedSections": []
+      }
+    },
+    "520【工具】ToolNote/【Tool】笔记工具/【工具】Obsidian/260410_Obsidian 笔记/【Obsidian】Plugin/【Obsidian-Plugin】Tasks/【Obsidian-Task】Task查询语法.md": {
+      "documentFormat": "sections",
+      "viewType": "markdown",
+      "activeSection": "1",
+      "pinnedSections": {
+        "sections": [],
+        "activeSection": null
+      },
+      "outline": {
+        "collapsedSections": []
+      }
+    },
+    "300【项目】Project/【Project】Bilibili视频/Excalidraw 视频系列制作/240909_视频制作：Excalidraw与Eagle的新联动与几个图片处理的小脚本/240909_视频制作：Excalidraw与Eagle的新联动与几个图片处理的小脚本.md": {
+      "documentFormat": "sections",
+      "viewType": "markdown",
+      "activeSection": "1",
+      "pinnedSections": {
+        "sections": [],
+        "activeSection": null
+      }
+    },
+    "010【笔记】Notes/学习方法/250112_专注工具+集中精神.md": {
+      "documentFormat": "sections",
+      "viewType": "markdown",
+      "activeSection": "3.1",
+      "pinnedSections": {
+        "sections": []
+      },
+      "outline": {
+        "collapsedSections": []
+      }
+    },
+    "300【项目】Project/【Project】Ob插件开发&灵感/260406_Obsidian插件开发：高级检索界面（Advanced Search UI）/260414_Obsidian插件开发：Advanced Search UI.kanban.md": {
+      "documentFormat": "html-element",
+      "viewType": "markdown",
+      "activeSection": "1",
+      "pinnedSections": {
+        "sections": []
+      },
+      "outline": {
+        "collapsedSections": []
+      }
+    },
+    "520【工具】ToolNote/【Tool】视频图片工具/视频工具/【工具】视频剪辑工具.md": {
+      "documentFormat": "html-element",
+      "viewType": "markdown",
+      "activeSection": "1",
+      "pinnedSections": {
+        "sections": [],
+        "activeSection": null
+      },
+      "outline": {
+        "collapsedSections": []
+      }
+    },
+    "310【任务】Tasks/2026/260317_嵌入式简历修改&面试找工作/260505_面试PPT对应演讲稿-广东诺能泰.md": {
+      "documentFormat": "sections",
+      "viewType": "markdown",
+      "activeSection": "3.7.1",
+      "pinnedSections": {
+        "sections": []
+      },
+      "outline": {
+        "collapsedSections": []
+      }
+    },
+    "300【项目】Project/【Project】PKMer文章/DataviewJS系列文章/241221_DataViewJS+Tasks查询：最佳的每周任务管理及周报/241221_DataViewJS+Tasks查询：最佳的每周任务管理及周报.md": {
+      "documentFormat": "sections",
+      "viewType": "markdown",
+      "activeSection": "2",
+      "pinnedSections": {
+        "sections": []
+      }
+    },
+    "500【资源】Resource/游戏/241221_【Inbox】Game track.md": {
+      "documentFormat": "sections",
+      "viewType": "markdown",
+      "activeSection": "1",
+      "pinnedSections": {
+        "sections": [],
+        "activeSection": null
+      }
+    },
+    "520【工具】ToolNote/【Tool】笔记工具/【工具】Obsidian/260410_Obsidian 笔记/【Obsidian】Plugin/251102_【Inbox】Obsidian插件分类&记录.md": {
+      "documentFormat": "sections",
+      "viewType": "markdown",
+      "activeSection": "1.6",
+      "pinnedSections": {
+        "sections": []
+      },
+      "outline": {
+        "collapsedSections": []
+      }
+    },
+    "420【编程】Code/251125_硬件科普/250223_电脑台式机装机入门.md": {
+      "documentFormat": "sections",
+      "viewType": "markdown",
+      "activeSection": "1.1",
+      "pinnedSections": {
+        "sections": []
+      },
+      "outline": {
+        "collapsedSections": []
+      }
+    },
+    "420【编程】Code/嵌入式开发/【嵌入式】检测设备&电气连接/【嵌入式】检测设备&电气连接.md": {
+      "documentFormat": "sections",
+      "viewType": "markdown",
+      "activeSection": "1.7",
+      "pinnedSections": {
+        "sections": []
+      },
+      "outline": {
+        "collapsedSections": []
+      }
+    },
+    "420【编程】Code/嵌入式开发/【嵌入式】检测设备&电气连接/251207_示波器的基本使用/250831_示波器使用教程，示波器原理，示波器新手入门 by 尚硅谷/250902_尚硅谷嵌入式技术之示波器.md": {
+      "documentFormat": "sections",
+      "viewType": "markdown",
+      "activeSection": "4.1",
+      "pinnedSections": {
+        "sections": []
+      },
+      "outline": {
+        "collapsedSections": []
+      }
+    },
+    "420【编程】Code/嵌入式开发/250819_焊接工具与焊接方法.md": {
+      "documentFormat": "sections",
+      "viewType": "markdown",
+      "activeSection": "1.3.3.1",
+      "pinnedSections": {
+        "sections": []
+      },
+      "outline": {
+        "collapsedSections": []
+      }
+    },
+    "420【编程】Code/嵌入式开发/250821_PCB电路板抄板方法及步骤详解/250822_电路图的识读方法与技巧.md": {
+      "documentFormat": "sections",
+      "viewType": "markdown",
+      "activeSection": "1",
+      "pinnedSections": {
+        "sections": []
+      },
+      "outline": {
+        "collapsedSections": []
+      }
+    },
+    "420【编程】Code/嵌入式开发/250802_C51单片机的学习/250715_51单片机视频教程 by 我要自学网.md": {
+      "documentFormat": "sections",
+      "viewType": "markdown",
+      "activeSection": "5",
+      "pinnedSections": {
+        "sections": []
+      },
+      "outline": {
+        "collapsedSections": []
+      }
+    },
+    "420【编程】Code/嵌入式开发/250802_C51单片机的学习/250819_尚硅谷51单片机入门到高手，最新全套51单片机教程！/251230_尚硅谷C51学习过程的临时笔记.md": {
+      "documentFormat": "sections",
+      "viewType": "markdown",
+      "activeSection": "1.11",
+      "pinnedSections": {
+        "sections": []
+      },
+      "outline": {
+        "collapsedSections": []
+      }
+    },
+    "420【编程】Code/嵌入式开发/【嵌入式】串口通讯&通讯协议/250904_通讯与配置模块.md": {
+      "documentFormat": "sections",
+      "viewType": "lineage",
+      "activeSection": "1",
+      "pinnedSections": {
+        "sections": [],
+        "activeSection": null
+      },
+      "outline": {
+        "collapsedSections": []
+      }
+    },
+    "420【编程】Code/嵌入式开发/【嵌入式】原理图&PCB设计/【EDA】嘉立创EDA/250802_PCB基本加工工艺.md": {
+      "documentFormat": "sections",
+      "viewType": "markdown",
+      "activeSection": "1",
+      "pinnedSections": {
+        "sections": [],
+        "activeSection": null
+      },
+      "outline": {
+        "collapsedSections": []
+      }
+    },
+    "420【编程】Code/嵌入式开发/【嵌入式】原理图&PCB设计/【EDA】嘉立创EDA/PCB（印刷电路板）基本介绍.md": {
+      "documentFormat": "sections",
+      "viewType": "markdown",
+      "activeSection": "1",
+      "pinnedSections": {
+        "sections": [],
+        "activeSection": null
+      },
+      "outline": {
+        "collapsedSections": []
+      }
+    },
+    "420【编程】Code/嵌入式开发/【嵌入式】原理图&PCB设计/【EDA】嘉立创EDA/【立创EDA】嘉立创 EDA（专业版）软件介绍.md": {
+      "documentFormat": "sections",
+      "viewType": "markdown",
+      "activeSection": "1.2.1",
+      "pinnedSections": {
+        "sections": [],
+        "activeSection": null
+      },
+      "outline": {
+        "collapsedSections": []
+      }
+    },
+    "420【编程】Code/嵌入式开发/【嵌入式】原理图&PCB设计/【EDA】嘉立创EDA/【立创EDA】嘉立创快捷键汇总.md": {
+      "documentFormat": "sections",
+      "viewType": "markdown",
+      "activeSection": "1",
+      "pinnedSections": {
+        "sections": [],
+        "activeSection": null
+      },
+      "outline": {
+        "collapsedSections": []
+      }
+    },
+    "420【编程】Code/嵌入式开发/【嵌入式】原理图&PCB设计/【EDA】嘉立创EDA/【立创EDA】PCB的设计流程.md": {
+      "documentFormat": "sections",
+      "viewType": "markdown",
+      "activeSection": "1.3.8.1",
+      "pinnedSections": {
+        "sections": []
+      },
+      "outline": {
+        "collapsedSections": []
+      }
+    },
+    "420【编程】Code/嵌入式开发/【嵌入式】原理图&PCB设计/【EDA】嘉立创EDA/250728_B站视频《尚硅谷嵌入式值原理图&PCB设计教程》/250729_立创EDA的PCB设计-入门到进阶 by 尚硅谷.md": {
+      "documentFormat": "sections",
+      "viewType": "lineage",
+      "activeSection": "3.9",
+      "pinnedSections": {
+        "sections": []
+      },
+      "outline": {
+        "collapsedSections": []
+      }
+    },
+    "420【编程】Code/嵌入式开发/【嵌入式】原理图&PCB设计/【EDA】嘉立创EDA/250728_B站视频《尚硅谷嵌入式值原理图&PCB设计教程》/250728_B站视频《尚硅谷嵌入式值原理图&PCB设计教程》.md": {
+      "documentFormat": "sections",
+      "viewType": "markdown",
+      "activeSection": "1",
+      "pinnedSections": {
+        "sections": [],
+        "activeSection": null
+      },
+      "outline": {
+        "collapsedSections": []
+      }
+    },
+    "310【任务】Tasks/2026/260525_基础电路的学习/260601_电路分析基础-学习笔记.md": {
+      "documentFormat": "html-element",
+      "viewType": "markdown",
+      "activeSection": "1",
+      "pinnedSections": {
+        "sections": [],
+        "activeSection": null
+      },
+      "outline": {
+        "collapsedSections": []
+      }
+    },
+    "420【编程】Code/嵌入式开发/【Python GUI】PySide6/250806_Python上位机教程学习笔记 by 51自学网.md": {
+      "documentFormat": "outline",
+      "viewType": "lineage",
+      "activeSection": "1.2.5",
+      "pinnedSections": {
+        "sections": []
+      },
+      "outline": {
+        "collapsedSections": []
+      }
+    },
+    "420【编程】Code/嵌入式开发/【Python GUI】PySide6/250809_Python第三方库 pyserial：串口通信标准库.md": {
+      "documentFormat": "sections",
+      "viewType": "lineage",
+      "activeSection": "1",
+      "pinnedSections": {
+        "sections": []
+      },
+      "outline": {
+        "collapsedSections": []
+      }
+    },
+    "420【编程】Code/嵌入式开发/【Python GUI】PySide6/250810_PySie6 快速入门.md": {
+      "documentFormat": "sections",
+      "viewType": "lineage",
+      "activeSection": "1.5.1",
+      "pinnedSections": {
+        "sections": []
+      },
+      "outline": {
+        "collapsedSections": []
+      }
+    },
+    "420【编程】Code/嵌入式开发/【Python GUI】PySide6/250809_Python 面向对象 类的方法汇总/Python 面向对象编程完整指南.md": {
+      "documentFormat": "sections",
+      "viewType": "markdown",
+      "activeSection": "1.5.2",
+      "pinnedSections": {
+        "sections": []
+      },
+      "outline": {
+        "collapsedSections": []
+      }
+    },
+    "420【编程】Code/嵌入式开发/【Python GUI】PySide6/250809_Python 面向对象 类的方法汇总/【Python-面向对象】类方法：静态方法、普通方法、类方法.md": {
+      "documentFormat": "sections",
+      "viewType": "lineage",
+      "activeSection": "1.1",
+      "pinnedSections": {
+        "sections": []
+      },
+      "outline": {
+        "collapsedSections": []
+      }
+    },
+    "420【编程】Code/嵌入式开发/251004_嵌入式学习路线.md": {
+      "documentFormat": "html-element",
+      "viewType": "markdown",
+      "activeSection": "1",
+      "pinnedSections": {
+        "sections": [],
+        "activeSection": null
+      },
+      "outline": {
+        "collapsedSections": []
+      }
+    }
+  },
+  "hotkeys": {
+    "customHotkeys": {
+      "add_above_and_split": {
+        "primary": {
+          "key": "K",
+          "modifiers": [
+            "Alt"
+          ]
+        }
+      },
+      "add_below_and_split": {
+        "primary": {
+          "key": "J",
+          "modifiers": [
+            "Alt"
+          ]
+        }
+      },
+      "add_child_and_split": {
+        "primary": {
+          "key": "L",
+          "modifiers": [
+            "Alt"
+          ]
+        }
+      },
+      "add_parent_sibling": {
+        "secondary": {
+          "key": "H",
+          "modifiers": [
+            "Alt"
+          ]
+        }
+      }
+    }
+  },
+  "view": {
+    "fontSize": 16,
+    "theme": {
+      "inactiveNodeOpacity": 25
+    },
+    "cardWidth": 550,
+    "columnsGap": 60,
+    "cardsGap": 20,
+    "scrolling": {
+      "revealChildren": true,
+      "horizontalScrollingMode": "keep-active-card-at-center",
+      "centerActiveNodeH": false,
+      "centerActiveNodeV": true
+    },
+    "limitPreviewHeight": true,
+    "zoomLevel": 1.6,
+    "showMinimap": false,
+    "showLeftSidebar": false,
+    "leftSidebarWidth": 500,
+    "leftSidebarActiveTab": "recent-cards",
+    "applyGapBetweenCards": true,
+    "outlineMode": false,
+    "nodeIndentationWidth": 60,
+    "maintainEditMode": true,
+    "alwaysShowCardButtons": true,
+    "hiddenVerticalToolbarButtons": [],
+    "h1FontSize_em": 1.802
+  },
+  "general": {
+    "defaultDocumentFormat": "html-element",
+    "linkPaneType": "tab"
+  },
+  "styleRules": {
+    "documents": {
+      "310【任务】Tasks/2025/250708_📅嵌入式基础入门学习/250819_电子元器件识别与选型.md": {
+        "rules": []
+      },
+      "010【笔记】Notes/学习方法/250112_专注工具+集中精神.md": {
+        "rules": [
+          {
+            "id": "sriWcdHfY1",
+            "name": "",
+            "enabled": true,
+            "condition": {
+              "type": "condition",
+              "scope": "self",
+              "property": "content",
+              "operator": "contains",
+              "value": "",
+              "enabled": true
+            },
+            "style": {
+              "color": "#fff",
+              "styleVariant": "left-border"
+            },
+            "priority": 0
+          }
+        ]
+      }
+    },
+    "global": {
+      "rules": []
+    },
+    "settings": {
+      "activeTab": "document-rules"
+    }
+  }
+}

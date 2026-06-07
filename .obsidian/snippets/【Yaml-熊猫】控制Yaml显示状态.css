@@ -1,0 +1,135 @@
+/* @settings
+name: 【Properties】控制Yaml的显示情况
+id: 【Properties】控制Yaml的显示情况
+settings:
+-
+  id: hide-yaml
+  title: 显示或隐藏YAML(Properties)
+  type: class-toggle
+  addCommand: true
+  default: true
+- 
+  id: 3种模式的YAML的详细显示状态设置
+  title: 3种模式的YAML的详细显示状态设置
+  type: heading
+  level: 2
+  collapsed: true
+-
+  id: hide-preview-yaml
+  title: 隐藏阅读模式下的YAML(Properties)
+  type: class-toggle
+  default: true
+-
+  id: hide-source-yaml
+  title: 隐藏实时模式下的YAML(Properties)
+  type: class-toggle
+  default: true
+-
+  id: hide-cm-yaml
+  title: 隐藏源码模式下的YAML(Properties)
+  type: class-toggle
+  default: true
+*/
+
+
+
+/* ref: [隐藏frontmatter段的CSS代码 - 疑问解答 - Obsidian 中文论坛](https://forum-zh.obsidian.md/t/topic/32576/2) */
+/* 阅读模式和实时模式 */
+
+/*
+希望 asui-preview-window-body 容器中的 meta 显示，
+即：只在不包含 .asui-preview-window-body 的情况下隐藏 YAML。
+用 :not(.asui-preview-window-body *) 做限制，避免 :has() 兼容性问题。
+*/
+
+/* 阅读模式下，"asui-preview-window-body" 里的 metadata-container 不隐藏，其它都隐藏 */
+.hide-yaml.hide-preview-yaml .markdown-preview-view .metadata-container:not(.asui-preview-window-body *),
+.hide-yaml.hide-source-yaml .markdown-source-view.is-live-preview .metadata-container:not(.asui-preview-window-body *) {
+  display: none !important;
+}
+
+
+
+.hide-yaml.hide-cm-yaml .cm-line:has(.cm-hmd-frontmatter) {
+  height: 0px;
+  opacity: 0;
+}
+
+/* =======美化======== */
+/*与编辑区顶部间距*/
+.view-content .markdown-preview-view .metadata-container,
+.view-content .markdown-source-view .metadata-container {
+  margin-top: -40px;
+  margin-bottom: 20px;
+}
+
+/* 修复banner插件时的偏移 */
+.view-content.pixel-banner {
+
+  .markdown-preview-view .metadata-container,
+  .markdown-source-view .metadata-container {
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+}
+
+.hide-yaml.hide-preview-yaml {
+
+  /*文档属性图标*/
+  .metadata-properties-heading {
+    visibility: hidden;
+    cursor: pointer;
+    position: absolute;
+    bottom: -28px;
+  }
+
+  .metadata-properties-heading::before {
+    visibility: visible;
+    content: "";
+    /* text-align: right; */
+    display: block !important;
+    width: var(--file-line-width) !important;
+    /* width: 100vw !important; */
+  }
+
+  /*平时隐藏，悬停显示*/
+  .metadata-properties-heading:not(:hover)::before {
+    opacity: 0;
+    transition: var(--anim-duration-fast) var(--anim-duration-fast);
+  }
+
+
+  /* !常驻显示属性 */
+  .view-content .markdown-source-view.is-live-preview .metadata-container {
+    position: sticky !important;
+    width: 101% !important;
+    top: -32px;
+    left: 0px;
+    z-index: 10;
+    background-color: var(--background-primary);
+    border-bottom: 2px dashed var(--background-modifier-border);
+    font-size: medium;
+  }
+
+  .view-content .markdown-source-view.is-live-preview .metadata-container:hover {
+    border-bottom: 2px dashed #3fc570;
+  }
+
+  /* ! 只显示特定属性 */
+  /* ref:  [CSS 交换「折叠」和「非折叠」展示以默认折叠文档属性 - 经验分享 - Obsidian 中文论坛](https://forum-zh.obsidian.md/t/topic/26727/9) */
+  /*添加文档属性时系统会自动取消折叠，对此进行处理*/
+
+
+  .view-content .markdown-source-view.is-live-preview .metadata-container .metadata-property:not( :has([aria-label="tags"]),
+    :has([aria-label="aliases"]), :has([aria-label="url"]), :has([aria-label="source"]), :has([aria-label="cssclasses"]), :has([aria-label="up"]), :has([aria-label="same"]), :has([aria-label="down"]), :has([aria-label="next"]), :has([aria-label="prev"])) {
+    height: 0;
+    margin-top: 0;
+    margin-bottom: -0.2rem;
+  }
+
+  /* 禁用添加按钮  */
+  .view-content .markdown-source-view.is-live-preview .metadata-add-button {
+    display: none;
+  }
+
+}

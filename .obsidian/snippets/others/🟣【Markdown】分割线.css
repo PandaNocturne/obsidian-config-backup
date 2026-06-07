@@ -1,0 +1,8 @@
+.markdown-rendered hr,
+.markdown-source-view.mod-cm6 .hr {
+  display: block;
+  height: 3px;
+  border: none;
+  border-bottom: 3px dashed var(--text-normal);
+
+}

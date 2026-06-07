@@ -1,0 +1,438 @@
+{
+  "workspaces": {
+    "华氪-阀体学习": {
+      "main": {
+        "id": "4dc62444bc33a05a",
+        "type": "split",
+        "children": [
+          {
+            "id": "5daf3586e9e5c2fa",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "4c620abb70caddd0",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "310【任务】Tasks/2025/250701_阀门的设计手册学习&气动阀门的学习/250701_阀门的设计手册学习&气动阀门的学习.md",
+                    "mode": "preview",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "250701_阀门的设计手册学习&气动阀门的学习"
+                }
+              },
+              {
+                "id": "78d71fce2417968a",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "310【任务】Tasks/2025/250701_阀门的设计手册学习&气动阀门的学习/250701_阀门基础知识.md",
+                    "mode": "preview",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "250701_阀门基础知识"
+                }
+              },
+              {
+                "id": "3306fb177bd6b7ef",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "310【任务】Tasks/2025/250702_机械人读书笔记——有限元学习/250702_机械人读书笔记——有限元学习.md",
+                    "mode": "preview",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "(line:(槑头脑))",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "250702_机械人读书笔记——有限元学习"
+                }
+              },
+              {
+                "id": "cfecf572b710ec1c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "310【任务】Tasks/2025/250702_机械人读书笔记——有限元学习/250702_SolidWorks Flow Simulation.md",
+                    "mode": "preview",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "250702_SolidWorks Flow Simulation"
+                }
+              },
+              {
+                "id": "51c7b83e79a6f3dc",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "520【工具】ToolNote/520【工具】ToolNote.md",
+                    "mode": "preview",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "520【工具】ToolNote"
+                }
+              },
+              {
+                "id": "4a613d51dc56b961",
+                "type": "leaf",
+                "state": {
+                  "type": "netClip_workspace_webview",
+                  "state": {},
+                  "icon": "globe",
+                  "title": "熊猫别熬夜"
+                }
+              }
+            ],
+            "currentTab": 3
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "d865ad1d71bbc356",
+        "type": "split",
+        "children": [
+          {
+            "id": "a011bc2162727fba",
+            "type": "tabs",
+            "dimension": 59.41605839416058,
+            "children": [
+              {
+                "id": "8c29886bb42db399",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "文件列表"
+                }
+              },
+              {
+                "id": "ad8a3c2a2b6e96b3",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "书签"
+                }
+              },
+              {
+                "id": "afc50a259f865d07",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "添加笔记属性"
+                }
+              },
+              {
+                "id": "6c70e530ad910806",
+                "type": "leaf",
+                "state": {
+                  "type": "vertical-tabs",
+                  "state": {},
+                  "icon": "vertical-tabs",
+                  "title": "Vertical tabs"
+                }
+              }
+            ]
+          },
+          {
+            "id": "c242fba79ca6d625",
+            "type": "tabs",
+            "dimension": 40.583941605839414,
+            "children": [
+              {
+                "id": "85b157d6878bdc95",
+                "type": "leaf",
+                "state": {
+                  "type": "chinese-calendar-view",
+                  "state": {},
+                  "icon": "calendar-with-checkmark",
+                  "title": "日历"
+                }
+              },
+              {
+                "id": "1a16672c8e853b2e",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "110【草稿】Draft/2025/2025-06/250605_095217.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "250605_095217 的出链列表"
+                }
+              },
+              {
+                "id": "4d453ced28d9fc41",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "310【任务】Tasks/2025/250702_机械人读书笔记——有限元学习/250702_SolidWorks Flow Simulation.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "250702_SolidWorks Flow Simulation 的反向链接列表"
+                }
+              },
+              {
+                "id": "24e43db1ec80a9b0",
+                "type": "leaf",
+                "state": {
+                  "type": "footnotes",
+                  "state": {
+                    "file": "310【任务】Tasks/2025/250702_机械人读书笔记——有限元学习/250702_SolidWorks Flow Simulation.md"
+                  },
+                  "icon": "lucide-file-signature",
+                  "title": "Footnotes"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 473.5147361755371
+      },
+      "right": {
+        "id": "b7dd16ad246edaa3",
+        "type": "split",
+        "children": [
+          {
+            "id": "49304c9ce16473a8",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "aea6055e6a09dbc0",
+                "type": "leaf",
+                "state": {
+                  "type": "file-properties",
+                  "state": {},
+                  "icon": "lucide-info",
+                  "title": "笔记属性"
+                }
+              },
+              {
+                "id": "e17aefdf97796f3b",
+                "type": "leaf",
+                "state": {
+                  "type": "Strange New Worlds",
+                  "state": {},
+                  "icon": "file-digit",
+                  "title": "Strange New Worlds"
+                }
+              },
+              {
+                "id": "42d7fef404141923",
+                "type": "leaf",
+                "state": {
+                  "type": "copilot-chat-view",
+                  "state": {},
+                  "icon": "message-square",
+                  "title": "Copilot"
+                }
+              },
+              {
+                "id": "de157d54997afa4a",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "210【日志】Journal/210【日志】Journal.md",
+                    "mode": "preview",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "210【日志】Journal"
+                }
+              },
+              {
+                "id": "bd94b38f9e4e5dd0",
+                "type": "leaf",
+                "state": {
+                  "type": "Strange New Worlds",
+                  "state": {},
+                  "icon": "file-digit",
+                  "title": "Strange New Worlds"
+                }
+              },
+              {
+                "id": "a77726ab08fae9c4",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": true,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "搜索"
+                }
+              },
+              {
+                "id": "7fd1aa53ec0f9de6",
+                "type": "leaf",
+                "state": {
+                  "type": "style-settings",
+                  "state": {},
+                  "icon": "gear",
+                  "title": "Style Settings"
+                }
+              },
+              {
+                "id": "8dc9d5617394b411",
+                "type": "leaf",
+                "state": {
+                  "type": "clipper-view",
+                  "state": {},
+                  "icon": "newspaper",
+                  "title": "Clipper View"
+                }
+              },
+              {
+                "id": "1b74ed3a0f2eca46",
+                "type": "leaf",
+                "state": {
+                  "type": "netclip-home-tab-view",
+                  "state": {},
+                  "icon": "home",
+                  "title": "Home"
+                }
+              }
+            ],
+            "currentTab": 8
+          }
+        ],
+        "direction": "horizontal",
+        "width": 742.5
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "sheet-plus:创建 Excel 文件": false,
+          "pexels-banner:🚩 Pixel Banner Menu": false,
+          "quick-tagger:Add tag to current note": false,
+          "quick-tagger:Remove tag from current note": false,
+          "quick-plugin-switcher:Quick Plugin Switcher": false,
+          "templater-obsidian:Templater": false,
+          "cmdr:Commander: 打开 Commander 设置": false,
+          "cmdr:Style Settings: Show style settings view": false,
+          "cmdr:QuickAdd: Macro：归档附件": false,
+          "code-files:Create Code File": false,
+          "modalforms:Edit forms": false,
+          "obsidian-kanban:创建新看板": false,
+          "lineage:Toggle Lineage view": false,
+          "obsidian-excalidraw-plugin:新建绘图文件": false,
+          "copilot:Open Copilot Chat": false,
+          "coco-askai:AskAi History": false,
+          "open-vscode:VSCode": false,
+          "easy-toggle-sidebars:autoHide switcher": false,
+          "switcher:打开快速切换": false,
+          "graph:查看关系图谱": false,
+          "canvas:新建白板": false,
+          "daily-notes:打开/创建今天的日记": false,
+          "templates:插入模板": false,
+          "command-palette:打开命令面板": false,
+          "workspaces:管理工作区布局": false,
+          "periodic-notes:Open today": false,
+          "net-clip:NetClip": false
+        }
+      },
+      "active": "cfecf572b710ec1c",
+      "mtime": "2025-07-04T08:31:46+08:00"
+    }
+  },
+  "active": "华氪-阀体学习"
+}

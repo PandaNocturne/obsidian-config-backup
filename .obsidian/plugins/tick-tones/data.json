@@ -1,0 +1,12 @@
+{
+  "tickSoundEnabled": true,
+  "tickSound": "Task_Completed",
+  "tickSounds": [],
+  "tickSoundVolume": 1,
+  "untickSoundEnabled": true,
+  "untickSound": "Microsoft_ToDo",
+  "untickSounds": [],
+  "untickSoundVolume": 1,
+  "useRandomTickSound": false,
+  "useRandomUntickSound": false
+}

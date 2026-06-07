@@ -1,0 +1,134 @@
+/*
+ * @Author: 熊猫别熬夜 
+ * @Date: 2024-09-16 10:10:20 
+ * @Last Modified by: 熊猫别熬夜
+ * @Last Modified time: 2024-09-17 23:35:29
+ */
+/* 2024-04-04_21:48：参考：https://gist.github.com/digitalsignalperson/56fe3cbcf41707cb97362234cb07ccb0 */
+
+
+.workspace .mod-root .workspace-tab-header-container.workspace-tab-header-container.workspace-tab-header-container {
+  position: relative;
+  height: fit-content;
+  padding-right: 100px;
+}
+
+.workspace .mod-root .workspace-tab-header-container-inner {
+  display: flex;
+  justify-content: flex-start;
+  align-content: space-around;
+  flex-wrap: wrap;
+  min-width: 100%;
+}
+
+
+/* !排布间距设置 */
+.workspace .mod-root .workspace-tabs:not(.mod-stacked) .workspace-tab-header {
+  width: unset;
+  container-type: unset;
+  max-width: 300px !important;
+  /* min-width: 220px; */
+  margin-top: 4px;
+  /* margin-bottom: 4px; */
+  margin-right: 6px;
+
+  flex: 0 0 auto;
+  border: 1px solid var(--background-modifier-border);
+
+  .workspace-tab-header-inner-title {
+    text-align: center;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+  }
+}
+
+/* ======tab样式设置 来自BT主题的safari-tab-style======== */
+.workspace-tabs:not(.mod-stacked) {
+
+  .workspace-tab-header::before,
+  .workspace-tab-header::after,
+  .workspace-tab-header-inner::after {
+    display: none;
+  }
+}
+
+/* .mod-root .workspace-tabs:not(.mod-stacked) .workspace-tab-header {
+  transition: 200ms;
+}
+ */
+
+.mod-vertical:not(.mod-left-split):not(.mod-right-split) .workspace-tabs:not(.mod-stacked) .workspace-tab-header-container-inner,
+.mod-horizontal:not(.mod-left-split):not(.mod-right-split) .workspace-tabs:not(.mod-stacked) .workspace-tab-header-container-inner {
+  align-items: center;
+  margin: 0;
+  /* width: 100%; */
+}
+
+.mod-vertical:not(.mod-left-split):not(.mod-right-split) .workspace-tabs:not(.mod-stacked) .workspace-tab-header,
+.mod-horizontal:not(.mod-left-split):not(.mod-right-split) .workspace-tabs:not(.mod-stacked) .workspace-tab-header {
+  border-radius: 6px;
+  box-shadow: none;
+  height: calc(var(--header-height) * 0.7);
+  padding: none;
+}
+
+.workspace-tabs:not(.mod-stacked) .workspace-tab-header:first-child {
+  margin-left: 0;
+}
+
+.mod-root .workspace-tabs:not(.mod-stacked) .workspace-tab-header.is-active:hover {
+  background-color: var(--background-modifier-border);
+}
+
+.theme-light .mod-root .workspace-tabs:not(.mod-stacked) .workspace-tab-header {
+  border: 1px solid var(--tab-outline-color);
+}
+
+.mod-root .workspace-tabs:not(.mod-stacked) .workspace-tab-header {
+  border: 1px solid rgba(var(--mono-rgb-0), .25);
+}
+
+
+/* ==========其他按钮设置========== */
+/* !新标签页按钮固定设置 */
+.titlebar .workspace-tab-header-new-tab,
+.mod-root .workspace-tab-header-new-tab,
+/* !下拉菜单调整 */
+.mod-root .workspace-tab-header-tab-list {
+  height: fit-content;
+  display: inline-block;
+}
+
+/* !vertical tab的按钮 */
+.vt-mission-control-toggle-button {
+  display: inline-block !important;
+  right: 40px !important;
+}
+
+/* 常驻显示关闭按钮 */
+.workspace.workspace.workspace .mod-root .workspace-tab-header:not(.mod-stacked) .workspace-tab-header-inner-close-button {
+  display: flex;
+}
+
+/* 置顶标签页永远在最前面 */
+.workspace.workspace.workspace .mod-root .workspace-tabs:not(.mod-stacked) .workspace-tab-header:has(.mod-pinned) {
+  order: -1;
+}
+
+.workspace-tab-header-container>.sidebar-toggle-button.mod-right {
+  /* top: 0px;
+  position: absolute;
+  right: 10px;
+  padding-right: 20px; */
+  z-index: 1;
+}
+
+/* 不显示顶部按钮 */
+.titlebar-button-container.mod-right {
+  display: none;
+}
+
+/* ! 当前tab加上显著边框 by Calmwaves 2023-12-27_10:18:15 */
+.is-focused .mod-active .workspace-tab-header.is-active {
+  border-top: 3px solid var(--color-accent) !important;
+}
