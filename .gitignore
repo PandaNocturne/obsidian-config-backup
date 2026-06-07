@@ -1,0 +1,4 @@
+# Large binaries and ML models (exceed GitHub size limits, reinstall via plugins)
+.obsidian/paddlleocr/
+.obsidian/plugins/obsidian-memos/super/models/
+.obsidian/plugins/obsidian-memos/super/wasm/
