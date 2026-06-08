@@ -1,0 +1,513 @@
+{
+  "components": [
+    {
+      "id": "486d2f33-2eb0-4564-bc65-d21fa15f010e",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showTitle": true,
+      "showShadow": false,
+      "createAt": "2026-03-11T07:07:43.717Z",
+      "updateAt": "2026-03-11T07:22:02.006Z",
+      "components": [
+        {
+          "componentId": "dc647916-0a47-46a5-90a9-746f33087114"
+        },
+        {
+          "componentId": "f767b962-fa0d-4372-a83b-6a7bb17230f6"
+        },
+        {
+          "componentId": "fcb43f95-bd52-40b0-b5c5-e4e062b97358"
+        }
+      ],
+      "layoutType": "tab",
+      "locked": false,
+      "layoutOptions": {}
+    },
+    {
+      "id": "f767b962-fa0d-4372-a83b-6a7bb17230f6",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "Gallery",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showTitle": true,
+      "showShadow": false,
+      "createAt": "2026-03-11T07:07:48.675Z",
+      "updateAt": "2026-04-30T03:12:50.609Z",
+      "viewType": "gallary",
+      "newPageNameFormat": "{{date:YYYYMMDDHHmmss}} ",
+      "properties": [
+        {
+          "id": "__componentsTitleProperty_0x7c00",
+          "name": "文件名",
+          "type": "text",
+          "isShow": false,
+          "wrap": false,
+          "options": {
+            "width": "697"
+          }
+        },
+        {
+          "id": "d59802f1-4f6b-4292-bf49-4e8379811187",
+          "name": "title",
+          "isShow": true,
+          "type": "text",
+          "options": {}
+        },
+        {
+          "id": "523d7e45-9d34-4918-9d02-c444ea920431",
+          "name": "tags",
+          "isShow": false,
+          "type": "multiSelect",
+          "options": {}
+        },
+        {
+          "id": "c0bc20d4-0af9-40e0-8d1a-1f82bc8f1abd",
+          "name": "status",
+          "isShow": true,
+          "type": "multiSelect",
+          "options": {}
+        }
+      ],
+      "templates": [],
+      "groups": [],
+      "colorfulGroups": false,
+      "viewOptions": {
+        "openPageIn": "modal",
+        "openPageAfterCreate": true,
+        "itemSize": "components--page-card-medium",
+        "showPropertyName": false,
+        "showAllProperties": false,
+        "items": [],
+        "cover": {
+          "type": "textContent",
+          "source": "default",
+          "fit": "contains",
+          "layout": "components--page-card-cover-landscape",
+          "position": "top"
+        },
+        "pinFiltersToMenuBar": false,
+        "hideHeaderMenu": false,
+        "showGrid": false,
+        "heightType": "auto",
+        "heightValue": 600
+      },
+      "groupStates": {
+        "sort": "nameAsc",
+        "statics": [],
+        "orders": [],
+        "hiddens": [],
+        "collapseds": []
+      },
+      "filter": {
+        "id": "815c6353-a784-4082-886e-11c4529c0859",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "9bebf248-68ca-4901-9cf1-c77b4312ba87",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.path}",
+            "value": "310【任务】Tasks",
+            "conditions": []
+          },
+          {
+            "id": "b07e7a92-3862-4131-aaf9-62d9ae5cf43b",
+            "type": "filter",
+            "operator": "contains",
+            "property": "tags",
+            "value": "TaskNote",
+            "conditions": []
+          }
+        ]
+      },
+      "title": "Gallery",
+      "sort": {
+        "orders": [
+          {
+            "id": "24fe0860-eeb0-412a-bb85-08e4af7cc959",
+            "property": "${file.basename}",
+            "direction": "desc",
+            "disabled": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "dc647916-0a47-46a5-90a9-746f33087114",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "kanban",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showTitle": true,
+      "showShadow": false,
+      "createAt": "2026-03-11T07:07:48.675Z",
+      "updateAt": "2026-04-30T03:12:33.366Z",
+      "viewType": "kanban",
+      "newPageNameFormat": "{{date:YYYYMMDDHHmmss}} ",
+      "properties": [
+        {
+          "id": "__componentsTitleProperty_0x7c00",
+          "name": "文件名",
+          "type": "text",
+          "isShow": false,
+          "wrap": false,
+          "options": {
+            "width": "697"
+          }
+        },
+        {
+          "id": "bf5d3207-d6da-4112-924c-6c802a176f22",
+          "name": "title",
+          "isShow": true,
+          "type": "text",
+          "options": {}
+        }
+      ],
+      "templates": [],
+      "groups": [
+        {
+          "id": "Canceled",
+          "name": "Canceled",
+          "items": [
+            "310【任务】Tasks/2024/240628_JavaScript+AJAX 📅 2024-06-28/240628_JavaScript+AJAX 📅 2024-06-28.md",
+            "310【任务】Tasks/2024/241102_同济子豪兄个人主页-YOLO系列教学视频 📅 2024-11-02 ❌2024-11-03/241102_同济子豪兄个人主页-YOLO系列教学视频 📅 2024-11-02 ❌2024-11-03.md"
+          ]
+        },
+        {
+          "id": "Archived",
+          "name": "Archived",
+          "items": [
+            "310【任务】Tasks/2024/241112_学习Matplotlib-NumPy-Pandas三剑客 📅2024-11-04 ✅2024-11-12/241112_学习Matplotlib-NumPy-Pandas三剑客 📅2024-11-04 ✅2024-11-12.md"
+          ]
+        },
+        {
+          "id": "Done",
+          "name": "Done",
+          "items": [
+            "310【任务】Tasks/2025/250317_EasyUI快速入门 📅 2025-03-17 ✅ 2025-03-20/250317_EasyUI快速入门 📅 2025-03-17 ✅ 2025-03-20.md",
+            "310【任务】Tasks/2025/240825_研三面试找工作 📅 2024-08-25 ✅ 2025-07-01/240825_研三面试找工作 📅 2024-08-25 ✅ 2025-07-01.md",
+            "310【任务】Tasks/2024/241115_研究生毕业设计规划 📅 2024-11-15 ✅ 2025-05-19/241115_研究生毕业设计规划 📅 2024-11-15 ✅ 2025-05-19.md",
+            "310【任务】Tasks/2025/250407_研三毕设结束后的的任务规划 📅 2025-04-07 ✅ 2025-07-01/250407_研三毕设结束后的的任务规划 📅 2025-04-07 ✅ 2025-07-01.md"
+          ]
+        },
+        {
+          "id": "toDo",
+          "name": "toDo",
+          "items": [
+            "310【任务】Tasks/2025/250218_Obsidian插件制作：网页书签精灵 📅 2025-02-18/250218_Obsidian插件制作：网页书签精灵 📅 2025-02-18.md"
+          ]
+        },
+        {
+          "id": "Plan",
+          "name": "Plan",
+          "items": [
+            "310【任务】Tasks/2025/250914_尚硅谷Vue框架学习 📅 2025-09-14/250914_尚硅谷Vue框架学习 📅 2025-09-14.md",
+            "310【任务】Tasks/2026/2026-03-18T14_14_04.md",
+            "310【任务】Tasks/2024/240628_JavaScript+AJAX 📅 2024-06-28/240628_JavaScript+AJAX 📅 2024-06-28.md"
+          ]
+        },
+        {
+          "id": "inProgress",
+          "name": "inProgress",
+          "items": [
+            "310【任务】Tasks/2025/250708_📅嵌入式基础入门学习/250708_📅嵌入式基础入门学习.md",
+            "310【任务】Tasks/2026/260309_DeepSeek 2 个月 20 斤的减肥计划 📅 2026-03-09/260309_DeepSeek 2 个月 20 斤的减肥计划 📅 2026-03-09.md"
+          ]
+        },
+        {
+          "id": "Completed",
+          "name": "Completed",
+          "items": [
+            "310【任务】Tasks/2025/250317_EasyUI快速入门 📅 2025-03-17 ✅ 2025-03-20/250317_EasyUI快速入门 📅 2025-03-17 ✅ 2025-03-20.md",
+            "310【任务】Tasks/2025/250407_研三毕设结束后的的任务规划 📅 2025-04-07 ✅ 2025-07-01/250407_研三毕设结束后的的任务规划 📅 2025-04-07 ✅ 2025-07-01.md",
+            "310【任务】Tasks/2024/241115_研究生毕业设计规划 📅 2024-11-15 ✅ 2025-05-19/241115_研究生毕业设计规划 📅 2024-11-15 ✅ 2025-05-19.md",
+            "310【任务】Tasks/2025/240825_研三面试找工作 📅 2024-08-25 ✅ 2025-07-01/240825_研三面试找工作 📅 2024-08-25 ✅ 2025-07-01.md",
+            "310【任务】Tasks/2025/250913_长周期锻炼目标 📅 2025-09-13/250913_长周期锻炼目标 📅 2025-09-13.md"
+          ]
+        },
+        {
+          "id": "Scheduing",
+          "name": "Scheduing",
+          "items": [
+            "310【任务】Tasks/2026/2026-03-18T14_44_57.md",
+            "310【任务】Tasks/2025/250708_📅嵌入式基础入门学习/250708_📅嵌入式基础入门学习.md"
+          ]
+        },
+        {
+          "id": "In Progress",
+          "name": "In Progress",
+          "items": [
+            "310【任务】Tasks/2026/260309_减肥计划：2 个月 20 斤（3月~5月）/260309_减肥计划：2 个月 20 斤（3月~5月）.md",
+            "310【任务】Tasks/2026/2026-03-18T14_44_57.md",
+            "310【任务】Tasks/2026/260317_嵌入式简历修改&面试找工作/260317_嵌入式简历修改&面试找工作.md"
+          ]
+        }
+      ],
+      "colorfulGroups": true,
+      "viewOptions": {
+        "openPageIn": "modal",
+        "openPageAfterCreate": true,
+        "itemSize": "components--page-card-large",
+        "showPropertyName": false,
+        "showAllProperties": false,
+        "items": [],
+        "cover": {
+          "type": "none",
+          "source": "default",
+          "fit": "contains",
+          "layout": "components--page-card-cover-landscape",
+          "position": "top"
+        },
+        "pinFiltersToMenuBar": false,
+        "hideHeaderMenu": false,
+        "showGrid": false,
+        "heightType": "auto",
+        "heightValue": 600,
+        "dateProperty": "${file.ctime}",
+        "endDateProperty": "${file.mtime}",
+        "colorProperty": "",
+        "hideTable": false
+      },
+      "groupStates": {
+        "sort": "manual",
+        "statics": [
+          "toDo",
+          "Done",
+          "Canceled",
+          "Archived",
+          "Plan",
+          "__$uncategorizedGroup",
+          "Scheduing",
+          "In Progress",
+          "Completed"
+        ],
+        "orders": [
+          "__$uncategorizedGroup",
+          "Plan",
+          "Canceled",
+          "Archived",
+          "toDo",
+          "Scheduing",
+          "In Progress",
+          "In Review",
+          "Cancelled",
+          "Completed",
+          "Done"
+        ],
+        "hiddens": [
+          "toDo",
+          "Archived",
+          "Canceled",
+          "Completed",
+          "Done",
+          "__$uncategorizedGroup",
+          "Cancelled"
+        ],
+        "collapseds": [
+          "Canceled"
+        ]
+      },
+      "filter": {
+        "id": "815c6353-a784-4082-886e-11c4529c0859",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "9bebf248-68ca-4901-9cf1-c77b4312ba87",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.path}",
+            "value": "310【任务】Tasks",
+            "conditions": []
+          },
+          {
+            "id": "b07e7a92-3862-4131-aaf9-62d9ae5cf43b",
+            "type": "filter",
+            "operator": "contains",
+            "property": "tags",
+            "value": "TaskNote",
+            "conditions": []
+          }
+        ]
+      },
+      "groupBy": "status",
+      "sort": {
+        "orders": []
+      },
+      "title": "kanban"
+    },
+    {
+      "id": "fcb43f95-bd52-40b0-b5c5-e4e062b97358",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "kanban",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showTitle": true,
+      "showShadow": false,
+      "createAt": "2026-03-11T07:07:48.675Z",
+      "updateAt": "2026-03-21T02:54:24.597Z",
+      "viewType": "list",
+      "newPageNameFormat": "{{date:YYYYMMDDHHmmss}} ",
+      "properties": [
+        {
+          "id": "__componentsTitleProperty_0x7c00",
+          "name": "文件名",
+          "type": "text",
+          "isShow": true,
+          "wrap": false,
+          "options": {
+            "width": "697"
+          }
+        }
+      ],
+      "templates": [],
+      "groups": [
+        {
+          "id": "Canceled",
+          "name": "Canceled",
+          "items": [
+            "310【任务】Tasks/2024/240628_JavaScript+AJAX 📅 2024-06-28/240628_JavaScript+AJAX 📅 2024-06-28.md",
+            "310【任务】Tasks/2024/241102_同济子豪兄个人主页-YOLO系列教学视频 📅 2024-11-02 ❌2024-11-03/241102_同济子豪兄个人主页-YOLO系列教学视频 📅 2024-11-02 ❌2024-11-03.md"
+          ]
+        },
+        {
+          "id": "Archived",
+          "name": "Archived",
+          "items": [
+            "310【任务】Tasks/2024/241112_学习Matplotlib-NumPy-Pandas三剑客 📅2024-11-04 ✅2024-11-12/241112_学习Matplotlib-NumPy-Pandas三剑客 📅2024-11-04 ✅2024-11-12.md"
+          ]
+        },
+        {
+          "id": "Done",
+          "name": "Done",
+          "items": [
+            "310【任务】Tasks/2025/250317_EasyUI快速入门 📅 2025-03-17 ✅ 2025-03-20/250317_EasyUI快速入门 📅 2025-03-17 ✅ 2025-03-20.md",
+            "310【任务】Tasks/2025/240825_研三面试找工作 📅 2024-08-25 ✅ 2025-07-01/240825_研三面试找工作 📅 2024-08-25 ✅ 2025-07-01.md",
+            "310【任务】Tasks/2024/241115_研究生毕业设计规划 📅 2024-11-15 ✅ 2025-05-19/241115_研究生毕业设计规划 📅 2024-11-15 ✅ 2025-05-19.md",
+            "310【任务】Tasks/2025/250407_研三毕设结束后的的任务规划 📅 2025-04-07 ✅ 2025-07-01/250407_研三毕设结束后的的任务规划 📅 2025-04-07 ✅ 2025-07-01.md"
+          ]
+        },
+        {
+          "id": "toDo",
+          "name": "toDo",
+          "items": [
+            "310【任务】Tasks/2025/250218_Obsidian插件制作：网页书签精灵 📅 2025-02-18/250218_Obsidian插件制作：网页书签精灵 📅 2025-02-18.md"
+          ]
+        },
+        {
+          "id": "Plan",
+          "name": "Plan",
+          "items": [
+            "310【任务】Tasks/2025/250218_Obsidian插件制作：网页书签精灵 📅 2025-02-18/250218_Obsidian插件制作：网页书签精灵 📅 2025-02-18.md",
+            "310【任务】Tasks/2025/250422_尚硅谷React教程学习记录 📅 2025-04-22/250422_尚硅谷React教程学习记录 📅 2025-04-22.md",
+            "310【任务】Tasks/2025/250914_尚硅谷Vue框架学习 📅 2025-09-14/250914_尚硅谷Vue框架学习 📅 2025-09-14.md",
+            "310【任务】Tasks/2025/250913_长周期锻炼目标 📅 2025-09-13/250913_长周期锻炼目标 📅 2025-09-13.md"
+          ]
+        },
+        {
+          "id": "inProgress",
+          "name": "inProgress",
+          "items": [
+            "310【任务】Tasks/2025/250708_📅嵌入式基础入门学习/250708_📅嵌入式基础入门学习.md",
+            "310【任务】Tasks/2026/260309_DeepSeek 2 个月 20 斤的减肥计划 📅 2026-03-09/260309_DeepSeek 2 个月 20 斤的减肥计划 📅 2026-03-09.md"
+          ]
+        }
+      ],
+      "colorfulGroups": true,
+      "viewOptions": {
+        "openPageIn": "modal",
+        "openPageAfterCreate": true,
+        "itemSize": "components--page-card-medium",
+        "showPropertyName": false,
+        "showAllProperties": false,
+        "items": [],
+        "cover": {
+          "type": "none",
+          "source": "default",
+          "fit": "contains",
+          "layout": "components--page-card-cover-landscape",
+          "position": "top"
+        },
+        "pinFiltersToMenuBar": false,
+        "hideHeaderMenu": false,
+        "showGrid": false,
+        "heightType": "auto",
+        "heightValue": 600,
+        "dateProperty": "${file.ctime}",
+        "endDateProperty": "${file.mtime}",
+        "colorProperty": "",
+        "hideTable": false,
+        "displaySequenceNumber": true
+      },
+      "groupStates": {
+        "sort": "manual",
+        "statics": [
+          "toDo",
+          "Done",
+          "Canceled",
+          "Archived",
+          "Plan"
+        ],
+        "orders": [
+          "__$uncategorizedGroup",
+          "Plan",
+          "Done",
+          "Canceled",
+          "Archived",
+          "toDo",
+          "Todo",
+          "Ready to start",
+          "Cancelled",
+          "Completed"
+        ],
+        "hiddens": [
+          "toDo",
+          "__$uncategorizedGroup",
+          "Done",
+          "Canceled",
+          "Archived"
+        ],
+        "collapseds": []
+      },
+      "filter": {
+        "id": "815c6353-a784-4082-886e-11c4529c0859",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "9bebf248-68ca-4901-9cf1-c77b4312ba87",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.path}",
+            "value": "310【任务】Tasks",
+            "conditions": []
+          },
+          {
+            "id": "b07e7a92-3862-4131-aaf9-62d9ae5cf43b",
+            "type": "filter",
+            "operator": "contains_any",
+            "property": "${file.basename}",
+            "value": [
+              "📅"
+            ],
+            "conditions": []
+          }
+        ]
+      },
+      "groupBy": "status",
+      "sort": {
+        "orders": []
+      },
+      "title": "List"
+    }
+  ],
+  "rootComponentId": "486d2f33-2eb0-4564-bc65-d21fa15f010e",
+  "version": 3.1
+}

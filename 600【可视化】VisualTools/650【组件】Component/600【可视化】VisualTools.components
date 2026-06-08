@@ -1,0 +1,305 @@
+{
+  "components": [
+    {
+      "id": "d5b0f008-ecbd-4687-96e3-0d854e4f7d07",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showTitle": true,
+      "showShadow": false,
+      "createAt": "2026-05-04T14:39:28.760Z",
+      "updateAt": "2026-05-04T14:44:06.664Z",
+      "components": [
+        {
+          "componentId": "73e0a5d3-aa02-4632-9f11-1ba676443f21"
+        },
+        {
+          "componentId": "6ba26575-926b-4eee-9470-11a67c42cc53"
+        },
+        {
+          "componentId": "5fb2c658-a24c-4219-975b-3d4ea1d8e31f"
+        }
+      ],
+      "layoutType": "tab",
+      "locked": false,
+      "layoutOptions": {}
+    },
+    {
+      "id": "73e0a5d3-aa02-4632-9f11-1ba676443f21",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "Canvas",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2025-02-28T04:31:19.119Z",
+      "updateAt": "2026-05-04T14:43:37.083Z",
+      "viewType": "gallary",
+      "newPageNameFormat": "{{date:YYYYMMDDHHmmss}} ",
+      "properties": [
+        {
+          "id": "__componentsTitleProperty_0x7c00",
+          "name": "文件名",
+          "type": "text",
+          "isShow": true,
+          "wrap": false,
+          "options": {}
+        }
+      ],
+      "templates": [],
+      "groups": [],
+      "colorfulGroups": false,
+      "viewOptions": {
+        "openPageIn": "tab",
+        "openPageAfterCreate": true,
+        "itemSize": "components--page-card-large",
+        "showPropertyName": false,
+        "showAllProperties": false,
+        "items": [],
+        "cover": {
+          "type": "textContent",
+          "source": "default",
+          "fit": "contains",
+          "layout": "components--page-card-cover-landscape",
+          "position": "top"
+        },
+        "pinFiltersToMenuBar": false,
+        "showGrid": false,
+        "heightType": "auto",
+        "heightValue": 600
+      },
+      "groupStates": {
+        "sort": "nameAsc",
+        "statics": [],
+        "orders": [],
+        "hiddens": [],
+        "collapseds": []
+      },
+      "filter": {
+        "id": "8640dde4-ded2-4907-9fe1-229f095d8fc7",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "8378f1f6-1c60-42a6-b765-399c6b355093",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.extension}",
+            "value": "canvas",
+            "conditions": []
+          },
+          {
+            "id": "a7a7bffa-dbd8-4ff4-847e-0e4b1b17559c",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.parent}",
+            "value": "600【白板】Canvas",
+            "conditions": []
+          }
+        ]
+      },
+      "showTitle": false,
+      "title": "Canvas",
+      "sort": {
+        "orders": [
+          {
+            "id": "51c463f1-cc29-4bb8-a5fe-3031887ef5fd",
+            "property": "${file.basename}",
+            "direction": "desc",
+            "disabled": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "6ba26575-926b-4eee-9470-11a67c42cc53",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "Excalidraw",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-08-27T06:44:14.031Z",
+      "updateAt": "2026-05-04T14:43:43.722Z",
+      "viewType": "gallary",
+      "newPageNameFormat": "{{date:YYYYMMDDHHmmss}} new",
+      "properties": [
+        {
+          "id": "__componentsTitleProperty_0x7c00",
+          "name": "File Basename",
+          "type": "text",
+          "isShow": true,
+          "wrap": false,
+          "options": {}
+        },
+        {
+          "id": "587c888c-b31e-43c8-91ef-a29cb2029969",
+          "name": "aliases",
+          "isShow": true,
+          "type": "multiSelect",
+          "options": {}
+        }
+      ],
+      "templates": [
+        {
+          "id": "fbd7b1f4-c472-476f-b11b-6d4f46e95dee",
+          "path": "700【模板】Template/Template：Create Excalidraw.md",
+          "name": "Template：Create Excalidraw.md",
+          "type": "templater"
+        }
+      ],
+      "groups": [],
+      "colorfulGroups": false,
+      "viewOptions": {
+        "openPageIn": "tab",
+        "openPageAfterCreate": false,
+        "itemSize": "components--page-card-large",
+        "showPropertyName": false,
+        "showAllProperties": false,
+        "items": [],
+        "cover": {
+          "type": "textContent",
+          "value": "",
+          "fit": "cover",
+          "layout": "components--page-card-cover-landscape",
+          "pageContentPreview": true,
+          "position": "top",
+          "source": "default"
+        },
+        "hideFileName": false,
+        "wrapFileName": true
+      },
+      "filter": {
+        "id": "8ddce8e0-ddb0-4fcc-8f62-f0bfc376e601",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "5c8a09f6-38d8-414a-890e-0dfecaf137f6",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.basename}",
+            "value": ".excalidraw",
+            "conditions": []
+          },
+          {
+            "id": "a1a5f853-484c-4603-9d03-a217b4ea01a1",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.path}",
+            "value": "610【画板】Excalidraw",
+            "conditions": []
+          }
+        ]
+      },
+      "newPageLocation": {
+        "location": "610【画板】Excalidraw"
+      },
+      "loadLimitPerPage": "10",
+      "defaultTemplate": "fbd7b1f4-c472-476f-b11b-6d4f46e95dee",
+      "sort": {
+        "orders": [
+          {
+            "id": "f0fec91b-d3f2-448b-80fd-5b51d8a76074",
+            "property": "${file.ctime}",
+            "direction": "desc"
+          }
+        ]
+      },
+      "showTitle": false,
+      "title": "Excalidraw"
+    },
+    {
+      "id": "5fb2c658-a24c-4219-975b-3d4ea1d8e31f",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "Diagram",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showTitle": true,
+      "showShadow": false,
+      "createAt": "2026-03-09T10:35:17.269Z",
+      "updateAt": "2026-05-25T15:26:17.426Z",
+      "viewType": "gallary",
+      "newPageNameFormat": "{{date:YYYYMMDDHHmmss}} ",
+      "properties": [
+        {
+          "id": "__componentsTitleProperty_0x7c00",
+          "name": "文件名",
+          "type": "text",
+          "isShow": true,
+          "wrap": false,
+          "options": {}
+        }
+      ],
+      "templates": [],
+      "groups": [],
+      "colorfulGroups": false,
+      "viewOptions": {
+        "openPageIn": "tab",
+        "openPageAfterCreate": true,
+        "itemSize": "components--page-card-large",
+        "showPropertyName": false,
+        "showAllProperties": false,
+        "items": [],
+        "cover": {
+          "type": "textContent",
+          "source": "default",
+          "fit": "contains",
+          "layout": "components--page-card-cover-landscape",
+          "position": "top"
+        },
+        "pinFiltersToMenuBar": false,
+        "hideHeaderMenu": false,
+        "showGrid": false,
+        "heightType": "auto",
+        "heightValue": 600
+      },
+      "groupStates": {
+        "sort": "nameAsc",
+        "statics": [],
+        "orders": [],
+        "hiddens": [],
+        "collapseds": []
+      },
+      "filter": {
+        "id": "5f2a41b3-937b-46e9-9c42-d018d2c0b06a",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "03737314-7958-47ce-8ef1-328de61a5fbd",
+            "type": "filter",
+            "operator": "equals",
+            "property": "${file.extension}",
+            "value": "svg",
+            "conditions": []
+          },
+          {
+            "id": "54344adf-14ce-42c4-b78b-3ad55b8928a9",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.parent}",
+            "value": "620【图表】Diagrams",
+            "conditions": []
+          }
+        ]
+      },
+      "title": "Diagram",
+      "sort": {
+        "orders": [
+          {
+            "id": "1e27fad9-3625-46cc-abb6-ebb3fe24e17f",
+            "property": "${file.ctime}",
+            "direction": "desc",
+            "disabled": false
+          }
+        ]
+      }
+    }
+  ],
+  "rootComponentId": "d5b0f008-ecbd-4687-96e3-0d854e4f7d07",
+  "version": 3.1
+}

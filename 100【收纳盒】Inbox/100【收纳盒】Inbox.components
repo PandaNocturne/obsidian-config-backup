@@ -1,0 +1,762 @@
+{
+  "components": [
+    {
+      "id": "041e5267-c155-4cd7-a55b-79446398be8e",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showTitle": true,
+      "showShadow": false,
+      "createAt": "2026-03-29T01:17:26.950Z",
+      "updateAt": "2026-05-06T15:35:11.345Z",
+      "components": [
+        {
+          "componentId": "ef7f63fd-dfe0-44fc-bd4e-18aba782d046"
+        },
+        {
+          "componentId": "81123e67-8689-48d8-9c7a-4da81f732a77"
+        },
+        {
+          "componentId": "980a0107-b71b-44e9-bdcf-10f80ddae9a5"
+        },
+        {
+          "componentId": "aabc852d-d95b-4d82-a2f4-861bf099961a"
+        },
+        {
+          "componentId": "c94e83b4-26df-4812-be15-9a53badf2168"
+        },
+        {
+          "componentId": "884b46d4-32ab-441a-89f3-e4e7fe6da3e3"
+        }
+      ],
+      "layoutType": "tab",
+      "locked": true,
+      "layoutOptions": {}
+    },
+    {
+      "id": "ef7f63fd-dfe0-44fc-bd4e-18aba782d046",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "草稿箱",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-12T09:05:59.364Z",
+      "updateAt": "2026-04-19T10:34:38.940Z",
+      "viewType": "gallary",
+      "newPageNameFormat": "{{date:YYYYMMDDHHmmss}} new",
+      "properties": [
+        {
+          "id": "__componentsTitleProperty_0x7c00",
+          "name": "文件名",
+          "type": "text",
+          "isShow": true,
+          "wrap": false,
+          "options": {}
+        },
+        {
+          "id": "8cbccd87-139f-4d52-a7c8-b80da0d716c1",
+          "name": "${file.tags}",
+          "isShow": true,
+          "type": "multiSelect",
+          "options": {}
+        },
+        {
+          "id": "402e8b20-6122-4d08-9857-b5310c277944",
+          "name": "${file.parent}",
+          "isShow": true,
+          "type": "text",
+          "options": {}
+        }
+      ],
+      "templates": [],
+      "groups": [],
+      "viewOptions": {
+        "openPageIn": "tab",
+        "openPageAfterCreate": false,
+        "itemSize": "components--page-card-large",
+        "showPropertyName": false,
+        "showAllProperties": false,
+        "items": [
+          "600【草稿】Draft/2025/2025-01/【Draft】250102_081048.md",
+          "600【草稿】Draft/2024/2024-12/241221_Excalidraw脚本：快速挖空制卡.md",
+          "600【草稿】Draft/2024/2024-11/【Draft】241117_014455.md",
+          "600【草稿】Draft/2024/2024-12/241224_将标签加入笔记名.md",
+          "600【草稿】Draft/2024/2024-11/【Draft】基于深度学习的目标检测算法综述.md",
+          "600【草稿】Draft/2024/2024-10/241103_标注关键点检测数据集.md",
+          "600【草稿】Draft/2024/2024-11/【Draft】241112_111528.md",
+          "600【草稿】Draft/2024/2024-11/【Draft】241121_063857.md",
+          "600【草稿】Draft/2024/2024-07/240726_105309.md",
+          "600【草稿】Draft/2024/2024-07/240726_Excalidraw脚本-保存设置不同样式界面.md",
+          "600【草稿】Draft/2024/2024-07/240726_021045.md",
+          "600【草稿】Draft/2024/2024-07/240723_Eagle如何管理素材 by Mr.叶.md",
+          "600【草稿】Draft/2024/2024-07/240712_基于知识图谱的RAG套件.md",
+          "600【草稿】Draft/2024/2024-07/240710_在win上有没有什么ob插件或软件能做到和marginnote类似的功能呀？.md",
+          "600【草稿】Draft/2024/2024-07/240706_图书获取的资源汇总.md",
+          "600【草稿】Draft/2024/2024-05/240514_心理学相关检索.md"
+        ],
+        "cover": {
+          "type": "textContent",
+          "value": "",
+          "fit": "contains",
+          "layout": "components--page-card-cover-landscape",
+          "pageContentPreview": true,
+          "position": "top",
+          "source": "default"
+        },
+        "hideFileName": false,
+        "wrapFileName": true,
+        "dateProperty": "${file.ctime}"
+      },
+      "filter": {
+        "id": "637e0c43-f651-4418-a1f0-b495408bb345",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "70b56eec-75c4-42ba-8359-b2ba234a3a9b",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.path}",
+            "value": "110【草稿】Draft",
+            "conditions": []
+          },
+          {
+            "id": "599a4568-cc17-4d95-8bc0-f962882f9063",
+            "type": "filter",
+            "operator": "regex_match",
+            "property": "${file.parent}",
+            "value": "\\d{4}",
+            "conditions": []
+          }
+        ]
+      },
+      "loadLimitPerPage": 10,
+      "sort": {
+        "orders": [
+          {
+            "id": "5335318a-89d6-4085-9418-7c0890e7c34a",
+            "property": "${file.ctime}",
+            "direction": "desc",
+            "disabled": false
+          }
+        ]
+      },
+      "showTitle": false,
+      "title": "草稿箱",
+      "groupBy": "${file.parent}",
+      "groupStates": {
+        "sort": "nameDesc",
+        "format": "none",
+        "statics": [],
+        "orders": [],
+        "hiddens": [],
+        "collapseds": []
+      }
+    },
+    {
+      "id": "980a0107-b71b-44e9-bdcf-10f80ddae9a5",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "剪藏库",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2025-01-07T17:52:11.418Z",
+      "updateAt": "2026-04-19T10:36:35.585Z",
+      "viewType": "gallary",
+      "newPageNameFormat": "{{date:YYYYMMDDHHmmss}} ",
+      "properties": [
+        {
+          "id": "44f9f9a7-090a-46e7-8c9c-3c9ae959297e",
+          "name": "tags",
+          "isShow": true,
+          "type": "multiSelect",
+          "options": {
+            "width": "321"
+          }
+        },
+        {
+          "id": "__componentsTitleProperty_0x7c00",
+          "name": "文件名",
+          "type": "text",
+          "isShow": true,
+          "wrap": false,
+          "options": {
+            "width": "864"
+          }
+        },
+        {
+          "id": "a1f8d62d-6615-49ed-aba4-599480051d60",
+          "name": "author",
+          "isShow": false,
+          "type": "multiSelect",
+          "options": {}
+        },
+        {
+          "id": "b7b67b52-ea56-40b6-a2d0-81f245ca9279",
+          "name": "source",
+          "isShow": false,
+          "type": "text",
+          "options": {}
+        },
+        {
+          "id": "ef07d920-0d35-461d-9206-272c36e972a6",
+          "name": "created",
+          "isShow": true,
+          "type": "text",
+          "options": {}
+        }
+      ],
+      "templates": [],
+      "groups": [],
+      "colorfulGroups": false,
+      "viewOptions": {
+        "openPageIn": "tab",
+        "openPageAfterCreate": true,
+        "itemSize": "components--page-card-large",
+        "showPropertyName": true,
+        "showAllProperties": false,
+        "items": [],
+        "cover": {
+          "type": "textContent",
+          "source": "default",
+          "fit": "contains",
+          "layout": "components--page-card-cover-landscape",
+          "position": "top"
+        },
+        "showGrid": false,
+        "heightType": "auto",
+        "heightValue": 600
+      },
+      "filter": {
+        "id": "b5f7ef65-b4c2-425e-a993-df628f7a37f3",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "42299b6c-3970-4217-a9bc-7847eb7c9ada",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.path}",
+            "value": "120【剪藏】Clippings",
+            "conditions": []
+          },
+          {
+            "id": "252f4112-b562-4e32-9ffe-f586a3aa041a",
+            "type": "filter",
+            "operator": "equals",
+            "property": "${file.extension}",
+            "value": "md",
+            "conditions": []
+          }
+        ]
+      },
+      "sort": {
+        "orders": [
+          {
+            "id": "db912f93-6f8b-4a0b-b80c-5f57d8a3cdf8",
+            "property": "${file.ctime}",
+            "direction": "desc",
+            "disabled": false
+          }
+        ]
+      },
+      "loadLimitPerPage": "10",
+      "showTitle": false,
+      "title": "剪藏库",
+      "groupBy": "date",
+      "groupStates": {
+        "sort": "nameDesc",
+        "format": "year",
+        "statics": [],
+        "orders": [],
+        "hiddens": [],
+        "collapseds": [
+          "__$uncategorizedGroup"
+        ]
+      }
+    },
+    {
+      "id": "81123e67-8689-48d8-9c7a-4da81f732a77",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showTitle": true,
+      "showShadow": false,
+      "createAt": "2026-03-29T01:42:45.620Z",
+      "updateAt": "2026-04-30T03:13:37.190Z",
+      "viewType": "gallary",
+      "newPageNameFormat": "{{date:YYYYMMDDHHmmss}} ",
+      "properties": [
+        {
+          "id": "0062d123-a26b-435d-8eb0-e2292ce16d08",
+          "name": "title",
+          "isShow": false,
+          "type": "text",
+          "options": {}
+        },
+        {
+          "id": "__componentsTitleProperty_0x7c00",
+          "name": "文件名",
+          "type": "text",
+          "isShow": true,
+          "wrap": false,
+          "options": {}
+        },
+        {
+          "id": "790ff8b5-ec24-4337-bc79-328395bab263",
+          "name": "${file.tags}",
+          "isShow": true,
+          "type": "multiSelect",
+          "options": {}
+        }
+      ],
+      "templates": [],
+      "groups": [],
+      "colorfulGroups": false,
+      "viewOptions": {
+        "openPageIn": "tab",
+        "openPageAfterCreate": true,
+        "itemSize": "components--page-card-large",
+        "showPropertyName": false,
+        "showAllProperties": false,
+        "items": [],
+        "cover": {
+          "type": "textContent",
+          "source": "default",
+          "fit": "contains",
+          "layout": "components--page-card-cover-landscape",
+          "position": "top"
+        },
+        "pinFiltersToMenuBar": false,
+        "hideHeaderMenu": false,
+        "showGrid": false,
+        "heightType": "auto",
+        "heightValue": 600
+      },
+      "groupStates": {
+        "sort": "nameAsc",
+        "statics": [],
+        "orders": [],
+        "hiddens": [],
+        "collapseds": []
+      },
+      "title": "Inbox",
+      "filter": {
+        "id": "cb100133-20f6-4b94-98ce-b9f42ab815d7",
+        "type": "group",
+        "operator": "or",
+        "conditions": [
+          {
+            "id": "92da501d-cadb-4e54-bb50-dbeb6ac75fa1",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.tags}",
+            "value": "#Inbox",
+            "conditions": []
+          },
+          {
+            "id": "76b7132b-d8c1-4ab5-9e43-6892ea7aa1a8",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.basename}",
+            "value": "【Inbox】",
+            "conditions": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "aabc852d-d95b-4d82-a2f4-861bf099961a",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "剪藏库",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2025-01-07T17:52:11.418Z",
+      "updateAt": "2026-04-20T06:42:03.224Z",
+      "viewType": "gallary",
+      "newPageNameFormat": "{{date:YYYYMMDDHHmmss}} ",
+      "properties": [
+        {
+          "id": "44f9f9a7-090a-46e7-8c9c-3c9ae959297e",
+          "name": "tags",
+          "isShow": true,
+          "type": "multiSelect",
+          "options": {
+            "width": "321"
+          }
+        },
+        {
+          "id": "__componentsTitleProperty_0x7c00",
+          "name": "文件名",
+          "type": "text",
+          "isShow": true,
+          "wrap": false,
+          "options": {
+            "width": "864"
+          }
+        },
+        {
+          "id": "a1f8d62d-6615-49ed-aba4-599480051d60",
+          "name": "author",
+          "isShow": false,
+          "type": "multiSelect",
+          "options": {}
+        },
+        {
+          "id": "b7b67b52-ea56-40b6-a2d0-81f245ca9279",
+          "name": "source",
+          "isShow": false,
+          "type": "text",
+          "options": {}
+        },
+        {
+          "id": "ef07d920-0d35-461d-9206-272c36e972a6",
+          "name": "created",
+          "isShow": true,
+          "type": "text",
+          "options": {}
+        }
+      ],
+      "templates": [],
+      "groups": [],
+      "colorfulGroups": false,
+      "viewOptions": {
+        "openPageIn": "tab",
+        "openPageAfterCreate": true,
+        "itemSize": "components--page-card-large",
+        "showPropertyName": true,
+        "showAllProperties": false,
+        "items": [],
+        "cover": {
+          "type": "textContent",
+          "source": "default",
+          "fit": "contains",
+          "layout": "components--page-card-cover-landscape",
+          "position": "top"
+        },
+        "showGrid": false,
+        "heightType": "auto",
+        "heightValue": 600
+      },
+      "filter": {
+        "id": "b5f7ef65-b4c2-425e-a993-df628f7a37f3",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "42299b6c-3970-4217-a9bc-7847eb7c9ada",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.path}",
+            "value": "130【视频】VideoNote",
+            "conditions": []
+          },
+          {
+            "id": "252f4112-b562-4e32-9ffe-f586a3aa041a",
+            "type": "filter",
+            "operator": "equals",
+            "property": "${file.extension}",
+            "value": "md",
+            "conditions": []
+          },
+          {
+            "id": "3bd71b6e-d96e-44be-ade3-512c8c87fffd",
+            "type": "filter",
+            "operator": "not_contains",
+            "property": "${file.tags}",
+            "value": "#Excalidraw",
+            "conditions": []
+          }
+        ]
+      },
+      "sort": {
+        "orders": [
+          {
+            "id": "db912f93-6f8b-4a0b-b80c-5f57d8a3cdf8",
+            "property": "${file.ctime}",
+            "direction": "desc",
+            "disabled": false
+          }
+        ]
+      },
+      "loadLimitPerPage": "10",
+      "showTitle": false,
+      "title": "视频库",
+      "groupBy": "date",
+      "groupStates": {
+        "sort": "nameDesc",
+        "format": "year",
+        "statics": [],
+        "orders": [],
+        "hiddens": [],
+        "collapseds": []
+      }
+    },
+    {
+      "id": "c94e83b4-26df-4812-be15-9a53badf2168",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "剪藏库",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2025-01-07T17:52:11.418Z",
+      "updateAt": "2026-04-30T03:37:45.395Z",
+      "viewType": "gallary",
+      "newPageNameFormat": "{{date:YYYYMMDDHHmmss}} ",
+      "properties": [
+        {
+          "id": "44f9f9a7-090a-46e7-8c9c-3c9ae959297e",
+          "name": "tags",
+          "isShow": true,
+          "type": "multiSelect",
+          "options": {
+            "width": "321"
+          }
+        },
+        {
+          "id": "__componentsTitleProperty_0x7c00",
+          "name": "文件名",
+          "type": "text",
+          "isShow": true,
+          "wrap": false,
+          "options": {
+            "width": "864"
+          }
+        },
+        {
+          "id": "a1f8d62d-6615-49ed-aba4-599480051d60",
+          "name": "author",
+          "isShow": false,
+          "type": "multiSelect",
+          "options": {}
+        },
+        {
+          "id": "b7b67b52-ea56-40b6-a2d0-81f245ca9279",
+          "name": "source",
+          "isShow": false,
+          "type": "text",
+          "options": {}
+        },
+        {
+          "id": "ef07d920-0d35-461d-9206-272c36e972a6",
+          "name": "created",
+          "isShow": true,
+          "type": "text",
+          "options": {}
+        }
+      ],
+      "templates": [],
+      "groups": [],
+      "colorfulGroups": false,
+      "viewOptions": {
+        "openPageIn": "tab",
+        "openPageAfterCreate": true,
+        "itemSize": "components--page-card-large",
+        "showPropertyName": true,
+        "showAllProperties": false,
+        "items": [],
+        "cover": {
+          "type": "textContent",
+          "source": "default",
+          "fit": "contains",
+          "layout": "components--page-card-cover-landscape",
+          "position": "top"
+        },
+        "showGrid": false,
+        "heightType": "auto",
+        "heightValue": 600
+      },
+      "filter": {
+        "id": "b5f7ef65-b4c2-425e-a993-df628f7a37f3",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "42299b6c-3970-4217-a9bc-7847eb7c9ada",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.path}",
+            "value": "100【收纳盒】Inbox/150【便签】Zettelkasten",
+            "conditions": []
+          },
+          {
+            "id": "252f4112-b562-4e32-9ffe-f586a3aa041a",
+            "type": "filter",
+            "operator": "equals",
+            "property": "${file.extension}",
+            "value": "canvas",
+            "conditions": []
+          }
+        ]
+      },
+      "sort": {
+        "orders": [
+          {
+            "id": "db912f93-6f8b-4a0b-b80c-5f57d8a3cdf8",
+            "property": "${file.ctime}",
+            "direction": "desc",
+            "disabled": false
+          }
+        ]
+      },
+      "loadLimitPerPage": "10",
+      "showTitle": false,
+      "title": "便签库",
+      "groupBy": "",
+      "groupStates": {
+        "sort": "nameAsc",
+        "format": "none",
+        "statics": [],
+        "orders": [],
+        "hiddens": [],
+        "collapseds": []
+      },
+      "newPageLocation": {
+        "location": "100【收纳盒】Inbox/150【便签】Zettelkasten"
+      }
+    },
+    {
+      "id": "884b46d4-32ab-441a-89f3-e4e7fe6da3e3",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2025-01-07T17:52:11.418Z",
+      "updateAt": "2026-05-06T12:31:24.578Z",
+      "viewType": "gallary",
+      "newPageNameFormat": "{{date:YYYYMMDDHHmmss}} ",
+      "properties": [
+        {
+          "id": "44f9f9a7-090a-46e7-8c9c-3c9ae959297e",
+          "name": "tags",
+          "isShow": true,
+          "type": "multiSelect",
+          "options": {
+            "width": "321"
+          }
+        },
+        {
+          "id": "__componentsTitleProperty_0x7c00",
+          "name": "文件名",
+          "type": "text",
+          "isShow": true,
+          "wrap": false,
+          "options": {
+            "width": "864"
+          }
+        },
+        {
+          "id": "a1f8d62d-6615-49ed-aba4-599480051d60",
+          "name": "author",
+          "isShow": false,
+          "type": "multiSelect",
+          "options": {}
+        },
+        {
+          "id": "b7b67b52-ea56-40b6-a2d0-81f245ca9279",
+          "name": "source",
+          "isShow": false,
+          "type": "text",
+          "options": {}
+        },
+        {
+          "id": "ef07d920-0d35-461d-9206-272c36e972a6",
+          "name": "created",
+          "isShow": true,
+          "type": "text",
+          "options": {}
+        }
+      ],
+      "templates": [],
+      "groups": [],
+      "colorfulGroups": false,
+      "viewOptions": {
+        "openPageIn": "tab",
+        "openPageAfterCreate": true,
+        "itemSize": "components--page-card-large",
+        "showPropertyName": true,
+        "showAllProperties": false,
+        "items": [],
+        "cover": {
+          "type": "textContent",
+          "source": "default",
+          "fit": "contains",
+          "layout": "components--page-card-cover-landscape",
+          "position": "top"
+        },
+        "showGrid": false,
+        "heightType": "auto",
+        "heightValue": 600
+      },
+      "filter": {
+        "id": "b5f7ef65-b4c2-425e-a993-df628f7a37f3",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "42299b6c-3970-4217-a9bc-7847eb7c9ada",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.path}",
+            "value": "160【片段】CodeSnippets",
+            "conditions": []
+          },
+          {
+            "id": "252f4112-b562-4e32-9ffe-f586a3aa041a",
+            "type": "filter",
+            "operator": "equals",
+            "property": "${file.extension}",
+            "value": "md",
+            "conditions": []
+          },
+          {
+            "id": "ea71a0c1-e591-49fe-ac9b-32ee65912f8e",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.basename}",
+            "value": "Snippets",
+            "conditions": []
+          }
+        ]
+      },
+      "sort": {
+        "orders": [
+          {
+            "id": "db912f93-6f8b-4a0b-b80c-5f57d8a3cdf8",
+            "property": "${file.ctime}",
+            "direction": "desc",
+            "disabled": false
+          }
+        ]
+      },
+      "loadLimitPerPage": "10",
+      "showTitle": false,
+      "title": "片段库",
+      "groupBy": "",
+      "groupStates": {
+        "sort": "nameAsc",
+        "format": "none",
+        "statics": [],
+        "orders": [],
+        "hiddens": [],
+        "collapseds": []
+      },
+      "newPageLocation": {
+        "location": "100【收纳盒】Inbox/150【便签】Zettelkasten"
+      }
+    }
+  ],
+  "rootComponentId": "041e5267-c155-4cd7-a55b-79446398be8e",
+  "version": 3.1
+}

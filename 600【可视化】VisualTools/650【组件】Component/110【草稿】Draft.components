@@ -1,0 +1,121 @@
+{
+  "components": [
+    {
+      "id": "c2dabb6e-78cc-4e10-b4cb-a967fa48d66b",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-12T09:05:51.565Z",
+      "updateAt": "2026-03-27T13:51:57.315Z",
+      "components": [
+        {
+          "componentId": "5c99e3cb-adc3-4036-ac6f-4ba4c10467ee"
+        }
+      ],
+      "layoutType": "column",
+      "activeComponentId": "029906be-796c-4493-be3e-edfb2bcd8464",
+      "locked": true
+    },
+    {
+      "id": "5c99e3cb-adc3-4036-ac6f-4ba4c10467ee",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "Gallery",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-12T09:05:59.364Z",
+      "updateAt": "2026-04-06T01:36:18.420Z",
+      "viewType": "gallary",
+      "newPageNameFormat": "{{date:YYYYMMDDHHmmss}} new",
+      "properties": [
+        {
+          "id": "8cbccd87-139f-4d52-a7c8-b80da0d716c1",
+          "name": "${file.tags}",
+          "isShow": true,
+          "type": "multiSelect",
+          "options": {}
+        }
+      ],
+      "templates": [],
+      "groups": [],
+      "viewOptions": {
+        "openPageIn": "tab",
+        "openPageAfterCreate": false,
+        "itemSize": "components--page-card-large",
+        "showPropertyName": false,
+        "showAllProperties": false,
+        "items": [
+          "600【草稿】Draft/2025/2025-01/【Draft】250102_081048.md",
+          "600【草稿】Draft/2024/2024-12/241221_Excalidraw脚本：快速挖空制卡.md",
+          "600【草稿】Draft/2024/2024-11/【Draft】241117_014455.md",
+          "600【草稿】Draft/2024/2024-12/241224_将标签加入笔记名.md",
+          "600【草稿】Draft/2024/2024-11/【Draft】基于深度学习的目标检测算法综述.md",
+          "600【草稿】Draft/2024/2024-10/241103_标注关键点检测数据集.md",
+          "600【草稿】Draft/2024/2024-11/【Draft】241112_111528.md",
+          "600【草稿】Draft/2024/2024-11/【Draft】241121_063857.md",
+          "600【草稿】Draft/2024/2024-07/240726_105309.md",
+          "600【草稿】Draft/2024/2024-07/240726_Excalidraw脚本-保存设置不同样式界面.md",
+          "600【草稿】Draft/2024/2024-07/240726_021045.md",
+          "600【草稿】Draft/2024/2024-07/240723_Eagle如何管理素材 by Mr.叶.md",
+          "600【草稿】Draft/2024/2024-07/240712_基于知识图谱的RAG套件.md",
+          "600【草稿】Draft/2024/2024-07/240710_在win上有没有什么ob插件或软件能做到和marginnote类似的功能呀？.md",
+          "600【草稿】Draft/2024/2024-07/240706_图书获取的资源汇总.md",
+          "600【草稿】Draft/2024/2024-05/240514_心理学相关检索.md"
+        ],
+        "cover": {
+          "type": "textContent",
+          "value": "",
+          "fit": "contains",
+          "layout": "components--page-card-cover-landscape",
+          "pageContentPreview": true,
+          "position": "top",
+          "source": "default"
+        },
+        "hideFileName": false,
+        "wrapFileName": true,
+        "dateProperty": "${file.ctime}"
+      },
+      "filter": {
+        "id": "637e0c43-f651-4418-a1f0-b495408bb345",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "70b56eec-75c4-42ba-8359-b2ba234a3a9b",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.path}",
+            "value": "110【草稿】Draft",
+            "conditions": []
+          },
+          {
+            "id": "599a4568-cc17-4d95-8bc0-f962882f9063",
+            "type": "filter",
+            "operator": "regex_match",
+            "property": "${file.parent}",
+            "value": "\\d{4}",
+            "conditions": []
+          }
+        ]
+      },
+      "loadLimitPerPage": 10,
+      "sort": {
+        "orders": [
+          {
+            "id": "5335318a-89d6-4085-9418-7c0890e7c34a",
+            "property": "${file.ctime}",
+            "direction": "desc",
+            "disabled": false
+          }
+        ]
+      },
+      "showTitle": false
+    }
+  ],
+  "rootComponentId": "c2dabb6e-78cc-4e10-b4cb-a967fa48d66b",
+  "version": 3.1
+}

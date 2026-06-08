@@ -1,0 +1,177 @@
+{
+  "components": [
+    {
+      "id": "e85c1052-f0c4-47e0-8cf4-420db431a9e0",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showTitle": true,
+      "showShadow": false,
+      "createAt": "2026-03-09T10:35:04.028Z",
+      "updateAt": "2026-03-28T05:30:37.745Z",
+      "components": [
+        {
+          "componentId": "f1204954-7e78-4472-8059-5e50060dfa24"
+        },
+        {
+          "componentId": "57f2cc98-0aaa-4503-8500-fb2f7e9f4110"
+        }
+      ],
+      "layoutType": "tab",
+      "locked": true,
+      "layoutOptions": {}
+    },
+    {
+      "id": "f1204954-7e78-4472-8059-5e50060dfa24",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "所有SVG",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showTitle": true,
+      "showShadow": false,
+      "createAt": "2026-03-09T10:35:17.269Z",
+      "updateAt": "2026-03-09T10:40:37.856Z",
+      "viewType": "gallary",
+      "newPageNameFormat": "{{date:YYYYMMDDHHmmss}} ",
+      "properties": [
+        {
+          "id": "__componentsTitleProperty_0x7c00",
+          "name": "文件名",
+          "type": "text",
+          "isShow": true,
+          "wrap": false,
+          "options": {}
+        }
+      ],
+      "templates": [],
+      "groups": [],
+      "colorfulGroups": false,
+      "viewOptions": {
+        "openPageIn": "modal",
+        "openPageAfterCreate": true,
+        "itemSize": "components--page-card-medium",
+        "showPropertyName": false,
+        "showAllProperties": false,
+        "items": [],
+        "cover": {
+          "type": "textContent",
+          "source": "default",
+          "fit": "contains",
+          "layout": "components--page-card-cover-landscape",
+          "position": "top"
+        },
+        "pinFiltersToMenuBar": false,
+        "hideHeaderMenu": false,
+        "showGrid": false,
+        "heightType": "auto",
+        "heightValue": 600
+      },
+      "groupStates": {
+        "sort": "nameAsc",
+        "statics": [],
+        "orders": [],
+        "hiddens": [],
+        "collapseds": []
+      },
+      "filter": {
+        "id": "5f2a41b3-937b-46e9-9c42-d018d2c0b06a",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "03737314-7958-47ce-8ef1-328de61a5fbd",
+            "type": "filter",
+            "operator": "equals",
+            "property": "${file.extension}",
+            "value": "svg",
+            "conditions": []
+          }
+        ]
+      },
+      "title": "所有SVG",
+      "sort": {
+        "orders": [
+          {
+            "id": "bc66daa0-72e6-4aa2-a0e3-5542d1b4f31a",
+            "property": "${file.basename}",
+            "direction": "asc",
+            "disabled": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "57f2cc98-0aaa-4503-8500-fb2f7e9f4110",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "所有SVG",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showTitle": true,
+      "showShadow": false,
+      "createAt": "2026-03-09T10:35:17.269Z",
+      "updateAt": "2026-03-09T10:37:04.830Z",
+      "viewType": "gallary",
+      "newPageNameFormat": "{{date:YYYYMMDDHHmmss}} ",
+      "properties": [
+        {
+          "id": "__componentsTitleProperty_0x7c00",
+          "name": "文件名",
+          "type": "text",
+          "isShow": true,
+          "wrap": false,
+          "options": {}
+        }
+      ],
+      "templates": [],
+      "groups": [],
+      "colorfulGroups": false,
+      "viewOptions": {
+        "openPageIn": "tab",
+        "openPageAfterCreate": true,
+        "items": [],
+        "pinFiltersToMenuBar": false,
+        "hideHeaderMenu": false,
+        "showGrid": false,
+        "heightType": "auto",
+        "heightValue": 600
+      },
+      "groupStates": {
+        "sort": "nameAsc",
+        "statics": [],
+        "orders": [],
+        "hiddens": [],
+        "collapseds": []
+      },
+      "filter": {
+        "id": "5f2a41b3-937b-46e9-9c42-d018d2c0b06a",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "03737314-7958-47ce-8ef1-328de61a5fbd",
+            "type": "filter",
+            "operator": "equals",
+            "property": "${file.extension}",
+            "value": "svg",
+            "conditions": []
+          },
+          {
+            "id": "54344adf-14ce-42c4-b78b-3ad55b8928a9",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.parent}",
+            "value": "620【图表】Diagrams",
+            "conditions": []
+          }
+        ]
+      },
+      "title": "当前SVG"
+    }
+  ],
+  "rootComponentId": "e85c1052-f0c4-47e0-8cf4-420db431a9e0",
+  "version": 3.1
+}

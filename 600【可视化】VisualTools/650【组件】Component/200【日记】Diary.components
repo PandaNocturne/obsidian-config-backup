@@ -1,0 +1,414 @@
+{
+  "components": [
+    {
+      "id": "97d3a857-d914-4abd-b414-459711470f64",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-12T03:33:35.523Z",
+      "updateAt": "2026-04-08T12:34:07.592Z",
+      "components": [
+        {
+          "componentId": "ffbde149-5033-4f1d-8122-e361513bf911"
+        },
+        {
+          "componentId": "99273e87-b9c6-40f8-93c6-4e70938db29a"
+        },
+        {
+          "componentId": "573003a0-b25d-4092-9c1e-de7e1630840f"
+        }
+      ],
+      "layoutType": "tab",
+      "activeComponentId": "ffbde149-5033-4f1d-8122-e361513bf911",
+      "locked": true
+    },
+    {
+      "id": "ffbde149-5033-4f1d-8122-e361513bf911",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "日记画廊",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-12T03:34:13.956Z",
+      "updateAt": "2026-04-16T01:44:46.762Z",
+      "viewType": "gallary",
+      "newPageNameFormat": "{{date:YYYY-MM-DD_HHmmss}}",
+      "properties": [
+        {
+          "id": "__componentsTitleProperty_0x7c00",
+          "name": "文件名",
+          "type": "text",
+          "isShow": false,
+          "wrap": false,
+          "options": {}
+        },
+        {
+          "id": "cd4f4624-64d5-455e-b0c7-9292d797f52d",
+          "name": "title",
+          "isShow": true,
+          "type": "text",
+          "options": {}
+        },
+        {
+          "id": "693a7209-ac2f-43d2-adbd-14755604e569",
+          "name": "date",
+          "isShow": true,
+          "type": "date",
+          "options": {}
+        },
+        {
+          "id": "d01120b1-34ea-4b14-9d63-7701161df784",
+          "name": "tags",
+          "isShow": true,
+          "type": "multiSelect",
+          "options": {}
+        }
+      ],
+      "templates": [],
+      "groups": [],
+      "viewOptions": {
+        "openPageIn": "modal",
+        "openPageAfterCreate": false,
+        "itemSize": "components--page-card-large",
+        "showPropertyName": true,
+        "showAllProperties": true,
+        "items": [],
+        "cover": {
+          "type": "textContent",
+          "value": "",
+          "fit": "cover",
+          "layout": "components--page-card-cover-landscape",
+          "pageContentPreview": true
+        },
+        "hideFileName": false,
+        "wrapFileName": true
+      },
+      "newPageLocation": {
+        "location": "200【日记】Diary"
+      },
+      "loadLimitPerPage": 10,
+      "filter": {
+        "id": "144f1550-582f-4f4b-ad99-ffa854972965",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "dc65852d-e571-447d-a791-fa37230d1ce4",
+            "type": "filter",
+            "operator": "equals",
+            "property": "${file.path}",
+            "value": "200【日记】Diary",
+            "conditions": []
+          },
+          {
+            "id": "c835e852-0faf-4e29-9fd1-6b9ef7a29a5b",
+            "type": "filter",
+            "operator": "regex_match",
+            "property": "${file.parent}",
+            "value": "\\d{4}",
+            "conditions": []
+          }
+        ]
+      },
+      "sort": {
+        "orders": [
+          {
+            "id": "92b4909f-cc84-4ded-a57b-0e1134e2782b",
+            "property": "date",
+            "direction": "desc"
+          }
+        ]
+      },
+      "showTitle": false,
+      "title": "日记画廊"
+    },
+    {
+      "id": "49fe8be2-dbdf-450e-b5c3-f1f1b248523a",
+      "type": "count",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-12T03:46:21.114Z",
+      "updateAt": "2024-07-12T03:46:21.114Z",
+      "contentPrefix": "",
+      "contentSuffix": "",
+      "countType": "number",
+      "precision": 0,
+      "query": {
+        "valueType": "totalRecords",
+        "value": 100,
+        "filter": {
+          "id": "2d86e972-64e2-4efa-80e3-61d6e2aa4884",
+          "type": "group",
+          "operator": "and",
+          "conditions": []
+        }
+      },
+      "totalQuery": {
+        "valueType": "constant",
+        "value": 100,
+        "filter": {
+          "id": "6e4e120e-b843-4e10-9b76-895709af740c",
+          "type": "group",
+          "operator": "and",
+          "conditions": []
+        }
+      }
+    },
+    {
+      "id": "d06662f0-e469-4e10-ab17-ec674d5e8c51",
+      "type": "dateProgress",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-12T03:46:33.892Z",
+      "updateAt": "2024-07-12T03:46:33.892Z",
+      "showDateIndicator": true,
+      "showProgressIndicator": true,
+      "startDateTimeType": "$specifiedDateTime",
+      "endDateTimeType": "$specifiedDateTime",
+      "uiType": "ring"
+    },
+    {
+      "id": "c07ef1cb-b60c-4834-9431-34fd3c333c1d",
+      "type": "card",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-12T03:47:58.320Z",
+      "updateAt": "2024-07-12T03:47:58.320Z",
+      "title": "未命名",
+      "description": "",
+      "coverFit": "cover",
+      "coverPosition": "left",
+      "clickAction": {
+        "type": "CallCommand",
+        "id": "7d1b5cb6-7118-4a5c-8a35-47a2baa88b69",
+        "options": {}
+      }
+    },
+    {
+      "id": "c7abc8e3-ccba-491c-b2b0-7c199aec8501",
+      "type": "chart",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-12T03:48:23.418Z",
+      "updateAt": "2024-07-12T03:48:23.418Z",
+      "chartType": "bar",
+      "maxHeight": 300,
+      "labelProperty": "",
+      "labelFormat": "$none",
+      "valueProperty": "$file_count",
+      "filter": {
+        "id": "beb64d8c-9c42-47e6-8463-255e8720408e",
+        "type": "group",
+        "operator": "and",
+        "conditions": []
+      },
+      "chartColorSet": [],
+      "chartLabelPosition": "top",
+      "categoryProperty": "",
+      "categoryFormatPattern": null,
+      "series": [
+        {
+          "id": "60676931-daaa-416d-9764-ed18d2aab7d6",
+          "name": "$file_count",
+          "precision": null
+        }
+      ]
+    },
+    {
+      "id": "573003a0-b25d-4092-9c1e-de7e1630840f",
+      "type": "timeLine",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-01-12T09:21:59.723Z",
+      "updateAt": "2026-04-08T12:16:07.054Z",
+      "filter": {
+        "id": "2b793893-25e9-49d4-8586-e3b8bd4ac022",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "7772b3aa-e22c-43be-8573-ecd445956d2d",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.path}",
+            "value": "200【日记】Diary",
+            "conditions": []
+          },
+          {
+            "id": "ebdf08d6-4e0a-4da0-b042-1d782bf7b2db",
+            "type": "filter",
+            "operator": "regex_match",
+            "property": "${file.parent}",
+            "value": "\\d{4}",
+            "conditions": []
+          }
+        ]
+      },
+      "sort": {
+        "orders": [
+          {
+            "id": "c7306168-0db8-4c4a-9cbc-3910adb165f3",
+            "property": "${file.basename}",
+            "direction": "desc",
+            "disabled": false
+          }
+        ]
+      },
+      "nodeTitle": {
+        "property": "${file.basename}",
+        "format": "yyyy-MM-dd"
+      },
+      "nodeCover": {
+        "type": "image",
+        "coverTypeLabel": "节点封面"
+      },
+      "direction": "vertical",
+      "nodeStatus": {
+        "options": [],
+        "property": "date"
+      },
+      "titleElement": {
+        "properties": [
+          {
+            "id": "dfa0961a-e94c-4d9e-ba11-4df9e22570b1",
+            "property": "title"
+          },
+          {
+            "id": "498c9332-8a0d-44de-b0ce-27ebd8b62c81",
+            "property": "date"
+          }
+        ]
+      }
+    },
+    {
+      "id": "99273e87-b9c6-40f8-93c6-4e70938db29a",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "算命记录",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-12T03:34:13.956Z",
+      "updateAt": "2026-04-16T01:45:01.756Z",
+      "viewType": "gallary",
+      "newPageNameFormat": "{{date:YYYY-MM-DD_HHmmss}}",
+      "properties": [
+        {
+          "id": "__componentsTitleProperty_0x7c00",
+          "name": "文件名",
+          "type": "text",
+          "isShow": false,
+          "wrap": false,
+          "options": {}
+        },
+        {
+          "id": "cd4f4624-64d5-455e-b0c7-9292d797f52d",
+          "name": "title",
+          "isShow": true,
+          "type": "text",
+          "options": {}
+        },
+        {
+          "id": "693a7209-ac2f-43d2-adbd-14755604e569",
+          "name": "date",
+          "isShow": true,
+          "type": "date",
+          "options": {}
+        },
+        {
+          "id": "d01120b1-34ea-4b14-9d63-7701161df784",
+          "name": "tags",
+          "isShow": true,
+          "type": "multiSelect",
+          "options": {}
+        }
+      ],
+      "templates": [],
+      "groups": [],
+      "viewOptions": {
+        "openPageIn": "modal",
+        "openPageAfterCreate": false,
+        "itemSize": "components--page-card-large",
+        "showPropertyName": true,
+        "showAllProperties": true,
+        "items": [],
+        "cover": {
+          "type": "textContent",
+          "value": "",
+          "fit": "cover",
+          "layout": "components--page-card-cover-landscape",
+          "pageContentPreview": true
+        },
+        "hideFileName": false,
+        "wrapFileName": true
+      },
+      "newPageLocation": {
+        "location": "200【日记】Diary"
+      },
+      "loadLimitPerPage": 10,
+      "filter": {
+        "id": "144f1550-582f-4f4b-ad99-ffa854972965",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "dc65852d-e571-447d-a791-fa37230d1ce4",
+            "type": "filter",
+            "operator": "equals",
+            "property": "${file.path}",
+            "value": "200【日记】Diary",
+            "conditions": []
+          },
+          {
+            "id": "c835e852-0faf-4e29-9fd1-6b9ef7a29a5b",
+            "type": "filter",
+            "operator": "regex_match",
+            "property": "${file.parent}",
+            "value": "\\d{4}",
+            "conditions": []
+          },
+          {
+            "id": "89c3a1e6-9c7d-44ec-8c5b-c7e513a5b36b",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.tags}",
+            "value": "#算命记录",
+            "conditions": []
+          }
+        ]
+      },
+      "sort": {
+        "orders": [
+          {
+            "id": "92b4909f-cc84-4ded-a57b-0e1134e2782b",
+            "property": "date",
+            "direction": "desc"
+          }
+        ]
+      },
+      "showTitle": false,
+      "title": "算命记录"
+    }
+  ],
+  "rootComponentId": "97d3a857-d914-4abd-b414-459711470f64",
+  "version": 3.1
+}

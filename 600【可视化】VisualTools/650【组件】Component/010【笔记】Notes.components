@@ -1,0 +1,291 @@
+{
+  "components": [
+    {
+      "id": "68fde834-0508-4b65-9bbf-6f6429e4c562",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2025-01-12T07:32:15.430Z",
+      "updateAt": "2025-01-12T07:32:15.430Z",
+      "components": [
+        {
+          "componentId": "524af02c-9db8-4451-9395-b0338a3d3a4b"
+        },
+        {
+          "componentId": "67f31742-b43b-4abc-9453-3b2031516c8a"
+        }
+      ],
+      "layoutType": "tab",
+      "locked": false,
+      "layoutOptions": {}
+    },
+    {
+      "id": "524af02c-9db8-4451-9395-b0338a3d3a4b",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "碎片名词",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2025-01-12T07:40:10.091Z",
+      "updateAt": "2025-01-12T07:40:10.091Z",
+      "viewType": "gallary",
+      "newPageNameFormat": "{{date:YYYYMMDDHHmmss}} ",
+      "properties": [
+        {
+          "id": "__componentsTitleProperty_0x7c00",
+          "name": "文件名",
+          "type": "text",
+          "isShow": true,
+          "wrap": false,
+          "options": {}
+        }
+      ],
+      "templates": [],
+      "groups": [],
+      "colorfulGroups": false,
+      "viewOptions": {
+        "openPageIn": "tab",
+        "openPageAfterCreate": true,
+        "items": [],
+        "showGrid": false,
+        "heightType": "auto",
+        "heightValue": 600
+      },
+      "filter": {
+        "id": "2a0517fc-cba4-437f-bf3e-05b7aa32057c",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "9b3c1b7b-fd16-4bf4-994c-4d1f6e323013",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.path}",
+            "value": "100【收集】Inbox/碎片名词",
+            "conditions": []
+          }
+        ]
+      },
+      "loadLimitPerPage": 25,
+      "showTitle": false
+    },
+    {
+      "id": "67f31742-b43b-4abc-9453-3b2031516c8a",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-08-27T06:44:04.292Z",
+      "updateAt": "2024-08-27T06:44:04.292Z",
+      "components": [
+        {
+          "componentId": "5d044f53-0292-4eab-8c4d-d259e4d9ba5c"
+        },
+        {
+          "componentId": "714a2f3a-40b4-43e1-a06b-44e65f6f672f"
+        }
+      ],
+      "layoutType": "tab"
+    },
+    {
+      "id": "5d044f53-0292-4eab-8c4d-d259e4d9ba5c",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "当前Excalidraw",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-08-27T06:44:14.031Z",
+      "updateAt": "2024-08-27T06:44:14.031Z",
+      "viewType": "gallary",
+      "newPageNameFormat": "{{date:YYYYMMDDHHmmss}} new",
+      "properties": [
+        {
+          "id": "__componentsTitleProperty_0x7c00",
+          "name": "File Basename",
+          "type": "text",
+          "isShow": true,
+          "wrap": false,
+          "options": {}
+        },
+        {
+          "id": "587c888c-b31e-43c8-91ef-a29cb2029969",
+          "name": "aliases",
+          "isShow": true,
+          "type": "multiSelect",
+          "options": {}
+        }
+      ],
+      "templates": [
+        {
+          "id": "fbd7b1f4-c472-476f-b11b-6d4f46e95dee",
+          "path": "700【模板】Template/Template：Create Excalidraw.md",
+          "name": "Template：Create Excalidraw.md",
+          "type": "templater"
+        }
+      ],
+      "groups": [],
+      "colorfulGroups": false,
+      "viewOptions": {
+        "openPageIn": "tab",
+        "openPageAfterCreate": false,
+        "itemSize": "components--page-card-large",
+        "showPropertyName": false,
+        "showAllProperties": false,
+        "items": [],
+        "cover": {
+          "type": "textContent",
+          "value": "",
+          "fit": "cover",
+          "layout": "components--page-card-cover-landscape",
+          "pageContentPreview": true,
+          "position": "top",
+          "source": "default"
+        },
+        "hideFileName": false,
+        "wrapFileName": true
+      },
+      "filter": {
+        "id": "8ddce8e0-ddb0-4fcc-8f62-f0bfc376e601",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "5c8a09f6-38d8-414a-890e-0dfecaf137f6",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.basename}",
+            "value": ".excalidraw",
+            "conditions": []
+          },
+          {
+            "id": "a1a5f853-484c-4603-9d03-a217b4ea01a1",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.path}",
+            "value": "610【画板】Excalidraw",
+            "conditions": []
+          }
+        ]
+      },
+      "newPageLocation": {
+        "location": "610【画板】Excalidraw"
+      },
+      "loadLimitPerPage": 25,
+      "defaultTemplate": "fbd7b1f4-c472-476f-b11b-6d4f46e95dee",
+      "sort": {
+        "orders": [
+          {
+            "id": "f0fec91b-d3f2-448b-80fd-5b51d8a76074",
+            "property": "${file.ctime}",
+            "direction": "desc"
+          }
+        ]
+      },
+      "showTitle": false
+    },
+    {
+      "id": "714a2f3a-40b4-43e1-a06b-44e65f6f672f",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "全部Excalidraw",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-08-27T06:44:14.031Z",
+      "updateAt": "2024-08-27T06:44:14.031Z",
+      "viewType": "gallary",
+      "newPageNameFormat": "{{date:YYYYMMDDHHmmss}} new",
+      "properties": [
+        {
+          "id": "__componentsTitleProperty_0x7c00",
+          "name": "File Basename",
+          "type": "text",
+          "isShow": true,
+          "wrap": false,
+          "options": {}
+        },
+        {
+          "id": "587c888c-b31e-43c8-91ef-a29cb2029969",
+          "name": "aliases",
+          "isShow": true,
+          "type": "multiSelect",
+          "options": {}
+        }
+      ],
+      "templates": [
+        {
+          "id": "fbd7b1f4-c472-476f-b11b-6d4f46e95dee",
+          "path": "700【模板】Template/Template：Create Excalidraw.md",
+          "name": "Template：Create Excalidraw.md",
+          "type": "templater"
+        }
+      ],
+      "groups": [],
+      "colorfulGroups": false,
+      "viewOptions": {
+        "openPageIn": "tab",
+        "openPageAfterCreate": false,
+        "itemSize": "components--page-card-large",
+        "showPropertyName": false,
+        "showAllProperties": false,
+        "items": [],
+        "cover": {
+          "type": "textContent",
+          "value": "",
+          "fit": "cover",
+          "layout": "components--page-card-cover-landscape",
+          "pageContentPreview": true
+        },
+        "hideFileName": false,
+        "wrapFileName": true
+      },
+      "filter": {
+        "id": "8ddce8e0-ddb0-4fcc-8f62-f0bfc376e601",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "5c8a09f6-38d8-414a-890e-0dfecaf137f6",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.basename}",
+            "value": ".excalidraw",
+            "conditions": []
+          },
+          {
+            "id": "0db55bc3-4d86-4812-8b15-15bf57f1407c",
+            "type": "filter",
+            "operator": "not_contains",
+            "property": "${file.path}",
+            "value": "610【画板】Excalidraw",
+            "conditions": []
+          }
+        ]
+      },
+      "newPageLocation": {
+        "location": "610【画板】Excalidraw"
+      },
+      "loadLimitPerPage": 10,
+      "defaultTemplate": "fbd7b1f4-c472-476f-b11b-6d4f46e95dee",
+      "sort": {
+        "orders": [
+          {
+            "id": "f0fec91b-d3f2-448b-80fd-5b51d8a76074",
+            "property": "${file.ctime}",
+            "direction": "desc"
+          }
+        ]
+      },
+      "showTitle": false
+    }
+  ],
+  "rootComponentId": "68fde834-0508-4b65-9bbf-6f6429e4c562",
+  "version": 3.1
+}

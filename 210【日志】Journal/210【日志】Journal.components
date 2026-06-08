@@ -1,0 +1,373 @@
+{
+  "components": [
+    {
+      "id": "b3013c2b-79dd-4675-8ae2-397d4f81ab5b",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2025-09-20T03:27:33.056Z",
+      "updateAt": "2026-05-07T06:09:27.613Z",
+      "components": [
+        {
+          "componentId": "6491bf92-9d81-4521-a3b8-ef41e6607f8b"
+        },
+        {
+          "componentId": "8dcaaedb-bd81-415c-92d1-715897cd270d"
+        },
+        {
+          "componentId": "39502a49-a2e0-403b-8ee0-4b801d0dda2c"
+        },
+        {
+          "componentId": "a8397429-0d59-45b8-bf60-ee66729878ac"
+        }
+      ],
+      "layoutType": "tab",
+      "locked": true,
+      "layoutOptions": {}
+    },
+    {
+      "id": "a8397429-0d59-45b8-bf60-ee66729878ac",
+      "type": "markdown",
+      "titleAlign": "center",
+      "tabTitle": "每日任务",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": true,
+      "createAt": "2025-09-21T11:34:54.962Z",
+      "updateAt": "2025-11-04T15:55:25.288Z",
+      "maxHeight": 1200,
+      "contentAlign": "left",
+      "markdownsSource": "file",
+      "markdownValue": "310【任务】Tasks/TasksCalendar.md"
+    },
+    {
+      "id": "8dcaaedb-bd81-415c-92d1-715897cd270d",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "每日日记",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2025-09-20T03:28:14.246Z",
+      "updateAt": "2026-05-07T06:13:56.812Z",
+      "viewType": "gallary",
+      "newPageNameFormat": "{{date:YYYYMMDDHHmmss}} ",
+      "properties": [
+        {
+          "id": "__componentsTitleProperty_0x7c00",
+          "name": "文件名",
+          "type": "text",
+          "isShow": true,
+          "wrap": false,
+          "options": {}
+        },
+        {
+          "id": "82b8fdce-88f2-4ec8-a447-1abde1115fd6",
+          "name": "${file.tags}",
+          "isShow": true,
+          "type": "multiSelect",
+          "options": {}
+        }
+      ],
+      "templates": [],
+      "groups": [],
+      "colorfulGroups": false,
+      "viewOptions": {
+        "openPageIn": "tab",
+        "openPageAfterCreate": false,
+        "itemSize": "components--page-card-medium",
+        "showPropertyName": false,
+        "showAllProperties": false,
+        "items": [],
+        "cover": {
+          "type": "textContent",
+          "source": "firstImageInNote",
+          "fit": "cover",
+          "layout": "components--page-card-cover-landscape",
+          "position": "top",
+          "sourceValue": "banner"
+        },
+        "pinFiltersToMenuBar": false,
+        "showGrid": false,
+        "heightType": "auto",
+        "heightValue": 600,
+        "calendarViewType": "month",
+        "dateProperty": "${file.basename}",
+        "cardColorFrom": "property",
+        "cardColorProperty": "${file.basename}"
+      },
+      "groupStates": {
+        "sort": "nameAsc",
+        "statics": [],
+        "orders": [],
+        "hiddens": [],
+        "collapseds": []
+      },
+      "filter": {
+        "id": "365ce7ef-4959-4daa-952b-f42c1128fc8d",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "1d06a982-08ef-49eb-90ce-ef40c05b4b66",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.parent}",
+            "value": "210【日志】Journal/DailyNotes",
+            "conditions": []
+          },
+          {
+            "id": "f95347f2-7f6b-4a3d-aa3a-e22ca73bb174",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.extension}",
+            "value": "md",
+            "conditions": []
+          },
+          {
+            "id": "9308e39e-0b95-463c-bd88-dfa5196b9d20",
+            "type": "filter",
+            "operator": "regex_match",
+            "property": "${file.basename}",
+            "value": "\\d{4}-\\d{2}-\\d{2}",
+            "conditions": []
+          }
+        ]
+      },
+      "sort": {
+        "orders": [
+          {
+            "id": "e1090e1b-c780-4d43-a474-e86586a8c8e1",
+            "property": "${file.basename}",
+            "direction": "desc",
+            "disabled": false
+          }
+        ]
+      },
+      "loadLimitPerPage": "25",
+      "showTitle": false,
+      "title": "每日日记"
+    },
+    {
+      "id": "39502a49-a2e0-403b-8ee0-4b801d0dda2c",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "便笺记录",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2025-09-20T03:28:14.246Z",
+      "updateAt": "2026-05-06T16:15:46.886Z",
+      "viewType": "gallary",
+      "newPageNameFormat": "{{date:YYYYMMDDHHmmss}} ",
+      "properties": [
+        {
+          "id": "__componentsTitleProperty_0x7c00",
+          "name": "文件名",
+          "type": "text",
+          "isShow": true,
+          "wrap": false,
+          "options": {}
+        },
+        {
+          "id": "82b8fdce-88f2-4ec8-a447-1abde1115fd6",
+          "name": "${file.tags}",
+          "isShow": true,
+          "type": "multiSelect",
+          "options": {}
+        }
+      ],
+      "templates": [],
+      "groups": [],
+      "colorfulGroups": false,
+      "viewOptions": {
+        "openPageIn": "tab",
+        "openPageAfterCreate": false,
+        "itemSize": "components--page-card-large",
+        "showPropertyName": false,
+        "showAllProperties": false,
+        "items": [],
+        "cover": {
+          "type": "textContent",
+          "source": "firstImageInNote",
+          "fit": "cover",
+          "layout": "components--page-card-cover-landscape",
+          "position": "top",
+          "sourceValue": "banner"
+        },
+        "pinFiltersToMenuBar": false,
+        "showGrid": false,
+        "heightType": "auto",
+        "heightValue": 600,
+        "calendarViewType": "month",
+        "dateProperty": "${file.basename}",
+        "cardColorFrom": "property",
+        "cardColorProperty": "${file.basename}"
+      },
+      "groupStates": {
+        "sort": "nameAsc",
+        "statics": [],
+        "orders": [],
+        "hiddens": [],
+        "collapseds": []
+      },
+      "filter": {
+        "id": "365ce7ef-4959-4daa-952b-f42c1128fc8d",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "1d06a982-08ef-49eb-90ce-ef40c05b4b66",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.parent}",
+            "value": "StickyNotes",
+            "conditions": []
+          },
+          {
+            "id": "f95347f2-7f6b-4a3d-aa3a-e22ca73bb174",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.extension}",
+            "value": "md",
+            "conditions": []
+          }
+        ]
+      },
+      "sort": {
+        "orders": [
+          {
+            "id": "e1090e1b-c780-4d43-a474-e86586a8c8e1",
+            "property": "${file.basename}",
+            "direction": "desc",
+            "disabled": false
+          }
+        ]
+      },
+      "loadLimitPerPage": 25,
+      "showTitle": false,
+      "title": "便笺记录"
+    },
+    {
+      "id": "6491bf92-9d81-4521-a3b8-ef41e6607f8b",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "每日图片",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2025-09-20T03:28:14.246Z",
+      "updateAt": "2026-05-24T10:08:09.313Z",
+      "viewType": "gallary",
+      "newPageNameFormat": "{{date:YYYYMMDDHHmmss}} ",
+      "properties": [
+        {
+          "id": "__componentsTitleProperty_0x7c00",
+          "name": "文件名",
+          "type": "text",
+          "isShow": true,
+          "wrap": false,
+          "options": {}
+        },
+        {
+          "id": "82b8fdce-88f2-4ec8-a447-1abde1115fd6",
+          "name": "${file.tags}",
+          "isShow": true,
+          "type": "multiSelect",
+          "options": {}
+        }
+      ],
+      "templates": [],
+      "groups": [],
+      "colorfulGroups": false,
+      "viewOptions": {
+        "openPageIn": "tab",
+        "openPageAfterCreate": false,
+        "itemSize": "components--page-card-medium",
+        "showPropertyName": false,
+        "showAllProperties": false,
+        "items": [],
+        "cover": {
+          "type": "image",
+          "source": "firstImageInNote",
+          "fit": "cover",
+          "layout": "components--page-card-cover-landscape",
+          "position": "top",
+          "sourceValue": "banner"
+        },
+        "pinFiltersToMenuBar": false,
+        "showGrid": false,
+        "heightType": "auto",
+        "heightValue": 600,
+        "calendarViewType": "month",
+        "dateProperty": "${file.basename}",
+        "cardColorFrom": "property",
+        "cardColorProperty": "${file.basename}"
+      },
+      "groupStates": {
+        "sort": "nameAsc",
+        "statics": [],
+        "orders": [],
+        "hiddens": [],
+        "collapseds": []
+      },
+      "filter": {
+        "id": "365ce7ef-4959-4daa-952b-f42c1128fc8d",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "1d06a982-08ef-49eb-90ce-ef40c05b4b66",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.parent}",
+            "value": "210【日志】Journal/DailyNotes",
+            "conditions": []
+          },
+          {
+            "id": "f95347f2-7f6b-4a3d-aa3a-e22ca73bb174",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.extension}",
+            "value": "md",
+            "conditions": []
+          },
+          {
+            "id": "9308e39e-0b95-463c-bd88-dfa5196b9d20",
+            "type": "filter",
+            "operator": "regex_match",
+            "property": "${file.basename}",
+            "value": "\\d{4}-\\d{2}-\\d{2}",
+            "conditions": []
+          },
+          {
+            "id": "c977c8b8-e65d-4eea-bd0b-f5a3e9b856aa",
+            "type": "filter",
+            "operator": "has_value",
+            "property": "banner",
+            "value": null,
+            "conditions": []
+          }
+        ]
+      },
+      "sort": {
+        "orders": [
+          {
+            "id": "e1090e1b-c780-4d43-a474-e86586a8c8e1",
+            "property": "${file.basename}",
+            "direction": "desc",
+            "disabled": false
+          }
+        ]
+      },
+      "loadLimitPerPage": "50",
+      "showTitle": false,
+      "title": "每日图片"
+    }
+  ],
+  "rootComponentId": "b3013c2b-79dd-4675-8ae2-397d4f81ab5b",
+  "version": 3.1
+}

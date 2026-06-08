@@ -1,0 +1,150 @@
+{
+  "components": [
+    {
+      "id": "cb5af69c-968b-4238-98d0-e0aa5969f3fd",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2025-01-07T17:52:03.438Z",
+      "updateAt": "2026-03-22T14:08:17.194Z",
+      "components": [
+        {
+          "componentId": "cc775ba0-27eb-4a18-ad4f-16547e07d23b",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 0,
+              "w": 4,
+              "h": 4
+            },
+            "laptop": {
+              "x": 0,
+              "y": 4,
+              "w": 4,
+              "h": 4
+            }
+          }
+        }
+      ],
+      "layoutType": "column",
+      "activeComponentId": "be74a4c2-61dd-4020-ab9b-483c4d0af4f3",
+      "locked": true
+    },
+    {
+      "id": "cc775ba0-27eb-4a18-ad4f-16547e07d23b",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2025-01-07T17:52:11.418Z",
+      "updateAt": "2026-03-22T14:09:00.527Z",
+      "viewType": "gallary",
+      "newPageNameFormat": "{{date:YYYYMMDDHHmmss}} ",
+      "properties": [
+        {
+          "id": "44f9f9a7-090a-46e7-8c9c-3c9ae959297e",
+          "name": "tags",
+          "isShow": true,
+          "type": "multiSelect",
+          "options": {
+            "width": "321"
+          }
+        },
+        {
+          "id": "__componentsTitleProperty_0x7c00",
+          "name": "文件名",
+          "type": "text",
+          "isShow": true,
+          "wrap": false,
+          "options": {
+            "width": "864"
+          }
+        },
+        {
+          "id": "a1f8d62d-6615-49ed-aba4-599480051d60",
+          "name": "author",
+          "isShow": false,
+          "type": "multiSelect",
+          "options": {}
+        },
+        {
+          "id": "b7b67b52-ea56-40b6-a2d0-81f245ca9279",
+          "name": "source",
+          "isShow": false,
+          "type": "text",
+          "options": {}
+        },
+        {
+          "id": "ef07d920-0d35-461d-9206-272c36e972a6",
+          "name": "created",
+          "isShow": true,
+          "type": "text",
+          "options": {}
+        }
+      ],
+      "templates": [],
+      "groups": [],
+      "colorfulGroups": true,
+      "viewOptions": {
+        "openPageIn": "tab",
+        "openPageAfterCreate": true,
+        "itemSize": "components--page-card-large",
+        "showPropertyName": true,
+        "showAllProperties": false,
+        "items": [],
+        "cover": {
+          "type": "textContent",
+          "source": "default",
+          "fit": "contains",
+          "layout": "components--page-card-cover-landscape",
+          "position": "top"
+        },
+        "showGrid": false,
+        "heightType": "auto",
+        "heightValue": 600
+      },
+      "filter": {
+        "id": "b5f7ef65-b4c2-425e-a993-df628f7a37f3",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "42299b6c-3970-4217-a9bc-7847eb7c9ada",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.path}",
+            "value": "120【剪藏】Clippings",
+            "conditions": []
+          },
+          {
+            "id": "252f4112-b562-4e32-9ffe-f586a3aa041a",
+            "type": "filter",
+            "operator": "equals",
+            "property": "${file.extension}",
+            "value": "md",
+            "conditions": []
+          }
+        ]
+      },
+      "sort": {
+        "orders": [
+          {
+            "id": "db912f93-6f8b-4a0b-b80c-5f57d8a3cdf8",
+            "property": "${file.ctime}",
+            "direction": "desc",
+            "disabled": false
+          }
+        ]
+      },
+      "loadLimitPerPage": 25,
+      "showTitle": false
+    }
+  ],
+  "rootComponentId": "cb5af69c-968b-4238-98d0-e0aa5969f3fd",
+  "version": 3.1
+}

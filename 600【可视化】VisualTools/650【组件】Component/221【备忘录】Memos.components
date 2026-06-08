@@ -1,0 +1,411 @@
+{
+  "components": [
+    {
+      "id": "ccb4dcd7-361b-4af0-a1af-6c5f91a35ca7",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showTitle": true,
+      "showShadow": true,
+      "createAt": "2026-03-11T07:37:46.120Z",
+      "updateAt": "2026-03-11T07:54:03.165Z",
+      "components": [
+        {
+          "componentId": "07e12b2c-330e-4fd5-8910-14aa646e95b3"
+        },
+        {
+          "componentId": "38d02b70-a37e-4137-9cc2-e98cef5f515d"
+        },
+        {
+          "componentId": "c568674d-78cc-4569-a939-4b9fb20844a1"
+        },
+        {
+          "componentId": "3940dde2-8e41-41ba-a181-0a05801a8873"
+        }
+      ],
+      "layoutType": "tab",
+      "locked": false,
+      "layoutOptions": {}
+    },
+    {
+      "id": "07e12b2c-330e-4fd5-8910-14aa646e95b3",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "记录",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showTitle": true,
+      "showShadow": false,
+      "createAt": "2026-03-11T07:38:00.122Z",
+      "updateAt": "2026-03-11T08:00:06.884Z",
+      "viewType": "gallary",
+      "newPageNameFormat": "{{date:YYYYMMDDHHmmss}} ",
+      "properties": [
+        {
+          "id": "__componentsTitleProperty_0x7c00",
+          "name": "文件名",
+          "type": "text",
+          "isShow": true,
+          "wrap": false,
+          "options": {}
+        }
+      ],
+      "templates": [],
+      "groups": [],
+      "colorfulGroups": true,
+      "viewOptions": {
+        "openPageIn": "modal",
+        "openPageAfterCreate": true,
+        "itemSize": "components--page-card-medium",
+        "showPropertyName": false,
+        "showAllProperties": false,
+        "items": [],
+        "cover": {
+          "type": "none",
+          "source": "default",
+          "fit": "contains",
+          "layout": "components--page-card-cover-landscape",
+          "position": "top"
+        },
+        "pinFiltersToMenuBar": false,
+        "hideHeaderMenu": false,
+        "showGrid": false,
+        "heightType": "auto",
+        "heightValue": 600
+      },
+      "groupStates": {
+        "sort": "nameAsc",
+        "format": "none",
+        "statics": [],
+        "orders": [],
+        "hiddens": [],
+        "collapseds": []
+      },
+      "filter": {
+        "id": "815c6353-a784-4082-886e-11c4529c0859",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "2d17e40c-11f9-4740-8786-39b2c7585793",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.path}",
+            "value": "220【记录】Record/221【备忘录】Memos",
+            "conditions": []
+          },
+          {
+            "id": "079aebc5-21de-495d-b792-4798f4379c54",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.tags}",
+            "value": "#备忘录",
+            "conditions": []
+          },
+          {
+            "id": "b704fe0d-23de-40e5-8256-534a5409ffd4",
+            "type": "filter",
+            "operator": "not_equals",
+            "property": "${file.basename}",
+            "value": "221【备忘录】Memos",
+            "conditions": []
+          }
+        ]
+      },
+      "groupBy": "",
+      "title": "记录"
+    },
+    {
+      "id": "c568674d-78cc-4569-a939-4b9fb20844a1",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "网友",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showTitle": true,
+      "showShadow": false,
+      "createAt": "2026-03-11T07:38:00.122Z",
+      "updateAt": "2026-03-11T07:59:34.354Z",
+      "viewType": "gallary",
+      "newPageNameFormat": "{{date:YYYYMMDDHHmmss}} ",
+      "properties": [
+        {
+          "id": "__componentsTitleProperty_0x7c00",
+          "name": "文件名",
+          "type": "text",
+          "isShow": true,
+          "wrap": false,
+          "options": {}
+        }
+      ],
+      "templates": [],
+      "groups": [],
+      "colorfulGroups": true,
+      "viewOptions": {
+        "openPageIn": "modal",
+        "openPageAfterCreate": true,
+        "itemSize": "components--page-card-medium",
+        "showPropertyName": false,
+        "showAllProperties": false,
+        "items": [],
+        "cover": {
+          "type": "none",
+          "source": "default",
+          "fit": "contains",
+          "layout": "components--page-card-cover-landscape",
+          "position": "top"
+        },
+        "pinFiltersToMenuBar": false,
+        "hideHeaderMenu": false,
+        "showGrid": false,
+        "heightType": "auto",
+        "heightValue": 600
+      },
+      "groupStates": {
+        "sort": "nameAsc",
+        "format": "none",
+        "statics": [],
+        "orders": [],
+        "hiddens": [],
+        "collapseds": []
+      },
+      "filter": {
+        "id": "815c6353-a784-4082-886e-11c4529c0859",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "2d17e40c-11f9-4740-8786-39b2c7585793",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.path}",
+            "value": "220【记录】Record/221【备忘录】Memos",
+            "conditions": []
+          },
+          {
+            "id": "079aebc5-21de-495d-b792-4798f4379c54",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.tags}",
+            "value": "#备忘录",
+            "conditions": []
+          },
+          {
+            "id": "b704fe0d-23de-40e5-8256-534a5409ffd4",
+            "type": "filter",
+            "operator": "not_equals",
+            "property": "${file.basename}",
+            "value": "221【备忘录】Memos",
+            "conditions": []
+          },
+          {
+            "id": "0873241d-e172-49c7-bda2-02f101b0907e",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.tags}",
+            "value": "#备忘录/网友",
+            "conditions": []
+          }
+        ]
+      },
+      "groupBy": "",
+      "title": "网友"
+    },
+    {
+      "id": "3940dde2-8e41-41ba-a181-0a05801a8873",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "同事",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showTitle": true,
+      "showShadow": false,
+      "createAt": "2026-03-11T07:38:00.122Z",
+      "updateAt": "2026-03-11T07:59:43.014Z",
+      "viewType": "gallary",
+      "newPageNameFormat": "{{date:YYYYMMDDHHmmss}} ",
+      "properties": [
+        {
+          "id": "__componentsTitleProperty_0x7c00",
+          "name": "文件名",
+          "type": "text",
+          "isShow": true,
+          "wrap": false,
+          "options": {}
+        }
+      ],
+      "templates": [],
+      "groups": [],
+      "colorfulGroups": true,
+      "viewOptions": {
+        "openPageIn": "modal",
+        "openPageAfterCreate": true,
+        "itemSize": "components--page-card-medium",
+        "showPropertyName": false,
+        "showAllProperties": false,
+        "items": [],
+        "cover": {
+          "type": "none",
+          "source": "default",
+          "fit": "contains",
+          "layout": "components--page-card-cover-landscape",
+          "position": "top"
+        },
+        "pinFiltersToMenuBar": false,
+        "hideHeaderMenu": false,
+        "showGrid": false,
+        "heightType": "auto",
+        "heightValue": 600
+      },
+      "groupStates": {
+        "sort": "nameAsc",
+        "format": "none",
+        "statics": [],
+        "orders": [],
+        "hiddens": [],
+        "collapseds": []
+      },
+      "filter": {
+        "id": "815c6353-a784-4082-886e-11c4529c0859",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "2d17e40c-11f9-4740-8786-39b2c7585793",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.path}",
+            "value": "220【记录】Record/221【备忘录】Memos",
+            "conditions": []
+          },
+          {
+            "id": "079aebc5-21de-495d-b792-4798f4379c54",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.tags}",
+            "value": "#备忘录",
+            "conditions": []
+          },
+          {
+            "id": "b704fe0d-23de-40e5-8256-534a5409ffd4",
+            "type": "filter",
+            "operator": "not_equals",
+            "property": "${file.basename}",
+            "value": "221【备忘录】Memos",
+            "conditions": []
+          },
+          {
+            "id": "0873241d-e172-49c7-bda2-02f101b0907e",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.tags}",
+            "value": "#备忘录/同事",
+            "conditions": []
+          }
+        ]
+      },
+      "groupBy": "",
+      "title": "同事"
+    },
+    {
+      "id": "38d02b70-a37e-4137-9cc2-e98cef5f515d",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "同学",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showTitle": true,
+      "showShadow": false,
+      "createAt": "2026-03-11T07:38:00.122Z",
+      "updateAt": "2026-03-11T07:59:26.438Z",
+      "viewType": "gallary",
+      "newPageNameFormat": "{{date:YYYYMMDDHHmmss}} ",
+      "properties": [
+        {
+          "id": "__componentsTitleProperty_0x7c00",
+          "name": "文件名",
+          "type": "text",
+          "isShow": true,
+          "wrap": false,
+          "options": {}
+        }
+      ],
+      "templates": [],
+      "groups": [],
+      "colorfulGroups": true,
+      "viewOptions": {
+        "openPageIn": "modal",
+        "openPageAfterCreate": true,
+        "itemSize": "components--page-card-medium",
+        "showPropertyName": false,
+        "showAllProperties": false,
+        "items": [],
+        "cover": {
+          "type": "none",
+          "source": "default",
+          "fit": "contains",
+          "layout": "components--page-card-cover-landscape",
+          "position": "top"
+        },
+        "pinFiltersToMenuBar": false,
+        "hideHeaderMenu": false,
+        "showGrid": false,
+        "heightType": "auto",
+        "heightValue": 600
+      },
+      "groupStates": {
+        "sort": "nameAsc",
+        "format": "none",
+        "statics": [],
+        "orders": [],
+        "hiddens": [],
+        "collapseds": []
+      },
+      "filter": {
+        "id": "815c6353-a784-4082-886e-11c4529c0859",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "2d17e40c-11f9-4740-8786-39b2c7585793",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.path}",
+            "value": "220【记录】Record/221【备忘录】Memos",
+            "conditions": []
+          },
+          {
+            "id": "079aebc5-21de-495d-b792-4798f4379c54",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.tags}",
+            "value": "#备忘录",
+            "conditions": []
+          },
+          {
+            "id": "b704fe0d-23de-40e5-8256-534a5409ffd4",
+            "type": "filter",
+            "operator": "not_equals",
+            "property": "${file.basename}",
+            "value": "221【备忘录】Memos",
+            "conditions": []
+          },
+          {
+            "id": "0873241d-e172-49c7-bda2-02f101b0907e",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.tags}",
+            "value": "#备忘录/同学",
+            "conditions": []
+          }
+        ]
+      },
+      "groupBy": "",
+      "title": "同学"
+    }
+  ],
+  "rootComponentId": "ccb4dcd7-361b-4af0-a1af-6c5f91a35ca7",
+  "version": 3.1
+}

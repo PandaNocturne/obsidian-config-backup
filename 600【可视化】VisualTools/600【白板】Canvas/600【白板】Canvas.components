@@ -1,0 +1,351 @@
+{
+  "components": [
+    {
+      "id": "f81222b3-cbbd-4441-8ec9-b8679279fa06",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2025-02-28T04:31:01.395Z",
+      "updateAt": "2026-05-06T13:26:21.855Z",
+      "components": [
+        {
+          "componentId": "7f0a64ea-0f6a-442b-bfe2-41beff255f03"
+        },
+        {
+          "componentId": "e66a1529-5ac4-480a-bcc8-c783b91e98ff"
+        },
+        {
+          "componentId": "b32ee1dd-8219-4c3b-9d54-debb28f5072d"
+        }
+      ],
+      "layoutType": "tab",
+      "locked": true,
+      "layoutOptions": {}
+    },
+    {
+      "id": "7f0a64ea-0f6a-442b-bfe2-41beff255f03",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "当前文件夹",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2025-02-28T04:31:19.119Z",
+      "updateAt": "2026-05-07T02:47:43.473Z",
+      "viewType": "gallary",
+      "newPageNameFormat": "{{date:YYYYMMDDHHmmss}} ",
+      "properties": [
+        {
+          "id": "__componentsTitleProperty_0x7c00",
+          "name": "文件名",
+          "type": "text",
+          "isShow": true,
+          "wrap": false,
+          "options": {}
+        }
+      ],
+      "templates": [],
+      "groups": [],
+      "colorfulGroups": false,
+      "viewOptions": {
+        "openPageIn": "tab",
+        "openPageAfterCreate": true,
+        "itemSize": "components--page-card-large",
+        "showPropertyName": false,
+        "showAllProperties": false,
+        "items": [],
+        "cover": {
+          "type": "textContent",
+          "source": "default",
+          "fit": "contains",
+          "layout": "components--page-card-cover-landscape",
+          "position": "top"
+        },
+        "pinFiltersToMenuBar": false,
+        "showGrid": false,
+        "heightType": "auto",
+        "heightValue": 600
+      },
+      "groupStates": {
+        "sort": "nameAsc",
+        "statics": [],
+        "orders": [],
+        "hiddens": [],
+        "collapseds": []
+      },
+      "filter": {
+        "id": "8640dde4-ded2-4907-9fe1-229f095d8fc7",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "8378f1f6-1c60-42a6-b765-399c6b355093",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.extension}",
+            "value": "canvas",
+            "conditions": []
+          },
+          {
+            "id": "a7a7bffa-dbd8-4ff4-847e-0e4b1b17559c",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.parent}",
+            "value": "600【白板】Canvas",
+            "conditions": []
+          }
+        ]
+      },
+      "showTitle": false,
+      "title": "当前文件夹",
+      "sort": {
+        "orders": [
+          {
+            "id": "51c463f1-cc29-4bb8-a5fe-3031887ef5fd",
+            "property": "${file.basename}",
+            "direction": "desc",
+            "disabled": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "e66a1529-5ac4-480a-bcc8-c783b91e98ff",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "所有文件件",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2025-02-28T04:31:19.119Z",
+      "updateAt": "2026-05-06T13:29:28.302Z",
+      "viewType": "gallary",
+      "newPageNameFormat": "{{date:YYYYMMDDHHmmss}} ",
+      "properties": [
+        {
+          "id": "__componentsTitleProperty_0x7c00",
+          "name": "文件名",
+          "type": "text",
+          "isShow": true,
+          "wrap": false,
+          "options": {}
+        },
+        {
+          "id": "35bf357c-f7a4-4274-842e-fbb8d540a957",
+          "name": "${file.ctime}",
+          "isShow": true,
+          "type": "datetime",
+          "options": {}
+        }
+      ],
+      "templates": [],
+      "groups": [],
+      "colorfulGroups": false,
+      "viewOptions": {
+        "openPageIn": "tab",
+        "openPageAfterCreate": true,
+        "itemSize": "components--page-card-medium",
+        "showPropertyName": false,
+        "showAllProperties": false,
+        "items": [],
+        "cover": {
+          "type": "textContent",
+          "source": "default",
+          "fit": "contains",
+          "layout": "components--page-card-cover-landscape",
+          "position": "top"
+        },
+        "pinFiltersToMenuBar": false,
+        "showGrid": false,
+        "heightType": "auto",
+        "heightValue": 600
+      },
+      "groupStates": {
+        "sort": "nameDesc",
+        "format": "year",
+        "statics": [],
+        "orders": [],
+        "hiddens": [],
+        "collapseds": [
+          "2026-03",
+          "2026-02",
+          "2026-01",
+          "2025-11",
+          "2025-10",
+          "2025-09",
+          "2025-03"
+        ]
+      },
+      "filter": {
+        "id": "8640dde4-ded2-4907-9fe1-229f095d8fc7",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "8378f1f6-1c60-42a6-b765-399c6b355093",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.extension}",
+            "value": "canvas",
+            "conditions": []
+          },
+          {
+            "id": "56d2be90-fa7e-43dd-afa0-e637165ea7fa",
+            "type": "filter",
+            "operator": "regex_match",
+            "property": "${file.basename}",
+            "value": "",
+            "conditions": []
+          }
+        ]
+      },
+      "showTitle": false,
+      "sort": {
+        "orders": [
+          {
+            "id": "77eff9ea-2780-47a3-8a2e-1b5de597a1c3",
+            "property": "${file.ctime}",
+            "direction": "desc",
+            "disabled": false
+          }
+        ]
+      },
+      "groupBy": "${file.ctime}",
+      "title": "所有文件件",
+      "loadLimitPerPage": "10"
+    },
+    {
+      "id": "b32ee1dd-8219-4c3b-9d54-debb28f5072d",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "所有文件件",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2025-02-28T04:31:19.119Z",
+      "updateAt": "2026-05-06T13:28:42.124Z",
+      "viewType": "table",
+      "newPageNameFormat": "{{date:YYYYMMDDHHmmss}} ",
+      "properties": [
+        {
+          "id": "__componentsTitleProperty_0x7c00",
+          "name": "文件名",
+          "type": "text",
+          "isShow": true,
+          "wrap": false,
+          "options": {
+            "width": "533"
+          }
+        },
+        {
+          "id": "d495f3d3-563d-4f85-9bbe-a6120fce978a",
+          "name": "${file.parent}",
+          "isShow": true,
+          "type": "text",
+          "options": {}
+        },
+        {
+          "id": "35bf357c-f7a4-4274-842e-fbb8d540a957",
+          "name": "${file.ctime}",
+          "isShow": true,
+          "type": "datetime",
+          "options": {}
+        },
+        {
+          "id": "c0236a3b-6614-4c47-9adc-674b6d3b9798",
+          "name": "${file.mtime}",
+          "isShow": true,
+          "type": "datetime",
+          "options": {}
+        },
+        {
+          "id": "7533743d-6c15-4cfb-8ac8-e56aa772e6e4",
+          "name": "${file.extension}",
+          "isShow": true,
+          "type": "text",
+          "options": {}
+        },
+        {
+          "id": "73aa1056-5deb-493b-b8aa-52a766eddaac",
+          "name": "${file.size}",
+          "isShow": true,
+          "type": "number",
+          "options": {}
+        }
+      ],
+      "templates": [],
+      "groups": [],
+      "colorfulGroups": false,
+      "viewOptions": {
+        "openPageIn": "tab",
+        "openPageAfterCreate": true,
+        "itemSize": "components--page-card-medium",
+        "showPropertyName": false,
+        "showAllProperties": false,
+        "items": [],
+        "cover": {
+          "type": "textContent",
+          "source": "default",
+          "fit": "contains",
+          "layout": "components--page-card-cover-landscape",
+          "position": "top"
+        },
+        "pinFiltersToMenuBar": false,
+        "showGrid": true,
+        "heightType": "fixed",
+        "heightValue": 800,
+        "displaySequenceNumber": true
+      },
+      "groupStates": {
+        "sort": "nameAsc",
+        "format": "none",
+        "statics": [],
+        "orders": [],
+        "hiddens": [],
+        "collapseds": []
+      },
+      "filter": {
+        "id": "8640dde4-ded2-4907-9fe1-229f095d8fc7",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "8378f1f6-1c60-42a6-b765-399c6b355093",
+            "type": "filter",
+            "operator": "contains",
+            "property": "${file.extension}",
+            "value": "canvas",
+            "conditions": []
+          },
+          {
+            "id": "56d2be90-fa7e-43dd-afa0-e637165ea7fa",
+            "type": "filter",
+            "operator": "regex_match",
+            "property": "${file.basename}",
+            "value": "",
+            "conditions": []
+          }
+        ]
+      },
+      "showTitle": true,
+      "sort": {
+        "orders": [
+          {
+            "id": "77eff9ea-2780-47a3-8a2e-1b5de597a1c3",
+            "property": "${file.ctime}",
+            "direction": "desc",
+            "disabled": false
+          }
+        ]
+      },
+      "groupBy": "",
+      "title": "所有文件件",
+      "loadLimitPerPage": "100"
+    }
+  ],
+  "rootComponentId": "f81222b3-cbbd-4441-8ec9-b8679279fa06",
+  "version": 3.1
+}
